@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "source_id": "R01",
+  "source_display_name": "万宝盲盒文档包",
+  "archive_filename": "万宝盲盒.zip",
+  "archive_sha256": "4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
+  "archive_bytes": 15729,
+  "intake_date": "2026-10-21",
+  "storage_policy": "structural metadata only; archive and story payload remain at user input location; no original narrative copied",
+  "member_count": 4,
+  "total_uncompressed_bytes": 30434,
+  "members": [
+    {
+      "member_path": "script/artifact-cultivation/skeleton.md",
+      "bytes": 10294,
+      "compressed_bytes": 5298,
+      "sha256": "b2fb80d3a9a150362aed948514662bafcb09489ce90d57a4ba2c286c9c4a6c5c",
+      "encoding": "utf-8",
+      "content_imported": false
+    },
+    {
+      "member_path": "script/artifact-cultivation/data/characters.md",
+      "bytes": 10294,
+      "compressed_bytes": 5298,
+      "sha256": "b2fb80d3a9a150362aed948514662bafcb09489ce90d57a4ba2c286c9c4a6c5c",
+      "encoding": "utf-8",
+      "content_imported": false
+    },
+    {
+      "member_path": "script/artifact-cultivation/data/locations.md",
+      "bytes": 5599,
+      "compressed_bytes": 2467,
+      "sha256": "61764478e09b3b804d5ed2b6ab7a2b87e64c4715fbc09927ee6d1fd32a449ccf",
+      "encoding": "utf-8",
+      "content_imported": false
+    },
+    {
+      "member_path": "script/artifact-cultivation/data/props.md",
+      "bytes": 4247,
+      "compressed_bytes": 1998,
+      "sha256": "552f0ad0f5b6cc033ccd353a197f77d272ed4c802171b1b8401d3973f0a1d2e4",
+      "encoding": "utf-8",
+      "content_imported": false
+    }
+  ],
+  "duplicates": [
+    {
+      "paths": [
+        "script/artifact-cultivation/skeleton.md",
+        "script/artifact-cultivation/data/characters.md"
+      ],
+      "relation": "byte-identical",
+      "sha256": "b2fb80d3a9a150362aed948514662bafcb09489ce90d57a4ba2c286c9c4a6c5c"
+    }
+  ],
+  "referenced_but_missing_members": [
+    "script/artifact-cultivation/arcs/ARC001/arc.md",
+    "script/artifact-cultivation/arcs/ARC002/arc.md",
+    "script/artifact-cultivation/arcs/ARC003/arc.md",
+    "script/artifact-cultivation/arcs/ARC004/arc.md"
+  ],
+  "location_entry_count": 11,
+  "prop_entry_count": 9,
+  "evidence": {
+    "all_member_text_read": true,
+    "schema_extracted": true,
+    "narrative_payload_imported": false,
+    "templates_used_in_creation": false
+  }
+}

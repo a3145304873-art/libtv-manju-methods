@@ -1,0 +1,262 @@
+{
+  "schema_version": 1,
+  "workflows": [
+    {
+      "id": "W01",
+      "kind": "workflow",
+      "name": "高中状元",
+      "stable_id": "libtv:983f55bf37774713a249139d57643b5b",
+      "stages": [
+        "S0",
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "C07 第一视角纪律；C06 群体位置与反应递进",
+      "locators": "第一视角、视高、主角出镜边界、错峰群体反应",
+      "gaps": [
+        "视频提示词、素材输入与序列190冲突；图片 prompt 缺失"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W02",
+      "kind": "workflow",
+      "name": "狐涂与咕呱",
+      "stable_id": "libtv:9b59cae9ea744bc3bb90f7a2af0ebee5",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C01/C05 动作笑点；C04 角色比例与状态；C08 人物声音",
+      "locators": "动作—后果—反应；角色体型与状态变化；声音角色",
+      "gaps": [
+        "无 project 边集；最终采用版未知"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W03",
+      "kind": "workflow",
+      "name": "小橘游成都",
+      "stable_id": "libtv:b5551209eee64808bca9d0f3cd4d2f04",
+      "stages": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "ability_notes": "C01 完整动作链；C02 局部返修；C09 后期链",
+      "locators": "v-p5gydqs24xjz 动作接续，v-9fsw9qs3t4bw 单声叫声，教程文本与后期节点",
+      "gaps": [
+        "一个分组成员缺失；最终剪辑采用关系未知"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W04",
+      "kind": "workflow",
+      "name": "八仙动画",
+      "stable_id": "libtv:cd8aed3cd11842fcb76f40267ea04eb2",
+      "stages": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "ability_notes": "C04 脸部/全身资产；C06 特效身份与空间接续",
+      "locators": "i-d82zgrw5xjt5→i-6342afn45mf5；v-15yJUpPJ9a 的空间、表演与段尾",
+      "gaps": [
+        "18 个导入视频与生成结果未建立对应"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W05",
+      "kind": "workflow",
+      "name": "治愈系IP",
+      "stable_id": "libtv:914feda437274ec1bb8ea5d5862e8468",
+      "stages": [
+        "S0",
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "C03 分段文本真实输入；C01 材质与动作；C05 温柔反应",
+      "locators": "文本生成 7d4a1774-e7a1-4a77-be19-0a0d8c1f19cd；分段文本 e2b71873-a4c2-4103-bd73-df7850d51e77→视频 4b9470a7-6d09-41d3-9b1c-941dfc4874a7",
+      "gaps": [
+        "完整脚本到分段文本无边；成片资源来源未知"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W06",
+      "kind": "workflow",
+      "name": "异种纪元第四集",
+      "stable_id": "libtv:b7743ee8d8c14d94a2a9890cce4dbfe3",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C06 场景空间；C01 动作因果；C04 资产组织",
+      "locators": "v-0bupyWfAIt 的左前景/中后段/右侧定位；分组是候选组织而非剪辑时间线",
+      "gaps": [
+        "23 个分组成员无法解析；未证明最终剪辑"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W07",
+      "kind": "workflow",
+      "name": "胡来万事屋",
+      "stable_id": "libtv:0bb4de92ac0846eba463218d5460fae4",
+      "stages": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C05 真人反应与停顿；C08 音色；C09 去字幕链",
+      "locators": "v-1JMCzSTVcF 镜头六；人物音频实际输入与去字幕源片关系",
+      "gaps": [
+        "空 prompt 历史节点设置与输出时长不一致"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W08",
+      "kind": "workflow",
+      "name": "过来人",
+      "stable_id": "libtv:82e5114b017a485f9971fed0d9359ed9",
+      "stages": [
+        "S0",
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C08 音乐切片与逐句表演；C04 群像站位",
+      "locators": "单人音乐切片、逐句动作、合唱站位图；消歧后才绑定执行节点",
+      "gaps": [
+        "只有文档；v-WkR3jpy9YW 正文与关联表身份冲突"
+      ],
+      "evidence": {
+        "structure": "document_only",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W09",
+      "kind": "workflow",
+      "name": "猫咪骑士",
+      "stable_id": "libtv:fca88b866a5e47e5abffc5c7d89e120b",
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "ability_notes": "C10 多格分镜预演；C02 源版本和秒级区间重拍；C04/C06 资产空间",
+      "locators": "g-pVaA8rF57j 分镜测试；v-G9wxnoCAth 空间；v-7ZNR2SJxku 源片0–4.4s加盔甲图重拍",
+      "gaps": [
+        "分镜图未传视频；部分文字绑定冲突；未观看结果"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W10",
+      "kind": "workflow",
+      "name": "锅气交响 扬州炒饭美食短片",
+      "stable_id": "libtv:c55dee32298d422aa773e85e42c93907",
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C10 已连通分支；C14 统一风格语句元生成；C15 同 prompt 多模型抽卡；C08 旁白随片生成分支；C04 无角色资产分支；C09 超分放大链",
+      "locators": "t-e6VJXgHP1B 风格语句元提示词；i-WPjQvxktYq→v-0FW0nm9nmb 网格图驱动链；i-HFLdsaRcDg/i-JfsZ5Rnkdt/i-rbbKD6wSxR 抽卡组",
+      "gaps": [
+        "媒体全部未观看",
+        "段1/段6双方案并存无采用记录",
+        "无重拍与剪辑链"
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    }
+  ],
+  "format_references": [
+    {
+      "id": "R01",
+      "name": "万宝盲盒方向文档格式",
+      "stages": [
+        "S0",
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "entry": "07_格式参考/R01-方向设计格式与逻辑.md",
+      "templates": "05_模板/方向设计标准/README.md",
+      "evidence": {
+        "all_member_text_read": true,
+        "structure_review": "complete_for_4_provided_files",
+        "media_review": "not_applicable",
+        "template_runtime_use": "not_performed",
+        "reference_selection": "intake_only"
+      }
+    }
+  ]
+}

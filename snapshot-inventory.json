@@ -1,0 +1,373 @@
+{
+  "schema_version": 1,
+  "scope": "compatible local archived LibTV JSON; no media review or generation",
+  "totals": {
+    "snapshot_cases": 9,
+    "nodes": 671,
+    "video_nodes_with_prompt": 260,
+    "image_nodes_with_prompt": 109
+  },
+  "cases": [
+    {
+      "id": "W01",
+      "name": "高中状元",
+      "snapshot": "04_原始资料/workflows/W01/nodes.json",
+      "node_count": 101,
+      "types": {
+        "image": 40,
+        "video": 61
+      },
+      "actions": {
+        "image_resource": 40,
+        "video_generate": 60,
+        "video_resource": 1
+      },
+      "nonempty_prompt_by_type": {
+        "video": 60
+      },
+      "video_model_labels": {
+        "Seedance 2.5": 60
+      },
+      "parameter_refs_by_field": {
+        "imageList": 370,
+        "videoList": 59
+      },
+      "parameter_pairs": 429,
+      "cli_edge_count": 429,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W02",
+      "name": "狐涂与咕呱",
+      "snapshot": "04_原始资料/workflows/W02/nodes.json",
+      "node_count": 65,
+      "types": {
+        "audio": 6,
+        "image": 35,
+        "video": 24
+      },
+      "actions": {
+        "audio_resource": 2,
+        "audio_generate": 4,
+        "image_resource": 29,
+        "image_generate": 6,
+        "video_generate": 23,
+        "video_resource": 1
+      },
+      "nonempty_prompt_by_type": {
+        "audio": 4,
+        "image": 6,
+        "video": 23
+      },
+      "video_model_labels": {
+        "Seedance 2.5": 19,
+        "Seedance 2.5（样片模式）": 2,
+        "Seedance 2.0 VIP": 2
+      },
+      "parameter_refs_by_field": {
+        "audioList": 30,
+        "imageList": 173
+      },
+      "parameter_pairs": 203,
+      "cli_edge_count": null,
+      "parameter_pairs_missing_edges": null,
+      "edges_requiring_other_interpretation": null,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W03",
+      "name": "小橘游成都",
+      "snapshot": "04_原始资料/workflows/W03/nodes.json",
+      "node_count": 78,
+      "types": {
+        "group": 3,
+        "audio": 1,
+        "image": 20,
+        "text": 4,
+        "video": 50
+      },
+      "actions": {
+        "group": 3,
+        "audio_generate": 1,
+        "image_generate": 13,
+        "image_resource": 7,
+        "text_resource": 4,
+        "video_generate": 41,
+        "video_resource": 9
+      },
+      "nonempty_prompt_by_type": {
+        "audio": 1,
+        "image": 12,
+        "video": 16
+      },
+      "video_model_labels": {
+        "volcano-subtitle-eraser": 8,
+        "Topazlabs": 16,
+        "Seedance 2.5": 17
+      },
+      "parameter_refs_by_field": {
+        "imageList": 45,
+        "videoList": 13,
+        "audioList": 11
+      },
+      "parameter_pairs": 69,
+      "cli_edge_count": 94,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 25,
+      "unresolved_group_members": [
+        "i-ieGLJih3LH"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W04",
+      "name": "八仙动画",
+      "snapshot": "04_原始资料/workflows/W04/nodes.json",
+      "node_count": 68,
+      "types": {
+        "group": 3,
+        "image": 28,
+        "video": 37
+      },
+      "actions": {
+        "group": 3,
+        "image_generate": 20,
+        "image_resource": 8,
+        "video_generate": 19,
+        "video_resource": 18
+      },
+      "nonempty_prompt_by_type": {
+        "image": 20,
+        "video": 18
+      },
+      "video_model_labels": {
+        "Seedance 2.0 VIP": 18,
+        "volcano-subtitle-eraser": 1
+      },
+      "parameter_refs_by_field": {
+        "imageList": 144,
+        "videoList": 1
+      },
+      "parameter_pairs": 145,
+      "cli_edge_count": 145,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W05",
+      "name": "治愈系IP",
+      "snapshot": "04_原始资料/workflows/W05/nodes.json",
+      "node_count": 37,
+      "types": {
+        "group": 3,
+        "video": 10,
+        "image": 15,
+        "text": 9
+      },
+      "actions": {
+        "group": 3,
+        "video_generate": 8,
+        "image_generate": 15,
+        "text_resource": 7,
+        "text_generate": 2,
+        "video_resource": 2
+      },
+      "nonempty_prompt_by_type": {
+        "video": 8,
+        "image": 15,
+        "text": 3
+      },
+      "video_model_labels": {
+        "Seedance 2.0 VIP": 8
+      },
+      "parameter_refs_by_field": {
+        "imageList": 25,
+        "textList": 7
+      },
+      "parameter_pairs": 32,
+      "cli_edge_count": 32,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W06",
+      "name": "异种纪元第四集",
+      "snapshot": "04_原始资料/workflows/W06/nodes.json",
+      "node_count": 151,
+      "types": {
+        "group": 26,
+        "image": 49,
+        "video": 76
+      },
+      "actions": {
+        "group": 26,
+        "image_generate": 45,
+        "image_resource": 4,
+        "video_generate": 75,
+        "video_resource": 1
+      },
+      "nonempty_prompt_by_type": {
+        "image": 16,
+        "video": 73
+      },
+      "video_model_labels": {
+        "Seedance 2.5": 75
+      },
+      "parameter_refs_by_field": {
+        "imageList": 326,
+        "videoList": 74
+      },
+      "parameter_pairs": 400,
+      "cli_edge_count": 400,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [
+        "i-372RyXgsfU",
+        "i-5JF7IIxkvY",
+        "i-7z3D1H7AGV",
+        "i-B3WReVglpo",
+        "i-Bh3JtdDh4o",
+        "i-Hjh2MYOeBb",
+        "i-Oq1nc9wfdc",
+        "i-WhqCNmMbZ7",
+        "i-Xk2SaSeyFO",
+        "i-anIdN1toVt",
+        "i-bURmpHAWz4",
+        "i-coOHRlMmJ8",
+        "i-fBHDyfSyPV",
+        "i-gWnWNMbmSy",
+        "i-je88JRT6wh",
+        "i-lc479IERtZ",
+        "i-mmzD7e7mqZ",
+        "i-q4AtcU9A9B",
+        "i-qSZdmW5Q55",
+        "i-sj9qdwIQN8",
+        "i-wph0e5Jqjy",
+        "i-yWDY0iO66n",
+        "v-t1QKdzipxG"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W07",
+      "name": "胡来万事屋",
+      "snapshot": "04_原始资料/workflows/W07/nodes.json",
+      "node_count": 27,
+      "types": {
+        "audio": 3,
+        "image": 11,
+        "video": 13
+      },
+      "actions": {
+        "audio_resource": 3,
+        "image_resource": 11,
+        "video_generate": 11,
+        "video_resource": 2
+      },
+      "nonempty_prompt_by_type": {
+        "video": 6
+      },
+      "video_model_labels": {
+        "Seedance 2.5": 8,
+        "volcano-subtitle-eraser": 3
+      },
+      "parameter_refs_by_field": {
+        "imageList": 27,
+        "audioList": 10,
+        "videoList": 3
+      },
+      "parameter_pairs": 40,
+      "cli_edge_count": 40,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W09",
+      "name": "猫咪骑士",
+      "snapshot": "04_原始资料/workflows/W09/nodes.json",
+      "node_count": 101,
+      "types": {
+        "group": 14,
+        "image": 34,
+        "video": 53
+      },
+      "actions": {
+        "group": 14,
+        "image_generate": 27,
+        "image_resource": 7,
+        "video_generate": 53
+      },
+      "nonempty_prompt_by_type": {
+        "image": 26,
+        "video": 50
+      },
+      "video_model_labels": {
+        "Seedance 2.5": 53
+      },
+      "parameter_refs_by_field": {
+        "imageList": 418,
+        "videoList": 8
+      },
+      "parameter_pairs": 426,
+      "cli_edge_count": 426,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W10",
+      "name": "锅气交响 扬州炒饭美食短片",
+      "snapshot": "04_原始资料/workflows/W10/nodes.json",
+      "node_count": 43,
+      "types": {
+        "audio": 1,
+        "group": 10,
+        "image": 14,
+        "text": 6,
+        "video": 12
+      },
+      "actions": {
+        "audio_resource": 1,
+        "group": 10,
+        "image_generate": 14,
+        "text_generate": 3,
+        "text_resource": 3,
+        "video_generate": 12
+      },
+      "nonempty_prompt_by_type": {
+        "image": 14,
+        "text": 3,
+        "video": 6
+      },
+      "video_model_labels": {
+        "star-video2": 6,
+        "volcano-video-upscaler": 6
+      },
+      "parameter_refs_by_field": {
+        "imageList": 18,
+        "textList": 4,
+        "audioList": 5
+      },
+      "parameter_pairs": 27,
+      "cli_edge_count": 33,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 6,
+      "unresolved_group_members": [
+        "a-Qd9JZh0aYf",
+        "t-kT4FD8WFzl"
+      ],
+      "unresolved_input_nodes": []
+    }
+  ]
+}

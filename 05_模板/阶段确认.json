@@ -1,0 +1,16 @@
+{
+  "task_id": null,
+  "stage": null,
+  "package_version": 1,
+  "status": "proposed",
+  "goal": null,
+  "references": [],
+  "learning_scope": [],
+  "deliverable": null,
+  "evidence_gaps": [],
+  "existing_budget_and_permissions": null,
+  "user_decision": null,
+  "confirmed_at": null,
+  "valid_for": null,
+  "supersedes": null
+}

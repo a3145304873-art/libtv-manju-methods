@@ -1,0 +1,635 @@
+# 《过来人 THE OGs》LibLib 画布提示词与素材关系索引
+
+画布 ID：`82e5114b017a485f9971fed0d9359ed9`　整理日期：2026-10-20　节点总数：70（图片 26 / 视频 25 / 音频 19）
+
+> **本文件内容**：图片节点提示词、视频节点提示词、素材节点清单，以及逐视频关联的图片/音频和图片之间的生成复用关系。
+>
+> **来源口径**：提示词正文来自用户提供的全量汇总，保留原文（包括可见的拼写或输入问题）；`{{node_key}}` 是汇总中的素材引用标记。上传/外部素材标为“无保存提示词”，不补写不存在的 prompt。
+>
+> **关系口径**：视频侧输入根据汇总中的“引用”字段记录，prompt 内 node_key 另作文字引用证据。两者分开标注：素材输入清单用于还原视频生成依赖；单纯在提示词里提到某节点，不自动算作生成输入。工作流分析关注素材依赖与复用，不要求核对画布上的视觉连线布局。
+>
+> **参数口径**：源汇总概述视频默认 `mixed2video`、16:9、720p、`enableSound=on`，并注明少数分辨率/模型例外。逐条模型、比例、分辨率、时长、数量、声音开关和状态仍以画布节点面板为准。
+
+## 目录
+
+1. [图片节点提示词与素材](#一图片节点26)
+2. [视频节点提示词](#二视频节点25)
+3. [音频节点与用途](#三音频节点19)
+4. [视频到图片/音频的关联索引](#四视频到图片音频的关联索引)
+5. [图片生成与复用关系](#五图片生成与复用关系)
+6. [模板结构与待核对项](#六模板结构与待核对项)
+
+## 覆盖概览
+
+- 图片：26 个节点；12 个生成节点有提示词，其中 3 个封面比例版本共用一份提示词；其余 14 个节点在汇总中标为上传/外部素材，无保存提示词。
+- 视频：25 个节点均列出提示词；其中一个观众群像节点标为生成失败，仍保留其提示词及输入关联。
+- 音频：19 个节点；汇总没有保存的输入提示词，记录名称和被哪些视频引用。
+- 汇总末尾附带的 TV Director 对话不属于画布节点数据，未并入正文。
+
+## 一、图片节点（26）
+
+### 1.1 有保存提示词的（12 个）
+#### i-WCpmIJgoEF ｜ 封面（3:4 / 2K / xhigh / text2image / lib-image-2.5-s）
+Vertical 3:4 poster-style video cover for a Chinese short-video platform, designed to grab attention in a feed while feeling refined and premium: bold, editorial hip-hop typography over a dark photograph, high contrast, considered hierarchy and negative space, text covers about 60% of the image.
+
+Background photo: photorealistic, a small dark live-house stage seen from behind the performers — ten ancient Chinese figures in historical robes (Tang, Song, Han, Three Kingdoms and Spring-and-Autumn era clothing, topknots and headcloths, one of them a monkey king with a golden headband) stand shoulder to shoulder across the lower part of the frame with their backs to the camera, facing a dark hall filled with hundreds of raised smartphone flashlights (small cool-white light points, out of focus). One warm spotlight rims their shoulders. The photo is darkened and desaturated so the typography reads clearly; a fine film grain over the whole image.
+
+Color system: near-black, mustard yellow (a muted golden yellow, like old taxi yellow or dijon — NOT bright lemon yellow, NOT neon), and off-white. Only these three colors.
+
+Typography, all rendered exactly as written, all horizontally centered, generous side margins, meticulous kerning, nothing touching the edges:
+
+1. Top kicker (about 8% from the top): a short thin mustard-yellow horizontal rule, and directly under it "ANCIENTS ON THE MIC" in a small refined condensed grotesk, capital letters, wide letter spacing, off-white, understated, about 2% of the image height. No other top text, no banner box, no Chinese line at the top.
+2. The hero word, starting at about 17% from the top: "过来人" in an extremely heavy, modern, authoritative Chinese display typeface with sharp, clean, confident strokes — powerful like a premium film or major music-festival poster, refined and contemporary, NOT cartoonish, NOT rounded, NOT bubble type. Slightly condensed so the three characters span about 82% of the image width, about 18% of the image height. Filled with muted mustard yellow carrying a subtle, refined print texture: fine letterpress /silkscreen ink with slight tonal variation and visible paper fiber, matte finish, tasteful light wear — a premium hand-printed texture, not halftone dots, no cartoon outline. At most one thin off-white outline, exactly aligned with no offset. No gradient, no 3D bevel, no glow, no misregistration, no calligraphy.
+3. Directly under it: "THE OGs" in a heavy but refined condensed grotesk, capitals, mustard yellow with a faint ink texture, about 6% of the image height, carefully letter-spaced.
+4. The names block, the second-biggest element, from about 47% to about 77% of the image height: the ten names in a very heavy yet refined modern Chinese sans-serif, off-white, each name about 5.5% of the image height, generous line spacing, arranged in three rows: row one "杜甫 苏轼 刘邦 项羽", row two "勾践 孙悟空 曹操", row three "李白 诸葛亮 司马懿", with a small mustard-yellow dot between names on the same row. Every character must be correct and big enough to read in a phone thumbnail, without crowding.
+5. Bottom block (bottom edge about 5% from the bottom): the hook line "这一场，没有对手" in a bold, refined Chinese sans-serif, mustard yellow, subtle print texture, about 4.5% of the image height; under it "喆 FILM" in a clean modern sans-serif, off-white, about 2.6% of the image height.
+
+No other text, no logos, no watermark, no stickers with words, no emoji. Overall look: sophisticated, editorial, award-winning poster design — matte premium print with fine paper grain and tasteful ink variation, crisp clean edges, confident and restrained. NOT cartoonish, NOT playful, NOT sticker-like, no bubble type, no obvious misregistration, no halftone dots; the typography must look designed, not like default system fonts.
+同一份提示词还用在另外两个封面节点上（仅比例不同）：
+
+#### i-bPLOZgIs3y ｜ 图片节点 3（4:3 / 2K / xhigh / text2image）
+#### i-GaiByrMPYE ｜ 图片节点 4（16:9 / 2K / xhigh / text2image） 正文与上面完全一致。
+#### i-MinCWBnWd6 ｜ 立式麦克风（3:4 / 4K / max / image2image）
+引用：i-NeGQ2P9kJX（参考1 Shure 55S 正面产品照）、i-7zXgg0aYZO（参考2 Shure 55S 直杆架上）
+
+Use the two uploaded photos as the exact shape reference for the microphone head and its swivel yoke; do not change the design.
+Photorealistic studio product photograph on a plain, seamless, uniform mid-grey background (flat grey, no gradient banding, no floor line, no scene, no props, no people). Subject: a real Shure 55SH Series II "Unidyne" vintage stage microphone — satin-chrome die-cast shield-shaped head with vertical grille bars over black mesh and black inner foam, a small black nameplate on the front, head tilted slightly upward on its chrome swivel yoke with a knurled thumb screw — mounted on a microphone floor stand: one perfectly straight, perfectly vertical, plumb black steel tube about 1.6 m tall, no bends, no boom arm, no joints except the yoke at the top, standing on a heavy round cast-iron base. A black XLR cable plugs into the bottom of the microphone and hangs straight down along the stand to the floor. Full-length view of the microphone and the entire stand, centered, camera at mid height, lens at eye level with no perspective distortion, 3:4 vertical.
+Soft even studio lighting from the front-left, a gentle highlight on the chrome, soft contact shadow under the base only. True-to-life proportions and materials: brushed chrome, matte black steel. It must look like the real microphone in the reference photos, not an invented design. No text, no logos except the microphone's own small nameplate, no watermark.
+#### i-O0d0mohzg3 ｜ 勾践（16:9 / 4K / max / text2image）
+Ultra-photorealistic cinematic character reference sheet (model sheet / turnaround) of one ancient Chinese king from the late Spring and Autumn period, arranged as four clean, evenly spaced panels on a seamless neutral warm-gray studio background: top-left a large high-resolution frontal head-and-shoulders portrait, top-right full-body standing front view, bottom-left full-body three-quarter view, bottom-right full-body profile side view. The SAME man in every panel with identical face, hair and outfit; every view clearly shows the head.
+
+A young, cold, vengeful king in his mid-20s: lean and wiry, sharp narrow jaw, high cheekbones, piercing cold hawk-like eyes with a serpentine intensity, thin black eyebrows, a small wispy goatee; black hair tied in a simple topknot secured by a plain wooden hairpin. Wearing a coarse, weathered dark indigo-blue hempen robe with frayed edges over a faded gray inner garment, a rough cloth sash at the waist, worn leather bracers on both forearms, simple cloth leg wrappings and worn shoes, a plain bronze short sword at his back — the rough clothing of a man who endured hard labor, but the posture and eyes of a patient predator. Expression: calm and controlled, quietly menacing, a cold sneer barely hidden.
+
+Soft even studio lighting, natural skin texture with a faint sheen of grime and realistic pores, realistic coarse fabric weave, worn leather and aged bronze, shallow depth of field on the head portrait, 8k, shot on a cinema camera, hyperrealistic, not an illustration, not a painting, not a 3D render. No text, no watermark, no labels, no captions, no extra characters, consistent proportions and face across all four views.
+#### i-y89X1JOjTp ｜ 图片节点 25（唯美暗调场景，16:9 / 4K / medium / image2image）
+引用：i-eNW2Gb65mZ（场景）
+
+{{i-eNW2Gb65mZ}} 把这个场景变成一个更加精致、唯美、浪漫的场景，但是保持这个古代酒馆的重要特征和基本环境，保持写实的画面风格，让这个灯光更加的有氛围感，而且不要这种太亮的明光，要唯美的暗调环境下的光，然后让所有的观众都举起手机，打开手电筒，照亮这个环境。但是不是照得完全的明亮，是有氛围感的，像星空下的舞台那样的夜景感觉
+#### i-zG0wpixcxr ｜ 图片节点 32（扩大舞台空地，16:9 / 4K / max / image2image）
+引用：i-y89X1JOjTp
+
+把这个场景的舞台，就是画面中央的空地扩大，扩大1.5~2倍，让他能够站得下两排，一排5个人。去除画面中间的立式麦克风，让舞台中间就变成空地
+#### i-qLbswghgj6 ｜ 图片节点 27（大舞台 + DJ + 灯海，16:9 / 4K / max / image2image）
+引用：i-MinCWBnWd6（立式麦克风）、i-Pt4qSn2ftj（DJ喆正面）
+
+把这个场景变成一个舞台中央更大更宽松，足以站着下10位歌手（前后两排）和他们身前的 {{i-MinCWBnWd6}} 立式麦克风（歌手不出现，先把立式麦克风放进舞台，前排5支，后排2支），但是保持这个古代酒馆的重要特征和基本环境，保持写实的真实的画面风格，让这个灯光更加的有氛围感，而且不要这种太亮的明光，要唯美的暗调环境下的光，然后让所有的观众都举起手机（一半现代人，含体育 / 二次元 / 游戏。覆盖程序员、中年上有老下有小、年轻打工人、大学生、女白领、外卖骑手（不出现任何logo）、基层公务员、销售创业者、夫妻、体育迷，一半古代人），所有人打开手电筒，照亮这个环境。但是不是照得完全的明亮，是有氛围感的，像星空下的舞台那样的夜景感觉，把后面DJ台的DJ换成 {{i-Pt4qSn2ftj}} 
+#### i-w6XB7q0p96 ｜ 图片节点 26（十人两排站位图，16:9 / 4K / max / image2image）
+引用：i-MinCWBnWd6、i-gJFEzOIzsw 李白、i-2TFuAkiZgd 杜甫、i-JNMEPUprtB 项羽、i-4ta5in5eeQ 刘邦、i-FxfLTqPgOW 苏轼、i-O0d0mohzg3 勾践、i-PQaZQvh6qN 诸葛亮、i-sIQCEHr6IX 司马懿、i-LwI44rZhc9 曹操、i-8s5f98pLYy 孙悟空、i-zG0wpixcxr 场景
+
+{{i-zG0wpixcxr}} 是小型livehosue演唱会场景，保持图中的透视关系和人物大小 {{i-MinCWBnWd6}} 是舞台中央的7支立式麦克风 {{i-gJFEzOIzsw}} {{i-2TFuAkiZgd}} {{i-JNMEPUprtB}} {{i-4ta5in5eeQ}} {{i-FxfLTqPgOW}} 这五人在 {{i-zG0wpixcxr}} 舞台中央靠前，每人身前一支 {{i-MinCWBnWd6}} ， {{i-O0d0mohzg3}} {{i-PQaZQvh6qN}} {{i-sIQCEHr6IX}} {{i-LwI44rZhc9}} {{i-8s5f98pLYy}} 在舞台中央靠后，后排5人共用2支 {{i-MinCWBnWd6}} ，他们的人物大小和身高比例符合 {{i-zG0wpixcxr}} 场景真实情况。他们在麦克风前准备合唱。写实的真实的画面
+#### i-W99hOxtLYV ｜ 图片节点 7（观众席前排群像，16:9 / 4K / max / image2image）
+引用：i-eNW2Gb65mZ
+
+{{i-eNW2Gb65mZ}} 小型 live house 的观众席前排，暖钨丝舞台光从画面上方打下来，黑色背景；一排下了班直接过来的中国城市上班族，二十五到四十岁，男多女少，安静地看着镜头外的舞台，没有人举手机。从左到右：穿黄色外卖骑手服、头盔放在腿上的三十岁男人；穿灰色连帽卫衣、脖子上挂着工牌、戴黑框眼镜、微胖的程序员；白衬衫领口解开、领带松着、西装外套搭在椅背上的三十五岁销售；穿反光背心、安全帽放在脚边、裤脚有泥点的建筑工人；扎紧马尾、外套里露出粉色护士服的二十八岁女护士；穿不合身新西装、领带打歪的二十三岁应届生；抱着装着绿植和马克杯的纸箱、三十八岁的中年人；穿深蓝夹克、胸前别着工作证、手里握保温杯的基层公务员。真实的疲惫的脸，皮肤有毛孔和油光，写实摄影，16mm 胶片颗粒，浅景深，无字幕无文字。
+#### i-TfLYvCEA6o ｜ 图片节点 9（观众席侧排三排，16:9 / 4K / max / image2image）
+引用：i-eNW2Gb65mZ
+
+从 {{i-eNW2Gb65mZ}} 舞台侧面低角度看观众席前三排，暖光从左边舞台方向打过来，人物半边脸亮半边脸暗。穿网约车司机常穿的深色夹克、腰上别着车钥匙的四十岁男人；穿绿色快递工服的二十六岁小伙；穿白色厨师服、腰上还系着围裙的三十岁厨师；穿 polo 衫、腰包、两部手机放在腿上、眼下有黑眼圈的小老板；背着双肩包、手里攥着单词本的考研学生；穿旧夹克、戴老花镜、抱着保温杯的五十八岁大叔；穿保安制服、对讲机别在肩上的中年人；通勤装、脚上已经换成平底鞋的三十岁女白领。都看着舞台方向，神情各异。写实摄影，16mm 胶片颗粒，无字幕无文字。
+#### i-1snd83iuyB ｜ 图片节点 8（观众灯海全景，16:9 / 4K / max / image2image）
+引用：i-eNW2Gb65mZ
+
+{{i-eNW2Gb65mZ}} 小型 live house 观众席从舞台往下看的全景，几百个中国城市上班族站满整个场子，全部举着手机、打开手电筒，手臂举过头顶，白色光点铺满黑暗，所有手臂往同一个方向倾斜，很多人张着嘴在跟唱，有人闭眼，有人是要流泪的感觉。穿着混在一起：外卖骑手服、快递工服、灰色卫衣和工牌、松开领带的白衬衫、反光背心、polo 衫加腰包的小老板、球衣、工厂蓝色工装、背着婴儿背带的年轻妈妈、牛仔外套的大学生、穿旧夹克戴老花镜的五十多岁大叔。写实摄影，手机白光是唯一的点光源，16mm 胶片颗粒，无荧光棒、无 LED 屏、无字幕无文字。
+### 1.2 无保存提示词的（14 个，上传/外部素材）
+| node_key | 名称 | 规格 | 用途 |
+|---|---|---|---|
+| i-2TFuAkiZgd | 杜甫 | 3840x2160 四视图 | 人物资产图 |
+| i-FxfLTqPgOW | 苏轼 | 3840x2160 四视图 | 人物资产图 |
+| i-4ta5in5eeQ | 刘邦 | 3840x2160 四视图 | 人物资产图 |
+| i-JNMEPUprtB | 项羽 | 3840x2160 三视图 | 人物资产图 |
+| i-LwI44rZhc9 | 曹操 | 3840x2160 四视图 | 人物资产图 |
+| i-gJFEzOIzsw | 李白 | 2048x1152 四视图 | 人物资产图 |
+| i-PQaZQvh6qN | 诸葛亮 | 3840x2160 四视图 | 人物资产图 |
+| i-sIQCEHr6IX | 司马懿 | 3840x2160 四视图 | 人物资产图 |
+| i-8s5f98pLYy | 孙悟空 | 3840x2160 四视图 | 人物资产图 |
+| i-eNW2Gb65mZ | 场景 | 3840x2160 | live house 古代酒馆基础场景 |
+| i-dLZhl9CwHe | DJ喆正面 | 1268x2160 | DJ 人物参考 |
+| i-Pt4qSn2ftj | DJ喆正面 | 1268x2160 | DJ 人物参考（副本） |
+| i-NeGQ2P9kJX | 参考1_Shure_Unidyne_55S_正面产品照 | 800x1200 | 麦克风外形参考（CC-BY-SA-2.0 AdamLusch） |
+| i-7zXgg0aYZO | 参考2_Shure_55S_直杆架上 | 800x976 | 麦克风外形参考（CC-BY-SA-3.0 HolgerEllgaard） |
+## 二、视频节点（25）
+### 2.1 单人主歌段
+#### v-XI5V2gSklU ｜ 视频节点 12 ｜ 杜甫第一段（30s）
+引用：i-2TFuAkiZgd 杜甫、i-eNW2Gb65mZ 场景、i-MinCWBnWd6 麦克风、a-zGZYEf1NIO 杜甫1
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-zGZYEf1NIO}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，有现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动；歌手站在立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头，运镜在舞台与人群间推拉穿梭、有激情、有冲击力。
+{{i-2TFuAkiZgd}} 杜甫在 {{i-MinCWBnWd6}} 立式麦克风前随节拍缓慢摇摆，一手扶立杆、一手随唱词比划，像长辈拉家常；话题虽重，身体仍有节拍，绝不站着念。
+【观众群像】30岁男程序员（深灰连帽卫衣、旧球鞋、微胖）听到"房贷、体检单"时低头，身体仍随节拍微动；33岁白领听到"工牌"时表情严肃，轻轻点头、跟着摇摆。【运镜】手持围绕杜甫缓慢半环绕（中近景为主），跟着节奏小幅度推拉，偶尔切观众反应再回到杜甫。【逐句动作】"屋子都快散架"抬手比划屋顶、苦笑；"安得广厦"摊开手掌、语气放缓；"别人的锁"手指虚捏像拎钥匙；"工牌"在胸前轻拍；"房贷、学费、体检单"一根一根数手指，最后轻轻叹气。动作小而真，身体始终随节拍。
+【嘴型锁定】严格按 {{a-zGZYEf1NIO}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：我是杜甫
+一辈子都在搬家
+四十岁还在长安租房
+房东一开口就是涨价
+后来总算有了茅屋
+秋风一来屋子都快散架
+我写安得广厦千万间
+说白了就是想有个家
+你也一样吧
+钥匙串上挂的全是别人的锁
+工牌挂在脖子上
+一天不摘心就一天不落
+房贷学费爸妈的体检单
+你一样一样往购物车里搁
+付完钱一看
+没一样是给你自己的
+你也没觉得错
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-5f367G5apq ｜ 视频节点 11 ｜ 杜甫第一段（30s，另一版）
+引用同 v-XI5V2gSklU（a-zGZYEf1NIO 杜甫1）
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-zGZYEf1NIO}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，有现代的，也有少量古代的。 {{i-2TFuAkiZgd}} 严格按 {{a-zGZYEf1NIO}} 的内容说唱（歌词：
+我是杜甫
+一辈子都在搬家
+四十岁还在长安租房
+房东一开口就是涨价
+后来总算有了茅屋
+秋风一来屋子都快散架
+我写安得广厦千万间
+说白了就是想有个家
+你也一样吧
+钥匙串上挂的全是别人的锁
+工牌挂在脖子上
+一天不摘心就一天不落
+房贷学费爸妈的体检单
+你一样一样往购物车里搁
+付完钱一看
+没一样是给你自己的
+你也没觉得错）
+【动感基调】全片不要冷静、不要静下来：镜头全程手持肩扛、带明显呼吸感晃动； {{i-2TFuAkiZgd}} 歌手站在立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头、合唱，运镜在舞台与人群间推拉穿梭、有激情、有冲击力。
+【运镜】手持肩扛掠过摇摆的人群，沿光束快速推向杜甫，全程带呼吸感晃动。
+#### v-U0HzrctFJH ｜ 视频节点 6 ｜ 杜甫草稿版（30s / 480p / star-video2.5-draft）
+引用：i-2TFuAkiZgd、i-eNW2Gb65mZ、i-MinCWBnWd6、i-W99hOxtLYV、i-TfLYvCEA6o、a-zGZYEf1NIO
+
+素材职责： {{i-2TFuAkiZgd}} 是<人物>的人物资产图，只采用他的外貌、发型、服装和年龄感，不采用背景； {{i-eNW2Gb65mZ}} 是 live house 舞台场景图，采用空间、舞台、灯光和观众席的布局； {{i-MinCWBnWd6}} 是舞台立式麦克风（Shure 55 式复古铬壳话筒，直杆圆底落地架），只采用麦克风和支架的外形与材质，不采用它的灰色背景，每一段都是同一支； {{i-W99hOxtLYV}} {{i-TfLYvCEA6o}} 是观众群像参考，只采用观众的穿着和人群构成，不采用其中的舞台和灯光。 {{a-zGZYEf1NIO}} 是本段歌曲切片，作为 {{i-2TFuAkiZgd}} 的演唱内容： {{i-2TFuAkiZgd}} 的口型与 {{a-zGZYEf1NIO}} 里的人声逐字同步，不自行配音、不改歌词、不重复、不跳拍。
+
+主体设定： {{i-2TFuAkiZgd}} 站在舞台中央的立式麦克风前，左手扶着 {{i-MinCWBnWd6}} 麦克风，他带着各种手势和肢体动作对着台下的观众表演，台下的观众也各自随着音乐点头，律动：
+
+场景： {{i-eNW2Gb65mZ}} 小型 live house，一束暖钨丝追光从正上方打在他身上，光束里有薄薄的烟；舞台后侧暗处隐约站着其他古人的剪影，不动；台下坐满、站满观众，都是今天的城市上班族（穿着以 {{i-W99hOxtLYV}} {{i-TfLYvCEA6o}} 为准）。
+
+阶段一（0–5 秒，第 1–2 句）：开始时是摇臂大全景，机位在观众席最后排的上方，俯视整个场子：前景是一排排观众的后脑勺和肩膀（虚焦），舞台在远处一束追光里， {{i-2TFuAkiZgd}} 已经站在麦克风前开口唱。摇臂一边缓慢下降一边向前推进，越过观众的头顶。结束时镜头降到观众席中段、离地两米， {{i-2TFuAkiZgd}} 在画面正中，中远景。
+阶段二（5–10 秒）：镜头继续向前，从前排两个观众的侧脸之间穿过（前景虚化掠过），降到和他视线齐平，推到中景，微微仰角；
+阶段三（10–20 秒）：镜头沿轨道缓慢向右横移约 15 度，同时推近到 {{i-2TFuAkiZgd}} 近景（胸口以上），追光的光束和薄雾在他身后；
+阶段四（20–结尾）：镜头缓慢后拉回中景，一个观众的肩膀从画面左下角虚化地进入前景，唱最后一句时他<收束动作>。结束时中景，他站在原位手扶麦杆，前景的观众肩膀静止，追光和站位保持。
+
+镜头总则：一镜到底，全程不切镜、不转场、不黑场、不换机位；只有摇臂和轨道的平滑匀速运动，没有手持晃动，没有变焦跳跃。
+声音：全程只用 {{a-zGZYEf1NIO}} ，不额外生成音乐、音效和人声；观众不出声。
+{{a-zGZYEf1NIO}}
+画面呈现：颁奖礼级演唱会的电影感：大画幅电影镜头、浅景深、前景虚化，暖钨丝追光加薄雾，暗部干净，轻微胶片颗粒；画面里无字幕、无水印、无任何文字。
+保持一致： {{i-2TFuAkiZgd}} 的脸、发型、服装、年龄全程不变；麦克风位置不变；舞台方向不变（观众始终在镜头这一侧）；全程只有他一个人在舞台光里，没有第二个人上台；观众不举手机、不张嘴。
+一镜到底，不切镜、不转场、不黑场、不换机位，只有摇臂和轨道的平滑匀速运动，没有手持晃动。画面呈现：颁奖礼级演唱会的电影感，大画幅电影镜头、浅景深、前景虚化，暖钨丝追光加薄雾，轻微胶片颗粒；画面里无字幕、无水印、无任何文字。保持一致：人物的脸、发型、服装、年龄不变；麦克风不变；舞台方向不变；观众是现代上班族，没有古装观众；观众不张嘴说唱；手电筒是手机白光。声音只用 {{a-zGZYEf1NIO}} 。
+#### v-okDCjkcY0o ｜ 视频节点 13 ｜ 杜甫第二段（30s）
+引用：i-2TFuAkiZgd、i-eNW2Gb65mZ、i-MinCWBnWd6、a-A2s2GNiRpA 杜甫2
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-A2s2GNiRpA}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-2TFuAkiZgd}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。
+杜甫段最痛的一段，情绪在克制里涌动，靠身体前倾和握紧立杆发力，不静立、不哭腔。【表演】"没一样给你自己的"低头看手；"我儿子饿死那年"身体前倾、双手紧紧握住立杆、声音放轻放慢、眼眶泛红但忍住，给足停顿，肩膀有轻微起伏；"凌晨两点泡面"直起身、轻拍立杆、重新抬眼；"我不是来教你的"温柔坚定
+【观众群像】后排35岁中年男人（藏青旧夹克、眼角有皱纹）抿嘴、忍着眼泪，身体随节拍、悄悄偏头；22岁女生（牛仔外套、帆布包）怔怔看着，身体仍随节拍轻摆。
+【运镜】"儿子饿死"时手持近景微晃；副歌起镜头拉开、掠过人群手电筒海。
+【嘴型锁定】严格按 {{a-A2s2GNiRpA}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：钥匙串上挂的全是别人的锁
+工牌挂在脖子上
+一天不摘心就一天不落
+房贷学费爸妈的体检单
+你一样一样往购物车里搁
+付完钱一看
+没一样是给你自己的
+你也没觉得错
+我儿子饿死那年
+我还在长安低头求人办事
+你凌晨两点那碗泡面
+我也吃过一样的日子
+我不是来教你的我就是想说
+这些事儿我也一件一件经历过
+
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-wrBoB0IxNb ｜ 视频节点 38 ｜ 杜甫第二段（30s，精简版）
+引用同 v-okDCjkcY0o（a-A2s2GNiRpA 杜甫2）
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-A2s2GNiRpA}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，有现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-2TFuAkiZgd}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头，运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 杜甫在 立式麦克风前随节拍缓慢摇摆，一手扶立杆、一手随唱词比划，像长辈拉家常；话题虽重，身体仍有节拍，绝不站着念。
+【嘴型锁定】 {{i-2TFuAkiZgd}} 严格按 {{a-A2s2GNiRpA}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：钥匙串上挂的全是别人的锁
+工牌挂在脖子上
+一天不摘心就一天不落
+房贷学费爸妈的体检单
+你一样一样往购物车里搁
+付完钱一看
+没一样是给你自己的
+你也没觉得错
+我儿子饿死那年
+我还在长安低头求人办事
+你凌晨两点那碗泡面
+我也吃过一样的日子
+我不是来教你的我就是想说
+这些事儿我也一件一件经历过
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-jW3wY3zT2t ｜ 视频节点 14 ｜ 苏轼第一段（30s）
+引用：i-FxfLTqPgOW 苏轼、i-eNW2Gb65mZ、i-MinCWBnWd6、a-q9sCB1vj0G 苏轼1
+
+【素材】 {{i-FxfLTqPgOW}} 苏轼资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-q9sCB1vj0G}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-FxfLTqPgOW}} 站在立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头，运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 {{i-FxfLTqPgOW}} 在 {{i-MinCWBnWd6}} 立式麦克风前随节拍轻快摇摆，一手扶立杆、一手随唱词摊开比划，气质松弛、像个想得开的中年人；话里有苦却带笑，身体始终跟着节拍，绝不站着念。
+【运镜】手持围绕 {{i-FxfLTqPgOW}} 缓慢半环绕，跟着节奏小幅度推拉，
+【逐句动作】"被处理三次"摊手摇头、自嘲；"发配黄州种地"往旁走两步、比划锄头；"东坡肉"整个人有点开心；"三十五岁简历"笑容收起、摇头。"优化"凑近话筒、压低声音、身体前倾、眼神扫过观众，像说一个暗语；"十年没说出口、她听不到"双手扶杆、慢下来；"十年生死两茫茫"身体靠近、气声、望向远处
+【嘴型锁定】严格按 {{a-q9sCB1vj0G}} 本段音乐切片对嘴型， {{i-FxfLTqPgOW}} 每一秒都按 {{a-q9sCB1vj0G}} 演唱，不改变节奏、不重复、不跳拍子，歌词如下：我是苏轼
+被单位处理过三次
+第一次四十三岁
+一夜之间发配黄州
+靠种地过日子
+工资停了名声没了
+朋友的信一封比一封短
+我给猪肉起了个名
+叫东坡肉
+总得吃饭
+你也一样吧
+三十五岁的简历
+投出去石沉大海
+优化这两个字
+你翻译给爸妈听的时候
+都不敢用AI
+我也有句话
+十年没说出口
+写成了词她听不到
+十年生死两茫茫
+你手机里是不是
+也有个再也打不通的号
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-M1BD3ZFNzK ｜ 视频节点 15 ｜ 苏轼第二段（30s，摇臂轨道版）
+引用：i-FxfLTqPgOW、i-eNW2Gb65mZ、i-MinCWBnWd6、a-jA2hjLwGry 苏轼2
+
+【素材】 {{i-FxfLTqPgOW}} 资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-jA2hjLwGry}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，有现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头以摇臂与轨道结合，沿轨道平滑横移、靠摇臂从容升降，稳定流畅； {{i-FxfLTqPgOW}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。镜头在舞台上方与人群间升降横移、大气而有仪式感。 {{i-FxfLTqPgOW}} 在 {{i-MinCWBnWd6}} 立式麦克风前随节拍轻快摇摆，一手扶立杆、一手随唱词摊开比划，气质松弛、像个想得开的中年人；话里有苦却带笑，身体始终跟着节拍，绝不站着念。
+【运镜】摇臂与轨道结合，轨道沿舞台平滑横移，流动大气。
+【嘴型锁定】 {{i-FxfLTqPgOW}} 严格按 {{a-jA2hjLwGry}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：优化这两个字
+你翻译给爸妈听的时候
+都不敢用AI
+我也有句话
+十年没说出口
+写成了词她听不到
+十年生死两茫茫
+你手机里是不是
+也有个再也打不通的号
+我没赢过谁
+我只是没让他们看见我难堪
+下雨没伞我就走慢
+也无风雨也无晴
+不是潇洒
+是一个中年人最后的体面
+我不是来教你的我就是想说
+这些事儿我也一件一件经历过
+【质感】Gritty 16mm film, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, smooth crane and dolly tracking, gliding rises and lateral moves, occasional gentle handheld accents, soft focus falloff, subtle light leaks, cinematic and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, subtle film weave, coherent motion, cinematic texture, no artifacts, no AI look.
+#### v-RugAdBsQyc ｜ 视频节点 16 ｜ 刘邦第一段（30s）
+引用：i-4ta5in5eeQ 刘邦、i-eNW2Gb65mZ、i-MinCWBnWd6、a-YaCZNdHC5o 刘邦1
+
+【素材】 {{i-4ta5in5eeQ}} 刘邦资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-YaCZNdHC5o}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持运镜、带明显晃动； {{i-4ta5in5eeQ}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 {{i-4ta5in5eeQ}} 在 {{i-MinCWBnWd6}} 立式麦克风前随节拍松弛地晃，站姿松垮有底气、像带点微醺，一手扶立杆、一手拍胸或随唱词比划；江湖气十足，身体一直跟着节拍，绝不站着念。
+【运镜】手持跟随刘邦在立杆旁左右走位，跟着节奏小推拉，偶尔低机位仰拍，
+【嘴型锁定】 {{i-4ta5in5eeQ}} 严格按 {{a-YaCZNdHC5o}} 本段音乐切片对嘴型， {{i-4ta5in5eeQ}} 每一秒都按 {{a-YaCZNdHC5o}} 演唱，不改变节奏、不重复、不跳拍子，歌词如下：我是刘邦
+　四十七岁还在当亭长
+　说白了就是个基层公务员
+　管十里地 月底领点粮
+　我爹当着一桌亲戚的面说
+　你这辈子就这样了
+　我没顶嘴 我倒了杯酒
+　爹 牌还没发完
+　你也一样吧
+　同学群里有人上市
+　有人换了新的车新的牌
+　你点了个赞
+　把手机扣在桌上 半天没翻
+　我打了七年仗 输了六年
+　早就知道人生不是每一句都是punchline
+　可没人记得我输过多少场
+　因为最后赢的人叫刘邦
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-IGcNYcxRUG ｜ 视频节点 17 ｜ 刘邦第二段（30s，摇臂轨道版）
+引用：i-4ta5in5eeQ、i-eNW2Gb65mZ、i-MinCWBnWd6、a-snRwUeh7YJ 刘邦2
+
+【素材】 {{i-4ta5in5eeQ}} 刘邦资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-snRwUeh7YJ}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头以摇臂与轨道结合，沿轨道平滑横移、靠摇臂从容升降，稳定流畅； {{i-4ta5in5eeQ}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。镜头在舞台上方与人群间升降横移、大气而有仪式感。 {{i-4ta5in5eeQ}} 在 {{i-MinCWBnWd6}} 立式麦克风前随节拍松弛地晃，黝黑微胖、粗布短打、腰别酒葫芦，站姿松垮有底气、像带点微醺，一手扶立杆、一手拍胸或随唱词比划；江湖气十足，身体一直跟着节拍，绝不站着念。
+【运镜】摇臂与轨道结合，轨道低角度跟刘邦走位
+【嘴型锁定】 {{i-4ta5in5eeQ}} 严格按 {{a-snRwUeh7YJ}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：　你点了个赞
+　把手机扣在桌上 半天没翻
+　我打了七年仗 输了六年
+　早就知道人生不是每一句都是punchline
+　可没人记得我输过多少场
+　因为最后赢的人叫刘邦
+　你现在跑的每一单
+　熬的每个秋冬春夏
+　老天都在旁边记账
+　我不敢说你一定赢
+　我只是说
+　没到最后一场 别下场
+　大风起兮云飞扬
+　我六十岁才唱
+　我不是来教你的 我就是想说
+　这些事儿 我也一件一件经历过
+【质感】Gritty 16mm film, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, smooth crane and dolly tracking, gliding rises and lateral moves, occasional gentle handheld accents, soft focus falloff, subtle light leaks, cinematic and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, subtle film weave, coherent motion, cinematic texture, no artifacts, no AI look.
+#### v-zSqSFwcf9Q ｜ 李白（15s）
+引用：i-gJFEzOIzsw 李白、i-eNW2Gb65mZ、i-MinCWBnWd6、a-jASXdtXNAR 李白
+
+【素材】 {{i-gJFEzOIzsw}} 李白资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-jASXdtXNAR}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{a-jASXdtXNAR}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 李白在 立式麦克风前随节拍舒展地摇摆，高个潇洒、佩剑、衣袂宽松，一手扶立杆、一手随唱词张开，洒脱明亮；身体随节拍放松起伏，绝不僵立。
+【运镜】手持围绕李白缓慢半环绕，"轻舟已过万重山"随他仰头轻拉
+【嘴型锁定】 {{i-gJFEzOIzsw}} 严格按 {{a-jASXdtXNAR}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：我是李白
+我也写过辞职信
+揣了三年才敢递
+后来入狱被流放
+才写出轻舟已过万重山
+当年他们叫我The greatest rapper alive
+往后的日子我只图个自在
+
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-QtCWVmAENo ｜ 项羽（8s）
+引用：i-JNMEPUprtB、i-eNW2Gb65mZ、i-MinCWBnWd6、a-HpwwrSE5pY 项羽
+
+【素材】 {{i-JNMEPUprtB}} 项羽资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-HpwwrSE5pY}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-JNMEPUprtB}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 {{i-JNMEPUprtB}} 在 {{i-MinCWBnWd6}} 立式麦克风前随节拍沉重地起伏，魁梧、披旧战袍，双手扶立杆，动作沉而克制；身体仍跟着节拍，绝不僵立。
+【运镜】手持围绕项羽缓慢半环绕，近景带呼吸感、"还能再来一遍"轻推
+【逐句动作】"输了没过江、没脸"垂眼、声音沉、肩膀绷紧；"脸没那么值钱"缓缓抬头、眼神由愧转坚定；"还能再来一遍"握紧立杆、重重点头。
+【嘴型锁定】 {{i-JNMEPUprtB}} 严格按 {{a-HpwwrSE5pY}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：
+　我是项羽
+我输了没过江
+因为我觉得没脸
+现在想想脸没那么值钱
+回去了还能再来一遍
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-xA0RIdslDT ｜ 勾践（8s）
+引用：i-O0d0mohzg3、i-eNW2Gb65mZ、i-MinCWBnWd6、a-w90Zlpb9tY 勾践
+
+【素材】 {{i-O0d0mohzg3}} 勾践资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-w90Zlpb9tY}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-O0d0mohzg3}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 勾践在 立式麦克风前随节拍克制地起伏，年轻清瘦、粗布麻衣、面容冷峻，握杆的手指用力；身体随节拍隐忍地动，绝不僵立。
+【运镜】手持围绕勾践缓慢半环绕，近景克制。
+【逐句动作】"牵马、低头三年"握紧立杆、下颌绷紧；"你受的气我受过"缓缓抬眼、眼神冷；"账先记着"凑近话筒、压低声音；"别急着翻脸"一手向下压、冷静有韧劲。
+【嘴型锁定】 {{i-O0d0mohzg3}} 严格按 {{a-w90Zlpb9tY}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：
+　我是勾践
+　给仇人牵马 低头低了三年
+　你受的气我受过
+　账先记着 别急着翻脸
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-WkR3jpy9YW ｜ 曹操（8s）
+引用：i-LwI44rZhc9、i-eNW2Gb65mZ、i-MinCWBnWd6、a-SDNdwH0d5t 曹操
+
+【素材】 {{i-LwI44rZhc9}} 曹操资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-SDNdwH0d5t}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，有现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动； {{i-LwI44rZhc9}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 曹操在 立式麦克风前随节拍沉稳起伏，苍老威严、红黑长袍，一手扶立杆、一手背在身后或虚按；身体随节拍从容动，绝不僵立。
+【运镜】手持围绕曹操缓慢沉稳半环绕，近景有分量，"判了刑"轻推近
+【逐句动作】"老骥伏枥、不是嘴硬"目光如炬、语气沉稳；"不想在老之前判刑"缓缓摇头、不服输；扶立杆的手微微收紧。
+【嘴型锁定】 {{i-LwI44rZhc9}} 严格按 {{a-SDNdwH0d5t}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：
+　我是曹操
+　五十三岁我写老骥伏枥 不是嘴硬
+　是我不想在老之前
+　就先把自己判了刑
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-Z2l8a2LfyW ｜ 视频节点 24 ｜ 司马懿（8s）
+引用：i-sIQCEHr6IX、i-eNW2Gb65mZ、i-MinCWBnWd6、a-odm37WxhlW 司马懿
+
+【素材】 {{i-sIQCEHr6IX}} 司马懿资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-odm37WxhlW}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头以摇臂与轨道结合，沿轨道平滑横移、靠摇臂从容升降，稳定流畅； {{i-sIQCEHr6IX}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。镜头在舞台上方与人群间升降横移、大气而有仪式感。 司马懿在 立式麦克风前随慢板轻微起伏，苍老清瘦、深色素袍、眼神深沉，双手扶立杆；身体仍随节拍，绝不僵立。
+【运镜】摇臂与轨道结合，轨道低角度沉稳推近，金句"punchline"摇臂缓缓升起、沉静有分量
+【逐句动作】"等四十年才出牌"不慌不忙；"该来的会来"抬眼、笃定；"人生不是每一句都是punchline"凑近话筒、放慢、语气平和有分量、目光扫过全场。
+【嘴型锁定】 {{i-sIQCEHr6IX}} 严格按 {{a-odm37WxhlW}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：
+　我是司马懿
+　等了四十年才出牌
+　别急 该来的会来
+　人生不是每句都是punchline
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-K73H1Z9ukw ｜ 孙悟空（8s）
+引用：i-8s5f98pLYy、i-eNW2Gb65mZ、i-MinCWBnWd6、a-LTLVCb37QE 孙悟空
+
+【素材】 {{i-8s5f98pLYy}} 孙悟空资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-LTLVCb37QE}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头全程手持肩扛、带明显呼吸感晃动；歌手站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 孙悟空在 {{i-MinCWBnWd6}} 立式麦克风前随节拍灵活跳动，毛发蓬松、腕有金箍，玩世不恭、动作幅度大；身体跟着节拍活蹦乱跳，绝不僵立。
+【运镜】手持围绕孙悟空快速半环绕、略带动感，跟着节奏小推拉
+【逐句动作】"压五百年、头上箍圈"咧嘴一笑、指头上；"圈是房贷、KPI、别人的眼"一手指向台下、又皮又准
+【嘴型锁定】 {{i-8s5f98pLYy}} 严格按 {{a-LTLVCb37QE}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：
+　我是孙悟空
+我被压了五百年
+后来头上还箍着个圈
+你的圈叫房贷叫KPI叫别人的眼
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+#### v-ouDLGY38Nl ｜ 诸葛亮（8s）
+引用：i-PQaZQvh6qN、i-eNW2Gb65mZ、i-MinCWBnWd6、a-gGSKIkTwI3 诸葛亮
+
+【诸葛亮】A 手持运镜版
+【素材】 {{i-PQaZQvh6qN}} 诸葛亮资产图、 {{i-eNW2Gb65mZ}} 舞台场景图、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-gGSKIkTwI3}} 音乐切片
+【场景】 {{i-eNW2Gb65mZ}} 小型 live house 演唱会现场，舞台中央立着 {{i-MinCWBnWd6}} 一只复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；暖钨丝灯与追光，光束里有轻烟和尘埃，舞台后侧隐约可见其他古人，台下挤满观众，主要是现代的观众（各行各业的上班族穿着），也有少量古代观众。
+【动感基调】镜头以摇臂与轨道结合，沿轨道平滑横移、靠摇臂从容升降，稳定流畅； {{i-PQaZQvh6qN}} 站在 {{i-MinCWBnWd6}} 立式麦克风前，身体随节拍自然起伏、点头、踏脚、左右摇摆，绝不僵立，动作多为双手扶立杆、凑近话筒、或一手扶杆一手比划；台下观众成排随节奏左右摇摆、抬手、点头。运镜在舞台与人群间推拉穿梭、有激情、有冲击力。 诸葛亮在 立式麦克风前随节拍轻摆，清瘦儒雅、持羽扇、掩不住疲惫，一手扶立杆、一手轻摆羽扇；身体随节拍缓动，绝不僵立。
+【运镜】摇臂与轨道结合，轨道平滑横移、近景克制，"别什么都自己扛"摇臂缓缓推近、温暖有仪式感，再回到诸葛亮。
+【逐句动作】"累死工位"平静自嘲、轻咳；"别什么都自己扛"身体前倾、凑近话筒、一手轻伸，像一句真心叮嘱。
+【嘴型锁定】 {{i-PQaZQvh6qN}} 严格按 {{a-gGSKIkTwI3}} 本段音乐切片对嘴型，每一秒都按切片演唱，不改变节奏、不重复、不跳拍子，歌词如下：我是诸葛亮 我五十四岁累死在工位上 回头看 就想跟你说一句 别什么都自己扛
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, pure natural stage lighting with warm tungsten and spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, subtle film weave, coherent motion, pure cinéma vérité texture, no artifacts, no AI look.
+### 2.2 副歌合唱段
+#### v-0LUTH1n1kb ｜ 视频节点 10 ｜ 副歌·三人版（16s / 480p / star-video2.5-draft）
+引用：i-2TFuAkiZgd 杜甫、i-FxfLTqPgOW 苏轼、i-4ta5in5eeQ 刘邦、i-eNW2Gb65mZ、i-MinCWBnWd6、i-W99hOxtLYV、i-TfLYvCEA6o、i-1snd83iuyB、a-Qknl9CWQNQ 副歌1
+
+素材职责： {{i-2TFuAkiZgd}} {{i-FxfLTqPgOW}} {{i-4ta5in5eeQ}} 是本段站在台上的古人的人物资产图，各自只采用外貌、发型、服装，不采用背景，人物之间不互换； {{i-eNW2Gb65mZ}} 是 live house 舞台场景图，采用空间、舞台、灯光和观众席布局； {{i-W99hOxtLYV}} {{i-TfLYvCEA6o}} 是观众群像参考，只采用观众穿着和人群构成。 {{a-Qknl9CWQNQ}} 是本段音乐切片：台上3人一起唱，口型与 {{a-Qknl9CWQNQ}} 的合唱同步，歌词内容：" 我是过来人
+一千年前揣着跟你一样的心
+你熬的夜你咽的话
+你没赢的仗我都有份
+我不是来教你
+我是来陪你走这一程
+你不是一个人
+前面有我留的灯"。
+
+主体设定：台上3位古人并排站成一横排，各自身前有一个 {{i-MinCWBnWd6}} 立式麦克风，他们左手扶着 {{i-MinCWBnWd6}} 麦克风面向观众合唱副歌 ，像资深的灵魂乐歌手；台下观众全部举起手机、打开手机手电筒，手臂举过头顶，随着节奏整齐地左右慢慢挥动（两拍摆到一边、两拍摆回来，全场一个方向）。
+
+场景： {{i-eNW2Gb65mZ}} 小型 live house，舞台是暖钨丝光，观众席是黑的，黑暗里只有成片的白色手机手电筒光点；没有 LED 大屏、没有荧光棒、没有打火机。观众是今天的城市上班族。
+
+摇臂运镜，格莱美现场级运镜，一镜到底
+#### v-KwGFcfxkNg ｜ 视频节点 28 ｜ 副歌·十人两排（16s，高速摇臂+轨道）
+引用：十人资产图 + i-y89X1JOjTp 舞台 + i-MinCWBnWd6 + a-Qknl9CWQNQ 副歌1
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫、 {{i-FxfLTqPgOW}} 苏轼、 {{i-4ta5in5eeQ}} 刘邦、 {{i-JNMEPUprtB}} 项羽、 {{i-O0d0mohzg3}} 勾践、 {{i-8s5f98pLYy}} 孙悟空、 {{i-LwI44rZhc9}} 曹操、 {{i-gJFEzOIzsw}} 李白、 {{i-PQaZQvh6qN}} 诸葛亮、 {{i-sIQCEHr6IX}} 司马懿、 {{i-y89X1JOjTp}} 舞台场景（但更大，足以站的下前后两排的人和他们身前的立式麦克风）、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-Qknl9CWQNQ}} 音乐切片
+【场景】 {{i-y89X1JOjTp}} 小型 live house 演唱会现场，十位古人在舞台中央站成两排：前排 5 人（杜甫、苏轼、刘邦、项羽、勾践），后排 5 人（孙悟空、曹操、李白、诸葛亮、司马懿）。前排每人面前立一支 复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场那种，不是手持带线话筒）；后排不摆满，只立 2 支立式麦克风，每 2–3 人共用一支，暖钨丝灯与多束追光，光束里有轻烟和尘埃，台下挤满观众，所有人举起手机打开手电筒，很多冷白色小光点在黑暗里一起左右晃动，像星海。
+【动感基调】全员像欧美福音／灵魂乐（gospel / soul）合唱那样全力、动情地唱，绝不冷静、绝不淡然：身体随节拍大幅起伏、点头、左右摇摆、前倾后仰，有人闭眼仰头、手抚胸口、手掌张开朝天、握拳用力；前排主唱凑近话筒，用尽全力吟唱，后排成员彼此搭着肩膀、争相凑向共用话筒。十个男人的声音拧成一股，热血、有力量、有救赎感。
+【运镜（高速摇臂 + 轨道）】开场大摇臂从观众最后排高处快速俯冲，掠过成片的手机灯海，越过人群头顶急推向舞台；切轨道车从舞台一侧沿两排古人正面高速横移，扫过一张张用力演唱的脸；合唱最高潮处摇臂再次升起、拉成大全景俯拍——台上两排古人张开手臂，台下灯海整片随节拍左右起伏；副歌末句摇臂缓推到主唱近景。运动快、有冲击力，落幅稳。
+【嘴型锁定】舞台上严格按 {{a-Qknl9CWQNQ}} 副歌音乐切片对嘴型，每一秒都按切片齐唱，不改变节奏、不重复、不跳拍子，歌词如下：
+我是过来人，一千年前揣着跟你一样的心
+你熬的夜、你咽的话、你没赢的仗，我都有份
+我不是来教你，我是来陪你走这一程
+你不是一个人，前面有我留的灯
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, warm tungsten and sweeping spotlight beams, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, coherent motion, subtle film weave, no artifacts, no AI look.
+#### v-cemaX8MFza ｜ 视频节点 30 ｜ 副歌·十人两排（16s，手持躁动版）
+引用：同 v-KwGFcfxkNg 的十人 + i-y89X1JOjTp + i-MinCWBnWd6，音乐换 a-HNknPdtEau 副歌2
+
+【素材】 {{i-2TFuAkiZgd}} 杜甫、 {{i-FxfLTqPgOW}} 苏轼、 {{i-4ta5in5eeQ}} 刘邦、 {{i-JNMEPUprtB}} 项羽、 {{i-O0d0mohzg3}} 勾践、 {{i-8s5f98pLYy}} 孙悟空、 {{i-LwI44rZhc9}} 曹操、 {{i-gJFEzOIzsw}} 李白、 {{i-PQaZQvh6qN}} 诸葛亮、 {{i-sIQCEHr6IX}} 司马懿、 {{i-y89X1JOjTp}} 舞台场景（但更大，足以站的下前后两排的人和他们身前的立式麦克风）、 {{i-MinCWBnWd6}} 立式麦克风、 {{a-HNknPdtEau}} 副歌音乐切片
+【场景】 {{i-y89X1JOjTp}} 小型 live house 演唱会现场，十位古人在舞台中央站成两排：前排 5 人（杜甫、苏轼、刘邦、项羽、勾践），后排 5 人（孙悟空、曹操、李白、诸葛亮、司马懿）。前排每人面前立一支 复古立式麦克风（银色镀铬大振膜、圆形金属网罩、镀铬立杆、圆形配重底座，像格莱美现场）；后排只立 2 支立式麦克风，每 2–3 人共用一支。暖钨丝灯与追光，光束里有轻烟和尘埃，台下挤满观众，所有人举起手机打开手电筒，冷白色光点在黑暗里一起左右晃动，像星海。
+【动感基调】全员像欧美福音／灵魂乐（gospel / soul）合唱那样全力、动情地唱，绝不冷静、绝不淡然：身体随节拍大幅起伏、点头、左右摇摆、前倾后仰，有人闭眼仰头、手抚胸口、手掌张开朝天、握拳用力；前排主唱凑近话筒全力吟唱，后排成员搭着肩、争相凑向共用话筒，十个男人的声音拧成一股，热血、有力量。
+【运镜（动感手持）】全程手持肩扛、带明显呼吸感与奔跑晃动，从沸腾的人群中一路挤到台前，镜头随脚步颠簸；在两排歌手间快速穿行，急推到一张张闭眼嘶吼的脸，又猛地拉开到两排同框，再绕到侧后方，看后排成员争相凑向共用话筒；不断穿插前排举起的手机、大声跟唱的观众、晃动的光点。临场、躁动、真实，像在最挤的现场抢拍。
+【嘴型锁定】舞台上的10人严格按 {{a-HNknPdtEau}} 副歌音乐切片对嘴型，每一秒都按切片齐唱，不改变节奏、不重复、不跳拍子，歌词如下：
+我是过来人，一千年前揣着跟你一样的心
+你熬的夜、你咽的话、你没赢的仗，我都有份
+我不是来教你，我是来陪你走这一程
+你不是一个人，前面有我留的灯
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, warm tungsten and sweeping spotlight beams, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, imperfect handheld physics, coherent motion, no artifacts, no AI look.
+#### v-OZscPTExH0 ｜ 视频节点 34 ｜ 副歌·十人两排（16s，低角度仰拍分镜）
+引用：i-w6XB7q0p96 站位图 + 十人资产图 + i-MinCWBnWd6 + i-zG0wpixcxr 场景 + a-Qknl9CWQNQ 副歌1
+
+【素材与角色绑定】 {{i-w6XB7q0p96}} 为全员两排站位图；前排从左到右依次是 {{i-JNMEPUprtB}} {{i-2TFuAkiZgd}} {{i-gJFEzOIzsw}} {{i-4ta5in5eeQ}} {{i-FxfLTqPgOW}} ，后排从左到右依次是 {{i-O0d0mohzg3}} {{i-PQaZQvh6qN}} {{i-sIQCEHr6IX}} {{i-LwI44rZhc9}} {{i-8s5f98pLYy}} ，每个编号只对应一名角色，全片沿用该角色的脸型、发型与服装； {{i-MinCWBnWd6}} 为复古立式麦克风； {{a-Qknl9CWQNQ}} 为音乐。
+【站位】 {{i-zG0wpixcxr}} 舞台上共 10 名男子，分前后两排。前排 5 人站在舞台中央靠前，每人面前立一支 立式麦克风，共 5 支。后排 5 人站在前排身后、与前排错开、后排只立 2 支麦克风，两排前后分开、不合并、不串位。
+【齐唱动作】10人合唱，都要开口，他们都激情澎湃的唱歌，伴随着各自潇洒自然的肢体动作
+【嘴型与声音】舞台上的10人都严格按 {{a-Qknl9CWQNQ}} 人声内容对嘴形演唱，每一秒都按 {{a-Qknl9CWQNQ}} 齐唱，不改变节奏、不重复、不跳拍，歌词如下：
+我是过来人，一千年前揣着跟你一样的心
+你熬的夜、你咽的话、你没赢的仗，我都有份
+我不是来教你，我是来陪你走这一程
+你不是一个人，前面有我留的灯
+【台下观众】台下站满观众，人人面向舞台、举起手机打开手电筒，观众随唱句轻轻点头、跟着节奏向左再向右挥动手臂，抬手跟唱。
+【运镜】舞台前的低角度仰拍横移镜头为主，切小范围运动的摇臂环绕镜头，分镜头拍摄。动感画面
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary, organic film grain, warm tungsten spotlight beams with light smoke and dust, soft focus falloff, subtle light leaks, natural skin texture, photorealistic 16mm film emulation, coherent motion, subtle film weave, no artifacts, no AI look.
+【一致性】全片共 10 人、每人只有一个，无重复角色、无人脸互换、无换装；后排始终站在高一级平台，两排不塌成一排；舞台上无额外人员，无字幕、无水印。
+#### v-NjfPwwDyO6 ｜ 视频节点 35 ｜ 副歌·十人两排（16s，手持一镜到底）
+引用：i-w6XB7q0p96 站位图 + 十人资产图 + i-MinCWBnWd6 + i-zG0wpixcxr + a-Qknl9CWQNQ
+
+【素材与角色绑定】 {{i-w6XB7q0p96}} 为全员两排站位图； 前排从左到右依次为 {{i-JNMEPUprtB}} {{i-2TFuAkiZgd}} {{i-gJFEzOIzsw}} {{i-4ta5in5eeQ}} {{i-FxfLTqPgOW}} ，后排从左到右依次为 {{i-O0d0mohzg3}} {{i-PQaZQvh6qN}} {{i-sIQCEHr6IX}} {{i-LwI44rZhc9}} {{i-8s5f98pLYy}} 每个编号只对应一名角色，全片沿用该角色的脸型、发型与服装； {{i-MinCWBnWd6}} 为复古立式麦克风； {{a-Qknl9CWQNQ}} 为音乐切片。 {{i-zG0wpixcxr}} 是场景主参考
+【站位】全片共 10 名男子，分前后两排。前排 5 人站在 {{i-zG0wpixcxr}} 舞台中央靠前，后排 5 人站在前排身后、与前排错开。两排前后分开、不合并、不串位。
+【齐唱动作】10人齐唱，前排都用一只手扶着麦克风，激情澎湃，各自潇洒自然的肢体动作，都跟随节奏晃动身体，像资深的灵魂乐歌手，深情的表情。
+【嘴型与声音】10人严格按 {{a-Qknl9CWQNQ}} 音乐对嘴型，每一秒按 {{a-Qknl9CWQNQ}} 齐唱，不改变节奏、不重复、不跳拍，歌词如下：
+我是过来人
+一千年前揣着跟你一样的心
+你熬的夜你咽的话
+你没赢的仗我都有份
+我不是来教你
+我是来陪你走这一程
+你不是一个人
+前面有我留的灯
+
+【台下观众】台下观众，人人面向舞台、举起手机打开手电筒，观众随唱句轻轻点头、跟着节奏一起向左挥手，再向右挥手。
+【运镜】手持摄影机运镜、明显晃动感、颠簸感，一镜到底，纪录片拍摄手法j推拉摇移拍2-3人一组的中景近景画面为主
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary, organic film grain, warm tungsten spotlight beams with light smoke and dust, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, natural skin texture, photorealistic 16mm film emulation, imperfect handheld physics, coherent motion, no artifacts, no AI look.
+### 2.3 观众与 DJ 段落
+#### v-08m9mwry0R ｜ 视频节点 1 ｜ 观众群像（10s / star-video2）
+引用：i-eNW2Gb65mZ、a-HNknPdtEau 副歌2
+
+{{i-eNW2Gb65mZ}} 的场下观众里，有：33 岁男程序员；34 岁中年白领；29岁年轻男白领；45 岁创业者；40 岁基层公务员
+【运镜】带前景虚化的手持摄影机中长焦镜头拍摄上述每组人物的正面活正侧面中近景，分镜头，晃动感运镜，他们身边和身后的观众也有一起随着音乐节奏轻轻律动，点头。 {{a-HNknPdtEau}} 是音乐节奏和情绪参考。
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, warm tungsten and sweeping spotlight beams, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, coherent motion, subtle film weave, no artifacts, no AI look.
+#### v-H1wlvDTTdD ｜ 视频节点 31 ｜ 观众群像（10s / star-video2）— ⚠️ 生成失败
+引用：i-eNW2Gb65mZ、a-mlVvvOh0r0 副歌结尾
+
+{{i-eNW2Gb65mZ}} 的场下观众里，有：33 岁男程序员；34 岁中年白领；29岁年轻男白领；45 岁创业者；40 岁基层公务员
+【运镜】带前景虚化的手持摄影机中长焦镜头拍摄上述每组人物的正面活正侧面中近景，分镜头，晃动感运镜，他们身边和身后的观众也有一起随着音乐节奏轻轻律动，点头。 {{a-mlVvvOh0r0}} 是音乐节奏和情绪参考。
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, warm tungsten and sweeping spotlight beams, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, coherent motion, subtle film weave, no artifacts, no AI look.
+#### v-MwhxjwiMRG ｜ 视频节点 36 ｜ 观众群像·结尾（30s）
+引用：i-zG0wpixcxr、a-mlVvvOh0r0 副歌结尾
+
+{{i-zG0wpixcxr}} 的场下观众里，有：30 岁男程序员；36 岁中年男人；27 岁年轻白领；22 岁大学生（；34 岁女白领；35岁外卖骑手；40 岁基层公务员；33 岁创业者（身穿黑t恤，带着眼镜和运动手表）；35 岁夫妻；40 岁体育迷；【运镜】带前景虚化的手持摄影机中长焦镜头拍摄上述每组人物的正面活正侧面中近景，分镜头，明显晃动感运镜，再拍带前景虚化的上述人群的三五成群的几组中大景镜头。，他们身边和身后的观众也有一起随着音乐节奏律动，点头，每个人都在摆动着手臂，都开着手中的手机手电筒灯光，感动而克制的状态。 {{a-mlVvvOh0r0}} 是音乐节奏和情绪参考。
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary footage, organic film grain, warm tungsten and sweeping spotlight beams, soft focus falloff, subtle light leaks, raw and elegant, lived-in realism. Photorealistic 16mm film emulation, heavy organic grain, natural skin texture, coherent motion, subtle film weave, no artifacts, no AI look.
+#### v-eVWhIAagGb ｜ 视频节点 37 ｜ DJ 挥手（7s）
+引用：i-Pt4qSn2ftj DJ喆正面、i-zG0wpixcxr 场景、a-mlVvvOh0r0 副歌结尾
+
+{{i-Pt4qSn2ftj}} 在 {{i-zG0wpixcxr}} 的DJ台上跟着 {{a-mlVvvOh0r0}} 的节奏，从左到右，再从右到左，反复挥动着拿着手机的手臂（手机手电筒已开），背景和场下是很多一起开着手机灯光跟着节奏挥手的观众。
+不改变 {{i-Pt4qSn2ftj}} 的衣服和衣服上的图案细节！
+【运镜】中景为主，手持摄影机推进，晃动感运镜
+【质感】Gritty 16mm cinéma vérité, authentic live concert documentary, organic film grain, warm tungsten spotlight beams with light smoke and dust, heavy shoulder-mounted handheld shake, no stabilization, soft focus falloff, subtle light leaks, natural skin texture, photorealistic 16mm film emulation, imperfect handheld physics, coherent motion, no artifacts, no AI look. 
+## 三、音频节点（19）
+画布后端未返回这批节点的保存提示词（状态均为 has output; not tied to any generation task），推测为外部上传或由歌词文档直接生成。列表如下：
+
+| node_key | 名称 | 规格 | 用途 |
+|---|---|---|---|
+| a-zGZYEf1NIO | 杜甫1 | v-XI5V2gSklU / v-5f367G5apq / v-U0HzrctFJH 的演唱切片 |
+| a-A2s2GNiRpA | 杜甫2 | v-okDCjkcY0o / v-wrBoB0IxNb |
+| a-caQO0t1Tmn | 杜甫2（副本） | 未被视频引用 |
+| a-q9sCB1vj0G | 苏轼1 | v-jW3wY3zT2t |
+| a-jA2hjLwGry | 苏轼2 | v-M1BD3ZFNzK |
+| a-YaCZNdHC5o | 刘邦1 | v-RugAdBsQyc |
+| a-snRwUeh7YJ | 刘邦2 | v-IGcNYcxRUG |
+| a-jASXdtXNAR | 李白 | v-zSqSFwcf9Q |
+| a-HpwwrSE5pY | 项羽 | v-QtCWVmAENo |
+| a-w90Zlpb9tY | 勾践 | v-xA0RIdslDT |
+| a-SDNdwH0d5t | 曹操 | v-WkR3jpy9YW |
+| a-odm37WxhlW | 司马懿 | v-Z2l8a2LfyW |
+| a-LTLVCb37QE | 孙悟空 | v-K73H1Z9ukw |
+| a-gGSKIkTwI3 | 诸葛亮 | v-ouDLGY38Nl |
+| a-Qknl9CWQNQ | 副歌1 | v-0LUTH1n1kb / v-KwGFcfxkNg / v-OZscPTExH0 / v-NjfPwwDyO6 |
+| a-HNknPdtEau | 副歌2 | v-cemaX8MFza / v-08m9mwry0R |
+| a-mlVvvOh0r0 | 副歌结尾 | v-MwhxjwiMRG / v-eVWhIAagGb /（v-H1wlvDTTdD 失败） |
+| a-YSCEXPxiU4 | 结尾punchline副歌新 | 未被视频引用 |
+| a-iqCrMLNZaq | 结尾 | 未被视频引用 |
+
+## 四、视频到图片/音频的关联索引
+
+以下逐视频回查表根据汇总中的 `引用` 字段列出视频侧素材输入；prompt 内 node_key 用于辨认提示词显式引用。它们是两类证据，不把提示词中点名的素材自动补成输入关系。
+
+| 视频 node_key / 模块 | 关联图片（node_key — 名称/用途） | 关联音频 | 关系说明 |
+|---|---|---|---|
+| `v-XI5V2gSklU` 杜甫第一段 | `i-2TFuAkiZgd` 杜甫；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 立式麦克风 | `a-zGZYEf1NIO` 杜甫1 | 单人主歌；人物、舞台、麦克风与演唱切片。 |
+| `v-5f367G5apq` 杜甫第一段另一版 | `i-2TFuAkiZgd` 杜甫；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-zGZYEf1NIO` 杜甫1 | 按源汇总“同 v-XI5V2gSklU”；关系索引已展开。 |
+| `v-U0HzrctFJH` 杜甫草稿版 | `i-2TFuAkiZgd` 杜甫；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风；`i-W99hOxtLYV` 前排观众；`i-TfLYvCEA6o` 侧排观众 | `a-zGZYEf1NIO` 杜甫1 | 30s / 480p / star-video2.5-draft；额外引用两张观众图。 |
+| `v-okDCjkcY0o` 杜甫第二段 | `i-2TFuAkiZgd` 杜甫；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-A2s2GNiRpA` 杜甫2 | 单人主歌第二段。 |
+| `v-wrBoB0IxNb` 杜甫第二段精简版 | `i-2TFuAkiZgd` 杜甫；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-A2s2GNiRpA` 杜甫2 | 按源汇总与 `v-okDCjkcY0o` 同组；关系索引已展开。 |
+| `v-jW3wY3zT2t` 苏轼第一段 | `i-FxfLTqPgOW` 苏轼；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-q9sCB1vj0G` 苏轼1 | 单人主歌。 |
+| `v-M1BD3ZFNzK` 苏轼第二段 | `i-FxfLTqPgOW` 苏轼；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-jA2hjLwGry` 苏轼2 | 摇臂/轨道版。 |
+| `v-RugAdBsQyc` 刘邦第一段 | `i-4ta5in5eeQ` 刘邦；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-YaCZNdHC5o` 刘邦1 | 单人主歌。 |
+| `v-IGcNYcxRUG` 刘邦第二段 | `i-4ta5in5eeQ` 刘邦；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-snRwUeh7YJ` 刘邦2 | 摇臂/轨道版。 |
+| `v-zSqSFwcf9Q` 李白 | `i-gJFEzOIzsw` 李白；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-jASXdtXNAR` 李白 | 单人段，15s。 |
+| `v-QtCWVmAENo` 项羽 | `i-JNMEPUprtB` 项羽；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-HpwwrSE5pY` 项羽 | 单人段，8s。 |
+| `v-xA0RIdslDT` 勾践 | `i-O0d0mohzg3` 勾践；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-w90Zlpb9tY` 勾践 | 单人段，8s。 |
+| `v-WkR3jpy9YW` 曹操 | `i-LwI44rZhc9` 曹操；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-SDNdwH0d5t` 曹操 | 单人段，8s；已现场确认图片1/2/3、音频4。 |
+| `v-Z2l8a2LfyW` 司马懿 | `i-sIQCEHr6IX` 司马懿；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-odm37WxhlW` 司马懿 | 单人段，8s。 |
+| `v-K73H1Z9ukw` 孙悟空 | `i-8s5f98pLYy` 孙悟空；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-LTLVCb37QE` 孙悟空 | 单人段，8s。 |
+| `v-ouDLGY38Nl` 诸葛亮 | `i-PQaZQvh6qN` 诸葛亮；`i-eNW2Gb65mZ` 基础场景；`i-MinCWBnWd6` 麦克风 | `a-gGSKIkTwI3` 诸葛亮 | 单人段，8s；提示词同时出现手持与摇臂/轨道描述，原文保留。 |
+| `v-0LUTH1n1kb` 副歌三人版 | `i-2TFuAkiZgd` 杜甫；`i-FxfLTqPgOW` 苏轼；`i-4ta5in5eeQ` 刘邦；`i-eNW2Gb65mZ` 场景；`i-MinCWBnWd6` 麦克风；`i-W99hOxtLYV` 前排观众；`i-TfLYvCEA6o` 侧排观众；`i-1snd83iuyB` 灯海全景 | `a-Qknl9CWQNQ` 副歌1 | 16s / 480p / star-video2.5-draft；三人及三张观众/灯海图。 |
+| `v-KwGFcfxkNg` 副歌十人两排（摇臂轨道） | `i-2TFuAkiZgd` 杜甫；`i-FxfLTqPgOW` 苏轼；`i-4ta5in5eeQ` 刘邦；`i-JNMEPUprtB` 项羽；`i-O0d0mohzg3` 勾践；`i-8s5f98pLYy` 孙悟空；`i-LwI44rZhc9` 曹操；`i-gJFEzOIzsw` 李白；`i-PQaZQvh6qN` 诸葛亮；`i-sIQCEHr6IX` 司马懿；`i-y89X1JOjTp` 暗调舞台；`i-MinCWBnWd6` 麦克风 | `a-Qknl9CWQNQ` 副歌1 | 十人资产、暗调舞台、麦克风；高速摇臂/轨道。 |
+| `v-cemaX8MFza` 副歌十人两排（手持） | `i-2TFuAkiZgd` 杜甫；`i-FxfLTqPgOW` 苏轼；`i-4ta5in5eeQ` 刘邦；`i-JNMEPUprtB` 项羽；`i-O0d0mohzg3` 勾践；`i-8s5f98pLYy` 孙悟空；`i-LwI44rZhc9` 曹操；`i-gJFEzOIzsw` 李白；`i-PQaZQvh6qN` 诸葛亮；`i-sIQCEHr6IX` 司马懿；`i-y89X1JOjTp` 暗调舞台；`i-MinCWBnWd6` 麦克风 | `a-HNknPdtEau` 副歌2 | 同组画面素材复用于副歌2，运镜改为手持躁动版。 |
+| `v-OZscPTExH0` 副歌十人两排（低角度） | `i-w6XB7q0p96` 十人站位图；`i-2TFuAkiZgd` 杜甫；`i-FxfLTqPgOW` 苏轼；`i-4ta5in5eeQ` 刘邦；`i-JNMEPUprtB` 项羽；`i-O0d0mohzg3` 勾践；`i-8s5f98pLYy` 孙悟空；`i-LwI44rZhc9` 曹操；`i-gJFEzOIzsw` 李白；`i-PQaZQvh6qN` 诸葛亮；`i-sIQCEHr6IX` 司马懿；`i-zG0wpixcxr` 扩大舞台；`i-MinCWBnWd6` 麦克风 | `a-Qknl9CWQNQ` 副歌1 | 站位图与十张角色图共同引用；低角度仰拍分镜。 |
+| `v-NjfPwwDyO6` 副歌十人两排（手持一镜到底） | `i-w6XB7q0p96` 十人站位图；`i-2TFuAkiZgd` 杜甫；`i-FxfLTqPgOW` 苏轼；`i-4ta5in5eeQ` 刘邦；`i-JNMEPUprtB` 项羽；`i-O0d0mohzg3` 勾践；`i-8s5f98pLYy` 孙悟空；`i-LwI44rZhc9` 曹操；`i-gJFEzOIzsw` 李白；`i-PQaZQvh6qN` 诸葛亮；`i-sIQCEHr6IX` 司马懿；`i-zG0wpixcxr` 扩大舞台；`i-MinCWBnWd6` 麦克风 | `a-Qknl9CWQNQ` 副歌1 | 站位图与十张角色图共同引用；手持一镜到底。 |
+| `v-08m9mwry0R` 观众群像 | `i-eNW2Gb65mZ` 基础舞台/观众场景 | `a-HNknPdtEau` 副歌2 | 10s / star-video2；音频作节奏与情绪参考。 |
+| `v-H1wlvDTTdD` 观众群像（失败） | `i-eNW2Gb65mZ` 基础舞台/观众场景 | `a-mlVvvOh0r0` 副歌结尾 | 10s / star-video2；生成失败，提示词仍在视频节点。 |
+| `v-MwhxjwiMRG` 观众群像结尾 | `i-zG0wpixcxr` 扩大舞台/观众场景 | `a-mlVvvOh0r0` 副歌结尾 | 30s；提示词以场下人群和手机灯海为主体。 |
+| `v-eVWhIAagGb` DJ挥手 | `i-Pt4qSn2ftj` DJ喆正面（副本）；`i-zG0wpixcxr` 扩大舞台/观众场景 | `a-mlVvvOh0r0` 副歌结尾 | 7s；DJ人物、DJ台场景与结尾音乐。 |
+
+### 视频设置中已记录的例外
+
+- `v-U0HzrctFJH`：30s、480p、`star-video2.5-draft`。
+- `v-0LUTH1n1kb`：16s、480p、`star-video2.5-draft`。
+- `v-08m9mwry0R` 与 `v-H1wlvDTTdD`：10s、`star-video2`；后者生成失败。
+- 汇总将其余视频概述为 `mixed2video`、16:9、720p、enableSound=on；逐条模型面板、数量与开关仍应现场核对，不把模式名当作模型版本名。
+
+## 五、图片生成与复用关系
+
+| 图片节点 | 上游图片/参考 | 下游用途 |
+|---|---|---|
+| `i-WCpmIJgoEF` 封面 3:4 | 无，text2image | 与 4:3、16:9 封面共用同一提示词正文，画幅不同。 |
+| `i-bPLOZgIs3y` 封面 4:3 | 无，text2image | 封面比例变体，共用封面提示词。 |
+| `i-GaiByrMPYE` 封面 16:9 | 无，text2image | 封面比例变体，共用封面提示词。 |
+| `i-MinCWBnWd6` 立式麦克风 | `i-NeGQ2P9kJX` Shure 正面参考；`i-7zXgg0aYZO` 直杆参考 | 单人及合唱视频、站位图、场景图的复用素材。 |
+| `i-O0d0mohzg3` 勾践角色图 | 无，text2image | 勾践单人段与合唱群像。 |
+| `i-y89X1JOjTp` 暗调舞台 | `i-eNW2Gb65mZ` 基础舞台场景 | 十人合唱视频使用。 |
+| `i-zG0wpixcxr` 扩大舞台/观众场景 | `i-y89X1JOjTp` 暗调舞台 | 站位图、低角度/一镜到底合唱、观众结尾、DJ 视频。 |
+| `i-w6XB7q0p96` 十人站位图 | `i-zG0wpixcxr`、`i-MinCWBnWd6`，以及十张角色资产图 | 两个十人合唱视频引用。 |
+| `i-qLbswghgj6` 大舞台 + DJ + 灯海 | 汇总列出 `i-MinCWBnWd6` 麦克风、`i-Pt4qSn2ftj` DJ 人物 | prompt 写“把这个场景变成…”，但引用清单未列场景底图；需回画布确认是否漏记输入。 |
+| `i-W99hOxtLYV` 前排观众 | `i-eNW2Gb65mZ` 基础场景 | 杜甫草稿视频、三人副歌视频。 |
+| `i-TfLYvCEA6o` 侧排观众 | `i-eNW2Gb65mZ` 基础场景 | 杜甫草稿视频、三人副歌视频。 |
+| `i-1snd83iuyB` 灯海全景 | `i-eNW2Gb65mZ` 基础场景 | 三人副歌视频。 |
+
+人物资产图及其余无保存提示词素材的规格、用途见“1.2 无保存提示词”素材表。此处记录源汇总明确提供的素材依赖；不把文字推断补成节点输入。
+
+## 六、模板结构与待核对项
+
+### 视频提示词结构
+
+为复用方便，可归纳为五个提示词块：
+
+1. **素材**：人物、场景、麦克风、音乐素材及 node_key。
+2. **场景**：舞台/观众环境、灯光、烟尘与麦克风外观。
+3. **动感基调**：角色表演状态及全片运动基调。
+4. **运镜与逐句动作**：镜头设计和歌词句对应动作。
+5. **嘴型锁定与质感**：歌词/节拍约束和风格尾缀；合唱段另含角色绑定、站位与一致性。
+
+源汇总将运镜、逐句动作、嘴型锁定、质感分开描述；这里合并为五块便于复用，并不表示原文只有五类标签。
+
+### 待核对项
+
+1. 回查 `i-qLbswghgj6` 是否漏记场景底图输入。
+2. 逐条确认视频模型、生成模式、比例、分辨率、时长、数量、声音开关和状态；本文件只沿用汇总已记录的默认项与例外。
+3. 音频输入 prompt 来源尚未确认；目前只记录“未返回保存提示词”。
+4. 原提示词可见 `livehosue`、`活正侧面`、`j推拉摇移`、`大学生（；` 等文字问题，均保留原文，后续如需修订应另做校订版。

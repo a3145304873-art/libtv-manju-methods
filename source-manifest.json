@@ -1,0 +1,579 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-21T01:45:30+08:00",
+  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot)",
+  "import_method": "selected local files copied byte-for-byte; not a remote repository clone",
+  "source_repository_baseline": "c7fe8c4",
+  "sources": [
+    {
+      "id": "W01",
+      "kind": "workflow",
+      "name": "高中状元",
+      "stable_id": "libtv:983f55bf37774713a249139d57643b5b",
+      "stages": [
+        "S0",
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "C07 第一视角纪律；C06 群体位置与反应递进",
+      "locators": "第一视角、视高、主角出镜边界、错峰群体反应",
+      "gaps": [
+        "视频提示词、素材输入与序列190冲突；图片 prompt 缺失"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md",
+          "path": "04_原始资料/workflows/W01/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md.txt",
+          "sha256": "551465cbf472beb30689578a133a872c8becc9e08c8fb9a41cda05aa273961ae",
+          "bytes": 592307
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV节点快照_2026-10-20.json",
+          "path": "04_原始资料/workflows/W01/nodes.json",
+          "sha256": "185a6eb47810eca34df291eb0fd8629decf9c1dfed55a8fc8601a5b998293cb2",
+          "bytes": 1270946
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W02",
+      "kind": "workflow",
+      "name": "狐涂与咕呱",
+      "stable_id": "libtv:9b59cae9ea744bc3bb90f7a2af0ebee5",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C01/C05 动作笑点；C04 角色比例与状态；C08 人物声音",
+      "locators": "动作—后果—反应；角色体型与状态变化；声音角色",
+      "gaps": [
+        "无 project 边集；最终采用版未知"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md",
+          "path": "04_原始资料/workflows/W02/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md.txt",
+          "sha256": "57a84b52e36ca03afe6276798662d48747545db6882189c6b6b5713dcebc6357",
+          "bytes": 478282
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV节点快照_2026-10-20.json",
+          "path": "04_原始资料/workflows/W02/nodes.json",
+          "sha256": "f8503b97f699286b314a38fa94fdbd36236c66882c28ed87c205635f5efb490c",
+          "bytes": 808725
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W03",
+      "kind": "workflow",
+      "name": "小橘游成都",
+      "stable_id": "libtv:b5551209eee64808bca9d0f3cd4d2f04",
+      "stages": [
+        "S1",
+        "S2",
+        "S4",
+        "S5"
+      ],
+      "ability_notes": "C01 完整动作链；C02 局部返修；C09 后期链",
+      "locators": "v-p5gydqs24xjz 动作接续，v-9fsw9qs3t4bw 单声叫声，教程文本与后期节点",
+      "gaps": [
+        "一个分组成员缺失；最终剪辑采用关系未知"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W03/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+          "sha256": "f0d875d5c51d079a9a28eccb56b6ab5a3a27a4922f7c9d6a730ae6346b17d0be",
+          "bytes": 106915
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV节点快照_2026-10-20.json",
+          "path": "04_原始资料/workflows/W03/nodes.json",
+          "sha256": "b73f7b8c5283d466dcadf3eae76332b59a589fddcfda28af0c38fffdec90a761",
+          "bytes": 271442
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W04",
+      "kind": "workflow",
+      "name": "八仙动画",
+      "stable_id": "libtv:cd8aed3cd11842fcb76f40267ea04eb2",
+      "stages": [
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "ability_notes": "C04 脸部/全身资产；C06 特效身份与空间接续",
+      "locators": "i-d82zgrw5xjt5→i-6342afn45mf5；v-15yJUpPJ9a 的空间、表演与段尾",
+      "gaps": [
+        "18 个导入视频与生成结果未建立对应"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W04/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+          "sha256": "0218c82b40093c5c49b382087f96c2ae0053a43ccf568b461aacaf0608591fa4",
+          "bytes": 247308
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV节点快照_2026-10-21.json",
+          "path": "04_原始资料/workflows/W04/nodes.json",
+          "sha256": "4580197471134694ae4e3ec78163eea2b0a412f00ff7165ae25afc5730be61c8",
+          "bytes": 464245
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W05",
+      "kind": "workflow",
+      "name": "治愈系IP",
+      "stable_id": "libtv:914feda437274ec1bb8ea5d5862e8468",
+      "stages": [
+        "S0",
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "C03 分段文本真实输入；C01 材质与动作；C05 温柔反应",
+      "locators": "文本生成 7d4a1774-e7a1-4a77-be19-0a0d8c1f19cd；分段文本 e2b71873-a4c2-4103-bd73-df7850d51e77→视频 4b9470a7-6d09-41d3-9b1c-941dfc4874a7",
+      "gaps": [
+        "完整脚本到分段文本无边；成片资源来源未知"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W05/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+          "sha256": "0db7b2b078c84f5c8fbdf5343b90295bdf0f33da1de7e7abef990d7ab40b046a",
+          "bytes": 65685
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV节点快照_2026-10-21.json",
+          "path": "04_原始资料/workflows/W05/nodes.json",
+          "sha256": "9bd87eac92743887bdb8a128d011e79b2d2baecf159cf615a6bc1fc7084fdf20",
+          "bytes": 139133
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W06",
+      "kind": "workflow",
+      "name": "异种纪元第四集",
+      "stable_id": "libtv:b7743ee8d8c14d94a2a9890cce4dbfe3",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C06 场景空间；C01 动作因果；C04 资产组织",
+      "locators": "v-0bupyWfAIt 的左前景/中后段/右侧定位；分组是候选组织而非剪辑时间线",
+      "gaps": [
+        "23 个分组成员无法解析；未证明最终剪辑"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_工作流拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W06/异种纪元-第四集-副本_工作流拆解_2026-10-21.md.txt",
+          "sha256": "4033f9b0907443e852a4135cf02ab8bc060b7da9142fe9b528c998546da0c9df",
+          "bytes": 877594
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_LibTV节点快照_2026-10-21.json",
+          "path": "04_原始资料/workflows/W06/nodes.json",
+          "sha256": "5dd5fa5eec6d2476ce8ebd97bfa71a112307d70e1df9a3789b06d03a922cb2ac",
+          "bytes": 1545908
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W07",
+      "kind": "workflow",
+      "name": "胡来万事屋",
+      "stable_id": "libtv:0bb4de92ac0846eba463218d5460fae4",
+      "stages": [
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C05 真人反应与停顿；C08 音色；C09 去字幕链",
+      "locators": "v-1JMCzSTVcF 镜头六；人物音频实际输入与去字幕源片关系",
+      "gaps": [
+        "空 prompt 历史节点设置与输出时长不一致"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_工作流拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W07/胡来万事屋-副本_工作流拆解_2026-10-21.md.txt",
+          "sha256": "74909d3d3c33dcf6d7f594c154a3854d4a747c00a32bfd0b88acc94fae8b1f96",
+          "bytes": 81203
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_LibTV节点快照_2026-10-21.json",
+          "path": "04_原始资料/workflows/W07/nodes.json",
+          "sha256": "48b0c207971165a598af58d8de9f8a074977d25642f0f925f9733873d71c545e",
+          "bytes": 143808
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W08",
+      "kind": "workflow",
+      "name": "过来人",
+      "stable_id": "libtv:82e5114b017a485f9971fed0d9359ed9",
+      "stages": [
+        "S0",
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C08 音乐切片与逐句表演；C04 群像站位",
+      "locators": "单人音乐切片、逐句动作、合唱站位图；消歧后才绑定执行节点",
+      "gaps": [
+        "只有文档；v-WkR3jpy9YW 正文与关联表身份冲突"
+      ],
+      "files": [
+        {
+          "source_relative": "过来人LibTV画布提示词与关系索引.md",
+          "path": "04_原始资料/workflows/W08/过来人原始索引.md.txt",
+          "sha256": "acaaeb68fabe2d1f5279faee415f3952e822f2bfe12d3249f37955d6ff84f3e4",
+          "bytes": 87365
+        }
+      ],
+      "evidence": {
+        "structure": "document_only",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "W09",
+      "kind": "workflow",
+      "name": "猫咪骑士",
+      "stable_id": "libtv:fca88b866a5e47e5abffc5c7d89e120b",
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "ability_notes": "C10 多格分镜预演；C02 源版本和秒级区间重拍；C04/C06 资产空间",
+      "locators": "g-pVaA8rF57j 分镜测试；v-G9wxnoCAth 空间；v-7ZNR2SJxku 源片0–4.4s加盔甲图重拍",
+      "gaps": [
+        "分镜图未传视频；部分文字绑定冲突；未观看结果"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+          "path": "04_原始资料/workflows/W09/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+          "sha256": "9e0adc08dfdec2e72741ee2ed79fefd7597c876e2aa3866699c42cb6b103f9c7",
+          "bytes": 716459
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV节点快照_2026-10-21.json",
+          "path": "04_原始资料/workflows/W09/nodes.json",
+          "sha256": "8c8a68ab95704d14132c279d54391d3207626ec7516ea6aa5f367c27f163c495",
+          "bytes": 1322928
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot_fields",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      }
+    },
+    {
+      "id": "I01",
+      "kind": "industry_skill_document",
+      "name": "游戏宣传Demo",
+      "stable_id": "I01:01-game-promo-video.md",
+      "source_version_summary": "原文版本3；单镜生活切片与多镜事件是不同分支",
+      "files": [
+        {
+          "source_relative": "_共享/工作流研究/行业技能文档/原文/01-game-promo-video.md",
+          "path": "04_原始资料/industry-skills/I01/source.md.txt",
+          "sha256": "9f3220bb86538e1df657d21bb8e594a909d42147b9e1ea55ac350de38c9ffee5",
+          "bytes": 28664
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed"
+      },
+      "original_skill_name": "game-promo-video",
+      "original_namespace": "industry",
+      "original_version": "3"
+    },
+    {
+      "id": "I02",
+      "kind": "industry_skill_document",
+      "name": "3D卡通广告",
+      "stable_id": "I02:02-pixaranimationstudios-3d.md",
+      "source_version_summary": "原文版本6.2；夸张表演和品牌落点仅适用于相应任务",
+      "files": [
+        {
+          "source_relative": "_共享/工作流研究/行业技能文档/原文/02-pixaranimationstudios-3d.md",
+          "path": "04_原始资料/industry-skills/I02/source.md.txt",
+          "sha256": "130ce0986df0d2330a67248b11fc54573a85d87b2de7b28e83ada349cdadc4ac",
+          "bytes": 16827
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed"
+      },
+      "original_skill_name": "pixaranimationstudios-3d",
+      "original_namespace": "libtv-industry",
+      "original_version": "6.2"
+    },
+    {
+      "id": "I03",
+      "kind": "industry_skill_document",
+      "name": "参考视频改写",
+      "stable_id": "I03:03-爆款视频复刻.md",
+      "source_version_summary": "无name/version；短尾舍弃和原音保留是其配方选项，不全局生效",
+      "files": [
+        {
+          "source_relative": "_共享/工作流研究/行业技能文档/原文/03-爆款视频复刻.md",
+          "path": "04_原始资料/industry-skills/I03/source.md.txt",
+          "sha256": "45b955c69b523585bf39d2a985817eb9546133d0a03e1e607d83f1cf13e86859",
+          "bytes": 11443
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed"
+      },
+      "original_skill_name": null,
+      "original_namespace": null,
+      "original_version": null
+    },
+    {
+      "id": "I04",
+      "kind": "industry_skill_document",
+      "name": "新中式TVC",
+      "stable_id": "I04:04-neo-chinese-aesthetic-tvc.md",
+      "source_version_summary": "外部references/seedance-output.md、scripts/extract_frames.sh缺失",
+      "files": [
+        {
+          "source_relative": "_共享/工作流研究/行业技能文档/原文/04-neo-chinese-aesthetic-tvc.md",
+          "path": "04_原始资料/industry-skills/I04/source.md.txt",
+          "sha256": "5136f6467cd780c2697dea356721793643ea42e0f8194aa3bc7cb645ebbd476f",
+          "bytes": 41596
+        }
+      ],
+      "missing_external_dependencies": [
+        "references/seedance-output.md",
+        "scripts/extract_frames.sh"
+      ],
+      "evidence": {
+        "text_review": "paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed"
+      },
+      "original_skill_name": null,
+      "original_namespace": null,
+      "original_version": null
+    },
+    {
+      "id": "I05",
+      "kind": "industry_skill_document",
+      "name": "古典武侠流程",
+      "stable_id": "I05:05-hujinquanwuxia.md",
+      "source_version_summary": "多份references附件缺失；按语义规划时长、网格审核与资产触发值得研究",
+      "files": [
+        {
+          "source_relative": "_共享/工作流研究/行业技能文档/原文/05-hujinquanwuxia.md",
+          "path": "04_原始资料/industry-skills/I05/source.md.txt",
+          "sha256": "d569c2ffff23c2e2b8c2bc01ab8080f267a9b3e66190c9098cda5679c6856a2d",
+          "bytes": 16449
+        }
+      ],
+      "missing_external_dependencies": [
+        "references/asset-system.md",
+        "references/editing-audio-subtitles.md",
+        "references/examples.md",
+        "references/fight-choreography.md",
+        "references/image-prompts.md",
+        "references/quality-repair.md",
+        "references/quick-start.md",
+        "references/resolution-delivery.md",
+        "references/script-duration-planning.md",
+        "references/storyboard-nine-grid.md",
+        "references/style-calibration.md",
+        "references/style-classical.md",
+        "references/style-king-hu.md",
+        "references/style-shaw.md",
+        "references/templates.md",
+        "references/video-prompts.md",
+        "references/workflow-routing.md"
+      ],
+      "evidence": {
+        "text_review": "paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed"
+      },
+      "original_skill_name": null,
+      "original_namespace": null,
+      "original_version": null
+    },
+    {
+      "id": "R01",
+      "kind": "format_reference",
+      "name": "万宝盲盒方向文档格式",
+      "stable_id": "archive-sha256:4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
+      "archive_sha256": "4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
+      "archive_member_count": 4,
+      "intake_date": "2026-10-21",
+      "stages": [
+        "S0",
+        "S1",
+        "S2",
+        "S6"
+      ],
+      "ability_notes": "C11 长程承诺与兑现；C12 方向级文档组织",
+      "files": [
+        {
+          "source_relative": "万宝盲盒.zip!/archive-index.json (derived structural metadata)",
+          "path": "04_原始资料/format-references/R01/archive-index.json",
+          "sha256": "0a4806f8fcdbfd6fca31a7e91cc93e0ae2e61980286669d3975fa7e015eb79fa",
+          "bytes": 2443,
+          "role": "derived_metadata_not_original_payload"
+        },
+        {
+          "source_relative": "万宝盲盒.zip!/format-schema.json (derived structural metadata)",
+          "path": "04_原始资料/format-references/R01/format-schema.json",
+          "sha256": "ca165d189f5accd271a80e95a38518a65d37c528122394c0ecbc3437ec40c9b0",
+          "bytes": 1993,
+          "role": "derived_metadata_not_original_payload"
+        }
+      ],
+      "payload_policy": "schema and logic only; original ZIP is not copied",
+      "gaps": [
+        "characters.md duplicates skeleton.md",
+        "4 referenced arc.md files not included",
+        "independent character and arc templates are library proposals, not source fields"
+      ],
+      "evidence": {
+        "all_member_text_read": true,
+        "structure_review": "complete_for_4_provided_files",
+        "media_review": "not_applicable",
+        "template_runtime_use": "not_performed",
+        "reference_selection": "intake_only"
+      }
+    },
+    {
+      "id": "W10",
+      "kind": "workflow",
+      "name": "锅气交响 扬州炒饭美食短片",
+      "stable_id": "libtv:c55dee32298d422aa773e85e42c93907",
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "C10 已连通分支；C14 统一风格语句元生成；C15 同 prompt 多模型抽卡；C08 旁白随片生成分支；C04 无角色资产分支；C09 超分放大链",
+      "locators": "t-e6VJXgHP1B 风格语句元提示词；i-WPjQvxktYq→v-0FW0nm9nmb 网格图驱动链；i-HFLdsaRcDg/i-JfsZ5Rnkdt/i-rbbKD6wSxR 抽卡组",
+      "gaps": [
+        "媒体全部未观看",
+        "段1/段6双方案并存无采用记录",
+        "无重拍与剪辑链"
+      ],
+      "files": [
+        {
+          "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md",
+          "path": "04_原始资料/workflows/W10/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
+          "sha256": "8d313cd7131a93a26dd6c8373b78fdce91815c15db697d421c7496542c67303d",
+          "bytes": 10397
+        },
+        {
+          "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV节点快照_2026-10-29.json",
+          "path": "04_原始资料/workflows/W10/nodes.json",
+          "sha256": "296e7ba42c35fdf0bcc6faf2fd85dc62c0bbac6b612371d2c6fef63ba9ee0b45",
+          "bytes": 220795
+        }
+      ],
+      "evidence": {
+        "structure": "snapshot",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "capture": "API-direct read-only GET (project/detail + node/detail); libtv.exe blocked by OS policy; user-owned token refreshed via official SMS login 2026-10-29"
+      },
+      "intake_date": "2026-10-29"
+    }
+  ],
+  "counts": {
+    "workflow_sources": 10,
+    "workflow_json_snapshots": 9,
+    "industry_skill_documents": 5,
+    "cloned_source_files": 24,
+    "adapted_project_skill_entries": 6,
+    "format_reference_packages": 1,
+    "derived_format_metadata_files": 2
+  }
+}

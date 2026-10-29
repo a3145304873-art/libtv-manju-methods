@@ -1,0 +1,3750 @@
+{
+ "canvasName": "锅气交响 扬州炒饭美食短片- 副本",
+ "projectUuid": "c55dee32298d422aa773e85e42c93907",
+ "capturedAt": "2026-10-29T02:35:52+08:00",
+ "projectMetadata": {
+  "projectMeta": {
+   "id": 17159812,
+   "uuid": "c55dee32298d422aa773e85e42c93907",
+   "name": "锅气交响 扬州炒饭美食短片- 副本",
+   "coverUrl": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/025641331db083cc7cb6cbef091f6b913f3a86a9.png",
+   "visibility": 0,
+   "ownerId": 6674554,
+   "createdAtMs": 1793210409000,
+   "updatedAtMs": 1793210409000,
+   "folderId": 13404479,
+   "accessConfig": {
+    "accessPolicy": 0,
+    "publishable": 0,
+    "assetLocation": 0,
+    "allowCopy": false,
+    "shareAgentConversation": false
+   },
+   "effective": {
+    "canRead": true,
+    "canEdit": true,
+    "canManage": true,
+    "canPublish": true,
+    "canShare": true,
+    "canCopy": true
+   },
+   "projectSpaceId": 13404479,
+   "projectType": 0,
+   "bizScene": 0,
+   "source": 0
+  }
+ },
+ "nodeCount": 43,
+ "project": {
+  "projectUuid": "c55dee32298d422aa773e85e42c93907",
+  "nodes": [
+   {
+    "id": "a-yhImHH5olj",
+    "name": "视频节点 12_人声_截取",
+    "type": "audio",
+    "position": {
+     "positionX": "3468.436084722414",
+     "positionY": "1267.9002893628272"
+    },
+    "width": "350",
+    "height": "148"
+   },
+   {
+    "id": "g-2OK81voDR1",
+    "name": "分组 4 个节点",
+    "type": "group",
+    "position": {
+     "positionX": "1646.615455602327",
+     "positionY": "96.9725654934672"
+    },
+    "width": "751.5480274298288",
+    "height": "1860.5480274298288"
+   },
+   {
+    "id": "g-cMkaVEdi0n",
+    "name": "分组 8 个节点",
+    "type": "group",
+    "position": {
+     "positionX": "-240.52094482589052",
+     "positionY": "89.78603644017107"
+    },
+    "width": "1725.5444494433798",
+    "height": "1852.8243469516142"
+   },
+   {
+    "id": "g-g8TCyfjFwi",
+    "name": "分组 6 个节点",
+    "type": "group",
+    "position": {
+     "positionX": "8540.60863200338",
+     "positionY": "252.00909897875096"
+    },
+    "width": "2162.766854129334",
+    "height": "932.7668541293338"
+   },
+   {
+    "id": "g-icfAUtryo9",
+    "name": "分组 2 个节点",
+    "type": "group",
+    "position": {
+     "positionX": "4717.58762067022",
+     "positionY": "252.6647635848713"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "g-lEDmpOXRlx",
+    "name": "分组 2 个节点",
+    "type": "group",
+    "position": {
+     "positionX": "2724.4138441169634",
+     "positionY": "251.59066335502638"
+    },
+    "width": "1375.426813089734",
+    "height": "471.72811109761824"
+   },
+   {
+    "id": "g-skrHIZaOJe",
+    "name": "分组 2 个节点 - 副本",
+    "type": "group",
+    "position": {
+     "positionX": "6418.880854471501",
+     "positionY": "1376.9697353991107"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "g-taW8GgHFz8",
+    "name": "分组 2 个节点 - 副本",
+    "type": "group",
+    "position": {
+     "positionX": "6425.664251136811",
+     "positionY": "803.3331733788245"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "g-tqOYPDa7qD",
+    "name": "分组 2 个节点 - 副本",
+    "type": "group",
+    "position": {
+     "positionX": "4723.859082539756",
+     "positionY": "1375.3000812556475"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "g-vH6RuYEDg2",
+    "name": "分组 2 个节点 - 副本",
+    "type": "group",
+    "position": {
+     "positionX": "4723.7863903961525",
+     "positionY": "809.4248487794033"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "g-WoYWz2ATzU",
+    "name": "分组 2 个节点 - 副本",
+    "type": "group",
+    "position": {
+     "positionX": "6436.40432799382",
+     "positionY": "257.379266480911"
+    },
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   {
+    "id": "i-8V65FbZmjW",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-BXkPhDaXxp",
+    "name": "图片节点 3",
+    "type": "image",
+    "position": {
+     "positionX": "715.8727091278438",
+     "positionY": "80.860811926123"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "i-BXkuiEd8cf",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-DuOOYRnKsN",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-fGOwFjK5Dq",
+    "name": "图片节点 2",
+    "type": "image",
+    "position": {
+     "positionX": "42.425242604712366",
+     "positionY": "79.30286849290599"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "i-HFLdsaRcDg",
+    "name": "图片节点 5",
+    "type": "image",
+    "position": {
+     "positionX": "62.27401371491396",
+     "positionY": "98.27401371491442"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "i-JfsZ5Rnkdt",
+    "name": "图片节点 6",
+    "type": "image",
+    "position": {
+     "positionX": "62.27401371491396",
+     "positionY": "548.2740137149144"
+    },
+    "width": "625",
+    "height": "350"
+   },
+   {
+    "id": "i-ktaP25ZCrn",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-ncsqA5Tejt",
+    "name": "图片节点 9",
+    "type": "image",
+    "position": {
+     "positionX": "2733.7027680276924",
+     "positionY": "817.1777687844258"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-q9vF784TnA",
+    "name": "图片节点 8",
+    "type": "image",
+    "position": {
+     "positionX": "62.27401371491396",
+     "positionY": "1448.2740137149144"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-qatbKrbhNx",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-rbbKD6wSxR",
+    "name": "图片节点 7",
+    "type": "image",
+    "position": {
+     "positionX": "62.27401371491396",
+     "positionY": "998.2740137149143"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "i-T6env73yoa",
+    "name": "图片节点 3",
+    "type": "image",
+    "position": {
+     "positionX": "3465.9752542908054",
+     "positionY": "823.3441775987056"
+    },
+    "width": "350",
+    "height": "350"
+   },
+   {
+    "id": "i-WPjQvxktYq",
+    "name": "图片节点 10",
+    "type": "image",
+    "position": {
+     "positionX": "44.15315361041394",
+     "positionY": "80.15315361041303"
+    },
+    "width": "627",
+    "height": "350"
+   },
+   {
+    "id": "t-1I4pP7sil9",
+    "name": "文本节点 6",
+    "type": "text",
+    "position": {
+     "positionX": "606.6534729454696",
+     "positionY": "808.4865978555054"
+    },
+    "width": "611",
+    "height": "683"
+   },
+   {
+    "id": "t-417Qr7PwBL",
+    "name": "文本节点 2",
+    "type": "text",
+    "position": {
+     "positionX": "49.279699117877385",
+     "positionY": "28.567365873234163"
+    },
+    "width": "350",
+    "height": "200"
+   },
+   {
+    "id": "t-6i4WjGx0Uj",
+    "name": "文本节点 3",
+    "type": "text",
+    "position": {
+     "positionX": "52.43278920176601",
+     "positionY": "307.91108619818476"
+    },
+    "width": "350",
+    "height": "200"
+   },
+   {
+    "id": "t-e6VJXgHP1B",
+    "name": "文本节点 2",
+    "type": "text",
+    "position": {
+     "positionX": "1237.3735438350745",
+     "positionY": "40.96914885251863"
+    },
+    "width": "366",
+    "height": "737"
+   },
+   {
+    "id": "t-IdM0O7LclT",
+    "name": "文本节点 4",
+    "type": "text",
+    "position": {
+     "positionX": "601.4747790045498",
+     "positionY": "43.83975406719918"
+    },
+    "width": "603",
+    "height": "702"
+   },
+   {
+    "id": "t-KSXxFE2Zxz",
+    "name": "文本节点 5",
+    "type": "text",
+    "position": {
+     "positionX": "40.80878176726253",
+     "positionY": "892.2443338057653"
+    },
+    "width": "350",
+    "height": "200"
+   },
+   {
+    "id": "v-0FW0nm9nmb",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-0ScAzydNLG",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-1trLMpobDQ",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-Ag6TgBxaGm",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-FdZOCNnzuD",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "1492.3834270646657",
+     "positionY": "534.3834270646669"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-fQrvtw6PAr",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-gwLEsCNWAA",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "1492.3834270646657",
+     "positionY": "84.38342706466688"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-RDQed7zHQL",
+    "name": "视频节点 12",
+    "type": "video",
+    "position": {
+     "positionX": "831.8964603070335",
+     "positionY": "80.89069965713708"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-ruPuw5WNRS",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "770.3834270646657",
+     "positionY": "534.3834270646669"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-Sf2jvZUOhO",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "48.38342706466574",
+     "positionY": "534.3834270646669"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-t6bMh0ecWz",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "770.3834270646657",
+     "positionY": "84.38342706466688"
+    },
+    "width": "622",
+    "height": "350"
+   },
+   {
+    "id": "v-yChdqL2Xq3",
+    "name": "高清",
+    "type": "video",
+    "position": {
+     "positionX": "48.38342706466574",
+     "positionY": "84.38342706466688"
+    },
+    "width": "622",
+    "height": "350"
+   }
+  ],
+  "edges": [
+   {
+    "id": "e-0y4Da6Jn4E",
+    "source": "a-yhImHH5olj",
+    "target": "v-Ag6TgBxaGm",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-1wcb4KSyB6",
+    "source": "i-ktaP25ZCrn",
+    "target": "v-0ScAzydNLG",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-1zPg0Xn4gN",
+    "source": "v-fQrvtw6PAr",
+    "target": "v-yChdqL2Xq3",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-2Bq5N5s9lA",
+    "source": "i-qatbKrbhNx",
+    "target": "v-Ag6TgBxaGm",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-2j0GkqUAnm",
+    "source": "a-yhImHH5olj",
+    "target": "v-RDQed7zHQL",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-4ye3rrcVqe",
+    "source": "i-ncsqA5Tejt",
+    "target": "i-BXkPhDaXxp",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-6xnO7dmc4q",
+    "source": "v-1trLMpobDQ",
+    "target": "v-gwLEsCNWAA",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-8zx3rnzyDv",
+    "source": "i-BXkuiEd8cf",
+    "target": "v-1trLMpobDQ",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-BHqxSsHPnH",
+    "source": "i-DuOOYRnKsN",
+    "target": "v-RDQed7zHQL",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-BWddBFbcw3",
+    "source": "i-ncsqA5Tejt",
+    "target": "i-qatbKrbhNx",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-e0M4uevdMb",
+    "source": "i-ncsqA5Tejt",
+    "target": "i-8V65FbZmjW",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-ekoQwWcqcp",
+    "source": "t-417Qr7PwBL",
+    "target": "t-IdM0O7LclT",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-fNq7Q04Ooz",
+    "source": "v-Ag6TgBxaGm",
+    "target": "v-t6bMh0ecWz",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-IDj29VTngB",
+    "source": "i-JfsZ5Rnkdt",
+    "target": "i-q9vF784TnA",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-isfpugsP7T",
+    "source": "a-yhImHH5olj",
+    "target": "v-1trLMpobDQ",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-jRYzLbhYQG",
+    "source": "v-RDQed7zHQL",
+    "target": "v-Sf2jvZUOhO",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-l0U328GpWH",
+    "source": "t-KSXxFE2Zxz",
+    "target": "t-1I4pP7sil9",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-M4kbLvl2N9",
+    "source": "i-T6env73yoa",
+    "target": "i-DuOOYRnKsN",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-miRUAh4bKH",
+    "source": "t-6i4WjGx0Uj",
+    "target": "t-IdM0O7LclT",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-NCF21ReD3P",
+    "source": "i-q9vF784TnA",
+    "target": "i-T6env73yoa",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-ofhuKquf95",
+    "source": "i-T6env73yoa",
+    "target": "i-BXkuiEd8cf",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-oqRSMDqLnx",
+    "source": "i-ncsqA5Tejt",
+    "target": "i-fGOwFjK5Dq",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-Oymn3wkZcj",
+    "source": "v-0FW0nm9nmb",
+    "target": "v-FdZOCNnzuD",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-PTZ8WTUVWW",
+    "source": "i-WPjQvxktYq",
+    "target": "v-0FW0nm9nmb",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-RmuYdmaaPH",
+    "source": "t-IdM0O7LclT",
+    "target": "t-e6VJXgHP1B",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-ROae2ZllFL",
+    "source": "a-yhImHH5olj",
+    "target": "v-fQrvtw6PAr",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-s8jY8Zchxq",
+    "source": "i-q9vF784TnA",
+    "target": "i-ncsqA5Tejt",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-SpFkRuuFiZ",
+    "source": "i-T6env73yoa",
+    "target": "i-WPjQvxktYq",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-SVHomzMP5Y",
+    "source": "a-yhImHH5olj",
+    "target": "v-0ScAzydNLG",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-uUkhLkQiWP",
+    "source": "i-T6env73yoa",
+    "target": "i-ktaP25ZCrn",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-VqGBUbIUBc",
+    "source": "v-0ScAzydNLG",
+    "target": "v-ruPuw5WNRS",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-ZQqB7po7wD",
+    "source": "i-8V65FbZmjW",
+    "target": "v-fQrvtw6PAr",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   },
+   {
+    "id": "e-ZrTS5xv8VU",
+    "source": "i-HFLdsaRcDg",
+    "target": "i-q9vF784TnA",
+    "sourceHandle": "source",
+    "targetHandle": "target"
+   }
+  ]
+ },
+ "nodeDetails": {
+  "a-yhImHH5olj": {
+   "nodeKey": "a-yhImHH5olj",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 4,
+   "name": "视频节点 12_人声_截取",
+   "position": {
+    "positionX": "3468.436084722414",
+    "positionY": "1267.9002893628272"
+   },
+   "measured": {
+    "width": "350",
+    "height": "148"
+   },
+   "data": {
+    "type": "audio",
+    "name": "视频节点 12_人声_截取",
+    "url": [
+     "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3"
+    ],
+    "action": "audio_resource",
+    "_updatedAtMs": 1780381874000,
+    "_lastAppliedFullyAtMs": 1780381874000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "audio",
+       "mimeType": "audio/mpeg",
+       "byteSize": 236380,
+       "extension": "mp3",
+       "durationSec": 5.861774711400672
+      }
+     ]
+    }
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-2OK81voDR1": {
+   "nodeKey": "g-2OK81voDR1",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 4 个节点",
+   "position": {
+    "positionX": "1646.615455602327",
+    "positionY": "96.9725654934672"
+   },
+   "measured": {
+    "width": "751.5480274298288",
+    "height": "1860.5480274298288"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 4 个节点",
+    "childNodeIds": [
+     "i-HFLdsaRcDg",
+     "i-JfsZ5Rnkdt",
+     "i-q9vF784TnA",
+     "i-rbbKD6wSxR"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-cMkaVEdi0n": {
+   "nodeKey": "g-cMkaVEdi0n",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 8 个节点",
+   "position": {
+    "positionX": "-240.52094482589052",
+    "positionY": "89.78603644017107"
+   },
+   "measured": {
+    "width": "1725.5444494433798",
+    "height": "1852.8243469516142"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 8 个节点",
+    "childNodeIds": [
+     "a-Qd9JZh0aYf",
+     "t-1I4pP7sil9",
+     "t-417Qr7PwBL",
+     "t-6i4WjGx0Uj",
+     "t-e6VJXgHP1B",
+     "t-IdM0O7LclT",
+     "t-KSXxFE2Zxz",
+     "t-kT4FD8WFzl"
+    ],
+    "nodeWidth": 1725.5444494433798,
+    "nodeHeight": 1852.8243469516142,
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-g8TCyfjFwi": {
+   "nodeKey": "g-g8TCyfjFwi",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 6 个节点",
+   "position": {
+    "positionX": "8540.60863200338",
+    "positionY": "252.00909897875096"
+   },
+   "measured": {
+    "width": "2162.766854129334",
+    "height": "932.7668541293338"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 6 个节点",
+    "childNodeIds": [
+     "v-yChdqL2Xq3",
+     "v-t6bMh0ecWz",
+     "v-gwLEsCNWAA",
+     "v-Sf2jvZUOhO",
+     "v-ruPuw5WNRS",
+     "v-FdZOCNnzuD"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-icfAUtryo9": {
+   "nodeKey": "g-icfAUtryo9",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点",
+   "position": {
+    "positionX": "4717.58762067022",
+    "positionY": "252.6647635848713"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点",
+    "childNodeIds": [
+     "v-0FW0nm9nmb",
+     "i-WPjQvxktYq"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-lEDmpOXRlx": {
+   "nodeKey": "g-lEDmpOXRlx",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点",
+   "position": {
+    "positionX": "2724.4138441169634",
+    "positionY": "251.59066335502638"
+   },
+   "measured": {
+    "width": "1375.426813089734",
+    "height": "471.72811109761824"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点",
+    "childNodeIds": [
+     "i-BXkPhDaXxp",
+     "i-fGOwFjK5Dq"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-skrHIZaOJe": {
+   "nodeKey": "g-skrHIZaOJe",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点 - 副本",
+   "position": {
+    "positionX": "6418.880854471501",
+    "positionY": "1376.9697353991107"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点 - 副本",
+    "childNodeIds": [
+     "v-Ag6TgBxaGm",
+     "i-qatbKrbhNx"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-taW8GgHFz8": {
+   "nodeKey": "g-taW8GgHFz8",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点 - 副本",
+   "position": {
+    "positionX": "6425.664251136811",
+    "positionY": "803.3331733788245"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点 - 副本",
+    "childNodeIds": [
+     "v-fQrvtw6PAr",
+     "i-8V65FbZmjW"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-tqOYPDa7qD": {
+   "nodeKey": "g-tqOYPDa7qD",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点 - 副本",
+   "position": {
+    "positionX": "4723.859082539756",
+    "positionY": "1375.3000812556475"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点 - 副本",
+    "childNodeIds": [
+     "v-RDQed7zHQL",
+     "i-DuOOYRnKsN"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-vH6RuYEDg2": {
+   "nodeKey": "g-vH6RuYEDg2",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点 - 副本",
+   "position": {
+    "positionX": "4723.7863903961525",
+    "positionY": "809.4248487794033"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点 - 副本",
+    "childNodeIds": [
+     "v-0ScAzydNLG",
+     "i-ktaP25ZCrn"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-WoYWz2ATzU": {
+   "nodeKey": "g-WoYWz2ATzU",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "分组 2 个节点 - 副本",
+   "position": {
+    "positionX": "6436.40432799382",
+    "positionY": "257.379266480911"
+   },
+   "measured": {
+    "width": "1498.0496139174456",
+    "height": "475.0438532675501"
+   },
+   "data": {
+    "type": "group",
+    "name": "分组 2 个节点 - 副本",
+    "childNodeIds": [
+     "v-1trLMpobDQ",
+     "i-BXkuiEd8cf"
+    ],
+    "_updatedAtMs": 1793210411000,
+    "_lastAppliedFullyAtMs": 1793210411000
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210582000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-8V65FbZmjW": {
+   "nodeKey": "i-8V65FbZmjW",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746175064_0b01cedc3b59499a8e45acf91b394e48.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "专门用于 n\\*\\*\\*\\*\\*\\* pro 模型的提示词，生成一张四行三列的分镜设计图，也就是一张大图中包含十二个按顺序排列的十六比九画面。整体保持高级食品广告风格，画面以奶油米白、浅金色和温暖琥珀色为统一色调，光线柔和干净，氛围安静、精致、有食欲。十二个画面从一粒晶莹米粒的微距开始，逐步展示米粒、蛋液、虾仁、青豆、火腿丁、葱花等食材被金色光线唤醒的过程；镜头语言由极近微距逐渐过渡到更开阔的食材漂浮构图，让所有食材像在晨光中缓慢苏醒。画面中不出现真实厨房，不出现人物，不出现勺子，不出现文字和字幕，只呈现干净背景、精致食材、柔和热气与高级广告质感。每个小画面都要保持统一光影、统一色彩、统一精致氛围，像一套完整的扬州炒饭广告开场分镜设计图。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-ncsqA5Tejt"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-ncsqA5Tejt",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745495090_882a916d0447437aaca04c5f119843eb.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602133403783681940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-taW8GgHFz8",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-BXkPhDaXxp": {
+   "nodeKey": "i-BXkPhDaXxp",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 3",
+   "position": {
+    "positionX": "715.8727091278438",
+    "positionY": "80.860811926123"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 3",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746566365_a65b904c58f443c091f65660d4c5c34e.png"
+    ],
+    "alt": "图片 3",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "以：锅气交响”为主题设计一张海报；；画面冲击力强，文字排版只保留大字和装饰文案。奶油米白到金黄色渐变背景",
+     "model": "lib-image-2",
+     "count": 1,
+     "settings": {
+      "quality": "medium",
+      "resolution": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {},
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-ncsqA5Tejt"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-ncsqA5Tejt",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745495090_882a916d0447437aaca04c5f119843eb.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "taskInfo": {
+     "taskId": "20260602155903188651940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2048,
+       "height": 1152
+      }
+     ]
+    }
+   },
+   "parentKey": "g-lEDmpOXRlx",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-BXkuiEd8cf": {
+   "nodeKey": "i-BXkuiEd8cf",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745745134_b8a2aafe0f2b4a2bb81b3db4bea25e71.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉统一为高级食品广告中的锅气高潮段落。画面仍然处于极简棚拍空间，背景为奶油米白向浓郁金黄色渐变，黑色炒锅位于画面核心，红橙色火焰、透明热浪与金黄炒饭构成强烈视觉冲击。十二个画面需要表现锅底火焰突然增强，黑锅大幅颠起，整片炒饭腾空成金色弧线，米粒在空中旋转并闪烁高光，虾仁、青豆、火腿丁在米浪中清楚分离，炒饭落回锅中后锅铲立刻接住节奏，第二次和第三次翻锅逐渐推向全片视觉峰值，米粒、蛋丝和葱花形成短暂金色风暴，透明热浪扭曲背景，最后火光收紧，黑锅稳定在画面中央，香气感停留。整体灯光以强烈锅底火光、侧逆光和金色轮廓光为主，氛围有力量但不嘈杂，画面高级、干净、冲击力强。不要出现文字、字幕、品牌标识、真实厨房环境或多余道具。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-T6env73yoa"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-T6env73yoa",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745742860_ecc4e4c5410244799585c7b12bf5481b.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602093303356911940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-WoYWz2ATzU",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-DuOOYRnKsN": {
+   "nodeKey": "i-DuOOYRnKsN",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745754201_35cc25d4856743b7b2e595d7837b2732.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体仍然是高级食品广告风格。画面发生在极简奶油米白与浅金色渐变棚拍空间中，黑色炒锅居于核心位置，锅中金黄米粒、虾仁、蛋丝、青豆、火腿丁、胡萝卜丁和葱花依次出现。十二个画面需要表现虾仁从金黄米粒中翻起，火腿丁、青豆、胡萝卜丁快速落入米粒之间，锅铲推动食材与米粒混合但层次清楚，青豆滚过米粒表面，火腿丁被金色光线扫过，虾仁与蛋丝同时被翻起，葱花像绿色香气一样落下，锅火再次升起，镜头从虾仁、蛋丝和青豆之间快速穿过，最后所有食材随米浪回落。整体光线以温暖金色侧光和锅底火光为主，色彩呈现金黄、红、绿、橙的高级配比，氛围克制而有食欲。画面中不要出现文字、字幕、品牌标识、复杂厨房环境或额外餐具。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-T6env73yoa"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-T6env73yoa",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745742860_ecc4e4c5410244799585c7b12bf5481b.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602093903377141940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "staleVersion": 2,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-tqOYPDa7qD",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-fGOwFjK5Dq": {
+   "nodeKey": "i-fGOwFjK5Dq",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 2",
+   "position": {
+    "positionX": "42.425242604712366",
+    "positionY": "79.30286849290599"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 2",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746205672_c118c29fed7249fb8f80ac4229578092.png"
+    ],
+    "alt": "图片 2",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告海报风格，主题为扬州炒饭，整体画面采用奶油米白到金黄色渐变背景，干净、温暖、高级，具有极简棚拍质感。画面中央是一盘刚刚完成的扬州炒饭，置于白色高级瓷盘中，炒饭金黄饱满、粒粒分明，米粒带有细腻油润光泽，清晰可见弹嫩虾仁、金黄蛋丝、青豆、火腿丁、少量胡萝卜丁与细碎葱花，整体配色丰富协调，充满食欲。炒饭上方与周围有轻柔透明热气缓缓升起，带有若隐若现的锅气感，背景中可融入极淡的金色热浪与柔和光晕，强化“锅气交响”的氛围。构图以成品炒饭为绝对主体，略微俯拍或平视中近景，突出盘中炒饭的体积感、层次感和高级感。光线采用柔和顶光与侧逆光结合，勾勒米粒与食材边缘，画面具有电影级微距食品广告质感。\n\n海报顶部居中放置主标题：“锅气交响”，字体为大气、潇洒、具有手写感的艺术书写字体，笔触有力度，略带飞白感与节奏感，颜色建议为深金色或暖棕金色，与背景和炒饭主体呼应，标题醒目但不过度抢画面。标题整体呈现高级、东方、现代的书写美感。可在标题下方以较小字号加入英文副标题 “WOK HEAT SYMPHONY”，英文使用全大写手写体，细腻、有设计感，与中文标题形成呼应。整体海报氛围要兼具高级食品广告感、锅气热烈感与温暖食欲感，不出现复杂厨房场景，不出现人物，不出现杂乱道具，不出现过多装饰文字，不出现品牌Logo",
+     "model": "lib-image-2",
+     "count": 1,
+     "settings": {
+      "quality": "medium",
+      "resolution": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {},
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-ncsqA5Tejt"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-ncsqA5Tejt",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745495090_882a916d0447437aaca04c5f119843eb.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "taskInfo": {
+     "taskId": "20260602135103245301940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2048,
+       "height": 1152
+      }
+     ]
+    }
+   },
+   "parentKey": "g-lEDmpOXRlx",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-HFLdsaRcDg": {
+   "nodeKey": "i-HFLdsaRcDg",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 5",
+   "position": {
+    "positionX": "62.27401371491396",
+    "positionY": "98.27401371491442"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 5",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745441975_7049c89181f7489488b147afa6f356ca.png"
+    ],
+    "alt": "图片 5",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告风，扬州炒饭作为绝对主体，置于画面中央的白色高级瓷盘中，炒饭饱满蓬松、堆叠自然，呈现粒粒分明的金黄色质感，每一粒米都带有细腻油润光泽，清晰可见弹嫩虾仁、金黄蛋丝、青豆、火腿丁、少量胡萝卜丁与细碎葱花，整体配色丰富但协调，突出“金黄、鲜香、精致”的视觉印象。背景为奶油米白到金黄色的高级渐变纯净空间，画面干净简洁，无复杂厨房环境，无杂乱道具。柔和顶光与侧光共同勾勒炒饭层次，盘边有细腻高光，炒饭表面升起轻柔热气，营造新鲜出锅的锅气与食欲感。构图以中近景主视觉为主，略微俯拍，完整展现成品炒饭的圆润体积感与高级摆盘感。整体氛围温暖、精致、克制、高级，具有商业大片质感与强烈食欲吸引力，突出扬州炒饭的主体感、金黄质感与高端食品广告风格",
+     "model": "lib-image-2",
+     "count": 1,
+     "settings": {
+      "quality": "medium",
+      "resolution": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {},
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "text2image"
+    },
+    "taskInfo": {
+     "taskId": "20260601210903457901940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2048,
+       "height": 1152
+      }
+     ]
+    }
+   },
+   "parentKey": "g-2OK81voDR1",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-JfsZ5Rnkdt": {
+   "nodeKey": "i-JfsZ5Rnkdt",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 6",
+   "position": {
+    "positionX": "62.27401371491396",
+    "positionY": "548.2740137149144"
+   },
+   "measured": {
+    "width": "625",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 6",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745436890_80e1cc8af95a4d23a807baa4e3e46d9f.png",
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745436890_ab9de4e488b54bab9ee2bf6d18034f2a.png",
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745436890_d3b6d42c35574d1eb9928cbb8b811b02.png",
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745436890_ca7a09e9b4174962a13ec4b2c0163d82.png"
+    ],
+    "alt": "图片 6",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告风，扬州炒饭作为绝对主体，置于画面中央的白色高级瓷盘中，炒饭饱满蓬松、堆叠自然，呈现粒粒分明的金黄色质感，每一粒米都带有细腻油润光泽，清晰可见弹嫩虾仁、金黄蛋丝、青豆、火腿丁、少量胡萝卜丁与细碎葱花，整体配色丰富但协调，突出“金黄、鲜香、精致”的视觉印象。背景为奶油米白到金黄色的高级渐变纯净空间，画面干净简洁，无复杂厨房环境，无杂乱道具。柔和顶光与侧光共同勾勒炒饭层次，盘边有细腻高光，炒饭表面升起轻柔热气，营造新鲜出锅的锅气与食欲感。构图以中近景主视觉为主，略微俯拍，完整展现成品炒饭的圆润体积感与高级摆盘感。整体氛围温暖、精致、克制、高级，具有商业大片质感与强烈食欲吸引力，突出扬州炒饭的主体感、金黄质感与高端食品广告风格",
+     "model": "mj-v7",
+     "count": 4,
+     "settings": {
+      "quality": "auto",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "personalisation": "",
+      "stylize": 100,
+      "weird": 50,
+      "chaos": 5
+     },
+     "fineTuneModels": [],
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "text2image"
+    },
+    "taskInfo": {
+     "taskId": "20260601210403066261940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 625,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 1456,
+       "height": 816
+      },
+      {
+       "kind": "image",
+       "width": 1456,
+       "height": 816
+      },
+      {
+       "kind": "image",
+       "width": 1456,
+       "height": 816
+      },
+      {
+       "kind": "image",
+       "width": 1456,
+       "height": 816
+      }
+     ]
+    }
+   },
+   "parentKey": "g-2OK81voDR1",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-ktaP25ZCrn": {
+   "nodeKey": "i-ktaP25ZCrn",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745782769_d9b428bb6733499b820470a47e5a8966.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体保持高级食品广告的统一视觉语言。画面聚焦米粒从白润到金黄的质感变化，背景为柔和奶油米白与浅金色渐变，光线干净而温暖。十二个画面需要表现几粒白润米粒悬浮在浅金背景中，金黄色蛋液像丝绸一样掠过，米粒穿过蛋液后被薄薄金色包裹，蛋液在米粒之间形成细腻光膜，随后切回黑色炒锅中，锅铲带起金黄米粒，单颗米粒在空中翻滚并闪过柔和高光，黑锅轻颠时米粒像金色雨点腾空，蛋丝落入米粒之间，白盘成品短暂闪回，最后米粒回到锅中并进入下一段鲜味层次。整体光影以柔和侧逆光、浅金高光和干净棚拍反射为主，氛围精致、克制、像在展示一道食物工艺。画面中不要出现任何文字、字幕、品牌标识、真实厨房环境或多余道具。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-T6env73yoa"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-T6env73yoa",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745742860_ecc4e4c5410244799585c7b12bf5481b.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602095603438931940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "staleVersion": 2,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-vH6RuYEDg2",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-ncsqA5Tejt": {
+   "nodeKey": "i-ncsqA5Tejt",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 9",
+   "position": {
+    "positionX": "2733.7027680276924",
+    "positionY": "817.1777687844258"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 9",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745495090_882a916d0447437aaca04c5f119843eb.png"
+    ],
+    "alt": "图片 9",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "提取蛋炒饭碗，白底图，大米颗粒清晰，碗碟设计得更优雅",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-q9vF784TnA"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-q9vF784TnA",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745479989_35acf4f262b7442799f6e7e778abd050.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "taskInfo": {
+     "taskId": "20260601220703521271940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-q9vF784TnA": {
+   "nodeKey": "i-q9vF784TnA",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 8",
+   "position": {
+    "positionX": "62.27401371491396",
+    "positionY": "1448.2740137149144"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 8",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745479989_35acf4f262b7442799f6e7e778abd050.png"
+    ],
+    "alt": "图片 8",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告风，扬州炒饭作为绝对主体，置于画面中央的白色高级瓷盘中，炒饭饱满蓬松、堆叠自然，呈现粒粒分明的金黄色质感，每一粒米都带有细腻油润光泽，清晰可见弹嫩虾仁、金黄蛋丝、青豆、火腿丁、少量胡萝卜丁与细碎葱花，整体配色丰富但协调，突出“金黄、鲜香、精致”的视觉印象。背景为奶油米白到金黄色的高级渐变纯净空间，画面干净简洁，无复杂厨房环境，无杂乱道具。柔和顶光与侧光共同勾勒炒饭层次，盘边有细腻高光，炒饭表面升起轻柔热气，营造新鲜出锅的锅气与食欲感。构图以中近景主视觉为主，略微俯拍，完整展现成品炒饭的圆润体积感与高级摆盘感。整体氛围温暖、精致、克制、高级，具有商业大片质感与强烈食欲吸引力，突出扬州炒饭的主体感、金黄质感与高端食品广告风格",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-HFLdsaRcDg",
+      "i-JfsZ5Rnkdt"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-HFLdsaRcDg",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745441975_7049c89181f7489488b147afa6f356ca.png"
+      },
+      {
+       "nodeId": "i-JfsZ5Rnkdt",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745436890_80e1cc8af95a4d23a807baa4e3e46d9f.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "staleVersion": 1,
+    "taskInfo": {
+     "taskId": "20260601215003443651940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-2OK81voDR1",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-qatbKrbhNx": {
+   "nodeKey": "i-qatbKrbhNx",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745981565_c49942ac514d42a8b25323bc9cc915a1.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "专门用于 n\\*\\*\\*\\*\\*\\* pro 模型的提示词，生成一张四行三列的分镜设计图，也就是一张大图中包含十二个按顺序排列的十六比九画面。整体延续高级食品广告风格，色调从奶油米白逐渐过渡到明亮金黄色和温暖火焰橙色，光影更强烈，氛围从精致安静转向热烈爆香。十二个画面表现食材从空中汇聚到黑色炒锅上方，再被猛火锅气托起的过程；画面中黑色炒锅只作为高级视觉载体出现，背景不出现真实厨房环境。米粒在锅气中变得更加金黄，蛋丝、虾仁、青豆、火腿丁与葱花被热浪带动，形成强烈的动态弧线。整张分镜设计图要统一光线方向、统一金色火光、统一广告级精致质感，不出现人物，不出现勺子，不出现文字和字幕。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-ncsqA5Tejt"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-ncsqA5Tejt",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745495090_882a916d0447437aaca04c5f119843eb.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602112203921781940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-skrHIZaOJe",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-rbbKD6wSxR": {
+   "nodeKey": "i-rbbKD6wSxR",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 7",
+   "position": {
+    "positionX": "62.27401371491396",
+    "positionY": "998.2740137149143"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 7",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745479680_f76780b8f0614e8db8703a7f5e2c9dea.png"
+    ],
+    "alt": "图片 7",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告风，扬州炒饭作为绝对主体，置于画面中央的白色高级瓷盘中，炒饭饱满蓬松、堆叠自然，呈现粒粒分明的金黄色质感，每一粒米都带有细腻油润光泽，清晰可见弹嫩虾仁、金黄蛋丝、青豆、火腿丁、少量胡萝卜丁与细碎葱花，整体配色丰富但协调，突出“金黄、鲜香、精致”的视觉印象。背景为奶油米白到金黄色的高级渐变纯净空间，画面干净简洁，无复杂厨房环境，无杂乱道具。柔和顶光与侧光共同勾勒炒饭层次，盘边有细腻高光，炒饭表面升起轻柔热气，营造新鲜出锅的锅气与食欲感。构图以中近景主视觉为主，略微俯拍，完整展现成品炒饭的圆润体积感与高级摆盘感。整体氛围温暖、精致、克制、高级，具有商业大片质感与强烈食欲吸引力，突出扬州炒饭的主体感、金黄质感与高端食品广告风格",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "text2image"
+    },
+    "taskInfo": {
+     "taskId": "20260601215003020201940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-2OK81voDR1",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-T6env73yoa": {
+   "nodeKey": "i-T6env73yoa",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 3",
+   "position": {
+    "positionX": "3465.9752542908054",
+    "positionY": "823.3441775987056"
+   },
+   "measured": {
+    "width": "350",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 3",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745742860_ecc4e4c5410244799585c7b12bf5481b.png"
+    ],
+    "alt": "图片 3",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "提取炒饭局部大特写，米粒清晰，不漏出碗",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "1:1"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-q9vF784TnA"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-q9vF784TnA",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745479989_35acf4f262b7442799f6e7e778abd050.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "taskInfo": {
+     "taskId": "20260602093103213841940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 350,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2048,
+       "height": 2048
+      }
+     ]
+    }
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-WPjQvxktYq": {
+   "nodeKey": "i-WPjQvxktYq",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 10",
+   "position": {
+    "positionX": "44.15315361041394",
+    "positionY": "80.15315361041303"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "type": "image",
+    "name": "图片节点 10",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746204679_59911bfbe51e4ec995b3d2c98a55b009.png"
+    ],
+    "alt": "图片 10",
+    "action": "image_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉风格保持统一，呈现高级食品广告质感。画面发生在极简奶油米白到浅金色渐变的棚拍空间中，主体是黑色炒锅、金色火焰、透明热浪和松散分明的黄金炒饭。十二个画面需要连续表现开场十五秒的强节奏：黑锅从画面下方快速进入，锅底火焰瞬间点亮，炒饭被猛火翻起，金黄米粒形成弧形米浪，虾仁、青豆、火腿丁和蛋丝在米浪中短暂悬浮，锅铲划过米粒表面，透明热浪从锅沿升起，白色瓷盘中的成品炒饭一闪而过，最后黑锅居中，金色热气向上升腾。整体灯光以温暖侧逆光和锅底金色火光为主，色调干净、克制、食欲感强，氛围高级、有力量、第一秒就抓住注意力。画面中不要出现任何文字、字幕、品牌标识、真实厨房背景或多余道具。",
+     "model": "nebula-2-flash",
+     "count": 1,
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "advancedSettings": {
+      "search_enabled": 0
+     },
+     "fineTuneModels": [],
+     "cameraControl": {
+      "enabled": false,
+      "camera": "panavision_dxl2",
+      "lens": "arri_signature_prime",
+      "focal": "35mm",
+      "aperture": "f/4"
+     },
+     "imageListOrder": [
+      "i-T6env73yoa"
+     ],
+     "textList": [],
+     "imageList": [
+      {
+       "nodeId": "i-T6env73yoa",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745742860_ecc4e4c5410244799585c7b12bf5481b.png"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "modeType": "image2image"
+    },
+    "_updatedAtMs": 1780382341000,
+    "_lastAppliedFullyAtMs": 1780382341000,
+    "taskInfo": {
+     "taskId": "20260602135003538271940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 627,
+    "contentHeight": 350,
+    "staleVersion": 2,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "image",
+       "width": 2752,
+       "height": 1536
+      }
+     ]
+    }
+   },
+   "parentKey": "g-icfAUtryo9",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-1I4pP7sil9": {
+   "nodeKey": "t-1I4pP7sil9",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 6",
+   "position": {
+    "positionX": "606.6534729454696",
+    "positionY": "808.4865978555054"
+   },
+   "measured": {
+    "width": "611",
+    "height": "683"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 6",
+    "content": [
+     "> 说明：由于你的总规则要求“所有图片/视频生成提示词必须使用中文自然语言”，所以下方的静态分镜提示语与视频提示语均采用中文自然语言撰写，不使用英文关键词堆砌。\n\n---\n\n## 分镜 1｜0-15s\n\n### 食材苏醒：从一粒米开始建立金黄食欲\n\n**静态提示语要求：**\\\n专门用于 n\\*\\*\\*\\*\\*\\* pro 模型的提示词，生成一张四行三列的分镜设计图，也就是一张大图中包含十二个按顺序排列的十六比九画面。整体保持高级食品广告风格，画面以奶油米白、浅金色和温暖琥珀色为统一色调，光线柔和干净，氛围安静、精致、有食欲。十二个画面从一粒晶莹米粒的微距开始，逐步展示米粒、蛋液、虾仁、青豆、火腿丁、葱花等食材被金色光线唤醒的过程；镜头语言由极近微距逐渐过渡到更开阔的食材漂浮构图，让所有食材像在晨光中缓慢苏醒。画面中不出现真实厨房，不出现人物，不出现勺子，不出现文字和字幕，只呈现干净背景、精致食材、柔和热气与高级广告质感。每个小画面都要保持统一光影、统一色彩、统一精致氛围，像一套完整的扬州炒饭广告开场分镜设计图。\n\n**视频提示语：**\\\n高级食品广告风，奶油米白与浅金色渐变背景，画面从一粒晶莹饱满的米粒开始，像打开一道食物香气的入口。镜头以极近微距缓慢推进，米粒表面带着温润高光，随后蛋液、虾仁、青豆、火腿丁和葱花依次在柔和光线中出现，所有食材不以普通摆拍方式呈现，而是像被清晨金色光线轻轻唤醒，在半空中缓慢漂浮、旋转、聚拢。整体画面干净、高级、细腻，强调米粒的颗粒感、蛋香的柔软感、虾仁的鲜甜感和配料的丰富色彩。不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。视频呈现高清广告片质感，画面细节丰富，焦点锐利，光影柔和，节奏由安静逐渐进入期待感。\n\n1.（1s）极近微距，一粒晶莹米粒悬浮在奶油米白背景中央，表面有柔和金色高光。\\\n2.（1s）镜头缓慢推进，米粒轻轻旋转，细腻纹理和饱满轮廓被光线勾勒出来。\\\n3.（1s）侧逆光特写，几粒米从画面边缘缓慢漂入，像被香气牵引。\\\n4.（1s）微距，金黄色蛋液在画面中形成柔软流动的光带，轻轻包裹米粒周围。\\\n5.（1s）近景，蛋液凝成细腻蛋丝，蛋丝像金色绸带一样在空气中舒展开。\\\n6.（1s）侧面特写，一只饱满虾仁缓慢进入画面，红白色泽明亮，表面带有清爽湿润感。\\\n7.（1s）俯拍近景，青豆和火腿丁依次浮现，形成细小而有节奏的彩色点缀。\\\n8.（1s）微距横移，葱花从浅金色光影中轻轻飘过，边缘带着清新绿色。\\\n9.（1s）中近景，米粒、蛋丝、虾仁和配料开始围绕同一个中心缓慢旋转。\\\n10.（1s）侧逆光，背景出现非常轻微的透明热气，食材边缘被金色轮廓光点亮。\\\n11.（1s）高俯拍，所有食材形成一个松散的圆形构图，像扬州炒饭的味觉蓝图。\\\n12.（1s）镜头轻微后拉，食材旋转速度略微加快，画面从安静变得更有动势。\\\n13.（1s）微距快切，米粒、蛋丝、虾仁的细节连续闪过，突出颗粒感和新鲜感。\\\n14.（1s）中景，金色光线从画面后方缓慢升起，所有食材被照亮，进入即将爆香的状态。\\\n15.（1s）大广角，食材在空中汇聚成一道轻盈金色弧线，为下一分镜的猛火入锅做铺垫。\n\n**旁白设计：**\\\n成熟男性低音，开场声音克制、干净，带一点高级食品广告的沉稳感。语速不快，像在引导观众从一粒米进入一份炒饭的香气世界。\n\n旁白：\\\n“好吃的开始，往往很安静。”\\\n“一粒米，等一束光。”\\\n“也等一口真正的锅气。”\n\n**声音设计：**\\\n前5秒以极轻的空气声和细腻高频晶莹声为主，像米粒被光线唤醒。6-10秒加入轻柔弦乐和非常细小的食材漂浮声，营造精致感。11秒后低频逐渐进入，节奏轻轻加快，最后2秒加入若隐若现的火焰预热声，为第二分镜的爆发做准备。\n\n---\n\n## 分镜 2｜15-30s\n\n### 猛火入锅：金黄米粒被锅气点燃\n\n**静态提示语要求：**\\\n专门用于 n\\*\\*\\*\\*\\*\\* pro 模型的提示词，生成一张四行三列的分镜设计图，也就是一张大图中包含十二个按顺序排列的十六比九画面。整体延续高级食品广告风格，色调从奶油米白逐渐过渡到明亮金黄色和温暖火焰橙色，光影更强烈，氛围从精致安静转向热烈爆香。十二个画面表现食材从空中汇聚到黑色炒锅上方，再被猛火锅气托起的过程；画面中黑色炒锅只作为高级视觉载体出现，背景不出现真实厨房环境。米粒在锅气中变得更加金黄，蛋丝、虾仁、青豆、火腿丁与葱花被热浪带动，形成强烈的动态弧线。整张分镜设计图要统一光线方向、统一金色火光、统一广告级精致质感，不出现人物，不出现勺子，不出现文字和字幕。\n\n**视频提示语：**\\\n高级食品广告风，画面延续上一分镜的食材金色弧线，镜头从半空中的米粒与配料开始向下俯冲，黑色炒锅在柔和金色背景中出现，不是现实厨房场景，而像一个被火光托起的高级舞台。食材落入锅面的一瞬间，底部猛火亮起，透明热浪向上翻涌，金黄米粒被锅气托起并迅速形成翻炒弧线。镜头跟随米粒穿梭、旋转、上扬，蛋丝在热浪中舒展，虾仁被金色高光扫过，青豆和火腿丁形成鲜明色彩节奏。整体强调“锅气爆发”的瞬间感、速度感和食欲冲击力，不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。视频呈现高端食品广告质感，画面具有强烈动态光影，细节清晰，节奏由蓄势进入爆发。\n\n1.（1s）大广角，上一分镜的金色食材弧线从画面上方继续向下汇聚，黑色炒锅在下方逐渐显现。\\\n2.（1s）俯拍中景，米粒、蛋丝、虾仁和配料向锅面落下，背景保持干净的金色渐变。\\\n3.（1s）极近景，第一批米粒触碰锅面，细小热气瞬间向上弹起。\\\n4.（1s）低机位仰拍，锅底下方金色火光猛然亮起，黑色锅沿被火焰轮廓光勾出弧线。\\\n5.（1s）中景，整片米粒被锅气向上托起，形成第一次清晰的翻炒弧线。\\\n6.（1s）侧逆光特写，米粒在空中划过，表面由米白转为更明亮的金黄色。\\\n7.（1s）微距，蛋丝被热浪吹开，像柔软金色丝带穿过米粒之间。\\\n8.（1s）近景，虾仁在翻炒弧线中掠过，红白色泽鲜明，边缘带着温润高光。\\\n9.（1s）俯拍快切，青豆、火腿丁、葱花在金黄米粒中跳动，形成丰富但干净的色彩层次。\\\n10.（1s）低机位，黑色炒锅轻微翻动，米粒从锅中腾起，火光和热气同时向上冲。\\\n11.（1s）跟随镜头，镜头贴近米粒飞行轨迹，穿过一片金色锅气，画面速度明显增强。\\\n12.（1s）侧面中景，整片炒饭在空中形成饱满弧面，透明热浪让背景微微扭曲。\\\n13.（1s）微距慢动作，几粒金黄米粒在热浪中短暂悬停，油润但清爽，颗粒分明。\\\n14.（1s）大广角，锅气和火光达到高潮，米粒、蛋丝、虾仁和配料形成巨大金色翻炒浪。\\\n15.（1s）侧逆光定格感，金色米浪在空中即将冻结，透明热浪包裹全部食材，为后续进入米浪内部做铺垫。\n\n**旁白设计：**\\\n成熟男性低音，前半段承接开场的克制感，后半段随着火光和锅气明显增强，声音更有力量，但不夸张，保持高级广告的沉稳质感。\n\n旁白：\\\n“火候一到，香气就有了方向。”\\\n“米粒翻起，蛋香散开。”\\\n“这一刻，锅气真正醒来。”\n\n**声音设计：**\\\n前3秒延续上一分镜的低频预热声，随后火焰声突然增强。4-8秒加入清脆的米粒入锅声、热气上冲声和细密翻炒声。9-12秒鼓点逐渐进入，节奏明显加快，配合镜头穿梭形成速度感。最后3秒音乐推向一次小高潮，并在最后一秒保留一瞬间的低频悬停感，为下一段“锅气冻结”创造衔接。"
+    ],
+    "action": "text_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": " 根据我的脚本预案及其中分镜15s参考分镜格式（只是参考呈现形式），格式输出30s的分镜剧本，每一个分镜15s，保持各个分镜的节奏和画面视觉感；\n\n每一个分镜格式参考如下：\n分镜一：\n静态提示语要求：\n专门用于\nnano banana pro 模型的提示词，生成一张 4x3 网格的分镜设计图（即一张大图里包含12个按顺序排列的16:9画面）。提示词编写要求：结构：必须以英文编写。核心指令：开头必须包含 4x3 grid storyboard sheet, 12 panels sequence, 16:9aspect ratio per panel, consistent visual style。内容描述：将分镜表中的12个画面整合成一段连贯描述，确保光影（Lighting）、色调（Color Palette）和氛围（Mood） 统一。\n\n子分镜脚本：xxxxx",
+     "model": "cvlm-5.5",
+     "count": 1,
+     "textList": [
+      {
+       "nodeId": "t-KSXxFE2Zxz",
+       "content": [
+        "## 分镜 5｜60-75s\n\n### 锅气冻结：进入金黄米浪内部\n\n**视频提示语：**\\\n高级食品广告风，奶油米白与金黄色渐变背景，延续上一分镜的猛火翻炒高潮。黑色炒锅完成最后一次翻动后，金黄炒饭在空中突然进入短暂冻结状态，米粒、虾仁、蛋丝、青豆、火腿丁、葱花全部悬停在透明热浪中，形成一片巨大的金色食材弧面。镜头不再拍普通落盘，而是进入这片金黄米浪内部，穿过米粒、蛋丝、虾仁和热气之间，像进入一个由锅气、米香和火候组成的微观食物宇宙。整体画面干净、高级、有速度感，强调锅气被看见、香气被放大、食材在半空中形成高级动态雕塑感。不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。\n\n1.（1s）中景，黑色炒锅完成上一段高潮后的最后一次翻动，整片金黄炒饭高高腾起。\\\n2.（1s）侧逆光特写，米浪在空中突然进入短暂冻结，透明热浪包裹住所有食材。\\\n3.（1s）超级大广角穿梭，镜头冲入悬停的金黄米粒之间，米粒像发光颗粒从镜头两侧掠过。\\\n4.（1s）微距，单颗米粒在空中缓慢旋转，表面带有油润但清爽的金色高光。\\\n5.（1s）极近景，蛋丝像柔软金色丝线一样穿过米粒之间，光线在蛋丝边缘轻轻闪动。\\\n6.（1s）侧面近景，虾仁悬停在米粒弧线中，红白色泽饱满，表面有轻微湿润高光。\\\n7.（1s）俯拍快切，青豆、火腿丁、胡萝卜丁在半空中形成细密彩色节奏点。\\\n8.（1s）低机位仰拍，黑色炒锅在下方变成虚化轮廓，金色火光从底部托住悬浮米浪。\\\n9.（1s）微距穿梭，镜头从虾仁、蛋丝、青豆之间快速穿过，食材层次清晰但不杂乱。\\\n10.（1s）侧逆光，透明热浪轻微扭曲背景，锅气像看得见的空气波纹一样包住米粒。\\\n11.（1s）超级近景，几粒米在热浪中轻微颤动，像被香气托在半空。\\\n12.（1s）环绕镜头，整片悬浮米浪开始缓慢旋转，形成金色弧形风暴。\\\n13.（1s）高俯拍，米粒、虾仁、蛋丝和青豆逐渐向中心聚拢，动态从散开变成回旋。\\\n14.（1s）中景，金色食材风暴开始向画面下方收束，仿佛香气正在回流。\\\n15.（1s）大广角，悬浮米浪形成一道完整金色旋涡，带着热气进入下一分镜。\n\n**旁白设计：**\\\n成熟男性低音，声音比第四分镜更沉下来，不再强调爆发，而是强调“香气被看见”的高级感。语速放慢，带一点沉浸感和余味。\n\n旁白：\\\n“真正的锅气，不只在火里。”\\\n“它在米粒离锅的一瞬间，被看见。”\n\n**声音设计：**\\\n前3秒延续上一分镜的锅火余声，然后鼓点突然抽空，形成短暂“时间冻结”的低频停顿。中段加入米粒划过空气的细小颗粒声、热浪声和极轻的弦乐铺底。最后3秒节奏重新聚拢，为第六分镜的金色回收做铺垫。\n\n---\n\n## 分镜 6｜75-90s\n\n### 黄金回收：从锅气风暴凝成成品主视觉\n\n**视频提示语：**\\\n高级食品广告风，奶油米白与金黄色渐变背景，延续上一分镜的金色食材旋涡。悬浮在空中的米粒、蛋丝、虾仁、青豆、火腿丁随着锅气形成回旋轨迹，从金色风暴逐渐凝聚为完整扬州炒饭主视觉。白色瓷盘不是普通静态出现，而是从柔和金色光影中被慢慢揭示，像高级展台一样接住回旋的金黄炒饭。最后4秒才进入真正稳定收束，成品炒饭居中，热气缓慢上升，金色柔光扫过米粒表面。整体强调从“锅气风暴”到“成品主视觉”的高级转化，不出现人物，不出现勺子，不出现真实厨房，不出现画面文字和字幕。\n\n1.（1s）大广角，上一分镜的金色食材旋涡继续向画面中心回收，米粒形成旋转轨迹。\\\n2.（1s）侧面近景，虾仁、蛋丝、青豆在旋涡中短暂掠过，像被锅气带动的香气记忆。\\\n3.（1s）低机位仰拍，金色火光在画面底部一闪而过，呼应开头锅火，但不回到真实厨房。\\\n4.（1s）俯拍，白色瓷盘从金色柔光中逐渐显现，盘面干净明亮，像舞台中心。\\\n5.（1s）中景，第一层金黄米粒沿着旋涡轨迹落向瓷盘，形成自然蓬松的底层。\\\n6.（1s）微距，虾仁轻轻落在米粒表面，红白色泽和金黄米粒形成强食欲对比。\\\n7.（1s）特写，蛋丝、青豆、火腿丁连续落位，颜色层次在盘面上快速完成。\\\n8.（1s）侧逆光，热气在落位瞬间向上升起，透明柔雾让背景短暂变得朦胧。\\\n9.（1s）高俯拍，整盘炒饭从旋涡状态快速凝成完整圆润主体，食材分布自然。\\\n10.（1s）平视近景，盘中炒饭轻微旋转停止，米粒松散饱满，表面金黄油润。\\\n11.（1s）微距，最后一缕葱花从上方轻轻落下，像香气的最后一个音符。\\\n12.（1s）最后4秒收束开始，镜头轻微后拉，白色瓷盘居中，背景稳定为奶油米白到金黄色渐变。\\\n13.（1s）金色柔光从盘边慢慢扫过，米粒表面出现细腻闪光，热气缓缓上升。\\\n14.（1s）画面完全安静下来，只保留成品炒饭、白盘、柔和热气和干净渐变背景。\\\n15.（1s）最终定格在扬州炒饭主体，金黄、饱满、温暖、高级，留下完整食欲余味。\n\n**旁白设计：**\\\n成熟男性低音，前半段带一点“收束感”，像把前面所有锅气、火候、鲜味收回来。最后一句要慢，稳，留出品牌广告式余韵。\n\n旁白：\\\n“米香、蛋香、鲜香，被锅气托起。”\\\n“最后，落成这一口金黄。”\\\n停顿。\\\n“锅气一开，黄金上桌。”\n\n**声音设计：**\\\n前5秒使用低频回旋声、轻微火焰回响和米粒旋转的细碎声，形成金色风暴回收感。6-10秒加入食材轻落盘的颗粒声和温暖弦乐。11秒后音乐明显收束。最后4秒只保留温暖尾音、轻微热气声和极低频空气感，画面进入高级静态余韵。"
+       ]
+      }
+     ],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "taskInfo": {
+     "taskId": "20260602111103123281940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "nodeWidth": 611,
+    "nodeHeight": 683,
+    "staleVersion": 5,
+    "_updatedAtMs": 1780381722000,
+    "_lastAppliedFullyAtMs": 1780381722000
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-417Qr7PwBL": {
+   "nodeKey": "t-417Qr7PwBL",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 2",
+   "position": {
+    "positionX": "49.279699117877385",
+    "positionY": "28.567365873234163"
+   },
+   "measured": {
+    "width": "350",
+    "height": "200"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 2",
+    "content": [
+     "## 《锅气交响》\n\n整体基调：高级食品广告风，奶油米白与金黄色渐变背景，极简棚拍空间，黑色炒锅、金色火焰、透明热浪、金黄米粒、虾仁、蛋丝、青豆、火腿丁、葱花和白色瓷盘作为核心视觉。画面节奏强烈，不做真实厨房环境，不做复杂场景，不出现画面文字，不出现字幕，不出现品牌字样。整体以 1s-1.5s 快切为主，每个15s段落内部都包含锅火、米粒、食材、热气和成品闪回，让节奏持续推进。\n\n声音基调：成熟男性旁白，低沉、稳、带轻微气息感。语气不是叫卖，而是像高端食品广告旁白。音乐以低频鼓点、锅铲声、火焰声、米粒落下声、热气声和轻微中式拨弦组成。开场强势，中段克制，高潮有力量，结尾温暖收束。\n\n---\n\n## 分镜 1｜0-15s\n\n### 锅火开场，第一秒进入食欲\n\n1.（1s）超级大广角低机位，奶油米白渐变背景中，黑色炒锅从画面下方快速推入，锅沿带出一道金色反光。\\\n2.（1s）极近景仰拍，锅底金色火焰瞬间点亮，火光像圆环一样从锅底扩散。\\\n3.（1s）侧面近景，炒饭被猛火翻起，金黄米粒形成第一道弧形米浪。\\\n4.（1s）微距穿梭，几粒油润米粒掠过镜头前景，表面有细腻高光。\\\n5.（1s）低机位仰拍，虾仁、青豆、火腿丁从金黄米浪中短暂悬浮，层次清晰。\\\n6.（1s）俯拍快切，锅中炒饭回落，米粒松散分明，火光从边缘闪过。\\\n7.（1s）极近景，锅铲划过米粒表面，带起一小片金色颗粒浪。\\\n8.（1s）侧逆光特写，透明热浪从锅沿升起，背景由奶油白过渡为浅金色。\\\n9.（1s）平视近景，成品炒饭在白色瓷盘中一闪而过，热气上升，制造食欲预告。\\\n10.（1s）微距，蛋丝缠绕米粒，金黄色细节快速闪现。\\\n11.（1s）低角度，第二次翻锅，米浪更高，火焰在下方托住食材。\\\n12.（1s）斜侧特写，虾仁在金黄米粒中弹起，红白质感鲜明。\\\n13.（1s）高速近景，青豆和胡萝卜丁随米粒弹跳，形成彩色节奏点。\\\n14.（1s）中景，炒饭完整回落锅中，火光收紧，热气包住画面。\\\n15.（1s）大广角定格，黑锅居中，金色热气上升，开场钩子完成。\n\n旁白：\\\n成熟男性低音，第一句要稳，带一点压迫感，像主角登场。\\\n“好吃的炒饭，第一秒，就要有锅气。”\n\n声音：\\\n低频空气声开场，火焰轰然点亮，锅铲声、米粒落下声和鼓点快速进入。\n\n---\n\n## 分镜 2｜15-30s\n\n### 米粒被点亮，黄金质感建立\n\n1.（1s）微距正面，几粒白润米粒悬浮在浅金背景中，表面干净晶莹。\\\n2.（1s）极近景侧拍，金黄色蛋液像丝绸一样从画面边缘掠过。\\\n3.（1s）微距俯拍，米粒穿过蛋液，表面被薄薄金色包裹。\\\n4.（1s）侧逆光，蛋液在米粒之间形成细腻光膜，油润但不油腻。\\\n5.（1s）快切回锅中，金黄米粒被锅铲带起，颗粒分明。\\\n6.（1s）极近景，单颗米粒翻滚，表面闪过一道柔和高光。\\\n7.（1s）中景，黑锅轻轻一颠，米粒像金色雨点一样腾空。\\\n8.（1s）微距，蛋丝落入米粒之间，形成柔软金色线条。\\\n9.（1s）平视近景，白色瓷盘中的成品炒饭短暂闪回，金黄饱满。\\\n10.（1s）俯拍，米粒在空中散开，不粘连，形成干净颗粒阵列。\\\n11.（1s）侧拍，热气从米粒间轻轻升起，背景柔和。\\\n12.（1s）微距，锅铲轻压米粒，米粒散开，显示松散质感。\\\n13.（1s）低机位，火光从锅底轻扫，金黄米粒被再次点亮。\\\n14.（1s）近景，米浪从锅中翻起，蛋香光泽在表面流动。\\\n15.（1s）中景收束，米粒回到锅中，画面进入下一段鲜味层次。\n\n旁白：\\\n男性声音放慢，语气更贴近细节，像在描述一件精密工艺。\\\n“米要分明，蛋要贴香。金黄，不只是颜色，是火候给出的层次。”\n\n声音：\\\n鼓点略收，加入细小颗粒声、蛋液流动声、轻微中式拨弦。\n\n---\n\n## 分镜 3｜30-45s\n\n### 鲜味不堆砌，食材在锅气里出现\n\n1.（1s）极近景，虾仁从金黄米粒中翻起，表面弹嫩有光泽。\\\n2.（1s）俯拍，火腿丁、青豆、胡萝卜丁快速落入米粒之间。\\\n3.（1s）侧面快切，锅铲一推，食材与米粒混合但层次清楚。\\\n4.（1s）微距，青豆滚过米粒表面，绿色成为清爽视觉点。\\\n5.（1s）特写，火腿丁被金色光线扫过，红色与米粒形成对比。\\\n6.（1s）近景，虾仁与蛋丝同时被翻起，形成红白金三色层次。\\\n7.（1s）斜侧俯拍，整锅炒饭短促翻动，食材均匀散开。\\\n8.（1s）极近景，葱花落下，像绿色香气轻轻点在米粒上。\\\n9.（1s）中景，锅火再次升起，食材被热浪托起。\\\n10.（1s）微距穿梭，镜头从虾仁、蛋丝、青豆之间快速穿过。\\\n11.（1s）俯拍，锅中颜色形成金黄、红、绿、橙的高级配比。\\\n12.（1s）侧拍，锅铲快速翻动，米粒保持松散，不成团。\\\n13.（1s）成品闪回，白盘炒饭热气上升，食材分布自然。\\\n14.（1s）低机位，火光从锅底跃起，画面节奏再次增强。\\\n15.（1s）中景收束，所有食材随米浪回落，准备进入高潮翻炒。\n\n旁白：\\\n男性声音从容，情绪克制，不强调“多”，强调“刚好”。\\\n“鲜味，不靠堆砌。虾的弹，蛋的香，米的松，每一种都要刚好。”\n\n声音：\\\n食材落下是轻快卡点声，锅铲声逐渐增强，音乐开始重新积累力量。\n\n---\n\n## 分镜 4｜45-60s\n\n### 猛火翻炒，全片锅气高潮\n\n1.（1s）低机位仰拍，锅底火焰突然增强，红橙色光带向上冲起。\\\n2.（1s）中景，黑锅大幅颠起，整片炒饭腾空成金色弧线。\\\n3.（1s）微距，米粒在空中旋转，表面高光快速闪烁。\\\n4.（1s）侧拍，虾仁、青豆、火腿丁在米浪中被清楚分离。\\\n5.（1s）俯拍，炒饭落回锅中，锅铲立刻接住节奏。\\\n6.（1s）极近景，锅铲边缘划过锅底，带出金黄米粒和热气。\\\n7.（1s）低角度，第二次翻炒，火光从底部向上扫过。\\\n8.（1s）高速特写，米粒、蛋丝、葱花形成短暂的金色风暴。\\\n9.（1s）侧逆光，透明热浪扭曲背景，锅气被视觉化。\\\n10.（1s）中景，第三次翻锅，炒饭高高跃起，达到全片视觉峰值。\\\n11.（1s）微距，油润米粒和蛋丝交错，颗粒仍然清楚。\\\n12.（1s）俯拍，炒饭回落时自然铺开，色彩均匀。\\\n13.（1s）低机位，火光忽然收紧，只留锅沿金色轮廓。\\\n14.（1s）近景，热气大幅升起，画面变得短暂朦胧。\\\n15.（1s）中景，黑锅稳定在画面中央，高潮结束，香气感留下。\n\n旁白：\\\n男性声音更有力量，但不喊，不兴奋，像沉稳地压住节奏。\\\n“一锅翻起，是火候。香气被火托住，才叫锅气。”\n\n声音：\\\n全片最强节奏段。火焰声、锅铲声、低频鼓点同步推进，但保持高级，不要吵闹。\n\n---\n\n## 分镜 5｜60-75s\n\n### 从锅中到盘中，成品诱惑快速建立\n\n1.（1s）俯拍，炒饭从锅中被带起，金黄米粒形成柔和弧线。\\\n2.（1s）白色瓷盘进入画面下方，背景从金黄回到奶油米白。\\\n3.（1s）米粒落盘，颗粒松散，声音轻细。\\\n4.（1s）虾仁自然落在表层，红白色泽清晰。\\\n5.（1s）蛋丝铺在米粒之间，增强金黄层次。\\\n6.（1s）青豆和火腿丁散落，颜色变得完整。\\\n7.（1s）微距，热气从盘中升起，掠过镜头前景。\\\n8.（1s）高俯拍，整盘炒饭形成饱满圆润的主体轮廓。\\\n9.（1s）平视近景，盘边有柔和高光，成品显得干净高级。\\\n10.（1s）极近景，米粒表面油润但清爽，不粘连。\\\n11.（1s）侧拍，葱花从上方轻轻落下，像最后一层香气。\\\n12.（1s）微距，虾仁、蛋丝、米粒同框，食欲最强。\\\n13.（1s）中近景，白盘居中，热气上升，背景温暖柔和。\\\n14.（1s）轻微推进，成品炒饭体积感更饱满。\\\n15.（1s）平视定住，画面进入一勺入口段落。\n\n旁白：\\\n男性声音放轻，情绪回落，温暖、满足。\\\n“粒粒分明，口口鲜香。热气升起的时候，香味就有了答案。”\n\n声音：\\\n鼓点减少，转为温暖低频、轻微弦乐、米粒落盘声和热气声。\n\n---\n\n## 分镜 6｜75-90s\n\n### 一勺入口感，最后4秒高级收束\n\n1.（1s）近景，白色瓷盘中的扬州炒饭安静出现，热气轻轻升起。\\\n2.（1s）银色勺子从侧面进入，轻轻切入炒饭表面。\\\n3.（1s）勺子挖起一勺，米粒松散，虾仁、青豆、蛋丝清楚可见。\\\n4.（1s）极近景，勺中米粒油润高光被放大，质感诱人。\\\n5.（1s）侧逆光，热气从勺子前方掠过，画面柔和。\\\n6.（1s）勺子缓慢靠近镜头，入口前的期待被拉满。\\\n7.（1s）微距，虾仁与金黄米粒同框，红白金色彩饱满。\\\n8.（1s）平视近景，勺子停在画面前方，食材层次稳定。\\\n9.（1s）勺子轻轻离开画面，镜头回到盘中成品。\\\n10.（1s）成品炒饭居中，背景为奶油米白与金黄色渐变。\\\n11.（1s）金色柔光从盘边扫过，米粒表面轻轻闪亮。\\\n12.（1s）热气缓慢上升，音乐明显收束。\\\n13.（1s）最后4秒收束开始，白盘居中，画面安静稳定。\\\n14.（1s）热气继续上升，背景柔和，所有动作变慢。\\\n15.（1s）画面定格在成品炒饭主体，留下温暖高级的余味。\n\n旁白：\\\n男性声音最低、最稳，语速放慢，最后一句留出余韵。\\\n“这一口，有金黄，也有锅气。”\\\n停顿。\\\n“锅气一开，黄金上桌。”\n\n声音：\\\n勺子轻碰瓷盘的清脆声后，音乐逐渐退去。最后4秒只保留温暖尾音和轻微热气声。"
+    ],
+    "action": "text_resource",
+    "generatorType": "default",
+    "params": {
+     "prompt": "",
+     "model": "aurora-3-prime",
+     "count": 1,
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "_updatedAtMs": 1780381714000,
+    "_lastAppliedFullyAtMs": 1780381714000
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-6i4WjGx0Uj": {
+   "nodeKey": "t-6i4WjGx0Uj",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 3",
+   "position": {
+    "positionX": "52.43278920176601",
+    "positionY": "307.91108619818476"
+   },
+   "measured": {
+    "width": "350",
+    "height": "200"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 3",
+    "content": [
+     "镜头序号景别与运镜画面详细描述（精准还原产品状态）时长旁白/音效\n\n1特写 / 缓慢推镜镜头画面聚焦于耳机顶部米白色皮革头带，镜头沿头带弧线进行极缓慢推近，柔和侧光从左至右扫过表面，清晰呈现细腻均匀的荔枝纹理、圆润包边、边缘精致缝线与头带厚度。背景为极简奶油色渐变空间，画面干净无多余道具。耳机头带保持真实弧形结构，皮革不变形，缝线不漂移，不出现额外装饰、文字或结构变化。1.5s【音效】黑胶唱片针尖落下的轻微“咝咝”声，伴随极轻空气感，建立复古、高级、克制的听觉质感。\n\n2极特写 / 快速平移镜头沿着米白色圆角方形耳罩的皮革表面进行快速横向平移，高光贴着细腻纹理掠过，皮革颗粒、包边弧度与耳罩厚度短暂清晰可见。镜头最终精准落幅于黑色“Marshall”手写体Logo，Logo位于耳罩外侧中央区域，形态完整、清晰可辨，不生成乱码或多余字母。奶油色背景、米白色耳罩与黑色立体Logo形成明确视觉反差，镜头落幅后仍保持轻微运动感，不形成完全静态定格。1.5s【音效】一声清脆电吉他拨弦泛音，与Logo落幅瞬间同步，尾音短促干净。\n\n3特写 / 微距旋转镜头切入右侧耳罩底部结构，围绕金色多向控制摇杆 Knob 进行小幅微距旋转，镜头运动克制且稳定。一束暖光准确落在金属表面，呈现精致黄铜光泽、圆润边缘与细微高光变化。摇杆旁侧清晰可见 Type-C 接口与音频孔，接口位置关系准确稳定，不新增多余孔位或按键，金属件、皮革耳罩与连接结构比例真实。画面强调产品操作区域的精密感与高级质感。1.5s【音效】金属控制摇杆被轻轻按下的清脆“咔嗒”声，随后加入极轻低频预震，为后续展开动作蓄势。\n\n4中景 / 升降运镜纯净米色渐变空间中，折叠状态的米白色头戴式耳机悬浮于画面中央，产品轮廓清晰完整。镜头轻微上升的同时，耳机完成一次干净利落的机械展开动作：两侧圆角方形耳罩从内收状态向外展开至正常佩戴角度，金属铰链与同色系外露弹簧线缆短暂显现，结构运动真实、对称、稳定。头带、耳罩、铰链与连接线缆保持准确位置关系，不出现断裂、错位、拉伸或形态突变。1.5s【音效】连续而克制的机械咬合声随展开动作响起，展开完成瞬间接入一记具有爆发力的Bass鼓点。\n\n5全景 / 缓慢环绕产品 Hero Shot：完全展开的米白色耳机在半空中优雅悬浮，镜头围绕产品进行平稳小角度环绕，展示完整头戴式轮廓。柔和顶光倾泻在头带与两侧耳罩上，清晰呈现米白色皮革材质、圆角方形耳罩比例、黑色“Marshall”手写体Logo、金属连接结构、铰链细节与整体对称关系。背景保持简洁奶油色渐变，不加入文字、道具、装饰元素或复杂环境，让产品成为唯一视觉主体。产品始终保持真实比例与稳定结构。2.0s【音乐】节奏感鲜明的现代轻摇滚Beat进入主段，鼓点、贝斯与克制电吉他节奏共同推进，氛围从复古质感转入现代动感。\n\n6近景 / 锁定跟拍模特仅保留虚化的侧面轮廓、发丝与肩部局部，人物不抢占主体。模特以自然简洁的动作将米白色耳机戴上，镜头始终锁定佩戴状态下侧面的圆角方形耳罩与黑色“Marshall”手写体Logo，避免手部大面积遮挡产品。佩戴完成后，模特随音乐节奏轻轻点头，动作幅度克制。柔和侧光在耳罩表面流动，清晰呈现皮革纹理、包边轮廓、耳罩厚度与贴合耳部的舒适质感。Logo保持清晰，不变形，不被头发或手部遮挡。2.0s【音乐】现代轻摇滚节奏持续推进，低音变得更深沉有力，加入更鲜明的电吉他切分节拍，画面进入沉浸式佩戴氛围。\n\n7特写 / 呼吸变焦镜头再次靠近佩戴状态下的耳罩侧面，画面聚焦米白色皮革耳罩、黑色“Marshall”Logo与耳罩外轮廓。伴随连续重低音，镜头进行幅度克制的呼吸式变焦，光影随节拍产生轻微明暗起伏，以视觉节奏表现音乐的力量感、包裹感与沉浸感。耳机主体始终保持结构清晰、材质稳定，Logo不模糊，耳罩不产生夸张震动、拉伸、变形或错误位移。背景人物保持柔和虚化，产品始终为画面绝对焦点。1.5s【音乐】鼓点密度进一步增加，贝斯持续向前推动，形成更强运动节奏，但不进入收尾情绪。\n\n8仰拍（低角度） / 弧形快速推镜镜头从完全展开耳机的下方低角度切入，产品重新回到独立悬浮状态，与前一镜的音乐能量形成视觉延续。一束温暖逆光从米白色头带后方射出，清晰勾勒头带弧线、圆角方形耳罩边缘、金属铰链与连接结构轮廓。镜头随节拍沿耳罩下缘向上进行弧形快速推镜，高光连续滑过皮革包边、金属连接部位与头带表面，强化产品完整造型的机械精致感、高级张力与舞台感。本镜不重复强调接口细节，以整体轮廓气场、低角度力量感和产品结构完整性为主。1.5s【音乐/音效】节奏持续增强但不收束，鼓点和贝斯继续向前推进，配合一声锐利电吉他扫弦与短促金属掠过声。\n\n9近景 / 侧向跟移 + 前景遮挡转场延续上一镜弧形快速推镜产生的运动势能，完全展开的米白色耳机在米色渐变空间中由画面右侧向左侧快速而平稳地横向滑移，镜头同步侧向跟移，保持产品运动方向连续。动态过程中，画面短暂而清晰地保留米白色皮革头带、圆角方形耳罩、黑色“Marshall”手写体Logo、金色连接结构与整体头戴式轮廓，产品不旋转失控、不变形、不新增结构。运动末段，靠近镜头的一侧米白色耳罩逐渐放大并从前景自然擦过镜头，形成柔和奶油色皮革质感的满屏遮挡。画面结束时保持该遮挡状态，为下一组分镜从同色遮挡中揭开、进行材质匹配切换或延续同方向运动提供自然连接入口。画面不出现文字标语，不静止，不形成片尾落点。2.0s【音乐/音效】现代轻摇滚Beat保持连续高能推进，不设置结尾重拍或收尾余音；耳机擦过镜头时加入短促空气掠过声与克制低频冲击，声音保持向前延伸，画面维持无结尾的连续切换状态。"
+    ],
+    "action": "text_resource",
+    "generatorType": "default",
+    "params": {
+     "prompt": "",
+     "model": "aurora-3-prime",
+     "count": 1,
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "_updatedAtMs": 1780381714000,
+    "_lastAppliedFullyAtMs": 1780381714000
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-e6VJXgHP1B": {
+   "nodeKey": "t-e6VJXgHP1B",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 2",
+   "position": {
+    "positionX": "1237.3735438350745",
+    "positionY": "40.96914885251863"
+   },
+   "measured": {
+    "width": "366",
+    "height": "737"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 2",
+    "content": [
+     "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；不出现文字、字幕、品牌标识、真实厨房或多余道具。"
+    ],
+    "action": "text_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "根据用户提供的完整脚本方案、主题设定、参考风格、画面要求、音乐/节奏说明及禁用项，提炼一段可贯穿整支视频、适用于所有分镜提示语前置使用的统一视频基调通用语句。\n\n要求：\n\n仅概括全片统一的视觉诠释、影像风格、色彩倾向、光影氛围、材质质感、摄影质感、节奏气质、剪辑风格与整体情绪。\n该语句必须具有通用性，可直接复制到本脚本中每一个分镜提示语的开头，用于保证角色、产品、空间与镜头之间的整体风格一致。\n不描述具体剧情、具体镜头内容、具体人物动作、具体产品状态、具体场景事件、转场过程或旁白内容。\n不生成新的剧情设定，不扩展原脚本中不存在的视觉元素，不改变用户提供的主题与风格方向。\n若用户提供了参考对象、品牌调性、导演风格、画幅比例、色彩限制、时代背景、材质要求或禁用项，需将其转化为统一风格约束，但不要逐条复述原始信息。\n输出内容应以适合图像/视频生成模型理解的视觉关键词与自然语言短句组成，语言凝练、画面感明确、风格统一，避免抽象空泛描述。\n输出中不得出现“根据脚本”“视频基调”“统一风格”“以下是”“可用于每个分镜”等说明性前缀。\n不使用项目符号、编号、标题、解释、分析或备注。\n只输出一段完整的通用前置风格语句，长度控制在 80—180 字，可直接粘贴到每一个分镜提示语前使用。\n输出目标示例结构：\n【整体影像风格】+【固定色彩与光影】+【材质与画面质感】+【摄影/镜头语言气质】+【节奏与情绪统一要求】+【必要禁用约束】",
+     "model": "cvlm-5.5",
+     "count": 1,
+     "textList": [
+      {
+       "nodeId": "t-IdM0O7LclT",
+       "content": [
+        "# 90s 分镜剧本｜《锅气交响》\n\n\\*\\*整体视觉基调：\\*\\*高级食品广告风。画面始终保持极简棚拍空间，不进入真实厨房环境。背景以奶油米白到金黄色渐变为主，黑色炒锅、金色火焰、透明热浪、金黄米粒、虾仁、蛋丝、青豆、火腿丁、葱花与白色瓷盘构成核心视觉元素。全片不出现字幕、不出现画面文字、不出现品牌字样。\\\n\\*\\*整体节奏：\\*\\*前四段以 1s 至 1.5s 快切推进，强调锅火、米粒、食材与热浪的连续冲击；第五段转向成品诱惑；第六段放慢，完成一勺入口感与高级收束。\\\n\\*\\*声音基调：\\*\\*成熟男性低音旁白，沉稳、有气息感、不叫卖。音乐由低频鼓点、锅铲声、火焰声、米粒落下声、热气声与轻微中式拨弦组成，开场强势，中段克制，高潮有力量，结尾温暖收束。\n\n---\n\n## 分镜一｜0-15s\n\n### 锅火开场，第一秒进入食欲\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉风格保持统一，呈现高级食品广告质感。画面发生在极简奶油米白到浅金色渐变的棚拍空间中，主体是黑色炒锅、金色火焰、透明热浪和松散分明的黄金炒饭。十二个画面需要连续表现开场十五秒的强节奏：黑锅从画面下方快速进入，锅底火焰瞬间点亮，炒饭被猛火翻起，金黄米粒形成弧形米浪，虾仁、青豆、火腿丁和蛋丝在米浪中短暂悬浮，锅铲划过米粒表面，透明热浪从锅沿升起，白色瓷盘中的成品炒饭一闪而过，最后黑锅居中，金色热气向上升腾。整体灯光以温暖侧逆光和锅底金色火光为主，色调干净、克制、食欲感强，氛围高级、有力量、第一秒就抓住注意力。画面中不要出现任何文字、字幕、品牌标识、真实厨房背景或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1超级大广角 / 低机位快速推入奶油米白渐变背景中，黑色炒锅从画面下方迅速推入，锅沿带出一道锐利金色反光，瞬间建立主角登场感。1s低频空气声骤然压入。2极近景 / 仰拍锅底金色火焰瞬间点亮，火光像圆环一样从锅底向四周扩散，黑锅边缘被勾出清晰轮廓。1s火焰“轰”地燃起。3侧面近景 / 快切炒饭被猛火翻起，金黄米粒形成第一道弧形米浪，颗粒在空中松散分明。1s锅铲声与第一记鼓点同步进入。4微距 / 穿梭镜头几粒油润米粒掠过镜头前景，表面细腻高光快速闪动，背景被热气轻微扭曲。1s米粒划过空气的细碎声。5低机位 / 仰拍虾仁、青豆、火腿丁从金黄米浪中短暂悬浮，红、绿、金三色层次清楚。1s轻快卡点音。6俯拍 / 快切炒饭回落锅中，米粒松散铺开，火光从锅边缘快速扫过。1s米粒落锅声清晰、密集。7极近景 / 横向掠过锅铲划过米粒表面，带起一小片金色颗粒浪，米粒不粘连、不成团。1s金属锅铲声短促利落。8侧逆光特写 / 缓慢上移透明热浪从锅沿升起，背景由奶油白渐变为浅金色，锅气被视觉化。1s热气声轻轻浮起。9平视近景 / 闪回切入白色瓷盘中的成品炒饭一闪而过，热气上升，形成食欲预告。1.5s旁白开始：“好吃的炒饭……”10微距 / 快速切换蛋丝缠绕米粒，金黄色细节短暂闪现，油润但清爽。1.5s旁白继续：“第一秒……”11低角度 / 二次翻锅第二次翻锅，米浪更高，火焰在下方托住食材，画面冲击力增强。1.5s鼓点加密，火焰声增强。12大广角 / 稳定定格黑锅居中，炒饭完整回落，金色热气向上升腾，开场钩子完成。1.5s旁白落句：“就要有锅气。”\n\n---\n\n## 分镜二｜15-30s\n\n### 米粒被点亮，黄金质感建立\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体保持高级食品广告的统一视觉语言。画面聚焦米粒从白润到金黄的质感变化，背景为柔和奶油米白与浅金色渐变，光线干净而温暖。十二个画面需要表现几粒白润米粒悬浮在浅金背景中，金黄色蛋液像丝绸一样掠过，米粒穿过蛋液后被薄薄金色包裹，蛋液在米粒之间形成细腻光膜，随后切回黑色炒锅中，锅铲带起金黄米粒，单颗米粒在空中翻滚并闪过柔和高光，黑锅轻颠时米粒像金色雨点腾空，蛋丝落入米粒之间，白盘成品短暂闪回，最后米粒回到锅中并进入下一段鲜味层次。整体光影以柔和侧逆光、浅金高光和干净棚拍反射为主，氛围精致、克制、像在展示一道食物工艺。画面中不要出现任何文字、字幕、品牌标识、真实厨房环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1微距正面 / 静中轻推几粒白润米粒悬浮在浅金背景中，表面干净晶莹，尚未被完全上色。1s鼓点略收，空气感变轻。2极近景 / 侧向掠过金黄色蛋液像丝绸一样从画面边缘流动掠过，形成柔软光带。1s蛋液流动声轻柔进入。3微距俯拍 / 慢动作米粒穿过蛋液，表面被薄薄金色包裹，颜色从白润过渡到温暖金黄。1s细小颗粒声。4侧逆光特写 / 轻微环绕蛋液在米粒之间形成细腻光膜，油润但不显厚重，质感高级清爽。1s中式拨弦轻轻点入。5近景 / 快切回锅画面回到黑锅，金黄米粒被锅铲带起，颗粒分明地向上扬起。1s锅铲声重新进入节奏。6极近景 / 跟随翻滚单颗米粒在空中翻滚，表面闪过一道柔和高光，质地饱满。1s旁白开始：“米要分明……”7中景 / 黑锅轻颠黑锅轻轻一颠，米粒像金色雨点一样腾空散开，不粘连、不成团。1.5s旁白继续：“蛋要贴香。”8微距 / 垂直落下蛋丝落入米粒之间，形成柔软的金色线条，强化蛋香层次。1s轻微拨弦与落点同步。9平视近景 / 成品闪回白色瓷盘中的成品炒饭短暂闪回，金黄饱满，热气轻轻上升。1s热气声短暂浮现。10俯拍 / 空中定格感米粒在空中散开，形成干净的颗粒阵列，展示粒粒分明。1.5s旁白：“金黄，不只是颜色……”11低机位 / 火光轻扫火光从锅底轻扫而过，金黄米粒被再次点亮，色泽更加立体。1.5s低频鼓点回升。12中景 / 收束回落米浪从锅中翻起后自然回落，蛋香光泽在表面流动，进入鲜味段落。1.5s旁白落句：“是火候给出的层次。”\n\n---\n\n## 分镜三｜30-45s\n\n### 鲜味不堆砌，食材在锅气里出现\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体仍然是高级食品广告风格。画面发生在极简奶油米白与浅金色渐变棚拍空间中，黑色炒锅居于核心位置，锅中金黄米粒、虾仁、蛋丝、青豆、火腿丁、胡萝卜丁和葱花依次出现。十二个画面需要表现虾仁从金黄米粒中翻起，火腿丁、青豆、胡萝卜丁快速落入米粒之间，锅铲推动食材与米粒混合但层次清楚，青豆滚过米粒表面，火腿丁被金色光线扫过，虾仁与蛋丝同时被翻起，葱花像绿色香气一样落下，锅火再次升起，镜头从虾仁、蛋丝和青豆之间快速穿过，最后所有食材随米浪回落。整体光线以温暖金色侧光和锅底火光为主，色彩呈现金黄、红、绿、橙的高级配比，氛围克制而有食欲。画面中不要出现文字、字幕、品牌标识、复杂厨房环境或额外餐具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1极近景 / 快切虾仁从金黄米粒中翻起，表面弹嫩有光泽，红白质感鲜明。1s轻快食材弹起声。2俯拍 / 快速落料火腿丁、青豆、胡萝卜丁快速落入米粒之间，颜色瞬间丰富。1s食材落下形成卡点。3侧面近景 / 锅铲推进锅铲一推，食材与米粒混合，但虾仁、青豆、火腿丁仍保持清楚层次。1s锅铲声增强。4微距 / 低角度跟随青豆滚过米粒表面，绿色成为清爽的视觉节奏点。1s细小滚动声。5特写 / 光线扫过火腿丁被一道金色光线扫过，红色与金黄米粒形成高级对比。1s短促拨弦点缀。6近景 / 翻起慢动作虾仁与蛋丝同时被翻起，红白金三色在空中形成清晰层次。1.5s旁白开始：“鲜味，不靠堆砌。”7斜侧俯拍 / 短促翻动整锅炒饭短促翻动，食材均匀散开，米粒仍保持松散状态。1s鼓点重新积累。8极近景 / 垂直落下葱花从上方落下，像绿色香气轻轻点在米粒上。1s葱花落点声轻细。9中景 / 火焰升起锅火再次升起，食材被热浪托起，空气出现透明扭曲。1.5s火焰声增强。10微距 / 穿梭镜头镜头从虾仁、蛋丝、青豆之间快速穿过，强化食材层次与速度感。1s旁白：“虾的弹，蛋的香……”11俯拍 / 色彩构图锅中形成金黄、红、绿、橙的干净配比，整体饱满但不杂乱。1.5s音乐继续向前推进。12中景 / 收束回落所有食材随米浪回落锅中，火光从底部跃起，准备进入高潮翻炒。1.5s旁白落句：“米的松，每一种都要刚好。”\n\n---\n\n## 分镜四｜45-60s\n\n### 猛火翻炒，全片锅气高潮\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉统一为高级食品广告中的锅气高潮段落。画面仍然处于极简棚拍空间，背景为奶油米白向浓郁金黄色渐变，黑色炒锅位于画面核心，红橙色火焰、透明热浪与金黄炒饭构成强烈视觉冲击。十二个画面需要表现锅底火焰突然增强，黑锅大幅颠起，整片炒饭腾空成金色弧线，米粒在空中旋转并闪烁高光，虾仁、青豆、火腿丁在米浪中清楚分离，炒饭落回锅中后锅铲立刻接住节奏，第二次和第三次翻锅逐渐推向全片视觉峰值，米粒、蛋丝和葱花形成短暂金色风暴，透明热浪扭曲背景，最后火光收紧，黑锅稳定在画面中央，香气感停留。整体灯光以强烈锅底火光、侧逆光和金色轮廓光为主，氛围有力量但不嘈杂，画面高级、干净、冲击力强。不要出现文字、字幕、品牌标识、真实厨房环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1低机位仰拍 / 突然推进锅底火焰突然增强，红橙色光带向上冲起，黑锅边缘被强烈勾勒。1s全片最强火焰声启动。2中景 / 大幅颠锅黑锅大幅颠起，整片炒饭腾空成金色弧线，画面进入高潮。1s重鼓点同步击中。3微距 / 高速捕捉米粒在空中旋转，表面高光快速闪烁，颗粒仍然清楚。1s米粒高速掠过声。4侧拍 / 追随米浪虾仁、青豆、火腿丁在米浪中被清楚分离，色彩丰富而不混乱。1s锅铲声与鼓点交织。5俯拍 / 快速回落炒饭落回锅中，锅铲立刻接住节奏，米粒向四周自然散开。1s金属碰撞声干净有力。6极近景 / 划过锅底锅铲边缘划过锅底，带出金黄米粒与升腾热气，画面质感锐利。1s旁白开始：“一锅翻起……”7低角度 / 二次翻炒第二次翻炒，火光从底部向上扫过，食材被金色火焰托住。1.5s旁白继续：“是火候。”8高速特写 / 短暂风暴米粒、蛋丝、葱花形成短暂的金色风暴，热浪扭曲背景。1s鼓点密度达到峰值。9侧逆光特写 / 热浪上升透明热浪从锅沿升起，背景被轻微拉伸变形，锅气具象化。1s热气声放大。10中景 / 第三次翻锅第三次翻锅，炒饭高高跃起，形成全片视觉峰值，火焰在下方托住米浪。1.5s旁白：“香气被火托住……”11俯拍 / 自然铺开炒饭回落时自然铺开，金黄米粒、虾仁、青豆和火腿丁分布均匀。1.5s音乐保持高能但不刺耳。12中景 / 高潮收束火光忽然收紧，只留锅沿金色轮廓，热气大幅升起，黑锅稳定在中央。1.5s旁白落句：“才叫锅气。”\n\n---\n\n## 分镜五｜60-75s\n\n### 从锅中到盘中，成品诱惑快速建立\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体风格为高级食品广告的成品建立段落。画面从黑色炒锅转向白色瓷盘，背景从金黄色逐渐回到奶油米白，整体光线变得更柔和、更温暖。十二个画面需要表现炒饭从锅中被带起，金黄米粒形成柔和弧线，白色瓷盘进入画面下方，米粒松散落盘，虾仁自然落在表层，蛋丝铺在米粒之间，青豆和火腿丁散落补完整体颜色，热气从盘中升起，高俯拍展示整盘炒饭圆润饱满的主体轮廓，平视近景呈现干净盘边与柔和高光，葱花从上方轻轻落下，最后白盘居中，成品热气上升。整体色调温暖、干净、诱人，画面强调粒粒分明、食材自然分布和白瓷盘的高级感。不要出现文字、字幕、品牌标识、真实餐桌环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1俯拍 / 柔和带起炒饭从黑锅中被锅铲带起，金黄米粒形成柔和弧线，动作从激烈转为顺滑。1s鼓点减少，米粒声变轻。2中近景 / 下方入画白色瓷盘从画面下方进入，背景由金黄色回到奶油米白。1s温暖低频铺底。3特写 / 落盘米粒落入盘中，颗粒松散分明，声音轻细干净。1s米粒落盘声清晰。4极近景 / 自然落点虾仁自然落在炒饭表层，红白色泽清晰，位置不刻意但足够诱人。1s轻微卡点声。5特写 / 层次铺开蛋丝铺在米粒之间，金黄色层次被进一步强化。1s弦乐轻轻进入。6近景 / 色彩补全青豆和火腿丁自然散落，整盘炒饭的颜色变得完整。1s旁白开始：“粒粒分明……”7微距 / 热气掠过热气从盘中升起，轻轻掠过镜头前景，画面短暂变得柔和。1.5s热气声温柔浮起。8高俯拍 / 稳定构图整盘炒饭形成饱满圆润的主体轮廓，白盘边缘干净明亮。1s旁白继续：“口口鲜香。”9平视近景 / 轻微推近盘边有柔和高光，成品显得干净高级，背景温暖克制。1.5s音乐进一步放松。10极近景 / 质感展示米粒表面油润但清爽，不粘连，虾仁与蛋丝局部进入虚实层次。1s细腻颗粒声。11侧拍 / 葱花落下葱花从上方轻轻落下，像最后一层香气点在炒饭上。1.5s旁白：“热气升起的时候……”12平视定住 / 成品建立白盘居中，热气持续上升，成品炒饭饱满诱人，准备进入一勺入口段落。1.5s旁白落句：“香味就有了答案。”\n\n---\n\n## 分镜六｜75-90s\n\n### 一勺入口感，最后四秒高级收束\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体风格为高级食品广告的温暖收束段落。画面发生在极简奶油米白与柔和金黄色渐变空间中，白色瓷盘中的扬州炒饭居于中心，热气缓慢上升，光线变得更柔和、更安静。十二个画面需要表现成品炒饭安静出现，银色勺子从侧面进入并轻轻切入炒饭表面，勺子挖起一勺，米粒松散，虾仁、青豆和蛋丝清楚可见，勺中米粒的油润高光被放大，热气从勺子前方掠过，勺子缓慢靠近镜头，入口前的期待被拉满，随后勺子轻轻离开画面，镜头回到盘中成品，金色柔光从盘边扫过，最后四秒画面安静稳定，白盘居中，热气继续上升，定格在温暖高级的余味中。整体氛围克制、满足、温暖，不出现人物入口画面，不出现文字、字幕、品牌标识或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1近景 / 安静出现白色瓷盘中的扬州炒饭安静居中，热气轻轻升起，背景为奶油米白与柔和金黄渐变。1s音乐明显变暖、变慢。2近景 / 侧向进入银色勺子从侧面进入画面，轻轻切入炒饭表面，动作干净克制。1s勺子轻碰瓷盘的清脆声。3特写 / 缓慢挖起勺子挖起一勺炒饭，米粒松散，虾仁、青豆、蛋丝清楚可见。1s米粒轻微滑落声。4极近景 / 质感放大勺中米粒油润高光被放大，虾仁红白分明，蛋丝柔软地缠在米粒间。1s旁白开始：“这一口……”5侧逆光 / 热气掠过热气从勺子前方掠过，画面柔和，银色勺面映出暖金色光。1s热气声细腻延展。6近景 / 缓慢靠近镜头勺子缓慢靠近镜头，入口前的期待被拉满，但不出现人物嘴部。1.5s旁白继续：“有金黄……”7微距 / 食材同框虾仁与金黄米粒同框，青豆成为清爽色点，食欲感达到最后峰值。1s音乐留出空间。8平视近景 / 短暂停留勺子停在画面前方，食材层次稳定清晰，背景柔和虚化。1s旁白：“也有锅气。”9近景 / 勺子离画勺子轻轻离开画面，镜头回到盘中成品，动作自然流畅。1s旁白后留短暂停顿。10中近景 / 成品回归成品炒饭居中，金色柔光从盘边扫过，米粒表面轻轻闪亮。1.5s音乐开始收束。11中景 / 最后四秒开始白盘稳定居中，热气缓慢上升，背景柔和，所有动作明显放慢。2s旁白低声：“锅气一开……”12平视定格 / 温暖收尾画面定格在成品炒饭主体，热气继续上升，留下温暖高级的余味。2s旁白落句：“黄金上桌。”音乐只保留温暖尾音与轻微热气声。"
+       ]
+      }
+     ],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "taskInfo": {
+     "taskId": "20260602093503019611940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": true,
+    "staleVersion": 23,
+    "_updatedAtMs": 1780381729000,
+    "_lastAppliedFullyAtMs": 1780381729000,
+    "nodeWidth": 366,
+    "nodeHeight": 737
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-IdM0O7LclT": {
+   "nodeKey": "t-IdM0O7LclT",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 4",
+   "position": {
+    "positionX": "601.4747790045498",
+    "positionY": "43.83975406719918"
+   },
+   "measured": {
+    "width": "603",
+    "height": "702"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 4",
+    "content": [
+     "# 90s 分镜剧本｜《锅气交响》\n\n\\*\\*整体视觉基调：\\*\\*高级食品广告风。画面始终保持极简棚拍空间，不进入真实厨房环境。背景以奶油米白到金黄色渐变为主，黑色炒锅、金色火焰、透明热浪、金黄米粒、虾仁、蛋丝、青豆、火腿丁、葱花与白色瓷盘构成核心视觉元素。全片不出现字幕、不出现画面文字、不出现品牌字样。\\\n\\*\\*整体节奏：\\*\\*前四段以 1s 至 1.5s 快切推进，强调锅火、米粒、食材与热浪的连续冲击；第五段转向成品诱惑；第六段放慢，完成一勺入口感与高级收束。\\\n\\*\\*声音基调：\\*\\*成熟男性低音旁白，沉稳、有气息感、不叫卖。音乐由低频鼓点、锅铲声、火焰声、米粒落下声、热气声与轻微中式拨弦组成，开场强势，中段克制，高潮有力量，结尾温暖收束。\n\n---\n\n## 分镜一｜0-15s\n\n### 锅火开场，第一秒进入食欲\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉风格保持统一，呈现高级食品广告质感。画面发生在极简奶油米白到浅金色渐变的棚拍空间中，主体是黑色炒锅、金色火焰、透明热浪和松散分明的黄金炒饭。十二个画面需要连续表现开场十五秒的强节奏：黑锅从画面下方快速进入，锅底火焰瞬间点亮，炒饭被猛火翻起，金黄米粒形成弧形米浪，虾仁、青豆、火腿丁和蛋丝在米浪中短暂悬浮，锅铲划过米粒表面，透明热浪从锅沿升起，白色瓷盘中的成品炒饭一闪而过，最后黑锅居中，金色热气向上升腾。整体灯光以温暖侧逆光和锅底金色火光为主，色调干净、克制、食欲感强，氛围高级、有力量、第一秒就抓住注意力。画面中不要出现任何文字、字幕、品牌标识、真实厨房背景或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1超级大广角 / 低机位快速推入奶油米白渐变背景中，黑色炒锅从画面下方迅速推入，锅沿带出一道锐利金色反光，瞬间建立主角登场感。1s低频空气声骤然压入。2极近景 / 仰拍锅底金色火焰瞬间点亮，火光像圆环一样从锅底向四周扩散，黑锅边缘被勾出清晰轮廓。1s火焰“轰”地燃起。3侧面近景 / 快切炒饭被猛火翻起，金黄米粒形成第一道弧形米浪，颗粒在空中松散分明。1s锅铲声与第一记鼓点同步进入。4微距 / 穿梭镜头几粒油润米粒掠过镜头前景，表面细腻高光快速闪动，背景被热气轻微扭曲。1s米粒划过空气的细碎声。5低机位 / 仰拍虾仁、青豆、火腿丁从金黄米浪中短暂悬浮，红、绿、金三色层次清楚。1s轻快卡点音。6俯拍 / 快切炒饭回落锅中，米粒松散铺开，火光从锅边缘快速扫过。1s米粒落锅声清晰、密集。7极近景 / 横向掠过锅铲划过米粒表面，带起一小片金色颗粒浪，米粒不粘连、不成团。1s金属锅铲声短促利落。8侧逆光特写 / 缓慢上移透明热浪从锅沿升起，背景由奶油白渐变为浅金色，锅气被视觉化。1s热气声轻轻浮起。9平视近景 / 闪回切入白色瓷盘中的成品炒饭一闪而过，热气上升，形成食欲预告。1.5s旁白开始：“好吃的炒饭……”10微距 / 快速切换蛋丝缠绕米粒，金黄色细节短暂闪现，油润但清爽。1.5s旁白继续：“第一秒……”11低角度 / 二次翻锅第二次翻锅，米浪更高，火焰在下方托住食材，画面冲击力增强。1.5s鼓点加密，火焰声增强。12大广角 / 稳定定格黑锅居中，炒饭完整回落，金色热气向上升腾，开场钩子完成。1.5s旁白落句：“就要有锅气。”\n\n---\n\n## 分镜二｜15-30s\n\n### 米粒被点亮，黄金质感建立\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体保持高级食品广告的统一视觉语言。画面聚焦米粒从白润到金黄的质感变化，背景为柔和奶油米白与浅金色渐变，光线干净而温暖。十二个画面需要表现几粒白润米粒悬浮在浅金背景中，金黄色蛋液像丝绸一样掠过，米粒穿过蛋液后被薄薄金色包裹，蛋液在米粒之间形成细腻光膜，随后切回黑色炒锅中，锅铲带起金黄米粒，单颗米粒在空中翻滚并闪过柔和高光，黑锅轻颠时米粒像金色雨点腾空，蛋丝落入米粒之间，白盘成品短暂闪回，最后米粒回到锅中并进入下一段鲜味层次。整体光影以柔和侧逆光、浅金高光和干净棚拍反射为主，氛围精致、克制、像在展示一道食物工艺。画面中不要出现任何文字、字幕、品牌标识、真实厨房环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1微距正面 / 静中轻推几粒白润米粒悬浮在浅金背景中，表面干净晶莹，尚未被完全上色。1s鼓点略收，空气感变轻。2极近景 / 侧向掠过金黄色蛋液像丝绸一样从画面边缘流动掠过，形成柔软光带。1s蛋液流动声轻柔进入。3微距俯拍 / 慢动作米粒穿过蛋液，表面被薄薄金色包裹，颜色从白润过渡到温暖金黄。1s细小颗粒声。4侧逆光特写 / 轻微环绕蛋液在米粒之间形成细腻光膜，油润但不显厚重，质感高级清爽。1s中式拨弦轻轻点入。5近景 / 快切回锅画面回到黑锅，金黄米粒被锅铲带起，颗粒分明地向上扬起。1s锅铲声重新进入节奏。6极近景 / 跟随翻滚单颗米粒在空中翻滚，表面闪过一道柔和高光，质地饱满。1s旁白开始：“米要分明……”7中景 / 黑锅轻颠黑锅轻轻一颠，米粒像金色雨点一样腾空散开，不粘连、不成团。1.5s旁白继续：“蛋要贴香。”8微距 / 垂直落下蛋丝落入米粒之间，形成柔软的金色线条，强化蛋香层次。1s轻微拨弦与落点同步。9平视近景 / 成品闪回白色瓷盘中的成品炒饭短暂闪回，金黄饱满，热气轻轻上升。1s热气声短暂浮现。10俯拍 / 空中定格感米粒在空中散开，形成干净的颗粒阵列，展示粒粒分明。1.5s旁白：“金黄，不只是颜色……”11低机位 / 火光轻扫火光从锅底轻扫而过，金黄米粒被再次点亮，色泽更加立体。1.5s低频鼓点回升。12中景 / 收束回落米浪从锅中翻起后自然回落，蛋香光泽在表面流动，进入鲜味段落。1.5s旁白落句：“是火候给出的层次。”\n\n---\n\n## 分镜三｜30-45s\n\n### 鲜味不堆砌，食材在锅气里出现\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体仍然是高级食品广告风格。画面发生在极简奶油米白与浅金色渐变棚拍空间中，黑色炒锅居于核心位置，锅中金黄米粒、虾仁、蛋丝、青豆、火腿丁、胡萝卜丁和葱花依次出现。十二个画面需要表现虾仁从金黄米粒中翻起，火腿丁、青豆、胡萝卜丁快速落入米粒之间，锅铲推动食材与米粒混合但层次清楚，青豆滚过米粒表面，火腿丁被金色光线扫过，虾仁与蛋丝同时被翻起，葱花像绿色香气一样落下，锅火再次升起，镜头从虾仁、蛋丝和青豆之间快速穿过，最后所有食材随米浪回落。整体光线以温暖金色侧光和锅底火光为主，色彩呈现金黄、红、绿、橙的高级配比，氛围克制而有食欲。画面中不要出现文字、字幕、品牌标识、复杂厨房环境或额外餐具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1极近景 / 快切虾仁从金黄米粒中翻起，表面弹嫩有光泽，红白质感鲜明。1s轻快食材弹起声。2俯拍 / 快速落料火腿丁、青豆、胡萝卜丁快速落入米粒之间，颜色瞬间丰富。1s食材落下形成卡点。3侧面近景 / 锅铲推进锅铲一推，食材与米粒混合，但虾仁、青豆、火腿丁仍保持清楚层次。1s锅铲声增强。4微距 / 低角度跟随青豆滚过米粒表面，绿色成为清爽的视觉节奏点。1s细小滚动声。5特写 / 光线扫过火腿丁被一道金色光线扫过，红色与金黄米粒形成高级对比。1s短促拨弦点缀。6近景 / 翻起慢动作虾仁与蛋丝同时被翻起，红白金三色在空中形成清晰层次。1.5s旁白开始：“鲜味，不靠堆砌。”7斜侧俯拍 / 短促翻动整锅炒饭短促翻动，食材均匀散开，米粒仍保持松散状态。1s鼓点重新积累。8极近景 / 垂直落下葱花从上方落下，像绿色香气轻轻点在米粒上。1s葱花落点声轻细。9中景 / 火焰升起锅火再次升起，食材被热浪托起，空气出现透明扭曲。1.5s火焰声增强。10微距 / 穿梭镜头镜头从虾仁、蛋丝、青豆之间快速穿过，强化食材层次与速度感。1s旁白：“虾的弹，蛋的香……”11俯拍 / 色彩构图锅中形成金黄、红、绿、橙的干净配比，整体饱满但不杂乱。1.5s音乐继续向前推进。12中景 / 收束回落所有食材随米浪回落锅中，火光从底部跃起，准备进入高潮翻炒。1.5s旁白落句：“米的松，每一种都要刚好。”\n\n---\n\n## 分镜四｜45-60s\n\n### 猛火翻炒，全片锅气高潮\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个按顺序排列的十六比九画面，整体视觉统一为高级食品广告中的锅气高潮段落。画面仍然处于极简棚拍空间，背景为奶油米白向浓郁金黄色渐变，黑色炒锅位于画面核心，红橙色火焰、透明热浪与金黄炒饭构成强烈视觉冲击。十二个画面需要表现锅底火焰突然增强，黑锅大幅颠起，整片炒饭腾空成金色弧线，米粒在空中旋转并闪烁高光，虾仁、青豆、火腿丁在米浪中清楚分离，炒饭落回锅中后锅铲立刻接住节奏，第二次和第三次翻锅逐渐推向全片视觉峰值，米粒、蛋丝和葱花形成短暂金色风暴，透明热浪扭曲背景，最后火光收紧，黑锅稳定在画面中央，香气感停留。整体灯光以强烈锅底火光、侧逆光和金色轮廓光为主，氛围有力量但不嘈杂，画面高级、干净、冲击力强。不要出现文字、字幕、品牌标识、真实厨房环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1低机位仰拍 / 突然推进锅底火焰突然增强，红橙色光带向上冲起，黑锅边缘被强烈勾勒。1s全片最强火焰声启动。2中景 / 大幅颠锅黑锅大幅颠起，整片炒饭腾空成金色弧线，画面进入高潮。1s重鼓点同步击中。3微距 / 高速捕捉米粒在空中旋转，表面高光快速闪烁，颗粒仍然清楚。1s米粒高速掠过声。4侧拍 / 追随米浪虾仁、青豆、火腿丁在米浪中被清楚分离，色彩丰富而不混乱。1s锅铲声与鼓点交织。5俯拍 / 快速回落炒饭落回锅中，锅铲立刻接住节奏，米粒向四周自然散开。1s金属碰撞声干净有力。6极近景 / 划过锅底锅铲边缘划过锅底，带出金黄米粒与升腾热气，画面质感锐利。1s旁白开始：“一锅翻起……”7低角度 / 二次翻炒第二次翻炒，火光从底部向上扫过，食材被金色火焰托住。1.5s旁白继续：“是火候。”8高速特写 / 短暂风暴米粒、蛋丝、葱花形成短暂的金色风暴，热浪扭曲背景。1s鼓点密度达到峰值。9侧逆光特写 / 热浪上升透明热浪从锅沿升起，背景被轻微拉伸变形，锅气具象化。1s热气声放大。10中景 / 第三次翻锅第三次翻锅，炒饭高高跃起，形成全片视觉峰值，火焰在下方托住米浪。1.5s旁白：“香气被火托住……”11俯拍 / 自然铺开炒饭回落时自然铺开，金黄米粒、虾仁、青豆和火腿丁分布均匀。1.5s音乐保持高能但不刺耳。12中景 / 高潮收束火光忽然收紧，只留锅沿金色轮廓，热气大幅升起，黑锅稳定在中央。1.5s旁白落句：“才叫锅气。”\n\n---\n\n## 分镜五｜60-75s\n\n### 从锅中到盘中，成品诱惑快速建立\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体风格为高级食品广告的成品建立段落。画面从黑色炒锅转向白色瓷盘，背景从金黄色逐渐回到奶油米白，整体光线变得更柔和、更温暖。十二个画面需要表现炒饭从锅中被带起，金黄米粒形成柔和弧线，白色瓷盘进入画面下方，米粒松散落盘，虾仁自然落在表层，蛋丝铺在米粒之间，青豆和火腿丁散落补完整体颜色，热气从盘中升起，高俯拍展示整盘炒饭圆润饱满的主体轮廓，平视近景呈现干净盘边与柔和高光，葱花从上方轻轻落下，最后白盘居中，成品热气上升。整体色调温暖、干净、诱人，画面强调粒粒分明、食材自然分布和白瓷盘的高级感。不要出现文字、字幕、品牌标识、真实餐桌环境或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1俯拍 / 柔和带起炒饭从黑锅中被锅铲带起，金黄米粒形成柔和弧线，动作从激烈转为顺滑。1s鼓点减少，米粒声变轻。2中近景 / 下方入画白色瓷盘从画面下方进入，背景由金黄色回到奶油米白。1s温暖低频铺底。3特写 / 落盘米粒落入盘中，颗粒松散分明，声音轻细干净。1s米粒落盘声清晰。4极近景 / 自然落点虾仁自然落在炒饭表层，红白色泽清晰，位置不刻意但足够诱人。1s轻微卡点声。5特写 / 层次铺开蛋丝铺在米粒之间，金黄色层次被进一步强化。1s弦乐轻轻进入。6近景 / 色彩补全青豆和火腿丁自然散落，整盘炒饭的颜色变得完整。1s旁白开始：“粒粒分明……”7微距 / 热气掠过热气从盘中升起，轻轻掠过镜头前景，画面短暂变得柔和。1.5s热气声温柔浮起。8高俯拍 / 稳定构图整盘炒饭形成饱满圆润的主体轮廓，白盘边缘干净明亮。1s旁白继续：“口口鲜香。”9平视近景 / 轻微推近盘边有柔和高光，成品显得干净高级，背景温暖克制。1.5s音乐进一步放松。10极近景 / 质感展示米粒表面油润但清爽，不粘连，虾仁与蛋丝局部进入虚实层次。1s细腻颗粒声。11侧拍 / 葱花落下葱花从上方轻轻落下，像最后一层香气点在炒饭上。1.5s旁白：“热气升起的时候……”12平视定住 / 成品建立白盘居中，热气持续上升，成品炒饭饱满诱人，准备进入一勺入口段落。1.5s旁白落句：“香味就有了答案。”\n\n---\n\n## 分镜六｜75-90s\n\n### 一勺入口感，最后四秒高级收束\n\n### 静态提示语｜用于 n\\*\\*\\*\\*\\*\\* pro 生成 4×3 网格分镜设计图\n\n请生成一张四行三列的分镜设计图，一张大图中包含十二个连续的十六比九画面，整体风格为高级食品广告的温暖收束段落。画面发生在极简奶油米白与柔和金黄色渐变空间中，白色瓷盘中的扬州炒饭居于中心，热气缓慢上升，光线变得更柔和、更安静。十二个画面需要表现成品炒饭安静出现，银色勺子从侧面进入并轻轻切入炒饭表面，勺子挖起一勺，米粒松散，虾仁、青豆和蛋丝清楚可见，勺中米粒的油润高光被放大，热气从勺子前方掠过，勺子缓慢靠近镜头，入口前的期待被拉满，随后勺子轻轻离开画面，镜头回到盘中成品，金色柔光从盘边扫过，最后四秒画面安静稳定，白盘居中，热气继续上升，定格在温暖高级的余味中。整体氛围克制、满足、温暖，不出现人物入口画面，不出现文字、字幕、品牌标识或多余道具。\n\n### 子分镜脚本\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1近景 / 安静出现白色瓷盘中的扬州炒饭安静居中，热气轻轻升起，背景为奶油米白与柔和金黄渐变。1s音乐明显变暖、变慢。2近景 / 侧向进入银色勺子从侧面进入画面，轻轻切入炒饭表面，动作干净克制。1s勺子轻碰瓷盘的清脆声。3特写 / 缓慢挖起勺子挖起一勺炒饭，米粒松散，虾仁、青豆、蛋丝清楚可见。1s米粒轻微滑落声。4极近景 / 质感放大勺中米粒油润高光被放大，虾仁红白分明，蛋丝柔软地缠在米粒间。1s旁白开始：“这一口……”5侧逆光 / 热气掠过热气从勺子前方掠过，画面柔和，银色勺面映出暖金色光。1s热气声细腻延展。6近景 / 缓慢靠近镜头勺子缓慢靠近镜头，入口前的期待被拉满，但不出现人物嘴部。1.5s旁白继续：“有金黄……”7微距 / 食材同框虾仁与金黄米粒同框，青豆成为清爽色点，食欲感达到最后峰值。1s音乐留出空间。8平视近景 / 短暂停留勺子停在画面前方，食材层次稳定清晰，背景柔和虚化。1s旁白：“也有锅气。”9近景 / 勺子离画勺子轻轻离开画面，镜头回到盘中成品，动作自然流畅。1s旁白后留短暂停顿。10中近景 / 成品回归成品炒饭居中，金色柔光从盘边扫过，米粒表面轻轻闪亮。1.5s音乐开始收束。11中景 / 最后四秒开始白盘稳定居中，热气缓慢上升，背景柔和，所有动作明显放慢。2s旁白低声：“锅气一开……”12平视定格 / 温暖收尾画面定格在成品炒饭主体，热气继续上升，留下温暖高级的余味。2s旁白落句：“黄金上桌。”音乐只保留温暖尾音与轻微热气声。"
+    ],
+    "action": "text_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": " 根据我的脚本预案及其中分镜15s参考分镜格式（只是参考呈现形式），格式输出90s的分镜剧本，每一个分镜15s，保持各个分镜的节奏和画面视觉感；\n\n每一个分镜格式参考如下：\n分镜一：\n静态提示语要求：\n专门用于\nnano banana pro 模型的提示词，生成一张 4x3 网格的分镜设计图（即一张大图里包含12个按顺序排列的16:9画面）。提示词编写要求：结构：必须以英文编写。核心指令：开头必须包含 4x3 grid storyboard sheet, 12 panels sequence, 16:9aspect ratio per panel, consistent visual style。内容描述：将分镜表中的12个画面整合成一段连贯描述，确保光影（Lighting）、色调（Color Palette）和氛围（Mood） 统一。\n\n子分镜脚本：xxxxx",
+     "model": "cvlm-5.5",
+     "count": 1,
+     "textList": [
+      {
+       "nodeId": "t-417Qr7PwBL",
+       "content": [
+        "## 《锅气交响》\n\n整体基调：高级食品广告风，奶油米白与金黄色渐变背景，极简棚拍空间，黑色炒锅、金色火焰、透明热浪、金黄米粒、虾仁、蛋丝、青豆、火腿丁、葱花和白色瓷盘作为核心视觉。画面节奏强烈，不做真实厨房环境，不做复杂场景，不出现画面文字，不出现字幕，不出现品牌字样。整体以 1s-1.5s 快切为主，每个15s段落内部都包含锅火、米粒、食材、热气和成品闪回，让节奏持续推进。\n\n声音基调：成熟男性旁白，低沉、稳、带轻微气息感。语气不是叫卖，而是像高端食品广告旁白。音乐以低频鼓点、锅铲声、火焰声、米粒落下声、热气声和轻微中式拨弦组成。开场强势，中段克制，高潮有力量，结尾温暖收束。\n\n---\n\n## 分镜 1｜0-15s\n\n### 锅火开场，第一秒进入食欲\n\n1.（1s）超级大广角低机位，奶油米白渐变背景中，黑色炒锅从画面下方快速推入，锅沿带出一道金色反光。\\\n2.（1s）极近景仰拍，锅底金色火焰瞬间点亮，火光像圆环一样从锅底扩散。\\\n3.（1s）侧面近景，炒饭被猛火翻起，金黄米粒形成第一道弧形米浪。\\\n4.（1s）微距穿梭，几粒油润米粒掠过镜头前景，表面有细腻高光。\\\n5.（1s）低机位仰拍，虾仁、青豆、火腿丁从金黄米浪中短暂悬浮，层次清晰。\\\n6.（1s）俯拍快切，锅中炒饭回落，米粒松散分明，火光从边缘闪过。\\\n7.（1s）极近景，锅铲划过米粒表面，带起一小片金色颗粒浪。\\\n8.（1s）侧逆光特写，透明热浪从锅沿升起，背景由奶油白过渡为浅金色。\\\n9.（1s）平视近景，成品炒饭在白色瓷盘中一闪而过，热气上升，制造食欲预告。\\\n10.（1s）微距，蛋丝缠绕米粒，金黄色细节快速闪现。\\\n11.（1s）低角度，第二次翻锅，米浪更高，火焰在下方托住食材。\\\n12.（1s）斜侧特写，虾仁在金黄米粒中弹起，红白质感鲜明。\\\n13.（1s）高速近景，青豆和胡萝卜丁随米粒弹跳，形成彩色节奏点。\\\n14.（1s）中景，炒饭完整回落锅中，火光收紧，热气包住画面。\\\n15.（1s）大广角定格，黑锅居中，金色热气上升，开场钩子完成。\n\n旁白：\\\n成熟男性低音，第一句要稳，带一点压迫感，像主角登场。\\\n“好吃的炒饭，第一秒，就要有锅气。”\n\n声音：\\\n低频空气声开场，火焰轰然点亮，锅铲声、米粒落下声和鼓点快速进入。\n\n---\n\n## 分镜 2｜15-30s\n\n### 米粒被点亮，黄金质感建立\n\n1.（1s）微距正面，几粒白润米粒悬浮在浅金背景中，表面干净晶莹。\\\n2.（1s）极近景侧拍，金黄色蛋液像丝绸一样从画面边缘掠过。\\\n3.（1s）微距俯拍，米粒穿过蛋液，表面被薄薄金色包裹。\\\n4.（1s）侧逆光，蛋液在米粒之间形成细腻光膜，油润但不油腻。\\\n5.（1s）快切回锅中，金黄米粒被锅铲带起，颗粒分明。\\\n6.（1s）极近景，单颗米粒翻滚，表面闪过一道柔和高光。\\\n7.（1s）中景，黑锅轻轻一颠，米粒像金色雨点一样腾空。\\\n8.（1s）微距，蛋丝落入米粒之间，形成柔软金色线条。\\\n9.（1s）平视近景，白色瓷盘中的成品炒饭短暂闪回，金黄饱满。\\\n10.（1s）俯拍，米粒在空中散开，不粘连，形成干净颗粒阵列。\\\n11.（1s）侧拍，热气从米粒间轻轻升起，背景柔和。\\\n12.（1s）微距，锅铲轻压米粒，米粒散开，显示松散质感。\\\n13.（1s）低机位，火光从锅底轻扫，金黄米粒被再次点亮。\\\n14.（1s）近景，米浪从锅中翻起，蛋香光泽在表面流动。\\\n15.（1s）中景收束，米粒回到锅中，画面进入下一段鲜味层次。\n\n旁白：\\\n男性声音放慢，语气更贴近细节，像在描述一件精密工艺。\\\n“米要分明，蛋要贴香。金黄，不只是颜色，是火候给出的层次。”\n\n声音：\\\n鼓点略收，加入细小颗粒声、蛋液流动声、轻微中式拨弦。\n\n---\n\n## 分镜 3｜30-45s\n\n### 鲜味不堆砌，食材在锅气里出现\n\n1.（1s）极近景，虾仁从金黄米粒中翻起，表面弹嫩有光泽。\\\n2.（1s）俯拍，火腿丁、青豆、胡萝卜丁快速落入米粒之间。\\\n3.（1s）侧面快切，锅铲一推，食材与米粒混合但层次清楚。\\\n4.（1s）微距，青豆滚过米粒表面，绿色成为清爽视觉点。\\\n5.（1s）特写，火腿丁被金色光线扫过，红色与米粒形成对比。\\\n6.（1s）近景，虾仁与蛋丝同时被翻起，形成红白金三色层次。\\\n7.（1s）斜侧俯拍，整锅炒饭短促翻动，食材均匀散开。\\\n8.（1s）极近景，葱花落下，像绿色香气轻轻点在米粒上。\\\n9.（1s）中景，锅火再次升起，食材被热浪托起。\\\n10.（1s）微距穿梭，镜头从虾仁、蛋丝、青豆之间快速穿过。\\\n11.（1s）俯拍，锅中颜色形成金黄、红、绿、橙的高级配比。\\\n12.（1s）侧拍，锅铲快速翻动，米粒保持松散，不成团。\\\n13.（1s）成品闪回，白盘炒饭热气上升，食材分布自然。\\\n14.（1s）低机位，火光从锅底跃起，画面节奏再次增强。\\\n15.（1s）中景收束，所有食材随米浪回落，准备进入高潮翻炒。\n\n旁白：\\\n男性声音从容，情绪克制，不强调“多”，强调“刚好”。\\\n“鲜味，不靠堆砌。虾的弹，蛋的香，米的松，每一种都要刚好。”\n\n声音：\\\n食材落下是轻快卡点声，锅铲声逐渐增强，音乐开始重新积累力量。\n\n---\n\n## 分镜 4｜45-60s\n\n### 猛火翻炒，全片锅气高潮\n\n1.（1s）低机位仰拍，锅底火焰突然增强，红橙色光带向上冲起。\\\n2.（1s）中景，黑锅大幅颠起，整片炒饭腾空成金色弧线。\\\n3.（1s）微距，米粒在空中旋转，表面高光快速闪烁。\\\n4.（1s）侧拍，虾仁、青豆、火腿丁在米浪中被清楚分离。\\\n5.（1s）俯拍，炒饭落回锅中，锅铲立刻接住节奏。\\\n6.（1s）极近景，锅铲边缘划过锅底，带出金黄米粒和热气。\\\n7.（1s）低角度，第二次翻炒，火光从底部向上扫过。\\\n8.（1s）高速特写，米粒、蛋丝、葱花形成短暂的金色风暴。\\\n9.（1s）侧逆光，透明热浪扭曲背景，锅气被视觉化。\\\n10.（1s）中景，第三次翻锅，炒饭高高跃起，达到全片视觉峰值。\\\n11.（1s）微距，油润米粒和蛋丝交错，颗粒仍然清楚。\\\n12.（1s）俯拍，炒饭回落时自然铺开，色彩均匀。\\\n13.（1s）低机位，火光忽然收紧，只留锅沿金色轮廓。\\\n14.（1s）近景，热气大幅升起，画面变得短暂朦胧。\\\n15.（1s）中景，黑锅稳定在画面中央，高潮结束，香气感留下。\n\n旁白：\\\n男性声音更有力量，但不喊，不兴奋，像沉稳地压住节奏。\\\n“一锅翻起，是火候。香气被火托住，才叫锅气。”\n\n声音：\\\n全片最强节奏段。火焰声、锅铲声、低频鼓点同步推进，但保持高级，不要吵闹。\n\n---\n\n## 分镜 5｜60-75s\n\n### 从锅中到盘中，成品诱惑快速建立\n\n1.（1s）俯拍，炒饭从锅中被带起，金黄米粒形成柔和弧线。\\\n2.（1s）白色瓷盘进入画面下方，背景从金黄回到奶油米白。\\\n3.（1s）米粒落盘，颗粒松散，声音轻细。\\\n4.（1s）虾仁自然落在表层，红白色泽清晰。\\\n5.（1s）蛋丝铺在米粒之间，增强金黄层次。\\\n6.（1s）青豆和火腿丁散落，颜色变得完整。\\\n7.（1s）微距，热气从盘中升起，掠过镜头前景。\\\n8.（1s）高俯拍，整盘炒饭形成饱满圆润的主体轮廓。\\\n9.（1s）平视近景，盘边有柔和高光，成品显得干净高级。\\\n10.（1s）极近景，米粒表面油润但清爽，不粘连。\\\n11.（1s）侧拍，葱花从上方轻轻落下，像最后一层香气。\\\n12.（1s）微距，虾仁、蛋丝、米粒同框，食欲最强。\\\n13.（1s）中近景，白盘居中，热气上升，背景温暖柔和。\\\n14.（1s）轻微推进，成品炒饭体积感更饱满。\\\n15.（1s）平视定住，画面进入一勺入口段落。\n\n旁白：\\\n男性声音放轻，情绪回落，温暖、满足。\\\n“粒粒分明，口口鲜香。热气升起的时候，香味就有了答案。”\n\n声音：\\\n鼓点减少，转为温暖低频、轻微弦乐、米粒落盘声和热气声。\n\n---\n\n## 分镜 6｜75-90s\n\n### 一勺入口感，最后4秒高级收束\n\n1.（1s）近景，白色瓷盘中的扬州炒饭安静出现，热气轻轻升起。\\\n2.（1s）银色勺子从侧面进入，轻轻切入炒饭表面。\\\n3.（1s）勺子挖起一勺，米粒松散，虾仁、青豆、蛋丝清楚可见。\\\n4.（1s）极近景，勺中米粒油润高光被放大，质感诱人。\\\n5.（1s）侧逆光，热气从勺子前方掠过，画面柔和。\\\n6.（1s）勺子缓慢靠近镜头，入口前的期待被拉满。\\\n7.（1s）微距，虾仁与金黄米粒同框，红白金色彩饱满。\\\n8.（1s）平视近景，勺子停在画面前方，食材层次稳定。\\\n9.（1s）勺子轻轻离开画面，镜头回到盘中成品。\\\n10.（1s）成品炒饭居中，背景为奶油米白与金黄色渐变。\\\n11.（1s）金色柔光从盘边扫过，米粒表面轻轻闪亮。\\\n12.（1s）热气缓慢上升，音乐明显收束。\\\n13.（1s）最后4秒收束开始，白盘居中，画面安静稳定。\\\n14.（1s）热气继续上升，背景柔和，所有动作变慢。\\\n15.（1s）画面定格在成品炒饭主体，留下温暖高级的余味。\n\n旁白：\\\n男性声音最低、最稳，语速放慢，最后一句留出余韵。\\\n“这一口，有金黄，也有锅气。”\\\n停顿。\\\n“锅气一开，黄金上桌。”\n\n声音：\\\n勺子轻碰瓷盘的清脆声后，音乐逐渐退去。最后4秒只保留温暖尾音和轻微热气声。"
+       ]
+      },
+      {
+       "nodeId": "t-6i4WjGx0Uj",
+       "content": [
+        "镜头序号景别与运镜画面详细描述（精准还原产品状态）时长旁白/音效\n\n1特写 / 缓慢推镜镜头画面聚焦于耳机顶部米白色皮革头带，镜头沿头带弧线进行极缓慢推近，柔和侧光从左至右扫过表面，清晰呈现细腻均匀的荔枝纹理、圆润包边、边缘精致缝线与头带厚度。背景为极简奶油色渐变空间，画面干净无多余道具。耳机头带保持真实弧形结构，皮革不变形，缝线不漂移，不出现额外装饰、文字或结构变化。1.5s【音效】黑胶唱片针尖落下的轻微“咝咝”声，伴随极轻空气感，建立复古、高级、克制的听觉质感。\n\n2极特写 / 快速平移镜头沿着米白色圆角方形耳罩的皮革表面进行快速横向平移，高光贴着细腻纹理掠过，皮革颗粒、包边弧度与耳罩厚度短暂清晰可见。镜头最终精准落幅于黑色“Marshall”手写体Logo，Logo位于耳罩外侧中央区域，形态完整、清晰可辨，不生成乱码或多余字母。奶油色背景、米白色耳罩与黑色立体Logo形成明确视觉反差，镜头落幅后仍保持轻微运动感，不形成完全静态定格。1.5s【音效】一声清脆电吉他拨弦泛音，与Logo落幅瞬间同步，尾音短促干净。\n\n3特写 / 微距旋转镜头切入右侧耳罩底部结构，围绕金色多向控制摇杆 Knob 进行小幅微距旋转，镜头运动克制且稳定。一束暖光准确落在金属表面，呈现精致黄铜光泽、圆润边缘与细微高光变化。摇杆旁侧清晰可见 Type-C 接口与音频孔，接口位置关系准确稳定，不新增多余孔位或按键，金属件、皮革耳罩与连接结构比例真实。画面强调产品操作区域的精密感与高级质感。1.5s【音效】金属控制摇杆被轻轻按下的清脆“咔嗒”声，随后加入极轻低频预震，为后续展开动作蓄势。\n\n4中景 / 升降运镜纯净米色渐变空间中，折叠状态的米白色头戴式耳机悬浮于画面中央，产品轮廓清晰完整。镜头轻微上升的同时，耳机完成一次干净利落的机械展开动作：两侧圆角方形耳罩从内收状态向外展开至正常佩戴角度，金属铰链与同色系外露弹簧线缆短暂显现，结构运动真实、对称、稳定。头带、耳罩、铰链与连接线缆保持准确位置关系，不出现断裂、错位、拉伸或形态突变。1.5s【音效】连续而克制的机械咬合声随展开动作响起，展开完成瞬间接入一记具有爆发力的Bass鼓点。\n\n5全景 / 缓慢环绕产品 Hero Shot：完全展开的米白色耳机在半空中优雅悬浮，镜头围绕产品进行平稳小角度环绕，展示完整头戴式轮廓。柔和顶光倾泻在头带与两侧耳罩上，清晰呈现米白色皮革材质、圆角方形耳罩比例、黑色“Marshall”手写体Logo、金属连接结构、铰链细节与整体对称关系。背景保持简洁奶油色渐变，不加入文字、道具、装饰元素或复杂环境，让产品成为唯一视觉主体。产品始终保持真实比例与稳定结构。2.0s【音乐】节奏感鲜明的现代轻摇滚Beat进入主段，鼓点、贝斯与克制电吉他节奏共同推进，氛围从复古质感转入现代动感。\n\n6近景 / 锁定跟拍模特仅保留虚化的侧面轮廓、发丝与肩部局部，人物不抢占主体。模特以自然简洁的动作将米白色耳机戴上，镜头始终锁定佩戴状态下侧面的圆角方形耳罩与黑色“Marshall”手写体Logo，避免手部大面积遮挡产品。佩戴完成后，模特随音乐节奏轻轻点头，动作幅度克制。柔和侧光在耳罩表面流动，清晰呈现皮革纹理、包边轮廓、耳罩厚度与贴合耳部的舒适质感。Logo保持清晰，不变形，不被头发或手部遮挡。2.0s【音乐】现代轻摇滚节奏持续推进，低音变得更深沉有力，加入更鲜明的电吉他切分节拍，画面进入沉浸式佩戴氛围。\n\n7特写 / 呼吸变焦镜头再次靠近佩戴状态下的耳罩侧面，画面聚焦米白色皮革耳罩、黑色“Marshall”Logo与耳罩外轮廓。伴随连续重低音，镜头进行幅度克制的呼吸式变焦，光影随节拍产生轻微明暗起伏，以视觉节奏表现音乐的力量感、包裹感与沉浸感。耳机主体始终保持结构清晰、材质稳定，Logo不模糊，耳罩不产生夸张震动、拉伸、变形或错误位移。背景人物保持柔和虚化，产品始终为画面绝对焦点。1.5s【音乐】鼓点密度进一步增加，贝斯持续向前推动，形成更强运动节奏，但不进入收尾情绪。\n\n8仰拍（低角度） / 弧形快速推镜镜头从完全展开耳机的下方低角度切入，产品重新回到独立悬浮状态，与前一镜的音乐能量形成视觉延续。一束温暖逆光从米白色头带后方射出，清晰勾勒头带弧线、圆角方形耳罩边缘、金属铰链与连接结构轮廓。镜头随节拍沿耳罩下缘向上进行弧形快速推镜，高光连续滑过皮革包边、金属连接部位与头带表面，强化产品完整造型的机械精致感、高级张力与舞台感。本镜不重复强调接口细节，以整体轮廓气场、低角度力量感和产品结构完整性为主。1.5s【音乐/音效】节奏持续增强但不收束，鼓点和贝斯继续向前推进，配合一声锐利电吉他扫弦与短促金属掠过声。\n\n9近景 / 侧向跟移 + 前景遮挡转场延续上一镜弧形快速推镜产生的运动势能，完全展开的米白色耳机在米色渐变空间中由画面右侧向左侧快速而平稳地横向滑移，镜头同步侧向跟移，保持产品运动方向连续。动态过程中，画面短暂而清晰地保留米白色皮革头带、圆角方形耳罩、黑色“Marshall”手写体Logo、金色连接结构与整体头戴式轮廓，产品不旋转失控、不变形、不新增结构。运动末段，靠近镜头的一侧米白色耳罩逐渐放大并从前景自然擦过镜头，形成柔和奶油色皮革质感的满屏遮挡。画面结束时保持该遮挡状态，为下一组分镜从同色遮挡中揭开、进行材质匹配切换或延续同方向运动提供自然连接入口。画面不出现文字标语，不静止，不形成片尾落点。2.0s【音乐/音效】现代轻摇滚Beat保持连续高能推进，不设置结尾重拍或收尾余音；耳机擦过镜头时加入短促空气掠过声与克制低频冲击，声音保持向前延伸，画面维持无结尾的连续切换状态。"
+       ]
+      }
+     ],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "taskInfo": {
+     "taskId": "20260602085503294351940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": true,
+    "nodeWidth": 603,
+    "nodeHeight": 702,
+    "staleVersion": 29,
+    "_updatedAtMs": 1780381714000,
+    "_lastAppliedFullyAtMs": 1780381714000
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-KSXxFE2Zxz": {
+   "nodeKey": "t-KSXxFE2Zxz",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 5",
+   "position": {
+    "positionX": "40.80878176726253",
+    "positionY": "892.2443338057653"
+   },
+   "measured": {
+    "width": "350",
+    "height": "200"
+   },
+   "data": {
+    "type": "text",
+    "name": "文本节点 5",
+    "content": [
+     "## 分镜 5｜60-75s\n\n### 锅气冻结：进入金黄米浪内部\n\n**视频提示语：**\\\n高级食品广告风，奶油米白与金黄色渐变背景，延续上一分镜的猛火翻炒高潮。黑色炒锅完成最后一次翻动后，金黄炒饭在空中突然进入短暂冻结状态，米粒、虾仁、蛋丝、青豆、火腿丁、葱花全部悬停在透明热浪中，形成一片巨大的金色食材弧面。镜头不再拍普通落盘，而是进入这片金黄米浪内部，穿过米粒、蛋丝、虾仁和热气之间，像进入一个由锅气、米香和火候组成的微观食物宇宙。整体画面干净、高级、有速度感，强调锅气被看见、香气被放大、食材在半空中形成高级动态雕塑感。不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。\n\n1.（1s）中景，黑色炒锅完成上一段高潮后的最后一次翻动，整片金黄炒饭高高腾起。\\\n2.（1s）侧逆光特写，米浪在空中突然进入短暂冻结，透明热浪包裹住所有食材。\\\n3.（1s）超级大广角穿梭，镜头冲入悬停的金黄米粒之间，米粒像发光颗粒从镜头两侧掠过。\\\n4.（1s）微距，单颗米粒在空中缓慢旋转，表面带有油润但清爽的金色高光。\\\n5.（1s）极近景，蛋丝像柔软金色丝线一样穿过米粒之间，光线在蛋丝边缘轻轻闪动。\\\n6.（1s）侧面近景，虾仁悬停在米粒弧线中，红白色泽饱满，表面有轻微湿润高光。\\\n7.（1s）俯拍快切，青豆、火腿丁、胡萝卜丁在半空中形成细密彩色节奏点。\\\n8.（1s）低机位仰拍，黑色炒锅在下方变成虚化轮廓，金色火光从底部托住悬浮米浪。\\\n9.（1s）微距穿梭，镜头从虾仁、蛋丝、青豆之间快速穿过，食材层次清晰但不杂乱。\\\n10.（1s）侧逆光，透明热浪轻微扭曲背景，锅气像看得见的空气波纹一样包住米粒。\\\n11.（1s）超级近景，几粒米在热浪中轻微颤动，像被香气托在半空。\\\n12.（1s）环绕镜头，整片悬浮米浪开始缓慢旋转，形成金色弧形风暴。\\\n13.（1s）高俯拍，米粒、虾仁、蛋丝和青豆逐渐向中心聚拢，动态从散开变成回旋。\\\n14.（1s）中景，金色食材风暴开始向画面下方收束，仿佛香气正在回流。\\\n15.（1s）大广角，悬浮米浪形成一道完整金色旋涡，带着热气进入下一分镜。\n\n**旁白设计：**\\\n成熟男性低音，声音比第四分镜更沉下来，不再强调爆发，而是强调“香气被看见”的高级感。语速放慢，带一点沉浸感和余味。\n\n旁白：\\\n“真正的锅气，不只在火里。”\\\n“它在米粒离锅的一瞬间，被看见。”\n\n**声音设计：**\\\n前3秒延续上一分镜的锅火余声，然后鼓点突然抽空，形成短暂“时间冻结”的低频停顿。中段加入米粒划过空气的细小颗粒声、热浪声和极轻的弦乐铺底。最后3秒节奏重新聚拢，为第六分镜的金色回收做铺垫。\n\n---\n\n## 分镜 6｜75-90s\n\n### 黄金回收：从锅气风暴凝成成品主视觉\n\n**视频提示语：**\\\n高级食品广告风，奶油米白与金黄色渐变背景，延续上一分镜的金色食材旋涡。悬浮在空中的米粒、蛋丝、虾仁、青豆、火腿丁随着锅气形成回旋轨迹，从金色风暴逐渐凝聚为完整扬州炒饭主视觉。白色瓷盘不是普通静态出现，而是从柔和金色光影中被慢慢揭示，像高级展台一样接住回旋的金黄炒饭。最后4秒才进入真正稳定收束，成品炒饭居中，热气缓慢上升，金色柔光扫过米粒表面。整体强调从“锅气风暴”到“成品主视觉”的高级转化，不出现人物，不出现勺子，不出现真实厨房，不出现画面文字和字幕。\n\n1.（1s）大广角，上一分镜的金色食材旋涡继续向画面中心回收，米粒形成旋转轨迹。\\\n2.（1s）侧面近景，虾仁、蛋丝、青豆在旋涡中短暂掠过，像被锅气带动的香气记忆。\\\n3.（1s）低机位仰拍，金色火光在画面底部一闪而过，呼应开头锅火，但不回到真实厨房。\\\n4.（1s）俯拍，白色瓷盘从金色柔光中逐渐显现，盘面干净明亮，像舞台中心。\\\n5.（1s）中景，第一层金黄米粒沿着旋涡轨迹落向瓷盘，形成自然蓬松的底层。\\\n6.（1s）微距，虾仁轻轻落在米粒表面，红白色泽和金黄米粒形成强食欲对比。\\\n7.（1s）特写，蛋丝、青豆、火腿丁连续落位，颜色层次在盘面上快速完成。\\\n8.（1s）侧逆光，热气在落位瞬间向上升起，透明柔雾让背景短暂变得朦胧。\\\n9.（1s）高俯拍，整盘炒饭从旋涡状态快速凝成完整圆润主体，食材分布自然。\\\n10.（1s）平视近景，盘中炒饭轻微旋转停止，米粒松散饱满，表面金黄油润。\\\n11.（1s）微距，最后一缕葱花从上方轻轻落下，像香气的最后一个音符。\\\n12.（1s）最后4秒收束开始，镜头轻微后拉，白色瓷盘居中，背景稳定为奶油米白到金黄色渐变。\\\n13.（1s）金色柔光从盘边慢慢扫过，米粒表面出现细腻闪光，热气缓缓上升。\\\n14.（1s）画面完全安静下来，只保留成品炒饭、白盘、柔和热气和干净渐变背景。\\\n15.（1s）最终定格在扬州炒饭主体，金黄、饱满、温暖、高级，留下完整食欲余味。\n\n**旁白设计：**\\\n成熟男性低音，前半段带一点“收束感”，像把前面所有锅气、火候、鲜味收回来。最后一句要慢，稳，留出品牌广告式余韵。\n\n旁白：\\\n“米香、蛋香、鲜香，被锅气托起。”\\\n“最后，落成这一口金黄。”\\\n停顿。\\\n“锅气一开，黄金上桌。”\n\n**声音设计：**\\\n前5秒使用低频回旋声、轻微火焰回响和米粒旋转的细碎声，形成金色风暴回收感。6-10秒加入食材轻落盘的颗粒声和温暖弦乐。11秒后音乐明显收束。最后4秒只保留温暖尾音、轻微热气声和极低频空气感，画面进入高级静态余韵。"
+    ],
+    "action": "text_resource",
+    "generatorType": "default",
+    "params": {
+     "prompt": "",
+     "model": "aurora-3-prime",
+     "count": 1,
+     "textList": [],
+     "imageList": [],
+     "videoList": [],
+     "audioList": []
+    },
+    "_updatedAtMs": 1780381718000,
+    "_lastAppliedFullyAtMs": 1780381718000
+   },
+   "parentKey": "g-cMkaVEdi0n",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-0FW0nm9nmb": {
+   "nodeKey": "v-0FW0nm9nmb",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/a5d76bda3aa749e43656ea1b525af50e147566340182c9c16a5d7837dd551785.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足\n旁白音色：成熟男性磁性低音；\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1超级大广角 / 低机位快速推入奶油米白渐变背景中，黑色炒锅从画面下方迅速推入，锅沿带出一道锐利金色反光，瞬间建立主角登场感。1s低频空气声骤然压入。2极近景 / 仰拍锅底金色火焰瞬间点亮，火光像圆环一样从锅底向四周扩散，黑锅边缘被勾出清晰轮廓。1s火焰“轰”地燃起。3侧面近景 / 快切炒饭被猛火翻起，金黄米粒形成第一道弧形米浪，颗粒在空中松散分明。1s锅铲声与第一记鼓点同步进入。4微距 / 穿梭镜头几粒油润米粒掠过镜头前景，表面细腻高光快速闪动，背景被热气轻微扭曲。1s米粒划过空气的细碎声。5低机位 / 仰拍虾仁、青豆、火腿丁从金黄米浪中短暂悬浮，红、绿、金三色层次清楚。1s轻快卡点音。6俯拍 / 快切炒饭回落锅中，米粒松散铺开，火光从锅边缘快速扫过。1s米粒落锅声清晰、密集。7极近景 / 横向掠过锅铲划过米粒表面，带起一小片金色颗粒浪，米粒不粘连、不成团。1s金属锅铲声短促利落。8侧逆光特写 / 缓慢上移透明热浪从锅沿升起，背景由奶油白渐变为浅金色，锅气被视觉化。1s热气声轻轻浮起。9平视近景 / 闪回切入白色瓷盘中的成品炒饭一闪而过，热气上升，形成食欲预告。1.5s旁白开始：“好吃的炒饭……”10微距 / 快速切换蛋丝缠绕米粒，金黄色细节短暂闪现，油润但清爽。1.5s旁白继续：“第一秒……”11低角度 / 二次翻锅第二次翻锅，米浪更高，火焰在下方托住食材，画面冲击力增强。1.5s鼓点加密，火焰声增强。12大广角 / 稳定定格黑锅居中，炒饭完整回落，金色热气向上升腾，开场钩子完成。1.5s旁白落句：“就要有锅气。”",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-WPjQvxktYq",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746204679_59911bfbe51e4ec995b3d2c98a55b009.png",
+       "assetId": "asset-20260602135524-86vfp"
+      }
+     ],
+     "videoList": [],
+     "audioList": [],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-WPjQvxktYq"
+     ],
+     "mixedListOrder": [
+      "i-WPjQvxktYq"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-WPjQvxktYq",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746204679_59911bfbe51e4ec995b3d2c98a55b009.png",
+       "assetId": "asset-20260602135524-86vfp",
+       "mediaType": "image"
+      }
+     ]
+    },
+    "_updatedAtMs": 1780381877000,
+    "_lastAppliedFullyAtMs": 1780381877000,
+    "isStale": false,
+    "staleVersion": 23,
+    "taskInfo": {
+     "taskId": "20260602140603130631940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 6556929,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-icfAUtryo9",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-0ScAzydNLG": {
+   "nodeKey": "v-0ScAzydNLG",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/976a4122f84d0bfa3c18ab4a063f4ed502aaa1e6ee51ffc046e5d4ddbcfab212.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；\n\n旁白音色：成熟男性磁性低音 {{Mixed 2}} ；\n\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1微距正面 / 静中轻推几粒白润米粒悬浮在浅金背景中，表面干净晶莹，尚未被完全上色。1s鼓点略收，空气感变轻。2极近景 / 侧向掠过金黄色蛋液像丝绸一样从画面边缘流动掠过，形成柔软光带。1s蛋液流动声轻柔进入。3微距俯拍 / 慢动作米粒穿过蛋液，表面被薄薄金色包裹，颜色从白润过渡到温暖金黄。1s细小颗粒声。4侧逆光特写 / 轻微环绕蛋液在米粒之间形成细腻光膜，油润但不显厚重，质感高级清爽。1s中式拨弦轻轻点入。5近景 / 快切回锅画面回到黑锅，金黄米粒被锅铲带起，颗粒分明地向上扬起。1s锅铲声重新进入节奏。6极近景 / 跟随翻滚单颗米粒在空中翻滚，表面闪过一道柔和高光，质地饱满。1s旁白开始：“米要分明……”7中景 / 黑锅轻颠黑锅轻轻一颠，米粒像金色雨点一样腾空散开，不粘连、不成团。1.5s旁白继续：“蛋要贴香。”8微距 / 垂直落下蛋丝落入米粒之间，形成柔软的金色线条，强化蛋香层次。1s轻微拨弦与落点同步。9平视近景 / 成品闪回白色瓷盘中的成品炒饭短暂闪回，金黄饱满，热气轻轻上升。1s热气声短暂浮现。10俯拍 / 空中定格感米粒在空中散开，形成干净的颗粒阵列，展示粒粒分明。1.5s旁白：“金黄，不只是颜色……”11低机位 / 火光轻扫火光从锅底轻扫而过，金黄米粒被再次点亮，色泽更加立体。1.5s低频鼓点回升。12中景 / 收束回落米浪从锅中翻起后自然回落，蛋香光泽在表面流动，进入鲜味段落。1.5s旁白落句：“是火候给出的层次。”",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-ktaP25ZCrn",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745782769_d9b428bb6733499b820470a47e5a8966.png",
+       "compliantExempt": true
+      }
+     ],
+     "videoList": [],
+     "audioList": [
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672
+      }
+     ],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-ktaP25ZCrn"
+     ],
+     "mixedListOrder": [
+      "i-ktaP25ZCrn",
+      "a-yhImHH5olj"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-ktaP25ZCrn",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745782769_d9b428bb6733499b820470a47e5a8966.png",
+       "compliantExempt": true,
+       "mediaType": "image"
+      },
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672,
+       "mediaType": "audio"
+      }
+     ],
+     "audioListOrder": [
+      "a-yhImHH5olj"
+     ]
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382135000,
+    "_lastAppliedFullyAtMs": 1780382135000,
+    "staleVersion": 17,
+    "taskInfo": {
+     "taskId": "20260602142703513581940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 6951174,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-vH6RuYEDg2",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-1trLMpobDQ": {
+   "nodeKey": "v-1trLMpobDQ",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/23e43427d54fcef75645d3ba1a2390f3614a33feca8d12d1a75c6f126e9e889d.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；\n旁白音色：成熟男性磁性低音 {{Mixed 2}} ；\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1低机位仰拍 / 突然推进锅底火焰突然增强，红橙色光带向上冲起，黑锅边缘被强烈勾勒。1s全片最强火焰声启动。2中景 / 大幅颠锅黑锅大幅颠起，整片炒饭腾空成金色弧线，画面进入高潮。1s重鼓点同步击中。3微距 / 高速捕捉米粒在空中旋转，表面高光快速闪烁，颗粒仍然清楚。1s米粒高速掠过声。4侧拍 / 追随米浪虾仁、青豆、火腿丁在米浪中被清楚分离，色彩丰富而不混乱。1s锅铲声与鼓点交织。5俯拍 / 快速回落炒饭落回锅中，锅铲立刻接住节奏，米粒向四周自然散开。1s金属碰撞声干净有力。6极近景 / 划过锅底锅铲边缘划过锅底，带出金黄米粒与升腾热气，画面质感锐利。1s旁白开始：“一锅翻起……”7低角度 / 二次翻炒第二次翻炒，火光从底部向上扫过，食材被金色火焰托住。1.5s旁白继续：“是火候。”8高速特写 / 短暂风暴米粒、蛋丝、葱花形成短暂的金色风暴，热浪扭曲背景。1s鼓点密度达到峰值。9侧逆光特写 / 热浪上升透明热浪从锅沿升起，背景被轻微拉伸变形，锅气具象化。1s热气声放大。10中景 / 第三次翻锅第三次翻锅，炒饭高高跃起，形成全片视觉峰值，火焰在下方托住米浪。1.5s旁白：“香气被火托住……”11俯拍 / 自然铺开炒饭回落时自然铺开，金黄米粒、虾仁、青豆和火腿丁分布均匀。1.5s音乐保持高能但不刺耳。12中景 / 高潮收束火光忽然收紧，只留锅沿金色轮廓，热气大幅升起，黑锅稳定在中央。1.5s旁白落句：“才叫锅气。”",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-BXkuiEd8cf",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745745134_b8a2aafe0f2b4a2bb81b3db4bea25e71.png",
+       "assetId": "asset-20260602141821-hnvsm"
+      }
+     ],
+     "videoList": [],
+     "audioList": [
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672
+      }
+     ],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-BXkuiEd8cf"
+     ],
+     "mixedListOrder": [
+      "i-BXkuiEd8cf",
+      "a-yhImHH5olj"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-BXkuiEd8cf",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745745134_b8a2aafe0f2b4a2bb81b3db4bea25e71.png",
+       "assetId": "asset-20260602141821-hnvsm",
+       "mediaType": "image"
+      },
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672,
+       "mediaType": "audio"
+      }
+     ],
+     "audioListOrder": [
+      "a-yhImHH5olj"
+     ]
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382231000,
+    "_lastAppliedFullyAtMs": 1780382231000,
+    "staleVersion": 1,
+    "taskInfo": {
+     "taskId": "20260602142703938821940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 7414735,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-WoYWz2ATzU",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-Ag6TgBxaGm": {
+   "nodeKey": "v-Ag6TgBxaGm",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/459fc025d43e626608d0e11e1e8bf95ff94b261eb239f4520d4335a42484dbf3.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；\n旁白音色：成熟男性磁性低音 {{Mixed 2}} ；\n高级食品广告风，画面延续上一分镜的食材金色弧线，镜头从半空中的米粒与配料开始向下俯冲，黑色炒锅在柔和金色背景中出现，不是现实厨房场景，而像一个被火光托起的高级舞台。食材落入锅面的一瞬间，底部猛火亮起，透明热浪向上翻涌，金黄米粒被锅气托起并迅速形成翻炒弧线。镜头跟随米粒穿梭、旋转、上扬，蛋丝在热浪中舒展，虾仁被金色高光扫过，青豆和火腿丁形成鲜明色彩节奏。整体强调“锅气爆发”的瞬间感、速度感和食欲冲击力，不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。视频呈现高端食品广告质感，画面具有强烈动态光影，细节清晰，节奏由蓄势进入爆发。\n\n1.（1s）大广角，上一分镜的金色食材弧线从画面上方继续向下汇聚，黑色炒锅在下方逐渐显现。\\\n2.（1s）俯拍中景，米粒、蛋丝、虾仁和配料向锅面落下，背景保持干净的金色渐变。\\\n3.（1s）极近景，第一批米粒触碰锅面，细小热气瞬间向上弹起。\\\n4.（1s）低机位仰拍，锅底下方金色火光猛然亮起，黑色锅沿被火焰轮廓光勾出弧线。\\\n5.（1s）中景，整片米粒被锅气向上托起，形成第一次清晰的翻炒弧线。\\\n6.（1s）侧逆光特写，米粒在空中划过，表面由米白转为更明亮的金黄色。\\\n7.（1s）微距，蛋丝被热浪吹开，像柔软金色丝带穿过米粒之间。\\\n8.（1s）近景，虾仁在翻炒弧线中掠过，红白色泽鲜明，边缘带着温润高光。\\\n9.（1s）俯拍快切，青豆、火腿丁、葱花在金黄米粒中跳动，形成丰富但干净的色彩层次。\\\n10.（1s）低机位，黑色炒锅轻微翻动，米粒从锅中腾起，火光和热气同时向上冲。\\\n11.（1s）跟随镜头，镜头贴近米粒飞行轨迹，穿过一片金色锅气，画面速度明显增强。\\\n12.（1s）侧面中景，整片炒饭在空中形成饱满弧面，透明热浪让背景微微扭曲。\\\n13.（1s）微距慢动作，几粒金黄米粒在热浪中短暂悬停，油润但清爽，颗粒分明。\\\n14.（1s）大广角，锅气和火光达到高潮，米粒、蛋丝、虾仁和配料形成巨大金色翻炒浪。\\\n15.（1s）侧逆光定格感，金色米浪在空中即将冻结，透明热浪包裹全部食材，为后续进入米浪内部做铺垫。\n\n**旁白设计：**\\\n成熟男性低音，前半段承接开场的克制感，后半段随着火光和锅气明显增强，声音更有力量，但不夸张，保持高级广告的沉稳质感。\n\n旁白：\\\n“火候一到，香气就有了方向。”\\\n“米粒翻起，蛋香散开。”\\\n“这一刻，锅气真正醒来。”\n\n**声音设计：**\\\n前3秒延续上一分镜的低频预热声，随后火焰声突然增强。4-8秒加入清脆的米粒入锅声、热气上冲声和细密翻炒声。9-12秒鼓点逐渐进入，节奏明显加快，配合镜头穿梭形成速度感。最后3秒音乐推向一次小高潮，并在最后一秒保留一瞬间的低频悬停感，为下一段“锅气冻结”创造衔接。",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-qatbKrbhNx",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745981565_c49942ac514d42a8b25323bc9cc915a1.png",
+       "assetId": "asset-20260602142827-wdqnd"
+      }
+     ],
+     "videoList": [],
+     "audioList": [
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672
+      }
+     ],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-qatbKrbhNx"
+     ],
+     "mixedListOrder": [
+      "i-qatbKrbhNx",
+      "a-yhImHH5olj"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-qatbKrbhNx",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745981565_c49942ac514d42a8b25323bc9cc915a1.png",
+       "assetId": "asset-20260602142827-wdqnd",
+       "mediaType": "image"
+      },
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672,
+       "mediaType": "audio"
+      }
+     ],
+     "audioListOrder": [
+      "a-yhImHH5olj"
+     ]
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382307000,
+    "_lastAppliedFullyAtMs": 1780382307000,
+    "staleVersion": 6,
+    "taskInfo": {
+     "taskId": "20260602142803114081940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "videoHasAudioTrack": true,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 8554370,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-skrHIZaOJe",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-FdZOCNnzuD": {
+   "nodeKey": "v-FdZOCNnzuD",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "1492.3834270646657",
+    "positionY": "534.3834270646669"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/a5d76bda3aa749e43656ea1b525af50e147566340182c9c16a5d7837dd551785_1780381959_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/a5d76bda3aa749e43656ea1b525af50e147566340182c9c16a5d7837dd551785.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/a5d76bda3aa749e43656ea1b525af50e147566340182c9c16a5d7837dd551785.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143103226091940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780383266000,
+    "_lastAppliedFullyAtMs": 1780383266000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 27211527,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-fQrvtw6PAr": {
+   "nodeKey": "v-fQrvtw6PAr",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/eb8de72e9604a6d0587c562576e0d29b37d178ca4a34f5accea0c889c8fe1061.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；\n旁白音色：成熟男性磁性低音 {{Mixed 2}} ；\n高级食品广告风，奶油米白与浅金色渐变背景，画面从一粒晶莹饱满的米粒开始，像打开一道食物香气的入口。镜头以极近微距缓慢推进，米粒表面带着温润高光，随后蛋液、虾仁、青豆、火腿丁和葱花依次在柔和光线中出现，所有食材不以普通摆拍方式呈现，而是像被清晨金色光线轻轻唤醒，在半空中缓慢漂浮、旋转、聚拢。整体画面干净、高级、细腻，强调米粒的颗粒感、蛋香的柔软感、虾仁的鲜甜感和配料的丰富色彩。不出现真实厨房，不出现人物，不出现勺子，不出现画面文字和字幕。视频呈现高清广告片质感，画面细节丰富，焦点锐利，光影柔和，节奏由安静逐渐进入期待感。\n\n1.（1s）极近微距，一粒晶莹米粒悬浮在奶油米白背景中央，表面有柔和金色高光。\\\n2.（1s）镜头缓慢推进，米粒轻轻旋转，细腻纹理和饱满轮廓被光线勾勒出来。\\\n3.（1s）侧逆光特写，几粒米从画面边缘缓慢漂入，像被香气牵引。\\\n4.（1s）微距，金黄色蛋液在画面中形成柔软流动的光带，轻轻包裹米粒周围。\\\n5.（1s）近景，蛋液凝成细腻蛋丝，蛋丝像金色绸带一样在空气中舒展开。\\\n6.（1s）侧面特写，一只饱满虾仁缓慢进入画面，红白色泽明亮，表面带有清爽湿润感。\\\n7.（1s）俯拍近景，青豆和火腿丁依次浮现，形成细小而有节奏的彩色点缀。\\\n8.（1s）微距横移，葱花从浅金色光影中轻轻飘过，边缘带着清新绿色。\\\n9.（1s）中近景，米粒、蛋丝、虾仁和配料开始围绕同一个中心缓慢旋转。\\\n10.（1s）侧逆光，背景出现非常轻微的透明热气，食材边缘被金色轮廓光点亮。\\\n11.（1s）高俯拍，所有食材形成一个松散的圆形构图，像扬州炒饭的味觉蓝图。\\\n12.（1s）镜头轻微后拉，食材旋转速度略微加快，画面从安静变得更有动势。\\\n13.（1s）微距快切，米粒、蛋丝、虾仁的细节连续闪过，突出颗粒感和新鲜感。\\\n14.（1s）中景，金色光线从画面后方缓慢升起，所有食材被照亮，进入即将爆香的状态。\\\n15.（1s）大广角，食材在空中汇聚成一道轻盈金色弧线，为下一分镜的猛火入锅做铺垫。\n\n**旁白设计：**\\\n成熟男性低音，开场声音克制、干净，带一点高级食品广告的沉稳感。语速不快，像在引导观众从一粒米进入一份炒饭的香气世界。\n\n旁白：\\\n“好吃的开始，往往很安静。”\\\n“一粒米，等一束光。”\\\n“也等一口真正的锅气。”\n\n**声音设计：**\\\n前5秒以极轻的空气声和细腻高频晶莹声为主，像米粒被光线唤醒。6-10秒加入轻柔弦乐和非常细小的食材漂浮声，营造精致感。11秒后低频逐渐进入，节奏轻轻加快，最后2秒加入若隐若现的火焰预热声",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-8V65FbZmjW",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746175064_0b01cedc3b59499a8e45acf91b394e48.png",
+       "assetId": "asset-20260602142342-k25jq"
+      }
+     ],
+     "videoList": [],
+     "audioList": [
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672
+      }
+     ],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-8V65FbZmjW"
+     ],
+     "mixedListOrder": [
+      "i-8V65FbZmjW",
+      "a-yhImHH5olj"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-8V65FbZmjW",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/746175064_0b01cedc3b59499a8e45acf91b394e48.png",
+       "assetId": "asset-20260602142342-k25jq",
+       "mediaType": "image"
+      },
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672,
+       "mediaType": "audio"
+      }
+     ],
+     "audioListOrder": [
+      "a-yhImHH5olj"
+     ]
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382306000,
+    "_lastAppliedFullyAtMs": 1780382306000,
+    "staleVersion": 24,
+    "taskInfo": {
+     "taskId": "20260602143003569531940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 6767735,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-taW8GgHFz8",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-gwLEsCNWAA": {
+   "nodeKey": "v-gwLEsCNWAA",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "1492.3834270646657",
+    "positionY": "84.38342706466688"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/23e43427d54fcef75645d3ba1a2390f3614a33feca8d12d1a75c6f126e9e889d_1780382325_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/23e43427d54fcef75645d3ba1a2390f3614a33feca8d12d1a75c6f126e9e889d.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/23e43427d54fcef75645d3ba1a2390f3614a33feca8d12d1a75c6f126e9e889d.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143703320351940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382519000,
+    "_lastAppliedFullyAtMs": 1780382519000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 28559317,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-RDQed7zHQL": {
+   "nodeKey": "v-RDQed7zHQL",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 12",
+   "position": {
+    "positionX": "831.8964603070335",
+    "positionY": "80.89069965713708"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "视频节点 12",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/5b8e2f9d097d8177977d79cca81a526754933e4fe87527d37c0284fae8ab95cd.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "default",
+    "params": {
+     "prompt": "高级食品广告影像质感，十六比九电影构图，极简棚拍空间，奶油米白至浅金色渐变背景，温暖侧逆光、金色轮廓光与柔和火光交织，黑色锅具、白瓷、油润米粒与透明热气呈现干净高级材质；镜头节奏利落克制，微距细节锐利，整体情绪温暖、有食欲、力量感充足；\n旁白音色：成熟男性磁性低音 {{Mixed 2}} ；\n镜头序号景别与运镜画面详细描述时长旁白 / 音效1极近景 / 快切虾仁从金黄米粒中翻起，表面弹嫩有光泽，红白质感鲜明。1s轻快食材弹起声。2俯拍 / 快速落料火腿丁、青豆、胡萝卜丁快速落入米粒之间，颜色瞬间丰富。1s食材落下形成卡点。3侧面近景 / 锅铲推进锅铲一推，食材与米粒混合，但虾仁、青豆、火腿丁仍保持清楚层次。1s锅铲声增强。4微距 / 低角度跟随青豆滚过米粒表面，绿色成为清爽的视觉节奏点。1s细小滚动声。5特写 / 光线扫过火腿丁被一道金色光线扫过，红色与金黄米粒形成高级对比。1s短促拨弦点缀。6近景 / 翻起慢动作虾仁与蛋丝同时被翻起，红白金三色在空中形成清晰层次。1.5s旁白开始：“鲜味，不靠堆砌。”7斜侧俯拍 / 短促翻动整锅炒饭短促翻动，食材均匀散开，米粒仍保持松散状态。1s鼓点重新积累。8极近景 / 垂直落下葱花从上方落下，像绿色香气轻轻点在米粒上。1s葱花落点声轻细。9中景 / 火焰升起锅火再次升起，食材被热浪托起，空气出现透明扭曲。1.5s火焰声增强。10微距 / 穿梭镜头镜头从虾仁、蛋丝、青豆之间快速穿过，强化食材层次与速度感。1s旁白：“虾的弹，蛋的香……”11俯拍 / 色彩构图锅中形成金黄、红、绿、橙的干净配比，整体饱满但不杂乱。1.5s音乐继续向前推进。12中景 / 收束回落所有食材随米浪回落锅中，火光从底部跃起，准备进入高潮翻炒。1.5s旁白落句：“米的松，每一种都要刚好。”",
+     "model": "star-video2",
+     "modeType": "mixed2video",
+     "count": 1,
+     "imageList": [
+      {
+       "nodeId": "i-DuOOYRnKsN",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745754201_35cc25d4856743b7b2e595d7837b2732.png",
+       "assetId": "asset-20260602141552-xlcb6"
+      }
+     ],
+     "videoList": [],
+     "audioList": [
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672
+      }
+     ],
+     "settings": {
+      "ratio": "16:9",
+      "resolution": "720p",
+      "duration": 15,
+      "enableSound": "on"
+     },
+     "advancedSettings": {
+      "search_enabled": 1,
+      "autoCompliance": 1
+     },
+     "imageListOrder": [
+      "i-DuOOYRnKsN"
+     ],
+     "mixedListOrder": [
+      "i-DuOOYRnKsN",
+      "a-yhImHH5olj"
+     ],
+     "textList": [],
+     "mixedList": [
+      {
+       "nodeId": "i-DuOOYRnKsN",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/289dfb82dbb444dab196cde0d1d39b7a/745754201_35cc25d4856743b7b2e595d7837b2732.png",
+       "assetId": "asset-20260602141552-xlcb6",
+       "mediaType": "image"
+      },
+      {
+       "nodeId": "a-yhImHH5olj",
+       "url": "https://libtv-res.liblib.art/upload-images/289dfb82dbb444dab196cde0d1d39b7a/b2395043bb8d275afdb82976928e2e0fefc160a7.mp3",
+       "label": "视频节点 12_人声_截取",
+       "durationSec": 5.861774711400672,
+       "mediaType": "audio"
+      }
+     ],
+     "audioListOrder": [
+      "a-yhImHH5olj"
+     ]
+    },
+    "isStale": false,
+    "_updatedAtMs": 1780382162000,
+    "_lastAppliedFullyAtMs": 1780382162000,
+    "staleVersion": 9,
+    "taskInfo": {
+     "taskId": "20260602142703204851940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 7987643,
+       "width": 1280,
+       "height": 720,
+       "durationSec": 15.069002
+      }
+     ]
+    }
+   },
+   "parentKey": "g-tqOYPDa7qD",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-ruPuw5WNRS": {
+   "nodeKey": "v-ruPuw5WNRS",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "770.3834270646657",
+    "positionY": "534.3834270646669"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/976a4122f84d0bfa3c18ab4a063f4ed502aaa1e6ee51ffc046e5d4ddbcfab212_1780382258_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/976a4122f84d0bfa3c18ab4a063f4ed502aaa1e6ee51ffc046e5d4ddbcfab212.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/976a4122f84d0bfa3c18ab4a063f4ed502aaa1e6ee51ffc046e5d4ddbcfab212.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143603152251940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382333000,
+    "_lastAppliedFullyAtMs": 1780382333000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 30687165,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-Sf2jvZUOhO": {
+   "nodeKey": "v-Sf2jvZUOhO",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "48.38342706466574",
+    "positionY": "534.3834270646669"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/5b8e2f9d097d8177977d79cca81a526754933e4fe87527d37c0284fae8ab95cd_1780382261_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/5b8e2f9d097d8177977d79cca81a526754933e4fe87527d37c0284fae8ab95cd.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/5b8e2f9d097d8177977d79cca81a526754933e4fe87527d37c0284fae8ab95cd.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143603350221940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "videoHasAudioTrack": true,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382333000,
+    "_lastAppliedFullyAtMs": 1780382333000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 27996511,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-t6bMh0ecWz": {
+   "nodeKey": "v-t6bMh0ecWz",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "770.3834270646657",
+    "positionY": "84.38342706466688"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/459fc025d43e626608d0e11e1e8bf95ff94b261eb239f4520d4335a42484dbf3_1780382347_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/459fc025d43e626608d0e11e1e8bf95ff94b261eb239f4520d4335a42484dbf3.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/459fc025d43e626608d0e11e1e8bf95ff94b261eb239f4520d4335a42484dbf3.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143703319691940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382520000,
+    "_lastAppliedFullyAtMs": 1780382520000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 27570131,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-yChdqL2Xq3": {
+   "nodeKey": "v-yChdqL2Xq3",
+   "projectUuid": "c55dee32298d422aa773e85e42c93907",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "高清",
+   "position": {
+    "positionX": "48.38342706466574",
+    "positionY": "84.38342706466688"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "type": "video",
+    "name": "高清",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/eb8de72e9604a6d0587c562576e0d29b37d178ca4a34f5accea0c889c8fe1061_1780382402_lib_upscaled.mp4"
+    ],
+    "poster": "",
+    "action": "video_generate",
+    "generatorType": "enhance",
+    "params": {
+     "model": "volcano-video-upscaler",
+     "resolution": "4k",
+     "fps": 24,
+     "videoList": [
+      "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/eb8de72e9604a6d0587c562576e0d29b37d178ca4a34f5accea0c889c8fe1061.mp4"
+     ],
+     "videoListV2": [
+      {
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/289dfb82dbb444dab196cde0d1d39b7a/eb8de72e9604a6d0587c562576e0d29b37d178ca4a34f5accea0c889c8fe1061.mp4",
+       "width": 1280,
+       "height": 720,
+       "duration": 15.07
+      }
+     ]
+    },
+    "taskInfo": {
+     "taskId": "20260602143803957741940",
+     "loading": false,
+     "status": 2,
+     "progressPercent": 100,
+     "ownerUserId": "289dfb82dbb444dab196cde0d1d39b7a"
+    },
+    "isStale": false,
+    "contentWidth": 622,
+    "contentHeight": 350,
+    "_updatedAtMs": 1780382521000,
+    "_lastAppliedFullyAtMs": 1780382521000,
+    "_resourceMeta": {
+     "items": [
+      {
+       "kind": "video",
+       "mimeType": "text/plain",
+       "byteSize": 31789874,
+       "width": 3840,
+       "height": 2160,
+       "durationSec": 15.069751
+      }
+     ]
+    }
+   },
+   "parentKey": "g-g8TCyfjFwi",
+   "status": 1,
+   "createdAtMs": 1793210410000,
+   "updatedAtMs": 1793210410000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  }
+ },
+ "readErrors": [],
+ "fetchMethod": "API直连（libtv.exe 被智能应用控制拦截，按 CLI 二进制还原的只读 GET 接口采集：/api/canvas/project/detail + /api/canvas/node/detail，凭据为用户本人 2026-10-29 短信重登 token）"
+}

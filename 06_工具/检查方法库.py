@@ -1,0 +1,118 @@
+"""检查迁移边界、原文哈希、导航与索引；不能验证成片或外部附件。"""
+from pathlib import Path
+from argparse import ArgumentParser
+import hashlib
+import json
+import re
+from urllib.parse import unquote
+
+ROOT = Path(__file__).resolve().parents[1]
+MEDIA = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".mp4", ".mov", ".mp3", ".wav"}
+
+
+def require(condition, detail):
+    if not condition:
+        raise ValueError(detail)
+
+
+def without_fences(text):
+    active = None
+    out = []
+    for line in text.splitlines():
+        marker = re.match(r"^\s*(`{3,}|~{3,})", line)
+        if marker:
+            token = marker[1]
+            if active is None:
+                active = token
+            elif token[0] == active[0] and len(token) >= len(active):
+                active = None
+            continue
+        if active is None:
+            out.append(line)
+    return "\n".join(out)
+
+
+def main(excluded_terms=()):
+    (ROOT / "validation-report.json").write_text('{"status": "running"}\n', encoding="utf-8")
+    manifest = json.loads((ROOT / "source-manifest.json").read_text(encoding="utf-8"))
+    sources = manifest["sources"]
+    ids = [s["id"] for s in sources]
+    require(len(ids) == len(set(ids)), "来源 ID 重复")
+    hashes = 0
+    paths = set()
+    for source in sources:
+        for file in source["files"]:
+            path = (ROOT / file["path"]).resolve()
+            require(path.is_relative_to(ROOT), f"来源路径逃逸: {path}")
+            require(path not in paths, f"来源文件重复注册: {path}")
+            paths.add(path)
+            require(path.is_file(), f"缺少原文: {path}")
+            require(hashlib.sha256(path.read_bytes()).hexdigest() == file["sha256"], f"原文哈希不符: {path}")
+            hashes += 1
+    links = 0
+    generated = []
+    for path in ROOT.rglob("*"):
+        if ".git" in path.parts or "__pycache__" in path.parts:
+            continue
+        require(not path.is_symlink(), f"方法库包含外部链接: {path}")
+        if not path.is_file():
+            continue
+        require(path.suffix.lower() not in MEDIA, f"不应携带制作媒体: {path}")
+        require(path.name not in {"credentials.json", ".env"} and ".libtv" not in path.parts,
+                f"不应携带账号配置: {path}")
+        if path.suffix not in {".md", ".txt", ".json"}:
+            continue
+        text = path.read_text(encoding="utf-8-sig")
+        # 检查内容文件；检查脚本本身包含排除词定义，不属于内容层。
+        for word in excluded_terms:
+            require(word not in text, f"发现旧项目内容词 {word}: {path}")
+        if path.suffix == ".json":
+            json.loads(text)
+        if path.suffix != ".md":
+            continue
+        generated.append(path)
+        for target in re.findall(r"(?<!!)\[[^\]]*\]\(([^)]+)\)", without_fences(text)):
+            if re.match(r"^(?:https?://|#|app://)", target):
+                continue
+            local = unquote(target.strip("<>").split("#")[0])
+            require(not re.match(r"^[a-zA-Z]:|^/", local), f"导航依赖绝对路径: {path}: {target}")
+            resolved = (path.parent / local).resolve()
+            require(resolved.is_relative_to(ROOT), f"链接逃逸: {path}: {target}")
+            require(resolved.exists(), f"失效链接: {path}: {target}")
+            links += 1
+    ability_text = (ROOT / "01_能力库/能力卡.md").read_text(encoding="utf-8")
+    ability_ids = re.findall(r"^## (C\d+)｜", ability_text, re.M)
+    require(len(ability_ids) == len(set(ability_ids)), "能力编号重复")
+    stages = (ROOT / "00_方法论/01-阶段学习与确认.md").read_text(encoding="utf-8")
+    require(all(f"| S{i} " in stages for i in range(7)), "阶段表不完整")
+    skills = list((ROOT / ".agents/skills").glob("*/SKILL.md"))
+    for path in skills:
+        text = path.read_text(encoding="utf-8")
+        require(text.startswith("---\n") and "\nname: " in text and "\ndescription: " in text,
+                f"Skill 元数据不完整: {path}")
+    inventory = json.loads((ROOT / "snapshot-inventory.json").read_text(encoding="utf-8"))
+    result = {
+        "status": "pass", "source_records": len(sources), "source_hashes_verified": hashes,
+        "snapshot_totals": inventory["totals"], "generated_markdown_files": len(generated),
+        "relative_links_verified": links, "ability_ids": ability_ids,
+        "project_skill_entries": len(skills),
+        "excluded_content_terms_checked": len(excluded_terms),
+        "boundary": "no copied production media, supplied excluded content terms, credentials, symlinks or external local navigation",
+        "limitations": "engineering/package checks only; source media and method quality not evaluated; missing upstream attachments remain missing",
+    }
+    (ROOT / "validation-report.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(json.dumps(result, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    parser = ArgumentParser(description=__doc__)
+    parser.add_argument("--exclude-term", action="append", default=[], help="本次迁移需排除的内容词，可重复；不将具体旧项目词固化在方法库")
+    args = parser.parse_args()
+    try:
+        main(args.exclude_term)
+    except Exception as error:
+        (ROOT / "validation-report.json").write_text(
+            json.dumps({"status": "fail", "error": str(error)}, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8")
+        raise

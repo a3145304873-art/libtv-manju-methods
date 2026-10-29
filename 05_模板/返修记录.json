@@ -1,0 +1,20 @@
+{
+  "task_id": null,
+  "shot_ids": [],
+  "issue": null,
+  "issue_timecode": null,
+  "source_take_id": null,
+  "source_version": null,
+  "edit_range_seconds": null,
+  "keep": [],
+  "change": [],
+  "supporting_reference_inputs": [],
+  "repair_strategy": null,
+  "submitted_prompt": null,
+  "actual_settings": {},
+  "candidate_take_id": null,
+  "comparison_evidence": [],
+  "side_effects": [],
+  "decision": "unreviewed",
+  "cost_and_elapsed": null
+}

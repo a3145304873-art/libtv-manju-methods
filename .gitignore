@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+.libtv/
+credentials*.json
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.mp4
+*.mov
+*.mp3
+*.wav
+outputs/

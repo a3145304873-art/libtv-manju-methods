@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "source_id": "R01",
+  "type": "direction_design_document_format",
+  "source_scope": "field organization and document logic only",
+  "source_tree": {
+    "skeleton.md": "direction-level outline",
+    "data/characters.md": "duplicate of skeleton, no distinct character schema",
+    "data/locations.md": "11 location entries",
+    "data/props.md": "9 prop entries"
+  },
+  "skeleton_sections": [
+    "概要设计",
+    "故事简述",
+    "背景设定",
+    "全剧分段",
+    "为什么能追",
+    "钩子预设",
+    "伏笔预设",
+    "反转预设",
+    "创作禁区"
+  ],
+  "source_table_fields": {
+    "全剧分段": [
+      "段",
+      "段名",
+      "集数",
+      "阶段目标（从X到Y）",
+      "本段信息释放",
+      "与其他段的区别",
+      "详述"
+    ],
+    "钩子预设": [
+      "ID",
+      "钩子画面或台词",
+      "挑起的疑问",
+      "落在"
+    ],
+    "伏笔预设": [
+      "ID",
+      "埋什么",
+      "埋在",
+      "具体形态",
+      "收在",
+      "收的方式"
+    ],
+    "反转预设": [
+      "ID",
+      "观众原以为X，实际是Y",
+      "落在"
+    ]
+  },
+  "source_location_fields": [
+    "类型",
+    "戏剧作用",
+    "空间对行动的限制",
+    "可复用动作位置",
+    "关键集次"
+  ],
+  "source_prop_fields": [
+    "类型",
+    "别名（可选）",
+    "戏剧作用",
+    "使用边界",
+    "首次出场",
+    "关键集次"
+  ],
+  "character_schema_in_source": null,
+  "arc_schema_in_source": null,
+  "proposed_additions": [
+    "character identity, goal, relationships, arc and knowledge state",
+    "arc entry/exit state, episode progression and promise tracking",
+    "stable IDs, version, decision state and consistency checks"
+  ],
+  "adapted_template_root": "05_模板/方向设计标准",
+  "fixed_episode_count": null,
+  "fixed_arc_count": null,
+  "fixed_duration": null
+}

@@ -1,0 +1,15 @@
+{
+  "task_id": null,
+  "timeline_version": 1,
+  "clips": [],
+  "clip_item_fields": ["shot_id", "take_id", "source_version", "source_in", "source_out", "timeline_start", "purpose", "processing_history"],
+  "dialogue_and_lipsync": [],
+  "sfx_and_ambience": [],
+  "music": [],
+  "subtitles": [],
+  "export_settings": {},
+  "actual_export_metadata": {},
+  "full_av_review": "not_performed",
+  "creator_acceptance": "unknown",
+  "remaining_issues": []
+}

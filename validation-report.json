@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "source_records": 16,
+  "source_hashes_verified": 26,
+  "snapshot_totals": {
+    "snapshot_cases": 9,
+    "nodes": 671,
+    "video_nodes_with_prompt": 260,
+    "image_nodes_with_prompt": 109
+  },
+  "generated_markdown_files": 45,
+  "relative_links_verified": 190,
+  "ability_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+  ],
+  "project_skill_entries": 6,
+  "excluded_content_terms_checked": 0,
+  "boundary": "no copied production media, supplied excluded content terms, credentials, symlinks or external local navigation",
+  "limitations": "engineering/package checks only; source media and method quality not evaluated; missing upstream attachments remain missing"
+}
