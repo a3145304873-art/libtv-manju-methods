@@ -1,0 +1,15 @@
+{
+  "name": "@local/dsh-english-story-preset",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "English story canvas creation mode: brief, think, pick, validate, build, recheck.",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "cordis.patch.yml"
+  ]
+}

@@ -1,0 +1,1145 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-02T16:20:12.538+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · morose 小饭馆版 v4 · 关盒递出/到桌打开 · 20s",
+    "description": "morose 小饭馆版：柜台点单→端盒到桌→没肉丝→心易补救；黄蛋短句；旁白；单卡尾。",
+    "nodes": [
+      {
+        "id": "node-410a3ab3",
+        "type": "input-image",
+        "mainOutputId": "output-d75044e85f",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 121.9,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-d75044e85f",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:12:07.747000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T15:12:07.747000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-223d5036",
+        "type": "input-image",
+        "mainOutputId": "output-1536243a0a",
+        "meta": {
+          "x": 0.0,
+          "y": 200.0,
+          "width": 280,
+          "height": 320.6,
+          "label": "R01 黄蛋标准（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-1536243a0a",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-黄蛋-标准.jpg",
+            "resolution": {
+              "width": 1118,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:12:07.747000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T15:12:07.747000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 86469,
+              "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-32491fc6",
+        "type": "input-image",
+        "mainOutputId": "output-103027a20a",
+        "meta": {
+          "x": 0.0,
+          "y": 560.0,
+          "width": 280,
+          "height": 420.0,
+          "label": "R02 心易·水豚（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-103027a20a",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+            "cover": null,
+            "name": "心易-水豚-标准.png",
+            "resolution": {
+              "width": 400,
+              "height": 600
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:12:07.747000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T15:12:07.747000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 258953,
+              "md5": "100cfe8f4f09ec467008f61a0ab30d7d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-d2b202d6",
+        "type": "input-image",
+        "mainOutputId": "output-9484279423",
+        "meta": {
+          "x": 0.0,
+          "y": 1000.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "R02E 心易眼睛参考 · 白圆眼片＋细深棕圈·中心空白",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-9484279423",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-4235c925190327e7-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e7-9.png",
+            "cover": null,
+            "name": "心易-水豚-眼睛参考.png",
+            "resolution": {
+              "width": 430,
+              "height": 430
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T16:20:12.538+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T16:20:12.538+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 255707,
+              "md5": "6954ed604a3671b7676f0d6ac5eef1e3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-26e314ac",
+        "type": "input-image",
+        "mainOutputId": "output-49c820c76a",
+        "meta": {
+          "x": 360.0,
+          "y": 0.0,
+          "width": 240,
+          "height": 135.0,
+          "label": "【已生成】R01P 黄蛋毛绒版（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-49c820c76a",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-f4ba215448/image/20261102-071318-df775a3fa43be0c6-image.png",
+            "cover": null,
+            "name": "20261102-071318-df775a3fa43be0c6-image.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "canvas-copy",
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:13:24.038000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T15:13:24.038000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-1484bea1",
+        "type": "input-image",
+        "mainOutputId": "output-1368e9d080",
+        "meta": {
+          "x": 360.0,
+          "y": 260.0,
+          "width": 240,
+          "height": 135.0,
+          "label": "【已生成】A05 打包盒（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-1368e9d080",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-f4ba215448/image/20261102-071302-a5882872d90b4485-9f69de179eae65e8feb9b6.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-f4ba215448/image/20261102-071302-a5882872d90b4485-9f69de179eae65e8feb9b6.png",
+            "name": "9f69de179eae65e8feb9b6.png",
+            "resolution": null,
+            "source": "ai",
+            "batchId": "nexec-graph-af8a05e26e4b73dbf0ee0ca03328bffe1af3ee01b9649d8fefb81920fe9ae233",
+            "execution": {
+              "groupId": null,
+              "graphRunId": "graph-d3d209e225904036bf3d4ae6815b9e9c",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-d3d209e225904036bf3d4ae6815b9e9c",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "2ce0f5e8-283a-5601-9797-badd83752709",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:12:22.575000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T15:13:02.468000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-b01d7eaf",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 360.0,
+          "y": 760.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【待生成】A06 小饭馆内景 · 柜台/后厨窗口/木桌（菜单无字）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感内景空景，只生成一张。街边小饭馆/快餐店内部：木质柜台＋收银机＋出菜口＋后厨窗口（背景有炒锅/灶台），几张木桌/塑料凳，墙上菜单只有食物图片、无文字/无价格；暖黄灯，窗外傍晚街景虚化；3D卡通+真实光影（皮克斯/搪胶）。\n无人物、无手、无文字、无logo/水印。\n负向：人物、手、文字、价格、logo、水印、真实照片、过曝、杂乱。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-adcffef0",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 360.0,
+          "y": 980.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【待生成】A07 小白碟＋一根肉丝",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图：一个小白碟，碟里只有一根青椒肉丝（一根肉丝＋一根青椒丝）。3D卡通+真实光影，轻微投影；无角色/手/文字/logo/水印。\n负向：多根肉丝、满盘、角色、手、文字、logo、水印、真实照片。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-99169802",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 760.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【待生成】K_A 首帧 · 柜台点单",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感首帧，第0秒，只生成一张。小饭馆柜台（参考 {{node-b01d7eaf}}）：双人中景，黄蛋毛绒版（参考 {{node-26e314ac}}，外形/比例参考 {{node-410a3ab3}}）在画面左1/3，站在柜台前，短手指向墙上菜单图片；心易（参考 {{node-32491fc6}}，棕色水豚；眼睛严格按 {{node-d2b202d6}}：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不眨眼、不眯眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵）在画面右1/3，站在柜台后，看向黄蛋；柜台上只有收银机/菜单，没有打包盒，心易双手空着。两人都不说话、嘴巴闭合；无文字/气泡/字幕。暖黄灯，傍晚，3D卡通+真实光影。\n负向：旧黄蛋光滑塑料、餐台上提前出现打包盒/餐盒、心易一开始手里有餐盒、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮/眼睑/眉毛/眨眼/眯眼/半闭眼/眼神变化/眼睛大特写、角色说话、文字、气泡、字幕、logo、人类、比例失真、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-410a3ab3"
+              },
+              {
+                "node_id": "node-26e314ac"
+              },
+              {
+                "node_id": "node-32491fc6"
+              },
+              {
+                "node_id": "node-d2b202d6"
+              },
+              {
+                "node_id": "node-b01d7eaf"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-a91501a9",
+        "type": "input-image",
+        "mainOutputId": "output-8bfade80ee",
+        "meta": {
+          "x": 760.0,
+          "y": 260.0,
+          "width": 300.0,
+          "height": 168.8,
+          "label": "T_A 占位 · 先跑 V1，再替换成 V1 最后一帧",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-8bfade80ee",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-1353c38935bec45d-t-a-e5-8d-a0-e4-bd-8d-e6-9b-bf-e6-8d-a2v.png",
+            "cover": null,
+            "name": "T_A-占位-替换V1尾帧.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T16:20:12.538+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T16:20:12.538+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 28176,
+              "md5": "8a33266292232fa8212728cff66268e0"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-32f8bf2d",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 0.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】V1 · 8s · 点单/后厨/端走",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【风格】20s 玩梗记单词，横屏；小饭馆内景；黄蛋说话（短句）；心易只发“咔啵”，不说话；无文字/气泡；旁白后期。镜头快推/短甩/急停。\n【角色】黄蛋毛绒版（参考 {{node-26e314ac}}，外形/比例参考 {{node-410a3ab3}}）：黄色蛋形、奶油脸、棕眼、天线球、短手、白袜白鞋；毛绒/毛毡；顾客。心易（参考 {{node-32491fc6}}，棕色水豚；眼睛严格按 {{node-d2b202d6}}：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不眨眼、不眯眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵）；店员/厨师，只发“咔啵”，不说话。\n【场景】{{node-b01d7eaf}} 小饭馆柜台/后厨窗口/木桌，暖黄灯，傍晚。\n【道具】{{node-9d3ca265}} 盖着盖子的打包盒（里面是白饭＋青椒，无肉丝；但**不能提前打开、不能露出食物**）。\n0–2 秒：{{node-99169802}} 黄蛋站在柜台前，指墙上菜单图片：“青椒肉丝饭，肉丝多一点！”**柜台上只有收银机/菜单，没有打包盒。**\n2–4 秒：心易点头，转身走向后厨/出菜口：“咔啵！”（收到）**手里仍然没有餐盒。**\n4–6 秒：心易从出菜口拿出**盖着盖子的**打包盒，装袋/递出；黄蛋接。**盒子始终关着，不打开。**\n6–8 秒：黄蛋端着**关着的**餐盒走向木桌；**尾帧停在半路/桌边，稳定 1 秒**，给 V2 接尾帧。\n【声音】黄蛋人声（短句）；心易只有“咔啵”；环境声；旁白后期。\n负向：视频内文字/气泡/字幕、餐盒提前打开/露出食物、0–4 秒提前出现打包盒/餐盒、心易一开始手里有餐盒、心易说人话/加词、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮/眼睑/眉毛/眨眼/眯眼/半闭眼/眼神变化/眼睛大特写、旧黄蛋光滑塑料、肉丝出现、蛋壳裂开/蛋液、牙齿、logo、慢速横移、渐变、白场、过曝。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-410a3ab3"
+              },
+              {
+                "node_id": "node-26e314ac"
+              },
+              {
+                "node_id": "node-32491fc6"
+              },
+              {
+                "node_id": "node-d2b202d6"
+              },
+              {
+                "node_id": "node-b01d7eaf"
+              },
+              {
+                "node_id": "node-9d3ca265"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-99169802"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 8,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-36327055",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 300.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】V2 · 9s · 没肉丝/后厨补救（首帧 T_A）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【风格】20s 玩梗记单词，横屏；小饭馆内景；黄蛋说话（短句）；心易只发“咔啵”，不说话；无文字/气泡；旁白后期。**首帧＝T_A**：从 V1 最后一帧（黄蛋端着关着的餐盒走到桌边）继续，不换机位/不重摆/不换光；**餐盒在 T_A 是关着的，2–4 秒才打开**。\n【角色】黄蛋毛绒版（参考 {{node-26e314ac}}，外形/比例参考 {{node-410a3ab3}}）：黄色蛋形、奶油脸、棕眼、天线球、短手、白袜白鞋；毛绒/毛毡；顾客。心易（参考 {{node-32491fc6}}，棕色水豚；眼睛严格按 {{node-d2b202d6}}：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不眨眼、不眯眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵）；店员/厨师，只发“咔啵”，不说话。\n【场景】{{node-b01d7eaf}} 小饭馆柜台/后厨窗口/木桌，暖黄灯，傍晚；与 T_A 同一空间/光线。\n【道具】{{node-9d3ca265}} 关着的打包盒；{{node-1484bea1}} 打开后的盒内（白饭＋青椒，无肉丝）；{{node-adcffef0}} 小白碟＋一根肉丝。\n0–2 秒：{{node-a91501a9}} 黄蛋在桌边，餐盒**关着**；他把餐盒放稳，手放在盒盖上。\n2–4 秒：黄蛋打开盒盖——里面只有青椒，没有肉丝：“……怎么没有肉丝？”\n4–6 秒：心易在柜台后僵住/探头：“咔啵？”（心虚）\n6–7 秒：心易缩回后厨窗口：“咔——啵”（等一下）\n7–8 秒：心易端小白碟（一根肉丝）放桌上：“咔啵！”（补救）\n8–9 秒：黄蛋看那一根，更郁闷；心易低头/拍肩：“咔……啵……”镜尾定格 1s。\n【声音】黄蛋人声（短句）；心易只有“咔啵”；环境声；旁白后期。\n负向：视频内文字/气泡/字幕、T_A 首帧餐盒已打开、0–2 秒露出食物、心易说人话/加词、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮/眼睑/眉毛/眨眼/眯眼/半闭眼/眼神变化/眼睛大特写、旧黄蛋光滑塑料、满盘肉丝、蛋壳裂开/蛋液、牙齿、logo、换机位/重摆/换光、慢速横移、渐变、白场、过曝。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-410a3ab3"
+              },
+              {
+                "node_id": "node-26e314ac"
+              },
+              {
+                "node_id": "node-32491fc6"
+              },
+              {
+                "node_id": "node-d2b202d6"
+              },
+              {
+                "node_id": "node-b01d7eaf"
+              },
+              {
+                "node_id": "node-1484bea1"
+              },
+              {
+                "node_id": "node-adcffef0"
+              },
+              {
+                "node_id": "node-9d3ca265"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-a91501a9"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 9,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-d41b9b35",
+        "type": "input-image",
+        "mainOutputId": "output-0d637fd1d1",
+        "meta": {
+          "x": 1200.0,
+          "y": 600.0,
+          "width": 300.0,
+          "height": 168.8,
+          "label": "KC 单卡尾 · morose / 没肉丝 → 郁闷的（后期用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-0d637fd1d1",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-85bf5d2b19/image/20261102-075206-a26a71c844b98dda-morose-card-tail.png",
+            "cover": null,
+            "name": "morose-card-tail.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T16:20:12.538+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T16:20:12.538+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 241971,
+              "md5": "c1728a8d896d4fd78e665611adeecb72"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-84de8260",
+        "type": "input-text",
+        "mainOutputId": "output-fec1f59b47",
+        "meta": {
+          "x": 760.0,
+          "y": 600.0,
+          "width": 760.0,
+          "height": 540.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-fec1f59b47",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔记单词》玩梗样片·小饭馆版：morose = 没肉丝 → 郁闷的。20s。\nV1 8s（点单/后厨/端走）＋ T_A ＋ V2 9s（没肉丝/心易补救）＋ 单卡尾 3s。\n黄蛋说短句；心易只“咔啵”；旁白后期；视频内无字。\n\n【跑序】\n1. 跑 A06 小饭馆内景（菜单无字）。\n2. 跑 A07 小白碟＋一根肉丝（可选）。\n3. 跑 K_A 首帧。\n4. 跑 V1（8s）；结尾停在黄蛋端盒走到桌边，稳定 1s。\n5. 截 V1 尾帧 → 替换 T_A。\n6. 跑 V2（9s，首帧 T_A）。\n7. 后期：V1+V2 → 单卡尾 3s；加旁白；心易“咔啵？”。\n\n【分工】\n- 黄蛋：顾客；短句“青椒肉丝饭，肉丝多一点”“怎么没有肉丝”“就一根？”“你记住了吗”。\n- 心易：店员/厨师；咔啵！收到 → 咔啵？心虚 → 咔——啵等一下 → 咔啵！补救 → 咔……啵……抱歉。\n- 旁白：morose，郁闷的。没肉丝，所以郁闷。\n- R01P/A05/R00/R01/R02/R02E 复用，不重跑。\n\n【场景】\n小饭馆：柜台＋出菜口＋后厨窗口＋木桌；菜单只有食物图片，无文字/价格；暖黄灯，傍晚。\n\n\n【心易眼睛·锁死】\n白圆眼片、中心空白无瞳孔；外圈一圈深棕色细描边；无高光点；眼片形状/外圈/中心空白全程不变；不眨眼/不眯眼/不抬眼皮/不皱眉；情绪只靠歪头/身体/手势/咔啵。\n负向只写“心易的……”：心易的黑瞳/眼珠/虹膜/瞳孔/高光点/眼皮/眼睑/眉毛/眨眼/眯眼/半闭眼/眼神变化/眼睛大特写。不要限制黄蛋的眼睛。\n\n【资产保留】\nR01P/A05/R00/R01/R02/R02E/KC 均已生成，保留不重跑；只新生成 A06/A07/K_A/V1/V2。\n\n\n【点单后才拿盒】\nK_A 首帧：柜台只有收银机/菜单，没有打包盒，心易双手空着。\nV1 0–2 黄蛋点单；2–4 心易转身去后厨/出菜口；4–6 才拿出打包盒；6–8 端走。\n负向：0–4 秒提前出现打包盒/餐盒、心易一开始手里有餐盒。\n\n\n【关盒递出】\n- 心易从出菜口拿的是 A05C 关着的打包盒；V1 全程不打开、不露食物。\n- V2 首帧 T_A 盒子仍然关着；2–4 秒黄蛋才打开，发现只有青椒。\n- 负向：餐盒提前打开/露出食物、T_A 首帧已打开。\n- A05 打开的餐盒只用于 V2 打开后的盒内；A05C 用于 V1/交接。\n",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T16:20:12.538+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T16:20:12.538+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:20:12.538+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:20:12.538+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-9d3ca265",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 360.0,
+          "y": 540.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【待生成】A05C 关着的打包盒（盖紧，无食物露出）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图：一个关着盖子的白色外卖餐盒/便当盒，长方形，盖子扣紧，无文字/logo；3D卡通+真实光影，轻微投影；无角色/手/食物露出。负向：打开、食物露出、肉丝、角色、手、文字、logo、水印、真实照片。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-df1d6368",
+        "sourceNodeId": "node-1484bea1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-799a0cc0",
+        "sourceNodeId": "node-26e314ac",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-d7d39ba7",
+        "sourceNodeId": "node-26e314ac",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-5162f88a",
+        "sourceNodeId": "node-26e314ac",
+        "sourceHandle": "output",
+        "targetNodeId": "node-99169802",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-1d6a318e",
+        "sourceNodeId": "node-32491fc6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-ebffa96e",
+        "sourceNodeId": "node-32491fc6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-a31bddd9",
+        "sourceNodeId": "node-32491fc6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-99169802",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-af540bf1",
+        "sourceNodeId": "node-410a3ab3",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-7fca7511",
+        "sourceNodeId": "node-410a3ab3",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-d048aa82",
+        "sourceNodeId": "node-410a3ab3",
+        "sourceHandle": "output",
+        "targetNodeId": "node-99169802",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-9d7ed36a",
+        "sourceNodeId": "node-99169802",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-e5ba0620",
+        "sourceNodeId": "node-9d3ca265",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-8c5d27a4",
+        "sourceNodeId": "node-9d3ca265",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-e24d3e26",
+        "sourceNodeId": "node-a91501a9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-53779498",
+        "sourceNodeId": "node-adcffef0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-9d0b9b2d",
+        "sourceNodeId": "node-b01d7eaf",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-96994a4e",
+        "sourceNodeId": "node-b01d7eaf",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-f03fea1c",
+        "sourceNodeId": "node-b01d7eaf",
+        "sourceHandle": "output",
+        "targetNodeId": "node-99169802",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-a4693e9f",
+        "sourceNodeId": "node-d2b202d6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-32f8bf2d",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-bdb89bb0",
+        "sourceNodeId": "node-d2b202d6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-36327055",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-cb74ec1e",
+        "sourceNodeId": "node-d2b202d6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-99169802",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-e17b501f",
+        "nodeIds": [
+          "node-410a3ab3",
+          "node-223d5036",
+          "node-32491fc6",
+          "node-d2b202d6"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 1340.0
+        },
+        "label": "00 参考素材 · 黄蛋/水豚/眼睛",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-984b8c94",
+        "nodeIds": [
+          "node-26e314ac",
+          "node-1484bea1"
+        ],
+        "bounds": {
+          "x": 340.0,
+          "y": -20.0,
+          "width": 280.0,
+          "height": 435.0
+        },
+        "label": "01 已生成 · 黄蛋毛绒/打开的餐盒",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#D8A657"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-991bdda9",
+        "nodeIds": [
+          "node-9d3ca265",
+          "node-b01d7eaf",
+          "node-adcffef0"
+        ],
+        "bounds": {
+          "x": 340.0,
+          "y": 520.0,
+          "width": 340.0,
+          "height": 677.0
+        },
+        "label": "02 小饭馆/关盒/肉丝 · 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-d4c710cf",
+        "nodeIds": [
+          "node-99169802",
+          "node-a91501a9"
+        ],
+        "bounds": {
+          "x": 740.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 468.8
+        },
+        "label": "03 首帧/尾帧 · K_A、T_A",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-83163a58",
+        "nodeIds": [
+          "node-32f8bf2d"
+        ],
+        "bounds": {
+          "x": 1180.0,
+          "y": -20.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "04 视频 V1 · 8s · 点单/端走",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-7fbf76de",
+        "nodeIds": [
+          "node-36327055"
+        ],
+        "bounds": {
+          "x": 1180.0,
+          "y": 280.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "05 视频 V2 · 9s · 打开/补救",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-7b5f0284",
+        "nodeIds": [
+          "node-d41b9b35",
+          "node-84de8260"
+        ],
+        "bounds": {
+          "x": 740.0,
+          "y": 580.0,
+          "width": 800.0,
+          "height": 580.0
+        },
+        "label": "06 单卡尾/说明 · 后期",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-11-02T16:50:53.733+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T16:50:53.733+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

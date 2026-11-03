@@ -1,0 +1,717 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-03T17:30:07+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · pest-15s · pest",
+    "description": "【本画布做什么】\n《蛋仔记单词》谐音故事 · 15s · 6 拍 + 单卡：pest = 拍死它 → 害虫。\npest《拍死它》15s；0–12s 画面（6 拍）＋ 12–15s 单卡尾。\n\n【跑序】\n1. 跑 A05 道具图（白底、无手、无字；不带目标词，避免烧字）。\n2. 跑 G1 三格分镜（0/5/10s）；第一格必须含全部道具（苍蝇拍、水果盘）与两人站位，确认后再往下。\n3. 跑 K_A 首帧（构图必须和 G1 第一格一致）。\n4. 跑 V1（12s）；结尾停住 1s，人物不回位。\n5. 跑 KC 卡尾；文字不对就重跑或改 PIL 版。\n6. 后期：V1 + 卡尾 3s；SRT 单独加；视频内无字。\n\n【分工】\n- 黄蛋：只说他自己的反应短句；不解释英文、不讲词义。\n- 心易：不说话，只“咔啵”；眼睛按 R02E（白片＋棕圈、中心空白、全程睁开）。\n- 本档无旁白：词只在卡尾出现。\n\n【逐拍】\n0–3s｜中景（石桌全景）｜夏夜小院石桌。水果盘在桌中，苍蝇拍在桌右，黄蛋已经追了半天：绒毛塌、满头汗；同一机位同一构图做 3 个快切——拍桌、拍凳、拍空；蚊子停一下又飞。心易坐对面，不动。｜黄蛋：第二十一下——拍死它！\n3–5s｜中近景（黄蛋）｜黄蛋一屁股坐回石凳，用两只短手抹汗，胸口起伏；苍蝇拍搭在腿上。｜黄蛋：我怀疑人生。\n5–7s｜中景（双人）｜蚊子落到水果盘边的桌面，离黄蛋近、离心易也近；黄蛋盯着它，把苍蝇拍往桌上一放，双手举起做投降状，小声商量；心易仍不动。｜黄蛋：咱讲和，成不？\n7–9s｜近景（桌面＋两人手）｜蚊子不理，贴桌飞起；黄蛋猛地前扑，一拍砸在桌沿，苍蝇拍脱手落在桌面；蚊子绕开，落到水果盘另一侧、离心易爪约一拳的桌面；黄蛋扑空半趴在桌上。｜黄蛋：别跑！拍死它！\n9–11s｜特写（心易爪＋桌面）｜画面只出现心易的一只前爪与桌面，心易的脸不入画。心易眼睛不转，只抬一只前爪，“啪”一下按在盘边；摊爪，蚊子晕乎乎在桌面打转；黄蛋半趴着抬头，嘴张成 O。｜心易：咔啵。\n11–12s｜近景（黄蛋）｜黄蛋保持半趴，苍蝇拍掉在桌上；他看着心易，气声；定格。｜黄蛋：你……一下就……\n\n【谐音与义接】\n- 谐音句：第二十一下——拍死它！（黄蛋）\n- 义接类型：字面对象就是词义——“拍死它”的对象就是害虫，音与义落在同一个动作上。\n- 场景：夏夜小院石桌——院子是蚊子出没地；石桌同时提供苍蝇拍、水果盘和蚊子落点，三样都在一臂之内。\n\n【资产保留】\n复用：R00 / R01P / R02 / R02E / A02；新生成：A05 / G1 / K_A / V1 / KC。\n已生成的不要清空 outputs、不要改回“待生成”。\n\n【门禁】\n交付前：py -3 cli.py check out/pest-15s.monet\n有 ERROR 不导入；有 WARNING 看报告逐条确认。\n",
+    "nodes": [
+      {
+        "id": "node-22760ffb",
+        "type": "input-image",
+        "mainOutputId": "output-9fa5fe14b481",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-9fa5fe14b481",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-31d93644",
+        "type": "input-image",
+        "mainOutputId": "output-0469d4154e19",
+        "meta": {
+          "x": 0.0,
+          "y": 260.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "【已生成】R01P 黄蛋毛绒版（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-0469d4154e19",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061428-df1b8807e3f837ac-96657f80b9e62d2679b7ae.png",
+            "cover": null,
+            "name": "黄蛋-毛绒版.png",
+            "resolution": {
+              "width": 1024,
+              "height": 1024
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-fda23506",
+        "type": "input-image",
+        "mainOutputId": "output-3ab2896aae6f",
+        "meta": {
+          "x": 0.0,
+          "y": 520.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "R02 心易·水豚（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-3ab2896aae6f",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+            "cover": null,
+            "name": "心易-水豚-标准.png",
+            "resolution": {
+              "width": 400,
+              "height": 600
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": {
+              "size": 258953,
+              "md5": "100cfe8f4f09ec467008f61a0ab30d7d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-20cd50c0",
+        "type": "input-image",
+        "mainOutputId": "output-1fe08fd55a53",
+        "meta": {
+          "x": 0.0,
+          "y": 780.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "R02E 心易眼睛参考（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-1fe08fd55a53",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-4235c925190327e7-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e7-9.png",
+            "cover": null,
+            "name": "心易-水豚-眼睛参考.png",
+            "resolution": {
+              "width": 430,
+              "height": 430
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": {
+              "size": 255707,
+              "md5": "6954ed604a3671b7676f0d6ac5eef1e3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-1dfa84a9",
+        "type": "input-image",
+        "mainOutputId": "output-88b2f0601bcb",
+        "meta": {
+          "x": 360.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "A02 场景（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-88b2f0601bcb",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091451-7adbbcb1b5f01f2c-55a7fc3aca10c44a88745d.png",
+            "cover": null,
+            "name": "A02-小院.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-201ca8bd",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 360.0,
+          "y": 260.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "【待生成】A05 道具图 · 苍蝇拍/水果盘",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 白底道具图，只生成一张，物品平铺不重叠。\n- 苍蝇拍：细长直柄＋椭圆网面，浅木柄米白网；不是电蚊拍、不是球拍、不是蒲扇。\n- 水果盘：白瓷浅盘，盘里两颗水果（一青一橙）。\n- 卡通小蚊：一只很小的卡通蚊子，黑色细线身体、半透明小翅；不写实、不放大、不爆浆、无血。\n白底、无人物、无手、无文字、无 logo、无水印；3D 卡通＋真实光影（皮克斯/搪胶）。\n负向：人物、手、文字、数字、logo、水印、背景环境、多余道具。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-cbbb9f11",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 720.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "【待生成】G1 三格分镜 · 0/5/10s（先跑这张）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 三格分镜预演图，横向三等分，从左到右 0s / 5s / 10s；只生成一张。\n心易（参考 {{node-fda23506}}，棕色水豚；眼睛严格按 {{node-20cd50c0}}）：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；眼睛入画时全程睁开，白色圆形眼片完整可见；不眨眼、不眯眼、不抬眼皮、不皱眉、不闭眼、不笑眼；情绪只靠歪头/身体/手势/咔啵。\n黄蛋（参考 {{node-31d93644}}）：毛绒版，保留黄身/奶油脸/棕眼/天线球/白袜白鞋；短毛绒/毛毡质感；不限制黄蛋的眼睛，可以眨眼、可以做表情；黄蛋只有两只短手、两只脚。\n【场景】参考 {{node-1dfa84a9}}，夏夜小院石桌。A02 有石桌；夏夜感靠灯光补，不换景。\n【道具】参考 {{node-201ca8bd}}（道具图）：\n- 苍蝇拍：细长直柄＋椭圆网面，浅木柄米白网；不是电蚊拍、不是球拍、不是蒲扇；0.0s 平放石桌右侧。\n- 水果盘：白瓷浅盘，盘里两颗水果（一青一橙）；0.0s 在石桌中间。\n- 触发物 卡通小蚊：一只很小的卡通蚊子，黑色细线身体、半透明小翅；不写实、不放大、不爆浆、无血；0.0s 停在水果盘沿。触发物不算道具；只在桌面与盘沿活动。\n- 道具固定 2 件，首帧全在；不新增、不消失、不变数量。\n第一格（0s，中景（石桌全景））：夏夜小院石桌。水果盘在桌中，苍蝇拍在桌右，黄蛋已经追了半天：绒毛塌、满头汗；同一机位同一构图做 3 个快切——拍桌、拍凳、拍空；蚊子停一下又飞。心易坐对面，不动。这一格必须包含全部道具：苍蝇拍（0.0s 平放石桌右侧）、水果盘（0.0s 在石桌中间）、卡通小蚊（0.0s 停在水果盘沿）；两人的站位、朝向、光线在这一格定死。\n第二格（5s，中景（双人））：蚊子落到水果盘边的桌面，离黄蛋近、离心易也近；黄蛋盯着它，把苍蝇拍往桌上一放，双手举起做投降状，小声商量；心易仍不动。\n第三格（10s，特写（心易爪＋桌面））：画面只出现心易的一只前爪与桌面，心易的脸不入画。心易眼睛不转，只抬一只前爪，“啪”一下按在盘边；摊爪，蚊子晕乎乎在桌面打转；黄蛋半趴着抬头，嘴张成 O。\n三格同一机位、同一光线、同一构图；格与格之间只变动作，不变站位、不变道具数量。\n格线用细白线分隔；画面内不出现任何文字、数字、字幕、气泡、logo。\n负向：心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的闭眼、心易的笑眼、心易的眼神变化、心易的眼睛大特写、文字、字幕、气泡、多余手臂、第三只手、多双手、缺道具、道具位置错误、换景。",
+            "reference_images": [
+              {
+                "node_id": "node-1dfa84a9"
+              },
+              {
+                "node_id": "node-31d93644"
+              },
+              {
+                "node_id": "node-fda23506"
+              },
+              {
+                "node_id": "node-20cd50c0"
+              },
+              {
+                "node_id": "node-201ca8bd"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-46ca89c8",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 720.0,
+          "y": 300.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "【待生成】K_A 首帧 · 石桌全景（道具全在）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感单帧，只生成一张；这是整支片的首帧，构图、站位、光线后面都不换。\n心易（参考 {{node-fda23506}}，棕色水豚；眼睛严格按 {{node-20cd50c0}}）：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；眼睛入画时全程睁开，白色圆形眼片完整可见；不眨眼、不眯眼、不抬眼皮、不皱眉、不闭眼、不笑眼；情绪只靠歪头/身体/手势/咔啵。\n黄蛋（参考 {{node-31d93644}}）：毛绒版，保留黄身/奶油脸/棕眼/天线球/白袜白鞋；短毛绒/毛毡质感；不限制黄蛋的眼睛，可以眨眼、可以做表情；黄蛋只有两只短手、两只脚。\n【场景】参考 {{node-1dfa84a9}}，夏夜小院石桌。A02 有石桌；夏夜感靠灯光补，不换景。\n【道具】参考 {{node-201ca8bd}}（道具图）：\n- 苍蝇拍：细长直柄＋椭圆网面，浅木柄米白网；不是电蚊拍、不是球拍、不是蒲扇；0.0s 平放石桌右侧。\n- 水果盘：白瓷浅盘，盘里两颗水果（一青一橙）；0.0s 在石桌中间。\n- 触发物 卡通小蚊：一只很小的卡通蚊子，黑色细线身体、半透明小翅；不写实、不放大、不爆浆、无血；0.0s 停在水果盘沿。触发物不算道具；只在桌面与盘沿活动。\n- 道具固定 2 件，首帧全在；不新增、不消失、不变数量。\n构图：夏夜小院石桌，石桌居中偏下；黄蛋在桌左站着（绒毛塌、满头汗），心易坐在桌右对面不动；苍蝇拍、水果盘按上面的位置全部入画；卡通小蚊停在水果盘沿。\n光线与景别：夏夜：暖黄院灯＋夜色，光线统一；中景，人物全身可见，不切特写。\n首帧状态：0.0s 石桌、水果盘、苍蝇拍已经就位；黄蛋已经追了半天：绒毛塌、满头汗；心易坐在对面，全程不动。\n画面内不出现任何文字、数字、logo、水印、气泡、字幕。\n负向：视频内文字/字幕/气泡、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的闭眼、心易的笑眼、心易的眼神变化、心易的眼睛大特写、多余手臂、第三只手、多双手、缺道具、道具位置错误。",
+            "reference_images": [
+              {
+                "node_id": "node-1dfa84a9"
+              },
+              {
+                "node_id": "node-31d93644"
+              },
+              {
+                "node_id": "node-fda23506"
+              },
+              {
+                "node_id": "node-20cd50c0"
+              },
+              {
+                "node_id": "node-201ca8bd"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-8760bf67",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1080.0,
+          "y": 150.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】V1 · 12s · 6 拍",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "pest 谐音故事，12s，单场景，一镜到底不换景。\n【首帧锁定】首帧＝{{node-46ca89c8}}：严格保持首帧的位置、朝向、尺度、光线、道具摆位，不重新构图。\n【比例】黄蛋与心易的身高比例参考 {{node-22760ffb}}（只取比例，不改构图、不改站位）。\n心易（参考 {{node-fda23506}}，棕色水豚；眼睛严格按 {{node-20cd50c0}}）：白色圆形眼片，中心没有黑色瞳孔/眼珠/虹膜；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；眼睛入画时全程睁开，白色圆形眼片完整可见；不眨眼、不眯眼、不抬眼皮、不皱眉、不闭眼、不笑眼；情绪只靠歪头/身体/手势/咔啵。\n黄蛋（参考 {{node-31d93644}}）：毛绒版，保留黄身/奶油脸/棕眼/天线球/白袜白鞋；短毛绒/毛毡质感；不限制黄蛋的眼睛，可以眨眼、可以做表情；黄蛋只有两只短手、两只脚。\n【场景】参考 {{node-1dfa84a9}}，夏夜小院石桌。A02 有石桌；夏夜感靠灯光补，不换景。\n【道具】参考 {{node-201ca8bd}}（道具图）：\n- 苍蝇拍：细长直柄＋椭圆网面，浅木柄米白网；不是电蚊拍、不是球拍、不是蒲扇；0.0s 平放石桌右侧。\n- 水果盘：白瓷浅盘，盘里两颗水果（一青一橙）；0.0s 在石桌中间。\n- 触发物 卡通小蚊：一只很小的卡通蚊子，黑色细线身体、半透明小翅；不写实、不放大、不爆浆、无血；0.0s 停在水果盘沿。触发物不算道具；只在桌面与盘沿活动。\n- 道具固定 2 件，首帧全在；不新增、不消失、不变数量。\n从首帧 {{node-46ca89c8}} 开始。0–3 秒：中景（石桌全景）。夏夜小院石桌。水果盘在桌中，苍蝇拍在桌右，黄蛋已经追了半天：绒毛塌、满头汗；同一机位同一构图做 3 个快切——拍桌、拍凳、拍空；蚊子停一下又飞。心易坐对面，不动。 黄蛋：“第二十一下——拍死它！” 音效：蚊子嗡、拍桌“啪”、拍凳“啪”、挥空“呼”。\n3–5 秒：中近景（黄蛋）。黄蛋一屁股坐回石凳，用两只短手抹汗，胸口起伏；苍蝇拍搭在腿上。 黄蛋：“我怀疑人生。” 音效：粗喘、石凳“咯吱”。\n5–7 秒：中景（双人）。蚊子落到水果盘边的桌面，离黄蛋近、离心易也近；黄蛋盯着它，把苍蝇拍往桌上一放，双手举起做投降状，小声商量；心易仍不动。 黄蛋：“咱讲和，成不？” 音效：蚊子嗡停半拍。\n7–9 秒：近景（桌面＋两人手）。蚊子不理，贴桌飞起；黄蛋猛地前扑，一拍砸在桌沿，苍蝇拍脱手落在桌面；蚊子绕开，落到水果盘另一侧、离心易爪约一拳的桌面；黄蛋扑空半趴在桌上。 黄蛋：“别跑！拍死它！” 音效：拍桌“咚”、拍子脱手“嗒”、蚊子“嗡”。\n9–11 秒：特写（心易爪＋桌面）。画面只出现心易的一只前爪与桌面，心易的脸不入画。心易眼睛不转，只抬一只前爪，“啪”一下按在盘边；摊爪，蚊子晕乎乎在桌面打转；黄蛋半趴着抬头，嘴张成 O。 心易：“咔啵。”（只发这一声，不加任何括号释义）。 音效：爪拍“咔”（干脆）、蚊子嗡戛然而止。\n11–12 秒：近景（黄蛋）。黄蛋保持半趴，苍蝇拍掉在桌上；他看着心易，气声；定格。 黄蛋：“你……一下就……” 音效：环境声抽掉。\n【声音】黄蛋人声（中文短句，只说他自己的台词）；心易只有“咔啵”（每句 1 次，不加括号释义）；音效与环境声：蚊子嗡、拍桌“啪”、拍凳“啪”、挥空“呼”、粗喘、石凳“咯吱”；无 BGM；无旁白；无字幕。\n【负向】视频内文字、字幕、气泡、画面内任何文字/数字/logo/水印；多余手臂、第三只手、多双手、多余手指；道具数量变化、道具凭空出现/消失；人物穿模、场景切换、镜头跳轴、机位变化；写实血液/爆浆/红肿；黄蛋讲解释、心易说人话；心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的闭眼、心易的笑眼、心易的眼神变化、心易的眼睛大特写；不生成任何文字、不生成任何字幕、不生成任何气泡；旁白、画外音、解说；蚊子落点只在水果盘边/桌面：不落头顶、不落肩、不落爪背、不落心易身上；拍自己/扑空是卡通 slapstick：不红肿、不爆浆、无血；心易不站起、不走过去、不转头看；3 个快切必须同一机位、同一构图；没有毛巾，没有第三个角色，没有道具凭空出现。\n全片同一机位、同一构图；只有 3 个快切允许硬切，其余连续。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-1dfa84a9"
+              },
+              {
+                "node_id": "node-22760ffb"
+              },
+              {
+                "node_id": "node-31d93644"
+              },
+              {
+                "node_id": "node-fda23506"
+              },
+              {
+                "node_id": "node-20cd50c0"
+              },
+              {
+                "node_id": "node-201ca8bd"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-46ca89c8"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 12,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-f161dc38",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1480.0,
+          "y": 150.0,
+          "width": 300.0,
+          "height": 200.0,
+          "label": "【待生成】KC 单卡尾 · pest / 拍死它 / 害虫",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 单张词卡静帧，只生成一张。米白卡纸居中，浅灰细边，桌面/小院背景虚化、午后暖光。\n卡面只三行：第一行红色手写感单词 “pest”；第二行黑色 “拍死它 → 害虫”。\n没有小字、没有标语、没有解释、没有二维码、没有 logo、没有水印、没有多余装饰。\n文字必须完全按上面写，拼写正确，不许多字少字。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null
+      },
+      {
+        "id": "node-e2cefa19",
+        "type": "input-text",
+        "mainOutputId": "output-127dbc1e7a12",
+        "meta": {
+          "x": 720.0,
+          "y": 700.0,
+          "width": 760.0,
+          "height": 540.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-127dbc1e7a12",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔记单词》谐音故事 · 15s · 6 拍 + 单卡：pest = 拍死它 → 害虫。\npest《拍死它》15s；0–12s 画面（6 拍）＋ 12–15s 单卡尾。\n\n【跑序】\n1. 跑 A05 道具图（白底、无手、无字；不带目标词，避免烧字）。\n2. 跑 G1 三格分镜（0/5/10s）；第一格必须含全部道具（苍蝇拍、水果盘）与两人站位，确认后再往下。\n3. 跑 K_A 首帧（构图必须和 G1 第一格一致）。\n4. 跑 V1（12s）；结尾停住 1s，人物不回位。\n5. 跑 KC 卡尾；文字不对就重跑或改 PIL 版。\n6. 后期：V1 + 卡尾 3s；SRT 单独加；视频内无字。\n\n【分工】\n- 黄蛋：只说他自己的反应短句；不解释英文、不讲词义。\n- 心易：不说话，只“咔啵”；眼睛按 R02E（白片＋棕圈、中心空白、全程睁开）。\n- 本档无旁白：词只在卡尾出现。\n\n【逐拍】\n0–3s｜中景（石桌全景）｜夏夜小院石桌。水果盘在桌中，苍蝇拍在桌右，黄蛋已经追了半天：绒毛塌、满头汗；同一机位同一构图做 3 个快切——拍桌、拍凳、拍空；蚊子停一下又飞。心易坐对面，不动。｜黄蛋：第二十一下——拍死它！\n3–5s｜中近景（黄蛋）｜黄蛋一屁股坐回石凳，用两只短手抹汗，胸口起伏；苍蝇拍搭在腿上。｜黄蛋：我怀疑人生。\n5–7s｜中景（双人）｜蚊子落到水果盘边的桌面，离黄蛋近、离心易也近；黄蛋盯着它，把苍蝇拍往桌上一放，双手举起做投降状，小声商量；心易仍不动。｜黄蛋：咱讲和，成不？\n7–9s｜近景（桌面＋两人手）｜蚊子不理，贴桌飞起；黄蛋猛地前扑，一拍砸在桌沿，苍蝇拍脱手落在桌面；蚊子绕开，落到水果盘另一侧、离心易爪约一拳的桌面；黄蛋扑空半趴在桌上。｜黄蛋：别跑！拍死它！\n9–11s｜特写（心易爪＋桌面）｜画面只出现心易的一只前爪与桌面，心易的脸不入画。心易眼睛不转，只抬一只前爪，“啪”一下按在盘边；摊爪，蚊子晕乎乎在桌面打转；黄蛋半趴着抬头，嘴张成 O。｜心易：咔啵。\n11–12s｜近景（黄蛋）｜黄蛋保持半趴，苍蝇拍掉在桌上；他看着心易，气声；定格。｜黄蛋：你……一下就……\n\n【谐音与义接】\n- 谐音句：第二十一下——拍死它！（黄蛋）\n- 义接类型：字面对象就是词义——“拍死它”的对象就是害虫，音与义落在同一个动作上。\n- 场景：夏夜小院石桌——院子是蚊子出没地；石桌同时提供苍蝇拍、水果盘和蚊子落点，三样都在一臂之内。\n\n【资产保留】\n复用：R00 / R01P / R02 / R02E / A02；新生成：A05 / G1 / K_A / V1 / KC。\n已生成的不要清空 outputs、不要改回“待生成”。\n\n【门禁】\n交付前：py -3 cli.py check out/pest-15s.monet\n有 ERROR 不导入；有 WARNING 看报告逐条确认。\n",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-6701569e",
+        "sourceNodeId": "node-1dfa84a9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cbbb9f11",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-581c6184",
+        "sourceNodeId": "node-31d93644",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cbbb9f11",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-2a327117",
+        "sourceNodeId": "node-fda23506",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cbbb9f11",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-076120c4",
+        "sourceNodeId": "node-20cd50c0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cbbb9f11",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-a84af84c",
+        "sourceNodeId": "node-201ca8bd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cbbb9f11",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-91c6776f",
+        "sourceNodeId": "node-1dfa84a9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-46ca89c8",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-0db9ac71",
+        "sourceNodeId": "node-31d93644",
+        "sourceHandle": "output",
+        "targetNodeId": "node-46ca89c8",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-abfc3e66",
+        "sourceNodeId": "node-fda23506",
+        "sourceHandle": "output",
+        "targetNodeId": "node-46ca89c8",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-163c7d5c",
+        "sourceNodeId": "node-20cd50c0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-46ca89c8",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-42e4692a",
+        "sourceNodeId": "node-201ca8bd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-46ca89c8",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-d0dde61b",
+        "sourceNodeId": "node-1dfa84a9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-a5c127e5",
+        "sourceNodeId": "node-22760ffb",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-9e5d62dc",
+        "sourceNodeId": "node-31d93644",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-55413735",
+        "sourceNodeId": "node-fda23506",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-fe2b24d3",
+        "sourceNodeId": "node-20cd50c0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-704e6cce",
+        "sourceNodeId": "node-201ca8bd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      },
+      {
+        "id": "edge-5ce5636e",
+        "sourceNodeId": "node-46ca89c8",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8760bf67",
+        "targetHandle": "input"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-288239b3",
+        "nodeIds": [
+          "node-22760ffb",
+          "node-31d93644",
+          "node-fda23506",
+          "node-20cd50c0"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 1020.0
+        },
+        "label": "00 参考素材 · 黄蛋/水豚/眼睛",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-27a58c41",
+        "nodeIds": [
+          "node-1dfa84a9",
+          "node-201ca8bd"
+        ],
+        "bounds": {
+          "x": 340.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 500.0
+        },
+        "label": "01 场景/道具 · 场景复用＋道具图",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-27689f65",
+        "nodeIds": [
+          "node-cbbb9f11"
+        ],
+        "bounds": {
+          "x": 700.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 240.0
+        },
+        "label": "02 分镜图闸门 · G1（0/5/10s）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-a615b1b6",
+        "nodeIds": [
+          "node-46ca89c8"
+        ],
+        "bounds": {
+          "x": 700.0,
+          "y": 280.0,
+          "width": 340.0,
+          "height": 240.0
+        },
+        "label": "03 首帧 · K_A",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-f9ef8222",
+        "nodeIds": [
+          "node-8760bf67"
+        ],
+        "bounds": {
+          "x": 1060.0,
+          "y": 130.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "04 视频 V1 · 12s",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-d4806091",
+        "nodeIds": [
+          "node-f161dc38"
+        ],
+        "bounds": {
+          "x": 1460.0,
+          "y": 130.0,
+          "width": 340.0,
+          "height": 240.0
+        },
+        "label": "05 卡尾 · 后期静帧",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      },
+      {
+        "id": "group-d11706d8",
+        "nodeIds": [
+          "node-e2cefa19"
+        ],
+        "bounds": {
+          "x": 700.0,
+          "y": 680.0,
+          "width": 800.0,
+          "height": 580.0
+        },
+        "label": "06 说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        }
+      }
+    ]
+  }
+}

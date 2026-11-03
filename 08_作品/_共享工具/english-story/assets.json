@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "note": "复用资产锁。已生成的图一律用 input-image 指向 storage URL，不重建 gen 节点；新增资产必须先在这里登记或写 why_new。",
+  "assets": {
+    "R00": {
+      "label": "R00 四小只身高比例（复用）",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+      "name": "R00-四小只身高比例.jpg",
+      "width": 1600,
+      "height": 650,
+      "size": 77895,
+      "md5": "b321a4a46247edafe03ddd2dc85b3605",
+      "origin": "canvas-e4318cc875",
+      "role": "比例尺"
+    },
+    "R01": {
+      "label": "R01 黄蛋标准（复用）",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+      "name": "角色-黄蛋-标准.jpg",
+      "width": 1118,
+      "height": 1280,
+      "size": 86469,
+      "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a",
+      "origin": "canvas-e4318cc875",
+      "role": "角色标准"
+    },
+    "R02": {
+      "label": "R02 心易·水豚（单图锁定）",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+      "name": "心易-水豚-标准.png",
+      "width": 400,
+      "height": 600,
+      "size": 258953,
+      "md5": "100cfe8f4f09ec467008f61a0ab30d7d",
+      "origin": "canvas-d240c8bf55",
+      "role": "角色标准"
+    },
+    "R02E": {
+      "label": "R02E 心易眼睛参考 · 白圆眼片＋细深棕圈·中心空白",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-4235c925190327e7-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e7-9.png",
+      "name": "心易-水豚-眼睛参考.png",
+      "width": 430,
+      "height": 430,
+      "size": 255707,
+      "md5": "6954ed604a3671b7676f0d6ac5eef1e3",
+      "origin": "canvas-04cc34bdc4",
+      "role": "眼睛锁"
+    },
+    "R01P": {
+      "label": "R01P 黄蛋毛绒版（复用）",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061428-df1b8807e3f837ac-96657f80b9e62d2679b7ae.png",
+      "name": "黄蛋-毛绒版.png",
+      "width": 1024,
+      "height": 1024,
+      "origin": "canvas-04cc34bdc4",
+      "role": "角色标准"
+    },
+    "A02": {
+      "label": "A02 小院 · 石桌/花坛/狗窝（复用）",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091451-7adbbcb1b5f01f2c-55a7fc3aca10c44a88745d.png",
+      "name": "A02-小院.png",
+      "width": 1280,
+      "height": 720,
+      "origin": "canvas-143621ad40",
+      "role": "场景"
+    }
+  }
+}

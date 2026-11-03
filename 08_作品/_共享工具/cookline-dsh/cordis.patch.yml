@@ -1,0 +1,3 @@
+- insert:
+    - id: cookline
+      name: '@local/cookline-dsh'

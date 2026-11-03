@@ -1,0 +1,1050 @@
+{
+  "id": "canvas-54fe3fc4da",
+  "name": "燕云冲击帧 · 反拆测试（单图）",
+  "description": "",
+  "coverUrl": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+  "ownerId": "mailgo.n31738",
+  "tags": [],
+  "createdAt": "2026-11-03T11:57:57.065000+08:00",
+  "createdBy": "mailgo.n31738",
+  "updatedAt": "2026-11-03T15:34:18.995000+08:00",
+  "updatedBy": "mailgo.n31738",
+  "revision": "198",
+  "restoreEpoch": 0,
+  "nodes": [
+    {
+      "id": "node-050f0fc0",
+      "type": "input-image",
+      "mainOutputId": "output-050f0fc0",
+      "meta": {
+        "x": 20.0,
+        "y": 20.0,
+        "width": 320.0,
+        "height": 200.0,
+        "label": "【已生成·复用】A1 脸部",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-050f0fc0",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+          "cover": null,
+          "name": "A1.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:57:57.352000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "md5": null
+          }
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T11:57:57.352000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-994a6484",
+      "type": "input-image",
+      "mainOutputId": "output-994a6484",
+      "meta": {
+        "x": 20.0,
+        "y": 340.0,
+        "width": 320.0,
+        "height": 200.0,
+        "label": "【已生成·复用】A2 全身",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-994a6484",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+          "cover": null,
+          "name": "A2.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:57:57.352000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "md5": null
+          }
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T11:57:57.352000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-79a92516",
+      "type": "input-image",
+      "mainOutputId": "output-79a92516",
+      "meta": {
+        "x": 24.0,
+        "y": 660.0,
+        "width": 320.0,
+        "height": 200.0,
+        "label": "【已生成·复用】A5 武器",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-79a92516",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+          "cover": null,
+          "name": "A5.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:57:57.352000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "md5": null
+          }
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T11:57:57.352000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:58:30.616000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-5AWdN-Ju",
+      "type": "input-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 2.0,
+        "y": -368.0,
+        "width": 320.0,
+        "height": 212.0,
+        "label": "image.png",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-3fa9a2255f",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-063636-97a5dcc7d7b5db0c-image.png",
+          "cover": null,
+          "name": "20261103-063636-97a5dcc7d7b5db0c-image.png",
+          "resolution": {
+            "width": 540,
+            "height": 309
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:36:42.569000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:36:42.569000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": 277365,
+            "md5": "8079f88538959a99f4a4eeba01fabe98"
+          }
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T14:36:42.569000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:21.659000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-a2CBadqf",
+      "type": "gen-text",
+      "mainOutputId": "output-e07e318f69",
+      "meta": {
+        "x": 550.0,
+        "y": -28.0,
+        "width": 665.0,
+        "height": 487.0,
+        "label": "文本1",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-158f57e3bc",
+          "status": "done",
+          "error": null,
+          "value": "\\*\\*图1 提示词反拆（逆向工程）\\*\\*水墨风，武侠，剑客，头戴斗笠，长发飞舞，持剑向前突刺，极强动态张力，动作特写。传统中国水墨画，泼墨技法，黑白纯色调，粗犷笔触，飞溅的墨点，边缘晕染与留白，强烈的速度线与动态模糊，面部五官精致且神情冷峻，快速拔剑的瞬间，电影级构图，光影交错，极具攻击性与水墨禅意，杰作。\n\n**图2 + 图4 提示词（水墨激战特写**）水墨风，武侠，男性剑客半身动作特写。一头飘逸的白发，剑眉星目，五官深邃英俊，身穿内黑外白的长衫。他正手持一把巨大的冰晶幻龙长剑（图4外观：银色剑刃，剑柄带有翠绿色晶石和龙纹雕刻），向前猛烈挥砍。传统中国水墨画，泼墨风格，黑白漫画主色调，带有微弱的冰蓝色与翠绿色点缀。飞溅的墨迹与冰晶碎片交织，粗犷的毛笔笔触，强烈的动态模糊与速度感，眼神锐利，杀意凛然，电影级光影，强烈的黑白对比，杰作，高细节。\n\n**图3 + 图4 提示词（水墨灵动全景**）水墨风，仙侠武侠，全身动态站姿。一头白发，身穿华丽的白衣黑甲长袍，衣摆随风猎猎作响。角色手持一把华丽的冰晶长剑（图4外观：银色龙纹剑身，带有绿色灵光）。画面融合传统中国水墨画与泼墨技法，大面积的黑白灰过渡，边缘有粗糙的墨痕晕染。飞溅的墨滴在空中划出弧线，角色身旁萦绕着水墨化开的冰霜与白色雾气。强烈的动作势能，笔触狂放，留白艺术，潇洒冷酷的气质，电影级动作电影感，极致张力，杰作，8K画质。",
+          "cover": null,
+          "name": "",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-2caafcce00de288617b89b0992a91d28de5965e828c1e40195d92c39e620a69a",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-28c696e501c4462f949c448a488fd01b",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-28c696e501c4462f949c448a488fd01b",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "9ebaaa2f-66aa-516b-a2e5-5877b45a343a",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:38:03.462000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:38:45.556000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-e07e318f69",
+          "status": "done",
+          "error": null,
+          "value": "反拆图1提示词： 极近距离远景透视构图，画面右侧站着一古代侠客，头戴竹斗笠，黑色长发随风飘飞，面庞冷峻英俊。人物身体前倾，右手握剑向前突刺，剑身从画面左下角延伸至中心，剑尖直指镜头，带有强烈的透视和视觉冲击力。黑白水墨风格，飞溅的泼墨、墨滴和笔触渲染出极强的动态感，高对比度光影，强烈的黑白灰层次，粗犷的线条与细腻的人物面部形成对比，古风武侠/仙侠设定，剑穗随风飘动，充满杀气的瞬间。\n\n参考图1风格为图2设计提示词： 极近距离特写构图，画面右侧站着一位银白长发的冷峻青年，面容英俊，眼神锐利。他身穿黑白相间的古风高领长袍。他双手紧握一把巨大的冰晶龙纹重剑，身体前倾，将宽大的剑身向前斜刺，剑身占据画面左下角至中央，呈现出极强的空间透视感，剑尖指向观者。黑白水墨风格，带有水墨飞溅和墨滴特效，高对比度，强烈的光影反差，发丝随剑气向后飘舞，画面充满张力和肃杀感。\n\n参考图1风格为图3设计提示词： 极近距离透视构图，画面右侧是银白长发、身穿白底黑纹古风长袍的青年，衣摆和披风边缘带有冰晶特效。他双手握住巨大的冰晶龙纹重剑剑柄，身体前倾呈突刺姿态，宽大的冰晶剑身从左下角斜向延伸占据大半画面，剑尖直逼镜头。剑刃材质晶莹剔透内带龙纹，镶嵌绿色宝石。黑白水墨画风，水墨泼洒与冰晶碎屑混合飞溅，强光背面/顶光塑造出冰晶边缘的高光与清晰的黑白阴影。人物重心压低，长发和战袍在风雪和水墨中向后飞舞，呈现出极具力量感的压迫式构图。\n\n动作适配说明（确保图4武器与图1动作融合）： 图1为单手细剑前刺，由于图4武器为宽大厚重的冰晶巨剑，原姿势中的单手动作需调整为双手紧握剑柄（或单手握柄、另一手托扶剑身），保持身体前倾的突刺姿态，利用宽大剑身的横向和纵深透视来填补画面左下角的视觉重量，确保构图位置与原图保持一致。",
+          "cover": null,
+          "name": "",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-9b4a1f7d297127388333316d6ade531894d264eac0ab569c5dd04e1ea923f04d",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-51e85e17c73e43f2bcce04bf35794dd3",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-51e85e17c73e43f2bcce04bf35794dd3",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "15aedbcd-5cac-5080-8f2d-125f655b0421",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:43:05.739000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:43:39.564000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "deepseek-flash",
+        "model_params": {
+          "prompt": "反拆 {{node-5AWdN-Ju}} 的提示词并且参考这个提示词为 {{node-050f0fc0}} {{node-994a6484}} 设计类似风格的设计提示词 武器为 {{node-79a92516}} 要注意复刻好构图、人物位置 动作设计 如果武器不一致，要让动作适配角色的武器",
+          "reference_images": [
+            {
+              "node_id": "node-5AWdN-Ju"
+            },
+            {
+              "node_id": "node-050f0fc0"
+            },
+            {
+              "node_id": "node-994a6484"
+            },
+            {
+              "node_id": "node-79a92516"
+            }
+          ]
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T14:37:00.667000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:12.550000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-xkxkAVEh",
+      "type": "gen-image",
+      "mainOutputId": "output-cd2f09f839",
+      "meta": {
+        "x": 797.0,
+        "y": 574.0,
+        "width": 320.0,
+        "height": 208.0,
+        "label": "图片1",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-fee9046100",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064054-26b06cf10728c14d-8538316005537381db5365.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064054-26b06cf10728c14d-8538316005537381db5365.png",
+          "name": "8538316005537381db5365.png",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-130344de36631434e359c86b07326fdfcbb9c899ae1539b3b8ceb81f07877116",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-e11f1f178173441f8f1d6dcb859f6feb",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-e11f1f178173441f8f1d6dcb859f6feb",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "c5d8c8e5-e92b-545b-8785-e635f86c5549",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:39:02.889000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:46:39.595000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-99703302a5",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064628-19b8ec41ec0aad95-bb58d7a535b4c89d779853.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064628-19b8ec41ec0aad95-bb58d7a535b4c89d779853.png",
+          "name": "bb58d7a535b4c89d779853.png",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-3c6f298633cee48dd7e6fb53e9de287e7800f1d3ef49b054de73a1b95f34f028",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-414ee50de4334962b149f7e7f4bc18bf",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-414ee50de4334962b149f7e7f4bc18bf",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "a2cfbba2-381f-536f-99a3-6195e52c3874",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:45:17.440000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:46:39.595000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-cd2f09f839",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064922-20d48539836d1b02-e0743ba2b00393da9d4db1.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064922-20d48539836d1b02-e0743ba2b00393da9d4db1.png",
+          "name": "e0743ba2b00393da9d4db1.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-9b8c5e59475c56b47d71dc821dac861be8b2d2abc44e15f8a6cb4278e543af9a",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-d4ccd05f7c4f485286e2930a9e5a87c2",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-d4ccd05f7c4f485286e2930a9e5a87c2",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "24ef0e33-ec22-5260-b2e4-abcd97f32c91",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:47:15.848000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:01:19.400000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "极近距离透视构图，画面右侧是银白长发、身穿白底黑纹古风长袍的青年 {{node-994a6484}} 脸部是这个：{{node-050f0fc0}} ，衣摆和披风边缘带有冰晶特效。他单手握住武器 {{node-79a92516}} ，身体前倾呈突刺姿态，宽大的冰晶剑身从左下角斜向延伸占据大半画面，剑尖直逼镜头。黑白水墨画风，水墨泼洒与冰晶碎屑混合飞溅，强光背面/顶光塑造出冰晶边缘的高光与清晰的黑白阴影。人物重心压低，长发和战袍在风雪和水墨中向后飞舞，呈现出极具力量感的压迫式构图。",
+          "reference_images": [
+            {
+              "node_id": "node-050f0fc0"
+            },
+            {
+              "node_id": "node-994a6484"
+            },
+            {
+              "node_id": "node-79a92516"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 1024,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T14:38:09.564000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:01:19.400000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-z3FwPNAb",
+      "type": "gen-image",
+      "mainOutputId": "output-e190b91f23",
+      "meta": {
+        "x": 822.0,
+        "y": 840.0,
+        "width": 320.0,
+        "height": 208.0,
+        "label": "图片2",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-e190b91f23",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-065451-858f5cee74546949-40eb143f5b44aeb94a91d8.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-065451-858f5cee74546949-40eb143f5b44aeb94a91d8.png",
+          "name": "40eb143f5b44aeb94a91d8.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-98d675fcf7e3ba082ae9b09e6424362e5bb43774eea1b6fe142a19be1b52277f",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-940d9144eb0b40489cc4e1845f1bc1da",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-940d9144eb0b40489cc4e1845f1bc1da",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "e6fb57ac-5026-54c4-affd-c360ba48f02a",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:49:53.206000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:01:19.400000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "画面构造参考 {{node-5AWdN-Ju}} \n人物为 {{node-050f0fc0}} 全身为 {{node-994a6484}}  武器为 {{node-79a92516}} \n参照图 {{node-5AWdN-Ju}} 为人物设计一个水墨风高光动作 动作要和武器适配",
+          "reference_images": [
+            {
+              "node_id": "node-050f0fc0"
+            },
+            {
+              "node_id": "node-5AWdN-Ju"
+            },
+            {
+              "node_id": "node-994a6484"
+            },
+            {
+              "node_id": "node-79a92516"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 1024,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T14:48:33.600000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:01:19.400000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-04649b99",
+      "type": "gen-image",
+      "mainOutputId": "output-ea7d755da0",
+      "meta": {
+        "x": 1734.0,
+        "y": 14.0,
+        "width": 320.0,
+        "height": 209.0,
+        "label": "【待生成】首帧·起势（剑不出画·整体压暗）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-1fd152ed8d",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072238-8f5eb85c32821ea0-376d328646063c6eced8e7.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072238-8f5eb85c32821ea0-376d328646063c6eced8e7.png",
+          "name": "376d328646063c6eced8e7.png",
+          "resolution": {
+            "width": 1672,
+            "height": 941
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-df6cc2edd6f015315725ebd2067fb4cd6dff6d99a066e3aae35b1ff3048696b0",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-ee23768bd95c455fbb354a9e3901fb9c",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-ee23768bd95c455fbb354a9e3901fb9c",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "cccc7090-8be2-53b8-8236-1fc34c7db451",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:21:11.451000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:23:34.715000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-c720b29c5b",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072658-9e4f5ea4621e1cc7-d02eaac32fce4df2fde0cb.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072658-9e4f5ea4621e1cc7-d02eaac32fce4df2fde0cb.png",
+          "name": "d02eaac32fce4df2fde0cb.png",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-5f007eaeded9e46217868f681c19148085a35dc6268b10a4e9ab6198d3405116",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-e418303f25a540b0af6c73f151eb8a87",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-e418303f25a540b0af6c73f151eb8a87",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "5e39e829-ddd9-5654-a7cb-896d38a6f255",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:24:27.379000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:30:00.986000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-ea7d755da0",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-073243-22620bbf6934fcd2-4f42ef4bb0ca89bc194a69.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-073243-22620bbf6934fcd2-4f42ef4bb0ca89bc194a69.png",
+          "name": "4f42ef4bb0ca89bc194a69.png",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-cc974e414bee30d7e62e1c7714e0e801e4a0da450a78220bee1229d0d7694bf4",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-68b06749f5f845ca8e370e4cd880759b",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-68b06749f5f845ca8e370e4cd880759b",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "0eb86409-1df8-541e-b919-f3cd1f5a29c7",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:30:12.381000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:34:18.995000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横版，黑白水墨武侠，电影静帧。\n【引用】{{node-050f0fc0}}＝脸；{{node-994a6484}}＝服装；{{node-79a92516}}＝武器外形。\n{{node-z3FwPNAb}} 这个是角色出招的动作 根据这个动作设计角色出招之前的动作 要比较连贯  不要下蹲 可以是站直的",
+          "reference_images": [
+            {
+              "node_id": "node-050f0fc0"
+            },
+            {
+              "node_id": "node-994a6484"
+            },
+            {
+              "node_id": "node-79a92516"
+            },
+            {
+              "node_id": "node-z3FwPNAb"
+            }
+          ],
+          "aspect_ratio": "auto",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 1024,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true,
+          "size": "1K"
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:18.995000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-57e338ec",
+      "type": "input-text",
+      "mainOutputId": null,
+      "meta": {
+        "x": 1690.0,
+        "y": 364.0,
+        "width": 420.0,
+        "height": 360.0,
+        "label": "读我：首尾帧设计与两处待定",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "text": "【这一组怎么用】\nK1（首帧）＝起势：人左、剑垂右下、整体压暗、剑只露四成。\n尾帧＝你自己做的「图片2」：剑冲到镜头前、墨炸满。\nV1＝5 秒三拍：蓄 1.2s → 爆 0.6s（镜头同时前推）→ 剑到最大 + 墨炸 3.2s。\n\n【首尾的差就是这五秒的全部内容】\n首帧剑 40%、细、暗；尾帧剑占大半画面、粗、炸。\n所以：**首帧千万别画成剑冲镜头**，否则 5 秒里没有变化。\n\n【两处待定】\n1. 尾帧的冰蓝光：要「全套去蓝、剑压成纸白+一道暗刃线」还是「保留蓝光当唯一彩色刺点」？\n2. 题字「霜寒九霄」只在首帧；爆点帧不留字。\n"
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:01:21.884000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-bf7e6a4e",
+      "type": "gen-video",
+      "mainOutputId": null,
+      "meta": {
+        "x": 2225.0,
+        "y": 29.0,
+        "width": 320.0,
+        "height": 280.0,
+        "label": "【待生成】5s 三拍：蓄→爆（镜头前推）→剑到最大",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "16:9，5 秒连续视频。\n【首帧锁定】{{node-04649b99}}：剑斜插在右腰后、只有剑柄与一小截鞘口露出，右手反手按柄，整体偏暗。\n【尾帧锁定】{{node-z3FwPNAb}}：剑已刺到镜头前最大、墨从剑身炸开。\n\n0–1.0 秒：**保持首帧**。人物微微低头，眼神骤然锁定，风雪与衣摆缓缓流动，镜头稳定，气氛压抑。\n1.0–1.6 秒：镜头**突然快速推近**到上半身；人物迅速转肩，右手反手扣住腰后剑柄、指节收紧，\n衣袍与白发猛烈扬起，身体压向出招方向。\n1.6–2.0 秒：**关键爆发！** 右手把剑从腰后抽出、顺势直刺向镜头——拔与刺是同一个连续动作，\n袖口与剑刃在空气里带出锐利的速度线；镜头**猛烈前冲并甩动**，出现**极短促的白色冲击闪屏**与\n**强烈方向性运动模糊**。就在闪屏的一瞬间，画面完成提亮与墨量爆发：暗调静帧直接变成高对比水墨冲击帧，\n**没有中间渐变、没有逐渐水墨化的过程**。\n2.0–2.6 秒：闪屏消失，画面已是**高对比黑白水墨**。剑已刺到镜头前最大——近大远小，\n剑身粗到约占画面高度四分之一，刃身只剩一条亮线与一道暗边；\n墨从剑身与剑格向外炸开，形成**尖锐的放射状飞白笔锋**；墨色块面与白色速度线向人物的反方向高速撕裂。\n2.6–5 秒：**保持尾帧的刺出构图**，人物基本定势。背景大块黑白墨笔持续高速掠过，\n冰晶碎屑与墨点在气流里飘散，衣袖与白发向后飞扬，画面越来越聚拢到剑与眼；最后准确匹配尾帧。\n\n视觉重点：单次干净利落的拔剑直刺、闪屏式提亮、剑身近大远小压满画面、尖锐飞白笔锋、强烈速度感。\n避免：起势与屏息（第一帧就在动）、慢动作、拔一半停住、先举剑再刺、画风缓慢渐变、水墨慢慢覆盖、\n剑在身前横着不动、剑太短或剑尖留在画面内、手臂左右颠倒、额外手指、手掌畸形、双手持剑、\n镜头长时间晃动、彩色、冰蓝光效、发光、字幕、水印、logo、游戏UI、卡通。\n音效：抽剑金属摩擦、衣袂破空、墨爆撕裂、低频轰鸣，无台词。\n",
+          "_reference_way": "frames",
+          "reference_images": [
+            {
+              "node_id": "node-z3FwPNAb"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": {
+            "node_id": "node-04649b99"
+          },
+          "last_frame_image": {
+            "node_id": "node-z3FwPNAb"
+          },
+          "aspect_ratio": "16:9",
+          "resolution": "720p",
+          "duration": 5,
+          "generate_audio": true,
+          "seed": -1
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:00.944000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-F0Bl9-Zj",
+      "sourceNodeId": "node-5AWdN-Ju",
+      "sourceHandle": "output",
+      "targetNodeId": "node-a2CBadqf",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:37:06.614000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:37:06.614000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-b4hHYeZs",
+      "sourceNodeId": "node-050f0fc0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-a2CBadqf",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:37:21.550000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:37:21.550000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-WoX1V0Hr",
+      "sourceNodeId": "node-994a6484",
+      "sourceHandle": "output",
+      "targetNodeId": "node-a2CBadqf",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:37:24.720000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:37:24.720000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-OqV-lize",
+      "sourceNodeId": "node-79a92516",
+      "sourceHandle": "output",
+      "targetNodeId": "node-a2CBadqf",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:37:24.720000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:37:24.720000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-lrqfNCxZ",
+      "sourceNodeId": "node-050f0fc0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-xkxkAVEh",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:38:12.574000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:38:12.574000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-34LQzt31",
+      "sourceNodeId": "node-994a6484",
+      "sourceHandle": "output",
+      "targetNodeId": "node-xkxkAVEh",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:38:12.574000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:38:12.574000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-1LqJq_IS",
+      "sourceNodeId": "node-79a92516",
+      "sourceHandle": "output",
+      "targetNodeId": "node-xkxkAVEh",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:38:15.566000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:38:15.566000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-rCG17KWw",
+      "sourceNodeId": "node-050f0fc0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-z3FwPNAb",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:48:42.608000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:42.608000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-EHZn_Ng0",
+      "sourceNodeId": "node-5AWdN-Ju",
+      "sourceHandle": "output",
+      "targetNodeId": "node-z3FwPNAb",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:48:45.578000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:45.578000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-vBoez0GL",
+      "sourceNodeId": "node-994a6484",
+      "sourceHandle": "output",
+      "targetNodeId": "node-z3FwPNAb",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:48:48.625000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:48.625000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-dY0yGrpa",
+      "sourceNodeId": "node-79a92516",
+      "sourceHandle": "output",
+      "targetNodeId": "node-z3FwPNAb",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T14:48:51.588000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:48:51.588000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-6625f68a",
+      "sourceNodeId": "node-050f0fc0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-04649b99",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-07348a35",
+      "sourceNodeId": "node-994a6484",
+      "sourceHandle": "output",
+      "targetNodeId": "node-04649b99",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-4398f3f6",
+      "sourceNodeId": "node-79a92516",
+      "sourceHandle": "output",
+      "targetNodeId": "node-04649b99",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-5c601d90",
+      "sourceNodeId": "node-04649b99",
+      "sourceHandle": "output",
+      "targetNodeId": "node-bf7e6a4e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-1d89bb3c",
+      "sourceNodeId": "node-z3FwPNAb",
+      "sourceHandle": "output",
+      "targetNodeId": "node-bf7e6a4e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-R3W6uOnw",
+      "sourceNodeId": "node-z3FwPNAb",
+      "sourceHandle": "output",
+      "targetNodeId": "node-04649b99",
+      "targetHandle": "input",
+      "createdAt": "2026-11-03T15:23:45.966000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:23:45.966000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "groups": [
+    {
+      "id": "g-ywtz-0",
+      "nodeIds": [
+        "node-050f0fc0",
+        "node-994a6484",
+        "node-79a92516"
+      ],
+      "bounds": {
+        "x": 2.0,
+        "y": -26.0,
+        "width": 356.0,
+        "height": 908.0
+      },
+      "label": "00 已生成资产（复用）",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#5B8DE0"
+      },
+      "createdAt": "2026-11-03T11:57:57.352000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T11:57:57.352000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "g-ywu2-1",
+      "nodeIds": [
+        "node-04649b99",
+        "node-57e338ec"
+      ],
+      "bounds": {
+        "x": 1682.0,
+        "y": -26.0,
+        "width": 456.0,
+        "height": 748.0
+      },
+      "label": "01 首帧与说明（新增）",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E05B8D"
+      },
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "g-ywu2-2",
+      "nodeIds": [
+        "node-bf7e6a4e"
+      ],
+      "bounds": {
+        "x": 2182.0,
+        "y": -26.0,
+        "width": 356.0,
+        "height": 348.0
+      },
+      "label": "02 视频（新增）",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E0A15B"
+      },
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "g-u-ref",
+      "nodeIds": [
+        "node-5AWdN-Ju"
+      ],
+      "bounds": {
+        "x": -16.0,
+        "y": -414.0,
+        "width": 356.0,
+        "height": 280.0
+      },
+      "label": "00 用户参考图",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#5BE08A"
+      },
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "g-u-design",
+      "nodeIds": [
+        "node-a2CBadqf",
+        "node-xkxkAVEh",
+        "node-z3FwPNAb"
+      ],
+      "bounds": {
+        "x": 532.0,
+        "y": -74.0,
+        "width": 701.0,
+        "height": 1144.0
+      },
+      "label": "01 用户设计",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E0C05B"
+      },
+      "createdAt": "2026-11-03T15:00:42.762000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:00:42.762000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ]
+}

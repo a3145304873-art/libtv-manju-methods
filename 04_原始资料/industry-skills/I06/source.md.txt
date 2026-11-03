@@ -1,0 +1,236 @@
+# Monet 画布搭建方法总纲
+
+> 2026-10-29 整理。来源：项目记忆（2026-10-21 起多支画布的实建与返工记录）＋ 已核实文件（`衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py`、`衍生方案-蛋仔游成都/画布分析/尾帧接线规则.md` 等）。
+> 适用：任何从零新建或返工 Monet 画布（.monet 文件）的工作。各专题细则见文末"相关文件索引"。
+
+---
+
+## 1. .monet 文件结构（纯 JSON）
+
+`.monet` 是纯 JSON，可直接用脚本读写，顶层结构：
+
+```json
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "<ISO时间>",
+  "canvas": {
+    "name": "画布名",
+    "description": "一句话说明",
+    "nodes": [...],
+    "edges": [...],
+    "groups": [...]
+  }
+}
+```
+
+### 1.1 节点（nodes）
+
+节点 `type` ∈ `input-image / input-text / input-video / gen-image / gen-video / gen-audio`。
+
+公共字段：`id`、`type`、`mainOutputId`、`meta{x,y,width,height,label}`、`outputs[]`、`params`、时间戳。生成节点参数挂在 `params.model_id` + `params.model_params`。
+
+| 类型 | 要点 |
+|---|---|
+| `input-image` | 参考图/尾帧/占位图节点。**带图**＝挂一个 `status:"done"` 的 output（`value`=Monet 存储 URL，带 `resolution`、`metadata{size,md5}`），`mainOutputId` 指向它；**空节点**＝`outputs:[]`、`mainOutputId:null`（引用不生效，见 §4.3） |
+| `input-text` | 说明节点（S0 制作说明、标签规则等），output.value 存文本 |
+| `gen-image` | `model_params{prompt, reference_images:[{node_id}], aspect_ratio:"16:9", image_size:"1K", quality:"medium", output_format, moderation, auto_compress}`，`outputs:[]`、`mainOutputId:null`（待生成） |
+| `gen-video` | `model_params{prompt, _reference_way:"reference", reference_images, reference_audios:[](恒空，见 §5.6), first_frame_image:{node_id}, resolution:"720p", aspect_ratio:"16:9", duration, generate_audio:true, watermark:false}` |
+| `gen-audio` | 声音母版（A00），只留后期备用，**不接任何视频** |
+
+**ID 生成规则**：脚本用 `md5(前缀+key)[:8]` 生成 `node-xxxxxxxx`，边 `md5("a>b")`、组同理。**一次交付多支画布必须用不同前缀**（前缀里加 A/B/集数），否则节点 ID 全撞。
+
+### 1.2 边（edges）——怎么连线
+
+```json
+{
+  "id": "edge-xxxxxxxx",
+  "sourceNodeId": "node-上游",
+  "sourceHandle": "output",
+  "targetNodeId": "node-下游",
+  "targetHandle": "input"
+}
+```
+
+只画**数据流方向**的边，合法的只有三类：
+
+1. **参考图 → 生成节点**（角色/场景/道具图 → gen-image 关键帧、→ gen-video）；
+2. **首帧图 → 视频**（T 尾帧 → 下一段视频，K 计划首帧 → S01）；
+3. **派生参考 → 关键帧**（如 A17 表情状态表 → 关键帧；注意**不要直接接视频**，六宫格会干扰视频构图）。
+
+**禁止的边**：
+
+- ❌ `video → video`：Vidu Q4 不吃，只会把页面画乱；
+- ❌ `视频 → 尾帧图`（来源记录边）：截/传尾帧时画布会自动生成这种边，视觉上像"S04 接回自己"，看到先删——来源只写在节点名里（如 `T04 S04尾帧 → S05首帧`）；
+- ❌ `audio → video`：A00 声音母版不连线，只放后期组。
+
+**引用双接入铁律**：prompt 里写了 `{{node-x}}`，必须同时满足 ① 该节点挂在下游的 `reference_images`（首帧则在 `first_frame_image`）② 存在 `x → 下游` 的边。缺任何一边都是"无效的引用块"，节点无法派发。build 脚本要加"prompt 引用必须有对应边"硬校验，缺边即 build 失败。
+
+**尾帧节点形状**：每个用到的尾帧 `in=0 / out=1`（只进不出源头、只出一条到下一段）；备用尾帧完全裸放不接线。
+
+### 1.3 组（groups）
+
+```json
+{
+  "id": "group-xxxxxxxx",
+  "nodeIds": [...],
+  "bounds": {"x","y","width","height"},
+  "label": "01 道具/场景 · 先跑",
+  "style": {"accent": null, "opacity": null, "borderColor": "#8E8DE0"}
+}
+```
+
+**分组＝依赖分层＝跑序**（2026-10-27 起的通用规则）：整组运行会**并行**组内节点，所以**组内绝不能有依赖边**——有关联的节点必须放进下一步的单独组。组名按"第 N 步"编号即是运行顺序，例如：`01 基础设定 → 02 关键帧 → 03 段1 → 04 截帧(手动) → 05 K_INK → 06 段2`。要重跑的段单独框一组（如 `05b 重跑·尾帧（一键跑）`），用户点组即可一键跑。
+
+---
+
+## 2. 版面规矩
+
+用户会直接看画布，"能跑"必须同时等于"看得清、接得上"：
+
+- **模块列从左到右、互不重叠**，按流程排：`00 说明 → 01 角色资产 → 02 场景/道具 → 03 关键帧 → 04 尾帧 → 05 视频（按顺序）→ 06 后期 → 07 备用尾帧`；节点坐标逐列堆叠，每个节点只属于一个组、不越界。
+- **groups 完全替换，不叠加多重分组**。
+- **节点名标注状态且必须反映当前状态**，过期标签要清掉：`【待生成】`（无输出）、`【保留】`（不用重跑）、`【重跑·尾帧】`（首帧刚换、输入变了）、`【待替换】`（占位图待换真图）、`【备用】`。名字格式收敛为 `前缀+编号+名称+时长`，不堆修饰词。
+- 左上放 **S0 说明节点**：「本画布做什么 + 运行顺序 + 标签含义 + ⚠ 占位图待替换提醒」。
+
+---
+
+## 3. 模型与参数默认值
+
+| 项 | 默认 |
+|---|---|
+| 生图 | `gpt-image-2`，**1K / medium**（节点名标"· 1K"），16:9；过验后个别关键帧再单独升 2K/high |
+| 视频 | 模板锁 `vidu-q4-preview`，720p / 16:9 / duration **3–16 整数秒**；`generate_audio: true`；`watermark: false` |
+| 视频模型例外 | 蛋仔记单词系列 2026-10-28 起全线 `seedance-2.0-mini`；换模型先查它自己的 prompt 字数与时长限制 |
+| 音频 | `seed-audio-1.0` 声音母版只做后期，不接视频 |
+| 参考图预处理 | 先白底化＋裁边（透明通道模型不一定吃）；资产比例长边÷短边 ≤2.5 |
+
+---
+
+## 4. 参考图接入
+
+### 4.1 预置 URL（不要留空让用户拖图）
+
+`input-image` 节点可以直接带图：挂 `status:"done"` 的 output，`value` 用 Monet 存储正式 URL（`https://storage.monet.dreammaker.netease.com/v1/objects/<user>/<canvas>/image/<file>`）。导入即显示、引用即生效。**禁止 base64**——画布会报"Base64 数据污染"，且文件暴涨 10 倍。
+
+上传通道（拿登录态→POST `/api/storage/token`→带 Bearer 直传 storage host）：
+
+- 桌面版：读 `%APPDATA%\@monet\desktop-prod\auth.json`；auth.json 为 null 时改读 `Network\Cookies`（SQLite）里的 `__monet_token` 当 `X-Access-Token`。脚本：`衍生方案-四小只/脚本/upload_refs.py`。
+- 网页版（linguanxi）：ITOS 登录工具的 Chrome 开着 → CDP（端口看 profile 的 `DevToolsActivePort`）取 cookie → 页面内 POST `/proxyApi/storage/token` 取七头 token → **python 直传 storage host 时必须带七头**。
+- storage **读是公开的**：旧账号已上传的图 URL 可直接跨画布/跨账号复用，不必重传。
+
+### 4.2 占位图（空节点必须有"图可引用"）
+
+`{{node}}` 指向节点的**输出**，`outputs:[]` 的节点引用不上、chip 没缩略图。所以 T 尾帧等"先生成才有图"的节点要先上传**场记板占位图**：1280×720、深色底、大字写节点号、写明「S0x 最后一帧 → S0y 首帧」「替换之前不要派发 S0y」。占位图要**故意一眼可辨**——漏换时成片第一帧就是场记板，不会悄悄错。替换成真实图后 **token 不变**（仍指向同一节点）。
+
+### 4.3 引用语法（prompt 写法）
+
+- **只有 `{{node-节点ID}}` 是真引用**，编辑器里渲染成 @ chip；纯文本 `@某图` 无效。节点 ID 换画布会变，按节点名重新取，不要照抄哈希。
+- **引用写在对的镜头**：分镜式 prompt 在每个 `【镜头 SXX-n】` 标题后紧跟本镜 token；时间拍式就写在 `0–4秒：` 后面；每段只留一行 `【图片引用】{{node-x}}=名称（锁什么）` 图例，只列本段实际用到的图。整段叙述式（无分镜结构）才把引用集中在开头一段 `【引用图片说明】`。
+- **首帧槽 ≠ 引用**：`first_frame_image` 挂了还不够，正文第一行必须写
+  `【首帧锁定】首帧必须使用 {{node-T0x}}（上一段最后一帧）；锁位置/朝向/大小/光线/背景，不重新构图、不换机位、不改变比例；第 0 秒就是这张图`。
+- **prompt 结构顺序**：`【首帧锁定】 → 【引用图片说明】 → 角色/表情/尺度 → 动作（时间拍）→ 特效延续 → 声音 → 负向`。
+- **Vidu Q4 prompt 硬上限 2000 字符**（目标 ≤1900 留余量），超限派发时报错。压法：合并各段重复的尺度/角色/构图块，保留镜头四行（构图/画面·动作·表演/重力·物理/音效），**不删动作节拍**。
+- **脚本防双前缀**：拼 token 容易出 `{{node-node-xxx}}`，生成后必须断言 `'{{node-node-' not in prompt`，并断言所有占位符都对应现有节点。
+- **不引用音频**：Vidu Q4 不支持，音频引用块会让**整批**节点派发失败。视频节点 `reference_audios` 恒空、prompt 无任何音频 token，声音靠 `generate_audio:true` 直出或后期配音。
+- **尺度锁**：模型不懂物理尺寸，不写"25cm"，写**画面占比＋锚点比例**（中景 18–22%、近景 25–30%；台面 3.6×、手机 0.59×…），并规定"画面只出现人的脚/手，不出现完整成年人"。
+- **表情**：默认表情写进角色锁（如"嘴巴默认闭合"），首帧决定最终表情——改文字不换首帧没用。
+
+---
+
+## 5. 尾帧续接体系（每支片的标配，不是可选项）
+
+没有尾帧续接，段与段之间尺度、光线、表情全跳（《蛋仔游成都》成片实测教训）：
+
+1. 每段一个 `input-image` 尾帧节点 `T01…T(n-1)`，单独成组"尾帧 → 下一段首帧"。
+2. **S01 首帧 = 计划首帧 K01**；**S02 起首帧 = 上一段的 T**。K 系列保留为构图参考放进 `reference_images`，实际续接以 T 为准。
+3. 跑法：生成 S01 → 截最后一帧上传替换 T01（占位图位）→ 跑 S02 → 截 T02 → …
+4. **不画视频→尾帧来源边**；来源写在节点名里，只留 `T → 下一段` 一条边。
+5. **上一段重跑后必须重截 T**——旧尾帧会把旧尺度/旧表情带进下一段。
+6. **切点性质决定接不接**：同空间、同朝向、连续动作的切点才硬接尾帧；地点/方向变化的切点用 match cut（同向/同色温）或 0.2s 短叠化，硬接会把上一场构图带进来。截尾帧前先看一眼截到的是不是适用画面（别截到脸部特写）。
+7. **高光关键帧 K**：关键段可单独加一张"宏大构图"关键帧（只加一张），用途是构图/光影基准，**不当首帧**；引用它的段必须先出这张图再派发。
+8. 接好线 ≠ 生效：首帧字段改了，旧视频还是旧构图，必须重跑对应下段（先跑一段试点验证）。
+
+---
+
+## 6. 工程流程（脚本生成 + 自检 + 交付）
+
+### 6.1 build 脚本模式
+
+参照 `衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py`：定义 `nid()/eid()` ID 生成器 → `make_input_image / make_gen_image / make_gen_video / make_text` 节点工厂 → prompt 常量（模板 token 用 `{{K_A}}` 简写，`link()` 统一替换成真实 `{{node-xxx}}` 并校验无残留）→ 组装 nodes/edges/groups → 自检 → 输出**双份**（仓库 `画布/` ＋ `~/Downloads/`，文件名带版本号）。
+
+### 6.2 自检清单（已固化为共享校验脚本，强制执行）
+
+**任何 .monet 改完、交付前必跑：`py -3 _共享/工具/检查画布接线.py <文件.monet>`（`--all` 扫全库）。有 ERROR 不得交付。** 脚本把下面 9 条加上全部接线/引用禁手变成硬检查（E1–E9 / W1–W11，见脚本头注释）：
+
+1. 节点 ID 唯一；
+2. 每个 `reference_images` / `first_frame_image` 的 node_id 都存在；
+3. 被引用的 `input-image` 必须有 outputs（空节点先上传占位图；水墨管线那类"待用户拖图"的空槽报 E6 属预期——填图前本来就不能派发）；
+4. prompt 里每个 `{{node-x}}` 都有对应边（引用双接入，缺边 build 失败）；
+5. 无 video→video 边；无 视频→尾帧 来源边；每个用到的尾帧 in=0/out=1；
+6. groups 覆盖全部节点、bounds 互不重叠、无节点越界；**同组节点间无依赖边**；
+7. 每条视频 prompt ≤2000 字符（Vidu Q4），无 `{{node-node-` 双前缀；
+8. `reference_audios` 全空、prompt 无音频引用；
+9. Vidu duration 为 3–16 整数秒；视频 prompt 的首帧在正文被 `{{node}}` 点名。
+
+build 脚本在生成时也应内联同样的断言（参照 `build_ep01_ambulance.py` 的 checks 段），校验脚本是独立于 build 的最后一道闸。
+
+### 6.3 修改已有画布的纪律
+
+**先备份**（`原名-改什么前备份-日期.monet`）→ 脚本改 JSON → 按模块列重排并完全替换 groups → 更新节点标签。**Monet 当前打开的项目不会自动同步**：改完文件要关闭重开项目，且不要保存内存里的旧版本，否则会覆盖磁盘改动。
+
+### 6.4 交付政策（2026-10-28 拍板）
+
+- **只交付 .monet 文件，用户自己上传导入**；禁止自动 import_canvas.py / delete_canvas.py，除非用户明确要求。
+- 双份输出：仓库 `画布/` ＋ `~/Downloads/`；文件名带版本号，并说明旧版不要导入。
+- Monet 画布**无回收站 API**，删除会连带删掉全部生成产物且不可恢复——任何删除动作前先检查产物（保护版 delete_canvas.py 有产物即跳过并列清单）。
+
+### 6.5 运行批次纪律（写进 S0 说明节点）
+
+- **不要一键全跑**：视频会读到旧关键帧。正确批次＝先跑互不依赖的图像组 → 通过后跑关键帧 → 逐段跑视频（S01 → 截尾帧换 T01 → S02 → …）→ 最后跑有尾帧依赖的段。
+- **重跑不删 URL**：点重新生成会新增 take，旧 take 留着对比，新 take 设主输出，下游按节点 ID 自动读新输出。只有 UI 明确不让跑时才用"清空结果"。
+- 视频逐段确认、每段最多 2 抽、第 2 抽先写改了什么。
+
+---
+
+## 7. 网页版链路（备用，2026-10-28 已打通）
+
+账号 `linguanxi`（≠ 桌面版 mailgo.n31738，两账号不互通）。登录态在 ITOS 登录工具驱动的 Chrome（CDP 端口看 profile 的 `DevToolsActivePort`），cookie 取 `ACCESS_TOKEN`。API＝`monet.dreammaker.netease.com/proxyApi/*`，认证七头缺一不可：`X-Monet-Source`、`X-Group-Id`、`X-Request-Id`、`X-Aigw-App`、`X-Access-Token`、`X-Auth-User`、`X-Storage-Token`。
+
+脚本（`衍生方案-蛋仔记单词/脚本/`）：`import_canvas.py`（导入）、保护版 `delete_canvas.py`（有产物自动跳过）。`GET /proxyApi/canvas/{id}` 可完整读回画布 JSON（与桌面版 .monet 同构，本文件全部规则沿用）。派发端点（actions/operations/run）**烧权益，未获用户授权不开自动派发**。
+
+---
+
+## 8. 接线/引用故障对照表（症状 → 根因 → 谁接住）
+
+历史上真实翻过车的每一类，都已对应到校验脚本的检查项（`_共享/工具/检查画布接线.py`）：
+
+| 症状 | 根因 | 检查项 |
+|---|---|---|
+| 派发报"无效的引用块" | prompt 写了 `{{node-x}}` 但没挂 reference_images/first_frame，或挂了 ref 没画连线（EP03 R02 logo、一蛋一剑 K_END 都是这病） | E4 / E5 |
+| "线没接上"/看着像 S04 接回自己 | 截尾帧时画布自动生成"视频→尾帧"来源记录边，与真正的 T→下一段 首帧边并排 | W4 / W7（尾帧有入边） |
+| 引用挂了但模型没吃到图 | 被引用的 input-image 是空的（`outputs:[]`，没传占位图；用户原话"一开始未生成的尾帧好像是不引用的"） | E6 |
+| prompt 里 @ 了图但模型不理 | 纯文本 `@【…】` 不算引用，只有 `{{node-ID}}` 渲染成 chip 才算 | W11 |
+| 段间尺度/构图跳 | first_frame 挂了但正文没写【首帧锁定】`{{node-T}}` | W1 |
+| 整批视频派发失败"不支持引用音频" | reference_audios 非空 / prompt 引音频节点 / "引用声音母版"字样 | E8 |
+| 派发报 prompt 超限 | Vidu Q4 >2000 字符 | E7 |
+| 引用 chip 是空的/报节点不存在 | 脚本拼出 `{{node-node-` 双前缀，或 token 指向不存在的 ID | E3 / E1 |
+| 整组一键跑结果乱序 | 组内有依赖边（整组运行是并行的） | W6 |
+| 连了线但平台没读 | 只画了边、没挂 reference_images（边只是视觉辅助，数据走 ref 字段） | W9 |
+| 尾帧带了旧尺度/旧表情进下一段 | 上一段重跑后没重截尾帧 | 流程纪律（§5），脚本查不了 |
+
+**预防的唯一可靠办法**：接线数据只在一处定义——build 脚本里 edges 一律从 reference_images/first_frame 派生生成，不要手写两套；改完 JSON 后必跑校验脚本。手改画布或用户回传的画布，先跑一遍再动。
+
+---
+
+## 附：相关文件索引
+
+| 主题 | 文件 |
+|---|---|
+| 接线/引用校验脚本（交付前必跑） | `_共享/工具/检查画布接线.py` |
+| 尾帧接线规则（来源边问题） | `衍生方案-蛋仔游成都/画布分析/尾帧接线规则.md` |
+| 首尾帧引用写法 | `衍生方案-蛋仔游成都/画布分析/首尾帧引用写法.md` |
+| 完整 build 脚本范例 | `衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py` |
+| 参考图上传脚本 | `衍生方案-四小只/脚本/upload_refs.py` |
+| 可导入空白模板 | `衍生方案-蛋仔游成都/画布分析/蛋仔游城市-工作流模板-v1.monet` |
+| 尾帧截取脚本 | `衍生方案-蛋仔游成都/画布分析/extract_tail_frames.py` |

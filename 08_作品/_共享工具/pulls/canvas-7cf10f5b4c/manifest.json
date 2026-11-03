@@ -1,0 +1,106 @@
+{
+  "canvas": {
+    "id": "canvas-7cf10f5b4c",
+    "name": "燕云大招 · 水墨短版 v1（8s）",
+    "description": "",
+    "revision": "170",
+    "updatedAt": "2026-11-03T18:38:38.087000+08:00"
+  },
+  "counts": {
+    "nodes": 11,
+    "edges": 12,
+    "groups": 4
+  },
+  "outputs": [
+    {
+      "node": "node-7fa41b71",
+      "label": "【参考】P1 角色（白发剑客）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122555-bb6fa0be7e68df3f-p1-e4-ba-ba-e7-89-a9-e7-99-bd-e5-8f-91-e.png",
+      "file": "media\\【参考】P1_角色（白发剑客）_output-7fa41b71.png",
+      "bytes": 572149
+    },
+    {
+      "node": "node-40e850ac",
+      "label": "【参考】P2 武器（藏音·龙跃霄汉）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122556-5df2712152eae9b4-p2-e6-ad-a6-e5-99-a8-e9-be-99-e8-b7-83-e.png",
+      "file": "media\\【参考】P2_武器（藏音·龙跃霄汉）_output-40e850ac.png",
+      "bytes": 528519
+    },
+    {
+      "node": "node-e3fec678",
+      "label": "【已生成·复用】A1 脸部",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+      "file": "media\\【已生成·复用】A1_脸部_output-e3fec678.png",
+      "bytes": 1125980
+    },
+    {
+      "node": "node-8bd74443",
+      "label": "【已生成·复用】A5 武器",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "file": "media\\【已生成·复用】A5_武器_output-8bd74443.png",
+      "bytes": 891101
+    },
+    {
+      "node": "node-c1f5b80e",
+      "label": "【候选】V1 万剑归宗 8s",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-7cf10f5b4c/video/20261103-103213-b875578de40de996-02179370174786400000000000000000000ffffa.mp4",
+      "file": "media\\【候选】V1_万剑归宗_8s_output-b0b4ad48cd.mp4",
+      "bytes": 7349683
+    },
+    {
+      "node": "node-254eebb7",
+      "label": "【候选】V2 泼墨吞世 8s",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-7cf10f5b4c/video/20261103-103305-2beb3c9665608a4e-02179370174732400000000000000000000ffffa.mp4",
+      "file": "media\\【候选】V2_泼墨吞世_8s_output-e068a2f96e.mp4",
+      "bytes": 7179755
+    },
+    {
+      "node": "node-017010d5",
+      "label": "【候选】V3 千丈寒剑·天开 8s",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-7cf10f5b4c/video/20261103-103303-271e6730ae539954-02179370174480300000000000000000000ffffa.mp4",
+      "file": "media\\【候选】V3_千丈寒剑·天开_8s_output-fefc26c0ad.mp4",
+      "bytes": 5652346
+    },
+    {
+      "node": "node-0a691897",
+      "label": "【候选】V4 冰龙贯野 8s",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-7cf10f5b4c/video/20261103-103305-d5564ff0f3afc742-02179370174605900000000000000000000ffffa.mp4",
+      "file": "media\\【候选】V4_冰龙贯野_8s_output-ca14011c99.mp4",
+      "bytes": 7834503
+    },
+    {
+      "node": "node-bdfd689f",
+      "label": "【已生成·复用】A2 全身（挂 V1–V4 锁服装比例）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+      "file": "media\\【已生成·复用】A2_全身（挂_V1–V4_锁服装比例）_output-bdfd689f.png",
+      "bytes": 1109584
+    }
+  ]
+}

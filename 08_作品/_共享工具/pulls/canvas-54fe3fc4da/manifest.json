@@ -1,0 +1,126 @@
+{
+  "canvas": {
+    "id": "canvas-54fe3fc4da",
+    "name": "燕云冲击帧 · 反拆测试（单图）",
+    "description": "",
+    "revision": "198",
+    "updatedAt": "2026-11-03T15:34:18.995000+08:00"
+  },
+  "counts": {
+    "nodes": 10,
+    "edges": 17,
+    "groups": 5
+  },
+  "outputs": [
+    {
+      "node": "node-050f0fc0",
+      "label": "【已生成·复用】A1 脸部",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+      "file": "media\\【已生成·复用】A1_脸部_output-050f0fc0.png",
+      "bytes": 1125980
+    },
+    {
+      "node": "node-994a6484",
+      "label": "【已生成·复用】A2 全身",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+      "file": "media\\【已生成·复用】A2_全身_output-994a6484.png",
+      "bytes": 1109584
+    },
+    {
+      "node": "node-79a92516",
+      "label": "【已生成·复用】A5 武器",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "file": "media\\【已生成·复用】A5_武器_output-79a92516.png",
+      "bytes": 891101
+    },
+    {
+      "node": "node-5AWdN-Ju",
+      "label": "image.png",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-063636-97a5dcc7d7b5db0c-image.png",
+      "file": "media\\image.png_output-3fa9a2255f.png",
+      "bytes": 277365
+    },
+    {
+      "node": "node-xkxkAVEh",
+      "label": "图片1",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064054-26b06cf10728c14d-8538316005537381db5365.png",
+      "file": "media\\图片1_output-fee9046100.png",
+      "bytes": 1869190
+    },
+    {
+      "node": "node-xkxkAVEh",
+      "label": "图片1",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064628-19b8ec41ec0aad95-bb58d7a535b4c89d779853.png",
+      "file": "media\\图片1_output-99703302a5.png",
+      "bytes": 2015920
+    },
+    {
+      "node": "node-xkxkAVEh",
+      "label": "图片1",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-064922-20d48539836d1b02-e0743ba2b00393da9d4db1.png",
+      "file": "media\\图片1_output-cd2f09f839.png",
+      "bytes": 2035829
+    },
+    {
+      "node": "node-z3FwPNAb",
+      "label": "图片2",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-065451-858f5cee74546949-40eb143f5b44aeb94a91d8.png",
+      "file": "media\\图片2_output-e190b91f23.png",
+      "bytes": 1889163
+    },
+    {
+      "node": "node-04649b99",
+      "label": "【待生成】首帧·起势（剑不出画·整体压暗）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072238-8f5eb85c32821ea0-376d328646063c6eced8e7.png",
+      "file": "media\\【待生成】首帧·起势（剑不出画·整体压暗）_output-1fd152ed8d.png",
+      "bytes": 2079634
+    },
+    {
+      "node": "node-04649b99",
+      "label": "【待生成】首帧·起势（剑不出画·整体压暗）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-072658-9e4f5ea4621e1cc7-d02eaac32fce4df2fde0cb.png",
+      "file": "media\\【待生成】首帧·起势（剑不出画·整体压暗）_output-c720b29c5b.png",
+      "bytes": 2637929
+    },
+    {
+      "node": "node-04649b99",
+      "label": "【待生成】首帧·起势（剑不出画·整体压暗）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-54fe3fc4da/image/20261103-073243-22620bbf6934fcd2-4f42ef4bb0ca89bc194a69.png",
+      "file": "media\\【待生成】首帧·起势（剑不出画·整体压暗）_output-ea7d755da0.png",
+      "bytes": 2902703
+    }
+  ]
+}

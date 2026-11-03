@@ -1,0 +1,6 @@
+- insert:
+    - id: english-story
+      name: '@local/english-story'
+      config:
+        workspace: 'E:\libtv漫剧\08_作品\_共享工具\english-story'
+        python: 'C:\Windows\py.exe'

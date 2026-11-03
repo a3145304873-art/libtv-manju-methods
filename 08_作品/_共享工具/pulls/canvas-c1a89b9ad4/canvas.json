@@ -1,0 +1,1239 @@
+{
+  "id": "canvas-c1a89b9ad4",
+  "name": "心易做菜 · EP01 等红薯熟 · 30s · 15+12+3 · 一景两机位",
+  "description": "30s＝15 秒等 ＋ 12 秒成 ＋ 3 秒泡。一个景（灶与池同框）、两个机位、三次生成。心易（棕色水豚毛绒）只发咔啵、不说话；埋红薯进灰、等、拨出掰开、池边吃。视频内无字，白字与咔啵后期。seedance-2.0-mini。由 build_from_wait.py 从等菜卡生成。",
+  "coverUrl": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+  "ownerId": "mailgo.n31738",
+  "tags": [],
+  "createdAt": "2026-11-02T15:41:26.242000+08:00",
+  "createdBy": "mailgo.n31738",
+  "updatedAt": "2026-11-02T15:41:27.723000+08:00",
+  "updatedBy": "mailgo.n31738",
+  "revision": "0",
+  "restoreEpoch": 0,
+  "nodes": [
+    {
+      "id": "node-0878ff17",
+      "type": "input-image",
+      "mainOutputId": "output-c9176d50b5",
+      "meta": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 300.0,
+        "height": 450.0,
+        "label": "A0 心易·水豚标准（复用·已上传）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-c9176d50b5",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+          "cover": null,
+          "name": "心易-水豚-标准.png",
+          "resolution": {
+            "width": 400,
+            "height": 600
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T15:41:26.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-0f8471f0",
+      "type": "input-image",
+      "mainOutputId": "output-a5ceefeb72",
+      "meta": {
+        "x": 0.0,
+        "y": 480.0,
+        "width": 300.0,
+        "height": 502.33,
+        "label": "A0F 心易脸部/眼睛参考（锁眼·已上传）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-a5ceefeb72",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-065612-d1b27798ec4a1cfa-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e8-8.png",
+          "cover": null,
+          "name": "心易-水豚-脸部.png",
+          "resolution": {
+            "width": 430,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T15:41:26.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-ba83aa95",
+      "type": "input-image",
+      "mainOutputId": "output-43112ce092",
+      "meta": {
+        "x": 900.0,
+        "y": 940.0,
+        "width": 440.0,
+        "height": 247.5,
+        "label": "T1【待替换⚠】V1 尾帧 → V2 首帧（截 V1 最后一帧替换；占位图沿用记单词 T_A 版）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-43112ce092",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+          "cover": null,
+          "name": "T_A-占位-1280x720.jpg",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T15:41:26.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-8ecbcd3f",
+      "type": "input-text",
+      "mainOutputId": "output-4fd88a28d5",
+      "meta": {
+        "x": 0.0,
+        "y": 1040.0,
+        "width": 320.0,
+        "height": 760.0,
+        "label": "S0 制作说明 · 先读",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-4fd88a28d5",
+          "status": "done",
+          "error": null,
+          "value": "【本画布】《等一下》EP01《烤红薯》30 秒＝15 秒等 ＋ 12 秒成 ＋ 3 秒泡；16:9；一个景、两个机位、三次生成。\n这一集：等红薯在灰里熟（静等）。\n\n【跑序】01 场景 → 02 道具（并行）→ 03 四格预演（定稿）→ 04 首帧 K1/K3 → 05 V1（15s）→ 06 截 V1 最后一帧替换 T1 → 07 V2（12s）→ 08 V3（3s）。\n\n【纪律】\n1. 先只跑 V1，看「一镜到底」成不成立；不要一键全跑。\n2. T1 没换之前不要跑 V2；T1 必须是 V1 的真实尾帧，不是重画的相似图。\n3. V3 是硬切（时间省略：她已挪到池边），不接 V2 尾帧。\n4. 视频里无字、无气泡；白字与咔啵全部后期。\n\n【角色】水豚心易：只发咔啵、不说话；头顶橘子是本体，不摘不吃；短手无指，用木棍。\n【声音】咔啵后期配（约 12s「咔——啵」、约 26s「咔啵~」）；视频里不要台词、不要音乐。\n【字幕】后期白字 4 条：埋进去／等一下／好了／甜；尾卡「非教程 仅供娱乐」。\n\n【关于 T1 占位图】占位图沿用记单词线的 T_A 版（画面上写 T_A，替换逻辑相同）；截 V1 最后一帧替换后再跑 V2。\n\n【改法】改等菜卡 JSON 后重跑 build_from_wait.py，不手改 .monet。",
+          "cover": null,
+          "name": "S0 制作说明 · 先读",
+          "resolution": null,
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T15:41:26.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-71fa4d82",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 360.0,
+        "y": 0.0,
+        "width": 460.0,
+        "height": 259.0,
+        "label": "【待生成】S1 场景 · 灶与池同框 · 黄昏 · 16:9 空景",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 场景设定空景，不出现任何角色、不出现手。黄昏的温泉小院一角：左侧石头砌的小土灶，灶口朝右，灶膛里有红灰与柴，灶上坐一口粗陶小锅（本集不用）；灶边石缝插着一根小木棍，灶前一块干石板；右后方石池，热水冒白气、水面浮一片橘子，池沿湿；地面是湿石、散落的灰、两片落叶；背景是雾里的石墙与树影。\n构图：灶在画面左半、池在右后，灶前留出一块能站下她的空地；画面里没有角色。\n尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n光：暮色冷蓝是环境光、灶口暖橙是唯一主光，两条光同一轴线；不打第三支灯、不加轮廓光、不加反光板。\n材质：粗陶（哑光、开片）／石头（湿、苔、水痕）／老木（纹理、包浆）／水汽与灰，四种要能分辨。\n画面要唯美：浅景深、一层薄雾、光里有浮尘、器物表面有湿润感；只有必须的东西，没有现代电器、不锈钢、塑料收纳盒、杂物堆。\n参考图：{{node-0878ff17}} 只用于确认她的身量比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-0878ff17"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-03ccf60d",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 380.0,
+        "y": 340.0,
+        "width": 380.0,
+        "height": 214.0,
+        "label": "【待生成】P1 生红薯 · 白底",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一颗带泥的生红薯：皮哑光、土褐色、有细须根与磕痕；比她的躯干略大，两只短手抱得住。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-724f30a4",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 380.0,
+        "y": 580.0,
+        "width": 380.0,
+        "height": 214.0,
+        "label": "【待生成】P2 熟红薯掰开 · 白底",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一颗烤熟的红薯掰成两半：皮焦黑起皱，瓤金黄、边缘糖汁发亮、断面冒热气；半颗约她躯干大小。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-0624abcb",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 380.0,
+        "y": 820.0,
+        "width": 380.0,
+        "height": 214.0,
+        "label": "【待生成】P3 小木棍 · 白底",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一根约十四厘米长的小木棍：杨木色、表面磨光、一头有炭黑、另一头有磨圆的握痕；不是树枝、不是筷子、不是金属。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-2bf9a71a",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 860.0,
+        "y": 0.0,
+        "width": 520.0,
+        "height": 293.0,
+        "label": "【待生成】G1 四格预演 · 埋/等/成/泡",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "两列两行四宫格分镜预演图，细白分隔线，16:9 整体画幅；四格按左上→右上→左下→右下阅读：\n左上（第一格）：她蹲在灶口，用木棍把红薯推进红灰，火星溅起。\n右上（第二格）：她蹲着看灰，火光在侧脸跳，烟升起。\n左下（第三格）：她两只手抱住掰开的红薯，黄瓤、白气。\n右下（第四格）：池边她坐着，两只脚泡在水里，捧着半个红薯。\n四格同一角色、同一场景、同一黄昏光；同一毛色、同一颗橘子；不出现人类，格内不写任何文字或编号。\n参考图：{{node-0878ff17}}=角色外观；{{node-0f8471f0}}=眼睛；{{node-71fa4d82}}=场景与光；{{node-03ccf60d}}=生红薯；{{node-724f30a4}}=熟红薯；{{node-0624abcb}}=木棍。\n心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。\n尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n光：暮色冷蓝是环境光、灶口暖橙是唯一主光，两条光同一轴线；不打第三支灯、不加轮廓光、不加反光板。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            },
+            {
+              "node_id": "node-71fa4d82"
+            },
+            {
+              "node_id": "node-03ccf60d"
+            },
+            {
+              "node_id": "node-724f30a4"
+            },
+            {
+              "node_id": "node-0624abcb"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-b85df51e",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 900.0,
+        "y": 340.0,
+        "width": 440.0,
+        "height": 248.0,
+        "label": "【关键帧】K1 V1 首帧 · 前景木棍 · 后景她",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感首帧，第 0 秒画面，只生成一张。低机位：前景是石缝里的木棍（大、清晰、带灰），后景是灶口与她（全身、略虚、被火光勾边），灶台边一颗带泥红薯；黄昏的温泉小院一角，左侧石灶、右后石池冒白气、水面浮一片橘子。她站直只到灶口高，约占画面高 1/5。\n心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。\n尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n光：暮色冷蓝是环境光、灶口暖橙是唯一主光，两条光同一轴线；不打第三支灯、不加轮廓光、不加反光板。材质：毛绒（短绒、绒光、压痕、沾灰变白）／粗陶（哑光、开片）／石头（湿、苔、水痕）／食物（焦皮、淀粉白、热气）四层要能分辨。\n参考图：{{node-0878ff17}}=角色外观；{{node-0f8471f0}}=眼睛；{{node-71fa4d82}}=场景与光；{{node-03ccf60d}}=生红薯；{{node-0624abcb}}=木棍；{{node-2bf9a71a}}=四格预演第一格（只取构图，不出现分格线）。\n无文字、无 logo、无水印；画面干净。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            },
+            {
+              "node_id": "node-71fa4d82"
+            },
+            {
+              "node_id": "node-03ccf60d"
+            },
+            {
+              "node_id": "node-0624abcb"
+            },
+            {
+              "node_id": "node-2bf9a71a"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-444aaf9c",
+      "type": "gen-image",
+      "mainOutputId": null,
+      "meta": {
+        "x": 900.0,
+        "y": 640.0,
+        "width": 440.0,
+        "height": 248.0,
+        "label": "【关键帧】K3 V3 首帧 · 池边回看灶口",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感首帧，第 0 秒画面，只生成一张。机位在池边、回看灶口：画面左前是灶沿与插回石缝的木棍，右侧池沿上她坐着，两只脚泡在水里，手里捧着半个红薯；水面浮一片橘子，蒸汽升起。中景，景深比 V1 浅；暮色为主、水面反一点暖光，灶口只剩余火。\n心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。\n尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n材质：毛绒（短绒、绒光、压痕、沾灰变白）／粗陶（哑光、开片）／石头（湿、苔、水痕）／食物（焦皮、淀粉白、热气）四层要能分辨。\n参考图：{{node-0878ff17}}=角色外观；{{node-0f8471f0}}=眼睛；{{node-71fa4d82}}=同一景；{{node-724f30a4}}=熟红薯；{{node-0624abcb}}=木棍；{{node-2bf9a71a}}=四格预演第四格（只取构图）。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            },
+            {
+              "node_id": "node-71fa4d82"
+            },
+            {
+              "node_id": "node-724f30a4"
+            },
+            {
+              "node_id": "node-0624abcb"
+            },
+            {
+              "node_id": "node-2bf9a71a"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-cbab8b7b",
+      "type": "gen-video",
+      "mainOutputId": null,
+      "meta": {
+        "x": 1440.0,
+        "y": 0.0,
+        "width": 460.0,
+        "height": 259.0,
+        "label": "【待生成】V1 等 · 15s · 一镜到底",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【首帧锁定】首帧使用 {{node-b85df51e}}：第 0 秒就是这一帧——低机位，前景是石缝里的木棍（大、清晰、带灰），后景是灶口与她（全身、略虚、被火光勾边），灶台边一颗带泥红薯；锁位置、朝向、光线与道具状态，不重构图、不换机位。\n【引用图片】{{node-b85df51e}}=首帧；{{node-0878ff17}}=心易外观；{{node-0f8471f0}}=眼睛。\n【角色】心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。\n【场景与尺度】黄昏温泉小院一角：石灶在左、石池在右后，暮色冷蓝与灶火暖橙。尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n【光与材质】光：暮色冷蓝是环境光、灶口暖橙是唯一主光，两条光同一轴线；不打第三支灯、不加轮廓光、不加反光板。材质：毛绒（短绒、绒光、压痕、沾灰变白）／粗陶（哑光、开片）／石头（湿、苔、水痕）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–5 秒：她上前半步，两只短手抱住石缝里的木棍，往后一坐拔出、带出一点灰；转身面向灶口，木棍横在怀里。\n5–8 秒：她用木棍把灶台边的红薯往灶膛红灰里推——前两下没推动，第三下推进去，火星溅起，红薯半埋在灰里。\n8–11 秒：她蹲下前倾，两只短手撑在膝前看灰；火光在侧脸跳，眨眼一次、耳朵动一下。\n11–13 秒：她用木棍把灰拨过来盖住红薯，烟升起，灰堆鼓起一小包。\n13–15 秒：保持蹲姿；灰里透出一点橙红，风把烟吹偏；镜头停住，不切。\n【镜头】全程一个镜头，极缓慢推近约 5%，不切、不摇、不环绕；动作慢半拍、落点准。\n【声音】风过檐、远处鸟叫；木头摩擦石缝、灰落、火星噼啪、柴火细响；没有音乐、没有说话；不要人声、不要配乐。\n【字幕预留】后期白字「埋进去」「等一下」；画面里不出现任何文字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、瞳孔放大、眼皮、眉毛、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-b85df51e"
+            },
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": {
+            "node_id": "node-b85df51e"
+          },
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 15,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-f882ac29",
+      "type": "gen-video",
+      "mainOutputId": null,
+      "meta": {
+        "x": 1440.0,
+        "y": 300.0,
+        "width": 460.0,
+        "height": 259.0,
+        "label": "【待生成】V2 成 · 12s · 首帧 T1",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【首帧锁定】首帧使用 {{node-ba83aa95}}（V1 的真实最后一帧）：锁她与灰堆的位置、朝向、光线，不重构图、不换机位；第 0 秒从这一帧直接继续。\n【引用图片】{{node-ba83aa95}}=首帧；{{node-0878ff17}}=外观；{{node-0f8471f0}}=眼睛。\n【角色】心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。这一拍允许眯一次眼（全片唯一一次）。\n【场景与尺度】同一景：黄昏温泉小院一角。尺度：这是一个为她配好的小世界——陶锅约与她同高、灶口像个小山洞、石池她坐得进去，木棍与陶碗都按她身量配；她站直只到灶口高，约占画面高 1/5；不要画成人类尺寸的巨物，也不要画成模型俯视。\n【光与材质】光：暮色冷蓝是环境光、灶口暖橙是唯一主光，两条光同一轴线；不打第三支灯、不加轮廓光、不加反光板。材质：毛绒（短绒、绒光、压痕、沾灰变白）／粗陶（哑光、开片）／石头（湿、苔、水痕）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–2 秒：完全静止，保持首帧不动。\n2–4 秒：灰里鼓起，一道白气从灰缝里冲出来；她后仰半个身位、眨眼。\n4–7 秒：她用木棍把红薯拨出来、滚到灶前石板上；皮裂开，白气大股涌出。\n7–9.5 秒：两只手抱住红薯、身体往后压把它掰开，黄瓤与热气出来；低头闻。\n9.5–11.5 秒：捧着半个咬一口，热气从嘴边散开。\n11.5–12 秒：停住，眯一下眼。\n【镜头】与 V1 同机位；不切、不摇；动作慢半拍。\n【声音】火、蒸汽冲出、红薯滚动、皮裂、掰开的脆响、咬与呼气；没有音乐、没有说话；不要人声、不要配乐。\n【字幕预留】后期白字「好了」「甜」；画面里不出现任何文字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、瞳孔放大、眼皮、眉毛、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-ba83aa95"
+            },
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": {
+            "node_id": "node-ba83aa95"
+          },
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 12,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-0be61dc5",
+      "type": "gen-video",
+      "mainOutputId": null,
+      "meta": {
+        "x": 1440.0,
+        "y": 600.0,
+        "width": 460.0,
+        "height": 259.0,
+        "label": "【待生成】V3 泡 · 3s · 首帧 K3",
+        "resourceType": null
+      },
+      "outputs": [],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【首帧锁定】首帧使用 {{node-444aaf9c}}：机位在池边、回看灶口——画面左前是灶沿与插回石缝的木棍，右侧池沿上她坐着，两只脚泡在水里，手里捧着半个红薯；水面浮一片橘子，蒸汽升起。锁位置与光，不换机位。\n【引用图片】{{node-444aaf9c}}=首帧；{{node-71fa4d82}}=同一景；{{node-724f30a4}}=熟红薯；{{node-0878ff17}}=外观；{{node-0f8471f0}}=眼睛。\n【角色】心易：一只巴掌大的棕色水豚毛绒玩偶（约 12 厘米高），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白圆眼白＋黑小圆瞳＋单高光（外圈一条深棕细线）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与眨眼；不看镜头、不卖萌、不拟人化眼神。全身放松、肩膀下沉。\n【场景与尺度】同一石池边；中景；暮色为主，水面反一点暖光，灶口只剩余火。\n【时间拍】\n0–3 秒：她咬一小口，热气升起，水面轻晃；定格。\n【镜头】固定机位，只有蒸汽与水面在动；不切。\n【声音】水声、蒸汽、极轻的风；没有音乐、没有说话。\n【字幕预留】无字幕，只有后期尾卡「非教程 仅供娱乐」；画面里不出现任何文字、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、瞳孔放大、眼皮、眉毛、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-444aaf9c"
+            },
+            {
+              "node_id": "node-71fa4d82"
+            },
+            {
+              "node_id": "node-0878ff17"
+            },
+            {
+              "node_id": "node-0f8471f0"
+            },
+            {
+              "node_id": "node-724f30a4"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": {
+            "node_id": "node-444aaf9c"
+          },
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 3,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-8264aaea",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-71fa4d82",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-141ea4e4",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-6836845c",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-ff9dce06",
+      "sourceNodeId": "node-71fa4d82",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-5200612d",
+      "sourceNodeId": "node-03ccf60d",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-b092f117",
+      "sourceNodeId": "node-724f30a4",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-005a34c6",
+      "sourceNodeId": "node-0624abcb",
+      "sourceHandle": "output",
+      "targetNodeId": "node-2bf9a71a",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-0ce0126e",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-eabc418e",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-c7dd4cce",
+      "sourceNodeId": "node-71fa4d82",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-e3a508d8",
+      "sourceNodeId": "node-03ccf60d",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-1987b231",
+      "sourceNodeId": "node-0624abcb",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-c2256589",
+      "sourceNodeId": "node-2bf9a71a",
+      "sourceHandle": "output",
+      "targetNodeId": "node-b85df51e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-4e5d8a90",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-a0416de4",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-ad2c7ec2",
+      "sourceNodeId": "node-71fa4d82",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-78fa9332",
+      "sourceNodeId": "node-724f30a4",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-3df53e61",
+      "sourceNodeId": "node-0624abcb",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-9e6c0c9c",
+      "sourceNodeId": "node-2bf9a71a",
+      "sourceHandle": "output",
+      "targetNodeId": "node-444aaf9c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-15be7295",
+      "sourceNodeId": "node-b85df51e",
+      "sourceHandle": "output",
+      "targetNodeId": "node-cbab8b7b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-0e5e0926",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-cbab8b7b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-d31f7f28",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-cbab8b7b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-2ead7624",
+      "sourceNodeId": "node-ba83aa95",
+      "sourceHandle": "output",
+      "targetNodeId": "node-f882ac29",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-d0f73dbf",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-f882ac29",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-20b78931",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-f882ac29",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-cfc937cf",
+      "sourceNodeId": "node-444aaf9c",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0be61dc5",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-af195dc3",
+      "sourceNodeId": "node-71fa4d82",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0be61dc5",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-354d7be9",
+      "sourceNodeId": "node-0878ff17",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0be61dc5",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-4fdfb43e",
+      "sourceNodeId": "node-0f8471f0",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0be61dc5",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-3d84613a",
+      "sourceNodeId": "node-724f30a4",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0be61dc5",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-f813dae9",
+      "nodeIds": [
+        "node-0878ff17",
+        "node-0f8471f0"
+      ],
+      "bounds": {
+        "x": -20.0,
+        "y": -20.0,
+        "width": 340.0,
+        "height": 1022.3299999999999
+      },
+      "label": "00 参考 · 角色与眼睛",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E68BB3"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-0045567f",
+      "nodeIds": [
+        "node-71fa4d82"
+      ],
+      "bounds": {
+        "x": 340.0,
+        "y": -20.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "01 场景 · 先跑",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#8E8DE0"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-af5720fa",
+      "nodeIds": [
+        "node-03ccf60d",
+        "node-724f30a4",
+        "node-0624abcb"
+      ],
+      "bounds": {
+        "x": 360.0,
+        "y": 320.0,
+        "width": 420.0,
+        "height": 734.0
+      },
+      "label": "02 道具白底 · 并行",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#7FB07F"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-abb051bc",
+      "nodeIds": [
+        "node-2bf9a71a"
+      ],
+      "bounds": {
+        "x": 840.0,
+        "y": -20.0,
+        "width": 560.0,
+        "height": 333.0
+      },
+      "label": "03 四格预演 · 定稿后再往下",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E8B85D"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-0029d9c7",
+      "nodeIds": [
+        "node-b85df51e",
+        "node-444aaf9c"
+      ],
+      "bounds": {
+        "x": 880.0,
+        "y": 320.0,
+        "width": 480.0,
+        "height": 588.0
+      },
+      "label": "04 首帧 K1/K3",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#6FA8DC"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-2db9bac1",
+      "nodeIds": [
+        "node-cbab8b7b"
+      ],
+      "bounds": {
+        "x": 1420.0,
+        "y": -20.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "05 V1 · 先只跑这一条",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#DC775D"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-44bc9f73",
+      "nodeIds": [
+        "node-ba83aa95"
+      ],
+      "bounds": {
+        "x": 880.0,
+        "y": 920.0,
+        "width": 480.0,
+        "height": 287.5
+      },
+      "label": "06 T1 尾帧占位 · 替换前不要跑 V2",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#B0B0B0"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-76dfecfe",
+      "nodeIds": [
+        "node-f882ac29"
+      ],
+      "bounds": {
+        "x": 1420.0,
+        "y": 280.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "07 V2 · 首帧 T1",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#C97BA6"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-6a74ce93",
+      "nodeIds": [
+        "node-0be61dc5"
+      ],
+      "bounds": {
+        "x": 1420.0,
+        "y": 580.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "08 V3 · 硬切收尾",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#7FA8A0"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-70a56062",
+      "nodeIds": [
+        "node-8ecbcd3f"
+      ],
+      "bounds": {
+        "x": -20.0,
+        "y": 1020.0,
+        "width": 360.0,
+        "height": 800.0
+      },
+      "label": "09 说明 · 先读",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#9A9A9A"
+      },
+      "createdAt": "2026-11-02T15:41:26.242000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T15:41:26.242000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ]
+}

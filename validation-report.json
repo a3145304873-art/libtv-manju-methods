@@ -1,15 +1,15 @@
 {
   "status": "pass",
-  "source_records": 16,
-  "source_hashes_verified": 26,
+  "source_records": 19,
+  "source_hashes_verified": 30,
   "snapshot_totals": {
-    "snapshot_cases": 9,
-    "nodes": 671,
-    "video_nodes_with_prompt": 260,
-    "image_nodes_with_prompt": 109
+    "snapshot_cases": 10,
+    "nodes": 688,
+    "video_nodes_with_prompt": 262,
+    "image_nodes_with_prompt": 111
   },
-  "generated_markdown_files": 45,
-  "relative_links_verified": 190,
+  "generated_markdown_files": 54,
+  "relative_links_verified": 791,
   "ability_ids": [
     "C01",
     "C02",
@@ -25,10 +25,14 @@
     "C12",
     "C13",
     "C14",
-    "C15"
+    "C15",
+    "C16",
+    "C17",
+    "C18"
   ],
-  "project_skill_entries": 6,
+  "project_skill_entries": 8,
+  "workspace_files": 1272,
   "excluded_content_terms_checked": 0,
-  "boundary": "no copied production media, supplied excluded content terms, credentials, symlinks or external local navigation",
+  "boundary": "method layer carries no production media; 08_作品 workspace allowed to carry assets/canvas/outputs; supplied excluded content terms, credentials, symlinks and external local navigation still rejected",
   "limitations": "engineering/package checks only; source media and method quality not evaluated; missing upstream attachments remain missing"
 }

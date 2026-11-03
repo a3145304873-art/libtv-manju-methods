@@ -2,10 +2,10 @@
   "schema_version": 1,
   "scope": "compatible local archived LibTV JSON; no media review or generation",
   "totals": {
-    "snapshot_cases": 9,
-    "nodes": 671,
-    "video_nodes_with_prompt": 260,
-    "image_nodes_with_prompt": 109
+    "snapshot_cases": 10,
+    "nodes": 688,
+    "video_nodes_with_prompt": 262,
+    "image_nodes_with_prompt": 111
   },
   "cases": [
     {
@@ -366,6 +366,46 @@
       "unresolved_group_members": [
         "a-Qd9JZh0aYf",
         "t-kT4FD8WFzl"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W11",
+      "name": "邵氏电影学英语一步成片模板",
+      "snapshot": "04_原始资料/workflows/W11/nodes.json",
+      "node_count": 17,
+      "types": {
+        "video": 2,
+        "text": 11,
+        "image": 2,
+        "group": 2
+      },
+      "actions": {
+        "video_generate": 2,
+        "text_resource": 9,
+        "image_generate": 2,
+        "text_generate": 2,
+        "group": 2
+      },
+      "nonempty_prompt_by_type": {
+        "video": 2,
+        "text": 11,
+        "image": 2
+      },
+      "video_model_labels": {
+        "star-video2": 2
+      },
+      "parameter_refs_by_field": {
+        "textList": 4,
+        "imageList": 2
+      },
+      "parameter_pairs": 6,
+      "cli_edge_count": 6,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [
+        "eb2d9fcf-369d-49b6-8ed1-5c8e183382fe",
+        "efc006b2-762b-4a53-bfd2-6cb6c2d502a5"
       ],
       "unresolved_input_nodes": []
     }

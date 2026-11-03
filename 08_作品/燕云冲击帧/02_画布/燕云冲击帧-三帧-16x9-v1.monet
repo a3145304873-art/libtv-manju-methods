@@ -1,0 +1,1009 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-10-29T20:10:00.000+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 三条 4s（16:9）v1",
+  "description": "白发剑客 × 藏音·龙跃霄汉：三条 4s（seedance 最短档）冲击帧，构图递进 全身→眼→剑。K 实写首帧 → I 水墨定格 → V 视频（静帧微动→唯一动作→炸白→尾部水墨直出）。P1/P2 已预填同账号存储，导入即跑。",
+  "nodes": [
+   {
+    "id": "node-9e29b1fc",
+    "type": "input-image",
+    "mainOutputId": "output-9e29b1fc",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已预填】P1 人物 · 白发剑客",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-9e29b1fc",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122555-bb6fa0be7e68df3f-p1-e4-ba-ba-e7-89-a9-e7-99-bd-e5-8f-91-e.png",
+      "cover": null,
+      "name": "P1-人物-白发剑客.png",
+      "resolution": {
+       "width": 526,
+       "height": 533
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-29T20:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-29T20:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 572149,
+       "md5": "7e5dbc051eff3e58b92f5a973c017d1a"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-73841978",
+    "type": "input-image",
+    "mainOutputId": "output-73841978",
+    "meta": {
+     "x": 20,
+     "y": 240,
+     "width": 320,
+     "height": 200,
+     "label": "【已预填】P2 武器 · 龙跃霄汉",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-73841978",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122556-5df2712152eae9b4-p2-e6-ad-a6-e5-99-a8-e9-be-99-e8-b7-83-e.png",
+      "cover": null,
+      "name": "P2-武器-龙跃霄汉.png",
+      "resolution": {
+       "width": 632,
+       "height": 711
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-29T20:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-29T20:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 528519,
+       "md5": "df2829d66050b0a95f9c6819ac355f86"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-aa41ad2c",
+    "type": "input-text",
+    "mainOutputId": "output-aa41ad2c",
+    "meta": {
+     "x": 20,
+     "y": 470,
+     "width": 320,
+     "height": 400,
+     "label": "S1 角色与武器设定",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-aa41ad2c",
+      "status": "done",
+      "error": null,
+      "value": "【角色与武器设定 · 只读不改】\n人物：年轻男性剑客，白发（长过肩、发尾散乱），白色宽袖长袍＋黑色内衬，黑色腰封与革带，双臂缠绕冰霜气劲；\n面部清瘦、眉压低、眼神冷静；本组统一不戴斗笠。\n武器：藏音·龙跃霄汉——冰晶长剑，剑身半透、内部有龙形霜纹，护手一道极细虹彩（青→品红），\n护手根部结着玉绿色冰晶簇，剑尖处明光偏暖（曜日）。\n配色：墨黑＋纸白＋冰青（主）；玉绿与曜金各占 <5%；全组不用红。\n禁止：红眼、彩色光效、卡通描边、游戏 UI、水印、logo。\n\n——换角色/武器：替换 P1 / P2 两张图，并同步改 K/I/V 九个节点提示词里的人物与武器描述。\n——换画幅：本画布是 16:9 母版；9:16 要重构图（人物与剑尖会出画），不要直接裁。\n",
+      "cover": null,
+      "name": "S1 角色与武器设定",
+      "resolution": null,
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-29T20:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-29T20:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-c1bf32ab",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】K1 ① 雪落无声 · 立势 1K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版电影级首帧，只生成一张。\n【引用图片说明】{{node-9e29b1fc}}＝人物（锁脸/白发/白袍黑带/冰霜气劲）；{{node-73841978}}＝武器（锁冰晶剑外形/龙形霜纹/护手虹彩）。\n【画面】全身立势：人物立于雪原，身体略侧对镜头，右手垂剑、剑尖指向左下地面；无招式、无动作，\n只有白发与衣摆被右后方来风吹动；脚下有一圈被风刮出的雪纹。\n【构图/机位】16:9 横版，平视略低；人物站右三分线，脚在画面下缘 0.86 处；左侧三分之一是空白雪地，\n立四五根旧木桩；剑尖落点对齐左下三分线；主斜线从剑尖到左上留白约 30°。\n【光影/材质】逆光，天光压在人物背后，人整体压成暗块；只有白发边缘、肩线、剑刃吃一道冷白边光；\n剑尖一点暖金。背景深度虚化，雪粒可见。\n负向：红、彩色光效、发光眼、多手多剑、弯腰、下蹲、弓步、人物过小、文字、水印、logo、游戏UI、卡通。\n",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-3e6b7c52",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 330,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】K2 ② 一线 · 刃与眼 1K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版电影级极特写，只生成一张。\n【引用图片说明】{{node-9e29b1fc}}＝人物（锁脸/白发/冰霜气劲）；{{node-73841978}}＝武器（锁冰晶剑刃口/霜纹/护手）。\n【画面】极特写：画面上半幅是脸的下半与一只眼（右眼），眼睛在右三分处，睫毛与眼窝结构清晰，\n瞳孔里有一点冷白神光；画面下半幅被一道剑刃斜切压住，刃口是一线冷白高光，刃身有极淡冰纹与霜；\n颊侧有 3–5 点干涸的墨点与尘。\n【构图/机位】16:9 横版，视线略低于眼平；刃线斜率约 −18°，刃口高光穿过黄金分割；\n眼睛下沿距刃口约 1/8 画面高。\n【光影/材质】侧逆光，脸八成在暗部，只有眼窝受光；刃口一道暖金反光；黑白灰关系为主，饱和度极低。\n负向：彩色、发光眼、红眼、血浆、卡通大眼、对称构图、正脸正视镜头、文字、水印、logo、游戏UI、3D渲染感。\n",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-731674a7",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 640,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】K3 ③ 龙跃 · 剑与手 1K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版电影级微距，只生成一张。\n【引用图片说明】{{node-73841978}}＝武器（锁冰晶剑身/龙形霜纹/护手虹彩与玉绿晶簇）；{{node-9e29b1fc}}＝人物（锁白袍袖口与手）。\n【画面】微距：一把冰晶长剑从右下角斜贯到左上出画，剑身半透、内部龙形霜纹清晰，刃口带冷白高光；\n护手在画面右侧 0.78 宽度处被右边缘裁掉四分之一，护手上一道极细虹彩；\n右下角是一只握柄的手（只见手背与两指），白袍袖口被裁掉一半。\n【构图/机位】16:9 横版，镜头贴近剑身；剑轴 −52°，占满对角线；背景全黑，只有极淡冷光雾。\n【光影/材质】黑底＋剑身自发光：冷（冰泉）为主，剑尖 1/10 处转暖金；霜粒 10–20 点悬浮。\n负向：彩色背景、塑料感、卡通描边、多余人物、全剑入画、平视正面、文字、水印、logo、游戏UI。\n",
+      "reference_images": [
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-9e29b1fc"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-d818f2e2",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 820,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】I1 ① 水墨定格 2K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版黑白水墨武侠插画，只生成一张（视频尾部的水墨定格，也是封面候选）。\n【引用图片说明】{{node-9e29b1fc}}＝人物（锁白发/白袍轮廓，转水墨笔意）；{{node-73841978}}＝武器（锁冰晶剑外形）；\n{{node-c1bf32ab}}＝构图与姿势基准（同一机位、同一站势）。\n【画面】与首帧同一构图：人物立于雪原，右手垂剑、剑尖触地；白发与衣摆浓墨泼洒、向画右后方拖尾；\n雪原用大片留白＋淡墨横扫表示风迹；剑尖触地处炸开一圈墨霜（破笔＋溅点），一点暖金落在剑尖；\n左侧留白三分之一，木桩用极淡墨线勾四五根。\n【风格】书法式大写意：浓墨、飞白、破笔、溅点；宣纸纹理；不精细刻画五官；\n全画只有黑、纸白、冷灰，加一点暖金。\n【构图】人物占画面高约 80%，右三分；主斜线 30°。\n负向：彩色、写实照片、3D渲染、精细插画、红、复杂背景、多人物、文字、水印、logo、卡通、游戏UI。\n",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-c1bf32ab"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "2K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "high",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-02ed6138",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 820,
+     "y": 330,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】I2 ② 水墨定格 2K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版黑白水墨，只生成一张（视频尾部的水墨定格）。\n【引用图片说明】{{node-9e29b1fc}}＝人物（锁眼型与白发走向）；{{node-3e6b7c52}}＝构图基准（同一机位、同一刃线角度）。\n【画面】同一构图的水墨版：上半幅一只眼，用两笔浓墨压出杏形，眼白留纸白，瞳孔一点浓墨，神光一点纸白；\n下半幅一道刃口，用一笔枯墨横扫，刃口留一道白线（飞白），刃身几道淡墨冰纹；颊侧溅 3–5 点墨。\n【风格】极简水墨，留白占七成；只有黑、纸白、灰；不画毛发细节，一两笔带过。\n负向：彩色、写实、精细插画、红、对称、多眼、文字、水印、logo、卡通、游戏UI。\n",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-3e6b7c52"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "2K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "high",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-e9396b20",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 820,
+     "y": 640,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】I3 ③ 水墨定格 2K",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "16:9 横版黑白水墨，只生成一张（视频尾部的水墨定格）。\n【引用图片说明】{{node-73841978}}＝武器（锁冰晶剑身/龙形走势/护手）；{{node-731674a7}}＝构图与剑轴基准。\n【画面】同一构图的墨版：剑从右下斜贯左上出画，剑身用大笔枯墨扫出，内部龙形走势用细墨线勾；\n刃口一笔留白作高光；护手处一道极细虹彩（青→品红，全画唯一彩色，面积 <2%）；\n右下角手握柄用一块浓墨带过，白袍袖口留白；霜粒用溅点表示。\n【风格】大写意，宣纸纹理，黑占六成、纸白四成。\n负向：彩色背景、精细插画、写实、金属反光质感、多余人物、全剑入画、文字、水印、logo、卡通、游戏UI。\n",
+      "reference_images": [
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-731674a7"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "2K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "high",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-8e39e3b5",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1220,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】V1 ① 4s · 炸霜→水墨",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "【首帧锁定】首帧使用 {{node-c1bf32ab}}：第 0 秒就是\"雪原立势、右手垂剑、剑尖指地\"的全身构图，机位/朝向/光向完全不变，不要换成别的机位。\n【引用图片说明】{{node-c1bf32ab}}＝首帧；{{node-9e29b1fc}}＝人物（锁白发/白袍/冰霜）；{{node-73841978}}＝武器（锁冰晶剑）；{{node-d818f2e2}}＝结尾水墨定格目标（同一构图）。\n【人物与武器】白发剑客，白袍黑腰封，双臂冰霜气劲；藏音·龙跃霄汉（冰晶长剑，护手一道虹彩）。\n【镜头语言】16:9 · 4 秒；一镜到底，固定机位，仅 1.02 倍极缓推。全程挺拔站立，不弯腰不下蹲，双脚不离地。\n0.0–1.4 秒：保持首帧：白发与衣摆被右后方来风轻推，雪粒横飞；剑不动，人不动。\n1.4–1.6 秒：剑尖触地的一瞬，霜从触点向外爬开，炸起一圈雪雾。\n1.6–1.7 秒：全屏炸白 1–2 帧。\n1.7–2.2 秒：白光褪去，整幅画面开始变成 {{node-d818f2e2}} 的黑白水墨：人物与剑保持同一姿势。\n2.2–4.0 秒：进入 {{node-d818f2e2}} 的水墨定格：只有墨点飘落、墨线尾端晕开、纸纹极轻呼吸；镜头固定，不再回到实色。\n【水墨规则】结尾是整幅画风转换（按 {{node-d818f2e2}}），不是墨元素叠在实色画面上；白闪是转化点。\n【声音】风声起，剑尖触地一声闷响，白闪一瞬收静，水墨段低频余韵渐弱；无 BGM、无台词。\n【负向】弯腰、驼背、下蹲、弓步、第二个动作、跳跃、旋转、镜头摇晃、全程实色、水墨段残留彩色、白闪后切镜头、发光眼、红、大面积金色光效、游戏第三人称机位、游戏UI、文字、水印、logo、卡通渲染、多余角色、血、瞬移、分屏。\n",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-d818f2e2"
+       }
+      ],
+      "reference_audios": [],
+      "first_frame_image": {
+       "node_id": "node-c1bf32ab"
+      },
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration": 4,
+      "generate_audio": true,
+      "watermark": false
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-8d33c6ea",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1220,
+     "y": 330,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】V2 ② 4s · 刃光→水墨",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "【首帧锁定】首帧使用 {{node-3e6b7c52}}：第 0 秒就是\"半张脸＋一只眼、刃口斜压下半幅\"的极特写，机位与刃线角度完全不变。\n【引用图片说明】{{node-3e6b7c52}}＝首帧；{{node-9e29b1fc}}＝人物（锁眼型/白发）；{{node-73841978}}＝武器（锁刃口/冰纹）；{{node-02ed6138}}＝结尾水墨定格目标。\n【镜头语言】16:9 · 4 秒；极特写，固定机位，不推不摇。\n0.0–0.8 秒：保持首帧，眼不动，刃口高光极微呼吸。\n0.8–1.1 秒：眨一次眼（约 3 帧），睫毛压下再抬，瞳孔里的神光不灭。\n1.1–1.5 秒：一道暖金反光沿刃口从右向左扫过（刃身不动，只有反光在走）。\n1.5–1.7 秒：反光收束到刃尖的一瞬，全屏炸白 1–2 帧。\n1.7–2.2 秒：白光褪去，整幅画面开始变成 {{node-02ed6138}} 的黑白水墨极特写：眼与刃口位置不变。\n2.2–4.0 秒：进入 {{node-02ed6138}} 的水墨定格：只有墨点与飞白微微浮动；不再回到实色。\n【水墨规则】结尾整幅转水墨（按 {{node-02ed6138}}），不是墨叠加在实色上。\n【声音】一缕极轻的铁鸣起，眨眼一记轻响，白闪收静，水墨段留一点余响；无 BGM、无台词。\n【负向】彩色、发光眼、红眼、血浆、大眼卡通、镜头运动、切镜、第二个动作、水墨段残留实色、游戏UI、文字、水印、logo、3D渲染感、多余角色、分屏。\n",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-02ed6138"
+       }
+      ],
+      "reference_audios": [],
+      "first_frame_image": {
+       "node_id": "node-3e6b7c52"
+      },
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration": 4,
+      "generate_audio": true,
+      "watermark": false
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-a4d71a3c",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1220,
+     "y": 640,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】V3 ③ 4s · 碎冰→水墨",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "【首帧锁定】首帧使用 {{node-731674a7}}：第 0 秒就是\"冰晶剑从右下斜贯左上出画、手在右下角\"的微距构图，剑轴角度完全不变。\n【引用图片说明】{{node-731674a7}}＝首帧；{{node-73841978}}＝武器（锁剑身/龙形霜纹/护手虹彩）；{{node-9e29b1fc}}＝人物（锁袖口与手）；{{node-e9396b20}}＝结尾水墨定格目标。\n【镜头语言】16:9 · 4 秒；微距，固定机位，不推不摇。\n0.0–1.0 秒：保持首帧：剑身内部霜纹极缓流动，护手虹彩微微游移，霜粒悬浮。\n1.0–1.2 秒：手腕轻转一记，剑身冰晶亮一下。\n1.2–1.7 秒：碎冰沿剑身向两端炸开，霜粒飞出画面。\n1.7–1.8 秒：全屏炸白 1–2 帧。\n1.8–2.3 秒：白光褪去，整幅画面开始变成 {{node-e9396b20}} 的黑白水墨微距：剑与手位置不变，护手那道虹彩保留。\n2.3–4.0 秒：进入 {{node-e9396b20}} 的水墨定格：飞白与墨点浮动；不再回到实色。\n【水墨规则】结尾整幅转水墨（按 {{node-e9396b20}}）。\n【声音】极轻的冰裂起，手腕一转一声脆响，碎冰炸开细密声，白闪收静；无 BGM、无台词。\n【负向】彩色背景、金属塑料质感、镜头运动、走位、第二个动作、切镜、水墨段残留实色、游戏UI、文字、水印、logo、多重剑影、多余人物、分屏。\n",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-9e29b1fc"
+       },
+       {
+        "node_id": "node-73841978"
+       },
+       {
+        "node_id": "node-e9396b20"
+       }
+      ],
+      "reference_audios": [],
+      "first_frame_image": {
+       "node_id": "node-731674a7"
+      },
+      "resolution": "720p",
+      "aspect_ratio": "16:9",
+      "duration": 4,
+      "generate_audio": true,
+      "watermark": false
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-8fade4aa",
+    "type": "input-text",
+    "mainOutputId": "output-8fade4aa",
+    "meta": {
+     "x": 20,
+     "y": 1030,
+     "width": 1120,
+     "height": 420,
+     "label": "S0 制作说明",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-8fade4aa",
+      "status": "done",
+      "error": null,
+      "value": "【燕云冲击帧 · 三条 4s｜先读】\n本画布＝三条独立的 4s 冲击帧（seedance 最短 4s；要 3s 就剪头），同角色同武器，构图递进：① 全身立势 → ② 刃口与眼 → ③ 剑身与手。\n\n跑序（组＝跑序，组内并行）：\n00 上传（P1/P2 已预填同账号存储，可直接跑；若与你的截图不一致就拖图替换）\n→ 01 三张实写首帧整组跑（K1/K2/K3），先把三张构图跑对\n→ 02 三张水墨定格整组跑（I1/I2/I3，依赖 01；01 不满意就别跑 02）\n→ 03 三段视频整组跑（V1/V2/V3，依赖 01＋02）。\n\n每段成片节拍（4s）：静帧微动 → 唯一一个动作 → 全屏炸白 1–2 帧 → 尾部整幅转水墨定格。\n要 3s 版：掐头静帧——V1 剪 1.0s（→3.0s）、V2 剪 0.6s（→3.4s，别剪过 0.8s，会把眨眼吃掉）、V3 剪 0.9s（→3.1s）。\n\n剪辑三步（白闪先量再决定，别猜）：\n① 剪头：V1 剪 1.0s、V2 剪 0.6s、V3 剪 0.9s → 成片 3.0–3.4s；\n② 量白闪：python 02_画布/量白闪.py <成片.mp4>\n   1 帧＝不动；2–3 帧＝接受；≥4 帧或干脆没有炸白，才在原来那段里替换「1 帧白 + 1 帧负片」（不切段、不另拼一段）；\n③ 三段落之间用 2 帧黑硬接，别叠化。\n\n模型锁定：生图 gpt-image-2（K 用 1K/medium，I 用 2K/high）；视频 seedance-2.0-mini（最短 4s → 三条都按 4s 写；16:9 · 720p · 带音 · 不挂音频引用）。\n\n纪律：全组不用红；曜金只给剑尖与刃口；虹彩只给护手；一条片子只发生一个事件；静帧占三分之二。\n",
+      "cover": null,
+      "name": "S0 制作说明",
+      "resolution": null,
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-29T20:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-29T20:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-ywcj-000",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c1bf32ab",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-001",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c1bf32ab",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-002",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-3e6b7c52",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-003",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-3e6b7c52",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-004",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-731674a7",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-005",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-731674a7",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-006",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-d818f2e2",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-007",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-d818f2e2",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-008",
+    "sourceNodeId": "node-c1bf32ab",
+    "sourceHandle": "output",
+    "targetNodeId": "node-d818f2e2",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-009",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-02ed6138",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-010",
+    "sourceNodeId": "node-3e6b7c52",
+    "sourceHandle": "output",
+    "targetNodeId": "node-02ed6138",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-011",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-e9396b20",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-012",
+    "sourceNodeId": "node-731674a7",
+    "sourceHandle": "output",
+    "targetNodeId": "node-e9396b20",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-013",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8e39e3b5",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-014",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8e39e3b5",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-015",
+    "sourceNodeId": "node-c1bf32ab",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8e39e3b5",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-016",
+    "sourceNodeId": "node-d818f2e2",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8e39e3b5",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-017",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8d33c6ea",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-018",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8d33c6ea",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-019",
+    "sourceNodeId": "node-3e6b7c52",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8d33c6ea",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-020",
+    "sourceNodeId": "node-02ed6138",
+    "sourceHandle": "output",
+    "targetNodeId": "node-8d33c6ea",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-021",
+    "sourceNodeId": "node-9e29b1fc",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a4d71a3c",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-022",
+    "sourceNodeId": "node-73841978",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a4d71a3c",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-023",
+    "sourceNodeId": "node-731674a7",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a4d71a3c",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ywcj-024",
+    "sourceNodeId": "node-e9396b20",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a4d71a3c",
+    "targetHandle": "input",
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "groups": [
+   {
+    "id": "group-ywcj-0",
+    "nodeIds": [
+     "node-9e29b1fc",
+     "node-73841978",
+     "node-aa41ad2c"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -26,
+     "width": 356,
+     "height": 918
+    },
+    "label": "00 上传与设定（已预填）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#8E8DE0"
+    },
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-ywcj-1",
+    "nodeIds": [
+     "node-c1bf32ab",
+     "node-3e6b7c52",
+     "node-731674a7"
+    ],
+    "bounds": {
+     "x": 402,
+     "y": -26,
+     "width": 356,
+     "height": 968
+    },
+    "label": "01 首帧 K1/K2/K3 · 整组跑",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5B8DE0"
+    },
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-ywcj-2",
+    "nodeIds": [
+     "node-d818f2e2",
+     "node-02ed6138",
+     "node-e9396b20"
+    ],
+    "bounds": {
+     "x": 802,
+     "y": -26,
+     "width": 356,
+     "height": 968
+    },
+    "label": "02 水墨定格 I1/I2/I3",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5BE0C8"
+    },
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-ywcj-3",
+    "nodeIds": [
+     "node-8e39e3b5",
+     "node-8d33c6ea",
+     "node-a4d71a3c"
+    ],
+    "bounds": {
+     "x": 1202,
+     "y": -26,
+     "width": 356,
+     "height": 968
+    },
+    "label": "03 视频 4s · V1/V2/V3",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E0A15B"
+    },
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-ywcj-4",
+    "nodeIds": [
+     "node-8fade4aa"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 984,
+     "width": 1156,
+     "height": 488
+    },
+    "label": "04 制作说明",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#888888"
+    },
+    "createdAt": "2026-10-29T20:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-29T20:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

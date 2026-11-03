@@ -1,0 +1,1011 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-10-29T16:40:59.859+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 谐音无厘头 EP01 morose v1 · 2×15s（含四宫格预演）",
+    "description": "1 词／30 秒。黄蛋在蛋仔快餐店点“青椒肉丝饭，肉丝多一点”，打开只有青椒；心易举卡 morose；黄蛋把青椒摆成“肉丝”形状，还是闷闷不乐。套壳自 B站 31s 3D 卡通《肉丝没找到，morose 倒是记住了》。",
+    "nodes": [
+      {
+        "id": "node-802ca202",
+        "type": "input-image",
+        "mainOutputId": "output-c580e6499a",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 320,
+          "height": 130.0,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-c580e6499a",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:40:59.859+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:40:59.859+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-d0257caa",
+        "type": "input-image",
+        "mainOutputId": "output-d766406360",
+        "meta": {
+          "x": 0.0,
+          "y": 200.0,
+          "width": 300,
+          "height": 343.5,
+          "label": "R01 黄蛋标准（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-d766406360",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-黄蛋-标准.jpg",
+            "resolution": {
+              "width": 1118,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:40:59.859+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:40:59.859+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 86469,
+              "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-dbd2d5c9",
+        "type": "input-image",
+        "mainOutputId": "output-903937f19d",
+        "meta": {
+          "x": 0.0,
+          "y": 580.0,
+          "width": 300,
+          "height": 343.8,
+          "label": "R02 粉蛋标准 · 本集代心易（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-903937f19d",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-0d34f1caae5e8c3e-e8-a7-92-e8-89-b2-e7-b2-89-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-粉蛋-标准.jpg",
+            "resolution": {
+              "width": 1117,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:40:59.859+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:40:59.859+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 97490,
+              "md5": "51dda2189f378bc9c464076bdeb31dc3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-fb237045",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A01 餐盒＋勺子（米饭青椒/无肉丝）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图，只生成一张，两个物件并排。左：一个打开的白色快餐餐盒，里面是白米饭和青椒丝，没有一根肉丝；右：一把不锈钢勺子。真实材质，柔和接触阴影。\n背景 #FFFFFF 纯白，无投影、无其他文字、无水印、无 logo、无手。\n负向：肉丝、人类、手指、文字、水印、logo、比例失真、塑料感、餐盒变形。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-5febfab8",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 260.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A02 蛋仔快餐店空景 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横版空景，不出现任何角色。蛋仔快餐店一角：柜台、柜台后的菜单灯箱（灯箱上只有食物图片，没有文字）、几张矮桌与小凳、暖黄灯光、干净的地面；低机位贴桌视角，前景为 12cm 小角色留出空间；3D 卡通渲染+真实光影（皮克斯质感），柔和景深，35mm 颗粒。\n无人物、无动物、无文字、无 logo、无水印。\n负向：人类、角色、动物、文字、水印、logo、过曝、塑料高光过强、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-851c4ad2",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】G01 四宫格预演 · 2×2 · 点单/期待/打开/心易 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 四宫格分镜预演图，2×2 等分，每格 16:9，细白分隔线；四格按左上→右上→左下→右下顺序，同一快餐店、同一角色、同一暖光；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射），35mm 颗粒；全图无文字、无字幕、无 logo、无水印。\n左上（0–5s）：蛋仔快餐店柜台（参考 {{node-5febfab8}}），黄蛋（参考 {{node-d0257caa}}，比例参考 {{node-802ca202}}）踮脚指着菜单灯箱，心易（本集用粉蛋形象，参考 {{node-dbd2d5c9}}）在柜台后点头。\n右上（5–11s）：黄蛋抱着打开的餐盒（参考 {{node-fb237045}}）坐在小桌边，眼睛发亮。\n左下（11–15s）：餐盒里只有米饭和青椒丝，没有肉丝；黄蛋僵住。\n右下（Part B 4–9s）：心易举一张空白词卡（版面留白，不出现文字），黄蛋拿勺子拨餐盒。\n四格角色外形/服装/比例一致，不新增角色；暖光与桌面反光四格一致。\n负向：文字、字幕、水印、logo、人类、手指、牙齿、裂壳、蛋液、蛋黄、肉丝、多余角色、分格错位、角色变形、餐盒变形、塑料高光过强、卡通描边、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-802ca202"
+              },
+              {
+                "node_id": "node-d0257caa"
+              },
+              {
+                "node_id": "node-dbd2d5c9"
+              },
+              {
+                "node_id": "node-fb237045"
+              },
+              {
+                "node_id": "node-5febfab8"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-15e3ba7a",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】K_A Part A 首帧 · 黄蛋点单（踮脚指菜单）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感首帧，第 0 秒画面，只生成一张。构图参考 {{node-851c4ad2}} 左上格（只取构图/机位/光线/角色姿态，不出现其他三格、不出现分格线）。蛋仔快餐店柜台（光线与机位跟 {{node-5febfab8}} 一致）：黄蛋（参考 {{node-d0257caa}} 外形、{{node-802ca202}} 比例：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子黑条纹+白色毛绒靴）踮脚站在柜台前，短圆手臂指着菜单灯箱，眼睛发亮、期待；心易（参考 {{node-dbd2d5c9}}，粉蛋形象）在柜台后点头微笑。低机位贴柜微距，黄蛋约占画面高 1/4，暖黄灯光；3D 卡通渲染+真实光影，搪胶材质次表面散射。\n无文字浮层、无水印、无 logo；菜单灯箱只有食物图片、没有文字。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、字幕、水印、logo、比例失真、黄蛋变色、粉蛋变形、菜单文字、多余角色、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-851c4ad2"
+              },
+              {
+                "node_id": "node-802ca202"
+              },
+              {
+                "node_id": "node-d0257caa"
+              },
+              {
+                "node_id": "node-dbd2d5c9"
+              },
+              {
+                "node_id": "node-5febfab8"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-5cb913b2",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 220.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】KC 词卡 · morose/没肉丝/闷闷不乐的 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 单词卡版式，只生成一张。卡片占画面中央 70%，米白纸面、圆角、轻微纸张纹理：顶部大号单词\"morose\"（黑色无衬线粗体，拼写必须准确：m-o-r-o-s-e）+ 音标 /məˈroʊs/；中部三行红色马克笔手写感大字\"没、肉、丝\"，下方一行黑色小字\"adj. 闷闷不乐的\"；暖黄快餐店灯光从右上照入，卡片投柔和阴影。\n除上述内容外无其他文字、无水印、无 logo、无人类、无手。\n负向：拼写错误、乱码、多余文字、水印、logo、比例失真、图标变形。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-e9b20744",
+        "type": "input-image",
+        "mainOutputId": "output-19c85808fe",
+        "meta": {
+          "x": 1200.0,
+          "y": 470.0,
+          "width": 320,
+          "height": 180.0,
+          "label": "【待替换⚠】T_A Part A 尾帧 → Part B 首帧（截 Part A 最后一帧替换，替换前勿派发 Part B）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-19c85808fe",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+            "cover": null,
+            "name": "T_A-占位-1280x720.jpg",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:40:59.859+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:40:59.859+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 59049,
+              "md5": "731a5a04d57f812140cfd6c5e6301ce3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-c03cbc35",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1650.0,
+          "y": 0.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part A · 0–15s · 点单/期待/打开只有青椒",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-15e3ba7a}}；第 0 秒就是这一帧：蛋仔快餐店柜台，黄蛋踮脚指着菜单灯箱，心易在柜台后点头。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球（角色本体，不是穿搭/道具）、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；没有牙齿，不吃不咬；情绪从期待到落空。\n【心易】本集用粉蛋形象出演（参考 {{node-dbd2d5c9}}）：12cm 粉色蛋仔，粉色蛋壳、奶油色椭圆脸板、大圆眼、短圆手臂无手指、白色圆脚；快餐店店员＋老师位，平静、动作少。\n【道具】快餐餐盒：白色纸盒，里面是白米饭＋青椒丝，没有肉丝；勺子：不锈钢。\n【场景与尺度】蛋仔快餐店，柜台、菜单灯箱（只有食物图片、无文字）、矮桌小凳、暖黄灯光；低机位贴桌微距，黄蛋约占画面高 1/4；摄影机在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-802ca202}}=四小只身高比例；{{node-d0257caa}}=黄蛋标准；{{node-dbd2d5c9}}=粉蛋标准（代心易）；{{node-fb237045}}=餐盒+勺子；{{node-5febfab8}}=快餐店空景。\n0–5 秒：{{node-15e3ba7a}}{{node-dbd2d5c9}}黄蛋踮脚指着菜单灯箱，说：“青椒肉丝饭，肉丝多一点！”；心易点头，从柜台下拿出餐盒递给他。\n5–11 秒：{{node-fb237045}}黄蛋抱着餐盒坐到小桌边，眼睛发亮，短手把餐盒打开；餐盒里是白米饭和青椒丝。\n11–15 秒：{{node-fb237045}}镜头推近餐盒——只有白米饭和青椒丝，一根肉丝都没有；黄蛋僵住，眼睛失去高光；镜尾定格 0.5 秒。\n【特效延续】暖黄灯光、柜台反光延续到下一段。\n【声音】快餐店环境声、柜台提示音、餐盒打开声、黄蛋倒吸气；无 BGM。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、真实鸡蛋、肉丝、字幕、水印、logo、比例失真、黄蛋变色、粉蛋变形、菜单文字、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-802ca202"
+              },
+              {
+                "node_id": "node-d0257caa"
+              },
+              {
+                "node_id": "node-dbd2d5c9"
+              },
+              {
+                "node_id": "node-fb237045"
+              },
+              {
+                "node_id": "node-5febfab8"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-15e3ba7a"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-67ab963b",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1650.0,
+          "y": 310.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part B · 15–30s · 拨找/心易揭底/青椒摆肉丝",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-e9b20744}}（Part A 最后一帧：黄蛋盯着只有青椒的餐盒，僵住）；锁黄蛋与餐盒的位置/朝向/光线/背景，不重构图不换机位；第 0 秒从这一帧直接继续。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球（角色本体）、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；没有牙齿。\n【心易】本集用粉蛋形象出演（参考 {{node-dbd2d5c9}}）：12cm 粉色蛋仔，粉色蛋壳、奶油色椭圆脸板、大圆眼、短圆手臂无手指、白色圆脚；店员＋老师位。\n【道具】餐盒：白米饭＋青椒丝，无肉丝；勺子。\n【场景与尺度】同 Part A 快餐店小桌；低机位贴桌微距，两只蛋同高、各约占画面高 1/4；摄影机仍在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-802ca202}}=四小只身高比例；{{node-d0257caa}}=黄蛋标准；{{node-dbd2d5c9}}=粉蛋标准（代心易）；{{node-fb237045}}=餐盒+勺子；{{node-5cb913b2}}=词卡版式。\n0–4 秒：{{node-e9b20744}}{{node-fb237045}}黄蛋拿勺子拨来拨去，翻遍餐盒，找不到肉丝；肩膀慢慢垮下去。\n4–9 秒：{{node-dbd2d5c9}}{{node-5cb913b2}}心易从柜台后走过来，举卡（morose＋/məˈroʊs/＋红字“没、肉、丝”＋“adj. 闷闷不乐的”）；心易念：“morose，闷闷不乐的。谐音——没肉丝。”\n9–13 秒：{{node-d0257caa}}黄蛋：“没肉丝……所以 morose？”；心易：“对。没肉丝，闷闷不乐。”；黄蛋瘪嘴，趴到桌上。\n13–15 秒：{{node-fb237045}}黄蛋把青椒丝一根根摆成“肉丝”的形状，摆完看着它，还是闷闷不乐；心易在旁边憋笑；镜尾定格 1.5 秒。\n【特效延续】暖黄灯光、桌面反光延续；结尾不新增特效，定格干净。\n【声音】勺子碰餐盒、青椒丝摩擦、心易念词、黄蛋复读、趴桌轻响；无 BGM。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、真实鸡蛋、肉丝、文字浮层、字幕、水印、logo、比例失真、黄蛋变色、粉蛋变形、菜单文字、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-802ca202"
+              },
+              {
+                "node_id": "node-d0257caa"
+              },
+              {
+                "node_id": "node-dbd2d5c9"
+              },
+              {
+                "node_id": "node-fb237045"
+              },
+              {
+                "node_id": "node-5cb913b2"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-e9b20744"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-3b1387d9",
+        "type": "input-text",
+        "mainOutputId": "output-5b97cf49ee",
+        "meta": {
+          "x": 800.0,
+          "y": 720.0,
+          "width": 760.0,
+          "height": 600.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-5b97cf49ee",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔记单词》谐音无厘头 EP01《morose＝没肉丝》2×15 秒：黄蛋在蛋仔快餐店点“青椒肉丝饭，肉丝多一点”，打开只有青椒；心易举卡 morose；黄蛋把青椒摆成“肉丝”形状，还是闷闷不乐。\n集型：谐音无厘头，1 个词／30 秒；套壳自 B站 31s 3D 卡通《肉丝没找到，morose 倒是记住了》。\n\n【运行顺序】\n1. 先跑 A01 餐盒+勺子、A02 快餐店空景（互不依赖，可同时）。\n2. 跑 G01 四宫格预演（2×2）；看四格顺序、黄蛋/心易位置、餐盒状态。G01 只做预演，不接视频。\n3. 跑 K_A（只取 G01 左上格构图）和 KC（词卡）。\n4. 跑 Part A（15s）。看完最后一帧：餐盒里是否只有青椒、没有肉丝。\n5. ⚠️ T_A 当前是一蛋一剑旧占位板：截 Part A 最后一帧上传替换（节点 id/token 不变）。替换前不要派发 Part B。\n6. 跑 Part B（15s）。首帧就是 T_A，不要换别的图。\n7. 剪辑：硬切；定格后切黑幕白字卡（约 1.5s）：morose／闷闷不乐的。台标、钩子后期贴。\n\n【角色口径】\n- 黄蛋头顶“黄色天线+圆球”是角色本体，不是穿搭/道具，保留。\n- 蛋仔是蛋形潮玩，不是真蛋：不敲壳、不剥壳、不煮/煎、不出现蛋液蛋黄；没有牙齿，不吃不咬，只拨食物。\n- 心易本集用粉蛋形象出演（参考 R02）；后续有标准图再换节点重跑。\n\n【谐音铁律】\n- 谐音“没肉丝”由心易在 Part B 说出，不解释英文；词卡才揭 morose。\n- 反转由“打开只有青椒、没肉丝”驱动，不是角色听错。\n- 词卡给真实词义“adj. 闷闷不乐的”；青椒摆“肉丝”是收梗，不改词义。\n",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:40:59.859+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:40:59.859+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-b49ca5fb",
+        "sourceNodeId": "node-802ca202",
+        "sourceHandle": "output",
+        "targetNodeId": "node-851c4ad2",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-38661a5c",
+        "sourceNodeId": "node-d0257caa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-851c4ad2",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-8310eed6",
+        "sourceNodeId": "node-dbd2d5c9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-851c4ad2",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-aeae705a",
+        "sourceNodeId": "node-fb237045",
+        "sourceHandle": "output",
+        "targetNodeId": "node-851c4ad2",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-bc353ec2",
+        "sourceNodeId": "node-5febfab8",
+        "sourceHandle": "output",
+        "targetNodeId": "node-851c4ad2",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-c8f454c0",
+        "sourceNodeId": "node-851c4ad2",
+        "sourceHandle": "output",
+        "targetNodeId": "node-15e3ba7a",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-2b87ab8b",
+        "sourceNodeId": "node-802ca202",
+        "sourceHandle": "output",
+        "targetNodeId": "node-15e3ba7a",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-28527d22",
+        "sourceNodeId": "node-d0257caa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-15e3ba7a",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-920add1e",
+        "sourceNodeId": "node-dbd2d5c9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-15e3ba7a",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-b122fd4f",
+        "sourceNodeId": "node-5febfab8",
+        "sourceHandle": "output",
+        "targetNodeId": "node-15e3ba7a",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-28738924",
+        "sourceNodeId": "node-802ca202",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-2aaf98e1",
+        "sourceNodeId": "node-d0257caa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-24921047",
+        "sourceNodeId": "node-dbd2d5c9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-342f8fc9",
+        "sourceNodeId": "node-fb237045",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-17d836ce",
+        "sourceNodeId": "node-5febfab8",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-affbe476",
+        "sourceNodeId": "node-15e3ba7a",
+        "sourceHandle": "output",
+        "targetNodeId": "node-c03cbc35",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-0045cb8e",
+        "sourceNodeId": "node-802ca202",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-6516b5b9",
+        "sourceNodeId": "node-d0257caa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-1d627b5f",
+        "sourceNodeId": "node-dbd2d5c9",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-c42aa4b7",
+        "sourceNodeId": "node-fb237045",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-4d7d5001",
+        "sourceNodeId": "node-5cb913b2",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-16e3e481",
+        "sourceNodeId": "node-e9b20744",
+        "sourceHandle": "output",
+        "targetNodeId": "node-67ab963b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-a5ad9d5a",
+        "nodeIds": [
+          "node-802ca202",
+          "node-d0257caa",
+          "node-dbd2d5c9"
+        ],
+        "bounds": {
+          "x": -30.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 983.8
+        },
+        "label": "00 参考素材 · 黄蛋/粉蛋/身高比例",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-592edad2",
+        "nodeIds": [
+          "node-fb237045",
+          "node-5febfab8"
+        ],
+        "bounds": {
+          "x": 370.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 527.0
+        },
+        "label": "01 道具/场景 · 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-faad0747",
+        "nodeIds": [
+          "node-851c4ad2"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 240.0
+        },
+        "label": "02 四宫格预演 · G01 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#C9A227"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-b72a62b2",
+        "nodeIds": [
+          "node-15e3ba7a",
+          "node-5cb913b2"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 460.0
+        },
+        "label": "03 首帧/词卡 · K_A、KC",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-60955d53",
+        "nodeIds": [
+          "node-e9b20744"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": 440.0,
+          "width": 380.0,
+          "height": 240.0
+        },
+        "label": "04 尾帧 · Part A 跑完截帧替换",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#B08E6A"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-163067dc",
+        "nodeIds": [
+          "node-c03cbc35"
+        ],
+        "bounds": {
+          "x": 1620.0,
+          "y": -30.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "05 视频 Part A · 15s",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-8a4ca642",
+        "nodeIds": [
+          "node-67ab963b"
+        ],
+        "bounds": {
+          "x": 1620.0,
+          "y": 280.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "06 视频 Part B · 15s（T_A 替换后）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-63858d0e",
+        "nodeIds": [
+          "node-3b1387d9"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": 690.0,
+          "width": 820.0,
+          "height": 660.0
+        },
+        "label": "07 制作说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-10-29T16:40:59.859+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:40:59.859+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

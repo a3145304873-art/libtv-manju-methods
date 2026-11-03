@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-10-29T14:26:47.296+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 集型丙 · EP02 crush · 反转剧 · 2×15s",
+    "description": "无厘头反转剧单词小剧场：黄蛋捧花赴约，紧张得一屁股坐扁易拉罐；被压扁的罐子鼓起来红着脸爱上他。Part A 立预期/侵入/接管，Part B 揭双义。2×15s。",
+    "nodes": [
+      {
+        "id": "node-708acc3e",
+        "type": "input-image",
+        "mainOutputId": "output-17b0b4920f",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 320,
+          "height": 130.0,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-17b0b4920f",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T14:26:47.296+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T14:26:47.296+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-ddf10668",
+        "type": "input-image",
+        "mainOutputId": "output-92758575ee",
+        "meta": {
+          "x": 0.0,
+          "y": 200.0,
+          "width": 300,
+          "height": 343.5,
+          "label": "R01 黄蛋标准（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-92758575ee",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-黄蛋-标准.jpg",
+            "resolution": {
+              "width": 1118,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T14:26:47.296+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T14:26:47.296+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 86469,
+              "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-061d1d1c",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A01 反转实体 · 银色易拉罐（无脸无腮红）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图，只生成一张。一个标准银色铝制易拉罐，直立、拉环完好，罐身干净无品牌、无文字，表面有极细的拉丝与轻微凹痕，真实铝材反光，柔和接触阴影。\n背景 #FFFFFF 纯白，无投影、无水印、无 logo、无手。\n负向：文字、品牌、拉环变形、人脸、眼睛、腮红、人类手指、水印、logo、比例失真、塑料感。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-02484d64",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 260.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A02 黄昏派对长桌空景 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横版空景，不出现任何角色。黄昏室内派对长桌一角：长桌铺米白桌布，桌上有彩色纸杯蛋糕、纸盘，彩旗从上方斜拉过，背景是暖黄串灯与气球；长桌旁放一张矮木凳（凳面高度约与小角色身高相当），凳面留空（放一个易拉罐的位置）；暖色夕光从画面右侧窗户低角度射入，长影向左；低机位贴地视角，前景为 12cm 小角色留出空间；3D 卡通渲染+真实光影（皮克斯质感），柔和景深，35mm 颗粒。\n无人物、无动物、无文字、无 logo、无水印。\n负向：人类、角色、动物、文字、水印、logo、过曝、塑料高光过强、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-1f791cc0",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 520.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A03 心易设定 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只。心易：12cm 白色蛋形潮玩，白色哑光蛋壳、奶油色椭圆脸板、小黑点圆眼、粉色圆形腮红、头顶粉色爱心天线（细杆+爱心）、身体中部一圈蓝灰色细环线、白色圆脚；正面与侧面两个视角，同一只、同一比例；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射），轻微高光。\n背景 #FFFFFF 纯白，无投影、无文字、无水印、无 logo。\n负向：人类、手指、文字、水印、logo、比例失真、爱心变形、多余角色。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-a1785532",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】K_A Part A 首帧 · 捧花迈步（罐子不剧透）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感首帧，第 0 秒画面，只生成一张。黄昏派对长桌旁（光线与机位跟 {{node-02484d64}} 一致）：黄蛋（参考 {{node-ddf10668}} 外形、{{node-708acc3e}} 比例：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子黑条纹+白色毛绒靴）捧着一小束花、脸红、整理领结，深吸一口气向前迈步；约会对象不入画，画面右侧只留空位；长桌旁的矮木凳上放着一个普通银色易拉罐（参考 {{node-061d1d1c}}，无脸、无腮红）。低机位贴地微距，黄蛋约占画面高 1/4，暖色长影；3D 卡通渲染+真实光影，搪胶材质次表面散射。\n无文字浮层、无水印、无 logo。\n负向：人类、手指、字幕、水印、logo、比例失真、黄蛋变色、易拉罐有脸、多余角色、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-708acc3e"
+              },
+              {
+                "node_id": "node-ddf10668"
+              },
+              {
+                "node_id": "node-061d1d1c"
+              },
+              {
+                "node_id": "node-02484d64"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-b1922b3e",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800.0,
+          "y": 220.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】KC 双栏词卡 · crush/压碎/暗恋 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 双栏单词卡版式，只生成一张。卡片占画面中央 70%，米白纸面、圆角、轻微纸张纹理：顶部大号单词\"crush\"（黑色无衬线粗体，拼写必须准确：c-r-u-s-h）+ 音标 /krʌʃ/；中部左右两栏对照——左栏一个被压扁的银色易拉罐小图（参考 {{node-061d1d1c}} 的银色铝材与拉环，画成压扁形态，抠白底）＋一行黑色\"v. 压碎\"，右栏一个红色简笔爱心图标（饱满、无眼睛）＋一行黑色\"n. 暗恋\"，两栏之间一个黑色等号；暖色派对照明从右上照入，卡片投柔和阴影。\n除上述内容外无其他文字、无水印、无 logo、无人类、无手。\n负向：拼写错误、乱码、多余文字、水印、logo、比例失真、爱心长眼睛、人类手。",
+            "reference_images": [
+              {
+                "node_id": "node-061d1d1c"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-e13c8a5b",
+        "type": "input-image",
+        "mainOutputId": "output-8d880a17fb",
+        "meta": {
+          "x": 800.0,
+          "y": 470.0,
+          "width": 320,
+          "height": 180.0,
+          "label": "【待替换⚠】T_A Part A 尾帧 → Part B 首帧（截 Part A 最后一帧替换，替换前勿派发 Part B）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-8d880a17fb",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+            "cover": null,
+            "name": "T_A-占位-1280x720.jpg",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T14:26:47.296+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T14:26:47.296+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 59049,
+              "md5": "731a5a04d57f812140cfd6c5e6301ce3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-08376950",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 0.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part A · 0–15s · 立预期/侵入/接管",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-a1785532}}；第 0 秒就是这一帧：黄昏派对长桌旁，黄蛋捧着花、脸红、迈步，矮木凳上有一个普通易拉罐。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；紧张、脸红，按\"赴约表白\"的正常逻辑行动。\n【道具】易拉罐：标准银色铝罐（参考 {{node-061d1d1c}}），无品牌无文字；0–9 秒是普通罐子，9 秒后被压扁的罐身慢慢鼓回，浮出两团粉色腮红与一双爱心眼。\n【场景与尺度】黄昏派对长桌旁，暖色夕光、长影向左；低机位贴地微距，黄蛋约占画面高 1/4；摄影机在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-708acc3e}}=四小只身高比例；{{node-ddf10668}}=黄蛋标准；{{node-061d1d1c}}=易拉罐道具；{{node-02484d64}}=派对长桌空景。\n0–3 秒：{{node-a1785532}}黄蛋捧着花、脸红、整理领结，深吸一口气朝画面右侧走去（约会对象不入画）；心跳声。\n3–9 秒：{{node-061d1d1c}}黄蛋踩到地上的彩纸、脚下一滑，一屁股坐到矮木凳上，把易拉罐压扁\"咔嚓\"；他慌忙把扁罐捡起来藏到背后。\n9–15 秒：{{node-061d1d1c}}背后的扁罐慢慢鼓回圆形，罐身浮出两团粉色腮红和一双爱心眼，\"叮\"一声；黄蛋回头，石化；镜尾定格 0.5 秒。\n【特效延续】暖色彩旗与长影延续到下一段。\n【声音】心跳、彩纸摩擦、滑倒、压扁\"咔嚓\"、罐子回弹\"叮\"、黄蛋倒吸气；无 BGM。\n负向：人类、手指、字幕、水印、logo、比例失真、黄蛋变色、易拉罐长出手脚、爱心眼变人类眼睛、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-708acc3e"
+              },
+              {
+                "node_id": "node-ddf10668"
+              },
+              {
+                "node_id": "node-061d1d1c"
+              },
+              {
+                "node_id": "node-02484d64"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-a1785532"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-f97b09f3",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 310.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part B · 15–30s · 升级/揭底/回环/收梗",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-e13c8a5b}}（Part A 最后一帧：黄蛋回头看着鼓起来、脸红冒爱心眼的易拉罐）；锁黄蛋与罐子的位置/朝向/光线/背景，不重构图不换机位；第 0 秒从这一帧直接继续。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴。\n【心易】12cm 白色蛋仔（参考 {{node-1f791cc0}}）：白色蛋壳、奶油色椭圆脸板、小黑点眼、粉色腮红、头顶粉色爱心天线、身体一圈蓝灰细环线、白色圆脚；平静、动作少而慢。\n【道具】心形易拉罐：罐身鼓回圆形、两团粉色腮红、一双爱心眼，能滚动、能递花；不出现人手人脚。\n【场景与尺度】同 Part A 黄昏派对长桌旁；低机位贴地微距，两只蛋同高、各约占画面高 1/4；摄影机仍在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-708acc3e}}=四小只身高比例；{{node-ddf10668}}=黄蛋标准；{{node-1f791cc0}}=心易标准；{{node-061d1d1c}}=易拉罐道具；{{node-b1922b3e}}=双栏词卡版式。\n0–4 秒：{{node-e13c8a5b}}{{node-061d1d1c}}心形罐子滚到黄蛋脚边、蹭他的脚；黄蛋一寸寸后退。\n4–9 秒：{{node-1f791cc0}}{{node-061d1d1c}}{{node-b1922b3e}}心易举起双栏词卡（左栏压扁罐＋\"v. 压碎\"，右栏爱心＋\"n. 暗恋\"）；心易平静清晰地念：\"crush，压碎；crush，暗恋。\"\n9–13 秒：{{node-ddf10668}}黄蛋指着罐子：\"I crushed the can... and now the can has a crush on me?!\"；心易：\"Exactly. Crush.\"\n13–15 秒：{{node-061d1d1c}}罐子递上一朵被压扁的小花；黄蛋接也不是、不接也不是；镜尾定格 1.5 秒。\n【特效延续】暖色彩旗与长影延续；结尾不新增特效，定格干净。\n【声音】罐子滚动、纸花摩擦；4–9 秒心易念：\"crush，压碎；crush，暗恋。\"；9–13 秒黄蛋：\"I crushed the can... and now the can has a crush on me?!\"、心易：\"Exactly. Crush.\"；无 BGM。\n负向：人类、手指、文字浮层、字幕、水印、logo、比例失真、黄蛋变色、心易变黄、爱心天线变形、罐子长出手脚、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-708acc3e"
+              },
+              {
+                "node_id": "node-ddf10668"
+              },
+              {
+                "node_id": "node-061d1d1c"
+              },
+              {
+                "node_id": "node-1f791cc0"
+              },
+              {
+                "node_id": "node-b1922b3e"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-e13c8a5b"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-c2c1125f",
+        "type": "input-text",
+        "mainOutputId": "output-8c1849d6d1",
+        "meta": {
+          "x": 400.0,
+          "y": 800.0,
+          "width": 760.0,
+          "height": 600.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-8c1849d6d1",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔反转剧》EP02《crush＝压碎／暗恋》2×15 秒：黄蛋捧花赴约，一屁股坐扁易拉罐；被压扁的罐子鼓起来红着脸爱上他；Part B 心易揭双义。\n集型丙·反转剧：A 义先立住，B 义实物接管，落点句同时含两义。\n\n【运行顺序】\n1. 先跑 A01 易拉罐、A02 派对长桌空景、A03 心易（互不依赖，可同时）。\n2. 跑 K_A（Part A 首帧）和 KC（双栏词卡）。\n3. 跑 Part A（15s）。看完最后一帧：罐子是否鼓回、腮红和爱心眼是否清楚。\n4. ⚠️ T_A 当前是《一蛋一剑》旧占位板：截 Part A 最后一帧上传替换（节点 id 和 token 不变）。替换前不要派发 Part B。\n5. 跑 Part B（15s）。首帧就是 T_A，不要换别的图。\n6. 剪辑：硬切；定格后切黑幕白字卡（约 1.5s）：crush／压碎；暗恋。台标、钩子后期贴。\n\n【反转铁律】\n- A 义必须在前 3–9 秒真的发生（赴约、坐扁罐子），不能只靠台词。\n- B 义必须有实物证据（罐子鼓回、脸红、爱心眼），不是角色听错。\n- K_A 不剧透：罐子无脸、无腮红，只是桌角一个普通易拉罐。\n- 词卡、黑幕卡、台词三处释义一致；落点句\"I crushed the can...\"必须出现。",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T14:26:47.296+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T14:26:47.296+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-e6ed4c74",
+        "sourceNodeId": "node-708acc3e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-08376950",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-938d812c",
+        "sourceNodeId": "node-ddf10668",
+        "sourceHandle": "output",
+        "targetNodeId": "node-08376950",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-641fe37b",
+        "sourceNodeId": "node-061d1d1c",
+        "sourceHandle": "output",
+        "targetNodeId": "node-08376950",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-1fead1fd",
+        "sourceNodeId": "node-02484d64",
+        "sourceHandle": "output",
+        "targetNodeId": "node-08376950",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-149dd7cf",
+        "sourceNodeId": "node-a1785532",
+        "sourceHandle": "output",
+        "targetNodeId": "node-08376950",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-57a4987d",
+        "sourceNodeId": "node-708acc3e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-ad5d8fb1",
+        "sourceNodeId": "node-ddf10668",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-f08e7b9e",
+        "sourceNodeId": "node-061d1d1c",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-775420f5",
+        "sourceNodeId": "node-1f791cc0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-17c77c23",
+        "sourceNodeId": "node-b1922b3e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-1befba6c",
+        "sourceNodeId": "node-e13c8a5b",
+        "sourceHandle": "output",
+        "targetNodeId": "node-f97b09f3",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-3dd3e9c4",
+        "sourceNodeId": "node-708acc3e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-a1785532",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-cf1171f1",
+        "sourceNodeId": "node-ddf10668",
+        "sourceHandle": "output",
+        "targetNodeId": "node-a1785532",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-204b2031",
+        "sourceNodeId": "node-061d1d1c",
+        "sourceHandle": "output",
+        "targetNodeId": "node-a1785532",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-c0fb366b",
+        "sourceNodeId": "node-02484d64",
+        "sourceHandle": "output",
+        "targetNodeId": "node-a1785532",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-8d18033a",
+        "sourceNodeId": "node-061d1d1c",
+        "sourceHandle": "output",
+        "targetNodeId": "node-b1922b3e",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-63571010",
+        "nodeIds": [
+          "node-708acc3e",
+          "node-ddf10668"
+        ],
+        "bounds": {
+          "x": -30.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 603.5
+        },
+        "label": "00 参考素材 · 复用 URL",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-636d0780",
+        "nodeIds": [
+          "node-061d1d1c",
+          "node-02484d64",
+          "node-1f791cc0"
+        ],
+        "bounds": {
+          "x": 370.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 787.0
+        },
+        "label": "01 道具/场景/心易 · 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-b2de2bc1",
+        "nodeIds": [
+          "node-a1785532",
+          "node-b1922b3e"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 460.0
+        },
+        "label": "02 首帧/词卡 · K_A、KC 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-b34d45cb",
+        "nodeIds": [
+          "node-e13c8a5b"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": 440.0,
+          "width": 380.0,
+          "height": 240.0
+        },
+        "label": "03 尾帧 · Part A 跑完截帧替换",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#B08E6A"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-05ec1914",
+        "nodeIds": [
+          "node-08376950"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": -30.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "04 视频 Part A · 15s",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-cb9f52d6",
+        "nodeIds": [
+          "node-f97b09f3"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": 280.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "05 视频 Part B · 15s（T_A 替换后）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-f93b2ddd",
+        "nodeIds": [
+          "node-c2c1125f"
+        ],
+        "bounds": {
+          "x": 370.0,
+          "y": 770.0,
+          "width": 820.0,
+          "height": 660.0
+        },
+        "label": "06 制作说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-10-29T14:26:47.296+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T14:26:47.296+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

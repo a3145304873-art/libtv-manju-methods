@@ -1,0 +1,76 @@
+{
+  "schema": "cookline/recipe@2",
+  "series": "TODO",
+  "ep": "EP01",
+  "dish": "TODO",
+  "series_title": "TODO",
+  "format": {
+    "segments": 4,
+    "segment_seconds": 15,
+    "beats": 4,
+    "aspect": "16:9",
+    "grid_cells": 3,
+    "video_model": "seedance-2.0-mini",
+    "image_model": "gpt-image-2",
+    "reference_way": "reference"
+  },
+  "character": {
+    "name": "TODO",
+    "height_cm": 30,
+    "desc": "TODO：外形、材质、颜色，照参考图不增不减",
+    "hands": "两只短圆的、没有手指的手",
+    "speech": "不说话，只发一个很轻的音",
+    "refs": []
+  },
+  "companions": [],
+  "areas": [
+    {"key": "garden", "name": "取料处", "desc": "TODO", "layout": "站位：TODO", "props_here": []},
+    {"key": "table", "name": "处理台", "desc": "TODO", "layout": "站位：TODO", "props_here": []},
+    {"key": "stove", "name": "灶", "desc": "TODO", "layout": "站位：TODO", "props_here": []},
+    {"key": "nest", "name": "分食处", "desc": "TODO", "layout": "站位：TODO", "props_here": []}
+  ],
+  "props": [],
+  "segments": [
+    {
+      "key": "v1", "title": "取", "area": "garden", "range": "0–15s", "sound": "TODO：只有环境声",
+      "with": [], "carry": [],
+      "beats": [
+        {"t": "0–4", "kind": "action", "start": "起幅：TODO", "do": "TODO：看得见的动作", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "4–8", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "8–11", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "11–15", "kind": "breathe", "desc": "空镜：TODO，只有火/蒸汽/光/静物，没有动作"}
+      ]
+    },
+    {
+      "key": "v2", "title": "理", "area": "table", "range": "15–30s", "sound": "TODO：只有环境声",
+      "with": [], "carry": [],
+      "beats": [
+        {"t": "0–4", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "4–8", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "8–11", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "11–15", "kind": "breathe", "desc": "空镜：TODO"}
+      ]
+    },
+    {
+      "key": "v3", "title": "火", "area": "stove", "range": "30–45s", "sound": "TODO：只有环境声",
+      "with": [], "carry": [],
+      "beats": [
+        {"t": "0–4", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "4–8", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "8–11", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "11–15", "kind": "breathe", "desc": "空镜：TODO"}
+      ]
+    },
+    {
+      "key": "v4", "title": "揭与分", "area": "nest", "range": "45–60s", "sound": "TODO：只有环境声",
+      "with": [], "carry": [],
+      "beats": [
+        {"t": "0–4", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "4–8", "kind": "action", "start": "起幅：TODO", "do": "TODO", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "8–11", "kind": "action", "start": "起幅：TODO", "do": "TODO：留一半/分到碟里", "end": "落幅：TODO", "props": [], "hand": []},
+        {"t": "11–15", "kind": "breathe", "desc": "空镜：TODO"}
+      ]
+    }
+  ],
+  "post": {"subtitles": []}
+}

@@ -1,0 +1,2969 @@
+{
+  "id": "canvas-ea1f4018c4",
+  "name": "心易做菜 · EP01 等土豆熟 · 60s · 一坡四台 · 晨雾",
+  "description": "",
+  "coverUrl": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+  "ownerId": "mailgo.n31738",
+  "tags": [],
+  "createdAt": "2026-11-02T17:37:41.027000+08:00",
+  "createdBy": "mailgo.n31738",
+  "updatedAt": "2026-11-03T15:45:36.658000+08:00",
+  "updatedBy": "mailgo.n31738",
+  "revision": "358",
+  "restoreEpoch": 0,
+  "nodes": [
+    {
+      "id": "node-46d151c5",
+      "type": "input-image",
+      "mainOutputId": "output-caa640a531",
+      "meta": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 300.0,
+        "height": 450.0,
+        "label": "【保留】A0 心易·水豚标准（复用·已上传）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-caa640a531",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+          "cover": null,
+          "name": "心易-水豚-标准.png",
+          "resolution": {
+            "width": 400,
+            "height": 600
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:37:41.427000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-942e7b84",
+      "type": "input-image",
+      "mainOutputId": "output-535001e565",
+      "meta": {
+        "x": 0.0,
+        "y": 480.0,
+        "width": 300.0,
+        "height": 502.33,
+        "label": "【保留】A0F 心易脸部/眼睛参考（锁眼·已上传）",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-535001e565",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-065612-d1b27798ec4a1cfa-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e8-8.png",
+          "cover": null,
+          "name": "心易-水豚-脸部.png",
+          "resolution": {
+            "width": 430,
+            "height": 720
+          },
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:37:41.427000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-36664fba",
+      "type": "input-text",
+      "mainOutputId": "output-f12108790b",
+      "meta": {
+        "x": -15.0,
+        "y": 1065.0,
+        "width": 320.0,
+        "height": 760.0,
+        "label": "【说明·先读】S0 制作说明 · 先读",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-f12108790b",
+          "status": "done",
+          "error": null,
+          "value": "【本画布】《等一下》EP01《等土豆熟》60 秒＝4 段×15 秒：取 → 理 → 火 → 吃；一坡四台（菜园／溪／灶／汤池），晨雾逆光。\n参考：菇子柒／秃秃做饭系列——取→理→火→分、约 5 秒一拍、角色不说话、环境声打底、白字压主体。\n\n【跑序】01 场景（4 张，可同跑）→ 02 道具（4 件，并行）→ 03 四格（定稿）→ 04 K1–K4 → 05 V1 → 06 V2 → 07 V3 → 08 V4。\n\n【纪律】\n1. 先只跑 V1（取），看晨雾、逆光、拔秧和土豆滚下坡成不成立；不要一键全跑。\n2. 段与段是硬切（换台地），不用尾帧链；每段以自己那张 K 为开场参考。\n3. 四条视频都是全能参考（_reference_way=reference），不挂首/尾帧槽。\n4. 视频里无字、无气泡；白字竖排（菇子柒式）与咔啵全部后期。\n\n【角色】水豚心易：只发咔啵、不说话；头顶橘子是本体；短手无指，用木棍。眼睛是白片＋深棕圈、中心空白，不眨眼、不眯眼；情绪靠身体。\n【声音】咔啵后期配（约 8s「咔啵！」、约 42s「咔——啵」、约 57s「咔啵~」）；视频里不要台词、不要音乐。\n【字幕】后期白字竖排 7 条：一窝／洗洗／埋进去／等一下／好了／面／烫；尾卡「非教程 仅供娱乐」。\n\n【改法】改等菜卡 JSON 后重跑 build_from_slope.py，不手改 .monet。",
+          "cover": null,
+          "name": "S0 制作说明 · 先读",
+          "resolution": null,
+          "source": null,
+          "batchId": null,
+          "execution": null,
+          "graphRunId": null,
+          "iterationPath": null,
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": null,
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:37:41.427000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": null,
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-0bfe138c",
+      "type": "gen-image",
+      "mainOutputId": "output-2d8946ea13",
+      "meta": {
+        "x": 360.0,
+        "y": 0.0,
+        "width": 460.0,
+        "height": 287.0,
+        "label": "【已生成·保留】S1 场景 · 菜园台 · 晨雾 · 16:9 空景",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-2d8946ea13",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093907-675de0842974aad5-9183c024203fd02da501f4.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093907-675de0842974aad5-9183c024203fd02da501f4.png",
+          "name": "9183c024203fd02da501f4.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-5fd610c03075fa5112a7e327cefa56361206d70c9ddada381494a496b0ea02c6",
+          "execution": {
+            "groupId": "group-f4aba476",
+            "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "04c6852e-06e3-5ccb-bef5-3816cb85c602",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:38:17.885000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 场景设定空景，不出现任何角色、不出现手。坡顶的菜园台：一垄土豆，叶子带露水，土垄上裂开一道缝；旁边是往下的石阶；背景是晨雾里的树影和坡下的水汽。\n站位：土垄横在画面下方，她在垄前；石阶在画面右侧往下延伸。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。\n画面要唯美：浅景深、一层薄雾、光里有浮尘、石头与器物表面有湿润感；只有必须的东西，没有现代电器、不锈钢、塑料收纳盒、杂物堆。\n参考图：{{node-46d151c5}} 只用于确认她的身量比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-1539ea13",
+      "type": "gen-image",
+      "mainOutputId": "output-0807d82350",
+      "meta": {
+        "x": 360.0,
+        "y": 300.0,
+        "width": 460.0,
+        "height": 287.0,
+        "label": "【已生成·保留】S2 场景 · 溪水台 · 晨雾 · 16:9 空景",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-0807d82350",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093858-20248751822d6b18-b5aece49c3af0b232f95df.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093858-20248751822d6b18-b5aece49c3af0b232f95df.png",
+          "name": "b5aece49c3af0b232f95df.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-b9e3a85ca4de9cf8f5ee7a98aea2ce302e2b6e68f0c987e4083e6f8926e533ab",
+          "execution": {
+            "groupId": "group-f4aba476",
+            "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "53574b35-08db-5585-8103-e2ea7318b4c4",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:38:19.090000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 场景设定空景，不出现任何角色、不出现手。坡中间的溪水台：溪水从石槽里流过，水边是湿石与苔；一块粗石搁在水边；坡上能看见菜园的边。\n站位：石槽横贯画面下方，粗石在右侧；她蹲在石槽前。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。\n画面要唯美：浅景深、一层薄雾、光里有浮尘、石头与器物表面有湿润感；只有必须的东西，没有现代电器、不锈钢、塑料收纳盒、杂物堆。\n参考图：{{node-46d151c5}} 只用于确认她的身量比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-64592028",
+      "type": "gen-image",
+      "mainOutputId": "output-ae1b37e9da",
+      "meta": {
+        "x": 360.0,
+        "y": 600.0,
+        "width": 460.0,
+        "height": 287.0,
+        "label": "【已生成·保留】S3 场景 · 土灶台 · 晨雾 · 16:9 空景",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-ae1b37e9da",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093908-a0edc32ec94c631a-66d4261f7ade9e75fff269.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093908-a0edc32ec94c631a-66d4261f7ade9e75fff269.png",
+          "name": "66d4261f7ade9e75fff269.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-46c5d44cc6001cb74b60687c149d1f64b19ed9d30b670487892fb61b4a93212f",
+          "execution": {
+            "groupId": "group-f4aba476",
+            "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "ad01b82d-d6e4-5bcf-9e0b-fcd3e676d773",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:38:20.247000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 场景设定空景，不出现任何角色、不出现手。坡下的土灶台：石头砌的小土灶，灶口朝坡下，灶膛里有柴与红灰；灶顶坐着一口带盖的粗陶锅，锅里坐着水；灶边堆着干柴，柴堆能踩着爬上灶台；背景是坡上的树影与水汽。\n站位：土灶在画面左半，灶口朝右；灶口到她胸口，灶顶高过她头顶；柴堆在她右手边。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。\n画面要唯美：浅景深、一层薄雾、光里有浮尘、石头与器物表面有湿润感；只有必须的东西，没有现代电器、不锈钢、塑料收纳盒、杂物堆。\n参考图：{{node-46d151c5}} 只用于确认她的身量比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-64c36948",
+      "type": "gen-image",
+      "mainOutputId": "output-5bb23f0839",
+      "meta": {
+        "x": 360.0,
+        "y": 900.0,
+        "width": 460.0,
+        "height": 287.0,
+        "label": "【已生成·保留】S4 场景 · 汤池台 · 晨雾 · 16:9 空景",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-5bb23f0839",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093900-5bdcd511e5baadae-be9967bab7f5daad63fa94.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093900-5bdcd511e5baadae-be9967bab7f5daad63fa94.png",
+          "name": "be9967bab7f5daad63fa94.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-09b05fd1fbbbc8e354d02d7089af971e17a1a094bd08785bb9af2ca5e2a0a24c",
+          "execution": {
+            "groupId": "group-f4aba476",
+            "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-424a59d337cd4e42b5c10631b5d88f00",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "71babadf-56c1-5800-9800-f5ba67c5adbc",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:38:21.346000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 场景设定空景，不出现任何角色、不出现手。坡底的汤池台：石砌热水池，水面浮一片橘子，蒸汽往上；池沿湿，旁边一块干石板放着一只粗陶小碟（盐）；背景是雾与树影。\n站位：石池在画面右侧，池沿有一块干石台；她坐在池沿，脚泡在水里。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。\n画面要唯美：浅景深、一层薄雾、光里有浮尘、石头与器物表面有湿润感；只有必须的东西，没有现代电器、不锈钢、塑料收纳盒、杂物堆。\n参考图：{{node-46d151c5}} 只用于确认她的身量比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-a69ad559",
+      "type": "gen-image",
+      "mainOutputId": "output-b318941476",
+      "meta": {
+        "x": 900.0,
+        "y": 0.0,
+        "width": 380.0,
+        "height": 242.0,
+        "label": "【已生成·保留】P1 生土豆一窝 · 白底",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-b318941476",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095700-eeac2c242e62039f-b7a97c46859569d00f6aa4.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095700-eeac2c242e62039f-b7a97c46859569d00f6aa4.png",
+          "name": "b7a97c46859569d00f6aa4.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-6378e88be0f6b20e968231e1ca73f3a3af93025a195f7da7c45b7c358c5052d4",
+          "execution": {
+            "groupId": "group-428e4aa9",
+            "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "2caa7e87-53f1-5014-b6bd-b7c6ae6ccb63",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:56:31.088000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。三到四颗带泥的土豆，连着一小段土豆秧；最大的一颗约她身高的三分之二，皮哑光、有芽眼与磕痕。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-e6810ff1",
+      "type": "gen-image",
+      "mainOutputId": "output-5c3ee7547c",
+      "meta": {
+        "x": 900.0,
+        "y": 240.0,
+        "width": 380.0,
+        "height": 242.0,
+        "label": "【已生成·保留】P2 熟土豆掰开 · 白底",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-5c3ee7547c",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095703-dddc03be2ba589de-a9f094f4e57e4f9edd40f2.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095703-dddc03be2ba589de-a9f094f4e57e4f9edd40f2.png",
+          "name": "a9f094f4e57e4f9edd40f2.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-2a1516adee9391eb75cd08fc8f1975ffa0f664b09e00b65ca1dd407219c2facd",
+          "execution": {
+            "groupId": "group-428e4aa9",
+            "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "b42e600c-a78b-5c33-a9cb-3dbe4f34919c",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:56:34.476000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一颗烤熟的土豆掰成两半：皮焦皱，瓤雪白起沙、冒热气；半颗约她一臂长。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-e3aeb44e",
+      "type": "gen-image",
+      "mainOutputId": "output-7856fb37ee",
+      "meta": {
+        "x": 900.0,
+        "y": 480.0,
+        "width": 380.0,
+        "height": 242.0,
+        "label": "【已生成·保留】P3 小木棍 · 白底",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-7856fb37ee",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095657-01d2f75f6be73527-fd03dee54f69ae27cfeb1d.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095657-01d2f75f6be73527-fd03dee54f69ae27cfeb1d.png",
+          "name": "fd03dee54f69ae27cfeb1d.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-d7b2f7f543acfbe20e89686e00d3e245663cdb764274a189515ea2a6be065316",
+          "execution": {
+            "groupId": "group-428e4aa9",
+            "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "8d92f011-a868-5f8d-a8ed-e8d004cc03df",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:56:33.399000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一根约她身高三分之二长的木棍：杨木色、表面磨光、一头有炭黑、另一头有磨圆的握痕；不是树枝、不是筷子、不是金属。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-a6ccaa4e",
+      "type": "gen-image",
+      "mainOutputId": "output-83e6aea507",
+      "meta": {
+        "x": 900.0,
+        "y": 720.0,
+        "width": 380.0,
+        "height": 242.0,
+        "label": "【已生成·保留】P4 盐碟 · 白底",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-83e6aea507",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095707-ff2be9388a9ee7dd-e2704bb287053af06b4dd0.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095707-ff2be9388a9ee7dd-e2704bb287053af06b4dd0.png",
+          "name": "e2704bb287053af06b4dd0.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-9fe999a270ed3aee07518f71460cd0055e657ccef2798c7c9d1b794479a2fd0a",
+          "execution": {
+            "groupId": "group-428e4aa9",
+            "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-a7565dd1dac84c12800f45738157e1ed",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "263a93fc-b232-5289-8db1-03a33d86da54",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T17:56:32.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:04:33.450000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一只粗陶小碟，碟底一层粗盐；碟沿有一处小磕口，釉色米白偏黄。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实自然材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T20:46:34.867000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-1429a431",
+      "type": "gen-image",
+      "mainOutputId": "output-5284980217",
+      "meta": {
+        "x": 1352.0,
+        "y": -81.0,
+        "width": 520.0,
+        "height": 321.0,
+        "label": "【已生成·保留】G1 四格预演 · 取/理/火/吃",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-5284980217",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100619-9ef56cf1dacaaec0-1009c29a6dcd260adeae44.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100619-9ef56cf1dacaaec0-1009c29a6dcd260adeae44.png",
+          "name": "1009c29a6dcd260adeae44.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-0912f68c9f9bc8df7c72342566d92026926b09b9e2ec0d62dfa1413ed3ecd0b8",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-95e99ae527ee4867a980b8c9a4697747",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-95e99ae527ee4867a980b8c9a4697747",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "ef1c3e2e-66f1-5662-8f28-676ab720d64c",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:04:40.925000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:09:39.797000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "两列两行四宫格分镜预演图，细白分隔线，16:9 整体画幅；四格按左上→右上→左下→右下阅读：\n第 1 格：菜园台：近景俯拍石阶：一颗土豆从上面滚下来，顺着石阶一级一级往下滚，停在下一级台阶上。\n第 2 格：溪水台：近景：她的一只短手托着那颗湿土豆，水珠从绒毛和土豆上滴下来；画面只到她的手臂和土豆，不入全身。\n第 3 格：土灶台：她抱着土豆踩着灶边的柴堆爬上灶台，掀开锅盖，把土豆放进锅里（锅里坐着水），再盖上盖。\n第 4 格：汤池台：蘸一点那只已经在那里的盐碟里的盐，咬一口，慢慢嚼；眼睛睁着，表情不变。\n四格同一角色、同一晨雾与暖白逆光；同一毛色、同一颗橘子；不出现人类，格内不写任何文字或编号。\n参考图：{{node-46d151c5}}=角色外观；{{node-942e7b84}}=眼睛；{{node-0bfe138c}}=菜园台；{{node-1539ea13}}=溪水台；{{node-64592028}}=土灶台；{{node-64c36948}}=汤池台。\n心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            },
+            {
+              "node_id": "node-0bfe138c"
+            },
+            {
+              "node_id": "node-1539ea13"
+            },
+            {
+              "node_id": "node-64592028"
+            },
+            {
+              "node_id": "node-64c36948"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:30.156000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-32fc57aa",
+      "type": "gen-image",
+      "mainOutputId": "output-9cceb68393",
+      "meta": {
+        "x": 1413.0,
+        "y": 305.0,
+        "width": 440.0,
+        "height": 276.0,
+        "label": "【已生成·保留】K1 V1 开场 · 取",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-9cceb68393",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100813-e584acee1081cac4-ae0b2ef183689e92d52cc8.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100813-e584acee1081cac4-ae0b2ef183689e92d52cc8.png",
+          "name": "ae0b2ef183689e92d52cc8.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-029936d33ab30b8a8573b7b0adb82781677bc04ad9f078df30e6805e9aafc526",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-2412f77234184738a525294968a95eda",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-2412f77234184738a525294968a95eda",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "630447d6-7642-5869-b4dd-4873c0cf0dc5",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:06:56.417000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:09:39.797000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感开场画面，只生成一张。第 0 秒：镜头在她背后：她两只短手抱住秧根、往后一坐，拔起整株；土里滚出三四颗土豆。\n场景：坡顶的菜园台：一垄土豆，叶子带露水，土垄上裂开一道缝；旁边是往下的石阶；背景是晨雾里的树影和坡下的水汽。\n站位：土垄横在画面下方，她在垄前；石阶在画面右侧往下延伸。心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n构图：低机位、浅景深、晨雾逆光；她约占画面高四分之一（中景可到三分之一）；画面里只有她。\n参考图：{{node-46d151c5}}=角色外观；{{node-942e7b84}}=眼睛；{{node-0bfe138c}}=场景与光；{{node-1429a431}}=四格预演第 1 格（只取构图，不出现分格线）；{{node-a69ad559}}=P1 生土豆一窝。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            },
+            {
+              "node_id": "node-0bfe138c"
+            },
+            {
+              "node_id": "node-1429a431"
+            },
+            {
+              "node_id": "node-a69ad559"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:58:22.607000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-eca60909",
+      "type": "gen-image",
+      "mainOutputId": "output-ab0d406310",
+      "meta": {
+        "x": 1400.0,
+        "y": 640.0,
+        "width": 440.0,
+        "height": 276.0,
+        "label": "【已生成·保留】K2 V2 开场 · 理",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-ab0d406310",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101215-a6660b582a8991ac-4dcf78c67d8fec5487322d.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101215-a6660b582a8991ac-4dcf78c67d8fec5487322d.png",
+          "name": "4dcf78c67d8fec5487322d.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-8712ea07b143ca8024cc04bef31f5b5cc02aa0138c07ee7fde812ba495dbd595",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-710b6f6cb46b4f1db9ff7a636f3ed708",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-710b6f6cb46b4f1db9ff7a636f3ed708",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "004e9889-367a-5292-ad0a-d893a76113fa",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:09:44.061000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:13:44.716000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感开场画面，只生成一张。第 0 秒：她蹲在溪水边，两只短手按住土豆在石洼里搓泥；水变浑。\n场景：坡中间的溪水台：溪水从石槽里流过，水边是湿石与苔；一块粗石搁在水边；坡上能看见菜园的边。\n站位：石槽横贯画面下方，粗石在右侧；她蹲在石槽前。心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n构图：低机位、浅景深、晨雾逆光；她约占画面高四分之一（中景可到三分之一）；画面里只有她。\n参考图：{{node-46d151c5}}=角色外观；{{node-942e7b84}}=眼睛；{{node-1539ea13}}=场景与光；{{node-1429a431}}=四格预演第 2 格（只取构图，不出现分格线）；{{node-a69ad559}}=P1 生土豆一窝。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            },
+            {
+              "node_id": "node-1539ea13"
+            },
+            {
+              "node_id": "node-1429a431"
+            },
+            {
+              "node_id": "node-a69ad559"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T11:08:06.322000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-7f26bcb8",
+      "type": "gen-image",
+      "mainOutputId": "output-558cce886c",
+      "meta": {
+        "x": 1412.0,
+        "y": 928.0,
+        "width": 440.0,
+        "height": 276.0,
+        "label": "【已生成·保留】K3 V3 开场 · 火",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-558cce886c",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101259-006659a04cb516cb-1cb13fb5ea5244b2e84547.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101259-006659a04cb516cb-1cb13fb5ea5244b2e84547.png",
+          "name": "1cb13fb5ea5244b2e84547.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-e81c2854f6a9028acd9e3419646f0a0c8fc65d78ea6c66d355cbc4504ee6a231",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-0b3e980e0f5e4b32a7041fa0a32cecbc",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-0b3e980e0f5e4b32a7041fa0a32cecbc",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "1c286e8c-a3dc-5632-a803-46b6d2e9d245",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:09:45.971000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:14:44.714000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感开场画面，只生成一张。第 0 秒：灶膛里的火已经着着；她蹲下添一把干柴，低头吹一下，火稳住。\n场景：坡下的土灶台：石头砌的小土灶，灶口朝坡下，灶膛里有柴与红灰；灶顶坐着一口带盖的粗陶锅，锅里坐着水；灶边堆着干柴，柴堆能踩着爬上灶台；背景是坡上的树影与水汽。\n站位：土灶在画面左半，灶口朝右；灶口到她胸口，灶顶高过她头顶；柴堆在她右手边。心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n构图：低机位、浅景深、晨雾逆光；她约占画面高四分之一（中景可到三分之一）；画面里只有她。\n参考图：{{node-46d151c5}}=角色外观；{{node-942e7b84}}=眼睛；{{node-64592028}}=场景与光；{{node-1429a431}}=四格预演第 3 格（只取构图，不出现分格线）；{{node-a69ad559}}=P1 生土豆一窝；{{node-e3aeb44e}}=P3 小木棍。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            },
+            {
+              "node_id": "node-64592028"
+            },
+            {
+              "node_id": "node-1429a431"
+            },
+            {
+              "node_id": "node-a69ad559"
+            },
+            {
+              "node_id": "node-e3aeb44e"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:27:28.087000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-442ed952",
+      "type": "gen-image",
+      "mainOutputId": "output-3ee67cba70",
+      "meta": {
+        "x": 1394.0,
+        "y": 1238.0,
+        "width": 440.0,
+        "height": 276.0,
+        "label": "【已生成·保留】K4 V4 开场 · 吃",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-3ee67cba70",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101227-3402c9dc9585417d-4216ecc1c5def26e3d6464.png",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101227-3402c9dc9585417d-4216ecc1c5def26e3d6464.png",
+          "name": "4216ecc1c5def26e3d6464.png",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-baf695a5a686c7d98d9ca9da98d7e2cd698c15b36dda01923ec527559a42beee",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-c0890ccedcfd4442a546055ea423408d",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-c0890ccedcfd4442a546055ea423408d",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "753b01c5-29f4-519e-a42a-f8e1ed4961d4",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:09:56.720000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:13:44.716000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "gpt-image-2",
+        "model_params": {
+          "prompt": "16:9 横屏电影感开场画面，只生成一张。第 0 秒：汤池边，她坐在池沿的石板上；她先把身边的小盐碟（白盐）用两只短手挪到面前，碟子从画面左侧进入并留在画面里；再捧着刚从锅里捞出来的热土豆（浅黄、白汽，不焦不黑）掰开。\n场景：坡底的汤池台：石砌热水池，水面浮一片橘子，蒸汽往上；池沿湿，旁边一块干石板放着一只粗陶小碟（盐）；背景是雾与树影。\n站位：石池在画面右侧，池沿有一块干石台；她坐在池沿，脚泡在水里。心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n构图：低机位、浅景深、晨雾逆光；她约占画面高四分之一（中景可到三分之一）；画面里只有她。\n参考图：{{node-46d151c5}}=角色外观；{{node-942e7b84}}=眼睛；{{node-64c36948}}=场景与光；{{node-1429a431}}=四格预演第 4 格（只取构图，不出现分格线）；{{node-e6810ff1}}=P2 熟土豆掰开；{{node-a6ccaa4e}}=P4 盐碟。\n无文字、无 logo、无水印。\n负向：人类、人手、手指、指甲、蛋壳、猫耳、天线、第二角色、文字、字幕、logo、水印、边框、心易的黑瞳、心易的瞳孔、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、削皮器、刀、金属削皮器、橘子掉落、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、比例失真。",
+          "reference_images": [
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            },
+            {
+              "node_id": "node-64c36948"
+            },
+            {
+              "node_id": "node-1429a431"
+            },
+            {
+              "node_id": "node-e6810ff1"
+            },
+            {
+              "node_id": "node-a6ccaa4e"
+            }
+          ],
+          "aspect_ratio": "16:9",
+          "image_size": "1K",
+          "width": 1024,
+          "height": 576,
+          "quality": "medium",
+          "output_format": "png",
+          "moderation": "low",
+          "auto_compress": true
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:41:20.008000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-dcff6eb6",
+      "type": "gen-video",
+      "mainOutputId": "output-2620133688",
+      "meta": {
+        "x": 1965.0,
+        "y": -50.0,
+        "width": 460.0,
+        "height": 293.0,
+        "label": "【已通过】V1 取",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-c585231be5",
+          "status": "failed",
+          "error": "用户已取消",
+          "value": "",
+          "cover": null,
+          "name": "",
+          "resolution": null,
+          "source": "ai",
+          "batchId": "nexec-graph-c16ea1c73a43e75674edf2bc2601e5bccb0cf12404661df7d2d02c2caa667d64",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-e109dab9f6a44d0faedd5569ad9836eb",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-e109dab9f6a44d0faedd5569ad9836eb",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "c6a25053-72d2-5d3b-89d1-d74746542e28",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:08:34.242000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:09:06.557000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": null
+        },
+        {
+          "id": "output-bf8ab51b2d",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-101336-39cbde03c446c5a1-02179361417509200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101338-7accc03b0313a199-02179361417509200000000000000000000ffffa.png",
+          "name": "02179361417509200000000000000000000ffffac1742e8fd2e10.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-663a4fc22a8d9a0223bb601927f778e8254ade31ab5f308964cd98520f64c4a8",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-80c3697657fc4565bec81bd1440545e5",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-80c3697657fc4565bec81bd1440545e5",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "78f843a6-4a0d-58ae-801b-974423778470",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:09:31.802000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:14:44.714000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102180933-452rb",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-1823a85f6c",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125814-051262eb200508ef-02179362405161200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-125815-ad8e0836b9f5916f-02179362405161200000000000000000000ffffa.png",
+          "name": "02179362405161200000000000000000000ffffac15dcc45d1623.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-34652d33375427eefd461c086f007f692dda3021e5b5f3a8ddf16b5dc7a5824c",
+          "execution": {
+            "groupId": "SYiyHTdTuy04QkfOH803v",
+            "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "57d8bb4d-c7e0-52d8-8224-c5d6c70b1e14",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T20:54:07.774000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T20:59:44.442000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102205410-njgpn",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-e129780888",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-131129-f32c35bbbdc78710-02179362484844600000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-131130-f50e444d05bedfa8-02179362484844600000000000000000000ffffa.png",
+          "name": "02179362484844600000000000000000000ffffac1446bb617b18.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-c4b013c45817ef3295c9c276e9a28f7361dc1162008aa7ec4fcc6271a8a08add",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-520abdc4767f4fa3b07436e51417f280",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-520abdc4767f4fa3b07436e51417f280",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "928b3ba4-b6cb-5d17-ac13-dd0621f3f931",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T21:07:23.533000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T21:12:44.415000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102210726-bm8rl",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-844015b703",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-025206-c223c97d0e69bcd2-02179367414481200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-025208-078fc1d2283024a4-02179367414481200000000000000000000ffffa.png",
+          "name": "02179367414481200000000000000000000ffffac175b69420898.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-d89b02b443a0a6fbb5780466d0210a3a64abf928ce4f22e06aaba0c560a51cf3",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-eaa7ad9b5cb34a5581b9bb1f26792536",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-eaa7ad9b5cb34a5581b9bb1f26792536",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "7b1db9fa-cf20-5f86-a33a-8e8b108a83b9",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T10:49:00.987000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T10:52:08.384000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103104903-5qzfg",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-164a56723f",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061017-c4e3883d7181739a-02179368597638600000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-061018-6d9b0ccd867435ea-02179368597638600000000000000000000ffffa.png",
+          "name": "02179368597638600000000000000000000ffffac1802a3e13834.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-7f22a75153d7e9f1e559512065524527d10cb8fee93d68026b295e7085cc009c",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-35a85ec1cdb54fdbbc868787824afd69",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-35a85ec1cdb54fdbbc868787824afd69",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "b7c246ce-cd39-507a-a83e-8976dce79d01",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:06:10.927000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:10:19.420000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103140614-8gt7v",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-62c22b4c2e",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061659-8dde5099d8162aea-02179368637842100000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-061701-02849b3a0990afe5-02179368637842100000000000000000000ffffa.png",
+          "name": "02179368637842100000000000000000000ffffac14431e57e520.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-aa5632f00a4298135f7d158727dc717875c39389fa1ccbca1f9c5eab6b232957",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-15dbf1ab69c645269ee42536ad530afb",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-15dbf1ab69c645269ee42536ad530afb",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "664c99a8-e272-59c4-b588-c960ab88f0df",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:12:54.207000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:17:01.455000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103141256-47chq",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-2620133688",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-070253-a6425a5f518d7fbf-02179368913129400000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-070313-57481dc641767cd5-02179368913129400000000000000000000ffffa.png",
+          "name": "02179368913129400000000000000000000ffffac1413ec235c4e.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-679f36071fd9b22634c2c2b78f4055884b55dba4eb28e633334d76dacd8d12d4",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-97dcbb63c8574277a3c7e939f56c581a",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-97dcbb63c8574277a3c7e939f56c581a",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "3b05477a-19e0-54f4-ab31-ce31f3ab355e",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:58:47.176000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:03:18.991000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103145849-84fcm",
+            "upstreamTaskIdType": "draft"
+          }
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【全能参考】参考图依次是：{{node-32fc57aa}}＝本段开场构图（菜园台，低机位、晨雾逆光、她的位置与道具状态）；{{node-46d151c5}}＝心易外观；{{node-942e7b84}}＝眼睛。\n【任务】以 {{node-32fc57aa}} 的机位、构图、光线与开场状态为准；第 0 秒尽量与参考一致，不要重新构图、不要换机位。\n【角色】心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n【场景与尺度】坡顶的菜园台：一垄土豆，叶子带露水，土垄上裂开一道缝；旁边是往下的石阶；背景是晨雾里的树影和坡下的水汽。\n站位：土垄横在画面下方，她在垄前；石阶在画面右侧往下延伸。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n【光与材质】光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–4 秒：镜头在她背后：她两只短手抱住秧根、往后一坐，拔起整株；土里滚出三四颗土豆。\n4–9 秒：近景俯拍石阶：一颗土豆从上面滚下来，顺着石阶一级一级往下滚，停在下一级台阶上。\n9–15 秒：她走下石阶，把停在台阶上的那颗土豆捡起来，捧在手里。\n【镜头】本段 15 秒 3 个镜头，秒数按【时间拍】，不平均分；切点落在动作完成后，不切在动作中间；低机位、浅景深、逆光。\n【声音】晨鸟、风过叶；拔秧的土声、土豆滚落石阶；没有音乐、没有说话。\n【字幕】本段不生成任何字幕；画面里不出现文字、竖排白字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、心易的瞳孔、心易的黑瞳、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、心易的眼睛大特写、削皮器、刀、金属削皮器、勺子、木勺、锅铲、勺头、土豆滚落、土豆掉地上、闭眼微笑、满足地闭眼、笑眯眼、多余手臂、第三只手、第四只手、多双手、多余的手、额外的手、手臂数量错误、四条手臂、四只手、腰侧的手、侧面的手、六条腿、锅盖盖着、锅盖合上、锅盖突然盖上、土豆凭空出现、土豆从空中出现、盐碟凭空出现、盐凭空出现、碟子突然出现、多颗土豆、三颗土豆、一堆土豆、土豆数量变化、火塘、石圈、平地上的火堆、锅放在地上、灶台消失、灶台变形、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-32fc57aa"
+            },
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": null,
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 15,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:30.156000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-55eb8144",
+      "type": "gen-video",
+      "mainOutputId": "output-38843e138e",
+      "meta": {
+        "x": 1954.0,
+        "y": 305.0,
+        "width": 460.0,
+        "height": 293.0,
+        "label": "【已通过】V2 理",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-4ce2720e57",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-102017-dec9b0502348105c-02179361457618000000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-102018-c95a5dba1900a81a-02179361457618000000000000000000000ffffa.png",
+          "name": "02179361457618000000000000000000000ffffac1906315da833.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-7e63cad280aa3879364348b23a9ede66f59ee0349d12d64b5bdb125a47022dbd",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-1beb08fa64ec4868b55bb1ee19daebfd",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-1beb08fa64ec4868b55bb1ee19daebfd",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "11de8424-df00-54ba-8137-bb584624fcba",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:16:12.156000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:20:21.307000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102181614-5qlrk",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-de9edaf75c",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125811-2b353ff632451920-02179362404783200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-125813-3c2f44ad437de965-02179362404783200000000000000000000ffffa.png",
+          "name": "02179362404783200000000000000000000ffffac151608748066.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-abc1cfc024f66ec8e7499628352dec53096d83a65fa16d940ba8e6a9cdd8e434",
+          "execution": {
+            "groupId": "SYiyHTdTuy04QkfOH803v",
+            "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "68c1251e-6b95-54b1-8605-8a093a67e9dc",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T20:54:04.165000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T20:59:44.442000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102205406-6vrcr",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-755c4d5f8f",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-031608-bbcb17fa42e31f4d-02179367558841700000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-031610-26fa20c894b5fbd7-02179367558841700000000000000000000ffffa.png",
+          "name": "02179367558841700000000000000000000ffffac141a61204764.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-e3b6c081bd9e223e28e5e7a52dff743094e713b4e0da708e351a84b3272511ff",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-8e5859349d6f48459c752fb0c02844ee",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-8e5859349d6f48459c752fb0c02844ee",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "716a7773-4a15-5751-9b5b-0940ae29b8c9",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:13:04.049000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:17:43.699000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103111306-289b2",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-1616b24203",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-033628-f3cd73bdf6ecac20-02179367674771200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-033630-d012efaa405c99e0-02179367674771200000000000000000000ffffa.png",
+          "name": "02179367674771200000000000000000000ffffac191a382977f5.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-93e8d75919a0dc91330504b4871a9619522ef35a54c5dfdeaa1f371729b5a33c",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-7853b7eb2ec543a5b1fbf508a7823b90",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-7853b7eb2ec543a5b1fbf508a7823b90",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "724ea818-d466-5e32-94b0-d94e837e52a5",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:32:23.685000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:36:30.613000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103113226-u2ww0",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-934721bf8f",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061032-20ad3dcfbebb8845-02179368599095400000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-061034-ae5a9964d1d0d64e-02179368599095400000000000000000000ffffa.png",
+          "name": "02179368599095400000000000000000000ffffac15dcc4630dcf.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-c02ff1a154be1681f9152f32f03f17d2e49ce9272b75bb6f39f83f35e992e3c9",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-c1f9ef8601c44aa2882a7a86ff6b9d29",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-c1f9ef8601c44aa2882a7a86ff6b9d29",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "2f577736-8308-510c-85a8-37e07dc34b7d",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:06:26.202000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:10:34.497000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103140629-ulkfy",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-38843e138e",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-063532-6080401fa71c4c58-02179368749187600000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-063534-a66e8b354c45b4e5-02179368749187600000000000000000000ffffa.png",
+          "name": "02179368749187600000000000000000000ffffac174213e4c138.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-9e8910d1c988fb90784628aecdb9397c8cb7264bba082c3484b1f973ff8507e9",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-2180643c9f944fb8a2a74c5788414c3e",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-2180643c9f944fb8a2a74c5788414c3e",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "e414968a-a975-5e91-9ec4-b59b3c43bf16",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T14:31:27.837000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T14:35:35.439000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103143130-2m48j",
+            "upstreamTaskIdType": "draft"
+          }
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【全能参考】参考图依次是：{{node-eca60909}}＝本段开场构图（溪水台，低机位、晨雾逆光、她的位置与道具状态）；{{node-46d151c5}}＝心易外观；{{node-942e7b84}}＝眼睛。\n【任务】以 {{node-eca60909}} 的机位、构图、光线与开场状态为准；第 0 秒尽量与参考一致，不要重新构图、不要换机位。\n【角色】心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n【场景与尺度】坡中间的溪水台：溪水从石槽里流过，水边是湿石与苔；一块粗石搁在水边；坡上能看见菜园的边。\n站位：石槽横贯画面下方，粗石在右侧；她蹲在石槽前。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n【光与材质】光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–7 秒：她蹲在溪水边，两只短手按住土豆在石洼里搓泥；水变浑。\n7–11 秒：近景：她的一只短手托着那颗湿土豆，水珠从绒毛和土豆上滴下来；画面只到她的手臂和土豆，不入全身。\n11–15 秒：近景：她把那颗土豆从水里捧起来，举到胸前，水珠滴下；画面只到她的手和土豆，不拍全身，也不拍走路。\n【镜头】本段 15 秒 3 个镜头，秒数按【时间拍】，不平均分；切点落在动作完成后，不切在动作中间；低机位、浅景深、逆光。\n【声音】溪水、搓泥、水花；没有音乐、没有说话。\n【字幕】本段不生成任何字幕；画面里不出现文字、竖排白字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、心易的瞳孔、心易的黑瞳、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、心易的眼睛大特写、削皮器、刀、金属削皮器、勺子、木勺、锅铲、勺头、土豆滚落、土豆掉地上、闭眼微笑、满足地闭眼、笑眯眼、多余手臂、第三只手、第四只手、多双手、多余的手、额外的手、手臂数量错误、四条手臂、四只手、腰侧的手、侧面的手、六条腿、锅盖盖着、锅盖合上、锅盖突然盖上、土豆凭空出现、土豆从空中出现、盐碟凭空出现、盐凭空出现、碟子突然出现、多颗土豆、三颗土豆、一堆土豆、土豆数量变化、火塘、石圈、平地上的火堆、锅放在地上、灶台消失、灶台变形、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-eca60909"
+            },
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": null,
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 15,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:30.156000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-7035d72e",
+      "type": "gen-video",
+      "mainOutputId": "output-02c063d6c2",
+      "meta": {
+        "x": 1962.0,
+        "y": 646.0,
+        "width": 460.0,
+        "height": 293.0,
+        "label": "【已通过】V3 火",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-218e991ad1",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-101921-647b75b4c59908fa-02179361458143700000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101923-7910c86c5cdb1c54-02179361458143700000000000000000000ffffa.png",
+          "name": "02179361458143700000000000000000000ffffac175b6f87e35d.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-91d2fee1b12179a8e06e0424a2ba0e60292c0eaf46e074b598984a3c4969ef6e",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-88d8607a60c84cb8be854b11d3770363",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-88d8607a60c84cb8be854b11d3770363",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "cb9b608f-8287-5ca4-8808-90733f0cf47c",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:16:16.525000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:19:44.569000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102181618-zjdvc",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-7843de8045",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125913-cbce7dc64c23e840-02179362405019100000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-125915-447f94132b9185ad-02179362405019100000000000000000000ffffa.png",
+          "name": "02179362405019100000000000000000000ffffac18056ac224cf.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-60908580643be4ac69f7919a29a2997405293402dd4261e5abc19e1b839883c7",
+          "execution": {
+            "groupId": "SYiyHTdTuy04QkfOH803v",
+            "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "033a18e0-dc05-5636-a0cb-24e26d259d8f",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T20:54:06.600000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T21:00:44.447000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102205409-7h9hg",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-35c8dc02ab",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-025215-36960c196651f5b0-02179367415280400000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-025216-288f77f6db453eb7-02179367415280400000000000000000000ffffa.png",
+          "name": "02179367415280400000000000000000000ffffac1446bb479e47.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-a7b4a773b811f6a8a82bcd9ddffde9fd66fdcd4842c75284e6af79c295c72707",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-47dd6cf23b554d8187068b2d6c2134b3",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-47dd6cf23b554d8187068b2d6c2134b3",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "011c74a1-0604-50e1-9f27-cf2432b4e248",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T10:49:08.904000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T10:52:53.300000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103104911-rqx6d",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-823baf2c9a",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-031718-8e60acea3acb8cb7-02179367559651800000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-031720-2e4dcb6cc801fab7-02179367559651800000000000000000000ffffa.png",
+          "name": "02179367559651800000000000000000000ffffac1926ad9f2d80.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-ee990b15535c535d567ca5862bfc43ea38b68d86cef5635ee336d94c6cf079a0",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-e598165d50da46dab5aeb5e413303bf2",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-e598165d50da46dab5aeb5e413303bf2",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "3397145f-5c95-51d8-926e-f3187ce4636f",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:13:12.770000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:17:20.709000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103111315-rh2gb",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-02c063d6c2",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-034013-0e545a40597929ce-02179367697123800000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-034014-584665b65d165e43-02179367697123800000000000000000000ffffa.png",
+          "name": "02179367697123800000000000000000000ffffac15a45e47f06f.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-1ba2c61012a739f241faee3675e6e8f9125adb58207e22a0b138c09b5b97c02e",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-f892a5a99149471bb97c0f1c56538ba2",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-f892a5a99149471bb97c0f1c56538ba2",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "3cdba06f-7a66-561f-87dc-e601a34241fd",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T11:36:05.170000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T11:40:15.350000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103113607-w6ft9",
+            "upstreamTaskIdType": "draft"
+          }
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【全能参考】参考图依次是：{{node-7f26bcb8}}＝本段开场构图（土灶台，低机位、晨雾逆光、她的位置与道具状态）；{{node-46d151c5}}＝心易外观；{{node-942e7b84}}＝眼睛。\n【任务】以 {{node-7f26bcb8}} 的机位、构图、光线与开场状态为准；第 0 秒尽量与参考一致，不要重新构图、不要换机位。\n【角色】心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n【场景与尺度】坡下的土灶台：石头砌的小土灶，灶口朝坡下，灶膛里有柴与红灰；灶顶坐着一口带盖的粗陶锅，锅里坐着水；灶边堆着干柴，柴堆能踩着爬上灶台；背景是坡上的树影与水汽。\n站位：土灶在画面左半，灶口朝右；灶口到她胸口，灶顶高过她头顶；柴堆在她右手边。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n【光与材质】光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–4 秒：灶膛里的火已经着着；她蹲下添一把干柴，低头吹一下，火稳住。\n4–9 秒：她抱着土豆踩着灶边的柴堆爬上灶台，掀开锅盖，把土豆放进锅里（锅里坐着水），再盖上盖。\n9–15 秒：锅盖被汽顶得轻响；她掀开锅盖、把盖子放到灶台上，锅一直敞着，白汽冲出来，锅里能看见土豆；她用那根细长的直木棍（不是旁边的木勺）从锅里戳起一颗土豆，举到胸前，土豆不落地。镜头保持中景：能看见石头灶身和灶口的火，陶锅坐在高灶台上，不是地上的火塘。\n【镜头】本段 15 秒 3 个镜头，秒数按【时间拍】，不平均分；切点落在动作完成后，不切在动作中间；低机位、浅景深、逆光。\n【声音】柴火、吹火、锅盖轻响、水汽；没有音乐、没有说话。\n【字幕】本段不生成任何字幕；画面里不出现文字、竖排白字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、心易的瞳孔、心易的黑瞳、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、心易的眼睛大特写、削皮器、刀、金属削皮器、勺子、木勺、锅铲、勺头、土豆滚落、土豆掉地上、闭眼微笑、满足地闭眼、笑眯眼、多余手臂、第三只手、第四只手、多双手、多余的手、额外的手、手臂数量错误、四条手臂、四只手、腰侧的手、侧面的手、六条腿、锅盖盖着、锅盖合上、锅盖突然盖上、土豆凭空出现、土豆从空中出现、盐碟凭空出现、盐凭空出现、碟子突然出现、多颗土豆、三颗土豆、一堆土豆、土豆数量变化、火塘、石圈、平地上的火堆、锅放在地上、灶台消失、灶台变形、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-7f26bcb8"
+            },
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": null,
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 15,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:34:30.156000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "node-5aa6fd5b",
+      "type": "gen-video",
+      "mainOutputId": "output-848579effa",
+      "meta": {
+        "x": 1974.0,
+        "y": 1021.0,
+        "width": 460.0,
+        "height": 287.0,
+        "label": "【已通过】V4 吃",
+        "resourceType": null
+      },
+      "outputs": [
+        {
+          "id": "output-e3fc2bbd84",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-102025-ee8b89b6c0587862-02179361458571200000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-102027-b7cbe2dc8975974e-02179361458571200000000000000000000ffffa.png",
+          "name": "02179361458571200000000000000000000ffffac1446b21ef976.mp4",
+          "resolution": {
+            "width": 864,
+            "height": 496
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-424ee340be5cef06dbed37d4411a27f0c80774e60b0fb18e38c9f623116269f9",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-39403a11d259412e999ad75a28f02d2a",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-39403a11d259412e999ad75a28f02d2a",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "e666d373-5a76-5ce3-a472-5e41fc6b8cf5",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T18:16:21.097000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T18:20:33.374000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102181623-s4lg2",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-45dd87819d",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125812-b35e79ded7d0334d-02179362404973500000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-125813-fd363242ad5abb15-02179362404973500000000000000000000ffffa.png",
+          "name": "02179362404973500000000000000000000ffffac191a387e21f8.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-48465966fb687cdbf6c1f1d6f67bd009d5d17374a4a9236e386798395d9783e3",
+          "execution": {
+            "groupId": "SYiyHTdTuy04QkfOH803v",
+            "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-f54659befe2e4ec5adfcc326b0a7d5b8",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "29838adb-0d6b-5685-835a-05042abb1a5e",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-02T20:54:05.322000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-02T20:59:44.442000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261102205407-q7fak",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-87c9963e93",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-071015-883b69f9fc0e9737-02179368958109400000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-071016-95b0670131393898-02179368958109400000000000000000000ffffa.png",
+          "name": "02179368958109400000000000000000000ffffac182c4f43818f.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-0fba5bf21793bd324e970fb2d7ac22b23713bdf5808a0f97d849425481a24b5d",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-7487a979493c4087a00bb05ae29ee4f3",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-7487a979493c4087a00bb05ae29ee4f3",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "2aa383f7-af1b-5ed6-9058-46efb3a77467",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:06:07.739000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:10:17.253000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103150610-mlq6x",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-bf3d0e5b62",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-073941-ff727d8c71502a7d-02179369128499000000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-073942-30cd516da0f226a8-02179369128499000000000000000000000ffffa.png",
+          "name": "02179369128499000000000000000000000ffffac190631290a4d.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-00d3e4bf69c05490a78c95148291be9cfdea6260486fb4fc5727d047b9dfd542",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-be6ac522365f4044b4a23d57c4021ec1",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-be6ac522365f4044b4a23d57c4021ec1",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "c8ddefba-e33f-5a42-bfd8-ffb17c1aa5c1",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:34:34.664000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:39:43.184000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103153436-ftnr6",
+            "upstreamTaskIdType": "draft"
+          }
+        },
+        {
+          "id": "output-848579effa",
+          "status": "done",
+          "error": null,
+          "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-074534-b7ece4ba3ecdbaa6-02179369169139800000000000000000000ffffa.mp4",
+          "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261103-074536-6d5b6dc29d4d3d3e-02179369169139800000000000000000000ffffa.png",
+          "name": "02179369169139800000000000000000000ffffac193b2b372ff3.mp4",
+          "resolution": {
+            "width": 1280,
+            "height": 720
+          },
+          "source": "ai",
+          "batchId": "nexec-graph-9385f63b828da6113ec20611a48a8edffc4e6b04d1741331bf7ca5473fc0d357",
+          "execution": {
+            "groupId": null,
+            "graphRunId": "graph-5c2eddb03cf04b5c96c78e2280a49617",
+            "iterationPath": "/"
+          },
+          "graphRunId": "graph-5c2eddb03cf04b5c96c78e2280a49617",
+          "iterationPath": "/",
+          "taskSource": null,
+          "taskId": null,
+          "executorRunId": "ce0d9245-eace-55dd-9393-1d364302cf32",
+          "stage": null,
+          "deletedAt": null,
+          "createdAt": "2026-11-03T15:41:24.903000+08:00",
+          "createdBy": "mailgo.n31738",
+          "updatedAt": "2026-11-03T15:45:36.658000+08:00",
+          "updatedBy": "mailgo.n31738",
+          "metadata": {
+            "size": null,
+            "duration": 15104,
+            "rate": 24.0,
+            "md5": null,
+            "upstreamTaskId": "cgt-20261103154128-nngim",
+            "upstreamTaskIdType": "draft"
+          }
+        }
+      ],
+      "params": {
+        "num": 1,
+        "model_id": "seedance-2.0-mini",
+        "model_params": {
+          "prompt": "【全能参考】参考图依次是：{{node-442ed952}}＝本段开场构图（汤池台，低机位、晨雾逆光、她的位置与道具状态）；{{node-46d151c5}}＝心易外观；{{node-942e7b84}}＝眼睛。\n【任务】以 {{node-442ed952}} 的机位、构图、光线与开场状态为准；第 0 秒尽量与参考一致，不要重新构图、不要换机位。\n【角色】心易：一只约 30 厘米高的棕色水豚毛绒玩偶（大约一只猫的高度），圆身、无脖子、头身一体；暖棕短绒、绒毛方向可见、边缘有绒光；奶油色大脸板、白色圆形眼片＋外圈一条深棕细线、中心空白（无瞳孔、无高光点）、橘色腮红、一字嘴（不上扬）；白肚；棕色短手、无手指，圆脚、脚踝一圈奶油色；只有两只短手和两只圆脚，任何角度都不出现第三只手、多余手臂或手；头顶一颗橘子带两片绿叶（本体：不可摘、不可吃、不可换成别的水果）。表情淡定，情绪只靠歪头、后仰、蹲、耳朵与身体；不看镜头、不卖萌、不拟人化眼神。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程不变；不出现瞳孔/黑瞳/眼珠/虹膜/高光点；眼睛全程睁开，用力、咬、满足时也不闭眼、不眯眼、不笑成弯眼；不眨眼、不抬眼皮、不皱眉；情绪只靠歪头/身体/手势/咔啵。\n【场景与尺度】坡底的汤池台：石砌热水池，水面浮一片橘子，蒸汽往上；池沿湿，旁边一块干石板放着一只粗陶小碟（盐）；背景是雾与树影。\n站位：石池在画面右侧，池沿有一块干石台；她坐在池沿，脚泡在水里。\n尺度：这是一个为她配好的小世界——石灶比她高，灶口到她胸口；陶锅坐在灶顶，锅沿高过她头顶；灶边的柴堆可以踩着爬上灶台；石池她坐得上去、两只脚泡得进去；木棍、陶碟、小勺按她身量配。锅盆可以比她大，但不要画成人类尺寸的巨物，也不要把世界缩成玩具模型。\n【光与材质】光：清晨六点半到八点，雾没散；暖白晨光从坡顶低角度斜下来，做逆光与轮廓光；火只是灶口一小团暖点，不照全场；不用冷蓝、不用夜景、不打第二支灯。材质：毛绒（短绒、绒光、压痕、沾泥变暗）／粗陶（哑光、开片）／湿石（水痕、苔）／食物（焦皮、淀粉白、热气）四层要能分辨。\n【时间拍】\n0–4 秒：汤池边，她坐在池沿的石板上；她先把身边的小盐碟（白盐）用两只短手挪到面前，碟子从画面左侧进入并留在画面里；再捧着刚从锅里捞出来的热土豆（浅黄、白汽，不焦不黑）掰开。\n4–9 秒：蘸一点那只已经在那里的盐碟里的盐，咬一口，慢慢嚼；眼睛睁着，表情不变。\n9–15 秒：近景：她双手捧着剩下的半个土豆，又咬一口，慢慢嚼；盐碟还在画面里，热气升起，只拍上半身和手，不拍脚。\n【镜头】本段 15 秒 3 个镜头，秒数按【时间拍】，不平均分；切点落在动作完成后，不切在动作中间；低机位、浅景深、逆光。\n【声音】掰开、咬、水声、蒸汽；没有音乐、没有说话。\n【字幕】本段不生成任何字幕；画面里不出现文字、竖排白字、气泡、水印。\n负向：人类、人手、手指、指甲、牙齿、蛋壳、猫耳、天线、鎏金、粉蛋、第二角色、多余角色、文字、字幕、气泡、logo、水印、边框、心易的瞳孔、心易的黑瞳、心易的高光点、心易的眨眼、心易的眯眼、心易的闭眼、心易的笑眼、心易的弯眼、心易的眼褶、心易的眼皮、心易的眉毛、心易的眼睛大特写、削皮器、刀、金属削皮器、勺子、木勺、锅铲、勺头、土豆滚落、土豆掉地上、闭眼微笑、满足地闭眼、笑眯眼、多余手臂、第三只手、第四只手、多双手、多余的手、额外的手、手臂数量错误、四条手臂、四只手、腰侧的手、侧面的手、六条腿、锅盖盖着、锅盖合上、锅盖突然盖上、土豆凭空出现、土豆从空中出现、盐碟凭空出现、盐凭空出现、碟子突然出现、多颗土豆、三颗土豆、一堆土豆、土豆数量变化、火塘、石圈、平地上的火堆、锅放在地上、灶台消失、灶台变形、橘子掉落、橘子被吃、换水果、毛绒烧焦或熔化、塑料高光、卡通描边、过饱和、广告打光、多个光源、夜景、冷蓝、镜头切换、瞬移、变形、道具穿模、食材凭空出现、火未点即有火、成品摆盘、看向观众。",
+          "_reference_way": "reference",
+          "reference_images": [
+            {
+              "node_id": "node-442ed952"
+            },
+            {
+              "node_id": "node-46d151c5"
+            },
+            {
+              "node_id": "node-942e7b84"
+            }
+          ],
+          "reference_videos": [],
+          "reference_audios": [],
+          "first_frame_image": null,
+          "last_frame_image": null,
+          "resolution": "720p",
+          "aspect_ratio": "16:9",
+          "duration": 15,
+          "seed": -1,
+          "generate_audio": true,
+          "watermark": false
+        }
+      },
+      "specialParams": null,
+      "config": null,
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:45:36.658000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-e7ae8b67",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-0bfe138c",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-8cf27189",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1539ea13",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-3e4dc0d1",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-64592028",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-bef2fe39",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-64c36948",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-e4e28530",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-707a0a3c",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-35c5d7a6",
+      "sourceNodeId": "node-0bfe138c",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-d421d0de",
+      "sourceNodeId": "node-1539ea13",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-7724ea90",
+      "sourceNodeId": "node-64592028",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-4d49f982",
+      "sourceNodeId": "node-64c36948",
+      "sourceHandle": "output",
+      "targetNodeId": "node-1429a431",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-49aa4b94",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-32fc57aa",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-9bfa192a",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-32fc57aa",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-9ce64604",
+      "sourceNodeId": "node-0bfe138c",
+      "sourceHandle": "output",
+      "targetNodeId": "node-32fc57aa",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-07032a39",
+      "sourceNodeId": "node-1429a431",
+      "sourceHandle": "output",
+      "targetNodeId": "node-32fc57aa",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-f3a2ec7f",
+      "sourceNodeId": "node-a69ad559",
+      "sourceHandle": "output",
+      "targetNodeId": "node-32fc57aa",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-7a0bdb00",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-eca60909",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-25ad4f85",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-eca60909",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-443b4155",
+      "sourceNodeId": "node-1539ea13",
+      "sourceHandle": "output",
+      "targetNodeId": "node-eca60909",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-931c7b1c",
+      "sourceNodeId": "node-1429a431",
+      "sourceHandle": "output",
+      "targetNodeId": "node-eca60909",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-9ca74973",
+      "sourceNodeId": "node-a69ad559",
+      "sourceHandle": "output",
+      "targetNodeId": "node-eca60909",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-45a6b4e1",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-dbf0547c",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-84b86c0e",
+      "sourceNodeId": "node-64592028",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-1b0eb239",
+      "sourceNodeId": "node-1429a431",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-ec5c6859",
+      "sourceNodeId": "node-a69ad559",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-370eb250",
+      "sourceNodeId": "node-e3aeb44e",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7f26bcb8",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-b1669db9",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-0cd979bd",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-066d1ab7",
+      "sourceNodeId": "node-1429a431",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-d66f1225",
+      "sourceNodeId": "node-e6810ff1",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-9da2d3e8",
+      "sourceNodeId": "node-32fc57aa",
+      "sourceHandle": "output",
+      "targetNodeId": "node-dcff6eb6",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-86e3cb1f",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-dcff6eb6",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-6ef0df91",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-dcff6eb6",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-fab4f044",
+      "sourceNodeId": "node-eca60909",
+      "sourceHandle": "output",
+      "targetNodeId": "node-55eb8144",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-425314bd",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-55eb8144",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-756cba43",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-55eb8144",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-ee6fea58",
+      "sourceNodeId": "node-7f26bcb8",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7035d72e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-aa15d5df",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7035d72e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-fbf9ce9a",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-7035d72e",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-e9bb70a4",
+      "sourceNodeId": "node-442ed952",
+      "sourceHandle": "output",
+      "targetNodeId": "node-5aa6fd5b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-4636f873",
+      "sourceNodeId": "node-46d151c5",
+      "sourceHandle": "output",
+      "targetNodeId": "node-5aa6fd5b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-a796a6bd",
+      "sourceNodeId": "node-942e7b84",
+      "sourceHandle": "output",
+      "targetNodeId": "node-5aa6fd5b",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-879fe29b",
+      "sourceNodeId": "node-64c36948",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T18:30:38.677000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T18:30:38.677000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "edge-0416ac7b",
+      "sourceNodeId": "node-a6ccaa4e",
+      "sourceHandle": "output",
+      "targetNodeId": "node-442ed952",
+      "targetHandle": "input",
+      "createdAt": "2026-11-02T18:30:38.677000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T18:30:38.677000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ],
+  "groups": [
+    {
+      "id": "group-7674ac6d",
+      "nodeIds": [
+        "node-46d151c5",
+        "node-942e7b84"
+      ],
+      "bounds": {
+        "x": -20.0,
+        "y": -20.0,
+        "width": 340.0,
+        "height": 1022.3299999999999
+      },
+      "label": "00 参考 · 角色与眼睛",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E68BB3"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-f4aba476",
+      "nodeIds": [
+        "node-0bfe138c",
+        "node-1539ea13",
+        "node-64592028",
+        "node-64c36948"
+      ],
+      "bounds": {
+        "x": 340.0,
+        "y": -20.0,
+        "width": 500.0,
+        "height": 1199.0
+      },
+      "label": "01 场景 · 四台地 · 可同跑",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#8E8DE0"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-428e4aa9",
+      "nodeIds": [
+        "node-a69ad559",
+        "node-e6810ff1",
+        "node-e3aeb44e",
+        "node-a6ccaa4e"
+      ],
+      "bounds": {
+        "x": 880.0,
+        "y": -20.0,
+        "width": 420.0,
+        "height": 974.0
+      },
+      "label": "02 道具白底 · 并行",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#7FB07F"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-2dd5e744",
+      "nodeIds": [
+        "node-1429a431"
+      ],
+      "bounds": {
+        "x": 1380.0,
+        "y": -20.0,
+        "width": 560.0,
+        "height": 333.0
+      },
+      "label": "03 四格预演 · 定稿后再往下",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#E8B85D"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-94ad9049",
+      "nodeIds": [
+        "node-32fc57aa",
+        "node-eca60909",
+        "node-7f26bcb8",
+        "node-442ed952"
+      ],
+      "bounds": {
+        "x": 1380.0,
+        "y": 320.0,
+        "width": 480.0,
+        "height": 1188.0
+      },
+      "label": "04 参考帧 K1–K4",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#6FA8DC"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-32ec4202",
+      "nodeIds": [
+        "node-36664fba"
+      ],
+      "bounds": {
+        "x": -20.0,
+        "y": 1020.0,
+        "width": 360.0,
+        "height": 800.0
+      },
+      "label": "09 说明 · 先读",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#9A9A9A"
+      },
+      "createdAt": "2026-11-02T17:37:41.427000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-02T17:37:41.427000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-c396486f",
+      "nodeIds": [
+        "node-7035d72e"
+      ],
+      "bounds": {
+        "x": 1940.0,
+        "y": 620.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "07 V3 · 已通过",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#DC775D"
+      },
+      "createdAt": "2026-11-03T11:52:40.299000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T11:52:40.299000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-3db51ff0",
+      "nodeIds": [
+        "node-55eb8144"
+      ],
+      "bounds": {
+        "x": 1940.0,
+        "y": 300.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "06 V2 · 已通过",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#DC775D"
+      },
+      "createdAt": "2026-11-03T14:12:36.321000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T14:12:36.321000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-d3599853",
+      "nodeIds": [
+        "node-dcff6eb6"
+      ],
+      "bounds": {
+        "x": 1940.0,
+        "y": -20.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "05 V1 · 已通过",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#DC775D"
+      },
+      "createdAt": "2026-11-03T15:05:46.259000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:05:46.259000+08:00",
+      "updatedBy": "mailgo.n31738"
+    },
+    {
+      "id": "group-725ef78e",
+      "nodeIds": [
+        "node-5aa6fd5b"
+      ],
+      "bounds": {
+        "x": 1940.0,
+        "y": 940.0,
+        "width": 500.0,
+        "height": 299.0
+      },
+      "label": "08 V4 · 已通过",
+      "style": {
+        "accent": null,
+        "opacity": null,
+        "borderColor": "#DC775D"
+      },
+      "createdAt": "2026-11-03T15:11:57.245000+08:00",
+      "createdBy": "mailgo.n31738",
+      "updatedAt": "2026-11-03T15:11:57.245000+08:00",
+      "updatedBy": "mailgo.n31738"
+    }
+  ]
+}

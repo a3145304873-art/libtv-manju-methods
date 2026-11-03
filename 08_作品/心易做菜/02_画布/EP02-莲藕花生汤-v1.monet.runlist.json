@@ -1,0 +1,37 @@
+{
+  "generator": "cookline/0.1.1",
+  "recipe_sha256": "43616b294aa496107279edf36b4e2063ea4c4d7d7fff7c2d99c63d3722ed3671",
+  "stages": {
+    "assets": [
+      "node-s1",
+      "node-s2",
+      "node-s3",
+      "node-p1",
+      "node-p2",
+      "node-p3",
+      "node-p4",
+      "node-p5",
+      "node-p6",
+      "node-p7",
+      "node-p8"
+    ],
+    "storyboard": [
+      "node-g1",
+      "node-g2",
+      "node-g3",
+      "node-g4"
+    ],
+    "keys": [
+      "node-k1",
+      "node-k2",
+      "node-k3",
+      "node-k4"
+    ],
+    "videos": [
+      "node-v1",
+      "node-v2",
+      "node-v3",
+      "node-v4"
+    ]
+  }
+}

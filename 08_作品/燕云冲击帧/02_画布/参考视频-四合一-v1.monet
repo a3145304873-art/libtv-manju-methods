@@ -1,0 +1,258 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-03T15:47:13.438+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 参考视频（4 条）",
+  "description": "墨龙一剑 VA/VB/VC + 拔剑循环，用于对照参考",
+  "nodes": [
+   {
+    "id": "node-ae266aeb",
+    "type": "input-video",
+    "mainOutputId": "output-ae266aeb",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 260,
+     "label": "① 墨龙一剑 · VA 版（你之前做的）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-ae266aeb",
+      "type": "video",
+      "value": "/static/video/690484a75c600c34557212b2/04e9851a1c3767dfab9ef5.mp4",
+      "name": "10_你自己_墨龙一剑_VA.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.166667,
+      "size": 2936020,
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a060262f.png",
+      "status": "done"
+     }
+    ],
+    "params": {
+     "url": "/static/video/690484a75c600c34557212b2/04e9851a1c3767dfab9ef5.mp4",
+     "width": 1280,
+     "height": 720,
+     "size": 2936020
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-de3237da",
+    "type": "input-video",
+    "mainOutputId": "output-de3237da",
+    "meta": {
+     "x": 20,
+     "y": 340,
+     "width": 320,
+     "height": 260,
+     "label": "② 墨龙一剑 · VB 版",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-de3237da",
+      "type": "video",
+      "value": "/static/video/690484a75c600c34557212b2/a68bc36b90c93571983ca7.mp4",
+      "name": "11_你自己_墨龙一剑_VB.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.166667,
+      "size": 3268669,
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0602c00.png",
+      "status": "done"
+     }
+    ],
+    "params": {
+     "url": "/static/video/690484a75c600c34557212b2/a68bc36b90c93571983ca7.mp4",
+     "width": 1280,
+     "height": 720,
+     "size": 3268669
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-51b0471c",
+    "type": "input-video",
+    "mainOutputId": "output-51b0471c",
+    "meta": {
+     "x": 20,
+     "y": 660,
+     "width": 320,
+     "height": 260,
+     "label": "③ 墨龙一剑 · VC 版",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-51b0471c",
+      "type": "video",
+      "value": "/static/video/690484a75c600c34557212b2/7265f8be84d403d8824c67.mp4",
+      "name": "12_你自己_墨龙一剑_VC.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 5.166667,
+      "size": 2848937,
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0603210.png",
+      "status": "done"
+     }
+    ],
+    "params": {
+     "url": "/static/video/690484a75c600c34557212b2/7265f8be84d403d8824c67.mp4",
+     "width": 1280,
+     "height": 720,
+     "size": 2848937
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-2ec64383",
+    "type": "input-video",
+    "mainOutputId": "output-2ec64383",
+    "meta": {
+     "x": 20,
+     "y": 980,
+     "width": 320,
+     "height": 260,
+     "label": "④ 拔剑参考 · 29s 循环（水墨定格出处）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-2ec64383",
+      "type": "video",
+      "value": "/static/video/690484a75c600c34557212b2/db6dce4314965cad816f0b.mp4",
+      "name": "03_冲击帧3_拔剑.mp4",
+      "width": 1916,
+      "height": 884,
+      "duration": 29.376,
+      "size": 16640262,
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0604ac3.png",
+      "status": "done"
+     }
+    ],
+    "params": {
+     "url": "/static/video/690484a75c600c34557212b2/db6dce4314965cad816f0b.mp4",
+     "width": 1916,
+     "height": 884,
+     "size": 16640262
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [],
+  "groups": [
+   {
+    "id": "g-uv-0",
+    "nodeIds": [
+     "node-ae266aeb"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -6,
+     "width": 356,
+     "height": 300
+    },
+    "label": "① 墨龙一剑 · VA 版（你之前做的）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-1",
+    "nodeIds": [
+     "node-de3237da"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 314,
+     "width": 356,
+     "height": 300
+    },
+    "label": "② 墨龙一剑 · VB 版",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-2",
+    "nodeIds": [
+     "node-51b0471c"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 634,
+     "width": 356,
+     "height": 300
+    },
+    "label": "③ 墨龙一剑 · VC 版",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-3",
+    "nodeIds": [
+     "node-2ec64383"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 954,
+     "width": 356,
+     "height": 300
+    },
+    "label": "④ 拔剑参考 · 29s 循环（水墨定格出处）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:47:13.438+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:47:13.438+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

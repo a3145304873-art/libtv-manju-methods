@@ -1,0 +1,1254 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-10-29T17:00:00.000+08:00",
+  "canvas": {
+    "name": "小蛋仔做菜 · EP01 蛋炒饭 v3 · 16:9 · 3段×15s · 蛋小粉",
+    "description": "45s＝3 段×15s，每段 5 个镜头（3s/镜），共 15 个环节，覆盖从备菜到出锅的完整工序链（对齐蘑菇做饭日常的完整度）。修正：角色放大到 30cm、空间分区（板凳不进锅）、切菜改为握刀柄垂直落下、备菜加抓饭/切火腿/切葱三个环节。",
+    "nodes": [
+      {
+        "id": "node-a0fendan",
+        "type": "input-image",
+        "mainOutputId": "output-01029cd9",
+        "meta": {
+          "x": 0,
+          "y": 0,
+          "width": 300,
+          "height": 345.0,
+          "label": "A0 蛋小粉标准（已上传·复用四小只）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-01029cd9",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-0d34f1caae5e8c3e-e8-a7-92-e8-89-b2-e7-b2-89-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-粉蛋-标准.jpg",
+            "resolution": {
+              "width": 1305,
+              "height": 1495
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T17:00:00.000+08:00",
+            "createdBy": "libtv-workspace",
+            "updatedAt": "2026-10-29T17:00:00.000+08:00",
+            "updatedBy": "libtv-workspace",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-s0readme",
+        "type": "input-text",
+        "mainOutputId": "output-03a9b403",
+        "meta": {
+          "x": 0,
+          "y": 400,
+          "width": 320.0,
+          "height": 780.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-03a9b403",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《小蛋仔做菜》EP01《蛋炒饭》v3：16:9、45 秒＝3 段 × 15 秒，每段 5 个镜头、每个 3 秒，共 15 个环节。\n厨师＝蛋小粉；基调＝熟练不滑稽。\n\n【v3 相对 v2 改了什么（按用户看片反馈）】\n1. 角色放大：12 厘米 → 约 30 厘米；锅径从「二十倍身高」改成「2.5 倍身高」，碗口约等于身高。\n2. 空间分区：明确左备料区 / 右灶台区；**小板凳放在灶台前的地面上，与锅之间隔着灶台边缘，不进锅、不进灶眼**。\n3. 切菜动作：原来写「双手按在刀背顶端」，容易被画成刀背压食物；改成「双手握住刀柄、抬刀、垂直落下切进食物」。\n4. 备菜补环节：加了抓松隔夜饭、切火腿、切葱三个备菜镜头，对齐《蘑菇做饭日常》从摘菜到蒸包子的完整链。\n5. 环节补齐到 15 个：抓饭 → 切火腿 → 切葱 → 打蛋 → 搅蛋 → 点火 → 倒油 → 下蛋 → 炒散 → 下饭 → 翻炒 → 调味 → 撒葱 → 一铲 → 装盘尝。\n\n【跑序】\n01 厨景 → 02 道具 P1–P7（可并行）→ 03 三张六宫格（审核定稿）→ 04 K1–K3 段首帧 → 05 V1–V3 十五秒段。\n网格没定稿不要跑段首帧；段首帧没定稿不要跑视频。\n\n【风险，先跑 V1 验证】\n本库 I06 记录过「多宫格图片直接接视频会干扰构图」，那条是把它当首帧用的坑；\n这里只当 reference_images，首帧仍是单张 K。仍属未验证组合——**先只跑 V1**，看段内 5 个切点是否干净。\n若切点失控，退路是仍按 15 秒交付、拆成 3 段 5 秒生成（切点还是 6 个，成本 +4 次派发）。\n\n【改法】\n改提示词请改 build-EP01蛋炒饭-v3.py 后重跑，不手改 .monet。",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T17:00:00.000+08:00",
+            "createdBy": "libtv-workspace",
+            "updatedAt": "2026-10-29T17:00:00.000+08:00",
+            "updatedBy": "libtv-workspace",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-s1kitchen",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 0,
+          "width": 420.0,
+          "height": 236.0,
+          "label": "【待生成】S1 厨房台面 · 清晨空景 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 场景设定空景，不出现任何角色。人类出租屋的小厨房：木质台面占据画面下方，左侧是备料区（一块木板砧板、几只白瓷小碟、一只油瓶、一块叠好的抹布），右侧是灶台区（黑铁锅坐在灶眼上，锅径约是蛋仔身高的 2.5 倍）；右侧旧瓷砖墙上有一扇窗，清晨的光斜进来照在台面上；背景有用了很久的痕迹：瓷砖缝、木台面的刀痕、墙上的挂钩，但不是样板间，也不脏乱。\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。画面干净、浅景深、真实光影、有生活痕迹，不摆拍、不广告打光。\n参考图：{{node-a0fendan}} 只用于确认它的身高比例，画面里不出现角色。\n无文字、无 logo、无水印。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p1rice",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 280,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P1 隔夜饭（白瓷碗装） · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。白瓷碗里装着隔夜米饭，米粒干爽、颗颗分离但结成一团一团；碗口完整，碗身有细腻釉面高光。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p2egg",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 490,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P2 鸡蛋（两只） · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。两只新鲜的浅褐色鸡蛋并排，蛋壳有细小气孔与自然光泽，其中一只蛋壳上有一道细裂缝。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p3wok",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 700,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P3 黑铁锅＋木柄锅铲 · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一口用旧的黑铁锅，锅内有哑光油膜与磨损痕迹，木柄锅铲斜搭在锅沿上，木柄有使用包浆。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p4garnish",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 910,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P4 两只小碟（葱花＋火腿丁） · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。两只白瓷小碟并排：一只装切好的翠绿葱花，一只装切好的粉红色火腿小丁，颗粒大小均匀。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p5ham",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 1120,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P5 火腿片（砧板上） · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。木砧板上摊着两片粉红色火腿片，边缘整齐，表面有细微的肉纹与水光。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p6season",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 1330,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P6 调味三件（盐碟·酱油瓶·小油瓶） · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一只小碟里是白色细盐，一只小玻璃酱油瓶，一只矮油瓶，瓶口干净、贴纸无字。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-p7stool",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 340,
+          "y": 1540,
+          "width": 320.0,
+          "height": 200.0,
+          "label": "【待生成】P7 小板凳 · 白底道具",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "纯白底道具图，只出现一件物品，不出现角色、不出现手。一只矮木凳，四条腿、凳面有木纹与磨损圆角，用于站在上面够到台面。\n正面微侧、居中构图、完整入画，柔和顶光，物品下方有自然的接触阴影；真实材质，不塑料、不卡通。\n无文字、无 logo、无水印、无边框。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-g1sheet",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800,
+          "y": 0,
+          "width": 400.0,
+          "height": 300.0,
+          "label": "【待生成】G1 第一段六宫格 · 备菜 · 3 列 2 行 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "请生成一张三列两行的分镜设计图，一张大图中包含六个按顺序排列的画面，从左到右、从上到下按时间顺序阅读，整体保持统一的光线方向、色调与材质。\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n每一格都要能看出这只蛋仔站在哪里、正在做什么；每个用到刀或火的格子里，动作要正确：刀是握在刀柄上、垂直落下切进食物，不是手掌压在刀背上；火只在灶眼上，不在别处。\n第 1 格：它站在台面备料区边，双手伸进装隔夜饭的白瓷碗里，把结块的饭捻松、抓散。\n第 2 格：砧板上摊着一片火腿，它双手抱住比它还高的菜刀刀柄，把刀抬起来、垂直落下，切进火腿。\n第 3 格：砧板上换成一把小葱，它抱住刀柄，把葱切成细碎的葱花。\n第 4 格：它双手抱着一只鸡蛋，磕在白瓷碗的碗沿上，蛋壳裂开，蛋液正落进碗里。\n第 5 格：它双手抱着木筷子的末端，筷子斜插进碗里的蛋液，蛋液旋成涡。\n第 6 格：空镜：砧板上并排摆着切好的葱花、火腿小丁和一碗打散的蛋液，晨光落在上面。\n格子里只出现这一只蛋仔，不出现人类、不出现第二只蛋仔、不出现文字与标识；每格只表现一个动作瞬间，格与格之间不要加标注、边框文字或分隔线。\n无文字、无 logo、无水印。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-g2sheet",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800,
+          "y": 320,
+          "width": 400.0,
+          "height": 300.0,
+          "label": "【待生成】G2 第二段六宫格 · 起锅 · 3 列 2 行 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "请生成一张三列两行的分镜设计图，一张大图中包含六个按顺序排列的画面，从左到右、从上到下按时间顺序阅读，整体保持统一的光线方向、色调与材质。\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n每一格都要能看出这只蛋仔站在哪里、正在做什么；每个用到刀或火的格子里，动作要正确：刀是握在刀柄上、垂直落下切进食物，不是手掌压在刀背上；火只在灶眼上，不在别处。\n第 1 格：低角仰拍：它站在灶台前的小板凳上，手拧旋钮，蓝色火苗从灶眼窜起，板凳在灶台前的地面上、不在锅里。\n第 2 格：它站在板凳上抱着一只油瓶往黑铁锅里倒油，油线刚触到锅底。\n第 3 格：它端着一只小碗，碗口对着锅，蛋液刚开始往下流。\n第 4 格：它双手握铲，把锅里的蛋液推散、炒成一小块一小块的金黄蛋块。\n第 5 格：它把白瓷碗里的隔夜饭倒进锅里，饭粒落进锅中。\n第 6 格：空镜：锅底蓝色火光映在锅壁上，油面细纹与热气微微升起。\n格子里只出现这一只蛋仔，不出现人类、不出现第二只蛋仔、不出现文字与标识；每格只表现一个动作瞬间，格与格之间不要加标注、边框文字或分隔线。\n无文字、无 logo、无水印。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-g3sheet",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800,
+          "y": 640,
+          "width": 400.0,
+          "height": 300.0,
+          "label": "【待生成】G3 第三段六宫格 · 炒与出 · 3 列 2 行 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "请生成一张三列两行的分镜设计图，一张大图中包含六个按顺序排列的画面，从左到右、从上到下按时间顺序阅读，整体保持统一的光线方向、色调与材质。\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n每一格都要能看出这只蛋仔站在哪里、正在做什么；每个用到刀或火的格子里，动作要正确：刀是握在刀柄上、垂直落下切进食物，不是手掌压在刀背上；火只在灶眼上，不在别处。\n第 1 格：俯拍：木柄锅铲推进饭里，米粒跳起、开始裹上蛋液，边缘露出它两只手握着铲柄。\n第 2 格：它抱着一只玻璃酱油瓶，往锅里的饭上抖了两滴，又用小勺撒了一点盐。\n第 3 格：它把一小碟葱花撒进锅里，绿色的葱花落在金黄的饭上。\n第 4 格：它站在锅耳上，双手握着锅铲柄，铲头插进饭的底部，身体开始往下压。\n第 5 格：俯拍：白瓷盘里堆着金黄的蛋炒饭，它站在盘边捧着一只小勺往嘴里送，眼睛眯起。\n第 6 格：空镜：盘中蛋炒饭的热气特写，金色米粒上的油光与上升的白色蒸汽。\n格子里只出现这一只蛋仔，不出现人类、不出现第二只蛋仔、不出现文字与标识；每格只表现一个动作瞬间，格与格之间不要加标注、边框文字或分隔线。\n无文字、无 logo、无水印。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-k1first",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1240,
+          "y": 0,
+          "width": 360.0,
+          "height": 207.0,
+          "label": "【关键帧】K1 第一段首帧 · 备菜 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横屏电影感画面。它站在台面备料区边，身前是一碗结块的隔夜饭、两只鸡蛋、木砧板、两只小碟；它双手伸进饭碗里，正把结块的饭捻松。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n真实光影、浅景深、微距质感；画面里不出现人类、不出现第二只蛋仔、不出现文字与标识。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线；{{node-g1sheet}} 分镜第一格构图。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              },
+              {
+                "node_id": "node-g1sheet"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-v1seg",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1700,
+          "y": 0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】V1 备菜 0–15s · 抓饭→切火腿→切葱→打蛋→搅蛋 · 15s",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "vidu-q4-preview",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-k1first}}：第 0 秒就是这一帧，锁角色位置/朝向/光线与道具状态。\n【分镜表】{{node-g1sheet}} 是本段的分镜设计图，一格一个镜头，按顺序推进；只参考它的构图与动作顺序，不要出现分格边框。\n【角色】蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物；它不说话，只靠动作和表情。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n【镜头】本段 15 秒，5 个镜头，每个约 3 秒，硬切衔接、不叠化、不推拉过渡：\n0–3 秒：它双手伸进白瓷碗里，把结块的隔夜饭捻松、抓散，米粒在指间散开。\n3–6 秒：它双手抱住菜刀刀柄，把刀抬起来、垂直落下，切进火腿，往前挪一下再切一刀。\n6–9 秒：它抱住刀柄，把砧板上的小葱切碎，葱花散在砧板上。\n9–12 秒：它抱起一只鸡蛋，在碗沿上磕开，蛋液落进碗里，壳分成两半放到一边。\n12–15 秒：它抱着木筷子的末端，快速稳定地搅动蛋液，蛋液被打散、泛起细小的泡。\n【声音】米粒摩擦、刀落砧板、切葱的细碎声、蛋壳碎裂、搅打声；无人声台词。\n【字幕预留】字幕只在后期贴（隔夜饭／切丁／切葱花／打两个蛋／打散），画面里不出现任何文字。\n【图片引用】{{node-k1first}}=首帧；{{node-g1sheet}}=分镜表；{{node-a0fendan}}=角色外观。\n负向：人类、手指、多余角色、第二只蛋仔、卡通扁平、塑料玩具感、比例失真、瞬移、变形、角色复制、道具复制、字幕、文字、水印、BGM旋律、说话、镜头旋转、镜头漂移、翻车动作、鬼畜重复、板凳进锅、道具穿模、刀悬空。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-k1first"
+              },
+              {
+                "node_id": "node-g1sheet"
+              },
+              {
+                "node_id": "node-a0fendan"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-k1first"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-k2first",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1240,
+          "y": 240,
+          "width": 360.0,
+          "height": 207.0,
+          "label": "【关键帧】K2 第二段首帧 · 上灶 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横屏电影感画面。它站在灶台前的小板凳上，一只手已经搭在灶台旋钮上；黑铁锅坐在灶眼上，锅是空的、干净的。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n真实光影、浅景深、微距质感；画面里不出现人类、不出现第二只蛋仔、不出现文字与标识。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线；{{node-g2sheet}} 分镜第一格构图。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              },
+              {
+                "node_id": "node-g2sheet"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-v2seg",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1700,
+          "y": 280,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】V2 起锅 15–30s · 点火→倒油→下蛋→炒散→下饭 · 15s",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "vidu-q4-preview",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-k2first}}：第 0 秒就是这一帧，锁角色位置/朝向/光线与道具状态。\n【分镜表】{{node-g2sheet}} 是本段的分镜设计图，一格一个镜头，按顺序推进；只参考它的构图与动作顺序，不要出现分格边框。\n【角色】蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物；它不说话，只靠动作和表情。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n【镜头】本段 15 秒，5 个镜头，每个约 3 秒，硬切衔接、不叠化、不推拉过渡：\n0–3 秒：它踮脚把旋钮拧开，蓝色火苗从灶眼窜起，火光映在蛋壳上。\n3–6 秒：它抱着油瓶稳稳倒油，油线落进锅里，见油面起细纹就收住瓶口。\n6–9 秒：它端着小碗把蛋液倒进热油，边缘立刻起泡、变成金黄，油花溅起。\n9–12 秒：它双手握铲，把锅里的蛋推散、炒成一小块一小块的金黄蛋块。\n12–15 秒：它端起白瓷碗，把隔夜饭倒进锅里，饭粒落进锅中。\n【声音】旋钮咔哒、燃气轰起、倒油、油爆密集、铲子刮锅、饭粒落锅；无人声台词。\n【字幕预留】字幕只在后期贴（火／油热了／下锅／炒散／下饭），画面里不出现任何文字。\n【图片引用】{{node-k2first}}=首帧；{{node-g2sheet}}=分镜表；{{node-a0fendan}}=角色外观。\n负向：人类、手指、多余角色、第二只蛋仔、卡通扁平、塑料玩具感、比例失真、瞬移、变形、角色复制、道具复制、字幕、文字、水印、BGM旋律、说话、镜头旋转、镜头漂移、翻车动作、鬼畜重复、板凳进锅、道具穿模、刀悬空。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-k2first"
+              },
+              {
+                "node_id": "node-g2sheet"
+              },
+              {
+                "node_id": "node-a0fendan"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-k2first"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-k3first",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1240,
+          "y": 480,
+          "width": 360.0,
+          "height": 207.0,
+          "label": "【关键帧】K3 第三段首帧 · 翻炒 · 16:9",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横屏电影感画面。俯拍：锅里是蛋块和刚下锅的隔夜饭，木柄锅铲插在饭里；它双手握着铲柄末端，站在锅前。\n角色：蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n真实光影、浅景深、微距质感；画面里不出现人类、不出现第二只蛋仔、不出现文字与标识。\n参考图：{{node-a0fendan}} 角色外观；{{node-s1kitchen}} 厨房环境与光线；{{node-g3sheet}} 分镜第一格构图。\n负向：人类、手指、毛发、卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只蛋仔、道具重复、文字、水印、logo、边框、过曝、广告打光、两个光源、道具穿模、板凳出现在锅里或灶眼里、厨具悬空、刀压在刀背上。",
+            "reference_images": [
+              {
+                "node_id": "node-a0fendan"
+              },
+              {
+                "node_id": "node-s1kitchen"
+              },
+              {
+                "node_id": "node-g3sheet"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 576,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "node-v3seg",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1700,
+          "y": 560,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】V3 炒与出 30–45s · 翻炒→调味→撒葱→一铲→装盘尝 · 15s",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "vidu-q4-preview",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-k3first}}：第 0 秒就是这一帧，锁角色位置/朝向/光线与道具状态。\n【分镜表】{{node-g3sheet}} 是本段的分镜设计图，一格一个镜头，按顺序推进；只参考它的构图与动作顺序，不要出现分格边框。\n【角色】蛋小粉：一只约 30 厘米高的粉色搪胶蛋仔（大约一只猫的高度，明显大过一只碗），圆形蛋身、正面一片奶油色椭圆脸盘、绿色星星眼、细弯眉、小嘴、粉色圆腮、头顶一根带小圆球的粉色触角、短圆手臂、白色小袜靴；外观严格照参考图，不增不减不变色，无人类五官、无手指、无衣物；它不说话，只靠动作和表情。\n基调：熟练、安静、专业；它是有手艺的小厨师，动作利落不狼狈；可爱来自体型与手艺的反差，不来自失误\n场景：人类出租屋的小厨房，木质台面、旧瓷砖墙，右侧窗户透进清晨的光；台面上有白瓷碗、黑铁锅、木砧板；背景干净、浅景深、有生活痕迹但不是样板间\n尺度：它约 30 厘米高，锅径约为它身高的 2.5 倍，一只碗的口径约等于它的身高，菜刀长度约等于它的身高；它能双手抱住刀柄、端起小碗、扶住锅沿，动作是够得着的，不是够不着。\n空间分区：台面左侧是备料区（木板砧板、白瓷碗、几只小碟、油瓶、抹布），右侧是灶台区（黑铁锅坐在灶眼上，蓝色火苗在锅底）；小板凳放在灶台前的地面上、与锅之间隔着灶台边缘，板凳不进锅、不放进灶眼、不上灶台；砧板上的东西不挪到锅里，锅里的东西不放到砧板上。\n【镜头】本段 15 秒，5 个镜头，每个约 3 秒，硬切衔接、不叠化、不推拉过渡：\n0–3 秒：它推着锅铲把饭摊开、再翻炒，米粒一颗颗跳起，开始裹上蛋液的金色。\n3–6 秒：它抱着酱油瓶抖了两滴，又用小勺撒了一点盐。\n6–9 秒：它把一小碟葱花撒进锅里，绿色的葱花落在金黄的饭上，随即翻炒两下。\n9–12 秒：它站上锅耳，铲头插进饭底，把整个身体的重量压下去，把整片饭撬起来翻面。\n12–15 秒：饭滑进白瓷盘，热气升起；它舀一勺送进嘴里，眯起眼睛，把盘子往镜头方向推近一点。\n【声音】铲子刮锅、饭粒跳动、两滴酱油、葱花落锅、饭翻落的闷响、勺碰盘；无人声台词。\n【字幕预留】字幕只在后期贴（翻炒／一点点／葱花／一铲／自己炒自己），画面里不出现任何文字。\n【图片引用】{{node-k3first}}=首帧；{{node-g3sheet}}=分镜表；{{node-a0fendan}}=角色外观。\n负向：人类、手指、多余角色、第二只蛋仔、卡通扁平、塑料玩具感、比例失真、瞬移、变形、角色复制、道具复制、字幕、文字、水印、BGM旋律、说话、镜头旋转、镜头漂移、翻车动作、鬼畜重复、板凳进锅、道具穿模、刀悬空。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-k3first"
+              },
+              {
+                "node_id": "node-g3sheet"
+              },
+              {
+                "node_id": "node-a0fendan"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-k3first"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-de07a1ec",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-s1kitchen",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-f2aad435",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g1sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-836a76fa",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g1sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-9a4c0df5",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g2sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-1314c0da",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g2sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-e4474df7",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g3sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-b7a662bb",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-g3sheet",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-ba7151b4",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k1first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-b4fd2115",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k1first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-7b45389e",
+        "sourceNodeId": "node-g1sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k1first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-0003a3b7",
+        "sourceNodeId": "node-k1first",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v1seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-201b6dcc",
+        "sourceNodeId": "node-g1sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v1seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-15e54d63",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v1seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-52da4725",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k2first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-4ae15069",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k2first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-bf45fdae",
+        "sourceNodeId": "node-g2sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k2first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-10274f75",
+        "sourceNodeId": "node-k2first",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v2seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-b50e3746",
+        "sourceNodeId": "node-g2sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v2seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-1c0f5046",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v2seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-66fe7d77",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k3first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-9eba6563",
+        "sourceNodeId": "node-s1kitchen",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k3first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-5b0f0af7",
+        "sourceNodeId": "node-g3sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-k3first",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-393ff075",
+        "sourceNodeId": "node-k3first",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v3seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-ba45f17a",
+        "sourceNodeId": "node-g3sheet",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v3seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "edge-2d909745",
+        "sourceNodeId": "node-a0fendan",
+        "sourceHandle": "output",
+        "targetNodeId": "node-v3seg",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-beade214",
+        "nodeIds": [
+          "node-a0fendan"
+        ],
+        "bounds": {
+          "x": -20,
+          "y": -20,
+          "width": 340,
+          "height": 380
+        },
+        "label": "00 参考 · 蛋小粉（已上传免重传）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-59fb2e99",
+        "nodeIds": [
+          "node-s1kitchen"
+        ],
+        "bounds": {
+          "x": 320,
+          "y": -20,
+          "width": 460,
+          "height": 270
+        },
+        "label": "01 厨景 · 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-f6e9d72a",
+        "nodeIds": [
+          "node-p1rice",
+          "node-p2egg",
+          "node-p3wok",
+          "node-p4garnish",
+          "node-p5ham",
+          "node-p6season",
+          "node-p7stool"
+        ],
+        "bounds": {
+          "x": 320,
+          "y": 272,
+          "width": 460,
+          "height": 1490
+        },
+        "label": "02 道具白底 P1–P7 · 与 01 并行",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-77d14ca6",
+        "nodeIds": [
+          "node-g1sheet",
+          "node-g2sheet",
+          "node-g3sheet"
+        ],
+        "bounds": {
+          "x": 780,
+          "y": -20,
+          "width": 440,
+          "height": 980
+        },
+        "label": "03 六宫格 G1–G3 · 定稿后再往下",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-d936e440",
+        "nodeIds": [
+          "node-k1first",
+          "node-k2first",
+          "node-k3first"
+        ],
+        "bounds": {
+          "x": 1220,
+          "y": -20,
+          "width": 400,
+          "height": 740
+        },
+        "label": "04 段首帧 K1–K3",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#6FA8DC"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-25d52fce",
+        "nodeIds": [
+          "node-v1seg",
+          "node-v2seg",
+          "node-v3seg"
+        ],
+        "bounds": {
+          "x": 1680,
+          "y": -20,
+          "width": 400,
+          "height": 840
+        },
+        "label": "05 十五秒段 V1–V3 · 先只跑 V1",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      },
+      {
+        "id": "group-d907bb4f",
+        "nodeIds": [
+          "node-s0readme"
+        ],
+        "bounds": {
+          "x": -20,
+          "y": 392,
+          "width": 340,
+          "height": 800
+        },
+        "label": "06 制作说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#B0B0B0"
+        },
+        "createdAt": "2026-10-29T17:00:00.000+08:00",
+        "createdBy": "libtv-workspace",
+        "updatedAt": "2026-10-29T17:00:00.000+08:00",
+        "updatedBy": "libtv-workspace"
+      }
+    ]
+  }
+}

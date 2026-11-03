@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-11-03T17:30:07+08:00",
+  "meta": {
+    "story": "pest-15s",
+    "profile": "harmonic15",
+    "word": "pest",
+    "nodes": 11,
+    "edges": 17,
+    "groups": 7,
+    "prompt_lengths": {
+      "A05": 214,
+      "G1": 1169,
+      "K_A": 935,
+      "V1": 1864,
+      "KC": 153
+    },
+    "canvas": "E:\\libtv漫剧\\08_作品\\_共享工具\\english-story\\out\\pest-15s.monet"
+  },
+  "results": [
+    {
+      "subject": "story:pest-15s",
+      "status": "PASS",
+      "counts": {
+        "ERROR": 0,
+        "WARN": 0,
+        "INFO": 0
+      },
+      "findings": []
+    },
+    {
+      "subject": "canvas:蛋仔记单词 · pest-15s · pest",
+      "status": "PASS",
+      "counts": {
+        "ERROR": 0,
+        "WARN": 0,
+        "INFO": 0
+      },
+      "findings": []
+    }
+  ]
+}

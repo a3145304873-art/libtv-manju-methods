@@ -1,0 +1,458 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-03T15:54:29.835+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 参考视频（6 条）",
+  "description": "墨龙 VA/VB/VC + 拔剑 + 道之极 + 剑之极",
+  "nodes": [
+   {
+    "id": "node-ae266aeb",
+    "type": "input-video",
+    "mainOutputId": "output-ae266aeb",
+    "meta": {
+     "x": 20.0,
+     "y": 20.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "① 墨龙一剑 · VA 版",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-ae266aeb",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/04e9851a1c3767dfab9ef5.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a060262f.png",
+      "name": "10_你自己_墨龙一剑_VA.mp4",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 2936020,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-de3237da",
+    "type": "input-video",
+    "mainOutputId": "output-de3237da",
+    "meta": {
+     "x": 20.0,
+     "y": 280.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "② 墨龙一剑 · VB 版",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-de3237da",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/a68bc36b90c93571983ca7.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0602c00.png",
+      "name": "11_你自己_墨龙一剑_VB.mp4",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 3268669,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-51b0471c",
+    "type": "input-video",
+    "mainOutputId": "output-51b0471c",
+    "meta": {
+     "x": 20.0,
+     "y": 540.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "③ 墨龙一剑 · VC 版",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-51b0471c",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/7265f8be84d403d8824c67.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0603210.png",
+      "name": "12_你自己_墨龙一剑_VC.mp4",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 2848937,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-2ec64383",
+    "type": "input-video",
+    "mainOutputId": "output-2ec64383",
+    "meta": {
+     "x": 20.0,
+     "y": 800.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "④ 拔剑参考 · 29s 循环",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-2ec64383",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/db6dce4314965cad816f0b.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0604ac3.png",
+      "name": "03_冲击帧3_拔剑.mp4",
+      "resolution": {
+       "width": 1916,
+       "height": 884
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 16640262,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-fa70578d",
+    "type": "input-video",
+    "mainOutputId": "output-fa70578d",
+    "meta": {
+     "x": 20.0,
+     "y": 1060.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "⑤ 道之极（白闪+墨凝）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-fa70578d",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/9ee58d120a20ae5f62894d.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0676c39.png",
+      "name": "02_冲击帧2_道之极.mp4",
+      "resolution": {
+       "width": 1920,
+       "height": 888
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 6386157,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-bbecbde3",
+    "type": "input-video",
+    "mainOutputId": "output-bbecbde3",
+    "meta": {
+     "x": 20.0,
+     "y": 1320.0,
+     "width": 320.0,
+     "height": 200.0,
+     "label": "⑥ 剑之极（光刃→星芒→眼）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-bbecbde3",
+      "status": "done",
+      "error": null,
+      "value": "/static/video/690484a75c600c34557212b2/08164b3f6d43ce674762ba.mp4",
+      "cover": "/static/image/690484a75c600c34557212b2/1a1a0677245.png",
+      "name": "06_L03_剑之极.mp4",
+      "resolution": {
+       "width": 1920,
+       "height": 1084
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-03T15:54:29.835+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-03T15:54:29.835+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 1757152,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [],
+  "groups": [
+   {
+    "id": "g-uv-0",
+    "nodeIds": [
+     "node-ae266aeb"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -6,
+     "width": 356,
+     "height": 240
+    },
+    "label": "① 墨龙一剑 · VA 版",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-1",
+    "nodeIds": [
+     "node-de3237da"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 254,
+     "width": 356,
+     "height": 240
+    },
+    "label": "② 墨龙一剑 · VB 版",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-2",
+    "nodeIds": [
+     "node-51b0471c"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 514,
+     "width": 356,
+     "height": 240
+    },
+    "label": "③ 墨龙一剑 · VC 版",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-3",
+    "nodeIds": [
+     "node-2ec64383"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 774,
+     "width": 356,
+     "height": 240
+    },
+    "label": "④ 拔剑参考 · 29s 循环",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-4",
+    "nodeIds": [
+     "node-fa70578d"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 1034,
+     "width": 356,
+     "height": 240
+    },
+    "label": "⑤ 道之极（白闪+墨凝）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-uv-5",
+    "nodeIds": [
+     "node-bbecbde3"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 1294,
+     "width": 356,
+     "height": 240
+    },
+    "label": "⑥ 剑之极（光刃→星芒→眼）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#C0C0C0"
+    },
+    "createdAt": "2026-11-03T15:54:29.835+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T15:54:29.835+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

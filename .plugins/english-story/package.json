@@ -1,0 +1,23 @@
+{
+  "name": "@local/english-story",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "English story canvas tools: brief, validate, build, check.",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ]
+}

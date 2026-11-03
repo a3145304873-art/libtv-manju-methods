@@ -1,0 +1,136 @@
+{
+  "canvas": {
+    "id": "canvas-68731ad6dc",
+    "name": "蛋仔记单词 · morose 小饭馆版 v4 · 关盒递出/到桌打开 · 20s",
+    "description": "morose 小饭馆版：柜台点单→端盒到桌→没肉丝→心易补救；黄蛋短句；旁白；单卡尾。",
+    "revision": "21",
+    "updatedAt": "2026-11-02T17:08:46.203000+08:00"
+  },
+  "counts": {
+    "nodes": 15,
+    "edges": 21,
+    "groups": 7
+  },
+  "outputs": [
+    {
+      "node": "node-410a3ab3",
+      "label": "R00 四小只身高比例（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+      "file": "media\\R00_四小只身高比例（复用）_output-d75044e85f.jpg",
+      "bytes": 77895
+    },
+    {
+      "node": "node-223d5036",
+      "label": "R01 黄蛋标准（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+      "file": "media\\R01_黄蛋标准（复用）_output-1536243a0a.jpg",
+      "bytes": 86469
+    },
+    {
+      "node": "node-32491fc6",
+      "label": "R02 心易·水豚（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+      "file": "media\\R02_心易·水豚（复用）_output-103027a20a.png",
+      "bytes": 258953
+    },
+    {
+      "node": "node-d2b202d6",
+      "label": "R02E 心易眼睛参考 · 白圆眼片＋细深棕圈·中心空白",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-4235c925190327e7-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e7-9.png",
+      "file": "media\\R02E_心易眼睛参考_·_白圆眼片＋细深棕圈·中心空白_output-9484279423.png",
+      "bytes": 255707
+    },
+    {
+      "node": "node-26e314ac",
+      "label": "【已生成】R01P 黄蛋毛绒版（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-f4ba215448/image/20261102-071318-df775a3fa43be0c6-image.png",
+      "file": "media\\【已生成】R01P_黄蛋毛绒版（复用）_output-49c820c76a.png",
+      "bytes": 1058221
+    },
+    {
+      "node": "node-1484bea1",
+      "label": "【已生成】A05 打包盒（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-f4ba215448/image/20261102-071302-a5882872d90b4485-9f69de179eae65e8feb9b6.png",
+      "file": "media\\【已生成】A05_打包盒（复用）_output-1368e9d080.png",
+      "bytes": 855787
+    },
+    {
+      "node": "node-b01d7eaf",
+      "label": "【待生成】A06 小饭馆内景 · 柜台/后厨窗口/木桌（菜单无字）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-68731ad6dc/image/20261102-085557-62b59bd0a0496c5d-f4b4829b046e35370f628b.png",
+      "file": "media\\【待生成】A06_小饭馆内景_·_柜台_后厨窗口_木桌（菜单无字）_output-ecd544635a.png",
+      "bytes": 1150815
+    },
+    {
+      "node": "node-adcffef0",
+      "label": "【待生成】A07 小白碟＋一根肉丝",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-68731ad6dc/image/20261102-085546-351fbe3fe3bc85ef-3f0ad63c1b78fd8ef0c6b0.png",
+      "file": "media\\【待生成】A07_小白碟＋一根肉丝_output-bd3478aea7.png",
+      "bytes": 778023
+    },
+    {
+      "node": "node-99169802",
+      "label": "【待生成】K_A 首帧 · 柜台点单",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-68731ad6dc/image/20261102-090256-075ae899bb0bf97d-8da5a348782513cacd361e.png",
+      "file": "media\\【待生成】K_A_首帧_·_柜台点单_output-59218495d5.png",
+      "bytes": 1378284
+    },
+    {
+      "node": "node-a91501a9",
+      "label": "T_A 占位 · 先跑 V1，再替换成 V1 最后一帧",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-1353c38935bec45d-t-a-e5-8d-a0-e4-bd-8d-e6-9b-bf-e6-8d-a2v.png",
+      "file": "media\\T_A_占位_·_先跑_V1，再替换成_V1_最后一帧_output-8bfade80ee.png",
+      "bytes": 28176
+    },
+    {
+      "node": "node-d41b9b35",
+      "label": "KC 单卡尾 · morose / 没肉丝 → 郁闷的（后期用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-85bf5d2b19/image/20261102-075206-a26a71c844b98dda-morose-card-tail.png",
+      "file": "media\\KC_单卡尾_·_morose_没肉丝_→_郁闷的（后期用）_output-0d637fd1d1.png",
+      "bytes": 241971
+    },
+    {
+      "node": "node-9d3ca265",
+      "label": "【待生成】A05C 关着的打包盒（盖紧，无食物露出）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-68731ad6dc/image/20261102-085514-f6fd387ce624464e-79f86ae20dd47e3e794572.png",
+      "file": "media\\【待生成】A05C_关着的打包盒（盖紧，无食物露出）_output-a83b063dd6.png",
+      "bytes": 899883
+    }
+  ]
+}

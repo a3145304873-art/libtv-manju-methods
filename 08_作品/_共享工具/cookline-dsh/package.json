@@ -1,0 +1,23 @@
+{
+  "name": "@local/cookline-dsh",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "做菜线 cookline 的 DSH Host 插件：菜谱卡校验、画布构建、分镜闸门与画布审计。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

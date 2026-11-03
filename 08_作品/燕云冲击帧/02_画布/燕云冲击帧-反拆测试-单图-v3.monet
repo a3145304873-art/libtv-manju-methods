@@ -1,0 +1,296 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-03T12:00:00.000+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 反拆测试（单图）v3",
+  "description": "用「拔剑·水墨定格」反推出的六段式提示词，只换角色/服装/武器三段，其余照搬；挂 A1/A2/A5 做一致性参考。只跑一张 T1。",
+  "nodes": [
+   {
+    "id": "node-61f1c4a1",
+    "type": "input-image",
+    "mainOutputId": "output-61f1c4a1",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A1 脸部",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-61f1c4a1",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+      "cover": null,
+      "name": "A1.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-30T12:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-30T12:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-30T12:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-30T12:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-3aa58514",
+    "type": "input-image",
+    "mainOutputId": "output-3aa58514",
+    "meta": {
+     "x": 20,
+     "y": 340,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A2 全身",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-3aa58514",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+      "cover": null,
+      "name": "A2.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-30T12:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-30T12:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-30T12:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-30T12:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-098e002c",
+    "type": "input-image",
+    "mainOutputId": "output-098e002c",
+    "meta": {
+     "x": 20,
+     "y": 660,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A5 武器",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-098e002c",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "cover": null,
+      "name": "A5.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-10-30T12:10:00.000+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-10-30T12:10:00.000+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-30T12:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-30T12:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-0df09da1",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】反拆测试图（六段式·换本角色）",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "黑白水墨武侠风，炭笔线条＋浓墨块面，古风白发剑客半身像。\n【引用图片说明】{{node-61f1c4a1}}＝脸；{{node-3aa58514}}＝服装；{{node-098e002c}}＝武器外形。人物必须是这三张里的人，不许换成别人。\n\n【第一原则·这是一张以黑为主的画】\n整幅画面**六成以上是浓黑**：背景、头发、衣服暗部、腰带全部压成**大片死黑**，墨要成块、不要成雾；\n**画面里唯一亮的东西是剑身**（一条白），第二亮的是**脸那一小块纸白**；\n除此之外**几乎不留中间灰**——暗部直接黑，亮部直接白，过渡只允许发生在一条窄边上。\n如果你画出来是\"整体浅灰、白多黑少\"，那是错的，必须重画成\"黑压白\"。\n\n【第二原则·剑是透视冲进来的，不是横在身前】\n剑从**画面左下角外**朝镜头**斜着伸进来**：**近大远小**——靠近画面这一端的剑身**宽到约画面高度的四分之一**，\n往画面外收缩变窄；**只看到剑身的中后段，剑尖在画面外**。\n**绝对不要画成\"横在胸前的短剑\"**，也**不要画成\"又长又细的白棍子\"**——要粗、要近、要有厚度。\n\n【第三原则·人物被剑压住】\n人物压在画面**右侧三分之一**、下缘裁到腰；**剑横过人物身前**，把人切掉一部分；\n白发向画面左方横甩，用**浓墨块＋飞白碎笔**（不是细线）。\n\n角色：面容清瘦冷峻，五官只用极少线条：眉、眼线、鼻梁、唇线各一笔；脸是一小块纸白；\n脸略低、一只眼落在暗部；眼睛细长半垂。\n\n服装：白色宽袖长袍，衣纹用排线＋飞白；**黑色交领与黑色宽腰封压到死黑**，腰封上一枚金属扣件；\n黑色护腕；袖口墨色渐染。\n\n武器与握法：右手握剑柄，手在画面中部偏右、**手指绕握、手背对镜头**；\n手占画面宽约 8%–10%，轮廓完整，**以明亮剑身为背景形成剪影**；手腕与前臂成直线；剑穗垂下。\n\n构图：16:9；**剑是画面里唯一的大亮块**，从左下贯到人物身前；\n留白只集中在**左上角一小块**；背景为**大块泼墨＋墨点喷溅**，不许碎成灰雾。\n\n负向：整体发灰、白多黑少、明亮均匀、淡彩水墨、剑横在身前、剑又细又短、剑尖在画面内、\n剑柄在画面外看不到手、彩色、发光、能量光效、冰晶反光、精细写实、五官细节堆砌、细线素描头发、\n手搭在剑上、剑从掌心穿出、折腕、多余手指、多只手、居中对称、字幕、水印、logo、游戏UI、卡通。\n",
+      "reference_images": [
+       {
+        "node_id": "node-61f1c4a1"
+       },
+       {
+        "node_id": "node-3aa58514"
+       },
+       {
+        "node_id": "node-098e002c"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-10-30T12:10:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-10-30T12:10:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-56928c4f",
+    "sourceNodeId": "node-61f1c4a1",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0df09da1",
+    "targetHandle": "input",
+    "createdAt": "2026-11-03T12:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T12:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-0b7db9fc",
+    "sourceNodeId": "node-3aa58514",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0df09da1",
+    "targetHandle": "input",
+    "createdAt": "2026-11-03T12:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T12:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ea7825c1",
+    "sourceNodeId": "node-098e002c",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0df09da1",
+    "targetHandle": "input",
+    "createdAt": "2026-11-03T12:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T12:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-ywtz-0",
+    "nodeIds": [
+     "node-61f1c4a1",
+     "node-3aa58514",
+     "node-098e002c"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -26,
+     "width": 356,
+     "height": 908
+    },
+    "label": "00 已生成资产（复用）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5B8DE0"
+    },
+    "createdAt": "2026-11-03T12:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T12:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-ywtz-1",
+    "nodeIds": [
+     "node-0df09da1"
+    ],
+    "bounds": {
+     "x": 402,
+     "y": -26,
+     "width": 356,
+     "height": 348
+    },
+    "label": "01 反拆测试图（只跑这一张）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E05B8D"
+    },
+    "createdAt": "2026-11-03T12:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-03T12:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

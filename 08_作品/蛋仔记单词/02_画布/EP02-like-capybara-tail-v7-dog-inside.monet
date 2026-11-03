@@ -1,0 +1,1499 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-02T14:43:22.528000+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · -like 三词样片「水豚心易＋毛绒黄蛋·无瞳锁眼·狗在窝里」v7 · 23s",
+    "description": "三词样片：rocklike／snakelike／doglike；一个小院三个角落（石桌/花坛/狗窝），人物在场景里，镜头短推/下摇指向对象；不甩到远处、不切空景/画外物体。",
+    "nodes": [
+      {
+        "id": "node-3b85595e",
+        "type": "input-image",
+        "mainOutputId": "output-44437d1990",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 121.9,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-44437d1990",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-1dec7c6e",
+        "type": "input-image",
+        "mainOutputId": "output-de608b1dbf",
+        "meta": {
+          "x": 0.0,
+          "y": 200.0,
+          "width": 280.0,
+          "height": 320.6,
+          "label": "R01 黄蛋标准（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-de608b1dbf",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-黄蛋-标准.jpg",
+            "resolution": {
+              "width": 1118,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 86469,
+              "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-34b2e592",
+        "type": "input-image",
+        "mainOutputId": "output-d1fa2cce5f",
+        "meta": {
+          "x": 0.0,
+          "y": 560.0,
+          "width": 280.0,
+          "height": 186.0,
+          "label": "R02 心易·水豚（单图锁定）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-edce66252e",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+            "cover": null,
+            "name": "心易-水豚-标准.png",
+            "resolution": {
+              "width": 400,
+              "height": 600
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": {
+              "size": 258953,
+              "md5": "100cfe8f4f09ec467008f61a0ab30d7d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:55.947000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-55532172",
+        "type": "gen-image",
+        "mainOutputId": "output-3e7c19fc2d",
+        "meta": {
+          "x": 360.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】A01 道具 · 狗绳/三张词卡 · 1K",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-3e7c19fc2d",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091438-949e39ce34904ccd-32df52c665067da07d1826.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091438-949e39ce34904ccd-32df52c665067da07d1826.png",
+            "name": "32df52c665067da07d1826.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "ai",
+            "batchId": "nexec-graph-759747c4ba0beb176ee92b1ee3a974ff830a3a8dd8a8163db49f813be44cca53",
+            "execution": {
+              "groupId": "group-8408eabf",
+              "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "d9abcae4-cb73-56f7-9f50-c53ce90316f2",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图，两个道具并排：①一条红色狗绳；②三张空白词卡（米白卡片、浅灰边）。3D 卡通渲染+真实光影（皮克斯质感、搪胶材质），轻微高光。\n背景 #FFFFFF 纯白，无投影、无文字、无水印、无 logo、无手。\n负向：真实照片、恐怖、人类、手指、文字、水印、logo、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-d67c8efd",
+        "type": "gen-image",
+        "mainOutputId": "output-92f4a1b27d",
+        "meta": {
+          "x": 360.0,
+          "y": 200.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】A02 小院 · 石桌/花坛/狗窝 · 1K",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-92f4a1b27d",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091451-7adbbcb1b5f01f2c-55a7fc3aca10c44a88745d.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091451-7adbbcb1b5f01f2c-55a7fc3aca10c44a88745d.png",
+            "name": "55a7fc3aca10c44a88745d.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "ai",
+            "batchId": "nexec-graph-b23dc2e34a96b831769df5daadfdc8488a7e8360c18fad5484f9a9b8d7ee6683",
+            "execution": {
+              "groupId": "group-8408eabf",
+              "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "6a4bbc7e-68b2-5226-b9b3-aec62df2a8d8",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 蛋仔家的小院，一个完整院子：左侧圆石桌/石凳，右侧花坛/花盆/浇水壶，后方狗窝/狗绳挂钩/门口地垫，中间草地/石板路，午后暖光；低机位；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质），柔和景深。\n无人物、无动物、无文字、无 logo、无水印。\n负向：人类、角色、动物、文字、水印、logo、过曝、塑料高光过强、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-f20de25c",
+        "type": "gen-image",
+        "mainOutputId": "output-d26ceae04e",
+        "meta": {
+          "x": 359.0,
+          "y": 392.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】A03 小蛇设定 · 真实可爱小蛇 · 1K",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-d26ceae04e",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091447-71df6f0f389a77a0-9cbf0919e80c2e3e96710d.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091447-71df6f0f389a77a0-9cbf0919e80c2e3e96710d.png",
+            "name": "9cbf0919e80c2e3e96710d.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "ai",
+            "batchId": "nexec-graph-7179d4fd40e540b14a3e248a7b8c69bf29b40a1c44fb6ff2e4cf70f30fb7cafc",
+            "execution": {
+              "groupId": "group-8408eabf",
+              "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "33103648-99df-5253-b4d5-c975b20ef938",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只小蛇：圆头、大眼、绿色鳞片、浅黄肚皮、小小的分叉舌头；可爱、无尖牙、不恐怖；身体盘成一圈、微微抬头；体长约蛋仔 2–3 倍；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质），轻微高光。\n背景 #FFFFFF 纯白，无投影、无文字、无水印、无 logo、无手。\n负向：真实蛇、恐怖、尖牙、毒牙、人类、手指、文字、水印、logo、比例失真、玩具蛇。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-a7f97bc6",
+        "type": "gen-image",
+        "mainOutputId": "output-8ae37dc3e8",
+        "meta": {
+          "x": 360.0,
+          "y": 600.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】A04 金毛设定 · 1K",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-8ae37dc3e8",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091445-46d7c96820686030-507a32c26755594a373167.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091445-46d7c96820686030-507a32c26755594a373167.png",
+            "name": "507a32c26755594a373167.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "ai",
+            "batchId": "nexec-graph-f6448539e9f51dadce7a2eecaa401ba50501560886fbc272ee406a5b54ba499b",
+            "execution": {
+              "groupId": "group-8408eabf",
+              "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-e1a10d27e94944459bc52a3483cb4b36",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "23577b7a-48c9-5c6f-b92e-abd339c19ac6",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只金毛犬：坐姿、摇尾、吐舌、可爱；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质），轻微高光。\n背景 #FFFFFF 纯白，无投影、无文字、无水印、无 logo、无手。\n负向：真实照片、恐怖、人类、手指、文字、水印、logo、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-8bb56275",
+        "type": "gen-image",
+        "mainOutputId": "output-e4bf9f4acc",
+        "meta": {
+          "x": 1140.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】K_A 首帧 · 石桌 · 复用旧图（白片无瞳·仅心易）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-e4bf9f4acc",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061748-e7c190e70166aed3-a878e732e896da4ada281c.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061748-e7c190e70166aed3-a878e732e896da4ada281c.png",
+            "name": "a878e732e896da4ada281c.png",
+            "resolution": null,
+            "source": "ai",
+            "batchId": "nexec-graph-ed3c6930af8a85b9048dcf7373afc61235b9c09ceba565d83bffb824da605bef",
+            "execution": {
+              "groupId": null,
+              "graphRunId": "graph-74164d5378124608aaa444e030356121",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-74164d5378124608aaa444e030356121",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "15258031-c476-58f6-8806-d4a5fa8ab7ba",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:15:07.604000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:17:49.614000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感首帧，第0秒，只生成一张。小院石桌角（参考 {{node-d67c8efd}}）：双人中景，心易（参考 {{node-34b2e592}}，棕色水豚/卡皮巴拉毛绒玩偶）在画面左1/3，从石桌后探出半个身子，头顶橘子；【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程完全不变；不眨眼、不眯眼、不抬眼皮、不皱眉、不出现瞳孔/黑瞳/眼珠、不放大缩小、不出现泪光；情绪只靠歪头/身体/手势/咔啵。**黄蛋不受此限制：黄蛋的眼睛可以正常眨眼、看、做表情，不要套用。** 镜头以中景/中近景为主，不要心易眼睛大特写。\n**眼睛必须严格参考 {{node-232c17c7}}：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；不要眼皮、不要眉毛、不要黑色瞳孔/眼珠/高光点、不要拟人化眼神**；黄蛋（参考 {{node-1faaa430}}，毛绒黄蛋）在画面右1/3，看向心易。无气泡、无文字、无字幕。低机位，午后暖光，3D卡通+真实光影。\n负向：心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼神变化、心易的眼球转动、心易的泪光、睫毛、眼影、虹膜变色、眼睛变形、卡通大眼、拟人化眼神、心易的眼睛大特写；不要限制黄蛋的眼睛，不要给黄蛋加眼罩/无眼/死鱼眼、旧心易/粉蛋/猫耳/天线、眼皮、眉毛、黑色瞳孔、眼珠、大眼珠、高光点、拟人化眼神、气泡、文字、字幕、logo、人类、比例失真、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-3b85595e"
+              },
+              {
+                "node_id": "node-1faaa430"
+              },
+              {
+                "node_id": "node-34b2e592"
+              },
+              {
+                "node_id": "node-232c17c7"
+              },
+              {
+                "node_id": "node-d67c8efd"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:17:49.614000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-7bc3ca9e",
+        "type": "gen-image",
+        "mainOutputId": "output-5604a69dd7",
+        "meta": {
+          "x": 1140.0,
+          "y": 640.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】KC 三张词卡 · rocklike/snakelike/doglike · 1K",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-5604a69dd7",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-502421ebf4/image/20261030-100704-1245cb1006d07a96-1d3c9e4bbcccca8b6cc3e8.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-502421ebf4/image/20261030-100704-1245cb1006d07a96-1d3c9e4bbcccca8b6cc3e8.png",
+            "name": "1d3c9e4bbcccca8b6cc3e8.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": "ai",
+            "batchId": "nexec-graph-c0cd3c70ed00334c15f2b784ec415fde656834b583f6315e33533d9a92d5b2f9",
+            "execution": {
+              "groupId": "group-5e31ca84",
+              "graphRunId": "graph-838ae66101e24e2983ad37df44603059",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-838ae66101e24e2983ad37df44603059",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "ee9894b8-6ede-5a32-877d-a203bfdfa677",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 三张词卡摆在木桌上，只生成一张。三张等大、略错落；米白卡片、浅灰边；每张写：第一张“rocklike / 像石头一样（坚固的）”；第二张“snakelike / 像蛇一样（蜿蜒的）”；第三张“doglike / 像狗一样（忠诚的）”。黑色手写感字，红色关键词。小院背景虚化，午后暖光。\n除上述内容外无其他文字、无水印、无 logo、无人类、无手。\n负向：拼写错误、乱码、多余文字、水印、logo、比例失真、文字重叠、串卡。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-0c21fa45",
+        "type": "gen-video",
+        "mainOutputId": "output-1a1e271750",
+        "meta": {
+          "x": 1580.0,
+          "y": 0.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成·无瞳锁眼】V1 · 10s · 开头3气泡＋rocklike＋心易夸＋走向花坛（不报词）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【风格】23s 快问快答，横屏；小院石桌角；心易只发“咔啵”，不说话；黄蛋说话；视频内无文字/气泡；结尾走向花坛。开头放慢，按 3 口气泡的说话时间。\n【角色】心易（参考 {{node-8bb56275}} 中的水豚）：棕色水豚/卡皮巴拉毛绒玩偶，奶油色大脸板、橘色腮红、小棕耳、一字嘴、白肚、棕色短手短脚、奶油色脚踝、头顶橘子；**眼睛严格按 {{node-232c17c7}}：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；不要眼皮/眉毛/放大瞳孔/拟人化**；只发“咔啵”，无台词。黄蛋：毛绒黄蛋（参考 {{node-1faaa430}}）；说话的人。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程完全不变；不眨眼、不眯眼、不抬眼皮、不皱眉、不出现瞳孔/黑瞳/眼珠、不放大缩小、不出现泪光；情绪只靠歪头/身体/手势/咔啵。**黄蛋不受此限制：黄蛋的眼睛可以正常眨眼、看、做表情，不要套用。** 镜头以中景/中近景为主，不要心易眼睛大特写。\n【图片引用】{{node-8bb56275}}=首帧；{{node-3b85595e}}=身高比例；{{node-1faaa430}}=毛绒黄蛋；{{node-d67c8efd}}=小院；{{node-232c17c7}}=眼睛参考。\n0–1.2 秒：心易看镜头/黄蛋，发“咔啵。”（平调，像“听着”）；黄蛋听。\n1.2–3.4 秒：心易发“咔啵！”（强调/上扬，像“对！”）；黄蛋听。\n3.4–5.0 秒：心易发“咔啵？”（升调疑问，像“嗯？”）；黄蛋准备答。\n5.0–8.4 秒：黄蛋：“rock 是石头——rocklike 就是像石头一样，坚固的！”黄蛋拍石桌；语速正常，不赶。\n8.4–9.2 秒：心易发“咔啵！”（开心、短促，像“真不错！”）；黄蛋点头，**黄蛋不说“真不错”**。\n9.2–10 秒：黄蛋只做“走”的手势，**不报下一个词**；两人转身朝花坛走；镜尾停在花坛入口。\n【声音】黄蛋人声；心易只有三声“咔啵”；环境声；无 BGM。\n负向：心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼神变化、心易的眼球转动、心易的泪光、睫毛、眼影、虹膜变色、眼睛变形、卡通大眼、拟人化眼神、心易的眼睛大特写；不要限制黄蛋的眼睛，不要给黄蛋加眼罩/无眼/死鱼眼、视频内文字/气泡/字幕、心易说人话/加词、眼皮/眉毛/放大瞳孔/大眼珠、旧心易/粉蛋/猫耳/天线、logo、口型穿帮、慢速横移、渐变、白场、过曝、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-3b85595e"
+              },
+              {
+                "node_id": "node-1faaa430"
+              },
+              {
+                "node_id": "node-d67c8efd"
+              },
+              {
+                "node_id": "node-8bb56275"
+              },
+              {
+                "node_id": "node-232c17c7"
+              }
+            ],
+            "reference_videos": [],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-8bb56275"
+            },
+            "last_frame_image": null,
+            "aspect_ratio": "16:9",
+            "resolution": "480p",
+            "duration": 10,
+            "generate_audio": true,
+            "seed": -1,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:24:22.105000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-1b546606",
+        "type": "gen-video",
+        "mainOutputId": "output-3a3f5c565c",
+        "meta": {
+          "x": 1580.0,
+          "y": 300.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成·无瞳锁眼】V2 · 6s · snakelike＋心易夸＋走向狗窝（狗在窝里·不报词）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【风格】23s 快问快答，横屏；花坛入口；心易只发“咔啵”，不说话；黄蛋说话；视频内无文字/气泡；结尾走向狗窝。\n【角色】心易（参考 {{node-1caa8aa0}} 中的水豚）：棕色水豚玩偶，奶油脸、橘腮红、小棕耳、一字嘴、白肚、棕短手短脚、头顶橘子；**眼睛严格按 {{node-232c17c7}}：白色圆眼片、中心无瞳孔、外圈深棕线、无高光点；不要眼皮/眉毛/放大瞳孔**；只发“咔啵”，无台词。黄蛋：毛绒黄蛋（参考 {{node-1faaa430}}）；说话的人。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程完全不变；不眨眼、不眯眼、不抬眼皮、不皱眉、不出现瞳孔/黑瞳/眼珠、不放大缩小、不出现泪光；情绪只靠歪头/身体/手势/咔啵。**黄蛋不受此限制：黄蛋的眼睛可以正常眨眼、看、做表情，不要套用。** 镜头以中景/中近景为主，不要心易眼睛大特写。\n【图片引用】{{node-1caa8aa0}}=首帧（必须从该帧完全接续，不要重新构图）；{{node-3b85595e}}=身高比例；{{node-1faaa430}}=毛绒黄蛋；{{node-d67c8efd}}=小院；{{node-f20de25c}}=小蛇；{{node-a7f97bc6}}=金毛（狗窝里）；{{node-232c17c7}}=眼睛参考。\n0–0.5 秒：从 T_A 花坛入口开始；心易发“咔啵？”（升调）。\n0.5–3.6 秒：黄蛋：“snake 是蛇——snakelike 就是像蛇一样，蜿蜒的！”心易整臂蛇形；小蛇从花丛滑出；语速正常。\n3.6–4.4 秒：心易发“咔啵！”（开心、短促，像“真棒！”）；黄蛋点头，**黄蛋不说“真棒”**。\n4.4–5.4 秒：黄蛋只做“走”的手势，**不报下一个词**（不要说 doglike）；两人转身朝狗窝走；镜尾停在狗窝入口。**金毛在狗窝里趴着/探出半个头，不要站在窝外**（T_B 要能看到狗在窝里）。\n5.4–6 秒：镜尾停在狗窝入口；金毛在窝里，不要站在窝外。\n【声音】黄蛋人声；心易只有“咔啵”；环境声；无 BGM。\n负向：心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼神变化、心易的眼球转动、心易的泪光、睫毛、眼影、虹膜变色、眼睛变形、卡通大眼、拟人化眼神、心易的眼睛大特写；不要限制黄蛋的眼睛，不要给黄蛋加眼罩/无眼/死鱼眼、视频内文字/气泡/字幕、心易说人话/加词、眼皮/眉毛/放大瞳孔/大眼珠、旧心易/粉蛋/猫耳/天线、logo、恐怖蛇、尖牙、慢速横移、渐变、白场、过曝、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-3b85595e"
+              },
+              {
+                "node_id": "node-1faaa430"
+              },
+              {
+                "node_id": "node-d67c8efd"
+              },
+              {
+                "node_id": "node-f20de25c"
+              },
+              {
+                "node_id": "node-1caa8aa0"
+              },
+              {
+                "node_id": "node-232c17c7"
+              },
+              {
+                "node_id": "node-a7f97bc6"
+              }
+            ],
+            "reference_videos": [],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-1caa8aa0"
+            },
+            "last_frame_image": null,
+            "aspect_ratio": "16:9",
+            "resolution": "480p",
+            "duration": 6,
+            "generate_audio": true,
+            "seed": -1,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:24:23.576000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-4aabdc25",
+        "type": "gen-video",
+        "mainOutputId": "output-d1b90c7e13",
+        "meta": {
+          "x": 1580.0,
+          "y": 600.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成·无瞳锁眼】V3 · 7s · doglike＋心易夸＋狗从窝里出来＋三卡（首帧 T_B）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【风格】23s 快问快答，横屏；狗窝入口；**金毛在狗窝里**；心易只发“咔啵”，不说话；黄蛋说话；视频内无文字/气泡；结尾三卡/“你记住了多少？”\n【角色】心易（参考 {{node-156ba819}} 中的水豚）：棕色水豚玩偶，奶油脸、橘腮红、小棕耳、一字嘴、白肚、棕短手短脚、头顶橘子；**眼睛严格按 {{node-232c17c7}}：白色圆眼片、中心无瞳孔、外圈深棕线、无高光点；不要眼皮/眉毛/放大瞳孔**；只发“咔啵”，无台词。黄蛋：毛绒黄蛋（参考 {{node-1faaa430}}）；说话的人。\n【心易眼睛·仅限心易】心易是毛绒玩具，眼睛是固定塑料/刺绣件，不是生物眼：白色圆形眼片，中心没有黑色瞳孔；外圈一圈深棕色细描边；眼片中心保持空白，没有高光点；眼片形状、外圈深棕线、中心空白全程完全不变；不眨眼、不眯眼、不抬眼皮、不皱眉、不出现瞳孔/黑瞳/眼珠、不放大缩小、不出现泪光；情绪只靠歪头/身体/手势/咔啵。**黄蛋不受此限制：黄蛋的眼睛可以正常眨眼、看、做表情，不要套用。** 镜头以中景/中近景为主，不要心易眼睛大特写。\n【图片引用】{{node-156ba819}}=首帧（必须从该帧完全接续）；{{node-3b85595e}}=身高比例；{{node-1faaa430}}=毛绒黄蛋；{{node-55532172}}=狗绳/词卡；{{node-d67c8efd}}=小院；{{node-a7f97bc6}}=金毛；{{node-7bc3ca9e}}=三张词卡版式；{{node-232c17c7}}=眼睛参考。\n0–0.5 秒：从 T_B 狗窝入口开始；**金毛在狗窝里探出半个身子/趴着**；心易发“咔啵？”（升调）。\n0.5–3.6 秒：黄蛋：“dog 是狗——doglike 就是像狗一样，忠诚的！”心易拿狗绳；**金毛从狗窝里钻出来/跳出来，摇尾**；语速正常。\n3.6–4.4 秒：心易发“咔啵！”（开心、短促，像“真棒！”）；黄蛋点头，**黄蛋不说“真棒”**。\n4.4–5.6 秒：黄蛋：“你记住了多少？”心易指桌上的三张卡（{{node-7bc3ca9e}} 版式）。\n5.6–7 秒：三卡定格；心易点头；镜尾定格。\n【声音】黄蛋人声；心易只有“咔啵”；环境声；无 BGM。\n负向：心易的眼皮、心易的眼睑、心易的眉毛、心易的眨眼、心易的眯眼、心易的半闭眼、心易的黑瞳、心易的眼珠、心易的虹膜、心易的瞳孔、心易的高光点、心易的眼神变化、心易的眼球转动、心易的泪光、睫毛、眼影、虹膜变色、眼睛变形、卡通大眼、拟人化眼神、心易的眼睛大特写；不要限制黄蛋的眼睛，不要给黄蛋加眼罩/无眼/死鱼眼、视频内文字/气泡/字幕、心易说人话/加词、眼皮/眉毛/放大瞳孔/大眼珠、旧心易/粉蛋/猫耳/天线、logo、口型穿帮、慢速横移、渐变、白场、过曝、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-3b85595e"
+              },
+              {
+                "node_id": "node-1faaa430"
+              },
+              {
+                "node_id": "node-55532172"
+              },
+              {
+                "node_id": "node-d67c8efd"
+              },
+              {
+                "node_id": "node-a7f97bc6"
+              },
+              {
+                "node_id": "node-7bc3ca9e"
+              },
+              {
+                "node_id": "node-156ba819"
+              },
+              {
+                "node_id": "node-232c17c7"
+              }
+            ],
+            "reference_videos": [],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-156ba819"
+            },
+            "last_frame_image": null,
+            "aspect_ratio": "16:9",
+            "resolution": "480p",
+            "duration": 7,
+            "generate_audio": true,
+            "seed": -1,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:24:25.046000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-ce285427",
+        "type": "input-text",
+        "mainOutputId": "output-eda35f25cf",
+        "meta": {
+          "x": 755.0,
+          "y": 1300.0,
+          "width": 760.0,
+          "height": 600.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-eda35f25cf",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔记单词》-like 三词样片「水豚心易＋毛绒黄蛋·尾帧链」v2：rocklike／snakelike／doglike，10＋6＋7＝23s。\n开头放慢：0–5s 三口气泡（like 是像 / 加 like 就是像它一样 / rocklike 是什么），心易三声咔啵；黄蛋 5s 后才答。\n心易＝棕色水豚只发“咔啵”；黄蛋＝毛绒黄蛋说话；视频内无文字/气泡；白字/夸赞气泡后期加。\nA01–A04、R01P、KC、K_A 复用；只重生成 V1/V2/V3；T_A/T_B 截尾帧替换。\n\n【跑序】\n1. K_A 已复用，不用跑。\n2. 跑 V1（10s）；截最后一帧替换 T_A。\n3. 跑 V2（6s，首帧 T_A）；截最后一帧替换 T_B。\n4. 跑 V3（7s，首帧 T_B）。\n5. 后期：开头三气泡、心易夸赞气泡、横排字幕；只加 BGM/环境声。\n\n【口径】\n- 心易是水豚，不是蛋仔/猫耳；头顶橘子保留；只发“咔啵”，无其他词。\n- 眼睛严格按 R02F：白圆眼白、黑小圆瞳、单高光；不要眼皮/眉毛/放大瞳孔/拟人化。\n- 夸赞由心易发“咔啵！”；黄蛋不再说“真不错/真棒”。\n- V1 结尾走到花坛入口；V2 结尾走到狗窝入口；T_A/T_B 必须用真实尾帧替换。\n- 视频内无文字/气泡；字幕/气泡后期。\n",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:36.446000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:13:36.446000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:13:58.955000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-1faaa430",
+        "type": "gen-image",
+        "mainOutputId": "output-03870d1217",
+        "meta": {
+          "x": 360.0,
+          "y": 800.0,
+          "width": 300.0,
+          "height": 197.0,
+          "label": "【已生成】R01P 黄蛋毛绒版 · 同水豚短毛绒质感",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-03870d1217",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061428-df1b8807e3f837ac-96657f80b9e62d2679b7ae.png",
+            "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061428-df1b8807e3f837ac-96657f80b9e62d2679b7ae.png",
+            "name": "96657f80b9e62d2679b7ae.png",
+            "resolution": null,
+            "source": "ai",
+            "batchId": "nexec-graph-d10554149e6e3fcc4cab93e10dcc3e662470f109128f32ec9c2a45160bc10961",
+            "execution": {
+              "groupId": null,
+              "graphRunId": "graph-d9404e6dd5a3483a8a3b355cdbf1599a",
+              "iterationPath": "/"
+            },
+            "graphRunId": "graph-d9404e6dd5a3483a8a3b355cdbf1599a",
+            "iterationPath": "/",
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": "0d7ecb38-5a84-510b-849f-c09cac5b5fd6",
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T14:13:58.761000+08:00",
+            "createdBy": "mailgo.n31738",
+            "updatedAt": "2026-11-02T14:14:31.947000+08:00",
+            "updatedBy": "mailgo.n31738",
+            "metadata": null
+          }
+        ],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只黄蛋（毛绒版），全身正面。\n保留黄蛋身份：黄色蛋形身体、奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；没有牙齿。\n材质改成和参考水豚玩偶一致的**短毛绒/毛毡玩偶质感**：表面细短绒毛、可见纤维、柔和缝线、哑光；脸板是奶油色毛毡/布；眼睛是亮面塑料/刺绣；天线球是布球；袜子/鞋是白布；边缘有轻微绒毛轮廓；柔光棚拍，轻微投影。\n不要：光滑塑料/搪胶、真实鸡蛋、蛋壳裂开、蛋黄/蛋液、牙齿、人类手指、猫耳/水豚耳朵、橘子、文字/logo/水印。\n负向：光滑塑料、真实照片、人类、手指、牙齿、裂壳、蛋液、蛋黄、文字、logo、水印、比例失真。",
+            "reference_images": [
+              {
+                "node_id": "node-1dec7c6e"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T14:13:36.446000+08:00",
+        "createdBy": "mailgo.n31738",
+        "updatedAt": "2026-11-02T14:14:31.947000+08:00",
+        "updatedBy": "mailgo.n31738"
+      },
+      {
+        "id": "node-232c17c7",
+        "type": "input-image",
+        "mainOutputId": "output-e32a554e7f",
+        "meta": {
+          "x": 0.0,
+          "y": 1010.0,
+          "width": 220.0,
+          "height": 368.4,
+          "label": "R02F 心易脸部/眼睛参考（白片＋深棕圈·无瞳孔）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-e32a554e7f",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-065612-d1b27798ec4a1cfa-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e8-8.png",
+            "cover": null,
+            "name": "心易-水豚-脸部.png",
+            "resolution": {
+              "width": 430,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:00:21.295+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T15:00:21.295+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 381918,
+              "md5": "bd9fb2dfcf53e20eff8e0453ec5e7763"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-1caa8aa0",
+        "type": "input-image",
+        "mainOutputId": "output-2e5baa88a7",
+        "meta": {
+          "x": 1140.0,
+          "y": 800.0,
+          "width": 300.0,
+          "height": 168.75,
+          "label": "【待替换⚠】T_A V1 尾帧 → V2 首帧（截 V1 最后一帧替换）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-2e5baa88a7",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+            "cover": null,
+            "name": "T_A-占位-1280x720.jpg",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:00:21.295+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T15:00:21.295+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 59049,
+              "md5": "731a5a04d57f812140cfd6c5e6301ce3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-156ba819",
+        "type": "input-image",
+        "mainOutputId": "output-dfaa00587f",
+        "meta": {
+          "x": 1140.0,
+          "y": 1000.0,
+          "width": 300.0,
+          "height": 168.75,
+          "label": "【待替换⚠】T_B V2 尾帧 → V3 首帧（截 V2 最后一帧替换）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-dfaa00587f",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+            "cover": null,
+            "name": "T_A-占位-1280x720.jpg",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-02T15:00:21.295+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-02T15:00:21.295+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 59049,
+              "md5": "731a5a04d57f812140cfd6c5e6301ce3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-3d65137c",
+        "sourceNodeId": "node-156ba819",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-8f645ae0",
+        "sourceNodeId": "node-1caa8aa0",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-0eb6f1b5",
+        "sourceNodeId": "node-1dec7c6e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1faaa430",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-243f57cc",
+        "sourceNodeId": "node-1faaa430",
+        "sourceHandle": "output",
+        "targetNodeId": "node-0c21fa45",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-31cb3abb",
+        "sourceNodeId": "node-1faaa430",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-77d947be",
+        "sourceNodeId": "node-1faaa430",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-f31267f1",
+        "sourceNodeId": "node-1faaa430",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8bb56275",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-77fbe226",
+        "sourceNodeId": "node-232c17c7",
+        "sourceHandle": "output",
+        "targetNodeId": "node-0c21fa45",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-b775d114",
+        "sourceNodeId": "node-232c17c7",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-63ee6a2d",
+        "sourceNodeId": "node-232c17c7",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-dde249ef",
+        "sourceNodeId": "node-232c17c7",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8bb56275",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-0d15e0c3",
+        "sourceNodeId": "node-34b2e592",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8bb56275",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-82fb205b",
+        "sourceNodeId": "node-3b85595e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-0c21fa45",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-6769ceef",
+        "sourceNodeId": "node-3b85595e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-afb75a88",
+        "sourceNodeId": "node-3b85595e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-9ae3dbb9",
+        "sourceNodeId": "node-3b85595e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8bb56275",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-e2ff7b19",
+        "sourceNodeId": "node-55532172",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-b1aff001",
+        "sourceNodeId": "node-7bc3ca9e",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-16161bde",
+        "sourceNodeId": "node-8bb56275",
+        "sourceHandle": "output",
+        "targetNodeId": "node-0c21fa45",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-277c4b5b",
+        "sourceNodeId": "node-a7f97bc6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-ece5a74a",
+        "sourceNodeId": "node-d67c8efd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-0c21fa45",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-02d6e48c",
+        "sourceNodeId": "node-d67c8efd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-114d25f9",
+        "sourceNodeId": "node-d67c8efd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4aabdc25",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-69c14727",
+        "sourceNodeId": "node-d67c8efd",
+        "sourceHandle": "output",
+        "targetNodeId": "node-8bb56275",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-d1f744b8",
+        "sourceNodeId": "node-f20de25c",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-33225e22",
+        "sourceNodeId": "node-a7f97bc6",
+        "sourceHandle": "output",
+        "targetNodeId": "node-1b546606",
+        "targetHandle": "input",
+        "createdAt": "2026-11-02T17:07:41.318+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T17:07:41.318+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-6b45671d",
+        "nodeIds": [
+          "node-3b85595e",
+          "node-1dec7c6e",
+          "node-34b2e592",
+          "node-232c17c7"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 1418.4
+        },
+        "label": "00 参考素材 · 黄蛋/黄蛋毛绒/水豚/脸部",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-c4010c0d",
+        "nodeIds": [
+          "node-55532172",
+          "node-d67c8efd",
+          "node-f20de25c",
+          "node-a7f97bc6",
+          "node-1faaa430"
+        ],
+        "bounds": {
+          "x": 339.0,
+          "y": -20.0,
+          "width": 341.0,
+          "height": 1037.0
+        },
+        "label": "01 道具/小院/小蛇/金毛/毛绒黄蛋",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-db715083",
+        "nodeIds": [
+          "node-8bb56275",
+          "node-1caa8aa0",
+          "node-156ba819",
+          "node-7bc3ca9e"
+        ],
+        "bounds": {
+          "x": 1120.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 1208.75
+        },
+        "label": "02 首帧/尾帧/词卡 · K_A、T_A、T_B、KC",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-6157c0fa",
+        "nodeIds": [
+          "node-0c21fa45"
+        ],
+        "bounds": {
+          "x": 1560.0,
+          "y": -20.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "03 视频 V1 · 6s · rocklike＋走向花坛",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-79bc014c",
+        "nodeIds": [
+          "node-1b546606"
+        ],
+        "bounds": {
+          "x": 1560.0,
+          "y": 280.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "04 视频 V2 · 4s · snakelike＋走向狗窝",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-282b0b40",
+        "nodeIds": [
+          "node-4aabdc25"
+        ],
+        "bounds": {
+          "x": 1560.0,
+          "y": 580.0,
+          "width": 380.0,
+          "height": 264.0
+        },
+        "label": "05 视频 V3 · 5s · doglike＋三卡",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-301a2aad",
+        "nodeIds": [
+          "node-ce285427"
+        ],
+        "bounds": {
+          "x": 735.0,
+          "y": 1280.0,
+          "width": 800.0,
+          "height": 640.0
+        },
+        "label": "06 制作说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-11-02T15:00:21.295+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-02T15:00:21.295+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

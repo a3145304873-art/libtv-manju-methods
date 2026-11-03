@@ -1,0 +1,216 @@
+{
+  "canvas": {
+    "id": "canvas-d88dd727ec",
+    "name": "蛋仔记单词 · -like 23s v7 · 心易＋毛绒黄蛋 · 狗在窝里",
+    "description": "",
+    "revision": "69",
+    "updatedAt": "2026-11-02T18:19:15.811000+08:00"
+  },
+  "counts": {
+    "nodes": 19,
+    "edges": 28,
+    "groups": 7
+  },
+  "outputs": [
+    {
+      "node": "node-3b85595e",
+      "label": "R00 四小只身高比例（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+      "file": "media\\R00_四小只身高比例（复用）_output-44437d1990.jpg",
+      "bytes": 77895
+    },
+    {
+      "node": "node-1dec7c6e",
+      "label": "R01 黄蛋标准（复用）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+      "file": "media\\R01_黄蛋标准（复用）_output-de608b1dbf.jpg",
+      "bytes": 86469
+    },
+    {
+      "node": "node-34b2e592",
+      "label": "R02 心易·水豚（单图锁定）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+      "file": "media\\R02_心易·水豚（单图锁定）_output-edce66252e.png",
+      "bytes": 258953
+    },
+    {
+      "node": "node-55532172",
+      "label": "【已生成】A01 道具 · 狗绳/三张词卡 · 1K",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091438-949e39ce34904ccd-32df52c665067da07d1826.png",
+      "file": "media\\【已生成】A01_道具_·_狗绳_三张词卡_·_1K_output-3e7c19fc2d.png",
+      "bytes": 796285
+    },
+    {
+      "node": "node-d67c8efd",
+      "label": "【已生成】A02 小院 · 石桌/花坛/狗窝 · 1K",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091451-7adbbcb1b5f01f2c-55a7fc3aca10c44a88745d.png",
+      "file": "media\\【已生成】A02_小院_·_石桌_花坛_狗窝_·_1K_output-92f4a1b27d.png",
+      "bytes": 1397888
+    },
+    {
+      "node": "node-f20de25c",
+      "label": "【已生成】A03 小蛇设定 · 真实可爱小蛇 · 1K",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091447-71df6f0f389a77a0-9cbf0919e80c2e3e96710d.png",
+      "file": "media\\【已生成】A03_小蛇设定_·_真实可爱小蛇_·_1K_output-d26ceae04e.png",
+      "bytes": 914469
+    },
+    {
+      "node": "node-a7f97bc6",
+      "label": "【已生成】A04 金毛设定 · 1K",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-143621ad40/image/20261030-091445-46d7c96820686030-507a32c26755594a373167.png",
+      "file": "media\\【已生成】A04_金毛设定_·_1K_output-8ae37dc3e8.png",
+      "bytes": 862369
+    },
+    {
+      "node": "node-8bb56275",
+      "label": "【已生成】K_A 首帧 · 石桌 · 复用旧图（白片无瞳·仅心易）",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061748-e7c190e70166aed3-a878e732e896da4ada281c.png",
+      "file": "media\\【已生成】K_A_首帧_·_石桌_·_复用旧图（白片无瞳·仅心易）_output-e4bf9f4acc.png",
+      "bytes": 1417533
+    },
+    {
+      "node": "node-7bc3ca9e",
+      "label": "【已生成】KC 三张词卡 · rocklike/snakelike/doglike · 1K",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/fengshuhao01/canvas-502421ebf4/image/20261030-100704-1245cb1006d07a96-1d3c9e4bbcccca8b6cc3e8.png",
+      "file": "media\\【已生成】KC_三张词卡_·_rocklike_snakelike_doglike_·_1K_output-5604a69dd7.png",
+      "bytes": 1234214
+    },
+    {
+      "node": "node-0c21fa45",
+      "label": "【待生成·无瞳锁眼】V1 · 10s · 开头3气泡＋rocklike＋心易夸＋走向花坛（不报词）",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/video/20261102-100057-4bb15cae74c718c1-02179361341890100000000000000000000ffffa.mp4",
+      "file": "media\\【待生成·无瞳锁眼】V1_·_10s_·_开头3气泡＋rocklike＋心易夸＋走向花坛（不报词）_output-ec4901d54a.mp4",
+      "bytes": 3303059
+    },
+    {
+      "node": "node-1b546606",
+      "label": "【待生成·无瞳锁眼】V2 · 6s · snakelike＋心易夸＋走向狗窝（狗在窝里·不报词）",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/video/20261102-100457-7bbe5dac6f194e89-02179361371919100000000000000000000ffffa.mp4",
+      "file": "media\\【待生成·无瞳锁眼】V2_·_6s_·_snakelike＋心易夸＋走向狗窝（狗在窝里·不报词）_output-a06e876e7f.mp4",
+      "bytes": 2720505
+    },
+    {
+      "node": "node-4aabdc25",
+      "label": "【待生成·无瞳锁眼】V3 · 7s · doglike＋心易夸＋狗从窝里出来＋三卡（首帧 T_B）",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/video/20261102-101041-a06f9ef3c1c70c8c-02179361400263800000000000000000000ffffa.mp4",
+      "file": "media\\【待生成·无瞳锁眼】V3_·_7s_·_doglike＋心易夸＋狗从窝里出来＋三卡（首帧_T_B）_output-b6f868fc78.mp4",
+      "bytes": 2693685
+    },
+    {
+      "node": "node-1faaa430",
+      "label": "【已生成】R01P 黄蛋毛绒版 · 同水豚短毛绒质感",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-061428-df1b8807e3f837ac-96657f80b9e62d2679b7ae.png",
+      "file": "media\\【已生成】R01P_黄蛋毛绒版_·_同水豚短毛绒质感_output-03870d1217.png",
+      "bytes": 947659
+    },
+    {
+      "node": "node-232c17c7",
+      "label": "R02F 心易脸部/眼睛参考（白片＋深棕圈·无瞳孔）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-065612-d1b27798ec4a1cfa-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e8-8.png",
+      "file": "media\\R02F_心易脸部_眼睛参考（白片＋深棕圈·无瞳孔）_output-e32a554e7f.png",
+      "bytes": 381918
+    },
+    {
+      "node": "node-1caa8aa0",
+      "label": "【待替换⚠】T_A V1 尾帧 → V2 首帧（截 V1 最后一帧替换）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+      "file": "media\\【待替换⚠】T_A_V1_尾帧_→_V2_首帧（截_V1_最后一帧替换）_output-2e5baa88a7.jpg",
+      "bytes": 59049
+    },
+    {
+      "node": "node-1caa8aa0",
+      "label": "【待替换⚠】T_A V1 尾帧 → V2 首帧（截 V1 最后一帧替换）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/image/20261102-100140-52a1ec6cb976cdc2-e5-b0-be-e5-b8-a7-e3-80-90-e5-be-85-e7-9.jpg",
+      "file": "media\\【待替换⚠】T_A_V1_尾帧_→_V2_首帧（截_V1_最后一帧替换）_output-afe8db4554.jpg",
+      "bytes": 116178
+    },
+    {
+      "node": "node-156ba819",
+      "label": "【待替换⚠】T_B V2 尾帧 → V3 首帧（截 V2 最后一帧替换）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+      "file": "media\\【待替换⚠】T_B_V2_尾帧_→_V3_首帧（截_V2_最后一帧替换）_output-dfaa00587f.jpg",
+      "bytes": 59049
+    },
+    {
+      "node": "node-156ba819",
+      "label": "【待替换⚠】T_B V2 尾帧 → V3 首帧（截 V2 最后一帧替换）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/image/20261102-100621-0be7567809ea047a-e5-b0-be-e5-b8-a7-e3-80-90-e5-be-85-e7-9.jpg",
+      "file": "media\\【待替换⚠】T_B_V2_尾帧_→_V3_首帧（截_V2_最后一帧替换）_output-fe2c620d0c.jpg",
+      "bytes": 88320
+    },
+    {
+      "node": "node-jiR-yEB7",
+      "label": "尾帧_【待生成·无瞳锁眼】V1 · 10s · 开头3气泡＋",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/image/20261102-100140-52a1ec6cb976cdc2-e5-b0-be-e5-b8-a7-e3-80-90-e5-be-85-e7-9.jpg",
+      "file": "media\\尾帧_【待生成·无瞳锁眼】V1_·_10s_·_开头3气泡＋_output-f998503d02.jpg",
+      "bytes": 116178
+    },
+    {
+      "node": "node-I2E1O1P9",
+      "label": "尾帧_【待生成·无瞳锁眼】V2 · 6s · snakeli",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d88dd727ec/image/20261102-100621-0be7567809ea047a-e5-b0-be-e5-b8-a7-e3-80-90-e5-be-85-e7-9.jpg",
+      "file": "media\\尾帧_【待生成·无瞳锁眼】V2_·_6s_·_snakeli_output-649021e4f5.jpg",
+      "bytes": 88320
+    }
+  ]
+}

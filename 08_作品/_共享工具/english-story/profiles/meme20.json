@@ -1,0 +1,31 @@
+{
+  "id": "meme20",
+  "status": "validate-only",
+  "title": "玩梗英语 · 20s · V1 8s + T_A + V2 9s + 单卡 3s",
+  "source": "23-玩梗英语-标准模板 v1",
+  "total": 20,
+  "segments": [
+    { "id": "V1", "start": 0, "end": 8 },
+    { "id": "V2", "start": 8, "end": 17 }
+  ],
+  "screen": { "start": 0, "end": 17 },
+  "card": { "start": 17, "end": 20, "rows": 3, "count": 1 },
+  "shots": null,
+  "max_props": 4,
+  "cast": ["huangdan", "xinyi"],
+  "tail_frame": true,
+  "narration": true,
+  "require_word_in_line": true,
+  "card_style": "米白卡、浅灰边、红色单词、黑色“谐音 → 词义”，无小字",
+  "video": {
+    "model_id": "seedance-2.0-mini",
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true
+  },
+  "notes": [
+    "V1 结尾必须停在稳定姿势 1s，截尾帧换 T_A 后才跑 V2。",
+    "旁白在 V2 视频内生成，不是后期。",
+    "画布 builder 尚未接这一档（validate-only）；故事层校验已生效。"
+  ]
+}

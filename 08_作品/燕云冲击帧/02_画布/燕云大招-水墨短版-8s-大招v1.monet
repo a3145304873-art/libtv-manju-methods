@@ -1,0 +1,580 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-03T17:05:00.000+08:00",
+ "canvas": {
+  "name": "燕云大招 · 水墨短版 v1（8s）",
+  "description": "国漫写实为底 · 8s 直出 · 四候选：V1 万剑归宗 / V2 泼墨吞世（恢弘水墨） / V3 千丈寒剑·天开 / V4 冰龙贯野。reference 模式挂 A1 脸 + A2 全身 + A5 武器；身高 185cm 暂定。30s 参考是循环/拼贴，不是单条 30s；8s 单条，30s 用剪辑循环。",
+  "nodes": [
+   {
+    "id": "node-7fa41b71",
+    "type": "input-image",
+    "mainOutputId": "output-7fa41b71",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【来源记录】P1 角色（白发剑客）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-7fa41b71",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122555-bb6fa0be7e68df3f-p1-e4-ba-ba-e7-89-a9-e7-99-bd-e5-8f-91-e.png",
+      "cover": null,
+      "name": "P1.png",
+      "resolution": {
+       "width": 526,
+       "height": 533
+      },
+      "metadata": {
+       "size": 572149,
+       "md5": "7e5dbc051eff3e58b92f5a973c017d1a"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-40e850ac",
+    "type": "input-image",
+    "mainOutputId": "output-40e850ac",
+    "meta": {
+     "x": 20,
+     "y": 250,
+     "width": 320,
+     "height": 200,
+     "label": "【来源记录】P2 武器（藏音·龙跃霄汉）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-40e850ac",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122556-5df2712152eae9b4-p2-e6-ad-a6-e5-99-a8-e9-be-99-e8-b7-83-e.png",
+      "cover": null,
+      "name": "P2.png",
+      "resolution": {
+       "width": 632,
+       "height": 711
+      },
+      "metadata": {
+       "size": 528519,
+       "md5": "df2829d66050b0a95f9c6819ac355f86"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-50db1677",
+    "type": "input-text",
+    "mainOutputId": "output-50db1677",
+    "meta": {
+     "x": 20,
+     "y": 480,
+     "width": 320,
+     "height": 460,
+     "label": "S1 角色/武器/画风设定",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-50db1677",
+      "status": "done",
+      "error": null,
+      "value": "【画风】国漫写实为底；候选覆盖 仙侠特效大片 / 恢弘水墨 两种质感（见各候选的通用基底）。\n【角色】白发剑客，身高约一米八五（暂定），身形颀长挺拔、肩宽腰窄，白发束起，白袍黑腰封，双臂薄冰，冷峻；右手单手握剑，虎口贴剑格，左手掐剑诀。\n【武器】藏音·龙跃霄汉：剑；冰泉色剑身、擎冰刃口、炼虹剑颚、曜日一点明光；剑身不整体发光，只留一道冷白高光；全片只有一把剑。\n【色彩】冷冽青蓝灰；冰蓝；曜金一点；不出现红（水墨候选为黑白墨色+曜金）。\n【场景】雪原古战场，残破石台与断裂巨柱，群山枯林，暴雪。",
+      "cover": null,
+      "name": "S1 角色/武器/画风设定",
+      "resolution": null,
+      "metadata": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-e3fec678",
+    "type": "input-image",
+    "mainOutputId": "output-e3fec678",
+    "meta": {
+     "x": 420,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A1 脸部（挂 V1–V4）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-e3fec678",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+      "cover": null,
+      "name": "A1.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-bdfd689f",
+    "type": "input-image",
+    "mainOutputId": "output-bdfd689f",
+    "meta": {
+     "x": 780,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A2 全身（挂 V1–V4 锁服装比例）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-bdfd689f",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+      "cover": null,
+      "name": "A2.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-8bd74443",
+    "type": "input-image",
+    "mainOutputId": "output-8bd74443",
+    "meta": {
+     "x": 420,
+     "y": 340,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A5 武器（挂 V1–V4）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-8bd74443",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "cover": null,
+      "name": "A5.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "metadata": {
+       "size": null,
+       "md5": null
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-c1f5b80e",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1180,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【候选】V1 万剑归宗 8s",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "16:9，8 秒，东方仙侠大招《万剑归宗》，一条直出。\n【引用图片说明】{{node-e3fec678}}＝角色脸（保持同一人）；{{node-bdfd689f}}＝全身与服装比例（白发束起、白袍黑腰封、双臂薄冰、身形颀长）；{{node-8bd74443}}＝武器（藏音·龙跃霄汉：冰泉色剑身、擎冰刃口、炼虹剑颚、曜日一点明光；剑身不整体发光，只留一道冷白高光；全片只有这一把剑）。\n【通用基底】顶级东方仙侠特效大片，IMAX 电影级画质，国漫写实 CG；冷冽青蓝色调，刺目金白剑芒；写实金属、冰雪与布料材质，体积光；4K，24fps，无穿模，动作凌厉，运镜恢弘丝滑。\n【速度与打击】节奏先慢后爆：蓄势拍用慢动作压住，出手拍骤然爆发、快到肉眼难辨，多用“瞬间、极速、闪现、快到肉眼难辨、骤然爆发、残影”等速度描述；命中瞬间插入冲击帧与 0.1s 抽帧顿挫，镜头猛沉后急速回弹；出手段全程极限高速动态模糊与残影拖尾；所有音效随动作瞬间触发，命中配破空音爆。\n【角色】主角是身高约一米八五的青年剑客，身形颀长挺拔、肩宽腰窄，白发束起，白袍黑腰封，双臂覆薄冰，气质冷峻；右手单手握剑，虎口贴剑格，左手掐剑诀。大远景中人物与奇观比例悬殊，人小势大。\n【场景】雪原古战场，残破石台与断裂巨柱半埋雪里，远处群山与枯林，暴雪低吹。\n0-2秒｜拔剑蓄势：微距特写转慢动作——古剑震颤、寒光凛冽，一声剑鸣响彻雪原；他缓缓拔剑，剑尖垂地，周身冰雾升腾；全段压住节奏，只为下一拍爆发。\n2-4秒｜万剑悬列：镜头极速后拉升起至遮天大全景——千百柄寒冰飞剑自雪原冰纹中破空而起，快到肉眼难辨、拖出冰蓝残影，悬浮列成旋转立体剑阵，遮蔽天光；亿万剑气交织，金属共振嗡鸣如潮。\n4-6秒｜万剑齐发：他挥剑下压，万剑如天河倒灌倾泻轰击大地——齐发瞬间快到只剩光，命中点连续插入白闪冲击帧与 0.1s 抽帧顿挫，镜头猛沉后急速回弹；纯物理贯穿，雪原被犁出纵横冰壑，剑气织成刺眼光网，冰晶碎屑如暴雪倒卷，破空音爆连成一片。\n6-8秒｜剑冢收势：大远景摇摄：万剑斜插遍野成无尽剑冢，剑雨仍连绵落下；他独立阵心、负手而立，人小势大；暴雪渐落，画面定格。\n【核心特效】遮天剑阵、万剑倾泻、剑气光网、无尽剑冢。\n【声音】无 BGM：蓄势段 风/低频/剑鸣；展开段 冰裂/低鸣/剑阵嗡鸣或龙吟；命中段 爆响/低频下潜/金石碎裂；收势段 余响/风/冰尘或墨尘飘落。\n【负向】不出现第二把剑、不多手、不换左手、不整体发光、不红眼、不出现红色、不出现西方翼龙、不出现对手尸体/血液、不生成字幕/UI/水印、不穿模、不全程慢动作；不出现水墨、二次元赛璐璐描边元素。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-e3fec678"
+       },
+       {
+        "node_id": "node-bdfd689f"
+       },
+       {
+        "node_id": "node-8bd74443"
+       }
+      ],
+      "reference_videos": [],
+      "reference_audios": [],
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration": 8,
+      "generate_audio": true,
+      "seed": -1
+     }
+    },
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-254eebb7",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1180,
+     "y": 340,
+     "width": 320,
+     "height": 280,
+     "label": "【候选】V2 泼墨吞世 8s",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "16:9，8 秒，恢弘水墨大招《泼墨吞世》，一条直出。\n【引用图片说明】{{node-e3fec678}}＝角色脸（保持同一人）；{{node-bdfd689f}}＝全身与服装比例（白发束起、白袍黑腰封、双臂薄冰、身形颀长）；{{node-8bd74443}}＝武器（藏音·龙跃霄汉：冰泉色剑身、擎冰刃口、炼虹剑颚、曜日一点明光；剑身不整体发光，只留一道冷白高光；全片只有这一把剑）。\n【通用基底】顶级国漫写实 CG，电影级画质；人物与雪原为写实光影，特效为浓墨水墨——墨色泼洒、飞白笔触、水墨巨龙与水墨画卷在写实体积光里展开；黑白墨色为主，曜金一点；4K，24fps，无穿模，运镜恢弘。\n【速度与打击】节奏先慢后爆：蓄势拍用慢动作压住，出手拍骤然爆发、快到肉眼难辨，多用“瞬间、极速、闪现、快到肉眼难辨、骤然爆发、残影”等速度描述；命中瞬间插入冲击帧与 0.1s 抽帧顿挫，镜头猛沉后急速回弹；出手段全程极限高速动态模糊与残影拖尾；所有音效随动作瞬间触发，命中配破空音爆。\n【角色】主角是身高约一米八五的青年剑客，身形颀长挺拔、肩宽腰窄，白发束起，白袍黑腰封，双臂覆薄冰，气质冷峻；右手单手握剑，虎口贴剑格，左手掐剑诀。大远景中人物与奇观比例悬殊，人小势大。\n【场景】雪原古战场，残破石台与断裂巨柱半埋雪里，远处群山与枯林，暴雪低吹。\n0-2秒｜凝神：面部特写用慢动作压住——他闭目，周身雪粒悬停；骤然睁眼，瞳孔后墨色自画面四角晕染开来，写实雪原开始被墨色浸染。\n2-4秒｜泼墨成龙：大袖一挥快到只剩残影——磅礴浓墨自剑锋狂涌爆出，刹那间凝成一条遮天水墨巨龙（东方龙，蛇形长身、四爪、鹿角）缠绕盘旋，龙躯横扫之处雪原瞬息化作黑白水墨山水，飞白如风。\n4-6秒｜吞世：水墨长龙挟画卷之势横扫吞没天地，快到只剩一道墨影掠过；群山、枯林、残柱接连被镇入黑白水墨长卷，画卷闭合瞬间插入 0.1s 抽帧顿挫与一记闷雷；曜金在龙眼处只留一点。\n6-8秒｜画卷收势：大远景俯拍极远景：整片天地被镇平成一幅水墨长卷；墨色缓缓褪去、世界自画卷中苏醒，他负手立于坑边剑尖点地，墨尘飘落；定格。\n【核心特效】泼墨成龙、水墨浸染天地、遮天水墨画卷、墨尘飘落。\n【声音】无 BGM：蓄势段 风/低频/剑鸣；展开段 冰裂/低鸣/剑阵嗡鸣或龙吟；命中段 爆响/低频下潜/金石碎裂；收势段 余响/风/冰尘或墨尘飘落。\n【负向】不出现第二把剑、不多手、不换左手、不整体发光、不红眼、不出现红色、不出现西方翼龙、不出现对手尸体/血液、不生成字幕/UI/水印、不穿模、不全程慢动作；不出现二次元赛璐璐描边画风，水墨只以特效形式出现在写实画面里。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-e3fec678"
+       },
+       {
+        "node_id": "node-bdfd689f"
+       },
+       {
+        "node_id": "node-8bd74443"
+       }
+      ],
+      "reference_videos": [],
+      "reference_audios": [],
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration": 8,
+      "generate_audio": true,
+      "seed": -1
+     }
+    },
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-017010d5",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1560,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【候选】V3 千丈寒剑·天开 8s",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "16:9，8 秒，东方仙侠大招《千丈寒剑·天开》，一条直出。\n【引用图片说明】{{node-e3fec678}}＝角色脸（保持同一人）；{{node-bdfd689f}}＝全身与服装比例（白发束起、白袍黑腰封、双臂薄冰、身形颀长）；{{node-8bd74443}}＝武器（藏音·龙跃霄汉：冰泉色剑身、擎冰刃口、炼虹剑颚、曜日一点明光；剑身不整体发光，只留一道冷白高光；全片只有这一把剑）。\n【通用基底】顶级东方仙侠史诗大片，IMAX 电影级质感，国漫写实 CG；青铜巨链与黑曜石、冰雪写实材质，神圣金光与冷冽青蓝对冲；4K，24fps，无穿模，运镜恢弘。\n【速度与打击】节奏先慢后爆：蓄势拍用慢动作压住，出手拍骤然爆发、快到肉眼难辨，多用“瞬间、极速、闪现、快到肉眼难辨、骤然爆发、残影”等速度描述；命中瞬间插入冲击帧与 0.1s 抽帧顿挫，镜头猛沉后急速回弹；出手段全程极限高速动态模糊与残影拖尾；所有音效随动作瞬间触发，命中配破空音爆。\n【角色】主角是身高约一米八五的青年剑客，身形颀长挺拔、肩宽腰窄，白发束起，白袍黑腰封，双臂覆薄冰，气质冷峻；右手单手握剑，虎口贴剑格，左手掐剑诀。大远景中人物与奇观比例悬殊，人小势大。\n【场景】雪原古战场，残破石台与断裂巨柱半埋雪里，远处群山与枯林，暴雪低吹。\n0-2秒｜蓄势：面部与剑格特写用慢动作压住——他闭目，周身雪粒悬停静止；骤然睁眼，瞳孔映出剑光，剑鸣刺耳。\n2-4秒｜挥剑指天：他纵身跃起挥剑指天——起跳到剑指苍穹快到肉眼难辨，带多重残影；镜头极速后拉，一道千丈寒冰巨剑自剑尖向上轰然延伸、直贯云霄，剑身由亿点冰晶构成，云层被剑气剖开成环形漩涡；天地只剩这一道竖光。\n4-6秒｜天裂：巨剑捅破天穹的瞬间插入全屏冲击帧与 0.15s 抽帧，径向曝光炸开，镜头猛沉后急速回弹——天空出现巨大的放射状冰裂，裂缝后透出曜金色天光与古老天门轮廓；冰晶如流星四溅；他在半空旋身落回地面，单膝点地，剑尖拄地，落点砸出环形雪浪。\n6-8秒｜定格：大远景摇摄：千丈巨剑仍立在天地之间，缓缓消散成冰尘，天裂合拢，雪原被照成金色轮廓；他起身负手而立，白发白袍猎猎；画面定格。\n【核心特效】千丈冰剑贯天、天穹放射冰裂、天门金光、流星冰晶。\n【声音】无 BGM：蓄势段 风/低频/剑鸣；展开段 冰裂/低鸣/剑阵嗡鸣或龙吟；命中段 爆响/低频下潜/金石碎裂；收势段 余响/风/冰尘或墨尘飘落。\n【负向】不出现第二把剑、不多手、不换左手、不整体发光、不红眼、不出现红色、不出现西方翼龙、不出现对手尸体/血液、不生成字幕/UI/水印、不穿模、不全程慢动作；不出现水墨、二次元赛璐璐描边元素。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-e3fec678"
+       },
+       {
+        "node_id": "node-bdfd689f"
+       },
+       {
+        "node_id": "node-8bd74443"
+       }
+      ],
+      "reference_videos": [],
+      "reference_audios": [],
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration": 8,
+      "generate_audio": true,
+      "seed": -1
+     }
+    },
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-0a691897",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1560,
+     "y": 340,
+     "width": 320,
+     "height": 280,
+     "label": "【候选】V4 冰龙贯野 8s",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "16:9，8 秒，国漫写实大招《冰龙贯野》，一条直出。\n【引用图片说明】{{node-e3fec678}}＝角色脸（保持同一人）；{{node-bdfd689f}}＝全身与服装比例（白发束起、白袍黑腰封、双臂薄冰、身形颀长）；{{node-8bd74443}}＝武器（藏音·龙跃霄汉：冰泉色剑身、擎冰刃口、炼虹剑颚、曜日一点明光；剑身不整体发光，只留一道冷白高光；全片只有这一把剑）。\n【通用基底】顶级国漫写实风，电影级 CG 画质，IMAX 质感；写实冰霜、布料、金属与冰雪材质，体积光与景深，粒子细节丰富；冷冽青蓝灰色调，冰蓝，曜金一点；4K，24fps，无穿模，动作凌厉，运镜恢弘丝滑。\n【速度与打击】节奏先慢后爆：蓄势拍用慢动作压住，出手拍骤然爆发、快到肉眼难辨，多用“瞬间、极速、闪现、快到肉眼难辨、骤然爆发、残影”等速度描述；命中瞬间插入冲击帧与 0.1s 抽帧顿挫，镜头猛沉后急速回弹；出手段全程极限高速动态模糊与残影拖尾；所有音效随动作瞬间触发，命中配破空音爆。\n【角色】主角是身高约一米八五的青年剑客，身形颀长挺拔、肩宽腰窄，白发束起，白袍黑腰封，双臂覆薄冰，气质冷峻；右手单手握剑，虎口贴剑格，左手掐剑诀。大远景中人物与奇观比例悬殊，人小势大。\n【场景】雪原古战场，残破石台与断裂巨柱半埋雪里，远处群山与枯林，暴雪低吹。\n0-2秒｜蓄势：低机位近景用慢动作压住——从握剑的手推到剑格，再抬到他的一只眼；冰霜沿剑脊爬，剑身轻颤；脚下雪面冰纹亮起一圈，向四周蔓延；风声抽空，只剩低频与剑鸣；他抬眼。\n2-4秒｜阵开：镜头极速后拉并升起至大全景——七层冰晶剑阵刹那展开、冰柱拔地而起快到肉眼难辨；他举剑过肩，动作带残影；身后暴雪凝成一条巨大的寒冰龙形剑气——东方龙，蛇形长身、四爪、鹿角，龙首越过他的肩，龙躯冷光映亮半座雪山。\n4-6秒｜龙扑命中：他挥剑下劈，冰龙沿剑势俯冲砸进大地——俯冲段快到只剩一道白光，砸地瞬间插入冲击帧与 0.1s 抽帧，镜头猛沉后急速回弹并震屏 2 帧；冰晶与剑气对撞成刺目白核，冲击波掀翻积雪成环状雪浪，碎石与冰棱浮空，白袍下摆与远处枯枝按距离延迟抖动，破空音爆炸响。\n6-8秒｜收势：强光散去，大地上一个直径数十米的冰裂巨坑，坑壁插满冰棱；他立于坑边，剑尖点地；冰龙碎成漫天冰尘随暴雪落下；大远景定格，群山回响。\n【核心特效】冰晶剑阵、寒冰龙形剑气、冰裂巨坑、悬浮冰棱。\n【声音】无 BGM：蓄势段 风/低频/剑鸣；展开段 冰裂/低鸣/剑阵嗡鸣或龙吟；命中段 爆响/低频下潜/金石碎裂；收势段 余响/风/冰尘或墨尘飘落。\n【负向】不出现第二把剑、不多手、不换左手、不整体发光、不红眼、不出现红色、不出现西方翼龙、不出现对手尸体/血液、不生成字幕/UI/水印、不穿模、不全程慢动作；不出现水墨、二次元赛璐璐描边元素。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-e3fec678"
+       },
+       {
+        "node_id": "node-bdfd689f"
+       },
+       {
+        "node_id": "node-8bd74443"
+       }
+      ],
+      "reference_videos": [],
+      "reference_audios": [],
+      "first_frame_image": null,
+      "last_frame_image": null,
+      "aspect_ratio": "16:9",
+      "resolution": "720p",
+      "duration": 8,
+      "generate_audio": true,
+      "seed": -1
+     }
+    },
+    "specialParams": null,
+    "config": null
+   },
+   {
+    "id": "node-8715681a",
+    "type": "input-text",
+    "mainOutputId": "output-8715681a",
+    "meta": {
+     "x": 20,
+     "y": 1060,
+     "width": 640,
+     "height": 460,
+     "label": "S0 变更说明/跑序（先读）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-8715681a",
+      "status": "done",
+      "error": null,
+      "value": "【v5 · 先读】\n四候选互不依赖，各 1 条 8s 直出，参照你给的参考：\nV1 万剑归宗（参照“百万仙剑/剑冢”）／V2 泼墨吞世（恢弘水墨，参照“泼墨吞世”，写实底+水墨特效）／\nV3 千丈寒剑·天开（参照“千丈光剑+天门”）／V4 冰龙贯野（武器冰系，国漫写实）。\n【跑序】02 组可整组跑或单点；先各抽 1 条，选中的方向再抽 1 条对比；每节点最多 2 抽。\n【身高】185cm 为暂定占位，确认后改各候选 prompt 里“身高约一米八五”一处即可（四个候选各一处）。\n【30s】外部 30s 参考是 5.3s 循环×5.5 / 5.34s 拼贴×6，不是单条 30s；用选中的 8s 在剪辑里循环 3–4 次。\n【回退】直出若脸不像/构图散，回退方案见 30 号文档 §6（K 帧首尾帧，需同步改画风）。",
+      "cover": null,
+      "name": "S0 变更说明/跑序（先读）",
+      "resolution": null,
+      "metadata": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-ba525446",
+    "sourceNodeId": "node-e3fec678",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c1f5b80e",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-ab8fa425",
+    "sourceNodeId": "node-bdfd689f",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c1f5b80e",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-a149fb57",
+    "sourceNodeId": "node-8bd74443",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c1f5b80e",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-b578c8ac",
+    "sourceNodeId": "node-e3fec678",
+    "sourceHandle": "output",
+    "targetNodeId": "node-254eebb7",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-70d3282d",
+    "sourceNodeId": "node-bdfd689f",
+    "sourceHandle": "output",
+    "targetNodeId": "node-254eebb7",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-10a3caaa",
+    "sourceNodeId": "node-8bd74443",
+    "sourceHandle": "output",
+    "targetNodeId": "node-254eebb7",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-b81e39fa",
+    "sourceNodeId": "node-e3fec678",
+    "sourceHandle": "output",
+    "targetNodeId": "node-017010d5",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-97b79e79",
+    "sourceNodeId": "node-bdfd689f",
+    "sourceHandle": "output",
+    "targetNodeId": "node-017010d5",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-49c0dd9c",
+    "sourceNodeId": "node-8bd74443",
+    "sourceHandle": "output",
+    "targetNodeId": "node-017010d5",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-8b051c82",
+    "sourceNodeId": "node-e3fec678",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0a691897",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-d58e527a",
+    "sourceNodeId": "node-bdfd689f",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0a691897",
+    "targetHandle": "input"
+   },
+   {
+    "id": "edge-f9b674ff",
+    "sourceNodeId": "node-8bd74443",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0a691897",
+    "targetHandle": "input"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-ywdz-0",
+    "nodeIds": [
+     "node-7fa41b71",
+     "node-40e850ac",
+     "node-50db1677"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -26,
+     "width": 356,
+     "height": 988
+    },
+    "label": "00 素材（不用跑）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#8E8DE0"
+    }
+   },
+   {
+    "id": "g-ywdz-1",
+    "nodeIds": [
+     "node-e3fec678",
+     "node-bdfd689f",
+     "node-8bd74443"
+    ],
+    "bounds": {
+     "x": 402,
+     "y": -26,
+     "width": 716,
+     "height": 588
+    },
+    "label": "01 资产（已生成·复用 A1/A2/A5）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5B8DE0"
+    }
+   },
+   {
+    "id": "g-ywdz-2",
+    "nodeIds": [
+     "node-c1f5b80e",
+     "node-254eebb7",
+     "node-017010d5",
+     "node-0a691897"
+    ],
+    "bounds": {
+     "x": 1162,
+     "y": -26,
+     "width": 736,
+     "height": 668
+    },
+    "label": "02 大招直出·四候选",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E0A15B"
+    }
+   },
+   {
+    "id": "g-ywdz-3",
+    "nodeIds": [
+     "node-8715681a"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": 1014,
+     "width": 676,
+     "height": 528
+    },
+    "label": "03 说明（不用跑）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#888888"
+    }
+   }
+  ]
+ }
+}

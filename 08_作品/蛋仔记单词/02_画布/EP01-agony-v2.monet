@@ -1,0 +1,997 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-10-29T16:15:35.626+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 谐音无厘头 EP01 agony v2 · 2×15s（含四宫格预演）",
+    "description": "1 词／30 秒。黄昏餐桌，黄蛋接到分手电话“我爱过你”；短手够不到手机，把手机按进马克杯，手机在水下还在闷声说“我爱过你”。Part B 心易（粉蛋代演）揭谐音。G01 四宫格只做预演，K_A 取左上格，不接视频。",
+    "nodes": [
+      {
+        "id": "node-3be8b284",
+        "type": "input-image",
+        "mainOutputId": "output-aef8ab7157",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 320,
+          "height": 130.0,
+          "label": "R00 四小只身高比例（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-aef8ab7157",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+            "cover": null,
+            "name": "R00-四小只身高比例.jpg",
+            "resolution": {
+              "width": 1600,
+              "height": 650
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:15:35.626+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:15:35.626+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 77895,
+              "md5": "b321a4a46247edafe03ddd2dc85b3605"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-c4f9a064",
+        "type": "input-image",
+        "mainOutputId": "output-e4f66dd6c4",
+        "meta": {
+          "x": 0.0,
+          "y": 200.0,
+          "width": 300,
+          "height": 343.5,
+          "label": "R01 黄蛋标准（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-e4f66dd6c4",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035438-8a7a8cba5091bb94-e8-a7-92-e8-89-b2-e9-bb-84-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-黄蛋-标准.jpg",
+            "resolution": {
+              "width": 1118,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:15:35.626+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:15:35.626+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 86469,
+              "md5": "7939d7b1ed7e0315344a5eb2c13e6d1a"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-0b9e5e29",
+        "type": "input-image",
+        "mainOutputId": "output-034e862328",
+        "meta": {
+          "x": 0.0,
+          "y": 580.0,
+          "width": 300,
+          "height": 343.8,
+          "label": "R02 粉蛋标准 · 本集代心易（复用）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-034e862328",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-0d34f1caae5e8c3e-e8-a7-92-e8-89-b2-e7-b2-89-e8-9b-8b-e6-a.jpg",
+            "cover": null,
+            "name": "角色-粉蛋-标准.jpg",
+            "resolution": {
+              "width": 1117,
+              "height": 1280
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:15:35.626+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:15:35.626+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 97490,
+              "md5": "51dda2189f378bc9c464076bdeb31dc3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-1d4ecbf1",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A01 手机＋大马克杯（红心屏/茶水）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底道具设定图，只生成一张，两个物件并排。左：一部大屏智能手机，深灰机身，屏幕只有一个红色爱心壁纸（无文字、无图标、无时间）；右：一个大号奶油色陶瓷马克杯，杯口宽、杯身矮，里面是深琥珀色茶水，杯口有轻微热气。真实材质，柔和接触阴影。\n背景 #FFFFFF 纯白，无投影、无其他文字、无水印、无 logo、无手。\n负向：人类、手指、屏幕文字、乱码、水印、logo、比例失真、塑料感、杯子变形、手机变形。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-178eda50",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 260.0,
+          "width": 320.0,
+          "height": 207.0,
+          "label": "【待生成】A02 黄昏餐桌空景 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 横版空景，不出现任何角色。黄昏室内餐桌一角：木质桌面、米白桌旗、一只空茶碟、纸巾盒，窗外暖橙色夕光斜射，桌面有柔和长影；低机位贴桌视角，前景为 12cm 小角色留出空间；3D 卡通渲染+真实光影（皮克斯质感），柔和景深，35mm 颗粒。\n无人物、无动物、无文字、无 logo、无水印。\n负向：人类、角色、动物、文字、水印、logo、过曝、塑料高光过强、比例失真。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-4868e70b",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 800.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】G01 四宫格预演 · 2×2 · 接电话/够手机/手机入杯/心易 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 四宫格分镜预演图，2×2 等分，每格 16:9，细白分隔线；四格按左上→右上→左下→右下顺序，同一餐桌、同一角色、同一黄昏光线；3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射），35mm 颗粒；全图无文字、无字幕、无 logo、无水印。\n左上（0–3s）：黄昏餐桌（参考 {{node-178eda50}}），黄蛋（参考 {{node-c4f9a064}}，比例参考 {{node-3be8b284}}）捧着手机（参考 {{node-1d4ecbf1}}）贴在耳边，眼睛睁大、僵住，桌上放着大马克杯。\n右上（3–9s）：手机落在桌上，黄蛋探身、伸出短圆手臂去够手机，够不到；手机屏幕红心发亮。\n左下（9–15s）：黄蛋抓起大马克杯，把手机按进茶里；杯口冒泡，手机半沉。\n右下（Part B 4–9s）：心易（本集用粉蛋形象，参考 {{node-0b9e5e29}}）举一张空白词卡（版面留白，不出现文字），黄蛋盯着杯子。\n四格角色外形/服装/比例一致，不新增角色；夕光与桌面反光四格一致。\n负向：文字、字幕、水印、logo、人类、手指、牙齿、裂壳、蛋液、蛋黄、多余角色、分格错位、角色变形、杯子变形、手机变形、塑料高光过强、卡通描边、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-3be8b284"
+              },
+              {
+                "node_id": "node-c4f9a064"
+              },
+              {
+                "node_id": "node-0b9e5e29"
+              },
+              {
+                "node_id": "node-1d4ecbf1"
+              },
+              {
+                "node_id": "node-178eda50"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-ffb16f14",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 0.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】K_A Part A 首帧 · 接电话僵住（短手够手机前）· 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 电影感首帧，第 0 秒画面，只生成一张。构图参考 {{node-4868e70b}} 左上格（只取构图/机位/光线/角色姿态，不出现其他三格、不出现分格线）。黄昏餐桌（光线与机位跟 {{node-178eda50}} 一致）：黄蛋（参考 {{node-c4f9a064}} 外形、{{node-3be8b284}} 比例：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球、短圆手臂无手指、白色袜子黑条纹+白色毛绒靴）捧着手机（参考 {{node-1d4ecbf1}}）贴在耳边，眼睛睁大、僵住，眼泪刚在眼眶里打转；桌上放着大马克杯。低机位贴桌微距，黄蛋约占画面高 1/4，夕光从右侧照入；3D 卡通渲染+真实光影，搪胶材质次表面散射。\n无文字浮层、无水印、无 logo。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、字幕、水印、logo、比例失真、黄蛋变色、手机屏幕文字、多余角色、过曝。",
+            "reference_images": [
+              {
+                "node_id": "node-4868e70b"
+              },
+              {
+                "node_id": "node-3be8b284"
+              },
+              {
+                "node_id": "node-c4f9a064"
+              },
+              {
+                "node_id": "node-1d4ecbf1"
+              },
+              {
+                "node_id": "node-178eda50"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-6ef0d5bb",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1200.0,
+          "y": 220.0,
+          "width": 320.0,
+          "height": 180.0,
+          "label": "【待生成】KC 词卡 · agony/爱过你/极度痛苦 · 1K",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 单词卡版式，只生成一张。卡片占画面中央 70%，米白纸面、圆角、轻微纸张纹理：顶部大号单词\"agony\"（黑色无衬线粗体，拼写必须准确：a-g-o-n-y）+ 音标 /ˈæɡəni/；中部三行红色马克笔手写感大字\"爱、过、你\"，下方一行黑色小字\"n. 极度痛苦\"；黄昏暖光从右上照入，卡片投柔和阴影。\n除上述内容外无其他文字、无水印、无 logo、无人类、无手。\n负向：拼写错误、乱码、多余文字、水印、logo、比例失真、图标变形。",
+            "reference_images": [],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-51191e0b",
+        "type": "input-image",
+        "mainOutputId": "output-d8850f807d",
+        "meta": {
+          "x": 1200.0,
+          "y": 470.0,
+          "width": 320,
+          "height": 180.0,
+          "label": "【待替换⚠】T_A Part A 尾帧 → Part B 首帧（截 Part A 最后一帧替换，替换前勿派发 Part B）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-d8850f807d",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261023-081313-b0296f5161341655-t-a-e5-8d-a0-e4-bd-8d-1280x720.jpg",
+            "cover": null,
+            "name": "T_A-占位-1280x720.jpg",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:15:35.626+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:15:35.626+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 59049,
+              "md5": "731a5a04d57f812140cfd6c5e6301ce3"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-2b6b55db",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1650.0,
+          "y": 0.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part A · 0–15s · 分手电话/够手机/手机入杯",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-ffb16f14}}；第 0 秒就是这一帧：黄昏餐桌，黄蛋捧着手机贴在耳边，眼睛睁大、僵住。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球（角色本体，不是穿搭/道具）、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；没有牙齿，不吃不咬；情绪从僵住到着急到崩溃。\n【道具】手机：大屏智能手机，屏幕只有一个红色爱心壁纸，无文字；大马克杯：奶油色陶瓷、深琥珀色茶，杯口宽到能塞进手机；纸巾盒。\n【场景与尺度】黄昏室内餐桌，木质桌面、暖橙夕光、长影；低机位贴桌微距，黄蛋约占画面高 1/4，手机约 1.2 倍蛋身、马克杯约 1 倍蛋身；摄影机在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-3be8b284}}=四小只身高比例；{{node-c4f9a064}}=黄蛋标准；{{node-1d4ecbf1}}=手机+马克杯；{{node-178eda50}}=黄昏餐桌空景。\n0–3 秒：{{node-ffb16f14}}{{node-1d4ecbf1}}手机在桌上震动；黄蛋接起、贴在耳边；电话听筒里传出画外人声：“我爱过你。”电话挂断；黄蛋僵住，眼睛睁大，眼泪在眼眶里打转。\n3–9 秒：{{node-1d4ecbf1}}手机从手里滑到桌上；黄蛋探身、伸出短圆手臂去够手机，想挂断/按住，但短手够不到；手机自动播放语音：“我爱过你。”他踮脚、绕着桌边够，短手乱挥；手机继续播。\n9–15 秒：{{node-1d4ecbf1}}黄蛋抓起大马克杯，把手机按进茶里；茶水冒泡，手机在水下闷声说：“我爱过你。”黄蛋僵住；镜尾定格 0.5 秒。\n【特效延续】夕光、桌面反光、杯口热气延续到下一段。\n【声音】手机震动、电话听筒“我爱过你”、挂断、语音重复、茶水气泡、水下闷声“我爱过你”；无 BGM。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、真实鸡蛋、字幕、水印、logo、比例失真、黄蛋变色、手机屏幕文字、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-3be8b284"
+              },
+              {
+                "node_id": "node-c4f9a064"
+              },
+              {
+                "node_id": "node-1d4ecbf1"
+              },
+              {
+                "node_id": "node-178eda50"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-ffb16f14"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-346cc113",
+        "type": "gen-video",
+        "mainOutputId": null,
+        "meta": {
+          "x": 1650.0,
+          "y": 310.0,
+          "width": 360.0,
+          "height": 240.0,
+          "label": "【待生成】Part B · 15–30s · 心易揭底/复读/手机冒泡",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "seedance-2.0-mini",
+          "model_params": {
+            "prompt": "【首帧锁定】首帧使用 {{node-51191e0b}}（Part A 最后一帧：黄蛋把手机按进马克杯，茶水冒泡，手机半沉）；锁黄蛋与杯子的位置/朝向/光线/背景，不重构图不换机位；第 0 秒从这一帧直接继续。\n【角色】黄蛋：12cm 黄色蛋仔，黄色蛋壳、浅奶油色椭圆大脸板、棕色大圆眼、头顶黄色天线+黄色圆球（角色本体）、短圆手臂无手指、白色袜子（黑条纹）+白色毛绒靴；没有牙齿。\n【心易】本集暂用粉蛋形象出演（参考 {{node-0b9e5e29}}）：12cm 粉色蛋仔，粉色蛋壳、奶油色椭圆脸板、大圆眼、短圆手臂无手指、白色圆脚；身份仍是“心易”老师位，神态平静、动作少而慢。\n【道具】大马克杯：奶油色陶瓷、深琥珀色茶，手机半沉、杯口冒泡；手机屏幕红心在水下发亮。\n【场景与尺度】同 Part A 黄昏餐桌；低机位贴桌微距，两只蛋同高、各约占画面高 1/4；摄影机仍在南侧，不跳轴。\n【基调】3D 卡通渲染+真实光影（皮克斯质感、搪胶材质、次表面散射）；35mm 颗粒；真实物理；无 BGM、无字幕、无文字浮层、无水印。\n【图片引用】{{node-3be8b284}}=四小只身高比例；{{node-c4f9a064}}=黄蛋标准；{{node-0b9e5e29}}=粉蛋标准（代心易）；{{node-1d4ecbf1}}=手机+马克杯；{{node-6ef0d5bb}}=词卡版式。\n0–4 秒：{{node-51191e0b}}{{node-0b9e5e29}}心易从画面右侧滚入，停在杯子旁，举卡（agony＋/ˈæɡəni/＋红字“爱、过、你”＋“n. 极度痛苦”）；黄蛋盯着杯子，没回头。\n4–9 秒：{{node-0b9e5e29}}{{node-6ef0d5bb}}心易平静清晰地念：“agony，极度痛苦。谐音——爱过你。”；黄蛋：“爱过你……所以这就是 agony？”\n9–13 秒：{{node-c4f9a064}}心易：“对。爱过你，也痛。”；黄蛋伸手想把手机从杯子里捞出来，又缩回；杯口冒一个泡，水下闷声：“我爱过你。”\n13–15 秒：{{node-1d4ecbf1}}黄蛋把杯子推远，趴到桌上，短手抱住头；杯子里的手机继续冒泡；镜尾定格 1.5 秒。\n【特效延续】夕光、桌面反光、杯口热气延续；结尾不新增特效，定格干净。\n【声音】茶水气泡、水下闷声“我爱过你”、心易念词、黄蛋复读、趴桌的轻响；无 BGM。\n负向：人类、手指、牙齿、裂壳、蛋液、蛋黄、真实鸡蛋、文字浮层、字幕、水印、logo、比例失真、黄蛋变色、粉蛋变形、手机屏幕文字、多余角色、塑料高光过强、卡通描边、过曝、瞬移、漂浮。",
+            "_reference_way": "reference",
+            "reference_images": [
+              {
+                "node_id": "node-3be8b284"
+              },
+              {
+                "node_id": "node-c4f9a064"
+              },
+              {
+                "node_id": "node-0b9e5e29"
+              },
+              {
+                "node_id": "node-1d4ecbf1"
+              },
+              {
+                "node_id": "node-6ef0d5bb"
+              }
+            ],
+            "reference_audios": [],
+            "first_frame_image": {
+              "node_id": "node-51191e0b"
+            },
+            "resolution": "720p",
+            "aspect_ratio": "16:9",
+            "duration": 15,
+            "generate_audio": true,
+            "watermark": false
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-90638a9f",
+        "type": "input-text",
+        "mainOutputId": "output-e2762afc7e",
+        "meta": {
+          "x": 800.0,
+          "y": 720.0,
+          "width": 760.0,
+          "height": 600.0,
+          "label": "S0 制作说明 · 先读",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-e2762afc7e",
+            "status": "done",
+            "error": null,
+            "value": "【本画布做什么】\n《蛋仔记单词》谐音无厘头 EP01《agony＝爱过你》2×15 秒：黄昏餐桌，黄蛋接到分手电话“我爱过你”；他短手够不到手机，索性把手机按进马克杯，手机在水下还在闷声说“我爱过你”；Part B 心易（暂用粉蛋形象）揭谐音。\n集型：谐音无厘头，1 个词／30 秒；不是一词两义。\n\n【运行顺序】\n1. 先跑 A01 手机+马克杯、A02 黄昏餐桌（互不依赖，可同时）。\n2. 跑 G01 四宫格预演（2×2）；看四格顺序、短手够手机、手机入杯是否清楚。G01 只做预演，不接视频。\n3. 跑 K_A（只取 G01 左上格构图）和 KC（词卡）。\n4. 跑 Part A（15s）。看完最后一帧：手机是否半沉在杯里、杯口是否冒泡。\n5. ⚠️ T_A 当前是一蛋一剑旧占位板：截 Part A 最后一帧上传替换（节点 id/token 不变）。替换前不要派发 Part B。\n6. 跑 Part B（15s）。首帧就是 T_A，不要换别的图。\n7. 剪辑：硬切；定格后切黑幕白字卡（约 1.5s）：agony／极度痛苦。台标、钩子后期贴。\n\n【角色口径】\n- 黄蛋头顶“黄色天线+圆球”是角色本体，不是穿搭/道具，保留。\n- 蛋仔是蛋形潮玩，不是真蛋：不敲壳、不剥壳、不煮/煎、不出现蛋液蛋黄；没有牙齿，不咬硬物。\n- 心易本集暂用粉蛋形象出演（参考 R02）；后续有标准图再换节点重跑。\n\n【谐音铁律】\n- 谐音“爱过你”由电话人声/手机语音说出，不解释英文；词卡才揭 agony。\n- 反转由“手机进茶杯还在说爱过你”驱动，不是角色听错。\n- 词卡给真实词义“n. 极度痛苦”；谐音只做钩子。\n",
+            "cover": null,
+            "name": "S0 制作说明 · 先读",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-10-29T16:15:35.626+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-10-29T16:15:35.626+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-d94014aa",
+        "sourceNodeId": "node-3be8b284",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4868e70b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-03f7ce96",
+        "sourceNodeId": "node-c4f9a064",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4868e70b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-a94906d6",
+        "sourceNodeId": "node-0b9e5e29",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4868e70b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-b94f8bbc",
+        "sourceNodeId": "node-1d4ecbf1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4868e70b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-bbe178de",
+        "sourceNodeId": "node-178eda50",
+        "sourceHandle": "output",
+        "targetNodeId": "node-4868e70b",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-100da85a",
+        "sourceNodeId": "node-4868e70b",
+        "sourceHandle": "output",
+        "targetNodeId": "node-ffb16f14",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-da022bf7",
+        "sourceNodeId": "node-3be8b284",
+        "sourceHandle": "output",
+        "targetNodeId": "node-ffb16f14",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-ae2cdd38",
+        "sourceNodeId": "node-c4f9a064",
+        "sourceHandle": "output",
+        "targetNodeId": "node-ffb16f14",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-a90bd3fd",
+        "sourceNodeId": "node-1d4ecbf1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-ffb16f14",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-cea23959",
+        "sourceNodeId": "node-178eda50",
+        "sourceHandle": "output",
+        "targetNodeId": "node-ffb16f14",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-e409ac00",
+        "sourceNodeId": "node-3be8b284",
+        "sourceHandle": "output",
+        "targetNodeId": "node-2b6b55db",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-cb41b16a",
+        "sourceNodeId": "node-c4f9a064",
+        "sourceHandle": "output",
+        "targetNodeId": "node-2b6b55db",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-7e0e1b99",
+        "sourceNodeId": "node-1d4ecbf1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-2b6b55db",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-b77bea35",
+        "sourceNodeId": "node-178eda50",
+        "sourceHandle": "output",
+        "targetNodeId": "node-2b6b55db",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-39dabad8",
+        "sourceNodeId": "node-ffb16f14",
+        "sourceHandle": "output",
+        "targetNodeId": "node-2b6b55db",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-7983182c",
+        "sourceNodeId": "node-3be8b284",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-bef53762",
+        "sourceNodeId": "node-c4f9a064",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-25e35dab",
+        "sourceNodeId": "node-0b9e5e29",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-12010e7a",
+        "sourceNodeId": "node-1d4ecbf1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-6651c920",
+        "sourceNodeId": "node-6ef0d5bb",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-22771e6e",
+        "sourceNodeId": "node-51191e0b",
+        "sourceHandle": "output",
+        "targetNodeId": "node-346cc113",
+        "targetHandle": "input",
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-8c9eaa72",
+        "nodeIds": [
+          "node-3be8b284",
+          "node-c4f9a064",
+          "node-0b9e5e29"
+        ],
+        "bounds": {
+          "x": -30.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 983.8
+        },
+        "label": "00 参考素材 · 黄蛋/粉蛋/身高比例",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-6eb81ac6",
+        "nodeIds": [
+          "node-1d4ecbf1",
+          "node-178eda50"
+        ],
+        "bounds": {
+          "x": 370.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 527.0
+        },
+        "label": "01 道具/场景 · 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-cb978861",
+        "nodeIds": [
+          "node-4868e70b"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 240.0
+        },
+        "label": "02 四宫格预演 · G01 先跑",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#C9A227"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-95194804",
+        "nodeIds": [
+          "node-ffb16f14",
+          "node-6ef0d5bb"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": -30.0,
+          "width": 380.0,
+          "height": 460.0
+        },
+        "label": "03 首帧/词卡 · K_A、KC",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E8B85D"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-47a90f45",
+        "nodeIds": [
+          "node-51191e0b"
+        ],
+        "bounds": {
+          "x": 1170.0,
+          "y": 440.0,
+          "width": 380.0,
+          "height": 240.0
+        },
+        "label": "04 尾帧 · Part A 跑完截帧替换",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#B08E6A"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-9953dcdc",
+        "nodeIds": [
+          "node-2b6b55db"
+        ],
+        "bounds": {
+          "x": 1620.0,
+          "y": -30.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "05 视频 Part A · 15s",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-06c06dea",
+        "nodeIds": [
+          "node-346cc113"
+        ],
+        "bounds": {
+          "x": 1620.0,
+          "y": 280.0,
+          "width": 420.0,
+          "height": 300.0
+        },
+        "label": "06 视频 Part B · 15s（T_A 替换后）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#DC775D"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-660546ce",
+        "nodeIds": [
+          "node-90638a9f"
+        ],
+        "bounds": {
+          "x": 770.0,
+          "y": 690.0,
+          "width": 820.0,
+          "height": 660.0
+        },
+        "label": "07 制作说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-10-29T16:15:35.626+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-10-29T16:15:35.626+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

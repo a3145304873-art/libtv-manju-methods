@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-21T01:45:30+08:00",
-  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot)",
+  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied)",
   "import_method": "selected local files copied byte-for-byte; not a remote repository clone",
   "source_repository_baseline": "c7fe8c4",
   "sources": [
@@ -24,13 +24,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md",
           "path": "04_原始资料/workflows/W01/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md.txt",
-          "sha256": "551465cbf472beb30689578a133a872c8becc9e08c8fb9a41cda05aa273961ae",
+          "sha256": "a483292d2aefbbb357d7b4dce3f983075ea941f3de2f8eac4494a1476c6c967a",
           "bytes": 592307
         },
         {
           "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV节点快照_2026-10-20.json",
           "path": "04_原始资料/workflows/W01/nodes.json",
-          "sha256": "185a6eb47810eca34df291eb0fd8629decf9c1dfed55a8fc8601a5b998293cb2",
+          "sha256": "e3411d74988836a3a30c9073858b21138bbe9ae7379da2d6ea46e69240a8b83f",
           "bytes": 1270946
         }
       ],
@@ -61,13 +61,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md",
           "path": "04_原始资料/workflows/W02/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md.txt",
-          "sha256": "57a84b52e36ca03afe6276798662d48747545db6882189c6b6b5713dcebc6357",
+          "sha256": "3dbd810241d08cdc4625a6e87a85ebdbfde46cb3ef6f8ef007c76adae6942ec2",
           "bytes": 478282
         },
         {
           "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV节点快照_2026-10-20.json",
           "path": "04_原始资料/workflows/W02/nodes.json",
-          "sha256": "f8503b97f699286b314a38fa94fdbd36236c66882c28ed87c205635f5efb490c",
+          "sha256": "20a9cb278f3127f1b4091e9bf0d483ef8a6c8606dce89c1d7a586518751d2a5d",
           "bytes": 808725
         }
       ],
@@ -99,13 +99,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
           "path": "04_原始资料/workflows/W03/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "f0d875d5c51d079a9a28eccb56b6ab5a3a27a4922f7c9d6a730ae6346b17d0be",
+          "sha256": "70fe014694d7ac9f0092efcbf54e75fb3156382c39ca81705de52663df61a169",
           "bytes": 106915
         },
         {
           "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV节点快照_2026-10-20.json",
           "path": "04_原始资料/workflows/W03/nodes.json",
-          "sha256": "b73f7b8c5283d466dcadf3eae76332b59a589fddcfda28af0c38fffdec90a761",
+          "sha256": "4ec26ffdd3746b7b5779fa0a42c645a15712f11265201cc986f4fcaff07bb690",
           "bytes": 271442
         }
       ],
@@ -136,13 +136,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
           "path": "04_原始资料/workflows/W04/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "0218c82b40093c5c49b382087f96c2ae0053a43ccf568b461aacaf0608591fa4",
+          "sha256": "b00c29192645e63d34916c4f7dd3c4c72748799a8f6926322ea684b08a09523e",
           "bytes": 247308
         },
         {
           "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV节点快照_2026-10-21.json",
           "path": "04_原始资料/workflows/W04/nodes.json",
-          "sha256": "4580197471134694ae4e3ec78163eea2b0a412f00ff7165ae25afc5730be61c8",
+          "sha256": "ee1c9ce7fe493d884e338728e0f1e8d727baaba3e6b3b322f773711e25d34ed3",
           "bytes": 464245
         }
       ],
@@ -173,13 +173,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
           "path": "04_原始资料/workflows/W05/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "0db7b2b078c84f5c8fbdf5343b90295bdf0f33da1de7e7abef990d7ab40b046a",
+          "sha256": "959f3bbbaf34eefadb519b6fc7a8e04f58969c339046c0644d8b599e8778e96c",
           "bytes": 65685
         },
         {
           "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV节点快照_2026-10-21.json",
           "path": "04_原始资料/workflows/W05/nodes.json",
-          "sha256": "9bd87eac92743887bdb8a128d011e79b2d2baecf159cf615a6bc1fc7084fdf20",
+          "sha256": "8be28d4650bc08ac74845c6ce8eb3cc8aa30143d2e09855feb303cf371841f8a",
           "bytes": 139133
         }
       ],
@@ -216,7 +216,7 @@
         {
           "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_LibTV节点快照_2026-10-21.json",
           "path": "04_原始资料/workflows/W06/nodes.json",
-          "sha256": "5dd5fa5eec6d2476ce8ebd97bfa71a112307d70e1df9a3789b06d03a922cb2ac",
+          "sha256": "551eeca4ce1998416b236a987f319ffd6faf90cef25c9b0a578a98439d770ad3",
           "bytes": 1545908
         }
       ],
@@ -253,7 +253,7 @@
         {
           "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_LibTV节点快照_2026-10-21.json",
           "path": "04_原始资料/workflows/W07/nodes.json",
-          "sha256": "48b0c207971165a598af58d8de9f8a074977d25642f0f925f9733873d71c545e",
+          "sha256": "9a7af20e1ddf79f0f9820d57f8d3869c2ecb1e5373a80b421aa0ffb34e0ae1af",
           "bytes": 143808
         }
       ],
@@ -285,7 +285,7 @@
         {
           "source_relative": "过来人LibTV画布提示词与关系索引.md",
           "path": "04_原始资料/workflows/W08/过来人原始索引.md.txt",
-          "sha256": "acaaeb68fabe2d1f5279faee415f3952e822f2bfe12d3249f37955d6ff84f3e4",
+          "sha256": "c81bb5e97b8cd4e58cc6eec6bdc00518de25d1c70f700b4c20be614ea5b73894",
           "bytes": 87365
         }
       ],
@@ -317,13 +317,13 @@
         {
           "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
           "path": "04_原始资料/workflows/W09/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "9e0adc08dfdec2e72741ee2ed79fefd7597c876e2aa3866699c42cb6b103f9c7",
+          "sha256": "436f4397271ef2ae44e0a20dc0f0b4c549aab5192933d721006a231cd261257c",
           "bytes": 716459
         },
         {
           "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV节点快照_2026-10-21.json",
           "path": "04_原始资料/workflows/W09/nodes.json",
-          "sha256": "8c8a68ab95704d14132c279d54391d3207626ec7516ea6aa5f367c27f163c495",
+          "sha256": "e9111bd07ee38b962c3e19e4b73aa143b037d66e8d71e87f56b28922bf11cbbc",
           "bytes": 1322928
         }
       ],
@@ -500,14 +500,14 @@
         {
           "source_relative": "万宝盲盒.zip!/archive-index.json (derived structural metadata)",
           "path": "04_原始资料/format-references/R01/archive-index.json",
-          "sha256": "0a4806f8fcdbfd6fca31a7e91cc93e0ae2e61980286669d3975fa7e015eb79fa",
+          "sha256": "b5ea36cda644055fb0be5c9b2ad50186a08a059b594404d752084c1bec90c2fd",
           "bytes": 2443,
           "role": "derived_metadata_not_original_payload"
         },
         {
           "source_relative": "万宝盲盒.zip!/format-schema.json (derived structural metadata)",
           "path": "04_原始资料/format-references/R01/format-schema.json",
-          "sha256": "ca165d189f5accd271a80e95a38518a65d37c528122394c0ecbc3437ec40c9b0",
+          "sha256": "9cca9552b7c766a2a70b2ea3086c6965170a43010fca8b4712a4a0632490c45d",
           "bytes": 1993,
           "role": "derived_metadata_not_original_payload"
         }
@@ -554,7 +554,7 @@
         {
           "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV节点快照_2026-10-29.json",
           "path": "04_原始资料/workflows/W10/nodes.json",
-          "sha256": "296e7ba42c35fdf0bcc6faf2fd85dc62c0bbac6b612371d2c6fef63ba9ee0b45",
+          "sha256": "d48bf781bb401b6d7e85eed05d3e85369482dad1f78e7eb1f120e67dea13b610",
           "bytes": 220795
         }
       ],
@@ -565,15 +565,172 @@
         "capture": "API-direct read-only GET (project/detail + node/detail); libtv.exe blocked by OS policy; user-owned token refreshed via official SMS login 2026-10-29"
       },
       "intake_date": "2026-10-29"
+    },
+    {
+      "id": "I06",
+      "kind": "internal_production_method",
+      "name": "Monet画布搭建方法",
+      "stable_id": "I06:Monet画布搭建方法-2026-10-29.md",
+      "source_version_summary": "2026-10-29 版总纲;整理自 2026-10-21 起多支 Monet 画布实建与返工记录;用户确认后续画布一律采用此格式",
+      "files": [
+        {
+          "source_relative": "ai-drama/_共享/规范/Monet画布搭建方法-2026-10-29.md",
+          "path": "04_原始资料/industry-skills/I06/source.md.txt",
+          "sha256": "fc97ea8035a9bb2dba70350feb8c73abc6579160fb06b35f412bff02d77a37e7",
+          "bytes": 17958
+        }
+      ],
+      "missing_external_dependencies": [],
+      "external_workspace_dependencies": [
+        "ai-drama/_共享/工具/检查画布接线.py",
+        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/尾帧接线规则.md",
+        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/首尾帧引用写法.md",
+        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/extract_tail_frames.py",
+        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/蛋仔游城市-工作流模板-v1.monet",
+        "ai-drama/_共享/工作流研究/衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py",
+        "ai-drama/_共享/工作流研究/衍生方案-四小只/脚本/upload_refs.py"
+      ],
+      "evidence": {
+        "text_review": "full_text",
+        "media_review": "not_performed",
+        "execution": "external_production_use",
+        "transfer_validation": "not_performed"
+      },
+      "original_namespace": "internal_spec",
+      "adoption": "user_confirmed_2026-10-29_future_canvas_builds"
+    },
+    {
+      "id": "W11",
+      "kind": "workflow",
+      "name": "邵氏电影学英语一步成片模板",
+      "stable_id": "libtv:58ab94a2da3f411b8849f076fa87c94d",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C17 智能体单变量一步成片模板（新增）；C04 三视图角色锚+{{Mixed N}}分支；C03 剧本自动生成入视频 prompt；C16 引用锚位 LibTV 实证",
+      "locators": "cb6da0ea 智能体定义 content；ce36c3fa prompt=单词与输出剧本；ea214b17 {{Mixed 1/2}} 锚位与 mixedList；使用说明场景1/场景2",
+      "gaps": [
+        "媒体全部未观看",
+        "两分支输出 url 相同采用版不明",
+        "视频参数双套并存",
+        "智能体触发词与中文输入未复现"
+      ],
+      "evidence": {
+        "structure": "snapshot",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "capture": "API-direct read-only GET (project/detail, CLI-restored headers); user-owned token refreshed via official web login 2026-10-29"
+      },
+      "intake_date": "2026-10-29",
+      "files": [
+        {
+          "path": "04_原始资料/workflows/W11/邵氏电影学英语一步成片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
+          "sha256": "ce49e569224012c5b5a168fe55a495eb69109299f36038ae3a86840712f2ebcb",
+          "bytes": 11336,
+          "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集；本文件为本库自同源快照生成的拆解）"
+        },
+        {
+          "path": "04_原始资料/workflows/W11/nodes.json",
+          "sha256": "9a0348b8716495c388a5bb70abe855a48aee41b4ed4eda7ffcdf42be7f99440e",
+          "bytes": 52805,
+          "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集 2026-10-29）"
+        }
+      ]
+    },
+    {
+      "id": "R02",
+      "kind": "format_reference",
+      "name": "大招演出提示词格式（9 张截图样本）",
+      "stable_id": "user-attachments:2026-11-03:grand-move-prompt-samples",
+      "stages": [
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "C18 五拍结构与五层特效栈（新增）；C13 时长；C14 风格前置；C01 动作因果",
+      "locators": "S07/S08 4 拍 15s；S09 5 拍 15s；S01/S02/S03 分镜式；S04 全局设定式；S06 元请求；用户 5 个特效条目",
+      "files": [
+        {
+          "source_relative": "用户 2026-11-03 提供的 9 张提示词截图（未复制；逐图 SHA-256 见 source_images）",
+          "path": "04_原始资料/format-references/R02/prompt-transcript.md.txt",
+          "sha256": "507994153544a60d91d7970f7f22c7050e5e8ad553ce1fc81974acd4f1e168d3",
+          "bytes": 16246
+        }
+      ],
+      "source_images": [
+        {
+          "label": "S01",
+          "sha256": "b0557f8571791df3a65672497c5de0df8cd9537c8eef7b61c7dabc276bef9ada",
+          "dimensions": "708x226"
+        },
+        {
+          "label": "S02",
+          "sha256": "e7da70cca3f9be4c875e3a196fa4af7e5148d2fcb0fd9f1319e22dd89bbb5a42",
+          "dimensions": "695x232"
+        },
+        {
+          "label": "S03",
+          "sha256": "958cefca4909fca931b09cff12d113a47290348aff2e1d52c0a801f2545633cc",
+          "dimensions": "692x282"
+        },
+        {
+          "label": "S04",
+          "sha256": "47dd606e11da8fd89d37a211d8fd9de19445aa31d29b9b764d362212d68dbd88",
+          "dimensions": "750x389"
+        },
+        {
+          "label": "S05",
+          "sha256": "8314801168ae66c55e9721c4ae7ed92c03d2a33f58f97c65ad1657e59831d4f8",
+          "dimensions": "646x265"
+        },
+        {
+          "label": "S06",
+          "sha256": "ca407c3db37dacc87f13db6b4819a47baf5538f80416cffa10c10442c788db42",
+          "dimensions": "413x105"
+        },
+        {
+          "label": "S07",
+          "sha256": "033f99bb129b1968df3ba11df4be9b7cecedf1c7126badc24c9439fe6c7a4612",
+          "dimensions": "699x263"
+        },
+        {
+          "label": "S08",
+          "sha256": "a31c5ebcfcea6ffad29fb0c206df0475e347ab0ef40ee4893819ab9b691a0b63",
+          "dimensions": "794x352"
+        },
+        {
+          "label": "S09",
+          "sha256": "67ca3adfa4b66ea44442b3e354d3dd29e07173234968f3994636e56c88d30ec8",
+          "dimensions": "713x310"
+        }
+      ],
+      "transcription": "visual_read_at_2x_and_4x; truncated, occluded and presumed-typo spots marked in the transcript",
+      "payload_policy": "text transcription only; source screenshots not copied into method layer",
+      "gaps": [
+        "无节点快照、模型名、请求参数与生成结果",
+        "S02/S03/S05/S08 有截断或浮层遮挡",
+        "原文有笔误与口语，按原样保留",
+        "未复现、未播放，不能判断五拍/五层在实际模型中的稳定性"
+      ],
+      "evidence": {
+        "transcription": "complete_for_9_screenshots_with_marked_gaps",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "transfer_validation": "not_performed",
+        "selection": "unknown"
+      },
+      "intake_date": "2026-11-03"
     }
   ],
   "counts": {
-    "workflow_sources": 10,
-    "workflow_json_snapshots": 9,
+    "workflow_sources": 11,
+    "workflow_json_snapshots": 10,
     "industry_skill_documents": 5,
     "cloned_source_files": 24,
     "adapted_project_skill_entries": 6,
-    "format_reference_packages": 1,
-    "derived_format_metadata_files": 2
+    "format_reference_packages": 2,
+    "derived_format_metadata_files": 2,
+    "transcribed_prompt_screenshots": 9
   }
 }

@@ -1,0 +1,155 @@
+{
+ "【素材】P1 原始人物截图": {
+  "type": "input-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122555-bb6fa0be7e68df3f-p1-e4-ba-ba-e7-89-a9-e7-99-bd-e5-8f-91-e.png",
+  "resolution": {
+   "width": 526,
+   "height": 533
+  },
+  "metadata": {
+   "size": 572149,
+   "md5": "7e5dbc051eff3e58b92f5a973c017d1a"
+  },
+  "status": "done",
+  "cover": null
+ },
+ "【素材】P2 原始武器截图": {
+  "type": "input-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261027-122556-5df2712152eae9b4-p2-e6-ad-a6-e5-99-a8-e9-be-99-e8-b7-83-e.png",
+  "resolution": {
+   "width": 632,
+   "height": 711
+  },
+  "metadata": {
+   "size": 528519,
+   "md5": "df2829d66050b0a95f9c6819ac355f86"
+  },
+  "status": "done",
+  "cover": null
+ },
+ "【待生成】A0 设定母版": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071231-738e81fabf4f6294-b9a8638a659a50c176e37e.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071231-738e81fabf4f6294-b9a8638a659a50c176e37e.png"
+ },
+ "【待生成】A1 脸部特写": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png"
+ },
+ "【待生成】A2 正面全身（锚）": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png"
+ },
+ "【待生成】A5 武器白底正交": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png"
+ },
+ "【待生成】A3 侧面 90°": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071620-6be822af0ffe1eae-26d0bf11a515fa05f51b58.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071620-6be822af0ffe1eae-26d0bf11a515fa05f51b58.png"
+ },
+ "【待生成】A4 背面": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071543-2b6f9ae7e2aee8ef-4a696c74426425d7de2d0d.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071543-2b6f9ae7e2aee8ef-4a696c74426425d7de2d0d.png"
+ },
+ "【待生成】A6 握剑的手": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071618-e8d0335a4abac86d-461febb3b1de7fd10245ec.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071618-e8d0335a4abac86d-461febb3b1de7fd10245ec.png"
+ },
+ "【待生成】K1 ① 起势 · 剑尖垂右下（近景）": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072052-ef99a9ea6e0d949f-43b59346e8ec4219ded5a2.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072052-ef99a9ea6e0d949f-43b59346e8ec4219ded5a2.png"
+ },
+ "【待生成】K2 ② 起势 · 剑横胸前（半身）": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072046-0a6e04ed9aa75399-21149e48fdc20cbebf1854.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072046-0a6e04ed9aa75399-21149e48fdc20cbebf1854.png"
+ },
+ "【待生成】K3 ③ 起势 · 剑尖垂右下（近景）": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071946-de45a5bb7c050162-c9c13b8d6a67a7c90fb31f.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071946-de45a5bb7c050162-c9c13b8d6a67a7c90fb31f.png"
+ },
+ "【待生成】E1 ① 尾帧 · 剑尖前送一掌": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072539-3b5ec4678978f6c8-fa27cbd0995a2861da2fc4.png",
+  "resolution": {
+   "width": 1280,
+   "height": 720
+  },
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072539-3b5ec4678978f6c8-fa27cbd0995a2861da2fc4.png"
+ },
+ "【待生成】E2 ② 尾帧 · 剑身横移一掌": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072450-7356181b66ddff8e-173f5a54de64de5092d9e9.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072450-7356181b66ddff8e-173f5a54de64de5092d9e9.png"
+ },
+ "【待生成】E3 ③ 尾帧 · 剑尖上挑出画": {
+  "type": "gen-image",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072435-4fce9b2040016b47-6763f6060307250d8cf1cc.png",
+  "resolution": null,
+  "metadata": null,
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-072435-4fce9b2040016b47-6763f6060307250d8cf1cc.png"
+ },
+ "【待生成】V1 ① 5s · 剑尖前送（首尾帧）": {
+  "type": "gen-video",
+  "url": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/video/20261030-073524-9f9629436dba8ab5-02179334548447100000000000000000000ffffa.mp4",
+  "resolution": {
+   "width": 1280,
+   "height": 720
+  },
+  "metadata": {
+   "size": null,
+   "duration": 5088,
+   "rate": 24.0,
+   "md5": null,
+   "upstreamTaskId": "cgt-20261030153122-gn7j2",
+   "upstreamTaskIdType": "draft"
+  },
+  "status": "done",
+  "cover": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-073525-128099d54fcf217b-02179334548447100000000000000000000ffffa.png"
+ }
+}

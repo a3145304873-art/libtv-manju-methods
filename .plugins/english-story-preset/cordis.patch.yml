@@ -1,0 +1,74 @@
+- insert:
+    - id: preset-english-story
+      name: '@deepseek-ai/dsh-agent-preset'
+      config:
+        id: english-story
+        name: 英语故事画布
+        description: 单词 → 想 3 版 → 人选 → 故事层验收 → 建 .monet → 画布复检；每阶段停下等确认。
+        order: 10
+        plugins:
+          - id: persona
+            name: '@deepseek-ai/dsh-persona'
+            config:
+              prefix: |-
+                你是「英语故事画布」创作模式的执行者。只做英语单词/词族的短故事画布（蛋仔记单词），不接中文漫剧、不做通用分镜。
+
+                先加载 skill english-story-canvas，再动手。
+
+                阶段表（每轮只推进一个阶段，回复第一行写「阶段：Sx」）：
+                S0 选题：确认 word / 中文谐音 / 中文词义 / 场景偏好。缺一项就用 ask_user_question 问，不要猜。
+                S1 想：先调 english_story_brief 出任务书＋dispatch 说明；按 35 号无厘头小插曲结构给 3 个不同方向（冲突强度上限＝微微的不顺，禁止赌局/惩罚），再用 subagent 并发生成 3 版 story.json，每版带义接证据与 4 项自评。
+                S2 选：把 3 版并排成表（词/谐音/义接/场景/道具/爆点/自评），停下等用户选。不许替用户选，不许直接建画布。
+                S3 验收：对选中稿跑 english_story_validate。ERROR 必须改到 0；WARN 逐条给判断；把报告原文贴给用户。
+                S4 建画布：调 english_story_build，报告节点/边/组、prompt 长度、ERROR/WARN。
+                S5 复检：调 english_story_check。有 ERROR 就回 S4 改并重跑，不许跳过。
+                S6 交付：给 .monet / SRT / 报告路径；说明哪些资产复用、哪些新生成、还没做什么。
+
+                硬规则：
+                - 模型只写 story.json；绝不让模型手写 .monet 或手改 prompt。
+                - 冲突强度上限＝微微的不顺：全片不许有人赢走/输掉/受罚任何东西；叙事配方见 00_方案/35-无厘头小插曲结构-v1.md。
+                - 一步没产物不进下一步：验收不过不得建画布，复检不过不得交付。
+                - 不生成图片/视频、不导入 Monet、不删除、不派发；除非用户明确说“导入/跑”。
+                - 15s 与 20s 的规则不合并，按 profile 分流；冲突时以 lib/rules.py 与 SKILL.md 为准。
+                - 返修沿用同一 prefix，否则节点 ID 变了、已有输出对不上。
+          - id: agent-instructions
+            name: '@deepseek-ai/dsh-agent-instructions'
+            config:
+              maxBytes: 65536
+          - id: time-context
+            name: '@deepseek-ai/dsh-time-context'
+          - id: tool-pwsh
+            name: '@deepseek-ai/dsh-tool-pwsh'
+          - id: tool-fs
+            name: '@deepseek-ai/dsh-tool-fs'
+          - id: tool-fs-search
+            name: '@deepseek-ai/dsh-tool-fs-search'
+          - id: skill-filesystem
+            name: '@deepseek-ai/dsh-skill-filesystem'
+          - id: tool-skill
+            name: '@deepseek-ai/dsh-tool-skill'
+          - id: delegation
+            name: cordis:group
+            group: true
+            config:
+              - id: tool-subagent
+                name: '@deepseek-ai/dsh-tool-subagent'
+                config:
+                  provider: spawn
+                  toolName: subagent
+              - id: tool-subagent-list-agents
+                name: '@deepseek-ai/dsh-tool-subagent-control/list-agents'
+          - id: tool-ask-user
+            name: '@deepseek-ai/dsh-tool-ask-user'
+          - id: tool-todo
+            name: '@deepseek-ai/dsh-tool-todo'
+          - id: compaction
+            name: cordis:group
+            group: true
+            isolate:
+              compaction: true
+            config:
+              - id: compaction-basic
+                name: '@deepseek-ai/dsh-compaction-basic'
+              - id: command-compact
+                name: '@deepseek-ai/dsh-command-compact'

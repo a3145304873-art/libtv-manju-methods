@@ -1,0 +1,246 @@
+{
+  "version": "2026-11-03",
+  "note": "做菜线已知翻车的登记表。每条必须有拦截层：schema（缺字段编译不过）、compiler（常量写进提示词）、validator（代码校验）、gate（人工闸门）、human（只能人看）。",
+  "failures": [
+    {
+      "id": "F01",
+      "title": "段数或拍数不符",
+      "layer": "schema",
+      "severity": "error",
+      "evidence": "小蛋仔做菜 06 穿帮台账结构类；心易做菜 04 要求 16 拍＝12 动作＋4 呼吸",
+      "fix": "4 段 × (3 动作 + 1 呼吸)；要慢档就整片改 3 拍，不在一支片里混。"
+    },
+    {
+      "id": "F02",
+      "title": "一段跨两个台地",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #12 段 4 场景与动作错配；心易 README V4 两镜已知缺口",
+      "fix": "一段只留一个 area；非要换景就拆成两条视频。"
+    },
+    {
+      "id": "F03",
+      "title": "呼吸拍推进了剧情",
+      "layer": "validator",
+      "severity": "warn",
+      "evidence": "心易做菜 04「呼吸拍要真空，不推进」",
+      "fix": "呼吸拍只写火、蒸汽、光、静物；不写拿、放、切、走、推。"
+    },
+    {
+      "id": "F04",
+      "title": "时长平均分或单拍越界",
+      "layer": "validator",
+      "severity": "warn",
+      "evidence": "秃秃拉片 51.5s/11 拍，最短 1.3s、最长 13.4s；心易 README「秒数按动作定」",
+      "fix": "短动作 1.5–3s，长动作 5–12s；不要每拍都 3.75s。"
+    },
+    {
+      "id": "F05",
+      "title": "场景缺站位或器具清单",
+      "layer": "schema",
+      "severity": "error",
+      "evidence": "小蛋仔 05 生产管线：layout／props_here 缺一项就编译不过",
+      "fix": "每个 area 写 layout（谁站哪、什么放哪）和 props_here（只有这些器具）。"
+    },
+    {
+      "id": "F06",
+      "title": "出现本角落没有的器具",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #2 板凳进锅、#10 砧板落地、#16 门槛不在场景里",
+      "fix": "把器具写进 props_here，或明确由角色带进来（carry／enter）。"
+    },
+    {
+      "id": "F07",
+      "title": "道具凭空出现",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #4 蛋液、#5 火腿丁、#15 米饭；心易 README V4 盐碟",
+      "fix": "起幅里先有，或本拍 enter 里由看得见的动作拿进来；不能等到用才出现。"
+    },
+    {
+      "id": "F08",
+      "title": "容器没开就放入",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #6 笼屉没开就放包子；心易 V3 锅盖没开土豆就出现",
+      "fix": "起幅写容器已敞开，或上一拍先有开盖动作、盖放到台面上。"
+    },
+    {
+      "id": "F09",
+      "title": "段间状态不接",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 第三节「跨段状态不接」；心易 V2 走完又回溪边、三颗土豆",
+      "fix": "下一段第一拍的 state／counts／hand 接上一段落幅；换台地只用 carry 带得走的东西。"
+    },
+    {
+      "id": "F10",
+      "title": "道具数量漂移",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "心易 README V2 三颗土豆；小蛋仔 QUANTITY 常量",
+      "fix": "数量写进 counts；增加必须有拿取／倒入动作，减少必须有切开／用掉动作。"
+    },
+    {
+      "id": "F11",
+      "title": "切好的又变整颗",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #8 切好的番茄又变整颗",
+      "fix": "state 从 cut 不许无动作回到 whole；落幅写「桌上不再有整颗」。"
+    },
+    {
+      "id": "F12",
+      "title": "多余手臂／第三只手",
+      "layer": "compiler",
+      "severity": "error",
+      "evidence": "心易 V2 侧面搓洗冒出四条手臂；AGENTS 写提示词自检第 2 条",
+      "fix": "提示词写「只有两只短手」，负向固定加多余手臂、第三只手、多双手。"
+    },
+    {
+      "id": "F13",
+      "title": "全身背影或正面全身抱物",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "AGENTS 自检第 2 条：全身正面抱物、全身背影走路都会长手",
+      "fix": "改特写（只拍手和道具）或正面／3-4 中景；不要写全身背影走。"
+    },
+    {
+      "id": "F14",
+      "title": "出现人手／五指",
+      "layer": "compiler",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #11 出现人手；NEG_IMG 六类人手词",
+      "fix": "负向固定加人类的手、手掌、五指、指甲、穿袖子的手。"
+    },
+    {
+      "id": "F15",
+      "title": "手持物跳变",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #9 油壶突变锅铲",
+      "fix": "换手必须写「先放下油壶、再拿起锅铲」；hand 状态逐拍接。"
+    },
+    {
+      "id": "F16",
+      "title": "角色缩成道具或巨物化",
+      "layer": "compiler",
+      "severity": "error",
+      "evidence": "小蛋仔 06 #1 锅径＝身高 20 倍；蘑菇拆解「工具按身量配、锅盆比它大」",
+      "fix": "常量写「为它配好的小世界」；角色标身高，场景参考图只用于比例。"
+    },
+    {
+      "id": "F17",
+      "title": "近景把场景拆了",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "心易 V3 近景灶台变火塘；AGENTS 自检第 6 条",
+      "fix": "近景写「中景、保留灶身与灶口火膛」；负向加火塘、石圈、锅放地上。"
+    },
+    {
+      "id": "F18",
+      "title": "场景状态倒退",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "AGENTS 自检第 1 条：S 图已点火，V 里不能再写生火",
+      "fix": "起幅先声明 fire=lit；后续只写添柴、看火，不再写生火。"
+    },
+    {
+      "id": "F19",
+      "title": "字幕烧进画面",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "心易 V1「一窝」被烧进画面；AGENTS 自检第 4 条",
+      "fix": "字幕只进 SRT；提示词只写「不生成任何字幕」，正文不重复字幕文案。"
+    },
+    {
+      "id": "F20",
+      "title": "台词／口播",
+      "layer": "schema",
+      "severity": "error",
+      "evidence": "蘑菇系列不说话、只发一个音；心易只发咔啵",
+      "fix": "角色 speech 写清只发什么音；卡里不许有 dialogue／line 字段。"
+    },
+    {
+      "id": "F21",
+      "title": "音乐／BGM 进画面",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "心易 README「环境声打底，无音乐」；小蛋仔 NEG_VID 禁 BGM 旋律",
+      "fix": "sound 只写环境音与动作声；要音乐就后期加，不写进生成提示词。"
+    },
+    {
+      "id": "F22",
+      "title": "提示词超长",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "小蛋仔 05 已知缺口：1746–1875/2000；心易 1636–1756/2000",
+      "fix": "先压场景描述，再加新约束；1850 起警告，2000 直接拒绝。"
+    },
+    {
+      "id": "F23",
+      "title": "整帧参考造成构图打架",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "心易 README v2 挂 T1-T3 尾帧已撤；「不要用上一段整帧当参考」",
+      "fix": "视频只参考本段 K／本段分镜／角色图；补一致性就裁角色，不挂整帧。"
+    },
+    {
+      "id": "F24",
+      "title": "全能参考模式还挂首尾帧槽",
+      "layer": "compiler",
+      "severity": "error",
+      "evidence": "心易 README：2.0-mini 在 reference 模式下首/尾帧槽不生效",
+      "fix": "reference 模式 first_frame_image／last_frame_image 都为 null，K 进 reference_images。"
+    },
+    {
+      "id": "F25",
+      "title": "没过闸门就派发",
+      "layer": "gate",
+      "severity": "error",
+      "evidence": "AGENTS 分镜图闸门；小蛋仔 05「网格没定稿不要跑段首帧」",
+      "fix": "runlist 只放行已 approve 的下一组；卡一改，旧签核自动失效。"
+    },
+    {
+      "id": "F26",
+      "title": "手改画布或卡画不一致",
+      "layer": "gate",
+      "severity": "error",
+      "evidence": "小蛋仔 05／心易 02_画布 README「改提示词改卡，不手改 .monet」",
+      "fix": "画布带 prompt digest 边车；doctor 重算，不一致就拒绝交付。"
+    },
+    {
+      "id": "F27",
+      "title": "结尾没有分出去",
+      "layer": "validator",
+      "severity": "warn",
+      "evidence": "秃秃每条都以「分」收尾；小蛋仔 05 四条硬规矩第 3 条",
+      "fix": "最后一拍写分食／留一半／推给谁；单人可以留一半在碟上。"
+    },
+    {
+      "id": "F28",
+      "title": "角色／道具跨集漂移",
+      "layer": "human",
+      "severity": "human",
+      "evidence": "小蛋仔 05 已知缺口：角色一致性未验证跨集；小狗会漂",
+      "fix": "每集复检角色锚与道具白底；跨集对比上一集成片，不靠记忆。"
+    },
+    {
+      "id": "F29",
+      "title": "表演与治愈感未判定",
+      "layer": "human",
+      "severity": "human",
+      "evidence": "菇子柒拆解：治愈第一变量是时间；只能看片判断",
+      "fix": "出片后按 1–30 逐条过；表演、节奏、治愈感留给人，不写成通过。"
+    },
+    {
+      "id": "F30",
+      "title": "成品跳切：没有取出来吃的画面",
+      "layer": "validator",
+      "severity": "error",
+      "evidence": "EP02 G4（2026-11-03 用户发现）：V4 从「锅盖盖着」直接跳到「碗里盛好」，盛汤/取出动作不在任何一段；EP01 V4 两镜（灶前拨出→池边吃）README 已记同类缺口",
+      "fix": "成品出现的段必须有产生/取出它的可见动作（揭盖、挑进碗、端过去），进食段的账本里必须有 edible 食材道具；不行就拆两条。"
+    }
+  ]
+}

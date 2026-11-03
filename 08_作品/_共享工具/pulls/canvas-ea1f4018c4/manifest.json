@@ -1,0 +1,396 @@
+{
+  "canvas": {
+    "id": "canvas-ea1f4018c4",
+    "name": "心易做菜 · EP01 等土豆熟 · 60s · 一坡四台 · 晨雾",
+    "description": "",
+    "revision": "358",
+    "updatedAt": "2026-11-03T15:45:36.658000+08:00"
+  },
+  "counts": {
+    "nodes": 20,
+    "edges": 44,
+    "groups": 10
+  },
+  "outputs": [
+    {
+      "node": "node-46d151c5",
+      "label": "【保留】A0 心易·水豚标准（复用·已上传）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+      "file": "media\\【保留】A0_心易·水豚标准（复用·已上传）_output-caa640a531.png",
+      "bytes": 258953
+    },
+    {
+      "node": "node-942e7b84",
+      "label": "【保留】A0F 心易脸部/眼睛参考（锁眼·已上传）",
+      "type": "input-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-065612-d1b27798ec4a1cfa-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e8-8.png",
+      "file": "media\\【保留】A0F_心易脸部_眼睛参考（锁眼·已上传）_output-535001e565.png",
+      "bytes": 381918
+    },
+    {
+      "node": "node-0bfe138c",
+      "label": "【已生成·保留】S1 场景 · 菜园台 · 晨雾 · 16:9 空景",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093907-675de0842974aad5-9183c024203fd02da501f4.png",
+      "file": "media\\【已生成·保留】S1_场景_·_菜园台_·_晨雾_·_16_9_空景_output-2d8946ea13.png",
+      "bytes": 1506011
+    },
+    {
+      "node": "node-1539ea13",
+      "label": "【已生成·保留】S2 场景 · 溪水台 · 晨雾 · 16:9 空景",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093858-20248751822d6b18-b5aece49c3af0b232f95df.png",
+      "file": "media\\【已生成·保留】S2_场景_·_溪水台_·_晨雾_·_16_9_空景_output-0807d82350.png",
+      "bytes": 1521498
+    },
+    {
+      "node": "node-64592028",
+      "label": "【已生成·保留】S3 场景 · 土灶台 · 晨雾 · 16:9 空景",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093908-a0edc32ec94c631a-66d4261f7ade9e75fff269.png",
+      "file": "media\\【已生成·保留】S3_场景_·_土灶台_·_晨雾_·_16_9_空景_output-ae1b37e9da.png",
+      "bytes": 1457569
+    },
+    {
+      "node": "node-64c36948",
+      "label": "【已生成·保留】S4 场景 · 汤池台 · 晨雾 · 16:9 空景",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-093900-5bdcd511e5baadae-be9967bab7f5daad63fa94.png",
+      "file": "media\\【已生成·保留】S4_场景_·_汤池台_·_晨雾_·_16_9_空景_output-5bb23f0839.png",
+      "bytes": 1372089
+    },
+    {
+      "node": "node-a69ad559",
+      "label": "【已生成·保留】P1 生土豆一窝 · 白底",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095700-eeac2c242e62039f-b7a97c46859569d00f6aa4.png",
+      "file": "media\\【已生成·保留】P1_生土豆一窝_·_白底_output-b318941476.png",
+      "bytes": 1017362
+    },
+    {
+      "node": "node-e6810ff1",
+      "label": "【已生成·保留】P2 熟土豆掰开 · 白底",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095703-dddc03be2ba589de-a9f094f4e57e4f9edd40f2.png",
+      "file": "media\\【已生成·保留】P2_熟土豆掰开_·_白底_output-5c3ee7547c.png",
+      "bytes": 1032065
+    },
+    {
+      "node": "node-e3aeb44e",
+      "label": "【已生成·保留】P3 小木棍 · 白底",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095657-01d2f75f6be73527-fd03dee54f69ae27cfeb1d.png",
+      "file": "media\\【已生成·保留】P3_小木棍_·_白底_output-7856fb37ee.png",
+      "bytes": 677179
+    },
+    {
+      "node": "node-a6ccaa4e",
+      "label": "【已生成·保留】P4 盐碟 · 白底",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-095707-ff2be9388a9ee7dd-e2704bb287053af06b4dd0.png",
+      "file": "media\\【已生成·保留】P4_盐碟_·_白底_output-83e6aea507.png",
+      "bytes": 872686
+    },
+    {
+      "node": "node-1429a431",
+      "label": "【已生成·保留】G1 四格预演 · 取/理/火/吃",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100619-9ef56cf1dacaaec0-1009c29a6dcd260adeae44.png",
+      "file": "media\\【已生成·保留】G1_四格预演_·_取_理_火_吃_output-5284980217.png",
+      "bytes": 1686354
+    },
+    {
+      "node": "node-32fc57aa",
+      "label": "【已生成·保留】K1 V1 开场 · 取",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-100813-e584acee1081cac4-ae0b2ef183689e92d52cc8.png",
+      "file": "media\\【已生成·保留】K1_V1_开场_·_取_output-9cceb68393.png",
+      "bytes": 1412222
+    },
+    {
+      "node": "node-eca60909",
+      "label": "【已生成·保留】K2 V2 开场 · 理",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101215-a6660b582a8991ac-4dcf78c67d8fec5487322d.png",
+      "file": "media\\【已生成·保留】K2_V2_开场_·_理_output-ab0d406310.png",
+      "bytes": 1474632
+    },
+    {
+      "node": "node-7f26bcb8",
+      "label": "【已生成·保留】K3 V3 开场 · 火",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101259-006659a04cb516cb-1cb13fb5ea5244b2e84547.png",
+      "file": "media\\【已生成·保留】K3_V3_开场_·_火_output-558cce886c.png",
+      "bytes": 1432545
+    },
+    {
+      "node": "node-442ed952",
+      "label": "【已生成·保留】K4 V4 开场 · 吃",
+      "type": "gen-image",
+      "kind": "image",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/image/20261102-101227-3402c9dc9585417d-4216ecc1c5def26e3d6464.png",
+      "file": "media\\【已生成·保留】K4_V4_开场_·_吃_output-3ee67cba70.png",
+      "bytes": 1453834
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-101336-39cbde03c446c5a1-02179361417509200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-bf8ab51b2d.mp4",
+      "bytes": 5272394
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125814-051262eb200508ef-02179362405161200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-1823a85f6c.mp4",
+      "bytes": 9900520
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-131129-f32c35bbbdc78710-02179362484844600000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-e129780888.mp4",
+      "bytes": 5556283
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-025206-c223c97d0e69bcd2-02179367414481200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-844015b703.mp4",
+      "bytes": 5494175
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061017-c4e3883d7181739a-02179368597638600000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-164a56723f.mp4",
+      "bytes": 9937961
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061659-8dde5099d8162aea-02179368637842100000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-62c22b4c2e.mp4",
+      "bytes": 8656269
+    },
+    {
+      "node": "node-dcff6eb6",
+      "label": "【已通过】V1 取",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-070253-a6425a5f518d7fbf-02179368913129400000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V1_取_output-2620133688.mp4",
+      "bytes": 8986173
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-102017-dec9b0502348105c-02179361457618000000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-4ce2720e57.mp4",
+      "bytes": 4923771
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125811-2b353ff632451920-02179362404783200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-de9edaf75c.mp4",
+      "bytes": 9680257
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-031608-bbcb17fa42e31f4d-02179367558841700000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-755c4d5f8f.mp4",
+      "bytes": 5037552
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-033628-f3cd73bdf6ecac20-02179367674771200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-1616b24203.mp4",
+      "bytes": 6221910
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-061032-20ad3dcfbebb8845-02179368599095400000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-934721bf8f.mp4",
+      "bytes": 10334210
+    },
+    {
+      "node": "node-55eb8144",
+      "label": "【已通过】V2 理",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-063532-6080401fa71c4c58-02179368749187600000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V2_理_output-38843e138e.mp4",
+      "bytes": 8385053
+    },
+    {
+      "node": "node-7035d72e",
+      "label": "【已通过】V3 火",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-101921-647b75b4c59908fa-02179361458143700000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V3_火_output-218e991ad1.mp4",
+      "bytes": 3987098
+    },
+    {
+      "node": "node-7035d72e",
+      "label": "【已通过】V3 火",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125913-cbce7dc64c23e840-02179362405019100000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V3_火_output-7843de8045.mp4",
+      "bytes": 7419707
+    },
+    {
+      "node": "node-7035d72e",
+      "label": "【已通过】V3 火",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-025215-36960c196651f5b0-02179367415280400000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V3_火_output-35c8dc02ab.mp4",
+      "bytes": 4709289
+    },
+    {
+      "node": "node-7035d72e",
+      "label": "【已通过】V3 火",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-031718-8e60acea3acb8cb7-02179367559651800000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V3_火_output-823baf2c9a.mp4",
+      "bytes": 4700398
+    },
+    {
+      "node": "node-7035d72e",
+      "label": "【已通过】V3 火",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-034013-0e545a40597929ce-02179367697123800000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V3_火_output-02c063d6c2.mp4",
+      "bytes": 4308592
+    },
+    {
+      "node": "node-5aa6fd5b",
+      "label": "【已通过】V4 吃",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-102025-ee8b89b6c0587862-02179361458571200000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V4_吃_output-e3fc2bbd84.mp4",
+      "bytes": 4139374
+    },
+    {
+      "node": "node-5aa6fd5b",
+      "label": "【已通过】V4 吃",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261102-125812-b35e79ded7d0334d-02179362404973500000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V4_吃_output-45dd87819d.mp4",
+      "bytes": 8448306
+    },
+    {
+      "node": "node-5aa6fd5b",
+      "label": "【已通过】V4 吃",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-071015-883b69f9fc0e9737-02179368958109400000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V4_吃_output-87c9963e93.mp4",
+      "bytes": 8242293
+    },
+    {
+      "node": "node-5aa6fd5b",
+      "label": "【已通过】V4 吃",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-073941-ff727d8c71502a7d-02179369128499000000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V4_吃_output-bf3d0e5b62.mp4",
+      "bytes": 8028085
+    },
+    {
+      "node": "node-5aa6fd5b",
+      "label": "【已通过】V4 吃",
+      "type": "gen-video",
+      "kind": "video",
+      "status": "done",
+      "url": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-ea1f4018c4/video/20261103-074534-b7ece4ba3ecdbaa6-02179369169139800000000000000000000ffffa.mp4",
+      "file": "media\\【已通过】V4_吃_output-848579effa.mp4",
+      "bytes": 8845279
+    }
+  ]
+}

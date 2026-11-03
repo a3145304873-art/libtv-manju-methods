@@ -236,6 +236,31 @@
         "transfer_validation": "not_performed",
         "selection": "unknown"
       }
+    },
+    {
+      "id": "W11",
+      "kind": "workflow",
+      "name": "邵氏电影学英语一步成片模板",
+      "stable_id": "libtv:58ab94a2da3f411b8849f076fa87c94d",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "C17 智能体单变量一步成片模板（新增）；C04 三视图角色锚+{{Mixed N}}分支；C03 剧本自动生成入视频 prompt；C16 引用锚位 LibTV 实证",
+      "locators": "cb6da0ea 智能体定义 content；ce36c3fa prompt=单词与输出剧本；ea214b17 {{Mixed 1/2}} 锚位与 mixedList；使用说明场景1/场景2",
+      "gaps": [
+        "媒体全部未观看",
+        "两分支输出 url 相同采用版不明",
+        "视频参数双套并存",
+        "智能体触发词与中文输入未复现"
+      ],
+      "evidence": {
+        "structure": "snapshot",
+        "media_review": "not_performed",
+        "reproduction": "not_performed",
+        "capture": "API-direct read-only GET (project/detail, CLI-restored headers); user-owned token refreshed via official web login 2026-10-29"
+      }
     }
   ],
   "format_references": [

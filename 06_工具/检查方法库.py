@@ -8,6 +8,8 @@ from urllib.parse import unquote
 
 ROOT = Path(__file__).resolve().parents[1]
 MEDIA = {".png", ".jpg", ".jpeg", ".gif", ".webp", ".mp4", ".mov", ".mp3", ".wav"}
+# 用户 2026-10-29 指定的作品区：允许放资产、画布与成片。方法层（08_作品 以外）仍不得携带制作媒体。
+WORKSPACE = ROOT / "08_作品"
 
 
 def require(condition, detail):
@@ -51,13 +53,18 @@ def main(excluded_terms=()):
             hashes += 1
     links = 0
     generated = []
+    workspace_files = 0
     for path in ROOT.rglob("*"):
         if ".git" in path.parts or "__pycache__" in path.parts:
             continue
         require(not path.is_symlink(), f"方法库包含外部链接: {path}")
         if not path.is_file():
             continue
-        require(path.suffix.lower() not in MEDIA, f"不应携带制作媒体: {path}")
+        in_workspace = WORKSPACE in path.parents
+        if in_workspace:
+            workspace_files += 1
+        else:
+            require(path.suffix.lower() not in MEDIA, f"不应携带制作媒体: {path}")
         require(path.name not in {"credentials.json", ".env"} and ".libtv" not in path.parts,
                 f"不应携带账号配置: {path}")
         if path.suffix not in {".md", ".txt", ".json"}:
@@ -70,7 +77,8 @@ def main(excluded_terms=()):
             json.loads(text)
         if path.suffix != ".md":
             continue
-        generated.append(path)
+        if not in_workspace:
+            generated.append(path)
         for target in re.findall(r"(?<!!)\[[^\]]*\]\(([^)]+)\)", without_fences(text)):
             if re.match(r"^(?:https?://|#|app://)", target):
                 continue
@@ -96,8 +104,9 @@ def main(excluded_terms=()):
         "snapshot_totals": inventory["totals"], "generated_markdown_files": len(generated),
         "relative_links_verified": links, "ability_ids": ability_ids,
         "project_skill_entries": len(skills),
+        "workspace_files": workspace_files,
         "excluded_content_terms_checked": len(excluded_terms),
-        "boundary": "no copied production media, supplied excluded content terms, credentials, symlinks or external local navigation",
+        "boundary": "method layer carries no production media; 08_作品 workspace allowed to carry assets/canvas/outputs; supplied excluded content terms, credentials, symlinks and external local navigation still rejected",
         "limitations": "engineering/package checks only; source media and method quality not evaluated; missing upstream attachments remain missing",
     }
     (ROOT / "validation-report.json").write_text(

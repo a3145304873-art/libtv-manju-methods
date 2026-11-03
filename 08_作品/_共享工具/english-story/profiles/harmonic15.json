@@ -1,0 +1,29 @@
+{
+  "id": "harmonic15",
+  "status": "implemented",
+  "title": "谐音故事 · 15s · 6 拍 + 单卡",
+  "source": "32-pest-15s最终版 §一 / 31-谐音故事智能体 §三",
+  "total": 15,
+  "screen": { "start": 0, "end": 12 },
+  "card": { "start": 12, "end": 15, "rows": 3, "count": 1 },
+  "shots": { "count": 6, "shape": [3, 2, 2, 2, 2, 1] },
+  "max_props": 3,
+  "cast": ["huangdan", "xinyi"],
+  "tail_frame": false,
+  "narration": false,
+  "require_word_in_line": false,
+  "storyboard": true,
+  "card_style": "米白卡、浅灰边、红色单词、黑色“谐音 → 词义”，无小字",
+  "video": {
+    "model_id": "seedance-2.0-mini",
+    "resolution": "720p",
+    "aspect_ratio": "16:9",
+    "generate_audio": true
+  },
+  "notes": [
+    "6 拍覆盖 0–12s，卡尾 12–15s 后期叠，不进视频。",
+    "不用 T_A、不用 V2：单段 12s 一次跑完。",
+    "词只在卡尾出现，黄蛋台词不解释英文。",
+    "分镜图闸门（2026-11-03）：先跑 G1 三格（0/5/10s），第一格含全部道具与站位，确认后再跑 K_A/V1。"
+  ]
+}
