@@ -1,0 +1,77 @@
+{
+  "nodeKey": "i-zrtckghshjar",
+  "data": {
+    "name": "A7 片尾卡·底板",
+    "_updatedAtMs": 1793795553000,
+    "_lastAppliedFullyAtMs": 1793795553000,
+    "type": "image",
+    "action": "image_generate",
+    "params": {
+      "advancedSettings": {},
+      "model": "Lib Image 2.5 Pro",
+      "settings": {
+        "ratio": "9:16",
+        "quality": "medium",
+        "resolution": "2K",
+        "background": "auto"
+      },
+      "textList": [],
+      "videoList": [],
+      "prompt": "{{Node i-Qne6Qz3F3J}} 用于心易的全身外貌与毛绒质感：棕色水豚玩偶、圆身无脖子、奶油色大脸板、白色圆眼片外圈一道深棕色细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子，不采用其白色背景。{{Node i-2mrdVFsHBp}} 用于心易眼片、腮红与一字嘴的局部画法，与 {{Node i-Qne6Qz3F3J}} 共同定义同一个心易，成片中始终只有一个。{{Node i-7Z4rrw5Ebo}} 用于芽芽的外貌与毛绒质感：米白蛋形身体、浅灰玄凤鹦鹉连帽、帽顶淡黄高羽冠、帽侧圆形粉腮斑、帽前沿浅灰小钩喙、帽下正常比例的大眼睛、胸前一枚金色叶状标记，不采用其白色背景。{{Node i-pEOy4U0OEL}} 只用于两人身高比例与体量关系，不采用图中任何角色的外观、配色与背景。{{Node i-22fgwhvt6atw}} 用于场景空间与晨光光线。{{Node i-8x45zzzbu9cs}} 用于开裂白煮蛋的裂缝形状与渗出的蛋白，不采用其灰色背景。竖屏 9:16 片尾定格：正面平视，心易与芽芽并排坐在原木料理台的台面上，两者之间的台面上放着那颗裂了缝的白煮蛋，晨光从左侧拉出一道长影；两者安静朝向前方，心易的白色圆眼片中心空白、无瞳孔无高光；画面下半部留出大片干净空白台面，供后期压制词条与字幕。各角色的外貌、动作与站位不互相交换，画面中只有这两个角色。画面内绝对不含任何文字、字母、数字、标志、字幕、水印与 UI 元素。",
+      "scene": "",
+      "modeType": "image2image",
+      "imageListOrder": [
+        "i-Qne6Qz3F3J",
+        "i-2mrdVFsHBp",
+        "i-7Z4rrw5Ebo",
+        "i-pEOy4U0OEL",
+        "i-22fgwhvt6atw",
+        "i-8x45zzzbu9cs"
+      ],
+      "imageList": [
+        {
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/8fbb40d4090c60a2d95a313de731e74fcb650d76.png",
+          "label": "心易-标准",
+          "nodeId": "i-Qne6Qz3F3J"
+        },
+        {
+          "nodeId": "i-2mrdVFsHBp",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/dcc757b163845548fa5d01ae9f28fd5866e540b2.png",
+          "label": "心易-眼睛参考"
+        },
+        {
+          "nodeId": "i-7Z4rrw5Ebo",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/eb25d2f4df80a7d8d4283ac376e558938a59c1d2.png",
+          "label": "芽芽-4A-经典灰"
+        },
+        {
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/f0e97d92fe18109b40eb51641a6e6d5e93926a9f.png",
+          "label": "R00-蛋仔身高比例",
+          "nodeId": "i-pEOy4U0OEL"
+        },
+        {
+          "label": "A3 厨房料理台·场景",
+          "nodeId": "i-22fgwhvt6atw",
+          "url": ""
+        },
+        {
+          "label": "A5 白煮蛋·开裂",
+          "nodeId": "i-8x45zzzbu9cs",
+          "url": ""
+        }
+      ],
+      "audioList": []
+    },
+    "taskInfo": {
+      "loading": false,
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": "",
+      "taskId": ""
+    }
+  },
+  "nodeType": "image",
+  "name": "A7 片尾卡·底板"
+}

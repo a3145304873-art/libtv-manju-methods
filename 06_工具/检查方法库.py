@@ -49,12 +49,16 @@ def main(excluded_terms=()):
             require(path not in paths, f"来源文件重复注册: {path}")
             paths.add(path)
             require(path.is_file(), f"缺少原文: {path}")
-            # 入库有两种哈希口径：多数按 CRLF→LF 归一化文本记录（与仓库 blob 一致），少数按原始字节；两者任一匹配即通过。
+            # 入库有两种哈希口径：多数按 CRLF→LF 归一化文本记录（与仓库 blob 一致），少数按原始字节（原文为 CRLF）。
+            # 仓库统一存 LF，检出侧可能是 LF 或 CRLF，因此三种口径任一匹配即通过：
+            # 当前字节、CRLF→LF 归一化、以及 LF→CRLF 还原（用于比对按原始 CRLF 字节记录的哈希）。
             data = path.read_bytes()
-            digest = hashlib.sha256(data).hexdigest()
-            if digest != file["sha256"]:
-                digest = hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
-            require(digest == file["sha256"], f"原文哈希不符: {path}")
+            variants = [data]
+            if b"\r\n" in data:
+                variants.append(data.replace(b"\r\n", b"\n"))
+            else:
+                variants.append(data.replace(b"\n", b"\r\n"))
+            require(file["sha256"] in {hashlib.sha256(v).hexdigest() for v in variants}, f"原文哈希不符: {path}")
             hashes += 1
     links = 0
     # 工作区文档引用的制作媒体常留在媒体库/本机、按边界规则不入仓库；

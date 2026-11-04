@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-04T12:01:08.895+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 二号位玄凤兜帽蛋仔 · 毛绒设定对比 v1",
+    "description": "蛋仔身体/脸/短圆手 + 玄凤连帽；4A 经典灰 / 4B 暖杏；说话用蛋仔嘴，帽上小喙装饰。",
+    "nodes": [
+      {
+        "id": "node-47a0baaa",
+        "type": "input-image",
+        "mainOutputId": "output-e2e198f267",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF1 狗帽蛋仔 · 只借蛋仔形体",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-e2e198f267",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031721-cfda7e6ce0a72d47-ref-01-e7-8b-97-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-01-狗帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T12:01:08.895+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T12:01:08.895+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1607090,
+              "md5": "3299f53b30e10f8c841b724df4c42072"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-e43e4533",
+        "type": "input-image",
+        "mainOutputId": "output-ca0c9244eb",
+        "meta": {
+          "x": 0.0,
+          "y": 340.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF2 猫帽蛋仔 · 只借蛋仔形体",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-ca0c9244eb",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031722-0d3ca12de746030d-ref-02-e7-8c-ab-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-02-猫帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T12:01:08.895+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T12:01:08.895+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1557031,
+              "md5": "7b2225d5b3e8c6613e3790a801a3856d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-cb1d249f",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 0.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】4A 玄凤兜帽蛋仔·经典灰 · 毛绒设定图",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只“芽芽”，单个角色，正面偏 3/4 站姿，全身入画。\n参考图 {{node-47a0baaa}}、{{node-e43e4533}} 只取蛋仔形体/质感：蛋形身体、头身一体、大头、大奶油色脸板、大圆眼、张嘴笑红舌无牙、短圆手臂＋白色手套/肉垫、白色小靴、毛茸茸短毛绒/毛毡、柔光、纯白背景；不要复制狗/猫帽、狗耳/猫耳、M 标志、具体配色。\n芽芽是“蛋仔穿玄凤鹦鹉连帽衫”，不是鸟体：\n身体：奶油白/米白蛋形毛绒身体，头身一体，没有脖子，头约占全身一半；13cm 玩具比例；\n脸：奶油色大圆脸板，占正面大部分；大圆眼：白眼球＋琥珀棕虹膜＋黑瞳孔＋一个白高光；毛绒玩偶的固定眼片/刺绣眼，可眨眼；张嘴笑，红色舌头，无牙；说话用脸板的嘴；\n连帽：暖灰色玄凤鹦鹉连帽衫，帽子覆盖头顶和后脑；帽顶一撮高耸的黄色羽冠（3–5 根尖羽，向后弯），是羽毛冠，不是叶子/植物芽；帽前额一个小钩喙（灰粉色，喙尖向下弯，闭合，装饰，不用于说话）；帽两侧各一块蜜桃色圆腮斑；帽前额两只小圆点眼睛（装饰，不是说话眼）；\n手：两只短圆蛋仔手臂，奶油白，上臂一块暖灰/蜜桃色小肉垫，末端白色手套/肉垫，无手指；不是翅膀、不是羽毛、不要扇贝边；\n腿/鞋：两条短腿，白色毛绒小靴，靴口暖灰边，无脚趾；\n胸口：一枚小叶子徽章（金色/奶油色），不要 M 标志；\n材质：短毛绒/毛毡，毛茸茸、哑光、纤维可见，边缘有细绒光；不是光滑搪胶、不是塑料、不是 3D 乙烯基；\n纯白背景，无阴影地面，无第二只角色，无文字、无字幕、无 logo、无水印。\n负向：鸟体、鸟身、翅膀手、羽毛手、扇贝边、鸭嘴、鸡喙、大鹦鹉喙、狗、猫、狗帽、猫帽、狗耳、猫耳、M 标志、小鸡、鸭子、企鹅、猫头鹰、叶子冠、植物芽、叶子尾、橘子、心易、水豚、长脖子、长腿、手指、脚趾、多余手臂、第三只手、多双手、两只以上的脚、牙齿、写实舌头、张开的口腔内部、心易的白片无瞳、深棕大眼圈、文字、字幕、logo、水印、光滑搪胶、塑料高光、3D 乙烯基、vinyl、写实眼、过曝、比例失真、灰底、渐变底、地面阴影、场景、道具。",
+            "reference_images": [
+              {
+                "node_id": "node-47a0baaa"
+              },
+              {
+                "node_id": "node-e43e4533"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-41b46769",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 280.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】4B 玄凤兜帽蛋仔·暖杏色 · 毛绒设定图",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只“芽芽”，单个角色，正面偏 3/4 站姿，全身入画。\n参考图 {{node-47a0baaa}}、{{node-e43e4533}} 只取蛋仔形体/质感：蛋形身体、头身一体、大头、大奶油色脸板、大圆眼、张嘴笑红舌无牙、短圆手臂＋白色手套/肉垫、白色小靴、毛茸茸短毛绒/毛毡、柔光、纯白背景；不要复制狗/猫帽、狗耳/猫耳、M 标志、具体配色。\n芽芽是“蛋仔穿玄凤鹦鹉连帽衫”，不是鸟体：\n身体：奶油白/米白蛋形毛绒身体，头身一体，没有脖子，头约占全身一半；13cm 玩具比例；\n脸：奶油色大圆脸板，占正面大部分；大圆眼：白眼球＋琥珀棕虹膜＋黑瞳孔＋一个白高光；毛绒玩偶的固定眼片/刺绣眼，可眨眼；张嘴笑，红色舌头，无牙；说话用脸板的嘴；\n连帽：暖杏色/浅驼色玄凤鹦鹉连帽衫，帽檐一圈深一点的杏色边；帽子覆盖头顶和后脑；帽顶一撮高耸的黄色羽冠（3–5 根尖羽，向后弯），是羽毛冠，不是叶子/植物芽；帽前额一个小钩喙（灰粉色，喙尖向下弯，闭合，装饰，不用于说话）；帽两侧各一块蜜桃色圆腮斑；帽前额两只小圆点眼睛（装饰，不是说话眼）；\n手：两只短圆蛋仔手臂，奶油白，上臂一块暖杏/蜜桃色小肉垫，末端白色手套/肉垫，无手指；不是翅膀、不是羽毛、不要扇贝边；\n腿/鞋：两条短腿，白色毛绒小靴，靴口暖杏边，无脚趾；\n胸口：一枚小叶子徽章（金色/奶油色），不要 M 标志；\n材质：短毛绒/毛毡，毛茸茸、哑光、纤维可见，边缘有细绒光；不是光滑搪胶、不是塑料、不是 3D 乙烯基；\n纯白背景，无阴影地面，无第二只角色，无文字、无字幕、无 logo、无水印。\n负向：鸟体、鸟身、翅膀手、羽毛手、扇贝边、鸭嘴、鸡喙、大鹦鹉喙、狗、猫、狗帽、猫帽、狗耳、猫耳、M 标志、小鸡、鸭子、企鹅、猫头鹰、叶子冠、植物芽、叶子尾、橘子、心易、水豚、长脖子、长腿、手指、脚趾、多余手臂、第三只手、多双手、两只以上的脚、牙齿、写实舌头、张开的口腔内部、心易的白片无瞳、深棕大眼圈、文字、字幕、logo、水印、光滑搪胶、塑料高光、3D 乙烯基、vinyl、写实眼、过曝、比例失真、灰底、渐变底、地面阴影、场景、道具。",
+            "reference_images": [
+              {
+                "node_id": "node-47a0baaa"
+              },
+              {
+                "node_id": "node-e43e4533"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-c3601d94",
+        "type": "input-text",
+        "mainOutputId": "output-58c9201994",
+        "meta": {
+          "x": 800.0,
+          "y": 0.0,
+          "width": 760.0,
+          "height": 680.0,
+          "label": "S0 说明 · 兜帽蛋仔怎么选",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-58c9201994",
+            "status": "done",
+            "error": null,
+            "value": "【这张画布做什么】\n二号位“芽芽”= 蛋仔穿玄凤连帽衫，不是鸟体。两个色系：\n- 4A 经典灰兜帽：奶油身体＋暖灰玄凤帽＋黄羽冠＋蜜桃腮斑。\n- 4B 暖杏色兜帽：奶油身体＋暖杏/浅驼帽＋黄羽冠＋蜜桃腮斑。\n\n【为什么改】\n3A/3B 鸟体被反馈“太丑、手不像蛋仔”。这一版保住：蛋形身体、大脸板、大眼、张嘴笑、短圆手臂＋白手套/肉垫、白靴；玄凤只做帽子。\n\n【跑序】\n1. 00 参考图组已上传。\n2. 01 组 4A/4B 独立，可并行跑。\n3. 先看手/身体/脸是不是蛋仔，再看帽子是不是一眼玄凤。\n4. 选一个色系，或要求修手/帽。\n\n【判断点】\n- 手：短圆、无手指、白手套/肉垫、上臂小肉垫；不是翅膀/羽毛/扇贝边。\n- 身体：蛋形，不是鸟体；无鸟翅/鸟尾。\n- 脸：大脸板、大眼、张嘴笑红舌无牙；说话用这张嘴。\n- 帽：高羽冠、腮斑、小钩喙；帽上小喙闭合装饰，不抢说话嘴。\n- 128px：先看像不像蛋仔，再看像不像玄凤。\n- 不要狗/猫帽、M 标志、文字、第二只角色。\n\n【不要做】\n不要鸟体/翅膀手；不要狗/猫帽；不要心易入镜；不要文字/字幕。",
+            "cover": null,
+            "name": "S0 说明 · 兜帽蛋仔怎么选",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T12:01:08.895+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T12:01:08.895+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-18023bf4",
+        "sourceNodeId": "node-47a0baaa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cb1d249f",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-0ec85b66",
+        "sourceNodeId": "node-e43e4533",
+        "sourceHandle": "output",
+        "targetNodeId": "node-cb1d249f",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-2b3af030",
+        "sourceNodeId": "node-47a0baaa",
+        "sourceHandle": "output",
+        "targetNodeId": "node-41b46769",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-17b0cfad",
+        "sourceNodeId": "node-e43e4533",
+        "sourceHandle": "output",
+        "targetNodeId": "node-41b46769",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-b0079a88",
+        "nodeIds": [
+          "node-47a0baaa",
+          "node-e43e4533"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 680.0
+        },
+        "label": "00 参考图 · 只借蛋仔形体",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-7dbfce7c",
+        "nodeIds": [
+          "node-cb1d249f",
+          "node-41b46769"
+        ],
+        "bounds": {
+          "x": 380.0,
+          "y": -20.0,
+          "width": 380.0,
+          "height": 544.0
+        },
+        "label": "01 生图 · 4A/4B 对比（并行）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-eff1c630",
+        "nodeIds": [
+          "node-c3601d94"
+        ],
+        "bounds": {
+          "x": 780.0,
+          "y": -20.0,
+          "width": 800.0,
+          "height": 720.0
+        },
+        "label": "02 说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-11-04T12:01:08.895+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T12:01:08.895+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

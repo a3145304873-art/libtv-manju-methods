@@ -1,0 +1,284 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-04T16:00:00.000+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 握法专项 v4（40°共线·护腕对剑尖）",
+  "description": "修正姿势描述后重测握法：剑与臂同在一条约 40° 斜线上，护腕轴线正对剑尖；去掉「手背朝镜头」。G1 实色 / G2 水墨同措辞。只拍手＋剑柄，不掺景别变量。",
+  "nodes": [
+   {
+    "id": "node-05373a60",
+    "type": "input-image",
+    "mainOutputId": "output-05373a60",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A5 武器",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-05373a60",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "cover": null,
+      "name": "A5.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "size": null,
+      "md5": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-d231a218",
+    "type": "input-image",
+    "mainOutputId": "output-d231a218",
+    "meta": {
+     "x": 20,
+     "y": 340,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A6 握剑手",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-d231a218",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071618-e8d0335a4abac86d-461febb3b1de7fd10245ec.png",
+      "cover": null,
+      "name": "A6.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "size": null,
+      "md5": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-febd30dd",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】01 握法·实色 v4（40°共线·护腕对剑尖）",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "手部特写，写实，16:9 横版，只生成一张；画面里只有一只右手、一截剑柄、一小段剑身、黑色护腕与一点白袖。\n【引用图片说明】{{node-d231a218}}＝手的形态与握法；{{node-05373a60}}＝武器外形，剑格、剑首、刃口照它。\n【构图·最关键】整条手臂和整个剑身在同一条斜线上：剑自画面右下角伸向左上角，约40度；小臂、手腕、拳头、剑柄、剑身沿这条线依次排开；**护腕的轴线正对剑尖**——把护腕朝剑的方向延长，延长线要穿过剑尖。\n【不许出现的姿势】小臂不能从画面上方或右上斜插下来；小臂不能与剑身成T形或接近垂直（那是握锤子的握法）；肘部在画面外；手占画面高35%到45%。\n【手】从右前方看这只右手，能看到食指到小指四个指节；手掌内侧贴住剑柄；画面里只有这一只手、这一条手臂。\n【握点】虎口（拇指与食指之间的肉）紧贴剑格，手与剑格之间不留裸露的剑柄；从剑格往剑首方向依次是：剑格—食指—中指—无名指—小指—剑首；四指扣紧、指节弯曲、指尖收进掌心一侧；拇指压在食指上，拇指尖被手挡住是正常的。\n【剑】剑格是碧色玉质龙纹那一件，只在一端；另一端是短而圆的龙首剑首，紧贴拳后、长度不超过手宽的一半，不尖不弯、不是刀刃；剑身冰晶半透、刃口一条冷白、不发光；剑柄整段被手指包住，指缝之间能看见柄上的纹路。\n负向：小臂与剑身垂直、握锤式、手臂从画面右上斜插、肘关节入画、两只手、第二只手臂、第三只手、四指平摊、手指伸直、扶着剑柄、虎口与剑格之间有缝、折腕、剑柄与护腕不同向、无剑柄、剑首画成第二个刃、剑首有尖刺、剑首像刀刃、两端都是剑格、发光、光晕、字幕、水印、logo、游戏UI、卡通。",
+      "reference_images": [
+       {
+        "node_id": "node-05373a60"
+       },
+       {
+        "node_id": "node-d231a218"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-19be5ee3",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 780,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】02 握法·水墨 v4（同措辞）",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "黑白水墨武侠风，炭笔线条＋水墨块面混合，高对比，16:9 横版，只生成一张；画面里只有一只右手、一截剑柄、一小段剑身、黑色护腕与一点白袖；皮肤与剑身保持纸白，护腕与袖口压到近黑，碧色剑格只留一点冷碧。\n【引用图片说明】{{node-d231a218}}＝手的形态与握法；{{node-05373a60}}＝武器外形，剑格、剑首、刃口照它。\n【构图·最关键】整条手臂和整个剑身在同一条斜线上：剑自画面右下角伸向左上角，约40度；小臂、手腕、拳头、剑柄、剑身沿这条线依次排开；**护腕的轴线正对剑尖**——把护腕朝剑的方向延长，延长线要穿过剑尖。\n【不许出现的姿势】小臂不能从画面上方或右上斜插下来；小臂不能与剑身成T形或接近垂直（那是握锤子的握法）；肘部在画面外；手占画面高35%到45%。\n【手】从右前方看这只右手，能看到食指到小指四个指节；手掌内侧贴住剑柄；画面里只有这一只手、这一条手臂。\n【握点】虎口（拇指与食指之间的肉）紧贴剑格，手与剑格之间不留裸露的剑柄；从剑格往剑首方向依次是：剑格—食指—中指—无名指—小指—剑首；四指扣紧、指节弯曲、指尖收进掌心一侧；拇指压在食指上，拇指尖被手挡住是正常的。\n【剑】剑格是碧色玉质龙纹那一件，只在一端；另一端是短而圆的龙首剑首，紧贴拳后、长度不超过手宽的一半，不尖不弯、不是刀刃；剑身冰晶半透、刃口一条冷白、不发光；剑柄整段被手指包住，指缝之间能看见柄上的纹路。\n负向：小臂与剑身垂直、握锤式、手臂从画面右上斜插、肘关节入画、两只手、第二只手臂、第三只手、四指平摊、手指伸直、扶着剑柄、虎口与剑格之间有缝、折腕、剑柄与护腕不同向、无剑柄、剑首画成第二个刃、剑首有尖刺、剑首像刀刃、两端都是剑格、发光、光晕、字幕、水印、logo、游戏UI、卡通。",
+      "reference_images": [
+       {
+        "node_id": "node-05373a60"
+       },
+       {
+        "node_id": "node-d231a218"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-ba346d97",
+    "sourceNodeId": "node-05373a60",
+    "sourceHandle": "output",
+    "targetNodeId": "node-febd30dd",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-9c89ac2a",
+    "sourceNodeId": "node-d231a218",
+    "sourceHandle": "output",
+    "targetNodeId": "node-febd30dd",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-dbcc34f4",
+    "sourceNodeId": "node-05373a60",
+    "sourceHandle": "output",
+    "targetNodeId": "node-19be5ee3",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-b2de8aa7",
+    "sourceNodeId": "node-d231a218",
+    "sourceHandle": "output",
+    "targetNodeId": "node-19be5ee3",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-ywg4-0",
+    "nodeIds": [
+     "node-05373a60",
+     "node-d231a218"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -26,
+     "width": 356,
+     "height": 588
+    },
+    "label": "00 参考（武器＋握法）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5B8DE0"
+    },
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-ywg4-1",
+    "nodeIds": [
+     "node-febd30dd"
+    ],
+    "bounds": {
+     "x": 402,
+     "y": -26,
+     "width": 356,
+     "height": 348
+    },
+    "label": "01 握法·实色 v4（40°共线·护腕对剑尖）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E05B8D"
+    },
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-ywg4-2",
+    "nodeIds": [
+     "node-19be5ee3"
+    ],
+    "bounds": {
+     "x": 762,
+     "y": -26,
+     "width": 356,
+     "height": 348
+    },
+    "label": "02 握法·水墨 v4（同措辞）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E05B8D"
+    },
+    "createdAt": "2026-11-04T16:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T16:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

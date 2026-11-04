@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-04T14:52:26.887+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 二号位玄凤兜帽 · 表情表 1×4 v1",
+    "description": "一张横向 1×4 表情表：得意/被抓包/惊讶/无语；5A 角色锚；REF1/2 风格锚。",
+    "nodes": [
+      {
+        "id": "node-21e639b1",
+        "type": "input-image",
+        "mainOutputId": "output-11ba4c9ea4",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF1 狗帽蛋仔 · 只借蛋仔形体",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-11ba4c9ea4",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031721-cfda7e6ce0a72d47-ref-01-e7-8b-97-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-01-狗帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T14:52:26.887+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T14:52:26.887+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1607090,
+              "md5": "3299f53b30e10f8c841b724df4c42072"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-16b13d32",
+        "type": "input-image",
+        "mainOutputId": "output-39a0d792f0",
+        "meta": {
+          "x": 0.0,
+          "y": 250.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF2 猫帽蛋仔 · 只借蛋仔形体",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-39a0d792f0",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031722-0d3ca12de746030d-ref-02-e7-8c-ab-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-02-猫帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T14:52:26.887+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T14:52:26.887+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1557031,
+              "md5": "7b2225d5b3e8c6613e3790a801a3856d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-d2037c13",
+        "type": "input-image",
+        "mainOutputId": "output-924b90cead",
+        "meta": {
+          "x": 0.0,
+          "y": 500.0,
+          "width": 300.0,
+          "height": 168.8,
+          "label": "REF5A 5A 得意 · 角色锚（单眉/星高光/帽）",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-924b90cead",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-147e319f4d/image/20261104-064503-3ab574f20d2d7653-e5-80-99-e9-80-89-e8-8a-bd-e8-8a-bd-5a-e.png",
+            "cover": null,
+            "name": "候选-芽芽-5A-得意-表情-v1.png",
+            "resolution": {
+              "width": 1280,
+              "height": 720
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T14:52:26.887+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T14:52:26.887+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 900549,
+              "md5": "ba39f9dd6d3f7c2dee44d4af30b45b08"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-419adfd9",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 380.0,
+          "y": 0.0,
+          "width": 420.0,
+          "height": 236.0,
+          "label": "【待生成】6 表情表 · 1×4（得意/被抓包/惊讶/无语）",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色表情表，一张图，横向 1×4 四格；四格是同一只“芽芽”的四个半身像（头＋连帽＋上胸），同一角色、同一配色、同一角度，只有表情不同；格与格之间细浅灰分隔线；无文字、无标签、无水印。\n角色以 {{node-d2037c13}} 为准：奶油白蛋形身体、暖灰玄凤连帽、黄色羽冠、蜜桃腮斑、小粉钩喙（闭合装饰）、帽上两颗小圆点眼睛；脸板奶油色、大圆眼；签名特征固定：只有观众左眼上方一道细短深灰棕毛毡眉；两眼都是白色圆形高光（正常高光，不要星形/四角星/星星眼）；同一只眼睛、同一位置，四格不变。\n以 {{node-21e639b1}}、{{node-16b13d32}} 为蛋仔形体/质感参考（蛋形、大脸板、短圆手、毛茸茸短绒/毛毡；不要狗/猫帽、M、具体配色）。\n四格表情（从左到右）：\n1 得意/懂王：左眼半眯、右眼睁大、单眉挑起、歪嘴笑露一点红舌；帽上小眼侧看、冠羽翘/歪。\n2 被抓包/心虚：两眼睁大、瞳孔看左侧、眉挑更高、波浪线嘴、右太阳穴小汗滴；帽上小眼瞪大、冠羽耷拉。\n3 惊讶/兴奋：两眼圆睁、嘴小圆“o”、单眉高挑、高光更亮/眼睛更圆；帽上小眼圆睁、冠羽竖起。\n4 无语/冷面：左眼半眯、右眼平视、单眉压低/平、嘴一条平线；帽上小眼半眯、冠羽平/歪。\n风格：毛茸茸短绒/毛毡、哑光、纤维可见；不是鸟体、不是翅膀手；无狗/猫帽、无 M、无文字。\n负向：四只不同的角色、换色、换帽、换脸型、多余角色、鸟体、翅膀手、羽毛手、扇贝边、狗、猫、狗帽、猫帽、M 标志、牙齿、写实舌头、两条眉毛、粗眉、人类眉毛、四角星高光、星形高光、星星眼、文字、标签、字幕、logo、水印、光滑搪胶、塑料高光、3D 乙烯基、vinyl、写实眼、过曝、比例失真、灰底、渐变底、地面阴影、场景、道具。",
+            "reference_images": [
+              {
+                "node_id": "node-21e639b1"
+              },
+              {
+                "node_id": "node-16b13d32"
+              },
+              {
+                "node_id": "node-d2037c13"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-0d75b0b6",
+        "type": "input-text",
+        "mainOutputId": "output-8be94ef69d",
+        "meta": {
+          "x": 380.0,
+          "y": 300.0,
+          "width": 760.0,
+          "height": 500.0,
+          "label": "S0 说明 · 表情表怎么选",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-8be94ef69d",
+            "status": "done",
+            "error": null,
+            "value": "【这张画布做什么】\n一张横向 1×4 表情表：同一只芽芽，四个半身像，只换表情。\n从左到右：得意 / 被抓包 / 惊讶 / 无语。\n角色锚：REF5A（5A 那张，锁单眉/星高光/帽上小脸）；REF1/REF2 只借蛋仔形体/毛绒。\n\n【跑序】\n1. 00 参考图组已上传。\n2. 跑 01 的 6 表情表（单节点）。\n3. 先看四格是不是同一只：同色/同帽/同脸型/同单眉位置/同星高光位置。\n4. 再看四张脸能不能区分；128px 缩略图还能不能看出不同。\n\n【如果漂移】\n四格角色不一致，不硬修一张图；退回分张生成（5A/5B 已有，再补 5C/5D），后期 PIL 横向拼 1×4。\n\n【不要做】\n不要四只不同角色；不要换色/换帽/换脸型；不要文字/标签；不要狗/猫帽/M；不要鸟体/翅膀手。",
+            "cover": null,
+            "name": "S0 说明 · 表情表怎么选",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T14:52:26.887+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T14:52:26.887+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-211a1d86",
+        "sourceNodeId": "node-21e639b1",
+        "sourceHandle": "output",
+        "targetNodeId": "node-419adfd9",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-2583908c",
+        "sourceNodeId": "node-16b13d32",
+        "sourceHandle": "output",
+        "targetNodeId": "node-419adfd9",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-824ab963",
+        "sourceNodeId": "node-d2037c13",
+        "sourceHandle": "output",
+        "targetNodeId": "node-419adfd9",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-8f216be2",
+        "nodeIds": [
+          "node-21e639b1",
+          "node-16b13d32",
+          "node-d2037c13"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 708.8
+        },
+        "label": "00 参考图 · 角色锚/形体",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-548f0898",
+        "nodeIds": [
+          "node-419adfd9"
+        ],
+        "bounds": {
+          "x": 360.0,
+          "y": -20.0,
+          "width": 460.0,
+          "height": 276.0
+        },
+        "label": "01 生图 · 1×4 表情表",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-556c0db7",
+        "nodeIds": [
+          "node-0d75b0b6"
+        ],
+        "bounds": {
+          "x": 360.0,
+          "y": 280.0,
+          "width": 800.0,
+          "height": 540.0
+        },
+        "label": "02 说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-11-04T14:52:26.887+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T14:52:26.887+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

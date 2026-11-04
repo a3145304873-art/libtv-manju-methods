@@ -1,0 +1,38 @@
+{
+  "nodeKey": "i-8ejxytgzuau4",
+  "data": {
+    "type": "image",
+    "action": "image_generate",
+    "params": {
+      "modeType": "text2image",
+      "settings": {
+        "ratio": "9:16",
+        "quality": "medium",
+        "resolution": "2K",
+        "background": "auto"
+      },
+      "advancedSettings": {},
+      "imageList": [],
+      "prompt": "道具单体特写：一颗刚煮好的白煮蛋，浅米白色蛋壳带细微斑点，椭圆蛋形，表面干燥哑光，无任何裂纹；浅灰纯色背景，柔和平光，3D 毛绒质感卡通渲染。画面干净无任何文字、字母与水印。",
+      "textList": [],
+      "videoList": [],
+      "audioList": [],
+      "model": "Lib Image 2.5 Pro",
+      "scene": ""
+    },
+    "taskInfo": {
+      "taskId": "",
+      "loading": false,
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": ""
+    },
+    "name": "A4 白煮蛋·完整",
+    "_updatedAtMs": 1793795488000,
+    "_lastAppliedFullyAtMs": 1793795488000
+  },
+  "nodeType": "image",
+  "name": "A4 白煮蛋·完整"
+}

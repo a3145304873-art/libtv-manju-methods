@@ -43,6 +43,7 @@ py -3 monet_push.py --delete <canvasId> --yes       # 真删
 已踩过的坑（写进脚本）：
 
 - 节点/输出的 `createdAt`、`createdBy`、`updatedAt`、`updatedBy`，以及输出的 `taskSource`、`taskId`，**服务端不收**（422 extra_forbidden）；脚本会先剥掉。
+- **2026-11-04 补**：输出的 `size`、`md5` 同样 422 `extra_forbidden`，已加进 `OUT_DROP`；`.monet` 里留着无妨（桌面端导入用得上），脚本会剥掉再发。
 - `POST /api/canvases` 成功返回 **201**，不是 200。
 - 导入只写结构，**不花生成积分**。
 
@@ -96,6 +97,13 @@ body: {canvas_id, node_id, node_type, num, model_id, model_params}
 - `model_params` 直接取画布里该节点的 `params.model_params`，但**要删掉 `watermark`**（服务端 422：Extra inputs are not permitted）；
 - 成功返回 202 + `graph_run_id`；输出状态看画布详情里该节点的 `outputs[].status`；
 - 2026-11-03 用户授权跑 V1/V2 验证通过；**以后每次运行前仍要用户明确说“跑”**。
+- 同日实测：`canvas-845f09fb91` 四个 `gpt-image-2` 节点（16:9 / 1K / medium）全部 202 → done，首张约 72s、四张约 5 分 20 秒；接口不返回扣费明细，**积分消耗取不到数字**。
+- **2026-11-04 修正**：`monet_run.py` 原来 POST 到 `backend.monet.../api/nodes/generate`，现在返回 **404**；派发必须走 **`monet-runner-api.dreammaker.netease.com/nodes/generate`**（无 `/api` 前缀），鉴权头与 backend 相同。脚本已改成 `RUN_API` 常量，读画布仍走 backend。
+- **2026-11-04 补：查询与取消运行状态**（只读／纠错用，不产生输出）：
+  - `GET https://monet-runner-api.dreammaker.netease.com/graph-runs/<graph_run_id>` → 运行记录（status、summary、instances、`has_unexpanded_instances`）；
+  - `POST https://monet-runner-api.dreammaker.netease.com/graph-runs/<graph_run_id>/cancel` → 取消（空 body）。
+  - **卡死特征**：`status=running`、`summary.total=0`、`has_unexpanded_instances=true`、节点 `is_used=false`，画布上该节点 `outputs` 为空。此时 202 已返回但 runner 从未展开实例，**没有产出也没有扣费**，可直接取消后重派。
+  - 2026-11-04 17:00 后的三次派发（两张画布）全部呈现该特征，同日 11:50／14:00／15:45 同结构画布均正常。判断为服务端/配额侧问题，不是画布或提示词问题。
 
 ## 删除画布
 

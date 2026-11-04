@@ -1,0 +1,47 @@
+{
+  "nodeKey": "i-8x45zzzbu9cs",
+  "data": {
+    "type": "image",
+    "action": "image_generate",
+    "params": {
+      "model": "Lib Image 2.5 Pro",
+      "scene": "",
+      "modeType": "image2image",
+      "advancedSettings": {},
+      "textList": [],
+      "prompt": "{{Node i-8ejxytgzuau4}} 用于同一颗白煮蛋的颜色、斑点、大小、椭圆蛋形、干燥哑光材质与平光，保持完全不变，只改变状态：蛋壳上多一道从蛋顶延伸到蛋腰的不规则细裂缝，裂缝边缘两三片碎壳微微翘起，一小滴半透明蛋白正从裂缝处渗出。道具单体特写，浅灰纯色背景，3D 毛绒质感卡通渲染。画面干净无任何文字、字母与水印。",
+      "settings": {
+        "quality": "medium",
+        "resolution": "2K",
+        "background": "auto",
+        "ratio": "9:16"
+      },
+      "imageListOrder": [
+        "i-8ejxytgzuau4"
+      ],
+      "imageList": [
+        {
+          "nodeId": "i-8ejxytgzuau4",
+          "url": "",
+          "label": "A4 白煮蛋·完整"
+        }
+      ],
+      "videoList": [],
+      "audioList": []
+    },
+    "taskInfo": {
+      "taskId": "",
+      "loading": false,
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": ""
+    },
+    "name": "A5 白煮蛋·开裂",
+    "_updatedAtMs": 1793795523000,
+    "_lastAppliedFullyAtMs": 1793795523000
+  },
+  "nodeType": "image",
+  "name": "A5 白煮蛋·开裂"
+}

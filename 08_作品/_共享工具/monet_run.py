@@ -27,6 +27,7 @@ import urllib.request
 from pathlib import Path
 
 API = "https://backend.monet.dreammaker.netease.com"
+RUN_API = "https://monet-runner-api.dreammaker.netease.com"  # 派发走 runner，不是 backend（backend 的 /api/nodes/generate 会 404）
 BASE = Path(os.environ.get("APPDATA", "")) / "@monet" / "desktop-prod"
 
 
@@ -41,13 +42,13 @@ def headers():
     }
 
 
-def api(method, path, body=None, timeout=90):
+def api(method, path, body=None, timeout=90, base=None):
     h = headers()
     data = None
     if body is not None:
         data = json.dumps(body, ensure_ascii=False).encode("utf-8")
         h["Content-Type"] = "application/json"
-    req = urllib.request.Request(API + path, data=data, headers=h, method=method)
+    req = urllib.request.Request((base or API) + path, data=data, headers=h, method=method)
     try:
         with urllib.request.urlopen(req, timeout=timeout) as r:
             raw = r.read().decode("utf-8")
@@ -122,8 +123,8 @@ def main():
         print(json.dumps(body, ensure_ascii=False, indent=1)[:2000])
         return
 
-    st, d = api("POST", "/api/nodes/generate", body)
-    print("POST /api/nodes/generate →", st)
+    st, d = api("POST", "/nodes/generate", body, base=RUN_API)
+    print("POST /nodes/generate →", st)
     print(json.dumps(d, ensure_ascii=False)[:600])
     if not args.wait or st not in (200, 201):
         return

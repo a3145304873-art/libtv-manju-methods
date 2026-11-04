@@ -12,5 +12,6 @@
 - [燕云双页面动作设计](yanyun-action-design/SKILL.md)：燕云冲击帧高光页 / 大招恢弘页；任务路由、角色与剑的动作链、独立运镜路线、产前门槛
 - [英语故事画布](english-story-canvas/SKILL.md)：英语单词/词根 → `.monet`；新稿先核词源并比较记忆路径
 - [做菜线 cookline](cooking-line/SKILL.md)：先按菜规划工艺、动态分段与逐段提示词/道具/分镜，再映射菜谱卡 → 校验 → 分镜闸门 → `.monet`；含 30 条拦截
+- [漫剧老李套装 manju-laoli](manju-laoli/SKILL.md)：上游开源 1 总控 + 12 子技能整体安装（含玄幻仙侠大招范式、三档终结技、五套符文剑阵）；[来源记录](manju-laoli/README-来源.md)
 
-五份完整来源原文仍在原始资料层；I04/I05 未提供附件，不能宣称原技能依赖齐全或运行验证通过。
+五份完整来源原文仍在原始资料层；I04/I05 未提供附件，不能宣称原技能依赖齐全或运行验证通过。manju-laoli 尚未登记进 `source-manifest.json`，其 `scripts/` 未运行。

@@ -1,0 +1,248 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-04T18:00:00.000+08:00",
+ "canvas": {
+  "name": "燕云冲击帧 · 关键帧验证 v3（前景握把·手15%）",
+  "description": "按 34 号尺度预算重做 A 页关键帧：手在右下前景、占画面高约15%，身体在左后方仍全身入画，剑与臂共线。八条握法判据的可执行句式直接内嵌。",
+  "nodes": [
+   {
+    "id": "node-ebb62f82",
+    "type": "input-image",
+    "mainOutputId": "output-ebb62f82",
+    "meta": {
+     "x": 20,
+     "y": 20,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A1 脸部",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-ebb62f82",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071318-be2efbb3f7a9da3f-313562035da1c6e7645ea7.png",
+      "cover": null,
+      "name": "A1.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "size": null,
+      "md5": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-a7e5be72",
+    "type": "input-image",
+    "mainOutputId": "output-a7e5be72",
+    "meta": {
+     "x": 20,
+     "y": 340,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A2 全身",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-a7e5be72",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071246-bb59ddf33bb14ded-4026a84fd2b2b4d5a9bc0e.png",
+      "cover": null,
+      "name": "A2.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "size": null,
+      "md5": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-fae8dcef",
+    "type": "input-image",
+    "mainOutputId": "output-fae8dcef",
+    "meta": {
+     "x": 20,
+     "y": 660,
+     "width": 320,
+     "height": 200,
+     "label": "【已生成·复用】A5 武器",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-fae8dcef",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/linguanxi/canvas-2067c923d1/image/20261030-071309-31409f12166dc2de-d78c3dda958eacd5e2bb4c.png",
+      "cover": null,
+      "name": "A5.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "size": null,
+      "md5": null
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-11b05d86",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 420,
+     "y": 20,
+     "width": 320,
+     "height": 280,
+     "label": "【待生成】05 前景握把·实色（手占15%·八条判据）",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "国漫写实、游戏角色高光质感，冷调冰雪，实色，16:9 横版，只生成一张。\n【引用图片说明】{{node-ebb62f82}}＝脸；{{node-a7e5be72}}＝服装与体型；{{node-fae8dcef}}＝武器外形。人物与剑必须是这三张里的，不许换人换剑。\n【景别与尺寸·先定这个】持剑手在画面右下角的前景，**手占画面高约七分之一（15%）**，四根手指要看得清；人物整体在手的左后方，**全身仍入画、双脚看得见**，身体从头顶到脚约占画面高六成；近大远小：手比身体离镜头近得多，右侧前臂被透视缩短。\n【这一帧在说什么】他刚完成一次向画面左上的横斩，正在制动：重心落在后腿，肩胯反拧，剑停在斜上方。\n【身体与发力】3/4 侧身；后腿屈膝下沉、前腿向前踏出并踩实；胯转向画面右前、肩线反向拧向左后；腰先带着躯干走；下颌略收，眼睛看向剑锋。\n【剑与剑路】剑身宽侧面正对画面，自画面右下的手握处斜贯左上角，剑尖在左上出画；两侧刃口的霜齿看得清，剑身中段有冰纹与一道龙形暗纹；剑不发光、没有拖尾光带。\n【握持·遮挡】剑柄从拳心穿过，四指压在剑柄的近侧、指尖绕过剑柄到远侧；剑柄被手指压住，**在指缝处断开**，看不见一条连续不断的柄。\n【握持·两侧】拳的两边都看得到剑柄：剑格一侧露出约半个手宽，剑首一侧露出约一个手宽。\n【握持·虎口】虎口贴住剑格下沿，手掌与剑柄之间有接触阴影、不留缝；手掌不要贴在剑格上。\n【握持·拇指】拇指横压在中指第二指节上；从手背侧只看得见虎口鼓起。\n【握持·指节】四个指节排成一道弧，因为他们绕的是圆柱；不要四条平行香肠。\n【握持·腕】护腕的轴线正对剑尖，夹角小于15度。\n【握持·数量】画面里只有两只手：这一只持剑，另一只并起食指中指成剑指、收在胸前。\n【余势】银白长发与白色衣摆朝画面左上方甩，方向与剑路一致；剑脊后方拖出细碎冰晶颗粒与霜雾，宽不超过画面宽的十分之一，不遮脸、不遮持剑手、不遮剑身。\n【环境与光】冷灰雪原与低垂雪雾，简洁，不出现建筑与其他人；地面有被剑气掀起的雪粒；低角度侧逆光，脸右侧一道冷白边光。\n负向：手占画面太小、手指平摊、手掌贴在剑格上、握着护手而不是剑柄、剑柄从掌心穿过、剑柄在指缝处连续不断、看不见剑柄、剑柄被袖口吞掉、四指并排成平行香肠、拇指竖起、折腕、三只手、两只右手、双手同握一柄、六指、指头粘连、手悬空不接触剑柄、全身缩成一个点、裁到脚、发光、光晕、能量光柱、过饱和蓝色、紫色魔法、卡通、低模、塑料质感、字幕、水印、logo、游戏UI。",
+      "reference_images": [
+       {
+        "node_id": "node-ebb62f82"
+       },
+       {
+        "node_id": "node-a7e5be72"
+       },
+       {
+        "node_id": "node-fae8dcef"
+       }
+      ],
+      "aspect_ratio": "16:9",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-de5993d0",
+    "sourceNodeId": "node-ebb62f82",
+    "sourceHandle": "output",
+    "targetNodeId": "node-11b05d86",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-9dd47fe3",
+    "sourceNodeId": "node-a7e5be72",
+    "sourceHandle": "output",
+    "targetNodeId": "node-11b05d86",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-a28d6e7d",
+    "sourceNodeId": "node-fae8dcef",
+    "sourceHandle": "output",
+    "targetNodeId": "node-11b05d86",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "groups": [
+   {
+    "id": "g-yjk3-0",
+    "nodeIds": [
+     "node-ebb62f82",
+     "node-a7e5be72",
+     "node-fae8dcef"
+    ],
+    "bounds": {
+     "x": 2,
+     "y": -26,
+     "width": 356,
+     "height": 908
+    },
+    "label": "00 已生成资产（复用）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#5B8DE0"
+    },
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "g-yjk3-1",
+    "nodeIds": [
+     "node-11b05d86"
+    ],
+    "bounds": {
+     "x": 402,
+     "y": -26,
+     "width": 356,
+     "height": 348
+    },
+    "label": "05 前景握把·实色（手占15%·八条判据）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E05B8D"
+    },
+    "createdAt": "2026-11-04T18:00:00.000+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:00:00.000+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}

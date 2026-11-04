@@ -43,6 +43,4 @@ Agent 协作入口：[AGENTS.md](AGENTS.md)，规定任务路由、每阶段确�
 
 尚未完成：所有原例媒体播放、采用版确认、全部方法复现、换主体迁移和成片质量验收。I04/I05 的部分外部依赖未随文档提供，详见行业目录。本库提供完整的方法与维护入口，原始技能依赖和成片效果仍按实际证据记录。
 
-使用 Python 3.10+，无第三方依赖。在本目录运行 `python 06_工具/刷新盘点.py` 更新快照统计，运行 `python 06_工具/检查方法库.py` 检查来源、链接、范围与结构；迁移其他资料时可重复传入 `--exclude-term` 指定当次需要排除的内容词。检查结果见 [validation-report.json](validation-report.json)。
-
-
+使用 Python 3.10+，无第三方依赖。在本目录运行 `py -3 06_工具/刷新盘点.py` 更新快照统计，运行 `py -3 06_工具/检查方法库.py` 检查来源、链接、范围与结构（Windows 用 `py -3`，Unix 用 `python3`；`python` 可能是 Python 2）；迁移其他资料时可重复传入 `--exclude-term` 指定当次需要排除的内容词。检查结果见 [validation-report.json](validation-report.json)。

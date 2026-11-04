@@ -66,7 +66,7 @@ def act(kind, key, payload, seed):
 
 
 NODE_DROP = {"createdAt", "createdBy", "updatedAt", "updatedBy"}
-OUT_DROP = {"taskSource", "taskId", "createdAt", "createdBy", "updatedAt", "updatedBy"}
+OUT_DROP = {"taskSource", "taskId", "createdAt", "createdBy", "updatedAt", "updatedBy", "size", "md5"}
 
 
 def clean_node(n):

@@ -1,0 +1,77 @@
+{
+  "nodeKey": "i-7syq75ug6ksx",
+  "data": {
+    "_lastAppliedFullyAtMs": 1793795525000,
+    "type": "image",
+    "action": "image_generate",
+    "params": {
+      "scene": "",
+      "prompt": "{{Node i-Qne6Qz3F3J}} 用于心易的全身外貌与毛绒质感：棕色水豚玩偶、圆身无脖子、奶油色大脸板、白色圆眼片外圈一道深棕色细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子，不采用其白色背景。{{Node i-2mrdVFsHBp}} 用于心易眼片、腮红与一字嘴的局部画法，与 {{Node i-Qne6Qz3F3J}} 共同定义同一个心易，成片中始终只有一个。{{Node i-7Z4rrw5Ebo}} 用于芽芽的外貌与毛绒质感：米白蛋形身体、浅灰玄凤鹦鹉连帽、帽顶淡黄高羽冠、帽侧圆形粉腮斑、帽前沿浅灰小钩喙、帽下正常比例的大眼睛、胸前一枚金色叶状标记，不采用其白色背景。{{Node i-pEOy4U0OEL}} 只用于心易与芽芽的身高比例与体量关系，不采用图中任何角色的外观、配色与背景。{{Node i-22fgwhvt6atw}} 用于场景空间与晨光光线。{{Node i-8ejxytgzuau4}} 用于完整白煮蛋的外观与材质。竖屏 9:16 定格画面（本帧是全片起势构图，后续镜头从这一帧接着演）：清晨的原木料理台上，芽芽坐在台面中央偏左，双手捧着已剥开一半的白煮蛋低头看着手里的蛋，几片蛋壳碎屑散在台面上；心易已经在芽芽右侧的台面上站定，朝着芽芽伸出短手想帮忙，两人的手尚未碰到蛋。各角色的外貌、动作与站位不互相交换，画面中只有这两个角色。心易的眼睛是白色圆片加一圈深棕细线，中心空白，没有瞳孔、虹膜与高光点。画面干净，不含任何文字、字母、数字、标志、字幕与水印。",
+      "textList": [],
+      "imageList": [
+        {
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/8fbb40d4090c60a2d95a313de731e74fcb650d76.png",
+          "label": "心易-标准",
+          "nodeId": "i-Qne6Qz3F3J"
+        },
+        {
+          "nodeId": "i-2mrdVFsHBp",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/dcc757b163845548fa5d01ae9f28fd5866e540b2.png",
+          "label": "心易-眼睛参考"
+        },
+        {
+          "nodeId": "i-7Z4rrw5Ebo",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/eb25d2f4df80a7d8d4283ac376e558938a59c1d2.png",
+          "label": "芽芽-4A-经典灰"
+        },
+        {
+          "nodeId": "i-pEOy4U0OEL",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/f0e97d92fe18109b40eb51641a6e6d5e93926a9f.png",
+          "label": "R00-蛋仔身高比例"
+        },
+        {
+          "nodeId": "i-22fgwhvt6atw",
+          "url": "",
+          "label": "A3 厨房料理台·场景"
+        },
+        {
+          "nodeId": "i-8ejxytgzuau4",
+          "url": "",
+          "label": "A4 白煮蛋·完整"
+        }
+      ],
+      "audioList": [],
+      "model": "Lib Image 2.5 Pro",
+      "settings": {
+        "quality": "medium",
+        "resolution": "2K",
+        "background": "auto",
+        "ratio": "9:16"
+      },
+      "advancedSettings": {},
+      "imageListOrder": [
+        "i-Qne6Qz3F3J",
+        "i-2mrdVFsHBp",
+        "i-7Z4rrw5Ebo",
+        "i-pEOy4U0OEL",
+        "i-22fgwhvt6atw",
+        "i-8ejxytgzuau4"
+      ],
+      "videoList": [],
+      "modeType": "image2image"
+    },
+    "taskInfo": {
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": "",
+      "taskId": "",
+      "loading": false
+    },
+    "name": "A6 镜头一·首帧",
+    "_updatedAtMs": 1793795525000
+  },
+  "nodeType": "image",
+  "name": "A6 镜头一·首帧"
+}

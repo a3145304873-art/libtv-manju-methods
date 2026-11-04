@@ -1,0 +1,38 @@
+{
+  "nodeKey": "i-22fgwhvt6atw",
+  "data": {
+    "type": "image",
+    "action": "image_generate",
+    "params": {
+      "videoList": [],
+      "audioList": [],
+      "model": "Lib Image 2.5 Pro",
+      "prompt": "空镜，画面中没有任何角色与人物：清晨的厨房原木料理台台面占据画面下半部，木纹清晰；背景是虚化的白瓷砖墙，右侧放一只蓝边白瓷搪瓷杯；左侧窗口进来一道斜晨光，台面拖出柔和长影；暖调低对比柔光，3D 毛绒质感卡通渲染。画面干净无任何文字、字母、标志与水印。",
+      "settings": {
+        "ratio": "9:16",
+        "quality": "medium",
+        "resolution": "2K",
+        "background": "auto"
+      },
+      "textList": [],
+      "imageList": [],
+      "modeType": "text2image",
+      "scene": "",
+      "advancedSettings": {}
+    },
+    "taskInfo": {
+      "taskId": "",
+      "loading": false,
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": ""
+    },
+    "name": "A3 厨房料理台·场景",
+    "_updatedAtMs": 1793795488000,
+    "_lastAppliedFullyAtMs": 1793795488000
+  },
+  "nodeType": "image",
+  "name": "A3 厨房料理台·场景"
+}

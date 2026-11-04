@@ -1,0 +1,363 @@
+{
+  "schemaVersion": 2,
+  "type": "monet.canvas",
+  "exportedAt": "2026-11-04T11:21:52.496+08:00",
+  "canvas": {
+    "name": "蛋仔记单词 · 二号位芽芽 · 2A/2B 白底设定对比 v1",
+    "description": "2A 叶鸟连帽 vs 2B 蛋形鸟体；同一组参考图只借形体；毛绒材质；两张并行生图，选一个方向。",
+    "nodes": [
+      {
+        "id": "node-aa051506",
+        "type": "input-image",
+        "mainOutputId": "output-3852ecd053",
+        "meta": {
+          "x": 0.0,
+          "y": 0.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF1 狗帽蛋仔 · 只取风格",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-3852ecd053",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031721-cfda7e6ce0a72d47-ref-01-e7-8b-97-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-01-狗帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T11:21:52.496+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T11:21:52.496+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1607090,
+              "md5": "3299f53b30e10f8c841b724df4c42072"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-85c62672",
+        "type": "input-image",
+        "mainOutputId": "output-b3417d1240",
+        "meta": {
+          "x": 0.0,
+          "y": 340.0,
+          "width": 300.0,
+          "height": 300.0,
+          "label": "REF2 猫帽蛋仔 · 只取风格",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-b3417d1240",
+            "status": "done",
+            "error": null,
+            "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261104-031722-0d3ca12de746030d-ref-02-e7-8c-ab-e5-b8-bd-e8-9b-8b-e4-bb.png",
+            "cover": null,
+            "name": "ref-02-猫帽蛋仔.png",
+            "resolution": {
+              "width": 1254,
+              "height": 1254
+            },
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T11:21:52.496+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T11:21:52.496+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": {
+              "size": 1557031,
+              "md5": "7b2225d5b3e8c6613e3790a801a3856d"
+            }
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-3e3e1e10",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 0.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】2A 叶鸟连帽 · 毛绒设定图",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只“芽芽”，单个角色，正面偏 3/4 站姿，全身入画。\n参考图 {{node-aa051506}}、{{node-85c62672}} 只取形体：蛋形身体、头身一体、大头、大脸板、大眼睛、张嘴笑红舌无牙、短手短脚、白色小靴、头顶小球、柔光、纯白背景；材质改成毛茸茸的短毛绒/毛毡，哑光、纤维可见，不是光滑搪胶/塑料/3D 乙烯基；不要复制狗/猫帽、狗耳/猫耳、M 标志、具体配色。\n芽芽 2A：奶油白/米白毛绒蛋形身体，头身一体，没有脖子，头约占全身一半；13cm 玩具比例；\n穿雾青绿毛毡叶子鸟连帽衫：帽子覆盖头顶和后脑，帽前额一个小三角琥珀喙（闭合，装饰，不是说话嘴），帽顶一株卷叶芽、芽尖一颗小琥珀球；帽后下方一片大叶形尾羽，深青绿，中央浅色缝线叶脉；\n奶油色大圆脸板，占正面大部分，边缘一圈浅绿细边；\n大圆眼：白眼球＋琥珀棕虹膜＋黑瞳孔＋一个白高光；毛绒玩偶的固定眼片/刺绣眼工艺，可眨眼、可做表情；不是写实眼、不是光滑塑料反光；\n张嘴笑，红色舌头，无牙；说话时用脸板的嘴开合，帽子上的喙不动；\n两只短圆毛绒手臂，奶油白，末端雾青绿毛毡手套，无手指；两条短腿，白袜＋白色毛毡小靴，靴口雾青绿边，无脚趾；\n胸口一枚毛毡/刺绣小叶子徽章（金色/奶油色），不要 M 标志；\n短毛绒/毛毡质感，毛茸茸、哑光、纤维可见，边缘有细绒光；不是光滑搪胶、不是塑料、不是 3D 乙烯基、不是写实鸟；\n纯白背景，无阴影地面，无第二只角色，无文字、无字幕、无 logo、无水印。\n负向：狗帽、猫帽、狗耳、猫耳、狗嘴、猫脸、M 标志、参考图角色、第二只角色、心易、水豚、橘子、写实鸟、真实羽毛、鸟爪、长脖子、长腿、手指、脚趾、多余手臂、第三只手、多双手、两只以上的脚、牙齿、写实舌头、心易的白片无瞳、深棕大眼圈、文字、字幕、logo、水印、光滑搪胶、塑料高光、3D 乙烯基、vinyl、写实眼、过曝、比例失真、灰底、渐变底、地面阴影、场景、道具。",
+            "reference_images": [
+              {
+                "node_id": "node-aa051506"
+              },
+              {
+                "node_id": "node-85c62672"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-7bccc572",
+        "type": "gen-image",
+        "mainOutputId": null,
+        "meta": {
+          "x": 400.0,
+          "y": 280.0,
+          "width": 340.0,
+          "height": 224.0,
+          "label": "【待生成】2B 蛋形鸟体 · 毛绒设定图",
+          "resourceType": null
+        },
+        "outputs": [],
+        "params": {
+          "num": 1,
+          "model_id": "gpt-image-2",
+          "model_params": {
+            "prompt": "16:9 纯白底角色设定图，只生成一只“芽芽”，单个角色，正面偏 3/4 站姿，全身入画。\n参考图 {{node-aa051506}}、{{node-85c62672}} 只取形体：蛋形身体、头身一体、大头、大脸板、大眼睛、张嘴笑红舌无牙、短手短脚、白色小靴、头顶小球、柔光、纯白背景；材质改成毛茸茸的短毛绒/毛毡，哑光、纤维可见，不是光滑搪胶/塑料/3D 乙烯基；不要复制狗/猫帽、狗耳/猫耳、M 标志、具体配色。\n芽芽 2B：雾青绿（偏蓝的叶绿，不是草绿）毛绒蛋形身体，头身一体，没有脖子，头约占全身一半；13cm 玩具比例；没有连帽衫、没有帽子；\n奶油色大圆脸板，占正面大部分；脸板上是大圆眼：白眼球＋琥珀棕虹膜＋黑瞳孔＋一个白高光；毛绒玩偶的固定眼片/刺绣眼工艺，可眨眼；不是写实眼、不是光滑塑料反光；\n小三角毛毡喙，琥珀橘色，就是嘴，可开合说话；无牙、无舌、不出现口腔内部；脸板上没有第二张嘴；\n头顶一株毛毡卷叶芽，芽尖一颗小琥珀球；身后一片大叶形毛毡尾羽，深青绿，中央浅色缝线叶脉；\n两只短圆毛绒手臂，雾青绿，末端奶油白毛毡手套，无手指；两条短腿，白袜＋白色毛毡小靴，靴口雾青绿边，无脚趾；\n胸口一枚毛毡/刺绣小叶子徽章（金色/奶油色），不要 M 标志；\n短毛绒/毛毡质感，毛茸茸、哑光、纤维可见，边缘有细绒光；不是光滑搪胶、不是塑料、不是 3D 乙烯基、不是写实鸟；\n纯白背景，无阴影地面，无第二只角色，无文字、无字幕、无 logo、无水印。\n负向：连帽、帽子、帽上喙、两张嘴、狗帽、猫帽、狗耳、猫耳、狗嘴、猫脸、M 标志、参考图角色、第二只角色、心易、水豚、橘子、写实鸟、真实羽毛、鸟爪、长脖子、长腿、手指、脚趾、多余手臂、第三只手、多双手、两只以上的脚、牙齿、舌头、张开的口腔内部、心易的白片无瞳、深棕大眼圈、文字、字幕、logo、水印、光滑搪胶、塑料高光、3D 乙烯基、vinyl、写实眼、过曝、比例失真、灰底、渐变底、地面阴影、场景、道具。",
+            "reference_images": [
+              {
+                "node_id": "node-aa051506"
+              },
+              {
+                "node_id": "node-85c62672"
+              }
+            ],
+            "aspect_ratio": "16:9",
+            "image_size": "1K",
+            "width": 1024,
+            "height": 1024,
+            "quality": "medium",
+            "output_format": "png",
+            "moderation": "low",
+            "auto_compress": true
+          }
+        },
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "node-7a981431",
+        "type": "input-text",
+        "mainOutputId": "output-fcb2ae9efe",
+        "meta": {
+          "x": 800.0,
+          "y": 0.0,
+          "width": 760.0,
+          "height": 620.0,
+          "label": "S0 说明 · 2A/2B 怎么选",
+          "resourceType": null
+        },
+        "outputs": [
+          {
+            "id": "output-fcb2ae9efe",
+            "status": "done",
+            "error": null,
+            "value": "【这张画布做什么】\n二号位“芽芽”白底角色设定图，两个方向同图对比：\n- 2A：奶油白蛋仔＋雾青绿叶子鸟连帽；脸板的嘴说话，帽上小三角喙闭合装饰。\n- 2B：雾青绿蛋形鸟体，无帽；琥珀喙就是嘴。\n\n【参考图怎么用】\nREF1/REF2 只取形体：蛋形比例、大脸板、大眼、张嘴笑、短手短脚、小靴、头顶球；材质改成毛茸茸短毛绒/毛毡，哑光、纤维可见。\n不复制：狗/猫帽、狗/猫耳、M 标志、具体配色、参考图角色身份。\n\n【跑序】\n1. 00 参考图组已上传，通常已是 done。\n2. 01 组里 2A/2B 独立，可并行跑；两张都出 1 张先看。\n3. 看 128px 剪影、眼睛、嘴/喙、材质、和心易的区分。\n4. 选一个方向；不要两张都当定稿。\n\n【判断点】\n- 2A：帽上喙有没有被误当成说话嘴？脸板的嘴是否清楚？\n- 2B：有没有偷偷长出帽子/第二张嘴？喙是否像嘴而不是鼻子？\n- 两张：有没有狗/猫帽、M 标志、长脖子、长腿、手指、写实羽毛？\n- 材质：毛茸茸短毛绒/毛毡；不是光滑搪胶、不是塑料高光。\n- 同框：暖棕毛绒心易 vs 奶油/雾青绿毛绒芽芽，能不能一眼分开？\n\n【不要做】\n不要狗/猫角色；不要 M 标志；不要第二只角色；不要文字/字幕；不要心易入镜。\n生成后混了狗/猫帽或 M，直接重跑，不要把参考图当角色设定图用。",
+            "cover": null,
+            "name": "S0 说明 · 2A/2B 怎么选",
+            "resolution": null,
+            "source": null,
+            "batchId": null,
+            "execution": null,
+            "graphRunId": null,
+            "iterationPath": null,
+            "taskSource": null,
+            "taskId": null,
+            "executorRunId": null,
+            "stage": null,
+            "deletedAt": null,
+            "createdAt": "2026-11-04T11:21:52.496+08:00",
+            "createdBy": "linguanxi",
+            "updatedAt": "2026-11-04T11:21:52.496+08:00",
+            "updatedBy": "linguanxi",
+            "metadata": null
+          }
+        ],
+        "params": null,
+        "specialParams": null,
+        "config": null,
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge-d4a6ef1a",
+        "sourceNodeId": "node-aa051506",
+        "sourceHandle": "output",
+        "targetNodeId": "node-3e3e1e10",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-7bd993a1",
+        "sourceNodeId": "node-85c62672",
+        "sourceHandle": "output",
+        "targetNodeId": "node-3e3e1e10",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-a74edb0c",
+        "sourceNodeId": "node-aa051506",
+        "sourceHandle": "output",
+        "targetNodeId": "node-7bccc572",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "edge-9b6476ed",
+        "sourceNodeId": "node-85c62672",
+        "sourceHandle": "output",
+        "targetNodeId": "node-7bccc572",
+        "targetHandle": "input",
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ],
+    "groups": [
+      {
+        "id": "group-5ebe22c2",
+        "nodeIds": [
+          "node-aa051506",
+          "node-85c62672"
+        ],
+        "bounds": {
+          "x": -20.0,
+          "y": -20.0,
+          "width": 340.0,
+          "height": 680.0
+        },
+        "label": "00 参考图 · 只取风格",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#E68BB3"
+        },
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-4497d76f",
+        "nodeIds": [
+          "node-3e3e1e10",
+          "node-7bccc572"
+        ],
+        "bounds": {
+          "x": 380.0,
+          "y": -20.0,
+          "width": 380.0,
+          "height": 544.0
+        },
+        "label": "01 生图 · 2A/2B 对比（并行）",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#8E8DE0"
+        },
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      },
+      {
+        "id": "group-11db34c7",
+        "nodeIds": [
+          "node-7a981431"
+        ],
+        "bounds": {
+          "x": 780.0,
+          "y": -20.0,
+          "width": 800.0,
+          "height": 660.0
+        },
+        "label": "02 说明 · 先读",
+        "style": {
+          "accent": null,
+          "opacity": null,
+          "borderColor": "#7FB07F"
+        },
+        "createdAt": "2026-11-04T11:21:52.496+08:00",
+        "createdBy": "linguanxi",
+        "updatedAt": "2026-11-04T11:21:52.496+08:00",
+        "updatedBy": "linguanxi"
+      }
+    ]
+  }
+}

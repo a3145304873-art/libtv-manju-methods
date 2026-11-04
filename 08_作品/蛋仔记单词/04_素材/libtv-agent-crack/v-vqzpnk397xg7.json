@@ -1,0 +1,89 @@
+{
+  "nodeKey": "v-vqzpnk397xg7",
+  "data": {
+    "type": "video",
+    "action": "video_generate",
+    "params": {
+      "prompt": "【首帧】画面{{Node i-7syq75ug6ksx}}用于本镜的起始画面与两人初始构图：芽芽捧着已剥开一半的白煮蛋，心易已在芽芽右侧的台面上站定并伸出短手，两人的手尚未碰到蛋。本镜从这一帧接着演，心易不再从画外入场。【人物】心易{{Node i-Qne6Qz3F3J}}用于棕色水豚玩偶的全身外貌与毛绒质感：圆身无脖子、奶油色大脸板、白色圆眼片外圈深棕细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子；心易{{Node i-2mrdVFsHBp}}的眼部局部参考与{{Node i-Qne6Qz3F3J}}共同定义同一个心易，成片中始终只有一个，任何景别下心易的眼片都保持白色圆片加深棕细线圈、中心空白无瞳孔无高光，全程不眨眼。芽芽{{Node i-7Z4rrw5Ebo}}用于米白蛋形身体与浅灰玄凤鹦鹉连帽的高羽冠、帽侧圆形腮斑、小钩喙、帽下正常比例的大眼睛与胸前金色叶状标记，不采用其白色背景。各人物的外貌、动作和站位不互相交换。{{Node i-pEOy4U0OEL}}只用于两人身高比例与体量关系，不采用图中任何角色的外观与配色。【道具】完整白煮蛋{{Node i-8ejxytgzuau4}}用于前半段的蛋壳外观；开裂白煮蛋{{Node i-8x45zzzbu9cs}}用于后半段裂缝的形状与渗出的蛋白，不采用其灰色背景。【场景】原木料理台{{Node i-22fgwhvt6atw}}用于场景空间与晨光光线。【动作与声音】芽芽与心易都不说人话，心易全程只发拟声「咔啵」。\n【阶段一】开始时：清晨的厨房原木料理台，背景白瓷砖虚化、右侧一只蓝边搪瓷杯、左侧一道斜晨光。芽芽{{Node i-7Z4rrw5Ebo}}坐在台面中央偏左，双手捧着已剥开一半的白煮蛋{{Node i-8ejxytgzuau4}}，指甲沿蛋壳再轻轻抠下一小片碎壳，碎屑落在台面上；心易{{Node i-Qne6Qz3F3J}}在芽芽右侧的台面上站定，朝芽芽伸出短手。结束时：蛋剥开一半露出蛋白，心易的短手停在半空。\n【阶段二】承接上一阶段：芽芽{{Node i-7Z4rrw5Ebo}}手中半剥的蛋、心易{{Node i-Qne6Qz3F3J}}伸出的短手。主要事件：芽芽{{Node i-7Z4rrw5Ebo}}把蛋递过去，心易{{Node i-Qne6Qz3F3J}}双手接过往上一抱，两人的手在蛋上短暂交叠后芽芽收回手。结束时：蛋完整落在心易{{Node i-Qne6Qz3F3J}}的两只掌心里。\n【阶段三】承接上一阶段：心易{{Node i-Qne6Qz3F3J}}捧蛋、芽芽{{Node i-7Z4rrw5Ebo}}在侧。主要事件：心易{{Node i-Qne6Qz3F3J}}手指轻轻一收，发出短促清脆的一声「咔啵」，蛋壳裂开一道从蛋顶延伸到蛋腰的缝，半透明蛋白渗出，裂缝形状与渗出的蛋白依开裂白煮蛋{{Node i-8x45zzzbu9cs}}。结束时：裂缝成形、蛋白挂珠。\n【阶段四】承接上一阶段：裂蛋{{Node i-8x45zzzbu9cs}}在心易{{Node i-Qne6Qz3F3J}}掌中。主要事件：心易{{Node i-Qne6Qz3F3J}}整个人停住，白色圆眼片对着掌心那道缝，不眨眼；芽芽{{Node i-7Z4rrw5Ebo}}的高羽冠一下子竖起，帽侧圆形腮斑加深。镜头保持机位与光线不变，由中景微推至中近景，画面里始终保留台面与蛋的位置关系，不给心易的脸部与眼睛做特写。结束时：心易僵住、芽芽羽冠竖起的瞬间。\n保持人物身份、数量、服装、道具归属、空间方向和声音关系稳定。\n3D 毛绒质感卡通渲染，角色造型圆润、深棕色粗描边，色彩以暖黄与米白为主，清晨窗光低对比柔光，背景轻微虚化，画面干净无任何文字。\n【禁止出现】多余的手臂、第三只手、多双手、多只脚；任何字幕、文字、字母、数字、水印与标志；心易的黑瞳、瞳孔、虹膜与高光点，以及眨眼与眼皮；中途换机位、重新摆位、改变光线与色温；两个角色的外貌、配色、配饰或站位互相交换；画面里出现第三个角色或人群。\n无背景音乐。",
+      "imageListOrder": [
+        "i-7syq75ug6ksx",
+        "i-Qne6Qz3F3J",
+        "i-2mrdVFsHBp",
+        "i-7Z4rrw5Ebo",
+        "i-pEOy4U0OEL",
+        "i-8ejxytgzuau4",
+        "i-8x45zzzbu9cs",
+        "i-22fgwhvt6atw"
+      ],
+      "imageList": [
+        {
+          "nodeId": "i-7syq75ug6ksx",
+          "url": "",
+          "label": "A6 镜头一·首帧"
+        },
+        {
+          "nodeId": "i-Qne6Qz3F3J",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/8fbb40d4090c60a2d95a313de731e74fcb650d76.png",
+          "label": "心易-标准"
+        },
+        {
+          "nodeId": "i-2mrdVFsHBp",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/dcc757b163845548fa5d01ae9f28fd5866e540b2.png",
+          "label": "心易-眼睛参考"
+        },
+        {
+          "nodeId": "i-7Z4rrw5Ebo",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/eb25d2f4df80a7d8d4283ac376e558938a59c1d2.png",
+          "label": "芽芽-4A-经典灰"
+        },
+        {
+          "nodeId": "i-pEOy4U0OEL",
+          "url": "https://libtv-res.liblib.art/upload-images/c877ae5f261e41f5ae729cbe749e60e8/f0e97d92fe18109b40eb51641a6e6d5e93926a9f.png",
+          "label": "R00-蛋仔身高比例"
+        },
+        {
+          "nodeId": "i-8ejxytgzuau4",
+          "url": "",
+          "label": "A4 白煮蛋·完整"
+        },
+        {
+          "nodeId": "i-8x45zzzbu9cs",
+          "url": "",
+          "label": "A5 白煮蛋·开裂"
+        },
+        {
+          "nodeId": "i-22fgwhvt6atw",
+          "url": "",
+          "label": "A3 厨房料理台·场景"
+        }
+      ],
+      "videoList": [],
+      "settings": {
+        "duration": 8,
+        "enableSound": "on",
+        "ratio": "9:16",
+        "resolution": "720P"
+      },
+      "advancedSettings": {},
+      "model": "Wan 3.0",
+      "count": 1,
+      "modeType": "mixed2video",
+      "textList": [],
+      "audioList": []
+    },
+    "taskInfo": {
+      "taskId": "",
+      "loading": false,
+      "status": 0,
+      "progressPercent": 0,
+      "taskResult": "",
+      "taskParams": "",
+      "failedReason": ""
+    },
+    "name": "S1 镜头一视频（剥壳→一捏即裂）",
+    "_updatedAtMs": 1793796649000,
+    "_lastAppliedFullyAtMs": 1793796649000
+  },
+  "nodeType": "video",
+  "name": "S1 镜头一视频（剥壳→一捏即裂）"
+}

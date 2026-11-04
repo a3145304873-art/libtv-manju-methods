@@ -1,0 +1,1080 @@
+{
+ "schemaVersion": 2,
+ "type": "monet.canvas",
+ "exportedAt": "2026-11-04T21:04:36.308+08:00",
+ "canvas": {
+  "name": "蛋仔记单词 · crack 一捏就裂 · LibTV Agent 抄版 v1",
+  "description": "由 LibTV Agent（TV Director）工作流转录的本地版本；19.5s（8＋9＋2.5），词 crack 首现 13.0s。",
+  "nodes": [
+   {
+    "id": "node-a5ee2b7d",
+    "type": "input-image",
+    "mainOutputId": "output-d77c329f8b",
+    "meta": {
+     "x": 0.0,
+     "y": 0.0,
+     "width": 220,
+     "height": 330.0,
+     "label": "R02 心易·水豚标准（复用）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-d77c329f8b",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-d240c8bf55/image/20261102-032549-6dfb56a52913e945-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e6-a.png",
+      "cover": null,
+      "name": "心易-水豚-标准.png",
+      "resolution": {
+       "width": 400,
+       "height": 600
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-04T18:37:42.464+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-04T18:37:42.464+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 258953,
+       "md5": "100cfe8f4f09ec467008f61a0ab30d7d"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:37:42.464+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:37:42.464+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-d0b8be71",
+    "type": "input-image",
+    "mainOutputId": "output-a77f88f603",
+    "meta": {
+     "x": 0.0,
+     "y": 420.0,
+     "width": 220,
+     "height": 220.0,
+     "label": "R02E 心易眼睛参考（复用）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-a77f88f603",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-4235c925190327e7-e5-bf-83-e6-98-93-e6-b0-b4-e8-b1-9a-e7-9.png",
+      "cover": null,
+      "name": "心易-水豚-眼睛参考.png",
+      "resolution": {
+       "width": 430,
+       "height": 430
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-04T18:37:42.464+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-04T18:37:42.464+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 255707,
+       "md5": "6954ed604a3671b7676f0d6ac5eef1e3"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:37:42.464+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:37:42.464+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-60cf6479",
+    "type": "input-image",
+    "mainOutputId": "output-d68dc75672",
+    "meta": {
+     "x": 0.0,
+     "y": 700.0,
+     "width": 220,
+     "height": 123.8,
+     "label": "R4A 芽芽 4A 经典灰兜帽",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-d68dc75672",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-147e319f4d/image/20261104-084324-10014ef103010b0f-e5-80-99-e9-80-89-e8-8a-bd-e8-8a-bd-4a-e.png",
+      "cover": null,
+      "name": "候选-芽芽-4A-玄凤兜帽-经典灰-毛绒-v1.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-04T18:37:42.464+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-04T18:37:42.464+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 853678,
+       "md5": "98f2342dd8991cd5a8d17f21c4e8625e"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:37:42.464+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:37:42.464+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-f5cb6b36",
+    "type": "input-image",
+    "mainOutputId": "output-d42350b567",
+    "meta": {
+     "x": 0.0,
+     "y": 1240.0,
+     "width": 300.0,
+     "height": 121.9,
+     "label": "R00 四小只身高比例（只借比例）",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-d42350b567",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-e4318cc875/image/20261022-035437-5241228d6d235662-r00-e5-9b-9b-e5-b0-8f-e5-8f-aa-e8-ba-ab.jpg",
+      "cover": null,
+      "name": "R00-四小只身高比例.jpg",
+      "resolution": {
+       "width": 1600,
+       "height": 650
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-02T14:25:45.172+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-02T14:25:45.172+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 77895,
+       "md5": "b321a4a46247edafe03ddd2dc85b3605"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-02T14:25:45.172+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-02T14:25:45.172+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-fa6cdade",
+    "type": "input-image",
+    "mainOutputId": "output-88a43ffbf6",
+    "meta": {
+     "x": 760.0,
+     "y": 700.0,
+     "width": 300,
+     "height": 168.8,
+     "label": "T_A 占位 · 先跑 S1，再替换成 S1 最后一帧",
+     "resourceType": null
+    },
+    "outputs": [
+     {
+      "id": "output-88a43ffbf6",
+      "status": "done",
+      "error": null,
+      "value": "https://storage.monet.dreammaker.netease.com/v1/objects/mailgo.n31738/canvas-04cc34bdc4/image/20261102-070219-1353c38935bec45d-t-a-e5-8d-a0-e4-bd-8d-e6-9b-bf-e6-8d-a2v.png",
+      "cover": null,
+      "name": "T_A-占位-替换V1尾帧.png",
+      "resolution": {
+       "width": 1280,
+       "height": 720
+      },
+      "source": null,
+      "batchId": null,
+      "execution": null,
+      "graphRunId": null,
+      "iterationPath": null,
+      "taskSource": null,
+      "taskId": null,
+      "executorRunId": null,
+      "stage": null,
+      "deletedAt": null,
+      "createdAt": "2026-11-04T18:37:42.464+08:00",
+      "createdBy": "linguanxi",
+      "updatedAt": "2026-11-04T18:37:42.464+08:00",
+      "updatedBy": "linguanxi",
+      "metadata": {
+       "size": 28176,
+       "md5": "8a33266292232fa8212728cff66268e0"
+      }
+     }
+    ],
+    "params": null,
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T18:37:42.464+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T18:37:42.464+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-189fa8fe",
+    "type": "input-text",
+    "mainOutputId": null,
+    "meta": {
+     "x": 0.0,
+     "y": -260.0,
+     "width": 300.0,
+     "height": 300.0,
+     "label": "S0 制作说明 · 先读",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "content": "crack（一捏就裂）· LibTV Agent 抄版 v1\n\n来源：LibTV Agent（TV Director）在 LibTV 画布 0d70eb6b1fe74562a632f798cfc02f4c 搭的 6 节点；\n本画布为本地版本，提示词按 Agent 修正后稿转录，并做三处本地修订（见 00_方案/60 与 61）。\n\n跑序：\n1) A3 料理台 + A4 全蛋 → 各出 1 张即可\n2) A5 裂蛋（引 A4）+ A6 首帧（引 R02/R02E/R4A/R00/A3/A4）\n3) S1 8s（首帧＝A6）\n4) S1 出片后，把它的最后一帧存成图片替换 T_A 占位\n5) S2 9s（首帧＝T_A）\n6) A7 片尾卡（引 R02/R02E/R4A/R00/A3/A5）→ 合成 19.5s\n\n规矩：画面内一律不生成文字；词 crack 首现＝13.0s；心易只发「咔啵」；芽芽全片只说一句。"
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-2adee7d5",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 360.0,
+     "y": 0.0,
+     "width": 300.0,
+     "height": 169.0,
+     "label": "【待生成】A3 厨房料理台 · 空镜",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "空镜，画面中没有任何角色与人物：清晨的厨房原木料理台台面占据画面下半部，木纹清晰；背景是虚化的白瓷砖墙，右侧放一只蓝边白瓷搪瓷杯；左侧窗口进来一道斜晨光，台面拖出柔和长影；暖调低对比柔光，3D 毛绒质感卡通渲染。画面干净无任何文字、字母、标志与水印。",
+      "reference_images": [],
+      "aspect_ratio": "9:16",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-c283c2ba",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 360.0,
+     "y": 200.0,
+     "width": 300.0,
+     "height": 169.0,
+     "label": "【待生成】A4 白煮蛋 · 完整",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "道具单体特写：一颗刚煮好的白煮蛋，浅米白色蛋壳带细微斑点，椭圆蛋形，表面干燥哑光，无任何裂纹；浅灰纯色背景，柔和平光，3D 毛绒质感卡通渲染。画面干净无任何文字、字母与水印。",
+      "reference_images": [],
+      "aspect_ratio": "9:16",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-c0954cf3",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 360.0,
+     "y": 400.0,
+     "width": 300.0,
+     "height": 169.0,
+     "label": "【待生成】A5 白煮蛋 · 开裂",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "{{node-c283c2ba}} 用于同一颗白煮蛋的颜色、斑点、大小、椭圆蛋形、干燥哑光材质与平光，保持完全不变，只改变状态：蛋壳上多一道从蛋顶延伸到蛋腰的不规则细裂缝，裂缝边缘两三片碎壳微微翘起，一小滴半透明蛋白正从裂缝处渗出。道具单体特写，浅灰纯色背景，3D 毛绒质感卡通渲染。画面干净无任何文字、字母与水印。",
+      "reference_images": [
+       {
+        "node_id": "node-c283c2ba"
+       }
+      ],
+      "aspect_ratio": "9:16",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-a0859c0c",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 760.0,
+     "y": 0.0,
+     "width": 300.0,
+     "height": 169.0,
+     "label": "【待生成】A6 镜头一 · 首帧",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "{{node-a5ee2b7d}} 用于心易的全身外貌与毛绒质感：棕色水豚玩偶、圆身无脖子、奶油色大脸板、白色圆眼片外圈一道深棕色细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子，不采用其白色背景。{{node-d0b8be71}} 用于心易眼片、腮红与一字嘴的局部画法，与 {{node-a5ee2b7d}} 共同定义同一个心易，成片中始终只有一个。{{node-60cf6479}} 用于芽芽的外貌与毛绒质感：米白蛋形身体、浅灰玄凤鹦鹉连帽、帽顶淡黄高羽冠、帽侧圆形粉腮斑、帽前沿浅灰小钩喙、帽下正常比例的大眼睛、胸前一枚金色叶状标记，不采用其白色背景。{{node-f5cb6b36}} 只用于心易与芽芽的身高比例与体量关系，不采用图中任何角色的外观、配色与背景。{{node-2adee7d5}} 用于场景空间与晨光光线。{{node-c283c2ba}} 用于完整白煮蛋的外观与材质。竖屏 9:16 定格画面（本帧是全片起势构图，后续镜头从这一帧接着演）：清晨的原木料理台上，芽芽坐在台面中央偏左，双手捧着已剥开一半的白煮蛋低头看着手里的蛋，几片蛋壳碎屑散在台面上；心易已经在芽芽右侧的台面上站定，朝着芽芽伸出短手想帮忙，两人的手尚未碰到蛋。各角色的外貌、动作与站位不互相交换，画面中只有这两个角色。心易的眼睛是白色圆片加一圈深棕细线，中心空白，没有瞳孔、虹膜与高光点。画面干净，不含任何文字、字母、数字、标志、字幕与水印。",
+      "reference_images": [
+       {
+        "node_id": "node-a5ee2b7d"
+       },
+       {
+        "node_id": "node-d0b8be71"
+       },
+       {
+        "node_id": "node-60cf6479"
+       },
+       {
+        "node_id": "node-f5cb6b36"
+       },
+       {
+        "node_id": "node-2adee7d5"
+       },
+       {
+        "node_id": "node-c283c2ba"
+       }
+      ],
+      "aspect_ratio": "9:16",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-fe84d9e9",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1180.0,
+     "y": 0.0,
+     "width": 340.0,
+     "height": 224.0,
+     "label": "【待生成】S1 镜头一 · 8s · 剥壳→一捏即裂",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "【首帧】画面{{node-a0859c0c}}用于本镜的起始画面与两人初始构图：芽芽捧着已剥开一半的白煮蛋，心易已在芽芽右侧的台面上站定并伸出短手，两人的手尚未碰到蛋。本镜从这一帧接着演，心易不再从画外入场。【人物】心易{{node-a5ee2b7d}}用于棕色水豚玩偶的全身外貌与毛绒质感：圆身无脖子、奶油色大脸板、白色圆眼片外圈深棕细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子；心易{{node-d0b8be71}}的眼部局部参考与{{node-a5ee2b7d}}共同定义同一个心易，成片中始终只有一个，任何景别下心易的眼片都保持白色圆片加深棕细线圈、中心空白无瞳孔无高光，全程不眨眼。芽芽{{node-60cf6479}}用于米白蛋形身体与浅灰玄凤鹦鹉连帽的高羽冠、帽侧圆形腮斑、小钩喙、帽下正常比例的大眼睛与胸前金色叶状标记，不采用其白色背景。各人物的外貌、动作和站位不互相交换。{{node-f5cb6b36}}只用于两人身高比例与体量关系，不采用图中任何角色的外观与配色。【道具】完整白煮蛋{{node-c283c2ba}}用于前半段的蛋壳外观；开裂白煮蛋{{node-c0954cf3}}用于后半段裂缝的形状与渗出的蛋白，不采用其灰色背景。【场景】原木料理台{{node-2adee7d5}}用于场景空间与晨光光线。【动作与声音】芽芽与心易都不说人话，心易全程只发拟声「咔啵」。\n【阶段一】开始时：清晨的厨房原木料理台，背景白瓷砖虚化、右侧一只蓝边搪瓷杯、左侧一道斜晨光。芽芽{{node-60cf6479}}坐在台面中央偏左，双手捧着已剥开一半的白煮蛋{{node-c283c2ba}}，指甲沿蛋壳再轻轻抠下一小片碎壳，碎屑落在台面上；心易{{node-a5ee2b7d}}在芽芽右侧的台面上站定，朝芽芽伸出短手。结束时：蛋剥开一半露出蛋白，心易的短手停在半空。\n【阶段二】承接上一阶段：芽芽{{node-60cf6479}}手中半剥的蛋、心易{{node-a5ee2b7d}}伸出的短手。主要事件：芽芽{{node-60cf6479}}把蛋递过去，心易{{node-a5ee2b7d}}双手接过往上一抱，两人的手在蛋上短暂交叠后芽芽收回手。结束时：蛋完整落在心易{{node-a5ee2b7d}}的两只掌心里。\n【阶段三】承接上一阶段：心易{{node-a5ee2b7d}}捧蛋、芽芽{{node-60cf6479}}在侧。主要事件：心易{{node-a5ee2b7d}}手指轻轻一收，发出短促清脆的一声「咔啵」，蛋壳裂开一道从蛋顶延伸到蛋腰的缝，半透明蛋白渗出，裂缝形状与渗出的蛋白依开裂白煮蛋{{node-c0954cf3}}。结束时：裂缝成形、蛋白挂珠。\n【阶段四】承接上一阶段：裂蛋{{node-c0954cf3}}在心易{{node-a5ee2b7d}}掌中。主要事件：心易{{node-a5ee2b7d}}整个人停住，白色圆眼片对着掌心那道缝，不眨眼；芽芽{{node-60cf6479}}的高羽冠一下子竖起，帽侧圆形腮斑加深。镜头保持机位与光线不变，由中景微推至中近景，画面里始终保留台面与蛋的位置关系，不给心易的脸部与眼睛做特写。结束时：心易僵住、芽芽羽冠竖起的瞬间。\n保持人物身份、数量、服装、道具归属、空间方向和声音关系稳定。\n3D 毛绒质感卡通渲染，角色造型圆润、深棕色粗描边，色彩以暖黄与米白为主，清晨窗光低对比柔光，背景轻微虚化，画面干净无任何文字。\n【禁止出现】多余的手臂、第三只手、多双手、多只脚；任何字幕、文字、字母、数字、水印与标志；心易的黑瞳、瞳孔、虹膜与高光点，以及眨眼与眼皮；中途换机位、重新摆位、改变光线与色温；两个角色的外貌、配色、配饰或站位互相交换；画面里出现第三个角色或人群。\n无背景音乐。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-a5ee2b7d"
+       },
+       {
+        "node_id": "node-d0b8be71"
+       },
+       {
+        "node_id": "node-60cf6479"
+       },
+       {
+        "node_id": "node-f5cb6b36"
+       },
+       {
+        "node_id": "node-2adee7d5"
+       },
+       {
+        "node_id": "node-c283c2ba"
+       },
+       {
+        "node_id": "node-c0954cf3"
+       }
+      ],
+      "reference_audios": [],
+      "first_frame_image": {
+       "node_id": "node-a0859c0c"
+      },
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration": 8
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-1496eaab",
+    "type": "gen-image",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1180.0,
+     "y": 300.0,
+     "width": 300.0,
+     "height": 169.0,
+     "label": "【待生成】A7 片尾卡 · 无字底板",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "gpt-image-2",
+     "model_params": {
+      "prompt": "{{node-a5ee2b7d}} 用于心易的全身外貌与毛绒质感：棕色水豚玩偶、圆身无脖子、奶油色大脸板、白色圆眼片外圈一道深棕色细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子，不采用其白色背景。{{node-d0b8be71}} 用于心易眼片、腮红与一字嘴的局部画法，与 {{node-a5ee2b7d}} 共同定义同一个心易，成片中始终只有一个。{{node-60cf6479}} 用于芽芽的外貌与毛绒质感：米白蛋形身体、浅灰玄凤鹦鹉连帽、帽顶淡黄高羽冠、帽侧圆形粉腮斑、帽前沿浅灰小钩喙、帽下正常比例的大眼睛、胸前一枚金色叶状标记，不采用其白色背景。{{node-f5cb6b36}} 只用于两人身高比例与体量关系，不采用图中任何角色的外观、配色与背景。{{node-2adee7d5}} 用于场景空间与晨光光线。{{node-c0954cf3}} 用于开裂白煮蛋的裂缝形状与渗出的蛋白，不采用其灰色背景。竖屏 9:16 片尾定格：正面平视，心易与芽芽并排坐在原木料理台的台面上，两者之间的台面上放着那颗裂了缝的白煮蛋，晨光从左侧拉出一道长影；两者安静朝向前方，心易的白色圆眼片中心空白、无瞳孔无高光；画面下半部留出大片干净空白台面，供后期压制词条与字幕。各角色的外貌、动作与站位不互相交换，画面中只有这两个角色。画面内绝对不含任何文字、字母、数字、标志、字幕、水印与 UI 元素。",
+      "reference_images": [
+       {
+        "node_id": "node-a5ee2b7d"
+       },
+       {
+        "node_id": "node-d0b8be71"
+       },
+       {
+        "node_id": "node-60cf6479"
+       },
+       {
+        "node_id": "node-f5cb6b36"
+       },
+       {
+        "node_id": "node-2adee7d5"
+       },
+       {
+        "node_id": "node-c0954cf3"
+       }
+      ],
+      "aspect_ratio": "9:16",
+      "image_size": "1K",
+      "width": 1024,
+      "height": 1024,
+      "quality": "medium",
+      "output_format": "png",
+      "moderation": "low",
+      "auto_compress": true
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "node-0f30305e",
+    "type": "gen-video",
+    "mainOutputId": null,
+    "meta": {
+     "x": 1180.0,
+     "y": 700.0,
+     "width": 340.0,
+     "height": 224.0,
+     "label": "【待生成】S2 镜头二 · 9s · 芽芽说 crack",
+     "resourceType": null
+    },
+    "outputs": [],
+    "params": {
+     "num": 1,
+     "model_id": "seedance-2.0-mini",
+     "model_params": {
+      "prompt": "【首帧】画面{{node-fa6cdade}}用于本镜的起始画面、两人当前构图与光线，从这一帧接着演。\n【人物】心易{{node-a5ee2b7d}}用于棕色水豚玩偶的全身外貌与毛绒质感：圆身无脖子、奶油色大脸板、白色圆眼片外圈一道深棕色细线、眼片中心空白无瞳孔无高光、橘色椭圆腮红、一字嘴、头顶带绿叶的小橘子；心易{{node-d0b8be71}}的眼部局部参考与{{node-a5ee2b7d}}共同定义同一个心易，成片中始终只有一个，全程不眨眼。芽芽{{node-60cf6479}}用于米白蛋形身体与浅灰玄凤鹦鹉连帽的高羽冠、帽侧圆形腮斑、小钩喙、帽下正常比例的大眼睛与胸前金色叶状标记，不采用其白色背景。各人物的外貌、动作和站位不互相交换。{{node-f5cb6b36}}只用于两人身高比例与体量关系，不采用图中任何角色的外观与配色。\n【道具】开裂白煮蛋{{node-c0954cf3}}用于裂缝形状与渗出的蛋白，不采用其灰色背景；本镜只有这一颗蛋，完整蛋不再出现。\n【场景】原木料理台{{node-2adee7d5}}用于场景空间与晨光光线。\n【动作与声音】心易全程只发拟声「咔啵」，不说人话；芽芽只说下面这一句含词的话。\n【阶段一】开始时：承接上一拍——心易僵在原地捧着裂蛋，芽芽羽冠竖起、帽侧腮斑加深。心易捧着裂蛋慢慢转向芽芽，另一只短手抬起来挡在脸前，肩膀往下塌。结束时：心易侧身对芽芽，一只短手挡在脸前、一只短手捧裂蛋。\n【阶段二】承接上一阶段：芽芽先低头看蛋，视线沿那道从蛋顶到蛋腰的裂缝走一遍；再抬头看心易；高羽冠一节一节伏下去，帽侧腮斑退回浅色；小钩喙轻轻碰一下心易的手背。结束时：钩喙贴着手背，开口前一刻。\n【阶段三】承接上一阶段：芽芽用稚嫩清亮、尾音上扬的小童声线说：{别难过啦——是你捏得太用力，它才会 crack。} 说话时心易保持短手挡脸、眼片朝下。结束时：台词说完，两人姿势未变。\n【阶段四】承接上一阶段：芽芽把裂蛋从心易掌心里托出来放回台面，裂缝还在渗蛋白；心易把两只短手一起覆在蛋上，不动。镜头保持机位与光线不变，由中近景缓拉至双人中景，画面里始终保留台面与蛋的位置关系，不给心易的脸部与眼睛做特写。结束时：双人中景，蛋在台面中央，心易覆手不动。\n保持人物身份、数量、服装、道具归属、空间方向和声音关系稳定。\n3D 毛绒质感卡通渲染，角色造型圆润、深棕色粗描边，色彩以暖黄与米白为主，清晨窗光低对比柔光，背景轻微虚化，画面干净无任何文字。\n【禁止出现】多余的手臂、第三只手、多双手、多只脚；任何字幕、文字、字母、数字、水印与标志；心易的黑瞳、瞳孔、虹膜与高光点，以及眨眼与眼皮；中途换机位、重新摆位、改变光线与色温；两个角色的外貌、配色、配饰或站位互相交换；画面里出现第三个角色或人群。\n无背景音乐。",
+      "_reference_way": "reference",
+      "reference_images": [
+       {
+        "node_id": "node-a5ee2b7d"
+       },
+       {
+        "node_id": "node-d0b8be71"
+       },
+       {
+        "node_id": "node-60cf6479"
+       },
+       {
+        "node_id": "node-f5cb6b36"
+       },
+       {
+        "node_id": "node-2adee7d5"
+       },
+       {
+        "node_id": "node-c0954cf3"
+       }
+      ],
+      "reference_audios": [],
+      "first_frame_image": {
+       "node_id": "node-fa6cdade"
+      },
+      "resolution": "720p",
+      "aspect_ratio": "9:16",
+      "duration": 9
+     }
+    },
+    "specialParams": null,
+    "config": null,
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "edges": [
+   {
+    "id": "edge-09459f03",
+    "sourceNodeId": "node-c283c2ba",
+    "sourceHandle": "output",
+    "targetNodeId": "node-c0954cf3",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-41d33996",
+    "sourceNodeId": "node-a5ee2b7d",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-4ceac4e0",
+    "sourceNodeId": "node-d0b8be71",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-93fbd2e6",
+    "sourceNodeId": "node-60cf6479",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-92e632a2",
+    "sourceNodeId": "node-f5cb6b36",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-e61d1544",
+    "sourceNodeId": "node-2adee7d5",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-82f68ff2",
+    "sourceNodeId": "node-c283c2ba",
+    "sourceHandle": "output",
+    "targetNodeId": "node-a0859c0c",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-3aaf10f0",
+    "sourceNodeId": "node-a0859c0c",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-f4da807a",
+    "sourceNodeId": "node-a5ee2b7d",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-193abdbb",
+    "sourceNodeId": "node-d0b8be71",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-cb701280",
+    "sourceNodeId": "node-60cf6479",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-57931f26",
+    "sourceNodeId": "node-f5cb6b36",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-842e30f8",
+    "sourceNodeId": "node-2adee7d5",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-e08d486d",
+    "sourceNodeId": "node-c283c2ba",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-982292e1",
+    "sourceNodeId": "node-c0954cf3",
+    "sourceHandle": "output",
+    "targetNodeId": "node-fe84d9e9",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-d1151a01",
+    "sourceNodeId": "node-fa6cdade",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-8c31eb0e",
+    "sourceNodeId": "node-a5ee2b7d",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-2a05ba4b",
+    "sourceNodeId": "node-d0b8be71",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-9cb6f43f",
+    "sourceNodeId": "node-60cf6479",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-ae138305",
+    "sourceNodeId": "node-f5cb6b36",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-332e1554",
+    "sourceNodeId": "node-2adee7d5",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-a3bf3a8a",
+    "sourceNodeId": "node-c0954cf3",
+    "sourceHandle": "output",
+    "targetNodeId": "node-0f30305e",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-0d1d7311",
+    "sourceNodeId": "node-a5ee2b7d",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-5eabac9c",
+    "sourceNodeId": "node-d0b8be71",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-e277f84b",
+    "sourceNodeId": "node-60cf6479",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-f96ae00c",
+    "sourceNodeId": "node-f5cb6b36",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-d7743d5b",
+    "sourceNodeId": "node-2adee7d5",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "edge-8dc6b001",
+    "sourceNodeId": "node-c0954cf3",
+    "sourceHandle": "output",
+    "targetNodeId": "node-1496eaab",
+    "targetHandle": "input",
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ],
+  "groups": [
+   {
+    "id": "group-56a8f828",
+    "nodeIds": [
+     "node-a5ee2b7d",
+     "node-d0b8be71",
+     "node-60cf6479",
+     "node-f5cb6b36"
+    ],
+    "bounds": {
+     "x": -20.0,
+     "y": -20.0,
+     "width": 260.0,
+     "height": 1431.5
+    },
+    "label": "00 角色/比例参考（复用，不生成）",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#E68BB3"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-b5ff44cd",
+    "nodeIds": [
+     "node-2adee7d5",
+     "node-c283c2ba"
+    ],
+    "bounds": {
+     "x": 340.0,
+     "y": -20.0,
+     "width": 340.0,
+     "height": 400.0
+    },
+    "label": "01 场景/道具 · 先跑",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#7FB2E5"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-c81f06cf",
+    "nodeIds": [
+     "node-c0954cf3",
+     "node-a0859c0c",
+     "node-fa6cdade"
+    ],
+    "bounds": {
+     "x": 340.0,
+     "y": 400.0,
+     "width": 780.0,
+     "height": 520.0
+    },
+    "label": "02 裂蛋/首帧/尾帧 · A5、A6、T_A",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#D9B36C"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-47094bac",
+    "nodeIds": [
+     "node-fe84d9e9"
+    ],
+    "bounds": {
+     "x": 1160.0,
+     "y": -20.0,
+     "width": 380.0,
+     "height": 264.0
+    },
+    "label": "03 S1 · 8s · 剥壳→一捏即裂",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#9ED16F"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-32b1be47",
+    "nodeIds": [
+     "node-0f30305e"
+    ],
+    "bounds": {
+     "x": 1160.0,
+     "y": 680.0,
+     "width": 380.0,
+     "height": 264.0
+    },
+    "label": "04 S2 · 9s · 芽芽说 crack",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#9ED16F"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   },
+   {
+    "id": "group-5d0dc1cb",
+    "nodeIds": [
+     "node-1496eaab",
+     "node-189fa8fe"
+    ],
+    "bounds": {
+     "x": 0.0,
+     "y": -320.0,
+     "width": 1420.0,
+     "height": 300.0
+    },
+    "label": "05 尾卡/说明 · 后期",
+    "style": {
+     "accent": null,
+     "opacity": null,
+     "borderColor": "#B0B0B0"
+    },
+    "createdAt": "2026-11-04T21:04:36.308+08:00",
+    "createdBy": "linguanxi",
+    "updatedAt": "2026-11-04T21:04:36.308+08:00",
+    "updatedBy": "linguanxi"
+   }
+  ]
+ }
+}
