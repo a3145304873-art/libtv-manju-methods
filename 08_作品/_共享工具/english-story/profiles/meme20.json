@@ -16,7 +16,7 @@
   "tail_frame": true,
   "narration": true,
   "require_word_in_line": true,
-  "card_style": "米白卡、浅灰边、红色单词、黑色“谐音 → 词义”，无小字",
+  "card_style": "米白卡、浅灰边、红色单词、黑色“本集联想 → 词义”，无小字",
   "video": {
     "model_id": "seedance-2.0-mini",
     "resolution": "720p",

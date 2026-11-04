@@ -108,13 +108,12 @@ export function apply(ctx, config = {}) {
     {
       name: 'english_story_brief',
       description:
-        '生成英语故事任务书，交给模型或子代理写 story.json。包含词/谐音/词义/场景、' +
-        '58 条硬规则摘要、评分口径和 JSON 模板。只写任务书，不建画布、不生成素材。',
+        '生成玩梗学单词短剧任务书：比较自然谐音、词形/词族联想等记忆梗，要求笑点把英文词和准确词义钩在一起；不写成课堂讲解。只写任务书，不建画布、不生成素材。',
       parameters: {
         type: 'object',
         properties: {
           word: { type: 'string', description: '目标英语单词，如 pest' },
-          zh: { type: 'string', description: '中文谐音，如 拍死它' },
+          zh: { type: 'string', description: '可选的中文谐音/联想短句；留空时在任务书中按创意方向决定' },
           meaning: { type: 'string', description: '中文词义，如 害虫' },
           ipa: { type: 'string', description: '音标，可选，如 /pest/' },
           scene: { type: 'string', description: '场景偏好，可选，如 夏夜小院石桌' },
@@ -124,7 +123,7 @@ export function apply(ctx, config = {}) {
             description: '结构档：harmonic15（15s 六拍+单卡，默认）或 meme20（20s V1+V2+单卡，仅校验）',
           },
         },
-        required: ['word', 'zh', 'meaning'],
+        required: ['word', 'meaning'],
         additionalProperties: false,
       },
       timeoutMs: 60000,
@@ -132,7 +131,8 @@ export function apply(ctx, config = {}) {
       async execute(args, exec) {
         const a = args && typeof args === 'object' ? args : {}
         const profile = typeof a.profile === 'string' && a.profile ? a.profile : 'harmonic15'
-        const argv = ['brief', '--word', String(a.word), '--zh', String(a.zh), '--meaning', String(a.meaning), '--profile', profile]
+        const argv = ['brief', '--word', String(a.word), '--meaning', String(a.meaning), '--profile', profile]
+        if (a.zh) argv.push('--zh', String(a.zh))
         if (a.ipa) argv.push('--ipa', String(a.ipa))
         if (a.scene) argv.push('--scene', String(a.scene))
         const result = await runCli(exec, argv)
@@ -142,8 +142,7 @@ export function apply(ctx, config = {}) {
     {
       name: 'english_story_validate',
       description:
-        '校验 story.json 的故事层：词条、谐音自然性与义接证据、时间轴形状、道具首帧、' +
-        '角色台词归属（心易只说咔啵）、卡尾三行、评分门槛。exit 2 表示有阻断项，不得建画布。',
+        '校验 story.json：英语词条来源、候选记忆梗是否连接到准确词义并落入具体拍点、时间轴、道具首帧、角色台词和卡尾；心易只允许固定拟声“咔啵”。创意自评分数不作阻断门槛。exit 2 表示有客观阻断项，不得建画布。',
       parameters: {
         type: 'object',
         properties: {
@@ -162,7 +161,7 @@ export function apply(ctx, config = {}) {
     {
       name: 'english_story_build',
       description:
-        '建英语故事画布：先跑故事层门禁，再生成 .monet 的节点/边/组、逐拍 prompt、SRT 和校验报告。' +
+        '建英语玩梗短剧画布：先跑故事层门禁，再生成 .monet 的节点/边/组、逐拍 prompt、SRT 和校验报告。' +
         '含三格分镜图闸门（G1）。不导入 Monet、不生成图片或视频。',
       parameters: {
         type: 'object',

@@ -168,7 +168,7 @@ def cmd_new(args) -> int:
         _p(f"{out} 已存在；加 --force 覆盖")
         return 1
     out.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    _p(f"已写 {out}；先填 areas 的 layout/props_here 与 beats 的 start/do/end/props/hand，再 check")
+    _p(f"已写 {out}；先按做菜短片规划卡确定本菜流程与段数，再填 areas、props 和每段 duration_seconds/beats/storyboard_frames，最后 check")
     return 0
 
 

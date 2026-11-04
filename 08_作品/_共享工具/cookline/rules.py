@@ -8,39 +8,38 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
-VERSION = "0.1.1"
+VERSION = "0.2.0"
 SCHEMA = "cookline/recipe@2"
 
 ROOT = Path(__file__).resolve().parent
 FAILURES = json.loads((ROOT / "rules" / "failures.json").read_text(encoding="utf-8"))["failures"]
 FAILURE_BY_ID = {f["id"]: f for f in FAILURES}
 
-# ---------------- 格式：对标秃秃／菇子柒的七段式 ----------------
+# ---------------- 默认值：作为旧卡/新卡的回退值，不规定创作段数 ----------------
 DEFAULT_FORMAT = {
-    "segments": 4,
-    "segment_seconds": 15,
-    "beats": 4,               # 3 动作 + 1 呼吸
+    "segments": 0,             # 由 segments[] 实际长度计算
+    "segment_seconds": 15,     # 仅供旧卡兼容；新卡逐段填写 duration_seconds
+    "beats": 4,                # 旧字段兼容；新卡各段拍数独立
     "aspect": "16:9",
-    "grid_cells": 3,          # 分镜图 0 / 5 / 10 秒三格
+    "grid_cells": 3,           # 旧卡兼容回退；新卡按段指定 storyboard_frames
     "video_model": "seedance-2.0-mini",
     "image_model": "gpt-image-2",
     "resolution": "720p",
     "reference_way": "reference",
 }
 
-SEGMENT_ROLES = ["取", "理", "火", "揭与分"]
+SEGMENT_ROLES: list[str] = []
 
 # ---------------- 提示词常量 ----------------
 
 CAUSAL = (
-    "画面里出现的东西和状态，都必须由本镜看得见的动作产生——"
-    "蛋液只能从磕开的蛋壳里流出来，丁只能由落下的刀切出来，火只能在点火之后出现，"
-    "油只能在壶倾斜之后进锅；不许结果先于过程，不许道具凭空出现或消失"
+    "食材、工具和场景状态只能通过符合本菜工艺的可见动作产生或改变；"
+    "不许结果先于过程，不许道具凭空出现或消失"
 )
 
 QUANTITY = (
-    "每种食材按一到两人份，油只铺薄薄一层、不超过锅深十分之一；"
-    "碗、碟、刀、锅的数量和位置在一段之内不增不减"
+    "食材种类、数量与用量以本卡菜谱和账本为准；"
+    "数量或容器状态变化必须有对应可见动作，镜头间不得无故增减"
 )
 
 CONTINUITY = (
@@ -50,8 +49,8 @@ CONTINUITY = (
 )
 
 TOOL_RULE = (
-    "工具：刀只握刀柄、垂直落下切进食物，不按刀背、不悬空；"
-    "木棍、筷子写清形状，不许变成木勺、勺子或锅铲；用完放回原处"
+    "每件工具按本卡标明的形态与用途操作，不得在动作中变形或互相替代；"
+    "拿起、放下和换工具都要有可见动作"
 )
 
 NEG_HANDS = "多余手臂、第三只手、多双手、四只手、六只手、背后长手"
@@ -60,24 +59,21 @@ NEG_TEXT = "字幕、文字、水印、logo、标题、标签、贴纸、画中�
 
 NEG_IMG_BASE = (
     "人类、人手、人类手掌、五指手指、指甲、人的小臂、握刀的真人手、毛发、"
-    "卡通扁平渲染、塑料玩具感、比例失真、角色复制、第二只角色、道具重复、"
-    "文字、水印、logo、边框、过曝、广告打光、多个光源、道具穿模、厨具悬空、"
-    "蛋液来自未磕开的蛋、完好蛋壳旁出现蛋液、丁凭空出现、油量过多淹没食材、"
-    "火未点即有火焰、现代电器、不锈钢台面、塑料收纳盒、瓷砖大白墙、杂物堆积、"
+    "比例失真、角色复制、第二只角色、道具重复、"
+    "文字、水印、logo、边框、道具穿模、厨具悬空、"
+    "未加工食材直接变成加工完成的状态、火未点即有火焰、杂物堆积、"
     "脏污油腻、微缩模型俯视感、切好的原料又变回整颗、整颗原料出现在已切好的砧板上、"
     "原料凭空回来、手持物跳变、未放下就换工具、砧板出现在地面、灶与桌的位置互换、"
     "背景换到另一个地方、出现该角落没有的器具"
 )
 
 NEG_VID_BASE = (
-    "人类、人手、五指、指甲、真人手握刀、多余角色、第二只角色、卡通扁平、塑料玩具感、"
+    "人类、人手、五指、指甲、真人手握刀、多余角色、第二只角色、"
     "比例失真、瞬移、变形、角色复制、道具复制、字幕、文字、水印、BGM旋律、说话、"
-    "镜头旋转、镜头漂移、翻车动作、鬼畜重复、道具穿模、无因之果、"
-    "食材凭空出现或消失、油量过多、火未点即有火、现代电器、不锈钢、塑料收纳盒、"
+    "动作错误或重复、道具穿模、无因之果、"
+    "食材凭空出现或消失、火未点即有火、"
     "杂物堆积、切好的菜变回整颗、手持物跳变、砧板位置移动、背景换景"
 )
-
-NEG_STOVE = "火塘、石圈、锅放在地上、平地灶、灶台消失"
 
 BREATHE_FORBIDDEN = (
     "拿起", "放下", "端起", "倒入", "倒进", "放进", "放入", "切开", "切成", "切好",
@@ -108,9 +104,17 @@ def scale(character: dict) -> str:
 
 def tone(recipe: dict) -> str:
     return recipe.get("format", {}).get("tone") or (
-        "基调：治愈、安静、慢。它安安静静地把一件事做完，动作利落但不表演、不夸张、不看镜头；"
-        "治愈来自干净的环境、柔和的光、放大的环境声，以及做完之后把吃的分出去"
+        "基调按本集设计；动作、镜头、光线和声音服务于这道菜及角色当下的生活情境，"
+        "不预设慢节奏、治愈氛围或分享结尾"
     )
+
+
+def quantity(recipe: dict) -> str:
+    constraints = recipe.get("cooking_constraints") or []
+    if isinstance(constraints, str):
+        constraints = [constraints]
+    extra = "；".join(str(x).strip() for x in constraints if str(x).strip())
+    return QUANTITY + (f"；本菜特别要求：{extra}" if extra else "")
 
 
 def hands(character: dict) -> str:

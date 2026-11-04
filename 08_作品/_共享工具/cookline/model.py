@@ -5,6 +5,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import math
 import re
 from pathlib import Path
 
@@ -85,10 +86,10 @@ def normalize(raw: dict) -> dict:
     segs = r.get("segments") or []
     fmt = dict(rules.DEFAULT_FORMAT)
     fmt.update(raw_fmt)
-    fmt["segments"] = int(fmt.get("segments") or 4)
+    fmt["segments"] = len(segs)
     if segs:
         first = segs[0].get("beats") or segs[0].get("shots") or []
-        # 拍数按卡推断：16 拍（3 动作+呼吸）或 12 拍（3 动作，慢档）都合法。
+        # 保留首段拍数作为旧格式兼容提示；新格式允许各段拍数不同。
         fmt["beats"] = int(raw_fmt.get("beats") or len(first) or 4)
     fmt["style"] = str(fmt.get("style") or ("16" if int(fmt["beats"]) == 4 else "12"))
     r["format"] = fmt
@@ -121,35 +122,89 @@ def normalize(raw: dict) -> dict:
         c.setdefault("label", c["key"])
         c.setdefault("desc", "")
 
-    total = float(fmt["segment_seconds"]) * len(segs)
+    elapsed = 0.0
     for si, seg in enumerate(segs):
         seg["beats"] = seg.get("beats") or seg.get("shots") or []
         seg["carry"] = [str(x) for x in (seg.get("carry") or [])]
         seg["with"] = [str(x) for x in (seg.get("with") or [])]
         seg.setdefault("key", f"v{si + 1}")
-        seg.setdefault("title", rules.SEGMENT_ROLES[si] if si < len(rules.SEGMENT_ROLES) else f"第{si + 1}段")
+        seg.setdefault("title", f"第{si + 1}段")
         seg.setdefault("area", "")
         seg.setdefault("sound", "")
-        seg.setdefault("range", f"{si * fmt['segment_seconds']}–{(si + 1) * fmt['segment_seconds']}s")
+        duration = seg.get("duration_seconds", seg.get("duration"))
+        if duration is None:
+            old_range = parse_range(seg.get("range"))
+            duration = (old_range[1] - old_range[0]) if old_range else (fmt.get("segment_seconds") or 0)
+        try:
+            seg["duration_seconds"] = float(duration)
+        except (TypeError, ValueError):
+            seg["duration_seconds"] = 0.0
+            seg["duration_invalid"] = True
+        if not math.isfinite(seg["duration_seconds"]):
+            seg["duration_seconds"] = 0.0
+            seg["duration_invalid"] = True
+        seg["start_sec"] = elapsed
+        seg["end_sec"] = elapsed + seg["duration_seconds"]
+        seg["range"] = f"{seg['start_sec']:g}–{seg['end_sec']:g}s"
         beats = []
         for bi, b in enumerate(seg["beats"]):
             b = _clean_beat(b, bi, bi == len(seg["beats"]) - 1)
             rng = parse_range(b.get("t"))
             if rng is None:
-                step = float(fmt["segment_seconds"]) / max(len(seg["beats"]), 1)
+                b["time_inferred"] = True
+                step = seg["duration_seconds"] / max(len(seg["beats"]), 1)
                 rng = (round(bi * step, 3), round((bi + 1) * step, 3))
                 b["t"] = f"{rng[0]:g}–{rng[1]:g}"
             b["start_sec"], b["end_sec"] = rng
-            b["abs_start"] = si * float(fmt["segment_seconds"]) + rng[0]
-            b["abs_end"] = si * float(fmt["segment_seconds"]) + rng[1]
+            b["abs_start"] = seg["start_sec"] + rng[0]
+            b["abs_end"] = seg["start_sec"] + rng[1]
             beats.append(b)
         seg["beats"] = beats
+        frames = seg.get("storyboard_frames")
+        if frames:
+            normalized_frames = []
+            for fi, frame in enumerate(frames):
+                if isinstance(frame, (int, float, str)):
+                    frame = {"at": frame}
+                at = frame.get("at", frame.get("t", 0))
+                try:
+                    if isinstance(at, str):
+                        parsed = parse_range(at)
+                        at = parsed[0] if parsed else float(at.strip().rstrip("s秒"))
+                    at = float(at)
+                    if not math.isfinite(at):
+                        raise ValueError("non-finite storyboard time")
+                except (TypeError, ValueError):
+                    at = -1.0
+                    seg["storyboard_frames_invalid"] = True
+                normalized_frames.append({
+                    "at": at,
+                    "description": str(frame.get("description") or frame.get("visual") or "").strip(),
+                    "label": str(frame.get("label") or f"{fi + 1}"),
+                })
+            seg["storyboard_frames"] = normalized_frames
+        else:
+            cells = fmt.get("grid_cells")
+            if cells is not None:
+                count = max(1, int(cells))
+                times = [round(i * seg["duration_seconds"] / count, 3) for i in range(count)]
+            elif len(beats) == 1:
+                seg["storyboard_frames_inferred"] = True
+                times = [0.0, seg["duration_seconds"]]
+            else:
+                seg["storyboard_frames_inferred"] = True
+                times = [0.0] + [round((b["start_sec"] + b["end_sec"]) / 2, 3) for b in beats[1:]]
+            seg["storyboard_frames"] = [
+                {"at": t, "description": "", "label": f"{fi + 1}"}
+                for fi, t in enumerate(times)
+            ]
         # 旧卡的 subs 是整段一个字符串数组；按顺序落到动作拍上，仍只进 SRT。
         legacy_subs = [str(x) for x in (seg.get("subs") or []) if str(x).strip()]
         actions = [b for b in beats if b["kind"] == "action"]
         for idx, text in enumerate(legacy_subs):
             if idx < len(actions) and not actions[idx].get("sub"):
                 actions[idx]["sub"] = text
+        elapsed += seg["duration_seconds"]
 
     post = r.setdefault("post", {})
     if "subtitles" not in post:
@@ -167,7 +222,7 @@ def normalize(raw: dict) -> dict:
         s["start"] = float(s.get("start") or 0)
         s["end"] = float(s.get("end") or 0)
         s["text"] = str(s.get("text") or "")
-    r["_total_seconds"] = total
+    r["_total_seconds"] = elapsed
     return r
 
 

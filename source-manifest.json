@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-21T01:45:30+08:00",
-  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied)",
-  "import_method": "selected local files copied byte-for-byte; not a remote repository clone",
+  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied); +2026-11-03 I07 intake: 1 pinned GitHub xuanhuan combat skill with 14 selected upstream files plus license/README (15 byte-verified files); project adapter and C18/template mapping, no media or execution validation; +2026-11-03 I08 intake: pinned GitHub English mnemonic video Skill with 5 selected files; mapped candidate comparison, semantic bridge, and final-media QA to existing english-story module; no upstream runtime installed; +2026-11-03 Bilibili market-reference review: BBDown metadata and sampled media review of two high-view English mnemonic lesson videos and one Shaoshi Wuxia English compilation; media retained only in system temporary directory; +2026-11-04 I09 intake: pinned story-to-handdrawn-video GitHub Skill, seven byte-verified source files; candidate story/character/beat-planning mapping only, no upstream runtime installed; Bilibili visual review of Tutu cooking/life samples and an AI cooking workflow tutorial, media retained only in system temporary directory; +2026-11-04 I10/I11 intake: pinned per-scene video-storyboard Skill and dish-driven cooking-board Skill; six selected files byte-verified; combined as optional dynamic cooking-planning references, no upstream runtime installed or executed",
+  "import_method": "selected local files copied byte-for-byte from sources or pinned repository snapshots; not a full remote repository clone",
   "source_repository_baseline": "c7fe8c4",
   "sources": [
     {
@@ -721,16 +721,395 @@
         "selection": "unknown"
       },
       "intake_date": "2026-11-03"
+    },
+    {
+      "id": "I07",
+      "kind": "industry_skill_document",
+      "name": "漫剧老李玄幻仙侠打戏引擎",
+      "stable_id": "github:lixiaoxiao9888-create/manju-laoli-skill/sd-xuanhuan-engine",
+      "source_version_summary": "V7.4.26；GitHub commit 6f16955c57053d77ea0ffbdbbf3a7985a3e0080a；主引擎与选定依赖文件固定快照；文本研究候选，未进行本地执行/迁移验证",
+      "stages": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ],
+      "ability_notes": "C01 动作因果；C06 空间与尺度；C13 按语义分配时长；C18 大招五拍/五层的玄幻仙侠专项分支",
+      "locators": "sd-xuanhuan-engine/SKILL.md；references/core-combat-laws.md、grand-scale-domains.md、xuanhuan-elements-vfx.md、arsenal-moves-library.md、arsenal-parameter-library.md；关联 sd-combat-engine 三份护栏",
+      "gaps": [
+        "仅选取主引擎及相关依赖文件，非全仓库镜像",
+        "GitHub Stars/Forks 与作者自述的《兽瞳》第01集实跑不是独立效果评估；无完整生成记录、播放对照或平台表现数据",
+        "core-combat-laws.md 的“前2秒跳出率降低38%”没有可核查研究出处",
+        "未观看媒体、未运行上游校验器、未在本地工具链复现或验证迁移效果",
+        "Seedance 语法、模型参数、固定时长/比例与血腥/反杀剧情不升级为本库通用规范"
+      ],
+      "files": [
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/LICENSE",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/LICENSE.txt",
+          "sha256": "d645a5c3662f73a90972a21ceda79a59eafc38543a506acd5240ce1f514d77c7",
+          "bytes": 1117
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/README.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/README.md.txt",
+          "sha256": "d996caba8bfb409ec6cd29b95e4e746afdfc129fa9fe801206084ab4fbaa949d",
+          "bytes": 43695
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-intensity-guardrails.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-intensity-guardrails.md.txt",
+          "sha256": "3afe2c7b94181cf79aba1a3744d26b25f3f1fcc0160239e3181f86b4e4b5c493",
+          "bytes": 13216
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md.txt",
+          "sha256": "94bc56c1de9be50d50ddd5fa000ce0b3af2e534089c7c32b58ebf7fa44f11af1",
+          "bytes": 16756
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/vfx-rendering-mandate.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/vfx-rendering-mandate.md.txt",
+          "sha256": "9009d22f5f9bc30b989b8d174a11e48f3ebd7102891a4b810d563c2e32a93222",
+          "bytes": 10984
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-moves-library.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-moves-library.md.txt",
+          "sha256": "194ba46a31b5d59dd57a8512b4e8d0be4759e49f1bb9ffaa6b5b0e956712350a",
+          "bytes": 8260
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-parameter-library.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-parameter-library.md.txt",
+          "sha256": "700d034a0dcb65805619c38c2dee7d0fed25f6a33b3f297f0b2518bdd949e77b",
+          "bytes": 36925
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/camera-specs-15modes.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/camera-specs-15modes.md.txt",
+          "sha256": "dfe26b46c85f23da6a67d639a3ad85ef09306c915833aeb91a69e1875ee12937",
+          "bytes": 7035
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/character-scene-presets.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/character-scene-presets.md.txt",
+          "sha256": "8a4d5d2e2914571d50bc19796d0994ac4f4f26d505b003a4c7cfe81735bf938d",
+          "bytes": 7389
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/close-quarters-engine.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/close-quarters-engine.md.txt",
+          "sha256": "3ef965d5359f8e3fcbe12a7d4a20e9b03225d7feae21ee8289d064ca29744ba1",
+          "bytes": 4486
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/core-combat-laws.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/core-combat-laws.md.txt",
+          "sha256": "7b305a1add2bb6d6ae39adf15e80453d383858a8efd0e58da9975dd96b354dc1",
+          "bytes": 20236
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/epic-battlefield-protocols.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/epic-battlefield-protocols.md.txt",
+          "sha256": "8ab295b8d5b88af7b69f8248349e0fa3cd0f7666cc5e3da2d207a9dca75f7132",
+          "bytes": 8877
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/grand-scale-domains.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/grand-scale-domains.md.txt",
+          "sha256": "2fe91fa2e282b3035543211d96563096d8aa61e2280129a2e4e7e3701b5bab0d",
+          "bytes": 4987
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md.txt",
+          "sha256": "6f71b1bd297abad9da3664fcd6801cb1c2e7b5243bbd9fdaaddbc27123e91d84",
+          "bytes": 6426
+        },
+        {
+          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/SKILL.md",
+          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/SKILL.md.txt",
+          "sha256": "512ffa85412f4b32a60673f2ee5608622fbfb55ab214ef79d19623ea1b89f797",
+          "bytes": 12990
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "full_skill_and_selected_references_paper_analysis",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed",
+        "market_signal": "GitHub page showed approximately 1.9k Stars and 207 Forks on 2026-11-03; README self-reports a full-process run on 《兽瞳》第01集; neither independently validates effectiveness"
+      },
+      "original_skill_name": "sd-xuanhuan-engine",
+      "original_namespace": "manju-laoli-skill",
+      "original_version": "7.4.26",
+      "source_commit": "6f16955c57053d77ea0ffbdbbf3a7985a3e0080a",
+      "intake_date": "2026-11-03"
+    },
+    {
+      "id": "I08",
+      "kind": "industry_skill_document",
+      "name": "Douyin One-Second Word Video（英语单词助记视频）",
+      "stable_id": "github:Mr-funny/hbg-douyin-one-second-word-video",
+      "source_version_summary": "main commit f1ee0109c092467af47e510ebab35734094cdece；MIT；4 Stars/2 Forks（页面快照）；作者展示 flaw 单词样片，未独立复现",
+      "stages": [
+        "S0",
+        "S1",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "英语词条来源核验；比较发音块与整词候选；建立自然词义桥；按真实TTS边界同步；最终编码媒体QA",
+      "locators": "SKILL.md §§Workflow/Completion gate；references/proven-structure.md Beat 1–5 / QA timestamps；README.md §flaw实测；ARTICLE-FROM-SOUND-TO-STORY.md",
+      "gaps": [
+        "仓库星标和Fork较少，不能作为市场验证",
+        "作者公开的量化成片证据集中在 flaw 单词样片，独立复现和学习效果评估缺失",
+        "Edge TTS、HyperFrames、chalkboard视觉、四遍重复和固定时长为该Skill专用格式，不迁移成蛋仔模块硬规范",
+        "本次只读文本和作者展示图，没有复现脚本/引擎"
+      ],
+      "files": [
+        {
+          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/README.md",
+          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/README.md.txt",
+          "sha256": "771fb5007b94286c4767e5ae80562c8b693c2ad32ef705733117a5527ed48e98",
+          "bytes": 6608
+        },
+        {
+          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/SKILL.md",
+          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/SKILL.md.txt",
+          "sha256": "0ace76705479b77923ee82112b8a764344f8a6286d121cf3f02de8a612a42349",
+          "bytes": 4712
+        },
+        {
+          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/LICENSE",
+          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/LICENSE.txt",
+          "sha256": "1376eed303c6f74c6aa7343f094e7b21511b566844acb68398f42713346cbbf3",
+          "bytes": 1088
+        },
+        {
+          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md",
+          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md.txt",
+          "sha256": "9daacda3b28ac5e015230190a287f37d2f899b1559129c1e219ccc021ed306e0",
+          "bytes": 3671
+        },
+        {
+          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md",
+          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md.txt",
+          "sha256": "5bed53bef3d9891973cc960423009db95f53fcfd5cecc5e921e402c394f88a72",
+          "bytes": 12937
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "full_skill_readme_and_selected_reference_article",
+        "media_review": "author_showcase_images_only",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed",
+        "market_signal": "GitHub showed 4 Stars and 2 Forks; project README reports one flaw sample encoded at 18.208 seconds; not independent efficacy evidence"
+      },
+      "original_skill_name": "douyin-one-second-word-video",
+      "original_namespace": "Mr-funny",
+      "original_version": "main@f1ee0109c092467af47e510ebab35734094cdece",
+      "source_commit": "f1ee0109c092467af47e510ebab35734094cdece",
+      "intake_date": "2026-11-03"
+    },
+    {
+      "id": "I09",
+      "kind": "industry_skill_document",
+      "name": "Story to Handdrawn Video（故事转手绘动画）",
+      "stable_id": "github:gnipbao/story-to-handdrawn-video",
+      "source_version_summary": "main commit 198aefa9b298af3a20d3bd757c93433623d38ccd; MIT; selected seven source files byte-verified; research candidate, not installed or reproduced",
+      "stages": [
+        "S0",
+        "S1",
+        "S2",
+        "S3",
+        "S5"
+      ],
+      "ability_notes": "故事事实澄清、角色表、叙事节拍拆分、逐场文字/角色一致性检查；作为可爱角色日常片的方案参考",
+      "locators": "skill-package/story-to-handdrawn-video/SKILL.md §§Workflow/Completion; references/asset-workflow.md; references/reference-style-workflow.md",
+      "gaps": [
+        "仅复制 Skill 包及 README/LICENSE 中选定的七个文件，不是完整仓库镜像",
+        "固定彩铅日记画风、Remotion、脚本接口和上游字幕/配音方式不迁移到心易做菜",
+        "未安装上游依赖、未复现、未验证输出质量或用户/市场效果"
+      ],
+      "files": [
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/README.md",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/README.md.txt",
+          "sha256": "461bae127a26fadf69a588dc8664ca4b41f3a2899e4e2d6c29449728cb34e5d2",
+          "bytes": 16183
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE.txt",
+          "sha256": "481521d963c714f9d79b68e0cde61ab0b012e17dc3b90f4ed877717a0c401fa3",
+          "bytes": 1064
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md.txt",
+          "sha256": "bdd0ee0c779befc50d9b35707f2361e05e85e9a8226d1743bf46583e723db5c3",
+          "bytes": 12088
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml.txt",
+          "sha256": "7ec568c0299de73c33348e658454c8f3bdb5d783f60dccbf7eac514583a540c2",
+          "bytes": 309
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md.txt",
+          "sha256": "e355d1ca9c12d9d6806b54485e6f04f1e81f0f800b0137ed5ed12d15d80438f0",
+          "bytes": 4136
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md.txt",
+          "sha256": "d3452e1a5c7f4bfcdfa6ecf8184a86b587383e75b39f31896e0a3d719a8b5faf",
+          "bytes": 3961
+        },
+        {
+          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py",
+          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py.txt",
+          "sha256": "e5b1917e09c8d27dc51dc592df882b3f325c091ba41a1669c533db8fd6069ccb",
+          "bytes": 958
+        }
+      ],
+      "missing_external_dependencies": [
+        "未安装上游 Remotion/绘图环境；仓库其他资源未镜像"
+      ],
+      "evidence": {
+        "text_review": "full_SKILL_and_README_plus_both_references_openai_yaml_script_and_license",
+        "media_review": "not_performed_for_upstream_skill; separate Bilibili sample review recorded in 08_作品/心易做菜/00_方案/05-秃秃做饭日常补充观察-20261104.md",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed; proposed as research candidate only",
+        "market_signal": "GitHub repository popularity is not treated as independent efficacy evidence"
+      },
+      "original_skill_name": "story-to-handdrawn-video",
+      "original_namespace": "gnipbao",
+      "original_version": "main@198aefa9b298af3a20d3bd757c93433623d38ccd",
+      "source_commit": "198aefa9b298af3a20d3bd757c93433623d38ccd",
+      "intake_date": "2026-11-04"
+    },
+    {
+      "id": "I10",
+      "kind": "industry_skill_document",
+      "name": "Video Storyboard（逐场分镜与连续性）",
+      "stable_id": "github:agentara/skills/skills/aigc/video-storyboard",
+      "source_version_summary": "main commit 950e1bfb11e1df67b46df19804ed85ada9012c33; MIT; selected SKILL, README, LICENSE byte-verified; research candidate, not installed or reproduced",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "按场景时长选择分镜密度；逐段匹配分镜图/视频提示词；角色、道具、地点连续性检查；映射 C01/C03/C04/C06/C13",
+      "locators": "skills/aigc/video-storyboard/SKILL.md §§Inputs/Grid Rules/Storyboard Image Requirements/Video Prompt Script Requirements",
+      "gaps": [
+        "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
+        "固定网格、栅格图像生成要求和工具指令不直接迁移",
+        "未安装上游依赖、未复现、未验证成片质量或迁移效果"
+      ],
+      "files": [
+        {
+          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/README.md",
+          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/README.md.txt",
+          "sha256": "7f8b11e21527885a7e00508d95764eb5d686c4bc1703b8c073e86a4651b898bd",
+          "bytes": 7084
+        },
+        {
+          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
+          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE.txt",
+          "sha256": "d823edd9d34324f0cecd19ab4beda0033c0cb53eadb3954947dcfa428beb66e8",
+          "bytes": 1065
+        },
+        {
+          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md",
+          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md.txt",
+          "sha256": "8677b67defe936545217c5a7004566b9da26b873ae8084d82897463f7f9e2dd8",
+          "bytes": 15410
+        }
+      ],
+      "missing_external_dependencies": [],
+      "evidence": {
+        "text_review": "full_SKILL_README_and_LICENSE",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed; mapped as research candidate only",
+        "market_signal": "GitHub showed 622 Stars at intake; popularity is not efficacy evidence"
+      },
+      "original_skill_name": "video-storyboard",
+      "original_namespace": "agentara",
+      "original_version": "main@950e1bfb11e1df67b46df19804ed85ada9012c33",
+      "source_commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+      "intake_date": "2026-11-04"
+    },
+    {
+      "id": "I11",
+      "kind": "industry_skill_document",
+      "name": "Storyboard to Cooking Video（烹饪动作参考板）",
+      "stable_id": "github:samuraigpt/Generative-Media-Skills/library/motion/storyboard-to-cooking-video",
+      "source_version_summary": "main commit 66b55e2a27ee554667ec255782922bae72882cc8; MIT; selected Skill, README, LICENSE byte-verified; research candidate, not installed or reproduced",
+      "stages": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "ability_notes": "以 dish 驱动烹饪动作参考板，先审视觉动作顺序再进入视频提示词；映射 C01/C03/C04/C06/C13",
+      "locators": "library/motion/storyboard-to-cooking-video/SKILL.md §§Inputs/Step 1/Step 2/Notes",
+      "gaps": [
+        "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
+        "固定九步、15秒、真人连续长镜、MuAPI/Seedance，不作为本项目规范",
+        "未安装上游依赖、未派发、未复现、未验证输出质量或迁移效果"
+      ],
+      "files": [
+        {
+          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/README.md",
+          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/README.md.txt",
+          "sha256": "f3bd1d36eca672623199b6c4638afeaad4103fbd121cf7e309a0e3b47a5ec9ba",
+          "bytes": 21530
+        },
+        {
+          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/LICENSE",
+          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/LICENSE.txt",
+          "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+          "bytes": 1056
+        },
+        {
+          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md",
+          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md.txt",
+          "sha256": "03f31cbdb1d74c32dc03c83b10cc9a2bb83084c908320324667890407409d2fc",
+          "bytes": 8794
+        }
+      ],
+      "missing_external_dependencies": [
+        "上游使用 MuAPI/Seedance；本轮未安装调用"
+      ],
+      "evidence": {
+        "text_review": "full_SKILL_README_and_LICENSE",
+        "media_review": "not_performed",
+        "execution": "not_performed",
+        "transfer_validation": "not_performed; mapped as research candidate only",
+        "market_signal": "GitHub showed 33 Stars at intake; popularity is not efficacy evidence"
+      },
+      "original_skill_name": "muapi-storyboard-to-cooking-video",
+      "original_namespace": "samuraigpt",
+      "original_version": "main@66b55e2a27ee554667ec255782922bae72882cc8",
+      "source_commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+      "intake_date": "2026-11-04"
     }
   ],
   "counts": {
     "workflow_sources": 11,
     "workflow_json_snapshots": 10,
-    "industry_skill_documents": 5,
-    "cloned_source_files": 24,
-    "adapted_project_skill_entries": 6,
-    "format_reference_packages": 2,
-    "derived_format_metadata_files": 2,
+    "industry_skill_documents": 10,
+    "cloned_source_files": 63,
+    "adapted_project_skill_entries": 8,
+    "format_reference_packages": 3,
+    "derived_format_metadata_files": 3,
     "transcribed_prompt_screenshots": 9
   }
 }

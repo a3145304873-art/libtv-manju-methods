@@ -6,6 +6,7 @@
 from __future__ import annotations
 
 import re
+import math
 from dataclasses import dataclass, field
 
 from . import rules
@@ -114,32 +115,29 @@ def check(card: dict, plan: Plan | None = None, strict: bool = False) -> Report:
 def _check_format(card: dict, rep: Report) -> None:
     fmt = card["format"]
     segs = card.get("segments") or []
-    if int(fmt.get("segments", 0)) != 4 or len(segs) != 4:
-        rep.add("F01", "整卡", f"必须 4 段（取/理/火/揭与分），当前 format={fmt.get('segments')}、卡里 {len(segs)} 段")
-    beats = int(fmt.get("beats", 0))
-    if beats not in (3, 4):
-        rep.add("F01", "整卡", f"每段只能 3 拍（12 拍慢档）或 4 拍（16 拍标准档），当前 {beats}")
-    style = str(fmt.get("style") or ("16" if beats == 4 else "12"))
-    if style not in ("12", "16"):
-        rep.add("F01", "整卡", f"style 只能是 12 或 16，当前 {style}")
-    if (style == "16" and beats != 4) or (style == "12" and beats != 3):
-        rep.add("F01", "整卡", f"style={style} 与 beats={beats} 不一致")
-    if int(fmt.get("segment_seconds", 0)) != 15:
-        rep.add("F01", "整卡", f"每段固定 15 秒，当前 {fmt.get('segment_seconds')}")
+    if not segs:
+        rep.add("F01", "整卡", "还没有按本菜规划片段；至少创建一个制作段")
+    keys = [str(seg.get("key") or "") for seg in segs]
+    if len(keys) != len(set(keys)):
+        rep.add("F01", "整卡", "片段 key 重复；请保证每段标识唯一")
+    for si, seg in enumerate(segs):
+        duration = float(seg.get("duration_seconds", 0) or 0)
+        if seg.get("duration_invalid") or not math.isfinite(duration) or duration <= 0:
+            rep.add("F01", _where(si), f"片段时长必须大于 0 秒，当前 {duration:g}")
+        elif abs(duration - round(duration)) > 1e-6:
+            rep.add("F01", _where(si), f"当前视频节点时长需为整秒，当前 {duration:g} 秒")
     if fmt.get("aspect") != "16:9":
         rep.add("F01", "整卡", f"本线固定 16:9，当前 {fmt.get('aspect')}")
 
 
 def _check_legacy_beats(card: dict, rep: Report) -> None:
-    total = int(card["format"]["segment_seconds"])
     for si, seg in enumerate(card.get("segments") or []):
+        total = float(seg.get("duration_seconds", card["format"]["segment_seconds"]))
         beats = seg.get("beats") or []
-        if len(beats) not in (3, 4):
-            rep.warn("F01", _where(si), f"旧卡 {len(beats)} 拍；v2 只支持 3 或 4 拍")
         if not beats:
             continue
         if abs(beats[0]["start_sec"]) > 0.01 or abs(beats[-1]["end_sec"] - total) > 0.01:
-            rep.warn("F04", _where(si), "旧卡时间轴没有盖满 15 秒")
+            rep.warn("F04", _where(si), f"旧卡时间轴没有盖满本段 {total:g} 秒")
         for bi, b in enumerate(beats):
             if b["kind"] == "action" and len(b.get("do", "")) < 4:
                 rep.warn("F01", _where(si, bi), "这一拍没有动作描述")
@@ -149,8 +147,8 @@ def _check_legacy_beats(card: dict, rep: Report) -> None:
 
 def _check_areas(card: dict, rep: Report) -> None:
     areas = card.get("areas") or []
-    if len(areas) < 2:
-        rep.add("F05", "整卡", "至少要有 2 个台地（取/理/火/分），现在不够")
+    if len(areas) < 1:
+        rep.add("F05", "整卡", "至少声明一个实际使用的台地")
     keys = [a["key"] for a in areas]
     if len(keys) != len(set(keys)):
         rep.add("F05", "整卡", "台地 key 重复")
@@ -179,20 +177,15 @@ def _check_areas(card: dict, rep: Report) -> None:
 
 
 def _check_beats(card: dict, rep: Report) -> None:
-    fmt = card["format"]
-    total = int(fmt["segment_seconds"])
     for si, seg in enumerate(card.get("segments") or []):
+        total = float(seg.get("duration_seconds", card["format"]["segment_seconds"]))
         beats = seg.get("beats") or []
-        if len(beats) != int(fmt["beats"]):
-            rep.add("F01", _where(si), f"应有 {fmt['beats']} 拍，当前 {len(beats)} 拍")
         if not beats:
+            rep.add("F01", _where(si), "片段没有动作拍；写入本段实际发生的动作")
             continue
-        style = str(fmt.get("style") or ("16" if int(fmt["beats"]) == 4 else "12"))
-        if style == "16" and beats[-1]["kind"] != "breathe":
-            rep.add("F01", _where(si), "16 拍档最后一拍必须是呼吸/空镜（breathe）")
-        if style == "12" and any(b["kind"] == "breathe" for b in beats):
-            rep.add("F01", _where(si), "12 拍慢档三拍都是动作；要空镜就用 16 拍档")
         for bi, b in enumerate(beats):
+            if b.get("time_inferred"):
+                rep.warn("F04", _where(si, bi), "本拍未给时间点，系统按拍数平均补齐；请按动作实际时长填写 t")
             if b["kind"] == "action":
                 for f in ("start", "do", "end"):
                     if len(b.get(f, "")) < 6:
@@ -206,7 +199,7 @@ def _check_beats(card: dict, rep: Report) -> None:
                     if word in b.get("desc", ""):
                         rep.add("F03", _where(si, bi), f"呼吸拍里出现动作「{word}」，会推进剧情")
                         break
-        # 时间轴：首尾相接、不重叠、不平均
+        # 时间轴：完整覆盖本段且相邻镜头连续；拍长是否相同由本集节奏决定。
         if abs(beats[0]["start_sec"]) > 0.01:
             rep.add("F04", _where(si), "第一拍不从 0 秒开始")
         if abs(beats[-1]["end_sec"] - total) > 0.01:
@@ -214,12 +207,25 @@ def _check_beats(card: dict, rep: Report) -> None:
         for a, b in zip(beats, beats[1:]):
             if abs(a["end_sec"] - b["start_sec"]) > 0.01:
                 rep.add("F04", _where(si), f"{a['t']} 与 {b['t']} 之间有缝/重叠")
-        lens = [b["end_sec"] - b["start_sec"] for b in beats]
-        if len(set(round(x, 2) for x in lens)) == 1 and len(lens) > 1:
-            rep.add("F04", _where(si), f"{len(lens)} 拍平均分；时长要按动作定，不要每拍一样长")
-        for b, n in zip(beats, lens):
-            if b["kind"] == "action" and (n < 1.2 or n > 12):
-                rep.add("F04", _where(si, beats.index(b)), f"单拍 {n:g}s 越界（动作拍 1.2–12s）")
+        for bi, b in enumerate(beats):
+            if b["end_sec"] <= b["start_sec"]:
+                rep.add("F04", _where(si, bi), "单拍时长必须大于 0")
+            if b["start_sec"] < -0.01 or b["end_sec"] > total + 0.01:
+                rep.add("F04", _where(si, bi), f"单拍时间超出本段 0–{total:g}s 范围")
+        frames = seg.get("storyboard_frames") or []
+        times = [float(frame["at"]) for frame in frames]
+        if seg.get("storyboard_frames_invalid"):
+            rep.add("F01", _where(si), "分镜帧时间点格式无效；请填数字秒数或 at 数值")
+        if seg.get("storyboard_frames_inferred"):
+            rep.add("F01", _where(si), "本段分镜帧仅按动作拍数自动推导；请明确本段帧数/时间点或填写 storyboard_frames")
+        if not times:
+            rep.add("F01", _where(si), "本段没有分镜帧；请显式规划或使用自动帧数")
+        if any(t < -0.01 or t > total + 0.01 for t in times):
+            rep.add("F01", _where(si), f"分镜时间点必须在本段 0–{total:g} 秒内")
+        if len(times) != len(set(round(t, 3) for t in times)):
+            rep.add("F01", _where(si), "分镜时间点重复；请调整帧位")
+        if times != sorted(times):
+            rep.add("F01", _where(si), "分镜帧必须按时间先后排列")
 
 
 # ---------------- 角色 ----------------
@@ -445,7 +451,7 @@ def _check_subtitles(card: dict, rep: Report) -> None:
     subs = (card.get("post") or {}).get("subtitles") or []
     if len(subs) > 8:
         rep.add("F19", "字幕", f"全片 {len(subs)} 条；参考片 8 条，越多越像教程")
-    total = float(card["format"]["segment_seconds"]) * len(card.get("segments") or [])
+    total = float(card.get("_total_seconds", 0))
     for s in subs:
         if not s.get("text"):
             rep.add("F19", "字幕", "空字幕条目")
@@ -531,7 +537,9 @@ def _check_ending(card: dict, rep: Report) -> None:
     if beats and beats[-1]["kind"] == "breathe":
         text += _txt(beats[-1])
     if not any(w in text for w in rules.SHARE_WORDS):
-        rep.add("F27", _where(len(segs) - 1), "结尾没有分出去；加「拨一小份到碟里/留一半/推给它」")
+        intent = str(last.get("ending_intent") or "").strip()
+        if not intent or intent.lower().startswith(("todo", "tbd")):
+            rep.add("F27", _where(len(segs) - 1), "请标明本集结尾意图；分享只是可选方式")
 
 
 # ---------------- 提示词 ----------------

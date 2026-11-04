@@ -49,9 +49,17 @@ def main(excluded_terms=()):
             require(path not in paths, f"来源文件重复注册: {path}")
             paths.add(path)
             require(path.is_file(), f"缺少原文: {path}")
-            require(hashlib.sha256(path.read_bytes()).hexdigest() == file["sha256"], f"原文哈希不符: {path}")
+            # 入库有两种哈希口径：多数按 CRLF→LF 归一化文本记录（与仓库 blob 一致），少数按原始字节；两者任一匹配即通过。
+            data = path.read_bytes()
+            digest = hashlib.sha256(data).hexdigest()
+            if digest != file["sha256"]:
+                digest = hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
+            require(digest == file["sha256"], f"原文哈希不符: {path}")
             hashes += 1
     links = 0
+    # 工作区文档引用的制作媒体常留在媒体库/本机、按边界规则不入仓库；
+    # 这类缺口逐条记录进验证报告保持可见，不静默放行，也不当作失败。
+    workspace_media_links_outside_repo = []
     generated = []
     workspace_files = 0
     for path in ROOT.rglob("*"):
@@ -86,7 +94,12 @@ def main(excluded_terms=()):
             require(not re.match(r"^[a-zA-Z]:|^/", local), f"导航依赖绝对路径: {path}: {target}")
             resolved = (path.parent / local).resolve()
             require(resolved.is_relative_to(ROOT), f"链接逃逸: {path}: {target}")
-            require(resolved.exists(), f"失效链接: {path}: {target}")
+            if not resolved.exists():
+                in_ws = WORKSPACE in path.parents
+                is_media = resolved.suffix.lower() in MEDIA
+                require(in_ws and is_media, f"失效链接: {path}: {target}")
+                workspace_media_links_outside_repo.append(
+                    {"file": str(path.relative_to(ROOT)), "target": target})
             links += 1
     ability_text = (ROOT / "01_能力库/能力卡.md").read_text(encoding="utf-8")
     ability_ids = re.findall(r"^## (C\d+)｜", ability_text, re.M)
@@ -105,6 +118,7 @@ def main(excluded_terms=()):
         "relative_links_verified": links, "ability_ids": ability_ids,
         "project_skill_entries": len(skills),
         "workspace_files": workspace_files,
+        "workspace_media_links_outside_repo": workspace_media_links_outside_repo,
         "excluded_content_terms_checked": len(excluded_terms),
         "boundary": "method layer carries no production media; 08_作品 workspace allowed to carry assets/canvas/outputs; supplied excluded content terms, credentials, symlinks and external local navigation still rejected",
         "limitations": "engineering/package checks only; source media and method quality not evaluated; missing upstream attachments remain missing",

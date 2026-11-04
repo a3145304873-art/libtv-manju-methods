@@ -1,0 +1,62 @@
+# Proven structure and timing
+
+## Visual system
+
+- Use the approved classroom chalkboard look: dark green board, brown frame and chalk tray, warm yellow English, red meanings, off-white support text, yellow mnemonic characters.
+- Keep the headword, IPA, split chunks, assembled word, “所以”, and final echo composition centered in the safe area.
+- Keep critical content at least 72 px from the left, 120 px from the right, 130 px from the top, and 300 px from the bottom.
+- Make primary words large. Keep explanations visually secondary; do not turn extra instructions into badges or competing headlines.
+
+## Beat 1 — immediate headword
+
+From frame zero show the large English word, IPA, and Chinese meaning. Do not show the Chinese mnemonic. Read only: “一秒钟记一个单词，今天要记的是……”。Use restrained breathing emphasis so the held opening does not freeze while preserving the reference layout.
+
+## Beat 2 — Chinese mnemonic reveal
+
+1. Show the English sound chunks first.
+2. Keep all Chinese mnemonic units initially hidden.
+3. Read the mnemonic units in Chinese only; never read the isolated English chunks.
+4. Reveal and emphasize each Chinese unit 0.03–0.08 seconds before its Edge TTS boundary.
+5. After the final Chinese unit ends, move the same English chunk elements into one continuous assembled word and hold it clearly.
+
+For a one-syllable word, do not default to one mnemonic unit. Generate and compare at least two candidate splits using onset + rime or another defensible sound boundary such as `f` + `law`. Explicitly treat them as sound chunks rather than claiming they are syllables. Prefer the split that creates the clearest cause-and-effect mini-story while keeping the target pronunciation recognizable.
+
+## Beat 3 — natural example
+
+Enter the SVG example panel just before “窍门”. Reveal text by spoken phrase, not all at once.
+
+```text
+窍门：
+<Chinese mnemonic>(<sound/word>)！
+你看，<concrete setup>，
+<natural consequence containing the meaning>(<word>)！
+```
+
+Use at most four large lines after “窍门”. Break on semantic clauses. Prefer natural Chinese such as “画面立刻就变得生动、鲜明” over mechanically concatenated definitions.
+
+## Beat 4 — interruption
+
+Give “所以” its own large centered beat. Keep the outgoing example visible until the incoming beat fills the frame; never insert a blank mask.
+
+## Beat 5 — reinforcement
+
+Reveal four instances of the word at top, left, right, and bottom on the four spoken repetitions. Then reveal the meaning in the center and the IPA below it. Hold all of them through the last frame.
+
+## Timing derivation
+
+Derive times from `block-manifest.json`; never reuse timestamps from another word.
+
+- Intro exit: shortly after the final introduction meaning word ends.
+- Split entrance: 0.01–0.05 seconds after intro exit begins.
+- Chinese reveals: 0.03–0.08 seconds before each matching Chinese boundary.
+- Assembly: about 0.10–0.20 seconds after the final mnemonic unit ends.
+- Example entrance: just before “窍门”.
+- Example lines: 0.03–0.10 seconds before their phrases.
+- “所以”: just before its boundary.
+- Four echoes, final meaning, and IPA: just before their corresponding boundaries.
+- Composition duration: final padded WAV duration exactly.
+
+## QA timestamps
+
+Always inspect 0.1 seconds; immediately before and after each Chinese reveal; the assembly before, midpoint, settled, and hold frames; the example entrance and full example; “所以”; all four repetitions; the final meaning and IPA; and the actual last frame.
+

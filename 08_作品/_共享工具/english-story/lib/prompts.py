@@ -199,7 +199,7 @@ def video_prompt(story, profile, tokens):
     card_in_video = bool((story.get("card") or {}).get("in_video"))
     duration = int(round((profile.get("total") or screen_end) if card_in_video else screen_end))
     lines = [
-        f"{story['word']['spelling']} 谐音故事，{duration}s，单场景，一镜到底不换景。",
+        f"{story['word']['spelling']} 英语玩梗短剧，{duration}s，单场景，一镜到底不换景；围绕已选笑点方案呈现，不强套谐音或固定故事结构。",
         f"【首帧锁定】首帧＝{_t(tokens, 'K_A')}：严格保持首帧的位置、朝向、尺度、光线、道具摆位，不重新构图。",
         f"【比例】黄蛋与心易的身高比例参考 {_t(tokens, 'R00')}（只取比例，不改构图、不改站位）。",
         char_block(tokens),
@@ -301,7 +301,7 @@ def s0_text(story, profile, tokens):
         for b in story.get("beats") or []
     )
     return f"""【本画布做什么】
-《蛋仔记单词》{profile['title']}：{story['word']['spelling']} = {story['word']['zh']} → {story['word']['meaning']}。
+《蛋仔英语玩梗》{profile['title']}：目标词 {story['word']['spelling']}；本集联想“{story['word']['zh']}”，词义“{story['word']['meaning']}”。先呈现梗和角色反应，词卡负责准确展示英语信息。
 {story['title']}；{s_start:g}–{s_end:g}s 画面（{len(story.get('beats') or [])} 拍）＋ {c_start:g}–{c_end:g}s 单卡尾{'（内嵌在 V1 里）' if card_in_video else '（后期叠）'}。
 
 {run_order}
@@ -309,14 +309,15 @@ def s0_text(story, profile, tokens):
 【分工】
 - 黄蛋：只说他自己的反应短句；不解释英文、不讲词义。
 - 心易：不说话，只“咔啵”；眼睛按 R02E（白片＋棕圈、中心空白、全程睁开）。
-- 本档无旁白：词只在卡尾出现。
+- 本档无旁白：角色可以自然说出目标词或玩发音/词义梗，但不讲课；词卡负责准确展示拼写与词义。
 
 【逐拍】
 {beats}
 
-【谐音与义接】
-- 谐音句：{story['hook']['line']}（{story['hook']['who_says']}）
-- 义接类型：{LINK_LABEL.get(story['hook']['meaning_link'], story['hook']['meaning_link'])}——{story['hook']['why_meaning']}
+【选定的玩梗方案】
+- {((story.get('joke_design') or {}).get('execution') or story['hook'].get('line') or '按逐拍中的实际笑点执行')}
+- 梗点/台词：{story['hook'].get('line') or '纯视觉梗，见逐拍动作'}（{story['hook'].get('who_says') or '无台词'}）
+- 英语信息：{story['word']['spelling']}；{story['word']['meaning']}。不得为了梗改错拼写、IPA 或义项。
 - 场景：{story['scene']['name']}——{story['scene']['why']}
 
 【资产保留】

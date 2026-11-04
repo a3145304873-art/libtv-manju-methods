@@ -220,14 +220,17 @@ def build(card: dict, plan: Plan, ts: str) -> dict:
     if note_nodes:
         groups.append(_group("06 说明 · 先读", note_nodes, "#B0B0B0", ts))
 
-    total = int(fmt["segment_seconds"]) * len(card.get("segments") or [])
+    total = float(card.get("_total_seconds", 0))
+    segment_spec = "、".join(
+        f"{seg['title']} {seg['duration_seconds']:g}s" for seg in card.get("segments") or []
+    )
     name = card.get("canvas_name") or (
         f"{card.get('series', '')} · {card.get('ep', '')} {card['dish']} · {fmt['aspect']} · "
-        f"{len(card.get('segments') or [])}段×{fmt['segment_seconds']}s · 蘑菇格式"
+        f"{len(card.get('segments') or [])}段/{total:g}s · cookline"
     )
     description = card.get("description") or (
-        f"{total}s＝{len(card.get('segments') or [])} 段×{fmt['segment_seconds']}s；七段式：取/理/配/火/揭/分；"
-        "四台地；比例协调；"
+        f"总长 {total:g}s，共 {len(card.get('segments') or [])} 段（{segment_spec}）；"
+        "分段、节奏和分镜密度按本菜设计；"
         f"{fmt.get('video_model')} / {fmt.get('reference_way')}。由 cookline {rules.VERSION} 从菜谱卡生成；"
         "改卡重跑，不手改。"
     )
@@ -344,12 +347,22 @@ def audit(canvas: dict, card: dict | None = None, side: dict | None = None) -> R
                         rep.add("F23", n["id"], f"挂了第 {m.group(1)} 段的 K/分镜当参考，构图会打架")
 
     if card:
-        total = int(card["format"]["segment_seconds"]) * len(card.get("segments") or [])
+        total = float(card.get("_total_seconds", 0))
+        expected_durations = {
+            f"node-v{i + 1}": float(seg.get("duration_seconds", card["format"]["segment_seconds"]))
+            for i, seg in enumerate(card.get("segments") or [])
+        }
         for n in nodes:
             if n["type"] == "gen-video":
                 d = ((n.get("params") or {}).get("model_params") or {}).get("duration")
-                if int(d or 0) != int(card["format"]["segment_seconds"]):
-                    rep.add("F24", n["id"], f"时长 {d}s 与卡里的 {card['format']['segment_seconds']}s 不一致")
+                expected = expected_durations.get(n["id"])
+                if expected is None:
+                    rep.add("F24", n["id"], "视频节点不在本卡的分段映射中")
+                elif int(d or 0) != int(round(expected)):
+                    rep.add("F24", n["id"], f"时长 {d}s 与本段规划的 {expected:g}s 不一致")
+        actual_videos = {n["id"] for n in nodes if n["type"] == "gen-video"}
+        for nid in sorted(set(expected_durations) - actual_videos):
+            rep.add("F24", nid, "菜谱卡有此视频段，但画布缺少对应视频节点")
         subs = [str(s.get("text") or "") for s in (card.get("post") or {}).get("subtitles") or []]
         for n in nodes:
             prompt = ((n.get("params") or {}).get("model_params") or {}).get("prompt") or ""

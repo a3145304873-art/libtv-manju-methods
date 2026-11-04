@@ -1,5 +1,5 @@
 {
-  "schema": 1,
+  "schema": 2,
   "id": "pest-15s",
   "profile": "harmonic15",
   "status": "locked",
@@ -10,7 +10,34 @@
     "ipa": "/pest/",
     "zh": "拍死它",
     "meaning": "害虫",
-    "pos": "n."
+    "pos": "n.",
+    "source": {
+      "dictionary": "Cambridge Dictionary",
+      "url": "https://dictionary.cambridge.org/dictionary/english/pest",
+      "checked_at": "2026-11-03",
+      "scope": "名词：有害昆虫或小动物；本集采用“害虫”义项"
+    }
+  },
+  "learning_design": {
+    "strategy": "homophone",
+    "candidates": [
+      {
+        "id": "A",
+        "approach": "整词谐音：pest → 拍死它",
+        "sound_fit": "/pest/ 与“拍死它”近似，能作为记忆钩子但不等于标准发音",
+        "meaning_bridge": "拍打对象是蚊虫，落到害虫这一义项",
+        "naturalness": "追蚊时自然会喊；注意避免让谐音替代 IPA"
+      },
+      {
+        "id": "B",
+        "approach": "语义情境：害虫打扰吃水果",
+        "sound_fit": "不依赖发音联想，直接听辨 /pest/ 并对应词义",
+        "meaning_bridge": "蚊虫打扰角色，直接表现害虫造成的烦扰",
+        "naturalness": "情境直观但中文记忆钩子较弱，容易落入常见打蚊子梗"
+      }
+    ],
+    "selected": "A",
+    "decision": "本集沿用用户已选的拍死它记忆钩子，同时保留标准音标和害虫义项作独立信息。"
   },
   "hook": {
     "line": "第二十一下——拍死它！",
