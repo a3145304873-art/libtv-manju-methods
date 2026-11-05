@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "created_at": "2026-10-21T01:45:30+08:00",
-  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied); +2026-11-03 I07 intake: 1 pinned GitHub xuanhuan combat skill with 14 selected upstream files plus license/README (15 byte-verified files); project adapter and C18/template mapping, no media or execution validation; +2026-11-03 I08 intake: pinned GitHub English mnemonic video Skill with 5 selected files; mapped candidate comparison, semantic bridge, and final-media QA to existing english-story module; no upstream runtime installed; +2026-11-03 Bilibili market-reference review: BBDown metadata and sampled media review of two high-view English mnemonic lesson videos and one Shaoshi Wuxia English compilation; media retained only in system temporary directory; +2026-11-04 I09 intake: pinned story-to-handdrawn-video GitHub Skill, seven byte-verified source files; candidate story/character/beat-planning mapping only, no upstream runtime installed; Bilibili visual review of Tutu cooking/life samples and an AI cooking workflow tutorial, media retained only in system temporary directory; +2026-11-04 I10/I11 intake: pinned per-scene video-storyboard Skill and dish-driven cooking-board Skill; six selected files byte-verified; combined as optional dynamic cooking-planning references, no upstream runtime installed or executed",
+  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied); +2026-11-03 I07 intake: 1 pinned GitHub xuanhuan combat skill with 14 selected upstream files plus license/README (15 byte-verified files); project adapter and C18/template mapping, no media or execution validation; +2026-11-03 I08 intake: pinned GitHub English mnemonic video Skill with 5 selected files; mapped candidate comparison, semantic bridge, and final-media QA to existing english-story module; no upstream runtime installed; +2026-11-03 Bilibili market-reference review: BBDown metadata and sampled media review of two high-view English mnemonic lesson videos and one Shaoshi Wuxia English compilation; media retained only in system temporary directory; +2026-11-04 I09 intake: pinned story-to-handdrawn-video GitHub Skill, seven byte-verified source files; candidate story/character/beat-planning mapping only, no upstream runtime installed; Bilibili visual review of Tutu cooking/life samples and an AI cooking workflow tutorial, media retained only in system temporary directory; +2026-11-04 I10/I11 intake: pinned per-scene video-storyboard Skill and dish-driven cooking-board Skill; six selected files byte-verified; combined as optional dynamic cooking-planning references, no upstream runtime installed or executed; +2026-11-05 R03 intake (A53 词库/教程包, text extraction, 14 files)",
   "import_method": "selected local files copied byte-for-byte from sources or pinned repository snapshots; not a full remote repository clone",
   "source_repository_baseline": "c7fe8c4",
   "sources": [
@@ -1100,6 +1100,179 @@
       "original_version": "main@66b55e2a27ee554667ec255782922bae72882cc8",
       "source_commit": "66b55e2a27ee554667ec255782922bae72882cc8",
       "intake_date": "2026-11-04"
+    },
+    {
+      "id": "R03",
+      "kind": "format_reference",
+      "name": "A53 分镜运镜提示词资料包（运镜公式、九宫格分镜模板与提示词词库）",
+      "stable_id": "quark-download:A53分镜运镜提示词＋AI指令整理:2026-11-04",
+      "intake_date": "2026-11-05",
+      "stages": [
+        "S1",
+        "S3"
+      ],
+      "ability_notes": "运镜数值词表与情绪→运镜选镜对照（新词表文件）；九宫格语义分行（块 02 G 分镜图参考）",
+      "locators": "即梦4.0公式（数值运镜10条/特殊场景9条/景别层级/运动方向10条）；seedance2.0 九宫格（3行×3格语义分行）；【先看这个】镜头类型40+与动作+镜头反应词例；300电影风格",
+      "files": [
+        {
+          "path": "04_原始资料/format-references/R03/seedance2.0-九宫格分镜模板.txt",
+          "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
+          "bytes": 2075
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-即梦4.0公式.txt",
+          "sha256": "16a00f9f96ab3443bbc435eb042d4049441b397c6700351e85a984d8029cfcdc",
+          "bytes": 5839
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-十大经典-即梦3.0.txt",
+          "sha256": "1cf615a6c570f8dc0544ebd6acd3a8627373a7318d407d02b0e4599eda705ded",
+          "bytes": 2847
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-组合运镜1.txt",
+          "sha256": "fc53b8a11019d5c60ff66e011f81cccb8be96a685050c206cfbade8de0ff296f",
+          "bytes": 2631
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-组合运镜2.txt",
+          "sha256": "5f76b187c66d8c6bfaa283811d16ba014cb3333b3ff06d6ef32c799818a19bd5",
+          "bytes": 7899
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-12组电影级组合.txt",
+          "sha256": "21beda84c258dec5e071c5cfd0a1e8cb5e0d7b69e2a66a0db4eab7769cb8f068",
+          "bytes": 3352
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-特效运镜.txt",
+          "sha256": "042739a3bc4e66c1527bc9af3c59ac5d346efef1ca33875a8023a61b69bf4eb8",
+          "bytes": 1760
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-服装展示-doc提取.txt",
+          "sha256": "bbf5003c40854f1e0c23dd1448e4aee04dbc3d6a12e9ef11f674e88cbaa8d929",
+          "bytes": 7348
+        },
+        {
+          "path": "04_原始资料/format-references/R03/运镜-景别词表-doc过滤版.txt",
+          "sha256": "632b3946c3f4b7512c6d15e94425f8d9f2597daf7fc6ae6f2404c189c740de28",
+          "bytes": 690
+        },
+        {
+          "path": "04_原始资料/format-references/R03/分镜-即梦图片4教程.txt",
+          "sha256": "c84e9c66ac7f4b6534bd35dbcc118d6bff51e1ede2301fb3289588a87576cd01",
+          "bytes": 5171
+        },
+        {
+          "path": "04_原始资料/format-references/R03/分镜-画面提示词词库.txt",
+          "sha256": "09535f888609b5d8b900ae4bd573e257577b20c1ce1ec577f2846ba700c250da",
+          "bytes": 19862
+        },
+        {
+          "path": "04_原始资料/format-references/R03/分镜-即梦700指令.txt",
+          "sha256": "f744dbdb503ca82fb96f78e10ba097d6c5dc99c67603da60c57b7330f3c76c7e",
+          "bytes": 20837
+        },
+        {
+          "path": "04_原始资料/format-references/R03/分镜-脚本模板300条.txt",
+          "sha256": "3126544bf2e747ea447e64dcc8438020e712512ead801ff98a96312a46a51edf",
+          "bytes": 34991
+        },
+        {
+          "path": "04_原始资料/format-references/R03/分镜-电影风格300条.txt",
+          "sha256": "d862d535ee3bcd81f40d201db089b24a25b81fef15aec9a650ab179b1880203c",
+          "bytes": 16537
+        }
+      ],
+      "original_provenance": {
+        "root": "D:\\夸克下载\\A53分镜运镜提示词＋AI指令整理（仓库外，可能被清理）",
+        "files": [
+          {
+            "source_relative": "AI运镜提示词\\12组电影级组合运镜提示词.docx",
+            "sha256": "5b7e9c16da0439da666374aedced61b86c51f7bd07f7004349a1134f9abb5d38",
+            "bytes": 8581014
+          },
+          {
+            "source_relative": "AI运镜提示词\\十大经典运镜教程.docx",
+            "sha256": "040f486915309627c6b610da0272241d0414bd132017fd7ce491c89f8e7e1abb",
+            "bytes": 12584
+          },
+          {
+            "source_relative": "AI运镜提示词\\即梦影视级提示词公式.docx",
+            "sha256": "de1023aa5b7b9f7a8c82e7ead73a1d667c90f96f105afb94b10cc579335563bd",
+            "bytes": 18170
+          },
+          {
+            "source_relative": "AI运镜提示词\\特效运镜.docx",
+            "sha256": "09a4ba89c2e67907e7aafad1489d8ae7ee5ed67676a31b7f029a057a846abb28",
+            "bytes": 1928151
+          },
+          {
+            "source_relative": "AI运镜提示词\\组合运镜.docx",
+            "sha256": "d256e4908b1597e085cbf4ad02ae3a94ef5234dd807791f6c8119ac52a9eab11",
+            "bytes": 15542
+          },
+          {
+            "source_relative": "AI运镜提示词\\组合运镜2.docx",
+            "sha256": "21e6381b6fa488053e58505d57442cca4f60acd625e385d00c73f191b2dd5e64",
+            "bytes": 24965
+          },
+          {
+            "source_relative": "AI运镜提示词\\运镜提示词.doc",
+            "sha256": "d4f281be31dc1e37ccad31d0097530a343b8347a16fa57acda6b8065e17e0a13",
+            "bytes": 67584
+          },
+          {
+            "source_relative": "AI运镜提示词\\运镜教学.doc",
+            "sha256": "f6106a33de71e56620063ea7d71338aad57ef0cb8554ce83c13c84dfba4a4ff5",
+            "bytes": 18802176
+          },
+          {
+            "source_relative": "分镜提示词整理\\seedance2.0分镜提示词模板.txt",
+            "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
+            "bytes": 2075
+          },
+          {
+            "source_relative": "分镜提示词整理\\300+电影风格提示词.csv",
+            "sha256": "8bc64aa1ed2a6ca7e742ffdde756187289c802a4a4dfa83c1b5da9146380cbae",
+            "bytes": 11105
+          },
+          {
+            "source_relative": "分镜提示词整理\\AI视频脚本分镜模板_共300条.xlsx",
+            "sha256": "4850b286aa16dbcc1e5e8fc44e69244123288e02f9ae2992412bb05ebc7f904b",
+            "bytes": 19710
+          },
+          {
+            "source_relative": "分镜提示词整理\\【先看这个】分镜画面提示词.xlsx",
+            "sha256": "6e309479fd399f1dced3584fbcfd281c02693815d39ca0870de3015ca5c6d461",
+            "bytes": 28887
+          },
+          {
+            "source_relative": "分镜提示词整理\\即梦100多组（700+个）神级指令合集.xlsx",
+            "sha256": "2f5c2bdf4246c03cfec2b8ac0572578992a77bd874e35af8357fb925f8a5da8d",
+            "bytes": 26094
+          },
+          {
+            "source_relative": "分镜提示词整理\\即梦AI图片4.0提示词：从脚本到短视频分镜的创作.docx",
+            "sha256": "0b4932da938cc3034ab9e6b803a7cd13c77da588bc352c85ef053e183b82f661",
+            "bytes": 1096826
+          }
+        ]
+      },
+      "payload_policy": "text extraction only; docx/doc 媒体与嵌入图未导入；28个短视频表格模板未导入（人工拍摄脚本表，非 AI 提示词）",
+      "gaps": [
+        "教程/词库类来源，无运行记录，非工作流证据（§5：不能当已验证方法）",
+        "运镜教学.doc 提取经二进制噪声过滤，仅保留词表行",
+        "即梦公式含情绪传递语，采纳口径：情绪只作选镜对照，不进提示词",
+        "原包在仓库外，未复制原始 docx/doc/xlsx"
+      ],
+      "evidence": {
+        "text_extraction": "complete_for_selected_files",
+        "media_review": "not_applicable",
+        "reproduction": "not_performed",
+        "selection": "intake_only; 采纳走词表与模板文件"
+      }
     }
   ],
   "counts": {
