@@ -1,0 +1,539 @@
+# 《逐日之茸｜机器人阿秃的毛茸茸之旅》LibTV 画布提示词与制作关系拆解（入库副本）
+
+画布（本账号副本）UUID：`54cdab2840eb4212b18d8d9cc6a7d7fd`　社区模板：`28c31a68d1cc4fbc97d46f31d4eb75e2`　入库日期：2026-11-10　节点：95　连线：97
+
+> 来源：LibTV 社区「创作精选」作品，经网页端「复制项目」落入本账号工作区后，用画布 API 只读读取全部节点参数（nodes.json 为完整快照，含 params/url/状态）。提示词原样复制节点 data.params.prompt；空提示词节点不反推。媒体成片未观看，任务状态不代表视觉验收。故事层拼合与跨作品公式见 R04《萌宠标杆完整剧本拼合与故事公式》。
+
+## 快速结论
+
+五段寓言重构《夸父逐日》：机器人阿秃坠落毛绒星球→梳绒河相遇受惊→帮最小精灵理毛换信任→独眼树神→戏中戏创世神话（夸父追毛线球困卧，呼气成云、身化山脉、生出精灵）→金属接缝长绒毛融入。提示词九段式：参考图标签化/时长/剧情简介/主角性格/场景环境/按秒运镜/摄影参数(IMAX70mm柯达Vision3 C4D毛绒渲染)/光影色彩/逐动作音效清单+禁BGM。参考图纪律：主角阿秃参考挂全部20个视频节点。
+
+## 制作要点（归纳自节点名与提示词）
+
+- 能力锚：C04 母图/三视图锚定分支；C16 {{Mixed N}} 引用锚位与 mixed2video；C03 剧情简介+主角性格先行；新句式证据：材质转换节点（机器人变毛绒保留LCD）与风格统一修正节点（参考A B质感改C，不改色相构图不增元素）
+- 关键定位：模板 28c31a68…；本账号副本 canvas-54cdab28…；分段组：开头坠落/第二段刷河流接纳/第三段见树神/第四段茸夸父逐日(15s一镜到底)/第五段融入+海报；资产链 废图→设定→质感转换→三视图→风格统一→最终；坠落重拍生成1-5
+
+## 全部可读提示词（逐节点原文）
+
+==========================================================================================
+## 旁白部分修改
+参考该音色生成旁白：传说有一个叫绒夸父的毛绒怪，为了抱一抱天上那团最温暖的毛线球，跑啊跑啊，累得睡着了，变成了这片永远柔软的土地
+==========================================================================================
+## 旁白音色最终
+成年女性，温柔慵懒的嗓音，音色偏暖、带一点气声和轻微笑意，语速偏慢、咬字松弛，像睡前轻声讲一个荒诞又治愈的童话，情绪平静温暖，不煽情、不播音腔，旁白内容，语气根据旁白内容有起伏：在宇宙的某个喷嚏里，阿秃掉进了一个毛茸茸的星球。这里的风带毛絮，河水需要用梳子来梳理。阿秃的金属外壳，第一次感受到了静电的温柔。有一天，毛绒精灵带阿秃去见了树神，树神给它讲起了毛绒星球的起源。传说，古时候有个叫夸父的毛绒怪，为了抱一抱天上那团最温暖的金色毛线球，跑啊跑啊…… 最后他太困了，躺下睡着了，呼出的气变成了蒲公英，身体变成了这片永远柔软的土地。后来，夸父的梦里多了一个小铁人。从来没有休息过的小铁人在这片柔软里，第一次安心地睡着了。晚安，毛茸茸的世界。
+==========================================================================================
+## 音频节点 23 - 副本
+成年女性，温柔慵懒的嗓音，音色偏暖、带一点气声和轻微笑意，语速偏慢、咬字松弛，像睡前轻声讲一个荒诞又治愈的童话，情绪平静温暖，不煽情、不播音腔，旁白内容，语气根据旁白内容有起伏：在宇宙的某个喷嚏里，阿秃掉进了一个毛茸茸的星球。这里的风带毛絮，河水需要用梳子来梳理。阿秃的金属外壳，第一次感受到了静电的温柔。有一天，毛绒精灵带阿秃去见了树神，树神给它讲起了毛绒星球的起源。传说，古时候有个叫夸父的毛绒怪，为了抱一抱天上那团最温暖的金色毛线球，跑啊跑啊…… 最后他太困了，躺下睡着了，呼出的气变成了蒲公英，身体变成了这片永远柔软的土地。后来，夸父的梦里多了一个小铁人。从来没有休息过的小铁人在这片柔软里，第一次安心地睡着了。晚安，毛茸茸的世界。
+==========================================================================================
+## 图片节点 4 - 副本
+A colossal ancient tree with a thick trunk made of twisted burgundy-brown and rust-red yarn, a single giant eye embedded in the center of the trunk, golden yarn iris framed by long delicate lashes of fine combed hair, the eye gazing calmly forward, yarn branches spreading wide with dandelion-like fur tufts and hanging yarn tendrils, standing in an ancient grove of deep green smooth fur with smaller yarn shrubs, floating fur seeds and dappled light filtering through the branches, full character key visual, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution
+==========================================================================================
+## 图片节点 8 - 副本
+参考 {{Image 2}} 修改 {{Image 1}} 中巨人毛绒质感，其他元素不变。整体色彩不变
+==========================================================================================
+## 图片节点 17
+把画面中这把梳子的图给我，纯白背景
+==========================================================================================
+## 图片节点 3 - 副本
+> **Close-up of a square retro-futuristic metallic robot hand catching a glowing feather falling from a giant dandelion-like fluffy cloud made of long fluffy faux fur. Rolling hills covered in Angora rabbit fur texture in the background. Fine combed hair strands, retro high-saturation color blocking, striking vivid color contrast. Minimalist composition, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution**
+==========================================================================================
+## 图片节点 1
+这是一幅超现实波普艺术风格的摄影作品。一个冷硬的金属小机器人陷入巨大的粉蓝相间超长柔顺皮草山丘中。画面呈现复古高饱和度撞色，柔和的影棚阳光投射在安哥拉兔毛质感的起伏山丘上。8K分辨率，画质细腻锐利。超现实波普艺术摄影
+==========================================================================================
+## 图片节点 7 - 副本
+参考 {{Image 1}} {{Image 2}} 的毛绒质感（柔顺、光泽感、简约）及色彩明度饱和度，修改 {{Image 3}} ，不改变原本元素色相及构图，不增加元素。
+==========================================================================================
+## 图片节点 8
+参考 {{Image 2}} 修改 {{Image 1}} 的毛绒质感，巨人、太阳、地面都是毛茸茸的。精心梳理的发丝，复古高饱和度撞色设计，鲜明而生动的色彩对比。超现实主义波普艺术摄影，影棚布光，柔和的阳光在光滑流动的皮毛上投下轻柔的阴影，细节丰富，8K 分辨率。
+==========================================================================================
+## 图片节点 8
+A vast surreal landscape entirely made of fur, sharp-peaked mountains of deep cobalt blue and emerald green ultra-long silky fur, a winding cream-white wool river flowing through layered valleys, giant white dandelion fur clouds drifting across a saturated orange-pink sky, a golden yarn ball sun low on the horizon, rolling hills and yarn shrubs filling the middle ground, natural depth from foreground to distant peaks, wide establishing shot, epic scale, key environment concept art, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution
+==========================================================================================
+## 图片节点 20
+参考 {{Image 2}} 的毛绒质感，让 {{Image 1}} 的机器人长满银色毛绒，保留电子屏幕
+==========================================================================================
+## 图片节点 1 - 副本
+A tiny smooth brushed cold-steel robot with rounded metal body and single wide glowing cyan eye, falling downward through a perfect circular black void in the sky, below him an endless landscape of pastel pink and powder blue ultra-long silky fur rising like soft clouds, cold metal against warm fur, dramatic vertical composition, low angle looking up, fine combed hair strands, ultra-long silky fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed. fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k.
+==========================================================================================
+## 图片节点 9
+A colossal gentle giant, towering humanoid creature covered head to toe in long flowing burnt-orange and amber ultra-long silky fur, soft rounded clumsy body, kind simple face with two small eyes, long fur streaming behind him like a comet tail, running across rolling terrain of long fur, both arms reaching toward a massive golden yarn ball sun, deep purple and magenta sky with dramatic clouds, a few dandelion tufts and drifting fibers around him, layered hills of smooth fur stretching into the distance, mythic scale, full body character key visual, dynamic action pose, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution
+==========================================================================================
+## 图片节点 14 - 副本
+生成 {{Image 1}} 中粉色精灵的三视图全身照，正面侧面背面在画面依次排列。白背景，超写实摄影。短腿。可爱没有腿
+==========================================================================================
+## 海报最终
+基于参考图 {{Image 1}} ，构思一个海报，大标题“逐日之茸”，高级感设计感，标题文字白色（易识别），可以有英文辅助标题，标题也是毛绒质感，构图色彩和谐。标题大小适当。
+==========================================================================================
+## 图片节点 1 - 副本
+画面展现了一个奇幻的毛茸茸世界。远处的山脉由细腻梳理过的发丝状长毛绒构成，河流是顺滑流淌的羊驼绒。天空中漂浮着巨大的蒲公英云朵。强烈的色彩对比与柔和治愈的光影相交织，电影级广角构图，8K高清大师级画质。奇幻治愈系毛绒质感
+==========================================================================================
+## 图片节点 2
+基于参考图 {{Image 1}} ，构思一个海报，大标题“逐日之茸”，高级感设计感，可以有英文辅助标题，标题也是毛绒质感，构图色彩和谐。标题大小适当。
+==========================================================================================
+## 图片节点 1 - 副本
+A tiny cold metal robot bouncing and sinking into a giant plush hill of swirling pastel pink and baby blue long fluffy faux fur, fur rippling outward in soft waves from the impact, tiny metal limbs splayed upward, comical and tender, top-down view, minimal composition with large blocks of pink and blue, fine combed hair strands, ultra-long silky fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed. fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k 
+==========================================================================================
+## 毛茸精灵最终
+生成 {{Image 1}} 中粉色精灵的三视图全身照，正面侧面背面在画面左侧2/3区域，右侧1/3部分是人物的正面大头照和侧面大头照。白背景，超写实摄影。短腿。可爱没有腿
+==========================================================================================
+## 图片节点 1 - 副本
+这是一幅超现实波普艺术摄影作品。广阔的奇幻风景中，起伏的山脉由细腻梳理过的安哥拉兔毛质感构成，河流如同顺滑流淌的长毛绒人造皮草，天空中漂浮着巨大的蒲公英云朵。画面采用复古高饱和度色块与强烈的色彩对比，柔和的日光在飘逸的皮草上投下温和阴影，画质达到8K分辨率的极致细腻。超现实波普艺术摄影
+==========================================================================================
+## 茸夸父最终
+参考 {{Image 2}} 修改 {{Image 1}} 中巨人毛绒质感，其他元素不变。整体色彩不变
+==========================================================================================
+## 图片节点 2 - 副本
+基于参考图 {{Image 1}} ，构思一个海报，大标题“逐日之茸”，高级感设计感，标题文字白色（易识别），可以有英文辅助标题，标题也是毛绒质感，构图色彩和谐。标题大小适当。
+==========================================================================================
+## 图片节点 3
+A colossal gentle furry giant, towering humanoid creature covered head to toe in long flowing burnt-orange and amber ultra-long silky fur, soft rounded clumsy body, kind simple face with two small furry eyes, long fur streaming behind him like a comet tail, running across rolling furry terrain, both arms reaching toward a massive golden yarn ball sun, deep purple and magenta sky with dramatic clouds, scattered dandelion fur tufts and drifting fibers around him, layered furry hills stretching into the distance, mythic scale, full body character key visual, dynamic action pose, cinematic staging with rich environmental depth, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k  --style raw --stylize 250
+==========================================================================================
+## 图片节点 1 - 副本
+A surreal river made of flowing cream-white alpaca wool, every long silky strand combed in the direction of the current, winding through a deep emerald green furry canyon, an oversized amber comb resting on the riverbank mid-grooming, clean serpentine composition dividing the frame into green and cream color blocks, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k.
+==========================================================================================
+## 图片节点 6
+A small boxy retro-futurist robot, square geometric head and rectangular torso, riveted brushed cold-steel panels, 1950s atompunk tin-toy design, a small rectangular glowing cyan LCD screen on its face displaying a minimal expression formed of simple dots and lines, two dot eyes and a short straight-line mouth, thin antenna with tiny glowing tip, analog dial on chest, clunky charming proportions, bare smooth metal with no fur, standing in rolling hills of pastel pink and powder blue ultra-long silky fur, soft long fur rising around his hard square edges, a few dandelion-like fur tufts and loose silky fibers drifting around him, full body character key visual, clear silhouette, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution
+==========================================================================================
+## 图片节点 2
+A small boxy retro-futurist robot, square geometric head and rectangular torso, riveted brushed cold-steel panels, 1950s atompunk tin-toy design, single round glowing cyan lens eye, thin antenna with tiny glowing tip, analog dial on chest, clunky charming proportions, bare smooth metal with no fur, standing in rolling hills of pastel pink and powder blue ultra-long silky fur, surrounded by lush furry shrubs and dandelion-like fur tufts, soft long fur rising around his hard square edges, loose silky fibers drifting in the air, rich layered landscape with foreground fur grass and distant rolling peaks, warm ambient details, full body character key visual, cinematic narrative composition, natural depth, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k --style raw --stylize 250
+==========================================================================================
+## 阿秃毛绒质感最终
+让 {{Image 1}} 的机器人变为毛绒质感（柔顺感，看起来很可爱），保留电子屏幕
+==========================================================================================
+## 图片节点 6 - 副本
+Three small round cartoon characters covered in coral pink and terracotta ultra-long silky fur, playfully pushing together a giant plush comb made entirely of long fluffy faux fur, the comb's teeth rounded tufts of bright mustard yellow fluffy fur, grooming a cream-white wool river into smooth parallel strands, set in a deep green canyon of smooth flowing fur, clean uncluttered composition, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution
+==========================================================================================
+## 图片节点 5 - 副本
+High-angle view. Three tiny round characters covered in coral pink long fluffy faux fur, pushing a giant plush comb made entirely of mustard yellow silky fur, its teeth rounded tufts, grooming a cream-white wool river into smooth parallel strands. The characters, comb and river are made entirely of the same ultra-long silky fur and long fluffy faux fur, Angora rabbit fur texture, fine combed hair strands, strands flowing in one clear direction, delicate wispy flyaway hairs glowing at the edges. Coral pink and mustard yellow against emerald green retro high-saturation color blocking, solid emerald background, pure color field, no gradient, only the characters the comb and the river. Surreal pop art photography, studio lighting, soft diffused sunlight, gentle shadows on smooth flowing fur, hyper-detailed fur texture, 8k
+==========================================================================================
+## 图片节点 2 - 副本
+基于参考图 {{Image 1}} ，构思一个海报，大标题“逐日之茸”，高级感设计感，标题文字白色（易识别），可以有英文辅助标题，标题也是毛绒质感，构图色彩和谐。标题大小适当。前景可以略微虚化，聚焦标题
+==========================================================================================
+## 图片节点 10
+生成 {{Image 1}} 中机器人的三视图全身照，正面侧面背面在画面左侧2/3区域，右侧1/3部分是人物的正面大头照和侧面大头照。白背景，超写实摄影
+==========================================================================================
+## 图片节点 3
+> **A square, retro-futuristic robot made of smooth, cold, shiny metal, half-sunk into a giant, ultra-long silky fur hill painted in pink and blue. Fine combed hair strands, retro high-saturation color blocking, striking vivid color contrast. Minimalist composition, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution --ar 16:9 --v 6.0**
+==========================================================================================
+## 树神场景最终
+参考 {{Image 2}} 的天空颜色修改 {{Image 1}} 天空颜色
+==========================================================================================
+## 图片节点 7 - 副本
+参考 {{Image 1}} {{Image 2}} 的毛绒质感，修改 {{Image 3}} ，不改变原本元素色彩及构图，不增加元素。
+==========================================================================================
+## 图片节点 1 - 副本
+画面展现了远古神话的荒诞解构场景。一个由长毛绒人造皮草构成的巨大怪物，正迈步追逐天空中一颗散发着温暖金光的巨大毛线球太阳。复古高饱和色彩搭配柔和的日光，完美凸显了极致细腻的毛发与毛线纹理，8K分辨率。神话绘本与超现实摄影融合
+==========================================================================================
+## 图片节点 10 - 副本
+生成 {{Image 1}} 中机器人（矮小简约可爱）的三视图全身照，正面侧面背面在画面左侧2/3区域，右侧1/3部分是人物的正面大头照和侧面大头照。白背景，超写实摄影
+==========================================================================================
+## 图片节点 5
+Three small round characters covered in coral pink ultra-long silky fur, pushing a giant plush comb made entirely of mustard yellow silky fur, its teeth rounded tufts with clearly combed directional strands and wispy glowing edges, the comb grooming a cream-white wool river into smooth parallel strands with visible grain, set in a deep emerald green canyon of flowing fur, solid saturated emerald background, pure flat color field no gradient, only the characters the comb and the river, retro high-saturation complementary color blocking, surreal pop art still life photography, studio lighting, soft directional sunlight, gentle shadows, fine combed hair strands, individual rim-lit hairs, silky sheen, hyper-detailed, 8k
+==========================================================================================
+## 图片节点 14 - 副本
+生成 {{Image 1}} 中粉色精灵的三视图全身照，正面侧面背面在画面依次排列。白背景，超写实摄影。短腿。可爱没有腿
+==========================================================================================
+## 图片节点 4
+A colossal ancient tree with a thick trunk made of twisted burgundy-brown and rust-red yarn, a single giant furry eye embedded in the center of the trunk, golden yarn iris with long delicate fur lashes, the eye gazing calmly forward, yarn branches spreading wide with dandelion-like fur tufts and hanging yarn tendrils, standing in a lush ancient grove surrounded by smaller yarn shrubs and furry plants, floating fur seeds and dappled light filtering through the branches, mystical storyteller atmosphere, full character key visual, natural asymmetrical composition with rich foreground and background foliage, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k  --style raw --stylize 250
+==========================================================================================
+## 图片节点 1 - 副本
+这是一幅超现实波普艺术摄影作品。在温暖的夕阳下，金属小机器人安静地躺在金色的安哥拉兔毛质感草地上，其冰冷的金属接缝处正生长出散发着微光的超长柔顺金色绒毛。画面运用复古高饱和度色块与强烈色彩对比，柔和的日光在细腻梳理过的发丝上投下温和阴影，展现出8K分辨率的大师级清晰度。超现实波普艺术摄影
+==========================================================================================
+## 图片节点 4
+> **A giant, clumsy monster completely covered in ultra-long silky fur chasing a massive, glowing golden yarn ball shaped like the sun in the sky. Fine combed hair strands, retro high-saturation color blocking, striking vivid color contrast. Minimalist composition, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on the smooth, flowing fur, highly detailed, 8k resolution**
+==========================================================================================
+## 图片节点 1 - 副本
+A tiny silver robot standing on a rolling hilltop, gazing out over an endless range of sharp-peaked mountains made entirely of deep cobalt blue ultra-long silky fur, the fur peaks combed into elegant flowing ridges, vast surreal landscape with clean color-blocked zones of blue and warm orange horizon light, sense of scale and wonder, wide cinematic shot, fine combed hair strands, ultra-long silky fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k
+==========================================================================================
+## 图片节点 1 - 副本
+A colossal ancient tree with a thick trunk made of twisted burgundy-brown and rust-red yarn, a single giant furry eye embedded in the center of the trunk, golden yarn iris with long delicate fur lashes, the eye gazing calmly forward, yarn branches sprouting soft dandelion-like fur tufts, standing in a muted deep forest green furry grove, mystical storyteller atmosphere, full character key visual, centered symmetrical composition, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k --style raw --stylize 250
+==========================================================================================
+## 图片节点 1 - 副本
+A colossal gentle furry giant with long flowing burnt-orange fur running clumsily across the horizon, both arms reaching toward a massive golden yarn ball sun in the sky, long silky fur streaming behind him like a comet tail, tilted dynamic horizon, vast purple-magenta sky with the giant golden sun dominating the upper frame, mythic scale yet clean color-blocked composition, fine combed hair strands, ultra-long silky fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k. fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k
+==========================================================================================
+## 图片节点 14 - 副本
+生成 {{Image 1}} 中粉色精灵的三视图全身照，正面侧面背面在画面左侧2/3区域，右侧1/3部分是人物的正面大头照和侧面大头照。白背景，超写实摄影
+==========================================================================================
+## 图片节点 1
+A colossal ancient tree with a thick trunk made of twisted burgundy-brown and rust-red yarn, a single giant furry eye embedded in the center of the trunk, golden yarn iris with long delicate fur lashes, the eye gazing calmly forward, yarn branches sprouting soft dandelion-like fur tufts, standing in a muted deep forest green furry grove, mystical storyteller atmosphere, full character key visual, centered symmetrical composition, fine combed hair strands, ultra-long silky fur, long fluffy faux fur, Angora rabbit fur texture, retro high-saturation color blocking, striking vivid color contrast, surreal pop art photography, studio lighting, soft sunlight casting gentle shadows on smooth flowing fur, highly detailed, 8k --ar 9:16 --style raw --stylize 250
+==========================================================================================
+## 图片节点 5 - 副本
+Centered symmetrical front view. A colossal ancient tree with a thick geometric trunk made of twisted burgundy-brown and rust-red yarn, a single giant round eye embedded in the center, golden yarn iris framed by long lashes, yarn branches sprouting rounded fur tufts. The tree and its surroundings are made entirely of the same long fluffy faux fur and ultra-long silky fur, Angora rabbit fur texture, fine combed hair strands, strands flowing in one clear direction, delicate wispy flyaway hairs glowing at the edges. Rust red and gold against deep forest green retro high-saturation color blocking, solid deep green background, pure color field, no gradient, only three colors. Surreal pop art photography, studio lighting, soft diffused sunlight, gentle shadows on smooth flowing fur, hyper-detailed fur texture, 8k
+==========================================================================================
+## 图片节点 6 - 副本
+Three small round fluffy cartoon characters in coral pink and terracotta long silky fur, playfully pushing together a giant plush comb made entirely of soft fluffy fur, the comb's teeth rounded furry tufts in bright mustard yellow, grooming a cream-white wool river into smooth parallel silky strands, set in a deep green furry canyon, clean uncluttered composition, only the characters, the furry comb and the wool river, a few soft fibers drifting in warm light, retro high-saturation color blocking, vivid color contrast, surreal pop art, studio lighting, ultra-long silky fur, Angora rabbit fur texture, highly detailed, 8k
+==========================================================================================
+## 毛茸星球最终
+参考 {{Image 1}} {{Image 2}} 的毛绒质感（柔顺简约）及色彩明度饱和度，修改 {{Image 3}} ，不改变原本元素色相及构图，不增加元素。
+==========================================================================================
+## 图片节点 5 - 副本
+Low-angle wide shot. A colossal gentle giant, towering rounded geometric humanoid covered in burnt-orange long fluffy faux fur, running with both arms reaching upward, chasing a giant golden yarn ball sun. The giant and the sun are made entirely of the same ultra-long silky fur and long fluffy faux fur, Angora rabbit fur texture, fine combed hair strands, fur streaming in one clear direction behind him, delicate wispy flyaway hairs glowing at the rim. Burnt orange and gold against deep purple retro high-saturation color blocking, solid deep purple sky, pure color field, no gradient, only three colors. Surreal pop art photography, studio lighting, soft diffused sunlight, gentle shadows on smooth flowing fur, hyper-detailed fur texture, 8k
+==========================================================================================
+## 阿秃设定最终
+生成 {{Image 1}} 中机器人的三视图全身照，正面侧面背面在画面左侧2/3区域，右侧1/3部分是人物的正面大头照和侧面大头照。白背景，超写实摄影
+==========================================================================================
+## 竖版海报
+仅调整比例，生成 {{Image 1}} 这个海报的竖版
+==========================================================================================
+## 坠落部分单独提示词优化
+优化这段提示词表述符合Seedance2.5逻辑。参考图： 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 。
+
+时长：6秒。
+剧情：阿秃从天而降，正面垂直俯拍跟随、身体正面朝镜头，在快速旋转的毛绒旋涡里手忙脚乱地慌乱扑腾，发出软萌电子音，最终被吸进中心毛绒洞、身影被绒毛吞没。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维快速螺旋向中心汇聚；空中有一些细长绒毛和绒丝。
+
+画面与运镜：
+0:00-0:01 正面垂直俯拍，镜头同步下坠、以正常速度旋转，阿秃正面朝镜头，已经在慌乱扑腾，小短手快速交替挥动，LCD是两个小圆点眼睛加波浪线嘴，伴随急促软萌的“哔哔”电子音；
+0:01-0:04 慌乱升级，小短手连续快速乱挥、机械脚急促蹬踏，阿秃一次次伸手抓绒毛却快速抓空，身体被高速旋转的绒丝带动轻微翻转，LCD变成两个小竖线眼睛加波浪嘴，天线急促颤动，连续快速的“嘀嘀嘀”随扑腾节奏响起，绒丝在周围快速螺旋飞舞；
+0:04-0:06 阿秃被快速吸向毛绒洞口，LCD变成两个“×”，发出一声拉长的电子下滑音“哔——”，绒毛从四周快速合拢填满画面，身影被柔软绒毛吞没，声音随绒毛合拢淡出，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：快速旋转的轻柔风声、绒毛沙沙声、小短手急促扑腾的软萌轻响、金属肢体轻快咔哒、阿秃复古8-bit“哔哔、嘀嘀嘀”电子音和被吸入时的下滑音、天线颤动声、绒毛合拢窸窣声；只保留音效，不要背景音乐，节奏急促但软萌、无惊吓音效。
+==========================================================================================
+## 视频节点 18 - 副本
+参考图： 夸父（橙红色毛绒巨怪，长毛拖尾，伸手够金色毛线球）； {{Mixed 1}} 毛绒世界环境（蓝绿毛绒山脉、粉色天空、毛绒云、奶油绒河）； {{Mixed 2}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）。
+参考图： 夸父（橙红色毛绒巨怪，长毛拖尾，伸手够金色毛线球）； {{Mixed 1}} 毛绒世界环境（蓝绿毛绒山脉、粉色天空、毛绒云、奶油绒河）； {{Mixed 2}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）。
+
+时长：15秒。
+剧情简介：夸父奔跑追逐天上的金色毛线球却始终够不到，困了躺下；一镜到底中，他呼出的气凝成毛绒云，身体融入大地化作蓝绿毛绒山脉，土地上生出一个个毛绒小精灵。
+主角性格：夸父执着天真、温柔笨拙，不是悲壮英雄，而是一个单纯想拥抱温暖的大毛绒怪。
+场景环境：开场是紫色到粉色渐变天空下的粉色毛绒大地，天际悬着发光的金色毛线球；一镜到底中过渡为蓝绿连绵毛绒山脉与奶油绒河，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜（全程全景，无近景、无特写）：
+0:00-0:05 全景，夸父在粉色大地上奔跑，超长绒毛和拖尾向后飞扬，双臂伸向天空追逐金色毛线球，一次次伸手又落空，毛线球始终差一点；镜头随夸父每一步沉重踏地产生有节奏的轻微震动，震动频率与奔跑步伐同步、幅度随脚步轻重起伏；
+0:05-0:08 全景，夸父脚步踉跄、困意袭来，镜头震动随他减速而减弱，他缓缓停下并轻轻躺倒，地面柔软凹陷，镜头完全稳定；
+0:08-0:15 一镜到底、不切镜，镜头平稳顺滑地从夸父躺姿缓缓升高拉远，他均匀呼吸、呼出的气凝成白色毛绒云飘升，身体轮廓舒展延展与大地融为一体，橙红绒毛过渡成蓝绿长毛并隆起成连绵山脉，随后绒毛聚拢隆起成圆球、长出大眼睛和小短手，毛绒精灵 {{Mixed 2}} 纷纷冒出探头打滚，最终定格毛绒世界全景，金色毛线球在天际散发暖光。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，金色毛线球暖光打亮绒毛边缘，细腻明暗过渡，复古高饱和撞色，紫粉天空与蓝绿山脉形成超现实波普配色，超现实治愈氛围。
+音效：奔跑时厚重的绒毛踩踏噗噗声、长毛飞扬沙沙声、镜头随脚步震动的低频闷响、躺下的柔软闷响、呼气凝气的轻柔声、身体延展融入大地的低沉沙沙声、绒毛聚拢窸窣声、小精灵诞生软糯唧唧声、微风；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落部分生成3
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+
+时长：6秒。
+剧情：小机器人阿秃从天而降，正面垂直俯拍跟随，身体正面朝镜头，在旋转毛绒旋涡里手忙脚乱地慌乱扑腾，最终被吸进中心毛绒洞、身影被绒毛吞没。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维呈螺旋状向中心汇聚；空中飞舞的全部是细长绒毛和绒丝，没有羽毛。
+
+画面与运镜：
+0:00-0:02 正面垂直俯拍，镜头位于阿秃正上方同步下坠并缓慢旋转，阿秃居中、身体正面朝镜头，LCD是两个小圆点眼睛加一条波浪线嘴的慌乱表情，小短手在身体两侧手忙脚乱地扑腾，机械脚轻轻蹬，天线轻颤，下方是旋转毛绒旋涡与中心毛绒洞口；
+0:02-0:04 阿秃伸手想抓住周围绒毛却一次次抓空，身体被气流带得轻微翻转，LCD变成两个小竖线眼睛加波浪线嘴，更显手忙脚乱，细长绒丝在他周围螺旋飞舞；
+0:04-0:06 阿秃被吸入毛绒洞口，LCD变成两个“×”，绒毛从四周向中心合拢、填满画面，身影被柔软绒毛吞没，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：轻柔的旋转风声、绒毛沙沙声、小短手扑腾的轻响、金属肢体轻微咔哒、天线轻颤声、绒毛合拢的轻柔窸窣；只保留音效，不要背景音乐，整体软萌、无惊吓音效。
+==========================================================================================
+## 坠落部分生成
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+
+时长：6秒。
+剧情：小机器人阿秃从天而降，正面垂直俯拍跟随，身体正面朝镜头，被卷入旋转的毛绒旋涡，最终被吸进中心无尽的毛绒洞、身影被绒毛吞没消失。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维呈螺旋状向中心汇聚。
+
+画面与运镜：
+0:00-0:02 正面垂直俯拍，镜头位于阿秃正上方与他同步下坠并缓慢旋转，阿秃居中、身体正面朝镜头，LCD是两个竖长椭圆眼睛加小圆圈“O”嘴的惊恐表情，小短手张开，下方是巨大的旋转毛绒旋涡，粉蓝长绒纤维螺旋汇聚、中心是深邃的毛绒洞口，细长飞丝环绕飞舞；
+0:02-0:04 阿秃被旋涡气流带动、身体轻微旋转，小短手和腿无措慌张地划动摆动，天线被风吹得颤动画圈，LCD表情从惊恐转为晕眩——两个螺旋线条眼睛加波浪线嘴，他越坠越接近旋涡中心；
+0:04-0:06 阿秃被吸入无尽毛绒洞口，LCD最后变成两个“×”，周围绒毛从四周向中心合拢、逐渐填满画面，阿秃的身影被柔软绒毛彻底吞没消失，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：旋涡低沉的旋转环绕风声、绒毛飞丝沙沙声、天线颤动声、被吸入时绒毛合拢的窸窣与闷响；只保留音效，不要背景音乐。
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 独眼树神（橙红色粗毛线编织巨树，中央一只琥珀色独眼，枝桠挂珊瑚粉毛绒球）。
+```json
+{
+  "action": "text_to_video",
+  "action_input": "这是一段超现实波普艺术风格的奇幻视频，呈现8K大师级C4D毛绒渲染与IMAX 70mm胶片质感。镜头以特写开场，三个珊瑚粉色毛绒小精灵在柔软的植被上带路，圆滚滚的身体左右摇摆，方形金属机器人阿秃迈着沉稳的机械步伐紧随其后。接着镜头缓慢抬起并拉远平滑过渡至全景，阿秃与精灵的背影始终停留在画面底部作为虚化失焦的前景。画面清晰的焦点锁定在前方巨大的橙红色粗毛线编织树神上，枝桠挂着粉色毛绒球。安静的画面中，树神的琥珀色独眼缓缓睁开，绒毛睫毛轻颤，目光温柔地俯视下方。整体采用柔和漫射影棚布光，粉色天空与橙红树神形成复古高饱和撞色，极浅的景深让安哥拉兔毛般的材质细节纤毫毕现，画面充满神秘治愈的氛围，并呈现60帧的极高流畅度。",
+  "supplementary": {
+    "duration": "12秒",
+    "soundtrack_suggestion": "纯环境音效设计（无背景音乐）：毛发踩踏的噗噗声、金属脚步的咔哒声、精灵的软糯唧唧声、微风拂过毛线的沙沙声以及树神睁眼的轻微摩擦声。"
+  }
+}
+```
+==========================================================================================
+## 坠落+毛绒星球 备选
+参考图：<图片1>阿秃（方形金属机器人，蓝色LCD点线脸）；<图片2>毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）；<图片3>毛绒世界环境。
+
+时长：30秒。
+剧情简介：阿秃从天而降，正面俯拍跟随，坠入毛绒世界后昏厥黑屏；苏醒后先以第一视角看到精灵围观，切客观画面，LCD表情由晕眩恢复正常并起身；镜头升起拉远，揭示宏大柔软的毛绒世界，众多毛绒精灵栖息其中。
+主角性格：阿秃拘谨紧张、外冷内萌，代表焦虑紧绷的现代个体；毛绒精灵软糯好奇、友善亲人。
+
+场景环境：一个万物皆由绒毛构成的奇幻世界。山脉是尖峰状长毛山体，颜色从藏蓝、钴蓝、青蓝过渡到青绿、薄荷绿，超长柔顺绒毛顺着山脊垂落起伏；山谷间一条奶油白泛暖金光泽的绒河蜿蜒流淌，细密纤维顺水流方向梳理成平行丝缕；天空是珊瑚粉到蜜桃橙的纯净渐变，飘着大小不一的圆球状毛绒云朵，奶油白、淡粉、蜜桃色，边缘有被光打亮的细长飞丝；天际悬着一颗金色毛线球般的暖光太阳；漫山遍野是珊瑚粉、奶油黄、薄荷绿、淡紫色的圆滚滚毛绒精灵，在绒毛草甸间打滚、追逐、探头、依偎。
+
+画面内容及运镜：
+0:00-0:05 正面垂直俯拍，镜头位于阿秃正上方同步下坠，阿秃居中、方块身体与LCD脸朝上，下方粉蓝毛绒地面快速逼近，落点绒毛被气流压出圆形凹陷，细长飞丝旋转；
+0:05-0:07 接触瞬间柔软凹陷、绒毛涟漪，发出软“啵叽”，画面渐黑；
+0:07-0:11 阿秃主观镜头，画面由模糊到清晰，几张毛绒精灵的大圆脸凑近围观、大眼睛好奇眨动；
+0:11-0:16 切客观镜头，阿秃躺在毛绒地上，LCD屏幕先是晕眩螺旋线条，逐渐变回正常点线表情；
+0:16-0:20 天线微动，机械臂撑地缓缓坐起并站起，精灵们后退半步又探头，阿秃扶着方块脑袋打量自己的金属身体；
+0:20-0:30 镜头从阿秃身后缓缓升起并持续拉远，蓝绿长毛山脉连绵起伏，奶油金绒河蜿蜒，粉色天空与毛绒云朵铺展，金色毛线球太阳散发暖光，成群毛绒精灵在绒毛草甸里打滚、追逐、趴在绒河边探头、三五成群依偎，阿秃渺小的方块身影立于前景山脊，与宏大柔软的世界形成对比，画面定格全景。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质；所有毛绒元素均为柔顺安哥拉兔毛，发丝细腻分明，材质高度统一，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，细腻明暗过渡，电影级光影；复古高饱和撞色，色块拼接，鲜明生动，超现实波普艺术，超现实治愈氛围。
+音效：下坠气流风声、绒毛摩擦沙沙声、接触软“啵叽”、电子开机“嘀”、精灵软糯唧唧喳喳、金属关节轻微咔哒、低频呼噜声铺底、绒河流动沙沙声、微风拂过绒毛；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落部分生成2
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+
+时长：6秒。
+剧情：小机器人阿秃从天而降，正面垂直俯拍跟随，身体正面朝镜头，在旋转毛绒旋涡里慌乱挣扎，最终被吸进中心无尽毛绒洞、身影被绒毛吞没消失。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维呈螺旋状向中心汇聚；空中飞舞的全部是细长绒毛和绒丝，没有羽毛。
+
+画面与运镜：
+0:00-0:02 正面垂直俯拍，镜头位于阿秃正上方同步下坠并缓慢旋转，阿秃居中、身体正面朝镜头，LCD眼睛瞪成两个竖长椭圆、嘴巴张成圆圆的“O”，小短手在身体两侧慌乱地乱挥，机械脚徒劳地蹬踏，天线剧烈乱颤，下方是旋转毛绒旋涡，中心是深邃毛绒洞口；
+0:02-0:04 阿秃一次次伸手想抓住周围旋转的绒毛却抓空，身体被气流带得轻微翻转、挣扎得更慌，LCD变成两个竖线眼睛加张开的波浪线嘴，细长绒丝在他周围螺旋飞舞；
+0:04-0:06 阿秃被吸入无尽毛绒洞口，LCD最后变成两个“×”，绒毛从四周向中心合拢、填满画面，他的身影被柔软绒毛彻底吞没，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：旋涡低沉的旋转环绕风声、绒毛飞丝沙沙声、阿秃慌乱的短促电子音、金属肢体挣扎的咔哒声、天线颤动声、绒毛合拢的窸窣与闷响；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落+毛绒星球  最终使用毛绒星球部分
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）； {{Mixed 2}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手） {{Mixed 3}} 毛绒世界环境。
+
+时长：30秒。
+剧情简介：阿秃从天而降，正面俯拍跟随，坠入毛绒世界后昏厥黑屏；苏醒后先以第一视角看到精灵围观，切客观画面，LCD表情由晕眩恢复正常并起身；镜头升起拉远，揭示宏大柔软的毛绒世界，众多毛绒精灵栖息其中。
+主角性格：阿秃拘谨紧张、外冷内萌，代表焦虑紧绷的现代个体；毛绒精灵软糯好奇、友善亲人。
+
+场景环境：一个万物皆由绒毛构成的奇幻世界。山脉是尖峰状长毛山体，颜色从藏蓝、钴蓝、青蓝过渡到青绿、薄荷绿，超长柔顺绒毛顺着山脊垂落起伏；山谷间一条奶油白泛暖金光泽的绒河蜿蜒流淌，细密纤维顺水流方向梳理成平行丝缕；天空是珊瑚粉到蜜桃橙的纯净渐变，飘着大小不一的圆球状毛绒云朵，奶油白、淡粉、蜜桃色，边缘有被光打亮的细长飞丝；天际悬着一颗金色毛线球般的暖光太阳；漫山遍野是珊瑚粉、奶油黄、薄荷绿、淡紫色的圆滚滚毛绒精灵，在绒毛草甸间打滚、追逐、探头、依偎。
+
+画面内容及运镜：
+0:00-0:05 正面垂直俯拍，镜头位于阿秃正上方同步下坠，阿秃居中、方块身体与LCD脸朝上，下方粉蓝毛绒地面快速逼近，落点绒毛被气流压出圆形凹陷，细长飞丝旋转；
+0:05-0:07 接触瞬间柔软凹陷、绒毛涟漪，发出软“啵叽”，画面渐黑；
+0:07-0:11 阿秃主观镜头，画面由模糊到清晰，几张毛绒精灵的大圆脸凑近围观、大眼睛好奇眨动；
+0:11-0:16 切客观镜头，阿秃躺在毛绒地上，LCD屏幕先是晕眩螺旋线条，逐渐变回正常点线表情；
+0:16-0:20 天线微动，机械臂撑地缓缓坐起并站起，精灵们后退半步又探头，阿秃扶着方块脑袋打量自己的金属身体；
+0:20-0:30 镜头从阿秃身后缓缓升起并持续拉远，蓝绿长毛山脉连绵起伏，奶油金绒河蜿蜒，粉色天空与毛绒云朵铺展，金色毛线球太阳散发暖光，成群毛绒精灵在绒毛草甸里打滚、追逐、趴在绒河边探头、三五成群依偎，阿秃渺小的方块身影立于前景山脊，与宏大柔软的世界形成对比，画面定格全景。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质；所有毛绒元素均为柔顺安哥拉兔毛，发丝细腻分明，材质高度统一，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，细腻明暗过渡，电影级光影；复古高饱和撞色，色块拼接，鲜明生动，超现实波普艺术，超现实治愈氛围。
+音效：下坠气流风声、绒毛摩擦沙沙声、接触软“啵叽”、电子开机“嘀”、精灵软糯唧唧喳喳、金属关节轻微咔哒、低频呼噜声铺底、绒河流动沙沙声、微风拂过绒毛；只保留音效，不要背景音乐。
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 毛绒环境；黄色毛绒梳子 {{Mixed 4}} 。
+
+时长：12秒。
+剧情简介：逃跑中最小的精灵滚下绒毛坡、绒毛炸成一团，阿秃放慢动作帮它理顺绒毛，精灵们放下戒备、建立信任。
+场景环境：绒毛坡与绒河边，安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:03 逃跑中最小的精灵从绒毛坡滚下，一头扎进绒毛，拔出来时绒毛炸成一团、纤维打结，急得团团转；
+0:03-0:06 阿秃走近，小精灵缩成球发抖；阿秃蹲下、动作放慢，用机械手小心翼翼地拨开打结的绒毛，又捡起黄色毛绒梳子，笨拙地轻轻梳了两下；
+0:06-0:09 小精灵从发抖到愣住，再到舒服地眯起眼睛，躲着的精灵们纷纷探头；
+0:09-0:12 阿秃LCD露出温柔的微笑，把梳子轻轻放回精灵面前、摊开手掌，精灵们慢慢围拢过来。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，超现实治愈氛围。
+音效：小精灵着急的唧唧声、金属手指拨绒毛的轻响、梳子梳理的沙沙声、精灵放松的软糯哼唧；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落部分生成 最终
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+```json
+这是一段充满动态感与荒诞治愈氛围的6秒动画短片。镜头采用正面垂直俯拍，并同步下坠且以正常速度旋转，紧紧跟随着主角。画面主角是阿秃，一个方形金属小机器人，拥有一张显示蓝色LCD点线的屏幕脸。阿秃正从天而降，坠入一个粉蓝相间的长毛绒巨大旋涡中。旋涡的绒毛呈现极其真实的安哥拉兔毛质感，发丝细腻分明，长绒纤维正快速螺旋向中心汇聚，空中还飘浮着细长柔软的绒毛和绒丝。起初，阿秃身体正面朝向镜头，手忙脚乱地在旋涡中慌乱扑腾，小短手快速交替挥动，LCD屏幕上显示出两个小圆点眼睛和波浪线嘴巴。紧接着慌乱升级，小短手连续快速乱挥，机械脚急促蹬踏，它一次次伸手试图抓住绒毛却总是抓空，身体被高速旋转的绒丝带动着产生轻微翻转。此时，LCD屏幕变成了两个小竖线眼睛加波浪嘴，头顶的天线也在急促颤动。最终，阿秃被不可抗力快速吸向中心的毛绒洞口，LCD屏幕上的眼睛瞬间变成了两个“×”形。粉蓝色的绒毛迅速从四周合拢，完全填满整个画面，将阿秃的身影温柔地吞没。画面采用IMAX 70mm胶片质感与柯达Vision3色彩风格，呈现8K超高清画质。光影采用柔和漫射的影棚布光，旋涡中心略暗，边缘的绒毛被光线打亮，明暗过渡极其细腻。整体色彩呈现复古高饱和度的粉蓝撞色，极具超现实波普艺术风格。",
+  "supplementary": {
+    "duration": "6秒",
+    "copy": "",
+    "soundtrack_suggestion": "快速旋转的轻柔风声与绒毛沙沙声交织。包含小短手急促扑腾的软萌轻响、金属肢体轻快的咔哒声，以及阿秃复古8-bit的软萌电子音（如急促的哔哔、嘀嘀嘀声）和被吸入时的长电子下滑音。结尾伴随绒毛合拢的窸窣声。全音效设计，节奏急促但极度软萌，无惊吓音效，不需要背景音乐。
+```
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 毛绒环境；黄色毛绒梳子 {{Mixed 4}} 。
+
+时长：30秒。
+剧情简介：三个精灵合力用黄色毛绒梳子梳理绒河，没注意阿秃靠近；精灵发现后被吓跑，折返拿梳子时滚下山坡炸毛，阿秃帮忙梳理，躲着的精灵们发现阿秃没有恶意，出来一起玩，静电把阿秃短暂电晕，阿秃恢复后露出开心微笑。
+主角性格：阿秃拘谨善良、外冷内萌；精灵软糯好奇、胆小但友善。
+角色比例：精灵身高约为阿秃的一半多一点，三个精灵需合力抬起比单个还大的黄色毛绒梳子。
+场景环境：奶油金绒河边，绒河是可梳理的奶油色长绒纤维，旁边是柔软绒毛坡，远处蓝绿毛绒山脉、粉色天空，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:05 首帧 {{Mixed 5}} 三个珊瑚粉精灵合力抬着亮黄色毛绒梳子，认真地把绒河的长绒纤维梳理成平行顺向丝缕，小短手一起用力，没注意阿秃靠近；
+0:05-0:09 阿秃从画面右边凑近，LCD是好奇的两个小圆点，好奇地看着它们；精灵抬头发现，吓一跳，阿秃也被吓得坐在地上，精灵们丢下梳子四散；
+0:09-0:13 几个个精灵想起梳子，折返抓起，逃跑时脚下一滑，和梳子一起滚下绒毛坡，停下时绒毛炸成一团、纤维打结，急得团团转；
+0:13-0:19 阿秃赶紧走过去蹲下、放慢动作，用机械手和黄色梳子帮它们把炸毛轻轻拨开、理顺，周围其他精灵躲在绒毛里探头看着阿秃；
+0:19-0:24 精灵们发现阿秃没有恶意，纷纷出来围拢，和阿秃在绒毛草甸上玩耍，阿秃表情边开心，绒毛摩擦产生静电，细小蓝色火花噼啪、飞丝竖起；
+0:24-0:30 几只精灵蹭上阿秃金属身体，静电传导，阿秃LCD闪雪花、身体一僵倒进绒毛；天线重新亮起，屏幕从雪花恢复成两个“×”，再变回正常点线，最后露出开心微笑，精灵们欢呼着凑上来。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，静电火花的冷蓝点缀暖色绒毛，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，超现实治愈氛围。
+音效：绒毛梳理沙沙声、精灵小声哼唧、急促唧唧喳喳、滚落绒毛的噗噗声、金属手指拨绒毛的轻响、静电噼啪、火花“啪”、电子短路滋滋声、重新开机“嘀”、精灵欢呼；只保留音效，不要背景音乐。
+==========================================================================================
+## 刷河流+毛绒精灵接纳阿秃  最终使用
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 毛绒环境；黄色毛绒梳子 {{Mixed 4}} 。
+
+时长：10秒。
+剧情简介：三个粉色精灵合力用黄色毛绒梳子梳理绒河，阿秃突然凑近，精灵们吓得丢下梳子四散，又折返把梳子取回藏起来。
+场景环境：奶油金绒河边，绒河是可梳理的奶油色长绒纤维，远处蓝绿毛绒山脉，粉色天空，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明。
+
+画面内容及运镜：
+0:00-0:03 三个珊瑚粉精灵合力抬着一把亮黄色毛绒梳子，认真地把绒河的长绒纤维梳理成平行顺向的丝缕，小短手一起用力；
+0:03-0:05 阿秃的方块身影从画面边缘探入、好奇凑近，LCD是两个小圆点眼睛，精灵们抬头看见，丢下梳子四散，躲进绒毛里只露出大眼睛；
+0:05-0:08 阿秃低头看着地上的梳子，歪头困惑；一个胆大的精灵探头确认阿秃没有动作，飞快跑回来抓起比自己还大的梳子；
+0:08-0:10 精灵拖着梳子跑掉，钻进绒毛丛藏好，只留一小撮绒毛晃动，阿秃站在原地。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，超现实治愈氛围。
+音效：绒毛梳理的沙沙声、精灵用力的小声哼唧、急促的唧唧喳喳、小短腿奔跑的噗噗声、梳子拖地的窸窣声；只保留音效，不要背景音乐。
+==========================================================================================
+## 最终使用
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 独眼树神（橙红色粗毛线编织巨树，中央一只琥珀色独眼，枝桠挂珊瑚粉毛绒球）。
+
+时长：12秒。
+剧情简介：三个粉色小精灵在前面带路，把阿秃领到独眼树神面前；镜头拉远成全景，渺小的阿秃和精灵背对镜头仰望，树神缓缓睁开独眼，画面安静停留，旁白后期配置。
+角色与性格：三个精灵像热心又胆小的引路者，树神苍老神秘而温柔，阿秃拘谨好奇。
+场景环境：橙红色粗绒线扭结而成的巨大树神，树干与枝桠纹理分明，枝桠上挂着珊瑚粉毛绒球，地面是柔软毛绒植被，粉色天空，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:04 特写，三个珊瑚粉小精灵走在前面带路，毛茸茸的小短腿一前一后、圆滚身体左右轻摆，偶尔回头看阿秃有没有跟上，阿秃方形金属身体跟在后面，机械脚步沉稳，表情充满好奇；
+0:04-0:07 镜头随它们抬起并拉远，过渡到全景，阿秃和三个精灵渺小的背影位于前景底部、背对镜头仰望，巨大的独眼树神占据画面，独眼闭合；
+0:07-0:12 树神的独眼缓缓睁开，琥珀色虹膜与黑色瞳孔逐渐显现，细长绒毛睫毛轻轻颤动，目光缓缓低垂落向前景的渺小身影，画面安静停留，树神不说话。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，树神眼部有柔和高光，橙红树神与深绿前景、粉色天空形成复古高饱和撞色，细腻明暗过渡，超现实波普艺术，神秘治愈氛围。
+音效：小短腿踩踏绒毛的噗噗声、金属脚步的轻微咔哒、精灵回头招呼的软糯唧唧、微风拂过毛线的沙沙声、眼睛睁开的轻微声响；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落部分生成4
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+
+时长：6秒。
+剧情：阿秃从天而降，正面垂直俯拍跟随、身体正面朝镜头，在快速旋转的毛绒旋涡里手忙脚乱地慌乱扑腾，发出软萌电子音，最终被吸进中心毛绒洞、身影被绒毛吞没。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维快速螺旋向中心汇聚；空中有一些细长绒毛和绒丝。
+
+画面与运镜：
+0:00-0:01 正面垂直俯拍，镜头同步下坠、以正常速度旋转，阿秃正面朝镜头，已经在慌乱扑腾，小短手快速交替挥动，LCD是两个小圆点眼睛加波浪线嘴，伴随急促软萌的“哔哔”电子音；
+0:01-0:04 慌乱升级，小短手连续快速乱挥、机械脚急促蹬踏，阿秃一次次伸手抓绒毛却快速抓空，身体被高速旋转的绒丝带动轻微翻转，LCD变成两个小竖线眼睛加波浪嘴，天线急促颤动，连续快速的“嘀嘀嘀”随扑腾节奏响起，绒丝在周围快速螺旋飞舞；
+0:04-0:06 阿秃被快速吸向毛绒洞口，LCD变成两个“×”，发出一声拉长的电子下滑音“哔——”，绒毛从四周快速合拢填满画面，身影被柔软绒毛吞没，声音随绒毛合拢淡出，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：快速旋转的轻柔风声、绒毛沙沙声、小短手急促扑腾的软萌轻响、金属肢体轻快咔哒、阿秃复古8-bit“哔哔、嘀嘀嘀”电子音和被吸入时的下滑音、天线颤动声、绒毛合拢窸窣声；只保留音效，不要背景音乐，节奏急促但软萌、无惊吓音效。
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸） {{Mixed 3}} 毛绒世界环境。
+
+时长：8秒。
+剧情简介：蒲公英形态的毛绒云朵悬浮天空，一根羽毛状绒毛缓缓飘落，阿秃伸出机械手接住，冷硬金属与柔软绒毛在掌心相遇。
+场景环境：粉色到奶油色渐变的毛绒天空，巨大的圆球状毛绒蒲公英云朵悬浮空中，中心是紧实的奶油色绒核，向外放射出无数细长半透明的绒毛纤维，纤维末端带细小绒点，逆光时边缘纤维被光打亮；所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明。
+
+画面内容及运镜：
+0:00-0:02 仰拍中景，巨大的毛绒蒲公英云朵悬浮在粉色天空，一根羽毛状绒毛脱离云朵，带着纤细羽轴和两侧细密绒丝缓缓旋转飘落；
+0:02-0:05 阿秃抬头仰望，LCD屏幕是专注的两个小圆点眼睛，缓缓抬起机械手、摊开金属手掌迎向羽毛，镜头跟随羽毛下移；
+0:05-0:08 特写，羽毛轻盈落入冷硬金属掌心，细长绒丝在掌心微微颤动、打旋，金属冷光与柔软绒毛形成强烈对比，LCD表情变成两个小点加一条微微上扬的弧线。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，逆光勾勒绒毛纤维，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，超现实治愈氛围。
+音效：微风拂过绒毛的轻柔沙沙声、羽毛飘落的细微声、金属手臂轻微咔哒、羽毛落掌心的极轻“噗”；只保留音效，不要背景音乐。
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 毛绒环境；黄色毛绒梳子 {{Mixed 4}} 。
+
+时长：30秒。
+剧情简介：三个精灵合力用黄色毛绒梳子梳理绒河，没注意阿秃靠近；被发现后吓跑，折返拿梳子时滚下山坡炸毛，阿秃帮忙梳理，躲着的精灵们发现阿秃没有恶意，出来一起玩，静电把阿秃短暂电晕，阿秃恢复后露出开心微笑。
+主角性格：阿秃拘谨善良、外冷内萌；精灵软糯好奇、胆小但友善。
+角色比例：精灵身高约为阿秃的一半多一点，三个精灵需合力抬起比单个还大的黄色毛绒梳子。
+场景环境：奶油金绒河边，绒河是可梳理的奶油色长绒纤维，旁边是柔软绒毛坡，远处蓝绿毛绒山脉、粉色天空，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:05 三个珊瑚粉精灵合力抬着亮黄色毛绒梳子，认真地把绒河的长绒纤维梳理成平行顺向丝缕，小短手一起用力，没注意阿秃靠近；
+0:05-0:09 阿秃从画面边缘凑近，LCD是好奇的两个小圆点，低头看着它们；精灵抬头发现，吓一跳，阿秃也被吓一跳，精灵们丢下梳子四散；
+0:09-0:13 几个个精灵想起梳子，折返抓起，逃跑时脚下一滑，和梳子一起滚下绒毛坡，停下时绒毛炸成一团、纤维打结，急得团团转；
+0:13-0:19 阿秃赶紧走过去蹲下、放慢动作，用机械手和黄色梳子帮它们把炸毛轻轻拨开、理顺，周围其他精灵躲在绒毛里探头看着阿秃；
+0:19-0:24 精灵们发现阿秃没有恶意，纷纷出来围拢，和阿秃在绒毛草甸上玩耍，绒毛摩擦产生静电，细小蓝色火花噼啪、飞丝竖起；
+0:24-0:30 几只精灵蹭上阿秃金属身体，静电传导，阿秃LCD闪雪花、身体一僵倒进绒毛；天线重新亮起，屏幕从雪花恢复成两个“×”，再变回正常点线，最后露出开心微笑，精灵们欢呼着凑上来。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，静电火花的冷蓝点缀暖色绒毛，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，超现实治愈氛围。
+音效：绒毛梳理沙沙声、精灵小声哼唧、急促唧唧喳喳、滚落绒毛的噗噗声、金属手指拨绒毛的轻响、静电噼啪、火花“啪”、电子短路滋滋声、重新开机“嘀”、精灵欢呼；只保留音效，不要背景音乐。
+==========================================================================================
+## 茸夸父逐日最终
+参考图： {{Mixed 1}} 夸父（橙红色毛绒巨怪，长毛拖尾，伸手够金色毛线球）； {{Mixed 2}} 毛绒世界环境（蓝绿毛绒山脉、粉色天空、毛绒云、奶油绒河）； {{Mixed 3}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）。
+参考图： {{Mixed 1}} 夸父（橙红色毛绒巨怪，长毛拖尾，伸手够金色毛线球）； {{Mixed 2}} 毛绒世界环境（蓝绿毛绒山脉、粉色天空、毛绒云、奶油绒河）； {{Mixed 3}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）。
+
+时长：15秒。
+剧情简介：夸父奔跑追逐天上的金色毛线球却始终够不到，困了躺下；一镜到底中，他呼出的气凝成毛绒云，身体融入大地化作蓝绿毛绒山脉，土地上生出一个个毛绒小精灵。
+主角性格：夸父执着天真、温柔笨拙，不是悲壮英雄，而是一个单纯想拥抱温暖的大毛绒怪。
+场景环境：开场是紫色到粉色渐变天空下的粉色毛绒大地，天际悬着发光的金色毛线球；一镜到底中过渡为蓝绿连绵毛绒山脉与奶油绒河，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜（全程全景，无近景、无特写）：
+0:00-0:05 全景，夸父在粉色大地上奔跑，超长绒毛和拖尾向后飞扬，双臂伸向天空追逐金色毛线球，一次次伸手又落空，毛线球始终差一点；镜头随夸父每一步沉重踏地产生有节奏的轻微震动，震动频率与奔跑步伐同步、幅度随脚步轻重起伏；
+0:05-0:08 全景，夸父脚步踉跄、困意袭来，镜头震动随他减速而减弱，他缓缓停下并轻轻躺倒，地面柔软凹陷，镜头完全稳定；
+0:08-0:15 一镜到底、不切镜，镜头平稳顺滑地从夸父躺姿缓缓升高拉远，他均匀呼吸、呼出的气凝成白色毛绒云飘升，身体轮廓舒展延展与大地融为一体，橙红绒毛过渡成蓝绿长毛并隆起成连绵山脉，随后绒毛聚拢隆起成圆球、长出大眼睛和小短手，毛绒精灵 {{Mixed 3}} 纷纷冒出探头打滚，最终定格毛绒世界全景，金色毛线球在天际散发暖光。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，金色毛线球暖光打亮绒毛边缘，细腻明暗过渡，复古高饱和撞色，紫粉天空与蓝绿山脉形成超现实波普配色，超现实治愈氛围。
+音效：奔跑时厚重的绒毛踩踏噗噗声、长毛飞扬沙沙声、镜头随脚步震动的低频闷响、躺下的柔软闷响、呼气凝气的轻柔声、身体延展融入大地的低沉沙沙声、绒毛聚拢窸窣声、小精灵诞生软糯唧唧声、微风；只保留音效，不要背景音乐。
+==========================================================================================
+## 视频节点 18
+参考图： {{Mixed 1}} 夸父（橙红色毛绒巨怪，长毛拖尾，伸手够金色毛线球）； {{Mixed 2}} 毛绒世界环境（蓝绿毛绒山脉、粉色天空、毛绒云、奶油绒河）； {{Mixed 3}} 毛绒精灵（珊瑚粉毛绒球，大眼睛，小短手）。
+
+时长：30秒。
+剧情简介：毛绒巨怪夸父为了抱一抱天上那团最温暖的金色毛线球不停奔跑，却始终差一点；他太困了躺下睡着，呼出的气凝成毛茸茸的云，身体延展融入大地化作柔软的毛绒土地，土地上还生出了一个个毛绒小精灵。
+主角性格：夸父执着天真、温柔笨拙，不是悲壮英雄，而是一个单纯想拥抱温暖的大毛绒怪。
+场景环境：开场是紫色到粉色渐变的天空与粉色毛绒大地，天际悬着发光的金色毛线球；结尾随夸父化地，过渡为蓝绿连绵毛绒山脉与奶油绒河，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:06 全景，橙红色毛绒巨怪夸父在粉色大地上奔跑，超长绒毛和拖尾向后飞扬，双臂伸向天空，追逐前方那团发光的金色毛线球，毛线球缓缓前移，始终差一点；
+0:06-0:12 侧面跟拍，夸父一步步用力奔跑，长毛随步伐起伏，一次次伸手又落空，呼吸渐重、脚步变慢；
+0:12-0:16 夸父困意袭来，脚步踉跄缓缓停下，膝盖一软，巨大的身体轻轻躺倒在绒毛上，地面柔软凹陷；
+0:16-0:21 夸父闭上眼睛，面部绒毛线条柔和，均匀呼吸，每呼出一口气，就在空中凝成一团毛茸茸的白色气团，缓缓飘升变成毛绒云朵；
+0:21-0:26 夸父的身体轮廓缓缓舒展、延展，与大地融为一体，橙红绒毛渐渐过渡成蓝绿长毛，隆起成连绵的毛绒山脉，长毛顺着山脊垂落，化作永远柔软的土地；
+0:26-0:30 新生的柔软绒毛上，几处绒毛缓缓聚拢、隆起成圆球状，逐渐睁开白色大眼睛、伸出小短手，珊瑚粉、奶油黄、薄荷绿、淡紫色的毛绒精灵一个个从绒毛里冒出来，探头、打滚，金色毛线球在天际散发暖光。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，金色毛线球的暖光打亮绒毛边缘，细腻明暗过渡，复古高饱和撞色，紫粉天空与蓝绿山脉形成超现实波普配色，超现实治愈氛围。
+音效：奔跑时厚重的绒毛踩踏噗噗声、长毛飞扬沙沙声、急促呼吸声、躺下的柔软闷响、呼气凝气的轻柔声、身体延展融入大地的低沉沙沙声、绒毛聚拢的窸窣声、小精灵诞生时软糯的唧唧声、微风；只保留音效，不要背景音乐。
+==========================================================================================
+## 坠落部分生成5
+参考图： {{Mixed 1}} 阿秃（方形金属机器人，蓝色LCD点线脸）；毛绒质感颜色可参考 {{Mixed 2}} 。
+
+时长：6秒。
+剧情：阿秃从天而降，正面垂直俯拍跟随、身体正面朝镜头，在快速旋转的毛绒旋涡里手忙脚乱地慌乱扑腾，发出软萌电子音，最终被吸进中心毛绒洞、身影被绒毛吞没。
+场景：粉蓝相间的长毛绒旋涡，安哥拉兔毛质感，发丝细腻分明，长绒纤维快速螺旋向中心汇聚；空中有一些细长绒毛和绒丝。
+
+画面与运镜：
+0:00-0:01 正面垂直俯拍，镜头同步下坠、以正常速度旋转，阿秃正面朝镜头，已经在慌乱扑腾，小短手快速交替挥动，LCD是两个小圆点眼睛加波浪线嘴，伴随急促软萌的“哔哔”电子音；
+0:01-0:04 慌乱升级，小短手连续快速乱挥、机械脚急促蹬踏，阿秃一次次伸手抓绒毛却快速抓空，身体被高速旋转的绒丝带动轻微翻转，LCD变成两个小竖线眼睛加波浪嘴，天线急促颤动，连续快速的“嘀嘀嘀”随扑腾节奏响起，绒丝在周围快速螺旋飞舞；
+0:04-0:06 阿秃被快速吸向毛绒洞口，LCD变成两个“×”，发出一声拉长的电子下滑音“哔——”，绒毛从四周快速合拢填满画面，身影被柔软绒毛吞没，声音随绒毛合拢淡出，结尾只剩旋转聚拢的绒毛中心。
+
+摄影：IMAX 70mm胶片，15-perf 65mm，柯达Vision3，8K。
+光影色彩：柔和漫射影棚布光，旋涡中心略暗、边缘绒毛被光打亮，细腻明暗过渡，复古高饱和撞色，超现实波普艺术，荒诞治愈氛围。
+音效：快速旋转的轻柔风声、绒毛沙沙声、小短手急促扑腾的软萌轻响、金属肢体轻快咔哒、阿秃复古8-bit“哔哔、嘀嘀嘀”电子音和被吸入时的下滑音、天线颤动声、绒毛合拢窸窣声；只保留音效，不要背景音乐，节奏急促但软萌、无惊吓音效。
+==========================================================================================
+## 视频节点 13 - 副本
+参考图： {{Mixed 1}} 阿秃； {{Mixed 2}} 粉色精灵； {{Mixed 3}} 独眼树神（橙红色粗毛线编织巨树，中央一只琥珀色独眼，枝桠挂珊瑚粉毛绒球）。
+
+时长：12秒。
+剧情简介：三个粉色小精灵在前面带路，把阿秃领到独眼树神面前；镜头拉远成全景，渺小的阿秃和精灵背对镜头仰望，作为虚化的前景始终留在画面底部，树神缓缓睁开独眼，画面安静停留，旁白后期配置。
+角色与性格：三个精灵像热心又胆小的引路者，树神苍老神秘而温柔，阿秃拘谨好奇。
+场景环境：橙红色粗绒线扭结而成的巨大树神，树干与枝桠纹理分明，枝桠上挂着珊瑚粉毛绒球，地面是柔软毛绒植被，粉色天空，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:04 特写，三个珊瑚粉小精灵走在前面带路，毛茸茸的小短腿一前一后、圆滚身体左右轻摆，偶尔回头看阿秃有没有跟上，阿秃方形金属身体跟在后面，机械脚步沉稳，表情充满好奇；
+0:04-0:07 镜头随它们抬起并拉远，过渡到全景，阿秃和三个精灵不消失，始终留在画面底部前景，背对镜头仰望，因浅景深处于虚化失焦状态、只看得出模糊的轮廓，清晰焦点落在树神身上，树神独眼闭合；
+0:07-0:12 树神的独眼缓缓睁开，琥珀色虹膜与黑色瞳孔逐渐显现，细长绒毛睫毛轻轻颤动，成为画面唯一清晰焦点，目光缓缓低垂落向前景；阿秃和三个精灵的虚化渺小背影始终保持在画面底部，不移动、不消失，树神不说话。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染；浅景深，焦点锁定树神独眼，前景角色虚化失焦。
+光影色彩：柔和漫射影棚布光，树神眼部有柔和高光，橙红树神与深绿前景、粉色天空形成复古高饱和撞色，细腻明暗过渡，超现实波普艺术，神秘治愈氛围。
+音效：小短腿踩踏绒毛的噗噗声、金属脚步的轻微咔哒、精灵回头招呼的软糯唧唧、微风拂过毛线的沙沙声、眼睛睁开的轻微声响；只保留音效，不要背景音乐。
+==========================================================================================
+## 阿秃融入毛茸星球最终
+参考图： {{Mixed 1}} 长满绒毛的阿秃（灰白毛绒版，保留LCD脸、天线、表盘）； {{Mixed 2}} 金属版阿秃； {{Mixed 3}} 毛绒世界环境（蓝绿尖峰毛绒山脉、奶油白绒河、珊瑚粉到蜜桃橙天空、奶油白与淡粉毛绒云朵）； {{Mixed 4}} 小精灵（无腿、蹦跳移动）。
+
+时长：15秒。
+剧情简介：阿秃和小精灵坐在山坡眺望充满生命的毛绒世界，他金属接缝处开始长出灰白绒毛，阿秃先惊讶后开心，身边精灵蹦跳欢庆；完全长满后，正上方俯拍阿秃放松躺下入睡，屏幕出现“Zzz”。
+角色与性格：阿秃从平静、惊讶到喜悦安心，小精灵软糯活泼、为他开心。
+场景环境：严格参照 {{Mixed 3}} ，蓝绿尖峰毛绒山脉连绵，奶油白绒河蜿蜒，珊瑚粉到蜜桃橙天空飘着圆球状毛绒云朵，所有毛绒元素均为安哥拉兔毛质感，发丝细腻分明，材质高度统一。
+
+画面内容及运镜：
+0:00-0:04 正侧面轻微仰拍，金属版阿秃 {{Mixed 2}} 和三四个小精灵坐在前景绒毛山坡上眺望；镜头缓慢拉远，整个毛绒世界展开——中景绒河两岸，三三两两的小精灵在绒毛里打滚、一蹦一蹦；绒河拐弯处几个精灵探头；远处山坡上珊瑚粉、奶油黄、薄荷绿、淡紫色的小精灵顺着绒毛坡蹦跳，变成起伏的彩色小点；山谷深处成群精灵依偎成一团团绒球；毛绒云朵下方有精灵蹦高去够飘落的绒毛，近大远小、疏密相间，呈现世界的纵深与生命密度；
+0:04-0:06 阿秃忽然感觉到异样、低头看向自己的身体，镜头顺势切俯拍；
+0:06-0:10 特写，阿秃金属接缝处一点点钻出细密的灰白色绒毛，LCD露出惊讶表情——两个竖长椭圆眼睛加小圆圈“O”嘴，身边小精灵兴奋地围着他蹦蹦跳跳、小短手挥舞；
+0:10-0:12 灰白绒毛完全长满、阿秃变成 {{Mixed 1}} 的样子，LCD表情从惊讶转为开心，变成两个弯弯的弧线眼睛加一条上扬的弧线嘴；
+0:12-0:15 阿秃放松躺下，镜头切正上方垂直俯拍，他陷进柔软绒毛，电子眼缓缓闭合，屏幕出现“Zzz”，小精灵们安静依偎在他身边，画面定格。
+
+摄影参数：IMAX 70mm胶片，15-perf 65mm，柯达Vision3胶片，8K大师级画质，C4D毛绒渲染。
+光影色彩：柔和漫射影棚布光，均匀柔和、无金色光，细腻明暗过渡，蓝绿与粉橙形成复古高饱和撞色，超现实波普艺术，温暖治愈氛围。
+音效：微风拂过绒毛的沙沙声、远处精灵软糯的唧唧声、灰白绒毛生长的细微沙沙声、精灵蹦跳落地的噗噗声和开心唧唧喳喳、电子眼闭合的轻微“嘀”、“Zzz”出现的轻柔电子声；只保留音效，不要背景音乐。
+

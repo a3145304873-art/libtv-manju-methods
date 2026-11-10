@@ -1,0 +1,2265 @@
+{
+ "canvasName": "呱比闯入毛茸茸世界1- 副本",
+ "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+ "capturedAt": "2026-11-10",
+ "snapshotSource": "LibTV 画布 API project/detail（网页端复制项目落入本账号后只读读取；data 字段已解析为对象）",
+ "nodeCount": 26,
+ "nodeDetails": {
+  "a-KT3q31KeTU": {
+   "nodeKey": "a-KT3q31KeTU",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 4,
+   "name": "5S呱比声线 - 副本",
+   "position": {
+    "positionX": "265.59628739088043",
+    "positionY": "565.18950426523"
+   },
+   "measured": {
+    "width": "320",
+    "height": "146"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609497000,
+    "_updatedAtMs": 1793609497000,
+    "action": "audio_resource",
+    "alt": "5S呱比 - 副本.mp3",
+    "generatorType": "default",
+    "isStale": false,
+    "name": "5S呱比声线 - 副本",
+    "type": "audio",
+    "uploaded": true,
+    "url": [
+     "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 183116,
+       "durationSec": 5.720813,
+       "extension": "mp3",
+       "hashSha1": "7bef48e96737c2f6c9a62c27fe99e075b9e5217f",
+       "kind": "audio",
+       "mimeType": "audio/mpeg"
+      }
+     ]
+    }
+   },
+   "parentKey": "g-MzL5f4vxBO",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-3XtRHpQTZ4": {
+   "nodeKey": "g-3XtRHpQTZ4",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "Group 4",
+   "position": {
+    "positionX": "584.1617980183064",
+    "positionY": "960"
+   },
+   "measured": {
+    "width": "2897.4763195890964",
+    "height": "503.2852786458892"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1794234429000,
+    "_updatedAtMs": 1794234429000,
+    "childNodeIds": [
+     "i-lRHkOkYBpk",
+     "t-ZmM9sfcWkf",
+     "v-g8cNHGceR5",
+     "v-Ud0t0M2Dze"
+    ],
+    "name": "Group 4",
+    "type": "group"
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234430000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-F0cxRVblWq": {
+   "nodeKey": "g-F0cxRVblWq",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "Group 3",
+   "position": {
+    "positionX": "672",
+    "positionY": "349.50000000000006"
+   },
+   "measured": {
+    "width": "2122.496245203735",
+    "height": "504.2852786458892"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1794234429000,
+    "_updatedAtMs": 1794234429000,
+    "childNodeIds": [
+     "t-qEdBv96T9I",
+     "t-jxfghVzTha",
+     "v-RgX22S9oyr"
+    ],
+    "name": "Group 3",
+    "type": "group"
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234430000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-FzRhamExcn": {
+   "nodeKey": "g-FzRhamExcn",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "Group 1",
+   "position": {
+    "positionX": "-828",
+    "positionY": "-876"
+   },
+   "measured": {
+    "width": "4369.192574781761",
+    "height": "519.2852786458892"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1794234429000,
+    "_updatedAtMs": 1794234429000,
+    "childNodeIds": [
+     "i-LJgBVwBfT7",
+     "i-ulhQYtUALo",
+     "t-hH6tE7xp9u",
+     "t-DwnTAQsIZF",
+     "v-oMqI7QcrEs",
+     "v-KogcSEBKnq"
+    ],
+    "name": "Group 1",
+    "type": "group"
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234430000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-MzL5f4vxBO": {
+   "nodeKey": "g-MzL5f4vxBO",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "呱比形象",
+   "position": {
+    "positionX": "-1897.5962873908804",
+    "positionY": "-209.02595032531292"
+   },
+   "measured": {
+    "width": "906.192574781761",
+    "height": "765.8321435881744"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1794234429000,
+    "_updatedAtMs": 1794234429000,
+    "childNodeIds": [
+     "a-KT3q31KeTU",
+     "i-3PfGfiAX6P"
+    ],
+    "name": "呱比形象",
+    "type": "group"
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234430000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "g-ujFssmmHpD": {
+   "nodeKey": "g-ujFssmmHpD",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 5,
+   "name": "Group 2",
+   "position": {
+    "positionX": "-828",
+    "positionY": "-225.1895042652299"
+   },
+   "measured": {
+    "width": "4334.788862172642",
+    "height": "499.2852786458892"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1794234429000,
+    "_updatedAtMs": 1794234429000,
+    "childNodeIds": [
+     "i-osXHLl82Ms",
+     "i-Wvnfi6ODOx",
+     "t-s0onIxwv3w",
+     "t-oKe8YkCrKi",
+     "v-9RBeKbNtDM",
+     "v-Xzn2rsrepH"
+    ],
+    "name": "Group 2",
+    "type": "group"
+   },
+   "parentKey": "",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234430000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-3PfGfiAX6P": {
+   "nodeKey": "i-3PfGfiAX6P",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "呱比三视图 - 副本",
+   "position": {
+    "positionX": "139.59628739088043",
+    "positionY": "90.64263932294459"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "_explicitContentDims": true,
+    "_lastAppliedFullyAtMs": 1793609497000,
+    "_updatedAtMs": 1793609497000,
+    "action": "image_resource",
+    "alt": "图片节点 8.png",
+    "contentHeight": 350,
+    "contentWidth": 627,
+    "copyrightChain": {
+     "name": "Muertu木二土",
+     "uuid": "2c74665bdb03430bb48d6df029b7bdd5"
+    },
+    "generatorType": "default",
+    "isStale": false,
+    "name": "呱比三视图 - 副本",
+    "params": {
+     "advancedSettings": {
+      "searchable": 0
+     },
+     "audioList": [],
+     "cameraControl": {
+      "aperture": "f/4",
+      "camera": "panavision_dxl2",
+      "enabled": false,
+      "focal": "35mm",
+      "lens": "arri_signature_prime"
+     },
+     "count": 1,
+     "imageList": [],
+     "modeType": "text2image",
+     "model": "nebula-ultra",
+     "prompt": "",
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "textList": [],
+     "videoList": []
+    },
+    "protectionType": "watermark",
+    "type": "image",
+    "uploaded": true,
+    "url": [
+     "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 3215606,
+       "extension": "png",
+       "hashSha1": "8d4200738d9b0b909e508b628f22a01dc7550f6a",
+       "height": 1536,
+       "kind": "image",
+       "mimeType": "image/png",
+       "width": 2752
+      }
+     ]
+    }
+   },
+   "parentKey": "g-MzL5f4vxBO",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-LJgBVwBfT7": {
+   "nodeKey": "i-LJgBVwBfT7",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 1 - 副本",
+   "position": {
+    "positionX": "139.59628739088066",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "image_generate",
+    "alt": "图片 1",
+    "contentHeight": 350,
+    "contentWidth": 627,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "图片节点 1 - 副本",
+    "params": {
+     "advancedSettings": {
+      "searchable": 0
+     },
+     "audioList": [],
+     "cameraControl": {
+      "aperture": "f/4",
+      "camera": "panavision_dxl2",
+      "enabled": false,
+      "focal": "35mm",
+      "lens": "arri_signature_prime"
+     },
+     "count": 1,
+     "fineTuneModels": [],
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P"
+     ],
+     "modeType": "image2image",
+     "model": "nebula-ultra",
+     "prompt": "呱比在一个森林里好奇的抬头看着一扇奇幻的毛茸茸材质的魔法门，门非常巨大。呱比非常迷你\nUE5 实时渲染，写实电影质感基底，叠加三渲二夸张卡通形变表演。材质超写实，肢体、表情、动作保留夸张弹性张力，兼顾高级氛围感与喜剧表现力。添加更多细节，植被纹理，泥土颗粒。\n光影系统：明暗层次细腻，植被透光，无死黑、无过曝，整体色调清新治愈、高级通透，电影胶片质感。",
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "textList": [],
+     "videoList": []
+    },
+    "protectionType": "",
+    "type": "image",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981051269_efdf98e23cfe482a8088df908e395f9a.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "height": 1536,
+       "kind": "image",
+       "width": 2752
+      }
+     ]
+    }
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-lRHkOkYBpk": {
+   "nodeKey": "i-lRHkOkYBpk",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "截图 00:26.749 - 副本",
+   "position": {
+    "positionX": "139.59628739088066",
+    "positionY": "90.64263932294443"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "image_resource",
+    "alt": "视频截图",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "frameCaptureSourceNodeId": "v-WUb2eipDYl",
+    "frameCaptureStackIndex": 0,
+    "isStale": false,
+    "name": "截图 00:26.749 - 副本",
+    "portraitCertifiedInPlace": true,
+    "protectionType": "",
+    "resourceMeta": {
+     "items": [
+      {
+       "height": 720,
+       "kind": "image",
+       "width": 1280
+      }
+     ]
+    },
+    "staleVersion": 1,
+    "type": "image",
+    "url": [
+     "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 1701879,
+       "extension": "png",
+       "hashSha1": "827ba177af95352772ba91b943af61871f785878",
+       "height": 720,
+       "kind": "image",
+       "mimeType": "image/png",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-3XtRHpQTZ4",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-osXHLl82Ms": {
+   "nodeKey": "i-osXHLl82Ms",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 4 - 副本",
+   "position": {
+    "positionX": "857.3729840111039",
+    "positionY": "90.6426393229446"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "image_generate",
+    "alt": "图片 4",
+    "contentHeight": 350,
+    "contentWidth": 627,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "图片节点 4 - 副本",
+    "params": {
+     "advancedSettings": {
+      "searchable": 0
+     },
+     "audioList": [],
+     "cameraControl": {
+      "aperture": "f/4",
+      "camera": "panavision_dxl2",
+      "enabled": false,
+      "focal": "35mm",
+      "lens": "arri_signature_prime"
+     },
+     "count": 1,
+     "imageList": [
+      {
+       "complianceCheckedAtMs": 1792891794990,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 3 - 副本",
+       "nodeId": "i-Wvnfi6ODOx",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/4482e2b6ce3e405faae6693d15c1e512/971949478_2c2f9aa181054f5a8aaf390cd46b28ac.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-Wvnfi6ODOx"
+     ],
+     "modeType": "image2image",
+     "model": "nebula-ultra",
+     "prompt": "生成这个巨大毛茸茸鳄鱼的趴着全身三视图，睁开眼，橙色竖瞳，鼻子上的角色去除，灰色背景，棚拍光线。左边三分之一处为鳄鱼的正脸俯视图，右边上面为鳄鱼正侧图，下面为鳄鱼顶视图。需要简单的标注。",
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "textList": [],
+     "videoList": []
+    },
+    "portraitCertifiedInPlace": true,
+    "protectionType": "",
+    "type": "image",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "height": 1536,
+       "kind": "image",
+       "width": 2752
+      }
+     ]
+    }
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-ulhQYtUALo": {
+   "nodeKey": "i-ulhQYtUALo",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 4 - 副本",
+   "position": {
+    "positionX": "847.5962873908807",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "image_generate",
+    "alt": "图片 4",
+    "contentHeight": 350,
+    "contentWidth": 627,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "图片节点 4 - 副本",
+    "params": {
+     "advancedSettings": {
+      "searchable": 0
+     },
+     "audioList": [],
+     "cameraControl": {
+      "aperture": "f/4",
+      "camera": "panavision_dxl2",
+      "enabled": false,
+      "focal": "35mm",
+      "lens": "arri_signature_prime"
+     },
+     "count": 1,
+     "fineTuneModels": [],
+     "imageList": [
+      {
+       "height": 1536,
+       "label": "图片节点 1 - 副本",
+       "nodeId": "i-LJgBVwBfT7",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981051269_efdf98e23cfe482a8088df908e395f9a.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-LJgBVwBfT7"
+     ],
+     "modeType": "image2image",
+     "model": "nebula-ultra",
+     "prompt": "把图中的角色缩小一倍",
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "textList": [],
+     "videoList": []
+    },
+    "portraitCertifiedInPlace": true,
+    "protectionType": "",
+    "type": "image",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981058522_db5557ca79e240279e78d80582031e5b.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "height": 1536,
+       "kind": "image",
+       "width": 2752
+      }
+     ]
+    }
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "i-Wvnfi6ODOx": {
+   "nodeKey": "i-Wvnfi6ODOx",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 2,
+   "name": "图片节点 3 - 副本",
+   "position": {
+    "positionX": "139.59628739088066",
+    "positionY": "90.6426393229446"
+   },
+   "measured": {
+    "width": "627",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "image_generate",
+    "alt": "图片 3",
+    "contentHeight": 350,
+    "contentWidth": 627,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "图片节点 3 - 副本",
+    "params": {
+     "advancedSettings": {
+      "searchable": 0
+     },
+     "audioList": [],
+     "cameraControl": {
+      "aperture": "f/4",
+      "camera": "panavision_dxl2",
+      "enabled": false,
+      "focal": "35mm",
+      "lens": "arri_signature_prime"
+     },
+     "count": 1,
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P"
+     ],
+     "modeType": "image2image",
+     "model": "nebula-ultra",
+     "prompt": "呱比来到了一个毛茸茸的世界，看着着一个巨大的毛茸茸的鳄鱼，非常巨大非常圆润的鳄鱼，在毛茸茸的河流里睡觉，低角度仰视视角。色彩鲜艳。鳄鱼非常大，呱比只有它鼻子大。\nUE5 实时渲染，写实电影质感基底，叠加三渲二夸张卡通形变表演。材质超写实，肢体、表情、动作保留夸张弹性张力，兼顾高级氛围感与喜剧表现力。添加更多细节，植被纹理，泥土颗粒。\n光影系统：明暗层次细腻，植被透光，无死黑、无过曝，整体色调清新治愈、高级通透，电影胶片质感。",
+     "settings": {
+      "quality": "2K",
+      "ratio": "16:9"
+     },
+     "textList": [],
+     "videoList": []
+    },
+    "portraitCertifiedInPlace": true,
+    "protectionType": "",
+    "type": "image",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/4482e2b6ce3e405faae6693d15c1e512/971949478_2c2f9aa181054f5a8aaf390cd46b28ac.png"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "height": 1536,
+       "kind": "image",
+       "width": 2752
+      }
+     ]
+    }
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-DwnTAQsIZF": {
+   "nodeKey": "t-DwnTAQsIZF",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 2 - 副本",
+   "position": {
+    "positionX": "2155.5962873908807",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "460",
+    "height": "365"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_generate",
+    "content": [
+     "这是一份为你量身定制的18秒奥斯卡级别微电影脚本，专注于动态微表情、流畅的运镜与纯音效设计。\n\n**影片名称：** 《呱比的奇妙之门》\n**时长：** 18秒\n**角色：** 呱比（18cm，呆萌弹软青蛙，猫系动作，舌头外耷）\n**音频设定：** 纯音效，无背景音乐。\n\n---\n\n### 分镜脚本（0:00 - 0:18）\n\n**【镜头 1】0:00 - 0:03**\n*   **画面/运镜：** [低角度，推镜头] 镜头贴近长满青苔的地面，焦点对准远处的毛茸茸巨门，巨门高耸入云。前景中，18cm的呱比蹦跶着入画。镜头随着它的跳跃微微上下晃动，最终停在巨门前，推至呱比的背影与巨门的对比全景。\n*   **动作/微表情演技：** 呱比像小猫一样轻巧地走到门前，短小的前肢像猫踩奶一样在地上按了两下。它的身体前倾，脑袋先向左歪（瞳孔微张），再向右歪（舌头随着惯性甩动了一下）。\n*   **音效：** \n    *   连续且富有弹性的脚步声：“噗叽、噗叽”\n    *   猫踩奶时的摩擦声：“沙沙”\n    *   左歪头音效：“呱比？”（短促疑惑，鼻音重）\n    *   右歪头音效：“呱比~”（尾音上扬）\n\n**【镜头 2】0:03 - 0:06**\n*   **画面/运镜：** [特写，仰拍转平视] 镜头从呱比的下巴下方仰拍，捕捉它极度后仰的脑袋，然后镜头顺着它的视线向上平摇，展示巨门的高度，最后快速落回呱比的面部特写。\n*   **动作/微表情演技：** 呱比极力仰起头，双眼因为过度惊叹而瞬间瞪圆，瞳孔因为兴奋而放大。原本耷拉的舌头猛地回缩了一下，又马上掉落出来。它情不自禁地抬起一只短小的前爪，像猫伸懒腰一样探向毛茸茸的门面。\n*   **音效：** \n    *   抬头脖子关节的清脆声：“咔哒”\n    *   惊叹声：“呱——比哦！”（类似幼童极度惊讶的软糯音）\n    *   舌头回弹与掉出的音效：“吧唧”\n    *   前爪伸出的摩擦音：“咻”\n\n**【镜头 3】0:06 - 0:09**\n*   **画面/运镜：** [极特写，微距镜头] 镜头死死咬住呱比的前爪和巨门的接触点。\n*   **动作/微表情演技：** 呱比肉嘟嘟的指尖刚刚触碰到巨门上毛茸茸的纤维，指尖因按压产生微小的形变。瞬间，原本暗淡的神秘纹路像被注入了发光液体，亮蓝色的光芒沿着纹路脉络状快速蔓延。\n*   **音效：**\n    *   触碰纤维的柔软声：“扑哧”\n    *   光芒注入的流动声：“滋……嗡嗡嗡”（高频电流感，逐渐增强）\n    *   呱比满足的声音：“呱比~”（像小猫被顺毛时的呼噜声）\n\n**【镜头 4】0:09 - 0:12**\n*   **画面/运镜：** [中景，剧烈手摇镜头] 画面开始产生高频的震动感。一道极其刺眼的白光从门缝中呈扇形射出。镜头快速拉远，展示呱比在强光下的反应。\n*   **动作/微表情演技：** 门缝裂开，强光刺眼。呱比被震动吓到，身体像果冻一样剧烈抖动（抗击打弹性体现）。它的眼睛瞬间从圆瞪变成害怕的“ >< ”形，舌头被强风吹得直往脸上拍。它下意识地想往后退，两只后脚在地上像猫一样疯狂空踩打滑。\n*   **音效：**\n    *   巨门震动的轰隆声：“轰隆隆隆”\n    *   光束穿透的锐利声：“唰——！”\n    *   呱比受惊吓的声音：“呱！比比比比！”（短促、急切）\n    *   舌头拍打脸颊的声音：“啪嗒啪嗒”\n    *   脚底打滑的摩擦声：“叽叽叽叽”\n\n**【镜头 5】0:12 - 0:15**\n*   **画面/运镜：** [环绕镜头，子弹时间] 镜头以呱比为中心进行慢动作360度环绕。光线如同实体的波浪般扫过四周。\n*   **动作/微表情演技：** 在慢镜头中，强光扫过之处，原本坚硬的石头、树木表面瞬间长出五颜六色的绒毛。呱比的后退动作停滞了，它的眼睛再次睁开，看着周围变成毛茸茸的世界。它的瞳孔里反射出斑斓的光影，嘴角微微上扬，舌头在半空中呈现出一个开心的波浪形。盲目乐观的性格瞬间覆盖了恐惧。\n*   **音效：**\n    *   环境变异的细密生长声：“簌簌簌簌……”（立体声环绕）\n    *   呱比极其享受、拖长音的惊叹：“呱~~~比~~~”（充满奶音的痴迷）\n\n**【镜头 6】0:15 - 0:18**\n*   **画面/运镜：** [正反打快速切换，急速拉镜头] 镜头先是对准门内深邃旋转的星系魔法特效（正打），然后瞬间切到呱比呆滞微笑着的脸（反打）。接着镜头急速后拉，跟随着几根突袭的毛茸茸树根。\n*   **动作/微表情演技：** 巨门完全大开。呱比正沉浸在美好的世界中，门内突然射出几根毛茸茸的发光树根。呱比脸上的笑容还没消失，树根已经像包粽子一样缠住了它弹性的身体（身体被勒出深深的凹陷，但毫发无伤）。呱比只来得及发出一声短促的疑问，瞬间被拉向门内深渊。\n*   **音效：**\n    *   门内魔法旋转的空灵声：“呜——”\n    *   树根破风而出的急速声：“嗖嗖嗖！”\n    *   缠绕身体的摩擦与弹性挤压声：“叽咕！”\n    *   被拉飞的音效：“呱！比——”（声音随距离迅速变小）\n    *   极其沉重且干脆的关门声：“嘭！！！”（紧接着是门缝闭合的“咔哒”上锁声）\n\n**【黑屏】0:18**\n*   **音效：** 寂静一秒后，黑暗中传来极小声、略带委屈的一句：“呱比…”（回音）"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 2 - 副本",
+    "nodeHeight": 365,
+    "nodeWidth": 460,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "height": 1536,
+       "label": "图片节点 1 - 副本",
+       "nodeId": "i-LJgBVwBfT7",
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981051269_efdf98e23cfe482a8088df908e395f9a.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-LJgBVwBfT7"
+     ],
+     "model": "aurora-3-prime",
+     "prompt": "你是专业电影导演，请根据剧情和分镜画面生成顶级的18S电影脚本，分镜要合理。分点描述。\n不要背景音乐，只要音效。 需要加入运镜描述。可以加入更多的分镜来保持画面流畅度，并增加奥斯卡级别的微表情演技描述，要动态描述，不要静态。 ​",
+     "textList": [
+      {
+       "content": [
+        "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：\n\n呱比走到一个毛茸茸的巨门下，呱比好奇的身体前倾左探右探，抬头发出惊叹的表情，然后好奇的伸手摸了摸毛茸茸的巨门，突然原本巨门表面暗淡的纹路依次发起光芒（可以有一些局部特写，像注入液体光芒那样的效果），画面开始震动，一道光芒从门中间的缝隙发出，门缓缓打开，呱比露出震惊的表情，正准备往后倒退，门里面突然散发光芒，整个世界随着光线经过变成毛茸茸的世界，呱比看着四周发出惊叹的表情，此时门完全打开，光芒消散后，门内露出旋转的魔法特效，然后几根毛茸茸的树根从门内快速伸出缠绕住呱比，咻的一下，把呱比带入门中，啪的一声，门关上了。黑屏"
+       ],
+       "nodeId": "t-hH6tE7xp9u"
+      }
+     ],
+     "videoList": []
+    },
+    "staleVersion": 242,
+    "type": "text"
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-hH6tE7xp9u": {
+   "nodeKey": "t-hH6tE7xp9u",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 3 - 副本",
+   "position": {
+    "positionX": "1570.5962873908807",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "479",
+    "height": "346"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_resource",
+    "content": [
+     "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：\n\n呱比走到一个毛茸茸的巨门下，呱比好奇的身体前倾左探右探，抬头发出惊叹的表情，然后好奇的伸手摸了摸毛茸茸的巨门，突然原本巨门表面暗淡的纹路依次发起光芒（可以有一些局部特写，像注入液体光芒那样的效果），画面开始震动，一道光芒从门中间的缝隙发出，门缓缓打开，呱比露出震惊的表情，正准备往后倒退，门里面突然散发光芒，整个世界随着光线经过变成毛茸茸的世界，呱比看着四周发出惊叹的表情，此时门完全打开，光芒消散后，门内露出旋转的魔法特效，然后几根毛茸茸的树根从门内快速伸出缠绕住呱比，咻的一下，把呱比带入门中，啪的一声，门关上了。黑屏"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 3 - 副本",
+    "nodeHeight": 346,
+    "nodeWidth": 479,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [],
+     "model": "aurora-3-prime",
+     "prompt": "",
+     "textList": [],
+     "videoList": []
+    },
+    "type": "text"
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-jxfghVzTha": {
+   "nodeKey": "t-jxfghVzTha",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 1 - 副本",
+   "position": {
+    "positionX": "139.59628739088066",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "404",
+    "height": "359"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_resource",
+    "content": [
+     "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：画面一开始就是毛茸茸的鳄鱼仰着头，突然张开嘴发出一声咆哮，全景坐在鳄鱼鼻子上的呱比没抓稳，顺着鼻子的高点一路滑到了低点鳄鱼的后脑勺上，呱比紧紧的抓住鳄鱼毛茸茸的后脑勺，探头往前看，发现自己就像骑鳄鱼那样，呱比眼睛一转幻想出自己在骑马（头上出现一个可爱的幼童幻想框），然后开心的摆出了经典的指挥往前行走的姿势，毛茸茸的鳄鱼恼怒了，用力的甩了甩头，呱比惨叫着被甩出右边画外。"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 1 - 副本",
+    "nodeHeight": 359,
+    "nodeWidth": 404,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [],
+     "model": "aurora-3-prime",
+     "prompt": "",
+     "textList": [],
+     "videoList": []
+    },
+    "type": "text"
+   },
+   "parentKey": "g-F0cxRVblWq",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-oKe8YkCrKi": {
+   "nodeKey": "t-oKe8YkCrKi",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 3 - 副本",
+   "position": {
+    "positionX": "1592.7926169689067",
+    "positionY": "98.6426393229446"
+   },
+   "measured": {
+    "width": "479",
+    "height": "346"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_resource",
+    "content": [
+     "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：\n\n呱比从天空惨叫着掉下了下来，掉到一个毛茸茸的地上弹了两下，顺势坐了下来（其实是毛茸茸的巨大鳄鱼鼻子上），呱比晕乎乎的甩了两下头（此时呱比应该背对着鳄鱼紧闭的眼睛），呱比先呆呆的看了一下四周，原来这个世界是毛茸茸的世界（单独展示四周毛茸茸的世界和一些毛茸茸植物的特写片段，地上的溪流像绸缎一样流动。），然后呱比歪了歪头露出思考的表情，呱比摸了摸地上毛茸茸的，感受到地面的柔软，露出舒服的表情，然后把脸贴到毛茸茸的地上一上一下的蹭了蹭脸，丝毫没注意到同时身后毛茸茸的地方睁开了两只大眼睛（呱比蹭脸和鳄鱼睁开眼睛是同时发生），然后切到鳄鱼的视角，看到呱比趴着的屁股对着自己像猫一样扭来扭去，鳄鱼怒了，准备起身，呱比忽然感觉周围的场景开始移动，呱比好奇的往四周看了看，惊讶的发现自己坐的地方正在往上移动，镜头拉远，原来是一只巨大的毛茸茸的鳄鱼正在起来，而呱比正好在它的鼻子上，呱比正回头一看，黑屏。"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 3 - 副本",
+    "nodeHeight": 346,
+    "nodeWidth": 479,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [],
+     "model": "aurora-3-prime",
+     "prompt": "",
+     "textList": [],
+     "videoList": []
+    },
+    "type": "text"
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-qEdBv96T9I": {
+   "nodeKey": "t-qEdBv96T9I",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 1 - 副本",
+   "position": {
+    "positionX": "727.0962873908807",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "422",
+    "height": "342"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_generate",
+    "content": [
+     "这是一份为您定制的20秒顶级动画电影脚本。脚本以高频的镜头切换、丰富的运镜和精准的音效设计来展现动态张力和喜剧效果。\n\n---\n\n### **《呱比的“骑马”狂想曲》 (20秒动画脚本)**\n\n**角色设定重申：** 呱比（18CM，Q弹呆萌青蛙，吐舌，猫系动作，盲目乐观，全音效驱动） / 鳄鱼（巨大，毛绒质感，暴躁）\n**声音基调：** 纯音效驱动（无背景音乐），突出物理碰撞、毛绒摩擦、拟声词（短促鼻音+小奶狗混声）。\n\n---\n\n#### **镜头 1：深渊咆哮 (0s - 3s)**\n*   **景别：** 仰拍大特写 (Extreme Close-Up) -> 快速拉出变全景 (Zoom Out to Full Shot)\n*   **运镜：** 镜头贴近毛茸茸的鳄鱼下巴，随着鳄鱼仰头张嘴，镜头剧烈震动并快速向后拉远，展现鳄鱼全貌和坐在它鼻子上的微小绿点（呱比）。\n*   **画面动态：** 阳光穿透丛林，鳄鱼猛然仰起巨大的头颅，张开大嘴。原本悠闲坐在鳄鱼鼻尖最高处的呱比，因倾斜角度过大，身体失去平衡，标志性的舌头在半空中狂甩。\n*   **音效：**\n    *   沉闷且带有毛绒质感的鳄鱼咆哮声：“吼——！”（带有气流冲击感）。\n    *   呱比受到惊吓的拟声：“呱唧？！”（短促、上扬）。\n    *   呱比在半空中挥舞短手的风声：“呼呼呼”。\n\n#### **镜头 2：滑梯大冒险 (3s - 7s)**\n*   **景别：** 跟随中景 (Medium Shot) -> 侧面特写 (Profile Close-Up)\n*   **运镜：** 镜头锁定呱比，跟随它沿着鳄鱼的鼻梁向下滑行，形成一个动态的对角线构图。\n*   **画面动态：** 呱比像坐滑梯一样，圆滚滚、极具弹性的身体在鳄鱼毛茸茸的鼻梁上摩擦滑下。它的脸被毛绒挤压变形，舌头被风吹得贴在脸上。滑至最低点后，借着惯性“吧唧”一下弹到了鳄鱼的后脑勺上，像猫一样四肢扒住毛发。\n*   **音效：**\n    *   毛发摩擦的滑行声：“呲溜溜溜——”。\n    *   Q弹身体撞击后脑勺的音效：“波哟！”（极具弹性）。\n    *   四肢抓紧毛发的声音：“嚓嚓嚓”。\n    *   呱比发出的声音：“呱…比比比！”（快速抖动音）。\n\n#### **镜头 3：盲目乐观的骑士 (7s - 12s)**\n*   **景别：** 过肩特写 (Over-the-shoulder Close-Up) -> 正面中景 (Medium Shot)\n*   **运镜：** 镜头从呱比背后越过，带出它眼前的视角（长长的鳄鱼背部），随后镜头以半弧形平移至呱比正面，展现它的表情变化。\n*   **画面动态：** 呱比探出半个身子往前看，大眼睛突然一亮（瞳孔放大）。它的头顶上方瞬间“啵”地弹出一个粉嫩的幼童手绘风幻想框：框内是呱比骑着一匹帅气木马的简笔画。呱比立刻盲目乐观起来，松开一只手，像猫一样在鳄鱼头上踩了踩奶，然后直起身子，一手抓毛，一手指着前方，摆出极其嚣张可爱的“冲锋”姿势。\n*   **音效：**\n    *   眨眼的音效：“眨巴”。\n    *   幻想框弹出的音效：“啵！”（清脆的水泡声）。\n    *   猫咪踩奶摩擦毛发的音效：“呼噜…呼噜…”。\n    *   呱比充满斗志的专属音效：“呱比！！”（奶凶且短促）。\n\n#### **镜头 4：巨兽之怒 (12s - 17s)**\n*   **景别：** 荷兰角全景 (Dutch Angle Full Shot)\n*   **运镜：** 镜头倾斜，增加不稳定的紧张感。随着鳄鱼甩头，镜头进行高速的左右横摇（Whip Pan）。\n*   **画面动态：** 鳄鱼显然感觉到了头顶的异动，原本呆滞的眼睛瞬间眯起，充满恼怒。它用力地、大幅度地左右狂甩脑袋（像狗甩水一样），毛发剧烈翻滚。呱比的“冲锋”姿势瞬间崩溃，双手死死抱住一撮毛，整个身体像一面旗帜一样在风中被甩得左右横飞，舌头拉得老长。\n*   **音效：**\n    *   鳄鱼低沉的怒吼：“咕噜噜噜——（低频震动）”。\n    *   沉重的甩头风声：“呼啦！呼啦！呼啦！”。\n    *   呱比惊恐且带弹性的惨叫：“呱——比——呱——比——！”（声音随着甩动忽左忽右，带有强烈的多普勒效应）。\n\n#### **镜头 5：弹射起飞 (17s - 20s)**\n*   **景别：** 慢动作特写 (Slow Motion Close-Up) -> 快速平移全景 (Whip Pan Full Shot)\n*   **运镜：** 镜头极度放慢，捕捉呱比脱手的瞬间，随后镜头瞬间加速，向右侧画面猛烈平移，跟随呱比飞出的轨迹。\n*   **画面动态：** 慢动作下，呱比抓住的那撮毛承受不住拉力断裂（或松手），呱比圆滚滚的身体由于极强的弹性，在鳄鱼头上被挤压成一个饼状，然后像炮弹一样向画面右侧猛烈弹射出去，瞬间飞出画外。画面只剩下鳄鱼还在愤愤不平地打着响鼻。\n*   **音效：**\n    *   慢动作下毛发断裂/脱手的细微声：“嘣——”。\n    *   极具爆发力的弹簧弹射声：“BOING——！！！”（夸张的动画弹跳音）。\n    *   呱比渐行渐远的惨叫：“呱比比比比比…………”（尾音带回声，迅速减弱）。\n    *   鳄鱼打响鼻的声音：“噗噜！”（带出一点尘土飞扬的音效）。"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 1 - 副本",
+    "nodeHeight": 342,
+    "nodeWidth": 422,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749 - 副本",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms"
+     ],
+     "model": "aurora-3-prime",
+     "prompt": "你是专业电影导演，请根据剧情和分镜画面生成顶级的20S电影脚本，分镜要合理。分点描述。\n不要背景音乐，只要音效。 需要加入运镜描述。可以加入更多的分镜来保持画面流畅度，要动态描述，不要静态。 ​",
+     "textList": [
+      {
+       "content": [
+        "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：画面一开始就是毛茸茸的鳄鱼仰着头，突然张开嘴发出一声咆哮，全景坐在鳄鱼鼻子上的呱比没抓稳，顺着鼻子的高点一路滑到了低点鳄鱼的后脑勺上，呱比紧紧的抓住鳄鱼毛茸茸的后脑勺，探头往前看，发现自己就像骑鳄鱼那样，呱比眼睛一转幻想出自己在骑马（头上出现一个可爱的幼童幻想框），然后开心的摆出了经典的指挥往前行走的姿势，毛茸茸的鳄鱼恼怒了，用力的甩了甩头，呱比惨叫着被甩出右边画外。"
+       ],
+       "nodeId": "t-jxfghVzTha"
+      }
+     ],
+     "videoList": []
+    },
+    "staleVersion": 700,
+    "type": "text"
+   },
+   "parentKey": "g-F0cxRVblWq",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-s0onIxwv3w": {
+   "nodeKey": "t-s0onIxwv3w",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 1 - 副本",
+   "position": {
+    "positionX": "2217.7926169689067",
+    "positionY": "98.6426393229446"
+   },
+   "measured": {
+    "width": "422",
+    "height": "342"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_generate",
+    "content": [
+     "### 《天降呱比》30秒分镜脚本\n\n**【镜号 01】 00:00 - 00:03**\n\n- **画面/运镜：** **极速俯冲追踪镜头（Tracking Shot）。** 镜头从高空云层极速垂直下坠，紧紧贴着呱比惊恐扭曲的脸。呱比的舌头因失重在半空中像波浪一样狂乱甩动，大眼睛被风吹得向内凹陷，眼瞳快速疯狂震颤。\n- **微表情/动态：** 呱比的眼皮因强风剧烈抖动，嘴角不受控制地向后扯开，前肢在空中像猫一样胡乱扑腾，试图抓住虚无的空气。\n- **音效：** 撕裂空气的尖锐风声（呼啸而过）。呱比发出拖长的、带着颤音的极度惊恐叫声：“呱——比！！！”（短促弹性发声，带着重鼻音和变调）。\n\n**【镜号 02】 00:03 - 00:06**\n\n- **画面/运镜：** **地面低角度固定镜头（Low Angle Shot）。** 画面前景是一片毛茸茸的巨大绿色“丘陵”（鳄鱼鼻子）。“砰”的一声，呱比重重砸进柔软的毛发中，镜头随着撞击产生微弱的**手持震动感（Camera Shake）**。呱比像一颗极具弹性的橡胶球，在画面中“Q弹”地上下弹跳了两次，最后呈“鸭子坐”瘫在毛坑里。\n- **微表情/动态：** 呱比背对着镜头后方（鳄鱼紧闭的右眼），两眼变成眩晕的蚊香状，舌头软趴趴地挂在嘴边。它像小狗甩水一样，脑袋快速且高频地左右甩动了两下，眼球随着惯性在眼眶里“吧嗒”转了一圈，才勉强聚焦。\n- **音效：** 砸中柔软物体的沉闷撞击声（Puff！），两声极具弹性的合成器音效（Boing! Boing!）。甩头时伴随类似布拨浪鼓摇晃的“噜噜噜”声。呱比发出晕乎乎的嘟囔：“呱比…呜…”\n\n**【镜号 03】 00:06 - 00:10**\n\n- **画面/运镜：** **环绕主观镜头（POV to Orbit Pan）。** 镜头模拟呱比的视线环顾四周，随后丝滑地转为环绕呱比的第三人称特写。展示四周巨大的毛绒花朵随风轻摆，地面上流淌的溪流泛着高级丝绸般顺滑的波纹反射光。\n- **微表情/动态：** 呱比原本呆滞的瞳孔瞬间放大，倒映出波光粼粼的溪流。它的小脑袋像齿轮卡顿一样，一顿一顿地歪向左边45度，左眼眶微微收缩，下嘴唇向前嘟起，挤出一个极度拟人化的“疑惑与思考”褶皱。\n- **音效：** 微风拂过毛绒植物的沙沙声，溪流宛如丝绸摩擦般的潺潺水声。呱比歪头时发出短促鼻音：“呱？”\n\n**【镜号 04】 00:10 - 00:15**\n\n- **画面/运镜：** **大特写（Extreme Close-up）接 移焦镜头（Rack Focus）。** 镜头聚焦呱比短短的小手，它小心翼翼地按压地面，毛绒向下凹陷。接着呱比整个身体趴下。此时，焦点从前景蹭脸的呱比，瞬间转移到背景——那片巨大的绿色“山丘”上，一条巨大的缝隙缓缓裂开，露出一只巨大的、竖瞳的琥珀色鳄鱼眼睛。\n- **微表情/动态：** 呱比的手指感受到柔软，瞳孔立刻扩充到眼眶的90%，嘴角不可抑制地上扬成波浪形。它像猫咪一样闭上眼睛，在地面上用侧脸极其享受地一上一下摩擦。鳄鱼的眼皮则以一种极其缓慢、沉重且充满压迫感的方式向上拉开。\n- **音效：** 手掌按压毛绒的“呲啦”轻响。呱比发出极其满足、类似小猫踩奶时的呼噜声：“呱比\\~”。背景传来极其低沉、宛如远古巨兽呼吸的沉闷轰鸣音，以及鳄鱼眼皮摩擦的干涩沙沙声。\n\n**【镜号 05】 00:15 - 00:19**\n\n- **画面/运镜：** **鳄鱼视角。** 正前方，呱比圆润的绿色小屁股正对着屏幕。\n- **微表情/动态：** 呱比毫无察觉，身体完全放松，短小的后腿一蹬一蹬，屁股像发情的猫一样极其妖娆且有节奏地左右扭动。鳄鱼的竖瞳瞬间剧烈收缩至针尖大小，眼角因愤怒抽搐了两下。\n- **音效：** 呱比屁股摩擦毛发的“簌簌”声，伴随着它欢快的哼唧声：“呱比\\~呱比\\~”。突然，一声极其低沉、令空气震颤的喉音闷吼（Growl）从四面八方包围过来。\n\n**【镜号 06】 00:19 - 00:24**\n\n- **画面/运镜：** **中景跟随镜头（Medium Tracking Shot）。** 画面开始发生剧烈的低频震颤。镜头随着呱比所在的“地面”缓缓抬升。呱比的身体因重力稍微向下滑了一下。\n- **微表情/动态：** 呱比蹭脸的动作戛然而止，脸颊的肉还保持着被挤压的变形状态。它猛地睁开眼，舌头迅速缩回嘴里，两只眼睛分别向左右两边惊恐地瞟了一下，然后双手死死抠住地面的毛发，下巴惊恐地掉到了胸口。\n- **音效：** 类似地震般的低频轰隆声（Rumble），巨大的骨骼和肌肉摩擦的“嘎吱”声。呱比发出倒吸一口凉气的短促倒抽音：“嘶——呱？！”\n\n**【镜号 07】 00:24 - 00:28**\n\n- **画面/运镜：** **快速拉远全景（Fast Pull-back Wide Shot）。** 镜头如同被弹弓射出般急速向后拉远，穿过毛茸茸的植物缝隙，展现出完整的宏大场景：一只如同小山般巨大的毛绒鳄鱼正撑起前肢，而呱比仅仅是它鼻尖上一个微小的绿色斑点。\n- **微表情/动态：** 鳄鱼仰起头。呱比在半空中保持着趴姿，艰难地一点点回过头，脖子转动出极其僵硬的机械感。\n- **音效：** 巨大的水花四溅声（鳄鱼从溪流中起身），震耳欲聋的巨兽咆哮前奏吸气声。\n\n**【镜号 08】 00:28 - 00:30**\n\n- **画面/运镜：** **极速推镜头（Crash Zoom）。** 镜头在一瞬间推至呱比和鳄鱼巨眼对视的超级特写。\n- **微表情/动态：** 呱比与鳄鱼对视的瞬间，呱比的瞳孔骤然缩小到只剩一个黑点，。\n- **音效：** 万籁俱寂中，只有极其清脆的一声咽口水的音效（Gulp！），紧接着呱比发出一声极其绝望、变了调的尖叫：“呱————！！！”"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 1 - 副本",
+    "nodeHeight": 342,
+    "nodeWidth": 422,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792891794990,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 3 - 副本",
+       "nodeId": "i-Wvnfi6ODOx",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/4482e2b6ce3e405faae6693d15c1e512/971949478_2c2f9aa181054f5a8aaf390cd46b28ac.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-Wvnfi6ODOx",
+      "i-osXHLl82Ms"
+     ],
+     "model": "aurora-3-prime",
+     "prompt": "你是专业电影导演，请根据剧情和分镜画面生成顶级的30S电影脚本，分镜要合理。分点描述。\n不要背景音乐，只要音效。 需要加入运镜描述。可以加入更多的分镜来保持画面流畅度，并增加奥斯卡级别的微表情演技描述，要动态描述，不要静态。 ​",
+     "textList": [
+      {
+       "content": [
+        "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：\n\n呱比从天空惨叫着掉下了下来，掉到一个毛茸茸的地上弹了两下，顺势坐了下来（其实是毛茸茸的巨大鳄鱼鼻子上），呱比晕乎乎的甩了两下头（此时呱比应该背对着鳄鱼紧闭的眼睛），呱比先呆呆的看了一下四周，原来这个世界是毛茸茸的世界（单独展示四周毛茸茸的世界和一些毛茸茸植物的特写片段，地上的溪流像绸缎一样流动。），然后呱比歪了歪头露出思考的表情，呱比摸了摸地上毛茸茸的，感受到地面的柔软，露出舒服的表情，然后把脸贴到毛茸茸的地上一上一下的蹭了蹭脸，丝毫没注意到同时身后毛茸茸的地方睁开了两只大眼睛（呱比蹭脸和鳄鱼睁开眼睛是同时发生），然后切到鳄鱼的视角，看到呱比趴着的屁股对着自己像猫一样扭来扭去，鳄鱼怒了，准备起身，呱比忽然感觉周围的场景开始移动，呱比好奇的往四周看了看，惊讶的发现自己坐的地方正在往上移动，镜头拉远，原来是一只巨大的毛茸茸的鳄鱼正在起来，而呱比正好在它的鼻子上，呱比正回头一看，黑屏。"
+       ],
+       "nodeId": "t-oKe8YkCrKi"
+      }
+     ],
+     "videoList": []
+    },
+    "staleVersion": 551,
+    "type": "text"
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "t-ZmM9sfcWkf": {
+   "nodeKey": "t-ZmM9sfcWkf",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 1,
+   "name": "文本节点 1 - 副本",
+   "position": {
+    "positionX": "805.546917375676",
+    "positionY": "98.64263932294443"
+   },
+   "measured": {
+    "width": "422",
+    "height": "342"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "text_generate",
+    "content": [
+     "###  详细分镜脚本\n\n**1. 镜头一：巨兽之吼（0s - 4s）**\n\n- **景别：** 全景转中景（远 -&gt; 中）\n- **运镜：** 低角度仰拍（Low Angle），镜头快速向前推进（Push in）。\n- **画面：** 阳光透过森林缝隙洒下，一只巨大的、满身绿色毛绒的鳄鱼猛地向上仰起头，张开大嘴。在它巨大的鼻尖上，只有18CM大小的青蛙“呱比”原本正呆萌地坐着，舌头耷拉在嘴外。随着鳄鱼仰头，呱比失去平衡，小短手在空中乱抓。\n- **音效：**\n  - 鳄鱼沉闷且带有毛绒质感的巨大咆哮声：“吼——”（像蒙在被子里的大老虎发出的声音）。\n  - 呱比受到惊吓，发出短促、鼻音极重的小奶狗音效：“呱！？”\n\n**2. 镜头二：极限滑梯（4s - 8s）**\n\n- **景别：** 特写（CU）\n- **运镜：** 镜头锁定呱比面部，随其运动轨迹高速跟随跟拍（Tracking shot）。\n- **画面：** 呱比胖嘟嘟的、富有弹性的身体因为重力，顺着鳄鱼毛茸茸的鼻子高点一路向下滑。它的肚皮与鳄鱼的绒毛产生摩擦，身体像果冻一样发生Q弹的形变，舌头在风中乱甩。\n- **音效：**\n  - 肚皮摩擦毛绒的“呲溜溜”声（类似滑滑梯）。\n  - 呱比身体弹动的“波嘤、波嘤”声。\n  - 呱比滑行时发出颤音：“呱比比比比——”\n\n**3. 镜头三：死里逃生（8s - 12s）**\n\n- **景别：** 近景（MCU）\n- **运镜：** 镜头从鳄鱼头顶上方俯拍，随后急速下降，停在呱比后侧方（Over the shoulder）。\n- **画面：** 呱比一路滑落到鳄鱼的后脑勺低谷处。它眼疾手快，两只具有猫爪习性的小手死死揪住了鳄鱼后脑勺上两撮厚实的绒毛。它小心翼翼地从毛发中间探出半个呆萌的脑袋，往前方（鳄鱼视野）张望。\n- **音效：**\n  - 抓住毛发的“揪！”（类似拔萝卜的紧绷声）。\n  - 呱比长舒一口气的声音：“呼…呱比\\~”\n\n**4. 镜头四：盲目乐观（12s - 18s）**\n\n- **景别：** 特写（CU）\n- **运镜：** 镜头极慢地推近（Slow Zoom in），聚焦呱比的眼睛。\n- **画面：** 呱比看着前方宽阔的鳄鱼背部，神经大条的性格瞬间占据上风。它大大的眼睛突然向上“滴溜溜”一转。画面上方“啵”地弹出一个粉笔画风的幼童幻想气泡框——气泡里，一只简笔画的呱比正威风凛凛地骑着一匹高头大马。\n- **音效：**\n  - 眼珠转动的木鱼清脆声：“滴嘟”。\n  - 幻想框弹出的气泡音：“啵！”。\n  - 呱比发出极其得意、短促的奶笑声：“呱比！”\n\n**5. 镜头五：冲锋号角（18s - 23s）**\n\n- **景别：** 中景（MS）\n- **运镜：** 环绕推轨镜头（Arc shot），从呱比正面快速绕到它的侧面，展现它与鳄鱼头部的比例。\n- **画面：** 呱比完全忘记了身处险境，它松开一只手，另一只手揪住鳄鱼毛，身体像果冻一样向上弹起立直。它闭着眼睛，高高举起空出的那只手，手指直指前方，摆出极其嚣张的“指挥大军前进”的经典姿势，嘴里的舌头因为兴奋而疯狂晃动。\n- **音效：**\n  - 身体弹直的弹簧音：“杜昂\\~”\n  - 衣服/身体摩擦的紧绷声。\n  - 呱比发出极其高亢、充满奶味和鼻音的冲锋口号：“呱——比！！！”\n\n**6. 镜头六：巨兽之怒（23s - 26s）**\n\n- **景别：** 全景（LS）\n- **运镜：** 固定镜头，画面带有强烈的震动感（Camera Shake）。\n- **画面：** 鳄鱼显然被头上这个拽它毛发的小东西激怒了。它的眼睛瞬间竖起瞳孔，脖子肌肉紧绷，极其狂暴、用力地向右侧猛烈甩动了三次大脑袋。\n- **音效：**\n  - 沉重且带有狂风呼啸的甩头声：“呼哧！呼哧！呼哧！”\n  - 鳄鱼不耐烦的低吼声。\n\n**7. 镜头七：光速退场（26s - 30s）**\n\n- **景别：** 特写转极远景（CU -&gt; ELS）\n- **运镜：** 镜头先极速定格在呱比震惊变形的脸上（甩动产生的离心力让它的脸皮向一边拉扯），随后镜头不动，看着呱比飞出画面。\n- **画面：** 呱比的冲锋姿势还没收回，小手从鳄鱼毛上脱落。在离心力的作用下，瞬间化作一道绿色的残影，被笔直地甩飞出画面右侧。画面中只剩下鳄鱼气呼呼地喘着粗气。\n- **音效：**\n  - 手指脱离毛发的“崩”断声。\n  - 呱比飞梭出去的经典卡通破空声：“嗖——”\n  - 空中渐渐远去、回荡的可爱惨叫声（鼻音极重）：“呱…比…比…比…（声音越来越小）”"
+    ],
+    "generatorType": "default",
+    "isStale": false,
+    "name": "文本节点 1 - 副本",
+    "nodeHeight": 342,
+    "nodeWidth": 422,
+    "params": {
+     "audioList": [],
+     "count": 1,
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749 - 副本",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms"
+     ],
+     "model": "aurora-3-prime",
+     "prompt": "你是专业电影导演，请根据剧情和分镜画面生成顶级的30S电影脚本，分镜要合理。分点描述。\n不要背景音乐，只要音效。 需要加入运镜描述。可以加入更多的远中近分镜和多个片段来保持画面流畅，节奏紧凑，分镜多一些，要动态描述，不要静态。 ​",
+     "textList": [
+      {
+       "content": [
+        "### 呱比\n\n1. **外貌特征：非常呆萌的**青蛙，**舌头经常耷拉在外面，一些动作具有猫的习性。**\n2. **性格：** 极度盲目乐观、神经大条。\n3. **专属配音：** 不会说话，但能发出很可爱的拟音，比如：“呱比”，很可爱的声调。\n4. **声线设定：** 类似幼童+小奶狗的混合发声位置，鼻音重，短促且充满弹性。\n5. 它的每个动作都会发出一个很可爱的音效。\n6. **物理属性：** 身体具有弹性，抗击打能力强。\n7. 呱比只有18CM大小。\n\n剧情：画面一开始就是毛茸茸的鳄鱼仰着头，突然张开嘴发出一声咆哮，全景坐在鳄鱼鼻子上的呱比没抓稳，顺着鼻子的高点一路滑到了低点鳄鱼的后脑勺上，呱比紧紧的抓住鳄鱼毛茸茸的后脑勺，探头往前看，发现自己就像骑鳄鱼那样，呱比眼睛一转幻想出自己在骑马（头上出现一个可爱的幼童幻想框），然后开心的摆出了经典的指挥往前行走的姿势，毛茸茸的鳄鱼恼怒了，用力的甩了甩头，呱比惨叫着被甩出右边画外。"
+       ],
+       "nodeId": "t-jxfghVzTha"
+      }
+     ],
+     "videoList": []
+    },
+    "staleVersion": 699,
+    "type": "text"
+   },
+   "parentKey": "g-3XtRHpQTZ4",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-9RBeKbNtDM": {
+   "nodeKey": "v-9RBeKbNtDM",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "3573.1925747817613",
+    "positionY": "90.6426393229446"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [],
+     "audioListOrder": [],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [],
+     "imageListOrder": [],
+     "mixedList": [],
+     "mixedListOrder": [],
+     "modeType": "text2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 ，场景 ，呱比的声线参考 ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 30,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 128,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/67259edaa2032ef71b16a62cb7a6bb6b2a17dd4e4789a728ac3c4e037714ba8a.mp4"
+    ],
+    "videoHasAudioTrack": true,
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 28853304,
+       "durationSec": 30.048,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-g8cNHGceR5": {
+   "nodeKey": "v-g8cNHGceR5",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "2135.880032198216",
+    "positionY": "98.64263932294443"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [],
+     "audioListOrder": [],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [],
+     "imageListOrder": [],
+     "mixedList": [],
+     "mixedListOrder": [],
+     "modeType": "text2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 ，场景 ，毛茸茸鳄鱼参考 ，呱比的声线参考 ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 30,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 226,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/af7193df8e77ea3701d1902e5dc00061c2a2d9150b430d45a7825e26498f1d7d.mp4"
+    ],
+    "videoHasAudioTrack": true,
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 30063933,
+       "durationSec": 30.08,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-3XtRHpQTZ4",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-KogcSEBKnq": {
+   "nodeKey": "v-KogcSEBKnq",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "3607.5962873908807",
+    "positionY": "105.64263932294466"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793610947000,
+    "_updatedAtMs": 1793610947000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [],
+     "audioListOrder": [],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [],
+     "imageListOrder": [],
+     "mixedList": [],
+     "mixedListOrder": [],
+     "modeType": "text2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 ，场景 ，呱比的声线参考 ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 20,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 40,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/3be870823d3123dd52003b157aea30a536bfde39ecd26669f55a8614fc62141b.mp4"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 20145397,
+       "durationSec": 15.072,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-oMqI7QcrEs": {
+   "nodeKey": "v-oMqI7QcrEs",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "2768.5962873908807",
+    "positionY": "114.64263932294466"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793610959000,
+    "_updatedAtMs": 1793610959000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "audioListOrder": [
+      "a-KT3q31KeTU"
+     ],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792847573044,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-ulhQYtUALo",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981058522_db5557ca79e240279e78d80582031e5b.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-ulhQYtUALo"
+     ],
+     "mixedList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792847573044,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-ulhQYtUALo",
+       "sourceCreatedAtMs": 1793609441000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981058522_db5557ca79e240279e78d80582031e5b.png",
+       "width": 2752
+      },
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "mediaType": "audio",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "mixedListOrder": [
+      "i-3PfGfiAX6P",
+      "i-ulhQYtUALo",
+      "a-KT3q31KeTU"
+     ],
+     "modeType": "mixed2video",
+     "model": "star-video2.5",
+     "prompt": "呱比{{Mixed 1}} ，场景{{Mixed 2}} ，呱比的声线参考{{Mixed 3}} ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 15,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [
+      {
+       "content": [
+        "这是一份为你量身定制的18秒奥斯卡级别微电影脚本，专注于动态微表情、流畅的运镜与纯音效设计。\n\n**影片名称：** 《呱比的奇妙之门》\n**时长：** 18秒\n**角色：** 呱比（18cm，呆萌弹软青蛙，猫系动作，舌头外耷）\n**音频设定：** 纯音效，无背景音乐。\n\n---\n\n### 分镜脚本（0:00 - 0:18）\n\n**【镜头 1】0:00 - 0:03**\n*   **画面/运镜：** [低角度，推镜头] 镜头贴近长满青苔的地面，焦点对准远处的毛茸茸巨门，巨门高耸入云。前景中，18cm的呱比蹦跶着入画。镜头随着它的跳跃微微上下晃动，最终停在巨门前，推至呱比的背影与巨门的对比全景。\n*   **动作/微表情演技：** 呱比像小猫一样轻巧地走到门前，短小的前肢像猫踩奶一样在地上按了两下。它的身体前倾，脑袋先向左歪（瞳孔微张），再向右歪（舌头随着惯性甩动了一下）。\n*   **音效：** \n    *   连续且富有弹性的脚步声：“噗叽、噗叽”\n    *   猫踩奶时的摩擦声：“沙沙”\n    *   左歪头音效：“呱比？”（短促疑惑，鼻音重）\n    *   右歪头音效：“呱比~”（尾音上扬）\n\n**【镜头 2】0:03 - 0:06**\n*   **画面/运镜：** [特写，仰拍转平视] 镜头从呱比的下巴下方仰拍，捕捉它极度后仰的脑袋，然后镜头顺着它的视线向上平摇，展示巨门的高度，最后快速落回呱比的面部特写。\n*   **动作/微表情演技：** 呱比极力仰起头，双眼因为过度惊叹而瞬间瞪圆，瞳孔因为兴奋而放大。原本耷拉的舌头猛地回缩了一下，又马上掉落出来。它情不自禁地抬起一只短小的前爪，像猫伸懒腰一样探向毛茸茸的门面。\n*   **音效：** \n    *   抬头脖子关节的清脆声：“咔哒”\n    *   惊叹声：“呱——比哦！”（类似幼童极度惊讶的软糯音）\n    *   舌头回弹与掉出的音效：“吧唧”\n    *   前爪伸出的摩擦音：“咻”\n\n**【镜头 3】0:06 - 0:09**\n*   **画面/运镜：** [极特写，微距镜头] 镜头死死咬住呱比的前爪和巨门的接触点。\n*   **动作/微表情演技：** 呱比肉嘟嘟的指尖刚刚触碰到巨门上毛茸茸的纤维，指尖因按压产生微小的形变。瞬间，原本暗淡的神秘纹路像被注入了发光液体，亮蓝色的光芒沿着纹路脉络状快速蔓延。\n*   **音效：**\n    *   触碰纤维的柔软声：“扑哧”\n    *   光芒注入的流动声：“滋……嗡嗡嗡”（高频电流感，逐渐增强）\n    *   呱比满足的声音：“呱比~”（像小猫被顺毛时的呼噜声）\n\n**【镜头 4】0:09 - 0:12**\n*   **画面/运镜：** [中景，剧烈手摇镜头] 画面开始产生高频的震动感。一道极其刺眼的白光从门缝中呈扇形射出。镜头快速拉远，展示呱比在强光下的反应。\n*   **动作/微表情演技：** 门缝裂开，强光刺眼。呱比被震动吓到，身体像果冻一样剧烈抖动（抗击打弹性体现）。它的眼睛瞬间从圆瞪变成害怕的“ >< ”形，舌头被强风吹得直往脸上拍。它下意识地想往后退，两只后脚在地上像猫一样疯狂空踩打滑。\n*   **音效：**\n    *   巨门震动的轰隆声：“轰隆隆隆”\n    *   光束穿透的锐利声：“唰——！”\n    *   呱比受惊吓的声音：“呱！比比比比！”（短促、急切）\n    *   舌头拍打脸颊的声音：“啪嗒啪嗒”\n    *   脚底打滑的摩擦声：“叽叽叽叽”\n\n**【镜头 5】0:12 - 0:15**\n*   **画面/运镜：** [环绕镜头，子弹时间] 镜头以呱比为中心进行慢动作360度环绕。光线如同实体的波浪般扫过四周。\n*   **动作/微表情演技：** 在慢镜头中，强光扫过之处，原本坚硬的石头、树木表面瞬间长出五颜六色的绒毛。呱比的后退动作停滞了，它的眼睛再次睁开，看着周围变成毛茸茸的世界。它的瞳孔里反射出斑斓的光影，嘴角微微上扬，舌头在半空中呈现出一个开心的波浪形。盲目乐观的性格瞬间覆盖了恐惧。\n*   **音效：**\n    *   环境变异的细密生长声：“簌簌簌簌……”（立体声环绕）\n    *   呱比极其享受、拖长音的惊叹：“呱~~~比~~~”（充满奶音的痴迷）\n\n**【镜头 6】0:15 - 0:18**\n*   **画面/运镜：** [正反打快速切换，急速拉镜头] 镜头先是对准门内深邃旋转的星系魔法特效（正打），然后瞬间切到呱比呆滞微笑着的脸（反打）。接着镜头急速后拉，跟随着几根突袭的毛茸茸树根。\n*   **动作/微表情演技：** 巨门完全大开。呱比正沉浸在美好的世界中，门内突然射出几根毛茸茸的发光树根。呱比脸上的笑容还没消失，树根已经像包粽子一样缠住了它弹性的身体（身体被勒出深深的凹陷，但毫发无伤）。呱比只来得及发出一声短促的疑问，瞬间被拉向门内深渊。\n*   **音效：**\n    *   门内魔法旋转的空灵声：“呜——”\n    *   树根破风而出的急速声：“嗖嗖嗖！”\n    *   缠绕身体的摩擦与弹性挤压声：“叽咕！”\n    *   被拉飞的音效：“呱！比——”（声音随距离迅速变小）\n    *   极其沉重且干脆的关门声：“嘭！！！”（紧接着是门缝闭合的“咔哒”上锁声）\n\n**【黑屏】0:18**\n*   **音效：** 寂静一秒后，黑暗中传来极小声、略带委屈的一句：“呱比…”（回音）"
+       ],
+       "nodeId": "t-DwnTAQsIZF"
+      }
+     ],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 36,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/a45cbe79eeb8638691f841a8e947aca3ec0b8a7453f1a65ae6561aa4d71a5db4.mp4"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 22316279,
+       "durationSec": 15.072,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-FzRhamExcn",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-RgX22S9oyr": {
+   "nodeKey": "v-RgX22S9oyr",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "1360.8999578128546",
+    "positionY": "90.64263932294466"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "audioListOrder": [
+      "a-KT3q31KeTU"
+     ],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749 - 副本",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms"
+     ],
+     "mixedList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      },
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "mediaType": "audio",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "mixedListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms",
+      "a-KT3q31KeTU"
+     ],
+     "modeType": "mixed2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 {{Mixed 1}} ，场景{{Mixed 2}} ，毛茸茸鳄鱼参考 {{Mixed 3}} ，呱比的声线参考 {{Mixed 4}} ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 20,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [
+      {
+       "content": [
+        "这是一份为您定制的20秒顶级动画电影脚本。脚本以高频的镜头切换、丰富的运镜和精准的音效设计来展现动态张力和喜剧效果。\n\n---\n\n### **《呱比的“骑马”狂想曲》 (20秒动画脚本)**\n\n**角色设定重申：** 呱比（18CM，Q弹呆萌青蛙，吐舌，猫系动作，盲目乐观，全音效驱动） / 鳄鱼（巨大，毛绒质感，暴躁）\n**声音基调：** 纯音效驱动（无背景音乐），突出物理碰撞、毛绒摩擦、拟声词（短促鼻音+小奶狗混声）。\n\n---\n\n#### **镜头 1：深渊咆哮 (0s - 3s)**\n*   **景别：** 仰拍大特写 (Extreme Close-Up) -> 快速拉出变全景 (Zoom Out to Full Shot)\n*   **运镜：** 镜头贴近毛茸茸的鳄鱼下巴，随着鳄鱼仰头张嘴，镜头剧烈震动并快速向后拉远，展现鳄鱼全貌和坐在它鼻子上的微小绿点（呱比）。\n*   **画面动态：** 阳光穿透丛林，鳄鱼猛然仰起巨大的头颅，张开大嘴。原本悠闲坐在鳄鱼鼻尖最高处的呱比，因倾斜角度过大，身体失去平衡，标志性的舌头在半空中狂甩。\n*   **音效：**\n    *   沉闷且带有毛绒质感的鳄鱼咆哮声：“吼——！”（带有气流冲击感）。\n    *   呱比受到惊吓的拟声：“呱唧？！”（短促、上扬）。\n    *   呱比在半空中挥舞短手的风声：“呼呼呼”。\n\n#### **镜头 2：滑梯大冒险 (3s - 7s)**\n*   **景别：** 跟随中景 (Medium Shot) -> 侧面特写 (Profile Close-Up)\n*   **运镜：** 镜头锁定呱比，跟随它沿着鳄鱼的鼻梁向下滑行，形成一个动态的对角线构图。\n*   **画面动态：** 呱比像坐滑梯一样，圆滚滚、极具弹性的身体在鳄鱼毛茸茸的鼻梁上摩擦滑下。它的脸被毛绒挤压变形，舌头被风吹得贴在脸上。滑至最低点后，借着惯性“吧唧”一下弹到了鳄鱼的后脑勺上，像猫一样四肢扒住毛发。\n*   **音效：**\n    *   毛发摩擦的滑行声：“呲溜溜溜——”。\n    *   Q弹身体撞击后脑勺的音效：“波哟！”（极具弹性）。\n    *   四肢抓紧毛发的声音：“嚓嚓嚓”。\n    *   呱比发出的声音：“呱…比比比！”（快速抖动音）。\n\n#### **镜头 3：盲目乐观的骑士 (7s - 12s)**\n*   **景别：** 过肩特写 (Over-the-shoulder Close-Up) -> 正面中景 (Medium Shot)\n*   **运镜：** 镜头从呱比背后越过，带出它眼前的视角（长长的鳄鱼背部），随后镜头以半弧形平移至呱比正面，展现它的表情变化。\n*   **画面动态：** 呱比探出半个身子往前看，大眼睛突然一亮（瞳孔放大）。它的头顶上方瞬间“啵”地弹出一个粉嫩的幼童手绘风幻想框：框内是呱比骑着一匹帅气木马的简笔画。呱比立刻盲目乐观起来，松开一只手，像猫一样在鳄鱼头上踩了踩奶，然后直起身子，一手抓毛，一手指着前方，摆出极其嚣张可爱的“冲锋”姿势。\n*   **音效：**\n    *   眨眼的音效：“眨巴”。\n    *   幻想框弹出的音效：“啵！”（清脆的水泡声）。\n    *   猫咪踩奶摩擦毛发的音效：“呼噜…呼噜…”。\n    *   呱比充满斗志的专属音效：“呱比！！”（奶凶且短促）。\n\n#### **镜头 4：巨兽之怒 (12s - 17s)**\n*   **景别：** 荷兰角全景 (Dutch Angle Full Shot)\n*   **运镜：** 镜头倾斜，增加不稳定的紧张感。随着鳄鱼甩头，镜头进行高速的左右横摇（Whip Pan）。\n*   **画面动态：** 鳄鱼显然感觉到了头顶的异动，原本呆滞的眼睛瞬间眯起，充满恼怒。它用力地、大幅度地左右狂甩脑袋（像狗甩水一样），毛发剧烈翻滚。呱比的“冲锋”姿势瞬间崩溃，双手死死抱住一撮毛，整个身体像一面旗帜一样在风中被甩得左右横飞，舌头拉得老长。\n*   **音效：**\n    *   鳄鱼低沉的怒吼：“咕噜噜噜——（低频震动）”。\n    *   沉重的甩头风声：“呼啦！呼啦！呼啦！”。\n    *   呱比惊恐且带弹性的惨叫：“呱——比——呱——比——！”（声音随着甩动忽左忽右，带有强烈的多普勒效应）。\n\n#### **镜头 5：弹射起飞 (17s - 20s)**\n*   **景别：** 慢动作特写 (Slow Motion Close-Up) -> 快速平移全景 (Whip Pan Full Shot)\n*   **运镜：** 镜头极度放慢，捕捉呱比脱手的瞬间，随后镜头瞬间加速，向右侧画面猛烈平移，跟随呱比飞出的轨迹。\n*   **画面动态：** 慢动作下，呱比抓住的那撮毛承受不住拉力断裂（或松手），呱比圆滚滚的身体由于极强的弹性，在鳄鱼头上被挤压成一个饼状，然后像炮弹一样向画面右侧猛烈弹射出去，瞬间飞出画外。画面只剩下鳄鱼还在愤愤不平地打着响鼻。\n*   **音效：**\n    *   慢动作下毛发断裂/脱手的细微声：“嘣——”。\n    *   极具爆发力的弹簧弹射声：“BOING——！！！”（夸张的动画弹跳音）。\n    *   呱比渐行渐远的惨叫：“呱比比比比比…………”（尾音带回声，迅速减弱）。\n    *   鳄鱼打响鼻的声音：“噗噜！”（带出一点尘土飞扬的音效）。"
+       ],
+       "nodeId": "t-qEdBv96T9I"
+      }
+     ],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 222,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/08bfb8c4f8b22d10227ee67379e69d8467e78839f78f6d2f42151b3f9ff36266.mp4"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 29993303,
+       "durationSec": 30.048,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-F0cxRVblWq",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-Ud0t0M2Dze": {
+   "nodeKey": "v-Ud0t0M2Dze",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "1435.5962873908807",
+    "positionY": "98.64263932294443"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "audioListOrder": [
+      "a-KT3q31KeTU"
+     ],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749 - 副本",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms"
+     ],
+     "mixedList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792901567788,
+       "compliantExempt": true,
+       "height": 720,
+       "label": "截图 00:26.749",
+       "mediaType": "image",
+       "nodeId": "i-lRHkOkYBpk",
+       "sourceCreatedAtMs": 1792900938000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/827ba177af95352772ba91b943af61871f785878.png",
+       "width": 1280
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      },
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线",
+       "mediaType": "audio",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "mixedListOrder": [
+      "i-3PfGfiAX6P",
+      "i-lRHkOkYBpk",
+      "i-osXHLl82Ms",
+      "a-KT3q31KeTU"
+     ],
+     "modeType": "mixed2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 {{Mixed 1}} ，场景{{Mixed 2}} ，毛茸茸鳄鱼参考 {{Mixed 3}} ，呱比的声线参考 {{Mixed 4}} ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 30,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [
+      {
+       "content": [
+        "###  详细分镜脚本\n\n**1. 镜头一：巨兽之吼（0s - 4s）**\n\n- **景别：** 全景转中景（远 -&gt; 中）\n- **运镜：** 低角度仰拍（Low Angle），镜头快速向前推进（Push in）。\n- **画面：** 阳光透过森林缝隙洒下，一只巨大的、满身绿色毛绒的鳄鱼猛地向上仰起头，张开大嘴。在它巨大的鼻尖上，只有18CM大小的青蛙“呱比”原本正呆萌地坐着，舌头耷拉在嘴外。随着鳄鱼仰头，呱比失去平衡，小短手在空中乱抓。\n- **音效：**\n  - 鳄鱼沉闷且带有毛绒质感的巨大咆哮声：“吼——”（像蒙在被子里的大老虎发出的声音）。\n  - 呱比受到惊吓，发出短促、鼻音极重的小奶狗音效：“呱！？”\n\n**2. 镜头二：极限滑梯（4s - 8s）**\n\n- **景别：** 特写（CU）\n- **运镜：** 镜头锁定呱比面部，随其运动轨迹高速跟随跟拍（Tracking shot）。\n- **画面：** 呱比胖嘟嘟的、富有弹性的身体因为重力，顺着鳄鱼毛茸茸的鼻子高点一路向下滑。它的肚皮与鳄鱼的绒毛产生摩擦，身体像果冻一样发生Q弹的形变，舌头在风中乱甩。\n- **音效：**\n  - 肚皮摩擦毛绒的“呲溜溜”声（类似滑滑梯）。\n  - 呱比身体弹动的“波嘤、波嘤”声。\n  - 呱比滑行时发出颤音：“呱比比比比——”\n\n**3. 镜头三：死里逃生（8s - 12s）**\n\n- **景别：** 近景（MCU）\n- **运镜：** 镜头从鳄鱼头顶上方俯拍，随后急速下降，停在呱比后侧方（Over the shoulder）。\n- **画面：** 呱比一路滑落到鳄鱼的后脑勺低谷处。它眼疾手快，两只具有猫爪习性的小手死死揪住了鳄鱼后脑勺上两撮厚实的绒毛。它小心翼翼地从毛发中间探出半个呆萌的脑袋，往前方（鳄鱼视野）张望。\n- **音效：**\n  - 抓住毛发的“揪！”（类似拔萝卜的紧绷声）。\n  - 呱比长舒一口气的声音：“呼…呱比\\~”\n\n**4. 镜头四：盲目乐观（12s - 18s）**\n\n- **景别：** 特写（CU）\n- **运镜：** 镜头极慢地推近（Slow Zoom in），聚焦呱比的眼睛。\n- **画面：** 呱比看着前方宽阔的鳄鱼背部，神经大条的性格瞬间占据上风。它大大的眼睛突然向上“滴溜溜”一转。画面上方“啵”地弹出一个粉笔画风的幼童幻想气泡框——气泡里，一只简笔画的呱比正威风凛凛地骑着一匹高头大马。\n- **音效：**\n  - 眼珠转动的木鱼清脆声：“滴嘟”。\n  - 幻想框弹出的气泡音：“啵！”。\n  - 呱比发出极其得意、短促的奶笑声：“呱比！”\n\n**5. 镜头五：冲锋号角（18s - 23s）**\n\n- **景别：** 中景（MS）\n- **运镜：** 环绕推轨镜头（Arc shot），从呱比正面快速绕到它的侧面，展现它与鳄鱼头部的比例。\n- **画面：** 呱比完全忘记了身处险境，它松开一只手，另一只手揪住鳄鱼毛，身体像果冻一样向上弹起立直。它闭着眼睛，高高举起空出的那只手，手指直指前方，摆出极其嚣张的“指挥大军前进”的经典姿势，嘴里的舌头因为兴奋而疯狂晃动。\n- **音效：**\n  - 身体弹直的弹簧音：“杜昂\\~”\n  - 衣服/身体摩擦的紧绷声。\n  - 呱比发出极其高亢、充满奶味和鼻音的冲锋口号：“呱——比！！！”\n\n**6. 镜头六：巨兽之怒（23s - 26s）**\n\n- **景别：** 全景（LS）\n- **运镜：** 固定镜头，画面带有强烈的震动感（Camera Shake）。\n- **画面：** 鳄鱼显然被头上这个拽它毛发的小东西激怒了。它的眼睛瞬间竖起瞳孔，脖子肌肉紧绷，极其狂暴、用力地向右侧猛烈甩动了三次大脑袋。\n- **音效：**\n  - 沉重且带有狂风呼啸的甩头声：“呼哧！呼哧！呼哧！”\n  - 鳄鱼不耐烦的低吼声。\n\n**7. 镜头七：光速退场（26s - 30s）**\n\n- **景别：** 特写转极远景（CU -&gt; ELS）\n- **运镜：** 镜头先极速定格在呱比震惊变形的脸上（甩动产生的离心力让它的脸皮向一边拉扯），随后镜头不动，看着呱比飞出画面。\n- **画面：** 呱比的冲锋姿势还没收回，小手从鳄鱼毛上脱落。在离心力的作用下，瞬间化作一道绿色的残影，被笔直地甩飞出画面右侧。画面中只剩下鳄鱼气呼呼地喘着粗气。\n- **音效：**\n  - 手指脱离毛发的“崩”断声。\n  - 呱比飞梭出去的经典卡通破空声：“嗖——”\n  - 空中渐渐远去、回荡的可爱惨叫声（鼻音极重）：“呱…比…比…比…（声音越来越小）”"
+       ],
+       "nodeId": "t-ZmM9sfcWkf"
+      }
+     ],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 257,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/904aa03e0683dbedf8f1c4a7c4a40eb908f6cfe046e0625aaa7a640963bce3f0.mp4"
+    ],
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 28576262,
+       "durationSec": 30.048,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-3XtRHpQTZ4",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  },
+  "v-Xzn2rsrepH": {
+   "nodeKey": "v-Xzn2rsrepH",
+   "projectUuid": "0297a2aedf8f4f48acf1d0e46f62c8f3",
+   "toolId": 0,
+   "toolKey": "",
+   "type": 3,
+   "name": "视频节点 6 - 副本",
+   "position": {
+    "positionX": "2851.5962873908807",
+    "positionY": "90.6426393229446"
+   },
+   "measured": {
+    "width": "622",
+    "height": "350"
+   },
+   "data": {
+    "_lastAppliedFullyAtMs": 1793609474000,
+    "_updatedAtMs": 1793609474000,
+    "action": "video_generate",
+    "contentHeight": 350,
+    "contentWidth": 622,
+    "generatorType": "default",
+    "isStale": false,
+    "name": "视频节点 6 - 副本",
+    "params": {
+     "advancedSettings": {
+      "autoCompliance": 1,
+      "search_enabled": 1
+     },
+     "audioList": [
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "audioListOrder": [
+      "a-KT3q31KeTU"
+     ],
+     "count": 1,
+     "duration": 5,
+     "enableSound": "on",
+     "imageList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792891794990,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 3 - 副本",
+       "nodeId": "i-Wvnfi6ODOx",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/4482e2b6ce3e405faae6693d15c1e512/971949478_2c2f9aa181054f5a8aaf390cd46b28ac.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      }
+     ],
+     "imageListOrder": [
+      "i-3PfGfiAX6P",
+      "i-Wvnfi6ODOx",
+      "i-osXHLl82Ms"
+     ],
+     "mixedList": [
+      {
+       "assetId": "asset-20260923124117-knc45",
+       "height": 1536,
+       "label": "呱比三视图 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-3PfGfiAX6P",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/8d4200738d9b0b909e508b628f22a01dc7550f6a.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792891794990,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 3 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-Wvnfi6ODOx",
+       "sourceCreatedAtMs": 1792511147000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/4482e2b6ce3e405faae6693d15c1e512/971949478_2c2f9aa181054f5a8aaf390cd46b28ac.png",
+       "width": 2752
+      },
+      {
+       "complianceCheckedAtMs": 1792898083017,
+       "compliantExempt": true,
+       "height": 1536,
+       "label": "图片节点 4 - 副本",
+       "mediaType": "image",
+       "nodeId": "i-osXHLl82Ms",
+       "sourceCreatedAtMs": 1792897618000,
+       "url": "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/image/2c74665bdb03430bb48d6df029b7bdd5/981429640_8c8faf47e1cd4386b06af156bdb58bf9.png",
+       "width": 2752
+      },
+      {
+       "durationSec": 5.720813,
+       "label": "5S呱比声线 - 副本",
+       "mediaType": "audio",
+       "nodeId": "a-KT3q31KeTU",
+       "url": "https://libtv-res.liblib.art/upload-images/2c74665bdb03430bb48d6df029b7bdd5/7bef48e96737c2f6c9a62c27fe99e075b9e5217f.mp3"
+      }
+     ],
+     "mixedListOrder": [
+      "i-3PfGfiAX6P",
+      "i-Wvnfi6ODOx",
+      "i-osXHLl82Ms",
+      "a-KT3q31KeTU"
+     ],
+     "modeType": "mixed2video",
+     "model": "star-video2.5",
+     "prompt": "呱比 {{Mixed 1}} ，场景 {{Mixed 2}} ，毛茸茸鳄鱼参考 {{Mixed 3}} ，呱比的声线参考 {{Mixed 4}} ，不要背景音乐，只要音效，画面要流畅，不要卡顿。",
+     "ratio": "adaptive",
+     "resolution": "720p",
+     "settings": {
+      "duration": 30,
+      "enablePortraitCheck": 1,
+      "enableSound": "on",
+      "ratio": "16:9",
+      "resolution": "720p"
+     },
+     "textList": [
+      {
+       "content": [
+        "### 《天降呱比》30秒分镜脚本\n\n**【镜号 01】 00:00 - 00:03**\n\n- **画面/运镜：** **极速俯冲追踪镜头（Tracking Shot）。** 镜头从高空云层极速垂直下坠，紧紧贴着呱比惊恐扭曲的脸。呱比的舌头因失重在半空中像波浪一样狂乱甩动，大眼睛被风吹得向内凹陷，眼瞳快速疯狂震颤。\n- **微表情/动态：** 呱比的眼皮因强风剧烈抖动，嘴角不受控制地向后扯开，前肢在空中像猫一样胡乱扑腾，试图抓住虚无的空气。\n- **音效：** 撕裂空气的尖锐风声（呼啸而过）。呱比发出拖长的、带着颤音的极度惊恐叫声：“呱——比！！！”（短促弹性发声，带着重鼻音和变调）。\n\n**【镜号 02】 00:03 - 00:06**\n\n- **画面/运镜：** **地面低角度固定镜头（Low Angle Shot）。** 画面前景是一片毛茸茸的巨大绿色“丘陵”（鳄鱼鼻子）。“砰”的一声，呱比重重砸进柔软的毛发中，镜头随着撞击产生微弱的**手持震动感（Camera Shake）**。呱比像一颗极具弹性的橡胶球，在画面中“Q弹”地上下弹跳了两次，最后呈“鸭子坐”瘫在毛坑里。\n- **微表情/动态：** 呱比背对着镜头后方（鳄鱼紧闭的右眼），两眼变成眩晕的蚊香状，舌头软趴趴地挂在嘴边。它像小狗甩水一样，脑袋快速且高频地左右甩动了两下，眼球随着惯性在眼眶里“吧嗒”转了一圈，才勉强聚焦。\n- **音效：** 砸中柔软物体的沉闷撞击声（Puff！），两声极具弹性的合成器音效（Boing! Boing!）。甩头时伴随类似布拨浪鼓摇晃的“噜噜噜”声。呱比发出晕乎乎的嘟囔：“呱比…呜…”\n\n**【镜号 03】 00:06 - 00:10**\n\n- **画面/运镜：** **环绕主观镜头（POV to Orbit Pan）。** 镜头模拟呱比的视线环顾四周，随后丝滑地转为环绕呱比的第三人称特写。展示四周巨大的毛绒花朵随风轻摆，地面上流淌的溪流泛着高级丝绸般顺滑的波纹反射光。\n- **微表情/动态：** 呱比原本呆滞的瞳孔瞬间放大，倒映出波光粼粼的溪流。它的小脑袋像齿轮卡顿一样，一顿一顿地歪向左边45度，左眼眶微微收缩，下嘴唇向前嘟起，挤出一个极度拟人化的“疑惑与思考”褶皱。\n- **音效：** 微风拂过毛绒植物的沙沙声，溪流宛如丝绸摩擦般的潺潺水声。呱比歪头时发出短促鼻音：“呱？”\n\n**【镜号 04】 00:10 - 00:15**\n\n- **画面/运镜：** **大特写（Extreme Close-up）接 移焦镜头（Rack Focus）。** 镜头聚焦呱比短短的小手，它小心翼翼地按压地面，毛绒向下凹陷。接着呱比整个身体趴下。此时，焦点从前景蹭脸的呱比，瞬间转移到背景——那片巨大的绿色“山丘”上，一条巨大的缝隙缓缓裂开，露出一只巨大的、竖瞳的琥珀色鳄鱼眼睛。\n- **微表情/动态：** 呱比的手指感受到柔软，瞳孔立刻扩充到眼眶的90%，嘴角不可抑制地上扬成波浪形。它像猫咪一样闭上眼睛，在地面上用侧脸极其享受地一上一下摩擦。鳄鱼的眼皮则以一种极其缓慢、沉重且充满压迫感的方式向上拉开。\n- **音效：** 手掌按压毛绒的“呲啦”轻响。呱比发出极其满足、类似小猫踩奶时的呼噜声：“呱比\\~”。背景传来极其低沉、宛如远古巨兽呼吸的沉闷轰鸣音，以及鳄鱼眼皮摩擦的干涩沙沙声。\n\n**【镜号 05】 00:15 - 00:19**\n\n- **画面/运镜：** **鳄鱼视角。** 正前方，呱比圆润的绿色小屁股正对着屏幕。\n- **微表情/动态：** 呱比毫无察觉，身体完全放松，短小的后腿一蹬一蹬，屁股像发情的猫一样极其妖娆且有节奏地左右扭动。鳄鱼的竖瞳瞬间剧烈收缩至针尖大小，眼角因愤怒抽搐了两下。\n- **音效：** 呱比屁股摩擦毛发的“簌簌”声，伴随着它欢快的哼唧声：“呱比\\~呱比\\~”。突然，一声极其低沉、令空气震颤的喉音闷吼（Growl）从四面八方包围过来。\n\n**【镜号 06】 00:19 - 00:24**\n\n- **画面/运镜：** **中景跟随镜头（Medium Tracking Shot）。** 画面开始发生剧烈的低频震颤。镜头随着呱比所在的“地面”缓缓抬升。呱比的身体因重力稍微向下滑了一下。\n- **微表情/动态：** 呱比蹭脸的动作戛然而止，脸颊的肉还保持着被挤压的变形状态。它猛地睁开眼，舌头迅速缩回嘴里，两只眼睛分别向左右两边惊恐地瞟了一下，然后双手死死抠住地面的毛发，下巴惊恐地掉到了胸口。\n- **音效：** 类似地震般的低频轰隆声（Rumble），巨大的骨骼和肌肉摩擦的“嘎吱”声。呱比发出倒吸一口凉气的短促倒抽音：“嘶——呱？！”\n\n**【镜号 07】 00:24 - 00:28**\n\n- **画面/运镜：** **快速拉远全景（Fast Pull-back Wide Shot）。** 镜头如同被弹弓射出般急速向后拉远，穿过毛茸茸的植物缝隙，展现出完整的宏大场景：一只如同小山般巨大的毛绒鳄鱼正撑起前肢，而呱比仅仅是它鼻尖上一个微小的绿色斑点。\n- **微表情/动态：** 鳄鱼仰起头。呱比在半空中保持着趴姿，艰难地一点点回过头，脖子转动出极其僵硬的机械感。\n- **音效：** 巨大的水花四溅声（鳄鱼从溪流中起身），震耳欲聋的巨兽咆哮前奏吸气声。\n\n**【镜号 08】 00:28 - 00:30**\n\n- **画面/运镜：** **极速推镜头（Crash Zoom）。** 镜头在一瞬间推至呱比和鳄鱼巨眼对视的超级特写。\n- **微表情/动态：** 呱比与鳄鱼对视的瞬间，呱比的瞳孔骤然缩小到只剩一个黑点，。\n- **音效：** 万籁俱寂中，只有极其清脆的一声咽口水的音效（Gulp！），紧接着呱比发出一声极其绝望、变了调的尖叫：“呱————！！！”"
+       ],
+       "nodeId": "t-s0onIxwv3w"
+      }
+     ],
+     "videoList": [],
+     "videoListOrder": []
+    },
+    "poster": "",
+    "staleVersion": 197,
+    "type": "video",
+    "url": [
+     "https://libtv-res.liblib.art/sd-gen-save-img/genius_playground/video/2c74665bdb03430bb48d6df029b7bdd5/75c18d04015e893c8bb4a758436514981adcf60410ac02c41ac3479d0ba14f94.mp4"
+    ],
+    "videoHasAudioTrack": true,
+    "_resourceMeta": {
+     "items": [
+      {
+       "byteSize": 32016310,
+       "durationSec": 30.08,
+       "height": 720,
+       "kind": "video",
+       "mimeType": "text/plain",
+       "width": 1280
+      }
+     ]
+    }
+   },
+   "parentKey": "g-ujFssmmHpD",
+   "status": 1,
+   "createdAtMs": 1794234429000,
+   "updatedAtMs": 1794234429000,
+   "workflowUuid": "",
+   "workflowRoot": 0
+  }
+ },
+ "project": {
+  "edges": [
+   {
+    "source": "a-KT3q31KeTU",
+    "target": "v-RgX22S9oyr"
+   },
+   {
+    "source": "i-lRHkOkYBpk",
+    "target": "t-ZmM9sfcWkf"
+   },
+   {
+    "source": "t-DwnTAQsIZF",
+    "target": "v-oMqI7QcrEs"
+   },
+   {
+    "source": "t-jxfghVzTha",
+    "target": "t-qEdBv96T9I"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "t-s0onIxwv3w"
+   },
+   {
+    "source": "i-Wvnfi6ODOx",
+    "target": "t-s0onIxwv3w"
+   },
+   {
+    "source": "a-KT3q31KeTU",
+    "target": "v-oMqI7QcrEs"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "v-RgX22S9oyr"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "v-oMqI7QcrEs"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "v-RgX22S9oyr"
+   },
+   {
+    "source": "i-lRHkOkYBpk",
+    "target": "v-RgX22S9oyr"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "t-DwnTAQsIZF"
+   },
+   {
+    "source": "i-lRHkOkYBpk",
+    "target": "v-Ud0t0M2Dze"
+   },
+   {
+    "source": "a-KT3q31KeTU",
+    "target": "v-Ud0t0M2Dze"
+   },
+   {
+    "source": "t-s0onIxwv3w",
+    "target": "v-Xzn2rsrepH"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "t-qEdBv96T9I"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "v-Ud0t0M2Dze"
+   },
+   {
+    "source": "i-Wvnfi6ODOx",
+    "target": "v-Xzn2rsrepH"
+   },
+   {
+    "source": "i-LJgBVwBfT7",
+    "target": "i-ulhQYtUALo"
+   },
+   {
+    "source": "t-hH6tE7xp9u",
+    "target": "t-DwnTAQsIZF"
+   },
+   {
+    "source": "v-Xzn2rsrepH",
+    "target": "i-lRHkOkYBpk"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "t-qEdBv96T9I"
+   },
+   {
+    "source": "t-oKe8YkCrKi",
+    "target": "t-s0onIxwv3w"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "t-s0onIxwv3w"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "i-LJgBVwBfT7"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "v-Xzn2rsrepH"
+   },
+   {
+    "source": "t-qEdBv96T9I",
+    "target": "v-RgX22S9oyr"
+   },
+   {
+    "source": "i-LJgBVwBfT7",
+    "target": "t-DwnTAQsIZF"
+   },
+   {
+    "source": "i-Wvnfi6ODOx",
+    "target": "i-osXHLl82Ms"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "i-Wvnfi6ODOx"
+   },
+   {
+    "source": "i-ulhQYtUALo",
+    "target": "v-oMqI7QcrEs"
+   },
+   {
+    "source": "a-KT3q31KeTU",
+    "target": "v-Xzn2rsrepH"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "v-Ud0t0M2Dze"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "v-Xzn2rsrepH"
+   },
+   {
+    "source": "t-ZmM9sfcWkf",
+    "target": "v-Ud0t0M2Dze"
+   },
+   {
+    "source": "i-osXHLl82Ms",
+    "target": "t-ZmM9sfcWkf"
+   },
+   {
+    "source": "i-lRHkOkYBpk",
+    "target": "t-qEdBv96T9I"
+   },
+   {
+    "source": "t-jxfghVzTha",
+    "target": "t-ZmM9sfcWkf"
+   },
+   {
+    "source": "i-3PfGfiAX6P",
+    "target": "t-ZmM9sfcWkf"
+   }
+  ]
+ }
+}

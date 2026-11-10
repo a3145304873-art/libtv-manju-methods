@@ -1,15 +1,15 @@
 {
   "status": "pass",
-  "source_records": 25,
-  "source_hashes_verified": 77,
+  "source_records": 31,
+  "source_hashes_verified": 88,
   "snapshot_totals": {
-    "snapshot_cases": 10,
-    "nodes": 688,
-    "video_nodes_with_prompt": 262,
-    "image_nodes_with_prompt": 111
+    "snapshot_cases": 15,
+    "nodes": 1070,
+    "video_nodes_with_prompt": 358,
+    "image_nodes_with_prompt": 235
   },
-  "generated_markdown_files": 213,
-  "relative_links_verified": 1219,
+  "generated_markdown_files": 221,
+  "relative_links_verified": 1235,
   "ability_ids": [
     "C01",
     "C02",

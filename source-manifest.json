@@ -1,1288 +1,1516 @@
 {
-  "schema_version": 1,
-  "created_at": "2026-10-21T01:45:30+08:00",
-  "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied); +2026-11-03 I07 intake: 1 pinned GitHub xuanhuan combat skill with 14 selected upstream files plus license/README (15 byte-verified files); project adapter and C18/template mapping, no media or execution validation; +2026-11-03 I08 intake: pinned GitHub English mnemonic video Skill with 5 selected files; mapped candidate comparison, semantic bridge, and final-media QA to existing english-story module; no upstream runtime installed; +2026-11-03 Bilibili market-reference review: BBDown metadata and sampled media review of two high-view English mnemonic lesson videos and one Shaoshi Wuxia English compilation; media retained only in system temporary directory; +2026-11-04 I09 intake: pinned story-to-handdrawn-video GitHub Skill, seven byte-verified source files; candidate story/character/beat-planning mapping only, no upstream runtime installed; Bilibili visual review of Tutu cooking/life samples and an AI cooking workflow tutorial, media retained only in system temporary directory; +2026-11-04 I10/I11 intake: pinned per-scene video-storyboard Skill and dish-driven cooking-board Skill; six selected files byte-verified; combined as optional dynamic cooking-planning references, no upstream runtime installed or executed; +2026-11-05 R03 intake (A53 词库/教程包, text extraction, 14 files)",
-  "import_method": "selected local files copied byte-for-byte from sources or pinned repository snapshots; not a full remote repository clone",
-  "source_repository_baseline": "c7fe8c4",
-  "sources": [
+ "schema_version": 1,
+ "created_at": "2026-10-21T01:45:30+08:00",
+ "scope": "2026-10-21 night intake: 9 workflow documents, 8 JSON snapshots, 5 industry skills; +2026-10-29 W10 intake (1 workflow document, 1 JSON snapshot); +2026-10-29 I06 intake (1 internal production method document, Monet canvas spec); +2026-10-29 W11 intake (1 reusable template canvas: 1 workflow breakdown + 1 JSON snapshot); +2026-11-03 R02 intake (9 prompt screenshots; text transcription only, no media copied); +2026-11-03 I07 intake: 1 pinned GitHub xuanhuan combat skill with 14 selected upstream files plus license/README (15 byte-verified files); project adapter and C18/template mapping, no media or execution validation; +2026-11-03 I08 intake: pinned GitHub English mnemonic video Skill with 5 selected files; mapped candidate comparison, semantic bridge, and final-media QA to existing english-story module; no upstream runtime installed; +2026-11-03 Bilibili market-reference review: BBDown metadata and sampled media review of two high-view English mnemonic lesson videos and one Shaoshi Wuxia English compilation; media retained only in system temporary directory; +2026-11-04 I09 intake: pinned story-to-handdrawn-video GitHub Skill, seven byte-verified source files; candidate story/character/beat-planning mapping only, no upstream runtime installed; Bilibili visual review of Tutu cooking/life samples and an AI cooking workflow tutorial, media retained only in system temporary directory; +2026-11-04 I10/I11 intake: pinned per-scene video-storyboard Skill and dish-driven cooking-board Skill; six selected files byte-verified; combined as optional dynamic cooking-planning references, no upstream runtime installed or executed; +2026-11-05 R03 intake (A53 词库/教程包, text extraction, 14 files)；+2026-11-10 W12–W16 intake（LibTV 社区萌宠画布五部：网页复制副本后 API 全量提示词+结构快照）与 R04（六部标杆完整剧本拼合与故事公式，含呱呱系 B 站样本逐帧拆解）",
+ "import_method": "selected local files copied byte-for-byte from sources or pinned repository snapshots; not a full remote repository clone",
+ "source_repository_baseline": "c7fe8c4",
+ "sources": [
+  {
+   "id": "W01",
+   "kind": "workflow",
+   "name": "高中状元",
+   "stable_id": "libtv:983f55bf37774713a249139d57643b5b",
+   "stages": [
+    "S0",
+    "S1",
+    "S3"
+   ],
+   "ability_notes": "C07 第一视角纪律；C06 群体位置与反应递进",
+   "locators": "第一视角、视高、主角出镜边界、错峰群体反应",
+   "gaps": [
+    "视频提示词、素材输入与序列190冲突；图片 prompt 缺失"
+   ],
+   "files": [
     {
-      "id": "W01",
-      "kind": "workflow",
-      "name": "高中状元",
-      "stable_id": "libtv:983f55bf37774713a249139d57643b5b",
-      "stages": [
-        "S0",
-        "S1",
-        "S3"
-      ],
-      "ability_notes": "C07 第一视角纪律；C06 群体位置与反应递进",
-      "locators": "第一视角、视高、主角出镜边界、错峰群体反应",
-      "gaps": [
-        "视频提示词、素材输入与序列190冲突；图片 prompt 缺失"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md",
-          "path": "04_原始资料/workflows/W01/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md.txt",
-          "sha256": "a483292d2aefbbb357d7b4dce3f983075ea941f3de2f8eac4494a1476c6c967a",
-          "bytes": 592307
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV节点快照_2026-10-20.json",
-          "path": "04_原始资料/workflows/W01/nodes.json",
-          "sha256": "e3411d74988836a3a30c9073858b21138bbe9ae7379da2d6ea46e69240a8b83f",
-          "bytes": 1270946
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
+     "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md",
+     "path": "04_原始资料/workflows/W01/高中状元-副本_LibTV提示词与制作关系拆解_2026-10-20.md.txt",
+     "sha256": "a483292d2aefbbb357d7b4dce3f983075ea941f3de2f8eac4494a1476c6c967a",
+     "bytes": 592307
     },
     {
-      "id": "W02",
-      "kind": "workflow",
-      "name": "狐涂与咕呱",
-      "stable_id": "libtv:9b59cae9ea744bc3bb90f7a2af0ebee5",
-      "stages": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "ability_notes": "C01/C05 动作笑点；C04 角色比例与状态；C08 人物声音",
-      "locators": "动作—后果—反应；角色体型与状态变化；声音角色",
-      "gaps": [
-        "无 project 边集；最终采用版未知"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md",
-          "path": "04_原始资料/workflows/W02/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md.txt",
-          "sha256": "3dbd810241d08cdc4625a6e87a85ebdbfde46cb3ef6f8ef007c76adae6942ec2",
-          "bytes": 478282
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV节点快照_2026-10-20.json",
-          "path": "04_原始资料/workflows/W02/nodes.json",
-          "sha256": "20a9cb278f3127f1b4091e9bf0d483ef8a6c8606dce89c1d7a586518751d2a5d",
-          "bytes": 808725
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W03",
-      "kind": "workflow",
-      "name": "小橘游成都",
-      "stable_id": "libtv:b5551209eee64808bca9d0f3cd4d2f04",
-      "stages": [
-        "S1",
-        "S2",
-        "S4",
-        "S5"
-      ],
-      "ability_notes": "C01 完整动作链；C02 局部返修；C09 后期链",
-      "locators": "v-p5gydqs24xjz 动作接续，v-9fsw9qs3t4bw 单声叫声，教程文本与后期节点",
-      "gaps": [
-        "一个分组成员缺失；最终剪辑采用关系未知"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W03/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "70fe014694d7ac9f0092efcbf54e75fb3156382c39ca81705de52663df61a169",
-          "bytes": 106915
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV节点快照_2026-10-20.json",
-          "path": "04_原始资料/workflows/W03/nodes.json",
-          "sha256": "4ec26ffdd3746b7b5779fa0a42c645a15712f11265201cc986f4fcaff07bb690",
-          "bytes": 271442
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W04",
-      "kind": "workflow",
-      "name": "八仙动画",
-      "stable_id": "libtv:cd8aed3cd11842fcb76f40267ea04eb2",
-      "stages": [
-        "S2",
-        "S3",
-        "S4"
-      ],
-      "ability_notes": "C04 脸部/全身资产；C06 特效身份与空间接续",
-      "locators": "i-d82zgrw5xjt5→i-6342afn45mf5；v-15yJUpPJ9a 的空间、表演与段尾",
-      "gaps": [
-        "18 个导入视频与生成结果未建立对应"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W04/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "b00c29192645e63d34916c4f7dd3c4c72748799a8f6926322ea684b08a09523e",
-          "bytes": 247308
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV节点快照_2026-10-21.json",
-          "path": "04_原始资料/workflows/W04/nodes.json",
-          "sha256": "ee1c9ce7fe493d884e338728e0f1e8d727baaba3e6b3b322f773711e25d34ed3",
-          "bytes": 464245
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W05",
-      "kind": "workflow",
-      "name": "治愈系IP",
-      "stable_id": "libtv:914feda437274ec1bb8ea5d5862e8468",
-      "stages": [
-        "S0",
-        "S1",
-        "S3"
-      ],
-      "ability_notes": "C03 分段文本真实输入；C01 材质与动作；C05 温柔反应",
-      "locators": "文本生成 7d4a1774-e7a1-4a77-be19-0a0d8c1f19cd；分段文本 e2b71873-a4c2-4103-bd73-df7850d51e77→视频 4b9470a7-6d09-41d3-9b1c-941dfc4874a7",
-      "gaps": [
-        "完整脚本到分段文本无边；成片资源来源未知"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W05/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "959f3bbbaf34eefadb519b6fc7a8e04f58969c339046c0644d8b599e8778e96c",
-          "bytes": 65685
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV节点快照_2026-10-21.json",
-          "path": "04_原始资料/workflows/W05/nodes.json",
-          "sha256": "8be28d4650bc08ac74845c6ce8eb3cc8aa30143d2e09855feb303cf371841f8a",
-          "bytes": 139133
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W06",
-      "kind": "workflow",
-      "name": "异种纪元第四集",
-      "stable_id": "libtv:b7743ee8d8c14d94a2a9890cce4dbfe3",
-      "stages": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "ability_notes": "C06 场景空间；C01 动作因果；C04 资产组织",
-      "locators": "v-0bupyWfAIt 的左前景/中后段/右侧定位；分组是候选组织而非剪辑时间线",
-      "gaps": [
-        "23 个分组成员无法解析；未证明最终剪辑"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_工作流拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W06/异种纪元-第四集-副本_工作流拆解_2026-10-21.md.txt",
-          "sha256": "4033f9b0907443e852a4135cf02ab8bc060b7da9142fe9b528c998546da0c9df",
-          "bytes": 877594
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_LibTV节点快照_2026-10-21.json",
-          "path": "04_原始资料/workflows/W06/nodes.json",
-          "sha256": "551eeca4ce1998416b236a987f319ffd6faf90cef25c9b0a578a98439d770ad3",
-          "bytes": 1545908
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W07",
-      "kind": "workflow",
-      "name": "胡来万事屋",
-      "stable_id": "libtv:0bb4de92ac0846eba463218d5460fae4",
-      "stages": [
-        "S1",
-        "S3",
-        "S5"
-      ],
-      "ability_notes": "C05 真人反应与停顿；C08 音色；C09 去字幕链",
-      "locators": "v-1JMCzSTVcF 镜头六；人物音频实际输入与去字幕源片关系",
-      "gaps": [
-        "空 prompt 历史节点设置与输出时长不一致"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_工作流拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W07/胡来万事屋-副本_工作流拆解_2026-10-21.md.txt",
-          "sha256": "74909d3d3c33dcf6d7f594c154a3854d4a747c00a32bfd0b88acc94fae8b1f96",
-          "bytes": 81203
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_LibTV节点快照_2026-10-21.json",
-          "path": "04_原始资料/workflows/W07/nodes.json",
-          "sha256": "9a7af20e1ddf79f0f9820d57f8d3869c2ecb1e5373a80b421aa0ffb34e0ae1af",
-          "bytes": 143808
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W08",
-      "kind": "workflow",
-      "name": "过来人",
-      "stable_id": "libtv:82e5114b017a485f9971fed0d9359ed9",
-      "stages": [
-        "S0",
-        "S1",
-        "S3",
-        "S5"
-      ],
-      "ability_notes": "C08 音乐切片与逐句表演；C04 群像站位",
-      "locators": "单人音乐切片、逐句动作、合唱站位图；消歧后才绑定执行节点",
-      "gaps": [
-        "只有文档；v-WkR3jpy9YW 正文与关联表身份冲突"
-      ],
-      "files": [
-        {
-          "source_relative": "过来人LibTV画布提示词与关系索引.md",
-          "path": "04_原始资料/workflows/W08/过来人原始索引.md.txt",
-          "sha256": "c81bb5e97b8cd4e58cc6eec6bdc00518de25d1c70f700b4c20be614ea5b73894",
-          "bytes": 87365
-        }
-      ],
-      "evidence": {
-        "structure": "document_only",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "W09",
-      "kind": "workflow",
-      "name": "猫咪骑士",
-      "stable_id": "libtv:fca88b866a5e47e5abffc5c7d89e120b",
-      "stages": [
-        "S1",
-        "S2",
-        "S3",
-        "S4"
-      ],
-      "ability_notes": "C10 多格分镜预演；C02 源版本和秒级区间重拍；C04/C06 资产空间",
-      "locators": "g-pVaA8rF57j 分镜测试；v-G9wxnoCAth 空间；v-7ZNR2SJxku 源片0–4.4s加盔甲图重拍",
-      "gaps": [
-        "分镜图未传视频；部分文字绑定冲突；未观看结果"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
-          "path": "04_原始资料/workflows/W09/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
-          "sha256": "436f4397271ef2ae44e0a20dc0f0b4c549aab5192933d721006a231cd261257c",
-          "bytes": 716459
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV节点快照_2026-10-21.json",
-          "path": "04_原始资料/workflows/W09/nodes.json",
-          "sha256": "e9111bd07ee38b962c3e19e4b73aa143b037d66e8d71e87f56b28922bf11cbbc",
-          "bytes": 1322928
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot_fields",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      }
-    },
-    {
-      "id": "I01",
-      "kind": "industry_skill_document",
-      "name": "游戏宣传Demo",
-      "stable_id": "I01:01-game-promo-video.md",
-      "source_version_summary": "原文版本3；单镜生活切片与多镜事件是不同分支",
-      "files": [
-        {
-          "source_relative": "_共享/工作流研究/行业技能文档/原文/01-game-promo-video.md",
-          "path": "04_原始资料/industry-skills/I01/source.md.txt",
-          "sha256": "9f3220bb86538e1df657d21bb8e594a909d42147b9e1ea55ac350de38c9ffee5",
-          "bytes": 28664
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed"
-      },
-      "original_skill_name": "game-promo-video",
-      "original_namespace": "industry",
-      "original_version": "3"
-    },
-    {
-      "id": "I02",
-      "kind": "industry_skill_document",
-      "name": "3D卡通广告",
-      "stable_id": "I02:02-pixaranimationstudios-3d.md",
-      "source_version_summary": "原文版本6.2；夸张表演和品牌落点仅适用于相应任务",
-      "files": [
-        {
-          "source_relative": "_共享/工作流研究/行业技能文档/原文/02-pixaranimationstudios-3d.md",
-          "path": "04_原始资料/industry-skills/I02/source.md.txt",
-          "sha256": "130ce0986df0d2330a67248b11fc54573a85d87b2de7b28e83ada349cdadc4ac",
-          "bytes": 16827
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed"
-      },
-      "original_skill_name": "pixaranimationstudios-3d",
-      "original_namespace": "libtv-industry",
-      "original_version": "6.2"
-    },
-    {
-      "id": "I03",
-      "kind": "industry_skill_document",
-      "name": "参考视频改写",
-      "stable_id": "I03:03-爆款视频复刻.md",
-      "source_version_summary": "无name/version；短尾舍弃和原音保留是其配方选项，不全局生效",
-      "files": [
-        {
-          "source_relative": "_共享/工作流研究/行业技能文档/原文/03-爆款视频复刻.md",
-          "path": "04_原始资料/industry-skills/I03/source.md.txt",
-          "sha256": "45b955c69b523585bf39d2a985817eb9546133d0a03e1e607d83f1cf13e86859",
-          "bytes": 11443
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed"
-      },
-      "original_skill_name": null,
-      "original_namespace": null,
-      "original_version": null
-    },
-    {
-      "id": "I04",
-      "kind": "industry_skill_document",
-      "name": "新中式TVC",
-      "stable_id": "I04:04-neo-chinese-aesthetic-tvc.md",
-      "source_version_summary": "外部references/seedance-output.md、scripts/extract_frames.sh缺失",
-      "files": [
-        {
-          "source_relative": "_共享/工作流研究/行业技能文档/原文/04-neo-chinese-aesthetic-tvc.md",
-          "path": "04_原始资料/industry-skills/I04/source.md.txt",
-          "sha256": "5136f6467cd780c2697dea356721793643ea42e0f8194aa3bc7cb645ebbd476f",
-          "bytes": 41596
-        }
-      ],
-      "missing_external_dependencies": [
-        "references/seedance-output.md",
-        "scripts/extract_frames.sh"
-      ],
-      "evidence": {
-        "text_review": "paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed"
-      },
-      "original_skill_name": null,
-      "original_namespace": null,
-      "original_version": null
-    },
-    {
-      "id": "I05",
-      "kind": "industry_skill_document",
-      "name": "古典武侠流程",
-      "stable_id": "I05:05-hujinquanwuxia.md",
-      "source_version_summary": "多份references附件缺失；按语义规划时长、网格审核与资产触发值得研究",
-      "files": [
-        {
-          "source_relative": "_共享/工作流研究/行业技能文档/原文/05-hujinquanwuxia.md",
-          "path": "04_原始资料/industry-skills/I05/source.md.txt",
-          "sha256": "d569c2ffff23c2e2b8c2bc01ab8080f267a9b3e66190c9098cda5679c6856a2d",
-          "bytes": 16449
-        }
-      ],
-      "missing_external_dependencies": [
-        "references/asset-system.md",
-        "references/editing-audio-subtitles.md",
-        "references/examples.md",
-        "references/fight-choreography.md",
-        "references/image-prompts.md",
-        "references/quality-repair.md",
-        "references/quick-start.md",
-        "references/resolution-delivery.md",
-        "references/script-duration-planning.md",
-        "references/storyboard-nine-grid.md",
-        "references/style-calibration.md",
-        "references/style-classical.md",
-        "references/style-king-hu.md",
-        "references/style-shaw.md",
-        "references/templates.md",
-        "references/video-prompts.md",
-        "references/workflow-routing.md"
-      ],
-      "evidence": {
-        "text_review": "paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed"
-      },
-      "original_skill_name": null,
-      "original_namespace": null,
-      "original_version": null
-    },
-    {
-      "id": "R01",
-      "kind": "format_reference",
-      "name": "万宝盲盒方向文档格式",
-      "stable_id": "archive-sha256:4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
-      "archive_sha256": "4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
-      "archive_member_count": 4,
-      "intake_date": "2026-10-21",
-      "stages": [
-        "S0",
-        "S1",
-        "S2",
-        "S6"
-      ],
-      "ability_notes": "C11 长程承诺与兑现；C12 方向级文档组织",
-      "files": [
-        {
-          "source_relative": "万宝盲盒.zip!/archive-index.json (derived structural metadata)",
-          "path": "04_原始资料/format-references/R01/archive-index.json",
-          "sha256": "b5ea36cda644055fb0be5c9b2ad50186a08a059b594404d752084c1bec90c2fd",
-          "bytes": 2443,
-          "role": "derived_metadata_not_original_payload"
-        },
-        {
-          "source_relative": "万宝盲盒.zip!/format-schema.json (derived structural metadata)",
-          "path": "04_原始资料/format-references/R01/format-schema.json",
-          "sha256": "9cca9552b7c766a2a70b2ea3086c6965170a43010fca8b4712a4a0632490c45d",
-          "bytes": 1993,
-          "role": "derived_metadata_not_original_payload"
-        }
-      ],
-      "payload_policy": "schema and logic only; original ZIP is not copied",
-      "gaps": [
-        "characters.md duplicates skeleton.md",
-        "4 referenced arc.md files not included",
-        "independent character and arc templates are library proposals, not source fields"
-      ],
-      "evidence": {
-        "all_member_text_read": true,
-        "structure_review": "complete_for_4_provided_files",
-        "media_review": "not_applicable",
-        "template_runtime_use": "not_performed",
-        "reference_selection": "intake_only"
-      }
-    },
-    {
-      "id": "W10",
-      "kind": "workflow",
-      "name": "锅气交响 扬州炒饭美食短片",
-      "stable_id": "libtv:c55dee32298d422aa773e85e42c93907",
-      "stages": [
-        "S1",
-        "S2",
-        "S3",
-        "S5"
-      ],
-      "ability_notes": "C10 已连通分支；C14 统一风格语句元生成；C15 同 prompt 多模型抽卡；C08 旁白随片生成分支；C04 无角色资产分支；C09 超分放大链",
-      "locators": "t-e6VJXgHP1B 风格语句元提示词；i-WPjQvxktYq→v-0FW0nm9nmb 网格图驱动链；i-HFLdsaRcDg/i-JfsZ5Rnkdt/i-rbbKD6wSxR 抽卡组",
-      "gaps": [
-        "媒体全部未观看",
-        "段1/段6双方案并存无采用记录",
-        "无重拍与剪辑链"
-      ],
-      "files": [
-        {
-          "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md",
-          "path": "04_原始资料/workflows/W10/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
-          "sha256": "8d313cd7131a93a26dd6c8373b78fdce91815c15db697d421c7496542c67303d",
-          "bytes": 10397
-        },
-        {
-          "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV节点快照_2026-10-29.json",
-          "path": "04_原始资料/workflows/W10/nodes.json",
-          "sha256": "d48bf781bb401b6d7e85eed05d3e85369482dad1f78e7eb1f120e67dea13b610",
-          "bytes": 220795
-        }
-      ],
-      "evidence": {
-        "structure": "snapshot",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "capture": "API-direct read-only GET (project/detail + node/detail); libtv.exe blocked by OS policy; user-owned token refreshed via official SMS login 2026-10-29"
-      },
-      "intake_date": "2026-10-29"
-    },
-    {
-      "id": "I06",
-      "kind": "internal_production_method",
-      "name": "Monet画布搭建方法",
-      "stable_id": "I06:Monet画布搭建方法-2026-10-29.md",
-      "source_version_summary": "2026-10-29 版总纲;整理自 2026-10-21 起多支 Monet 画布实建与返工记录;用户确认后续画布一律采用此格式",
-      "files": [
-        {
-          "source_relative": "ai-drama/_共享/规范/Monet画布搭建方法-2026-10-29.md",
-          "path": "04_原始资料/industry-skills/I06/source.md.txt",
-          "sha256": "fc97ea8035a9bb2dba70350feb8c73abc6579160fb06b35f412bff02d77a37e7",
-          "bytes": 17958
-        }
-      ],
-      "missing_external_dependencies": [],
-      "external_workspace_dependencies": [
-        "ai-drama/_共享/工具/检查画布接线.py",
-        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/尾帧接线规则.md",
-        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/首尾帧引用写法.md",
-        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/extract_tail_frames.py",
-        "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/蛋仔游城市-工作流模板-v1.monet",
-        "ai-drama/_共享/工作流研究/衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py",
-        "ai-drama/_共享/工作流研究/衍生方案-四小只/脚本/upload_refs.py"
-      ],
-      "evidence": {
-        "text_review": "full_text",
-        "media_review": "not_performed",
-        "execution": "external_production_use",
-        "transfer_validation": "not_performed"
-      },
-      "original_namespace": "internal_spec",
-      "adoption": "user_confirmed_2026-10-29_future_canvas_builds"
-    },
-    {
-      "id": "W11",
-      "kind": "workflow",
-      "name": "邵氏电影学英语一步成片模板",
-      "stable_id": "libtv:58ab94a2da3f411b8849f076fa87c94d",
-      "stages": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "ability_notes": "C17 智能体单变量一步成片模板（新增）；C04 三视图角色锚+{{Mixed N}}分支；C03 剧本自动生成入视频 prompt；C16 引用锚位 LibTV 实证",
-      "locators": "cb6da0ea 智能体定义 content；ce36c3fa prompt=单词与输出剧本；ea214b17 {{Mixed 1/2}} 锚位与 mixedList；使用说明场景1/场景2",
-      "gaps": [
-        "媒体全部未观看",
-        "两分支输出 url 相同采用版不明",
-        "视频参数双套并存",
-        "智能体触发词与中文输入未复现"
-      ],
-      "evidence": {
-        "structure": "snapshot",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "capture": "API-direct read-only GET (project/detail, CLI-restored headers); user-owned token refreshed via official web login 2026-10-29"
-      },
-      "intake_date": "2026-10-29",
-      "files": [
-        {
-          "path": "04_原始资料/workflows/W11/邵氏电影学英语一步成片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
-          "sha256": "ce49e569224012c5b5a168fe55a495eb69109299f36038ae3a86840712f2ebcb",
-          "bytes": 11336,
-          "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集；本文件为本库自同源快照生成的拆解）"
-        },
-        {
-          "path": "04_原始资料/workflows/W11/nodes.json",
-          "sha256": "9a0348b8716495c388a5bb70abe855a48aee41b4ed4eda7ffcdf42be7f99440e",
-          "bytes": 52805,
-          "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集 2026-10-29）"
-        }
-      ]
-    },
-    {
-      "id": "R02",
-      "kind": "format_reference",
-      "name": "大招演出提示词格式（9 张截图样本）",
-      "stable_id": "user-attachments:2026-11-03:grand-move-prompt-samples",
-      "stages": [
-        "S1",
-        "S3"
-      ],
-      "ability_notes": "C18 五拍结构与五层特效栈（新增）；C13 时长；C14 风格前置；C01 动作因果",
-      "locators": "S07/S08 4 拍 15s；S09 5 拍 15s；S01/S02/S03 分镜式；S04 全局设定式；S06 元请求；用户 5 个特效条目",
-      "files": [
-        {
-          "source_relative": "用户 2026-11-03 提供的 9 张提示词截图（未复制；逐图 SHA-256 见 source_images）",
-          "path": "04_原始资料/format-references/R02/prompt-transcript.md.txt",
-          "sha256": "507994153544a60d91d7970f7f22c7050e5e8ad553ce1fc81974acd4f1e168d3",
-          "bytes": 16246
-        }
-      ],
-      "source_images": [
-        {
-          "label": "S01",
-          "sha256": "b0557f8571791df3a65672497c5de0df8cd9537c8eef7b61c7dabc276bef9ada",
-          "dimensions": "708x226"
-        },
-        {
-          "label": "S02",
-          "sha256": "e7da70cca3f9be4c875e3a196fa4af7e5148d2fcb0fd9f1319e22dd89bbb5a42",
-          "dimensions": "695x232"
-        },
-        {
-          "label": "S03",
-          "sha256": "958cefca4909fca931b09cff12d113a47290348aff2e1d52c0a801f2545633cc",
-          "dimensions": "692x282"
-        },
-        {
-          "label": "S04",
-          "sha256": "47dd606e11da8fd89d37a211d8fd9de19445aa31d29b9b764d362212d68dbd88",
-          "dimensions": "750x389"
-        },
-        {
-          "label": "S05",
-          "sha256": "8314801168ae66c55e9721c4ae7ed92c03d2a33f58f97c65ad1657e59831d4f8",
-          "dimensions": "646x265"
-        },
-        {
-          "label": "S06",
-          "sha256": "ca407c3db37dacc87f13db6b4819a47baf5538f80416cffa10c10442c788db42",
-          "dimensions": "413x105"
-        },
-        {
-          "label": "S07",
-          "sha256": "033f99bb129b1968df3ba11df4be9b7cecedf1c7126badc24c9439fe6c7a4612",
-          "dimensions": "699x263"
-        },
-        {
-          "label": "S08",
-          "sha256": "a31c5ebcfcea6ffad29fb0c206df0475e347ab0ef40ee4893819ab9b691a0b63",
-          "dimensions": "794x352"
-        },
-        {
-          "label": "S09",
-          "sha256": "67ca3adfa4b66ea44442b3e354d3dd29e07173234968f3994636e56c88d30ec8",
-          "dimensions": "713x310"
-        }
-      ],
-      "transcription": "visual_read_at_2x_and_4x; truncated, occluded and presumed-typo spots marked in the transcript",
-      "payload_policy": "text transcription only; source screenshots not copied into method layer",
-      "gaps": [
-        "无节点快照、模型名、请求参数与生成结果",
-        "S02/S03/S05/S08 有截断或浮层遮挡",
-        "原文有笔误与口语，按原样保留",
-        "未复现、未播放，不能判断五拍/五层在实际模型中的稳定性"
-      ],
-      "evidence": {
-        "transcription": "complete_for_9_screenshots_with_marked_gaps",
-        "media_review": "not_performed",
-        "reproduction": "not_performed",
-        "transfer_validation": "not_performed",
-        "selection": "unknown"
-      },
-      "intake_date": "2026-11-03"
-    },
-    {
-      "id": "I07",
-      "kind": "industry_skill_document",
-      "name": "漫剧老李玄幻仙侠打戏引擎",
-      "stable_id": "github:lixiaoxiao9888-create/manju-laoli-skill/sd-xuanhuan-engine",
-      "source_version_summary": "V7.4.26；GitHub commit 6f16955c57053d77ea0ffbdbbf3a7985a3e0080a；主引擎与选定依赖文件固定快照；文本研究候选，未进行本地执行/迁移验证",
-      "stages": [
-        "S1",
-        "S2",
-        "S3",
-        "S4"
-      ],
-      "ability_notes": "C01 动作因果；C06 空间与尺度；C13 按语义分配时长；C18 大招五拍/五层的玄幻仙侠专项分支",
-      "locators": "sd-xuanhuan-engine/SKILL.md；references/core-combat-laws.md、grand-scale-domains.md、xuanhuan-elements-vfx.md、arsenal-moves-library.md、arsenal-parameter-library.md；关联 sd-combat-engine 三份护栏",
-      "gaps": [
-        "仅选取主引擎及相关依赖文件，非全仓库镜像",
-        "GitHub Stars/Forks 与作者自述的《兽瞳》第01集实跑不是独立效果评估；无完整生成记录、播放对照或平台表现数据",
-        "core-combat-laws.md 的“前2秒跳出率降低38%”没有可核查研究出处",
-        "未观看媒体、未运行上游校验器、未在本地工具链复现或验证迁移效果",
-        "Seedance 语法、模型参数、固定时长/比例与血腥/反杀剧情不升级为本库通用规范"
-      ],
-      "files": [
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/LICENSE",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/LICENSE.txt",
-          "sha256": "d645a5c3662f73a90972a21ceda79a59eafc38543a506acd5240ce1f514d77c7",
-          "bytes": 1117
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/README.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/README.md.txt",
-          "sha256": "d996caba8bfb409ec6cd29b95e4e746afdfc129fa9fe801206084ab4fbaa949d",
-          "bytes": 43695
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-intensity-guardrails.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-intensity-guardrails.md.txt",
-          "sha256": "3afe2c7b94181cf79aba1a3744d26b25f3f1fcc0160239e3181f86b4e4b5c493",
-          "bytes": 13216
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md.txt",
-          "sha256": "94bc56c1de9be50d50ddd5fa000ce0b3af2e534089c7c32b58ebf7fa44f11af1",
-          "bytes": 16756
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/vfx-rendering-mandate.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/vfx-rendering-mandate.md.txt",
-          "sha256": "9009d22f5f9bc30b989b8d174a11e48f3ebd7102891a4b810d563c2e32a93222",
-          "bytes": 10984
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-moves-library.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-moves-library.md.txt",
-          "sha256": "194ba46a31b5d59dd57a8512b4e8d0be4759e49f1bb9ffaa6b5b0e956712350a",
-          "bytes": 8260
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-parameter-library.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-parameter-library.md.txt",
-          "sha256": "700d034a0dcb65805619c38c2dee7d0fed25f6a33b3f297f0b2518bdd949e77b",
-          "bytes": 36925
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/camera-specs-15modes.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/camera-specs-15modes.md.txt",
-          "sha256": "dfe26b46c85f23da6a67d639a3ad85ef09306c915833aeb91a69e1875ee12937",
-          "bytes": 7035
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/character-scene-presets.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/character-scene-presets.md.txt",
-          "sha256": "8a4d5d2e2914571d50bc19796d0994ac4f4f26d505b003a4c7cfe81735bf938d",
-          "bytes": 7389
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/close-quarters-engine.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/close-quarters-engine.md.txt",
-          "sha256": "3ef965d5359f8e3fcbe12a7d4a20e9b03225d7feae21ee8289d064ca29744ba1",
-          "bytes": 4486
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/core-combat-laws.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/core-combat-laws.md.txt",
-          "sha256": "7b305a1add2bb6d6ae39adf15e80453d383858a8efd0e58da9975dd96b354dc1",
-          "bytes": 20236
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/epic-battlefield-protocols.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/epic-battlefield-protocols.md.txt",
-          "sha256": "8ab295b8d5b88af7b69f8248349e0fa3cd0f7666cc5e3da2d207a9dca75f7132",
-          "bytes": 8877
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/grand-scale-domains.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/grand-scale-domains.md.txt",
-          "sha256": "2fe91fa2e282b3035543211d96563096d8aa61e2280129a2e4e7e3701b5bab0d",
-          "bytes": 4987
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md.txt",
-          "sha256": "6f71b1bd297abad9da3664fcd6801cb1c2e7b5243bbd9fdaaddbc27123e91d84",
-          "bytes": 6426
-        },
-        {
-          "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/SKILL.md",
-          "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/SKILL.md.txt",
-          "sha256": "512ffa85412f4b32a60673f2ee5608622fbfb55ab214ef79d19623ea1b89f797",
-          "bytes": 12990
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "full_skill_and_selected_references_paper_analysis",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed",
-        "market_signal": "GitHub page showed approximately 1.9k Stars and 207 Forks on 2026-11-03; README self-reports a full-process run on 《兽瞳》第01集; neither independently validates effectiveness"
-      },
-      "original_skill_name": "sd-xuanhuan-engine",
-      "original_namespace": "manju-laoli-skill",
-      "original_version": "7.4.26",
-      "source_commit": "6f16955c57053d77ea0ffbdbbf3a7985a3e0080a",
-      "intake_date": "2026-11-03"
-    },
-    {
-      "id": "I08",
-      "kind": "industry_skill_document",
-      "name": "Douyin One-Second Word Video（英语单词助记视频）",
-      "stable_id": "github:Mr-funny/hbg-douyin-one-second-word-video",
-      "source_version_summary": "main commit f1ee0109c092467af47e510ebab35734094cdece；MIT；4 Stars/2 Forks（页面快照）；作者展示 flaw 单词样片，未独立复现",
-      "stages": [
-        "S0",
-        "S1",
-        "S3",
-        "S5"
-      ],
-      "ability_notes": "英语词条来源核验；比较发音块与整词候选；建立自然词义桥；按真实TTS边界同步；最终编码媒体QA",
-      "locators": "SKILL.md §§Workflow/Completion gate；references/proven-structure.md Beat 1–5 / QA timestamps；README.md §flaw实测；ARTICLE-FROM-SOUND-TO-STORY.md",
-      "gaps": [
-        "仓库星标和Fork较少，不能作为市场验证",
-        "作者公开的量化成片证据集中在 flaw 单词样片，独立复现和学习效果评估缺失",
-        "Edge TTS、HyperFrames、chalkboard视觉、四遍重复和固定时长为该Skill专用格式，不迁移成蛋仔模块硬规范",
-        "本次只读文本和作者展示图，没有复现脚本/引擎"
-      ],
-      "files": [
-        {
-          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/README.md",
-          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/README.md.txt",
-          "sha256": "771fb5007b94286c4767e5ae80562c8b693c2ad32ef705733117a5527ed48e98",
-          "bytes": 6608
-        },
-        {
-          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/SKILL.md",
-          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/SKILL.md.txt",
-          "sha256": "0ace76705479b77923ee82112b8a764344f8a6286d121cf3f02de8a612a42349",
-          "bytes": 4712
-        },
-        {
-          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/LICENSE",
-          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/LICENSE.txt",
-          "sha256": "1376eed303c6f74c6aa7343f094e7b21511b566844acb68398f42713346cbbf3",
-          "bytes": 1088
-        },
-        {
-          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md",
-          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md.txt",
-          "sha256": "9daacda3b28ac5e015230190a287f37d2f899b1559129c1e219ccc021ed306e0",
-          "bytes": 3671
-        },
-        {
-          "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md",
-          "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md.txt",
-          "sha256": "5bed53bef3d9891973cc960423009db95f53fcfd5cecc5e921e402c394f88a72",
-          "bytes": 12937
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "full_skill_readme_and_selected_reference_article",
-        "media_review": "author_showcase_images_only",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed",
-        "market_signal": "GitHub showed 4 Stars and 2 Forks; project README reports one flaw sample encoded at 18.208 seconds; not independent efficacy evidence"
-      },
-      "original_skill_name": "douyin-one-second-word-video",
-      "original_namespace": "Mr-funny",
-      "original_version": "main@f1ee0109c092467af47e510ebab35734094cdece",
-      "source_commit": "f1ee0109c092467af47e510ebab35734094cdece",
-      "intake_date": "2026-11-03"
-    },
-    {
-      "id": "I09",
-      "kind": "industry_skill_document",
-      "name": "Story to Handdrawn Video（故事转手绘动画）",
-      "stable_id": "github:gnipbao/story-to-handdrawn-video",
-      "source_version_summary": "main commit 198aefa9b298af3a20d3bd757c93433623d38ccd; MIT; selected seven source files byte-verified; research candidate, not installed or reproduced",
-      "stages": [
-        "S0",
-        "S1",
-        "S2",
-        "S3",
-        "S5"
-      ],
-      "ability_notes": "故事事实澄清、角色表、叙事节拍拆分、逐场文字/角色一致性检查；作为可爱角色日常片的方案参考",
-      "locators": "skill-package/story-to-handdrawn-video/SKILL.md §§Workflow/Completion; references/asset-workflow.md; references/reference-style-workflow.md",
-      "gaps": [
-        "仅复制 Skill 包及 README/LICENSE 中选定的七个文件，不是完整仓库镜像",
-        "固定彩铅日记画风、Remotion、脚本接口和上游字幕/配音方式不迁移到心易做菜",
-        "未安装上游依赖、未复现、未验证输出质量或用户/市场效果"
-      ],
-      "files": [
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/README.md",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/README.md.txt",
-          "sha256": "461bae127a26fadf69a588dc8664ca4b41f3a2899e4e2d6c29449728cb34e5d2",
-          "bytes": 16183
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE.txt",
-          "sha256": "481521d963c714f9d79b68e0cde61ab0b012e17dc3b90f4ed877717a0c401fa3",
-          "bytes": 1064
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md.txt",
-          "sha256": "bdd0ee0c779befc50d9b35707f2361e05e85e9a8226d1743bf46583e723db5c3",
-          "bytes": 12088
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml.txt",
-          "sha256": "7ec568c0299de73c33348e658454c8f3bdb5d783f60dccbf7eac514583a540c2",
-          "bytes": 309
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md.txt",
-          "sha256": "e355d1ca9c12d9d6806b54485e6f04f1e81f0f800b0137ed5ed12d15d80438f0",
-          "bytes": 4136
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md.txt",
-          "sha256": "d3452e1a5c7f4bfcdfa6ecf8184a86b587383e75b39f31896e0a3d719a8b5faf",
-          "bytes": 3961
-        },
-        {
-          "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py",
-          "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py.txt",
-          "sha256": "e5b1917e09c8d27dc51dc592df882b3f325c091ba41a1669c533db8fd6069ccb",
-          "bytes": 958
-        }
-      ],
-      "missing_external_dependencies": [
-        "未安装上游 Remotion/绘图环境；仓库其他资源未镜像"
-      ],
-      "evidence": {
-        "text_review": "full_SKILL_and_README_plus_both_references_openai_yaml_script_and_license",
-        "media_review": "not_performed_for_upstream_skill; separate Bilibili sample review recorded in 08_作品/心易做菜/00_方案/05-秃秃做饭日常补充观察-20261104.md",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed; proposed as research candidate only",
-        "market_signal": "GitHub repository popularity is not treated as independent efficacy evidence"
-      },
-      "original_skill_name": "story-to-handdrawn-video",
-      "original_namespace": "gnipbao",
-      "original_version": "main@198aefa9b298af3a20d3bd757c93433623d38ccd",
-      "source_commit": "198aefa9b298af3a20d3bd757c93433623d38ccd",
-      "intake_date": "2026-11-04"
-    },
-    {
-      "id": "I10",
-      "kind": "industry_skill_document",
-      "name": "Video Storyboard（逐场分镜与连续性）",
-      "stable_id": "github:agentara/skills/skills/aigc/video-storyboard",
-      "source_version_summary": "main commit 950e1bfb11e1df67b46df19804ed85ada9012c33; MIT; selected SKILL, README, LICENSE byte-verified; research candidate, not installed or reproduced",
-      "stages": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "ability_notes": "按场景时长选择分镜密度；逐段匹配分镜图/视频提示词；角色、道具、地点连续性检查；映射 C01/C03/C04/C06/C13",
-      "locators": "skills/aigc/video-storyboard/SKILL.md §§Inputs/Grid Rules/Storyboard Image Requirements/Video Prompt Script Requirements",
-      "gaps": [
-        "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
-        "固定网格、栅格图像生成要求和工具指令不直接迁移",
-        "未安装上游依赖、未复现、未验证成片质量或迁移效果"
-      ],
-      "files": [
-        {
-          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/README.md",
-          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/README.md.txt",
-          "sha256": "7f8b11e21527885a7e00508d95764eb5d686c4bc1703b8c073e86a4651b898bd",
-          "bytes": 7084
-        },
-        {
-          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
-          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE.txt",
-          "sha256": "d823edd9d34324f0cecd19ab4beda0033c0cb53eadb3954947dcfa428beb66e8",
-          "bytes": 1065
-        },
-        {
-          "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md",
-          "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md.txt",
-          "sha256": "8677b67defe936545217c5a7004566b9da26b873ae8084d82897463f7f9e2dd8",
-          "bytes": 15410
-        }
-      ],
-      "missing_external_dependencies": [],
-      "evidence": {
-        "text_review": "full_SKILL_README_and_LICENSE",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed; mapped as research candidate only",
-        "market_signal": "GitHub showed 622 Stars at intake; popularity is not efficacy evidence"
-      },
-      "original_skill_name": "video-storyboard",
-      "original_namespace": "agentara",
-      "original_version": "main@950e1bfb11e1df67b46df19804ed85ada9012c33",
-      "source_commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
-      "intake_date": "2026-11-04"
-    },
-    {
-      "id": "I11",
-      "kind": "industry_skill_document",
-      "name": "Storyboard to Cooking Video（烹饪动作参考板）",
-      "stable_id": "github:samuraigpt/Generative-Media-Skills/library/motion/storyboard-to-cooking-video",
-      "source_version_summary": "main commit 66b55e2a27ee554667ec255782922bae72882cc8; MIT; selected Skill, README, LICENSE byte-verified; research candidate, not installed or reproduced",
-      "stages": [
-        "S1",
-        "S2",
-        "S3"
-      ],
-      "ability_notes": "以 dish 驱动烹饪动作参考板，先审视觉动作顺序再进入视频提示词；映射 C01/C03/C04/C06/C13",
-      "locators": "library/motion/storyboard-to-cooking-video/SKILL.md §§Inputs/Step 1/Step 2/Notes",
-      "gaps": [
-        "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
-        "固定九步、15秒、真人连续长镜、MuAPI/Seedance，不作为本项目规范",
-        "未安装上游依赖、未派发、未复现、未验证输出质量或迁移效果"
-      ],
-      "files": [
-        {
-          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/README.md",
-          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/README.md.txt",
-          "sha256": "f3bd1d36eca672623199b6c4638afeaad4103fbd121cf7e309a0e3b47a5ec9ba",
-          "bytes": 21530
-        },
-        {
-          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/LICENSE",
-          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/LICENSE.txt",
-          "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
-          "bytes": 1056
-        },
-        {
-          "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md",
-          "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md.txt",
-          "sha256": "03f31cbdb1d74c32dc03c83b10cc9a2bb83084c908320324667890407409d2fc",
-          "bytes": 8794
-        }
-      ],
-      "missing_external_dependencies": [
-        "上游使用 MuAPI/Seedance；本轮未安装调用"
-      ],
-      "evidence": {
-        "text_review": "full_SKILL_README_and_LICENSE",
-        "media_review": "not_performed",
-        "execution": "not_performed",
-        "transfer_validation": "not_performed; mapped as research candidate only",
-        "market_signal": "GitHub showed 33 Stars at intake; popularity is not efficacy evidence"
-      },
-      "original_skill_name": "muapi-storyboard-to-cooking-video",
-      "original_namespace": "samuraigpt",
-      "original_version": "main@66b55e2a27ee554667ec255782922bae72882cc8",
-      "source_commit": "66b55e2a27ee554667ec255782922bae72882cc8",
-      "intake_date": "2026-11-04"
-    },
-    {
-      "id": "R03",
-      "kind": "format_reference",
-      "name": "A53 分镜运镜提示词资料包（运镜公式、九宫格分镜模板与提示词词库）",
-      "stable_id": "quark-download:A53分镜运镜提示词＋AI指令整理:2026-11-04",
-      "intake_date": "2026-11-05",
-      "stages": [
-        "S1",
-        "S3"
-      ],
-      "ability_notes": "运镜数值词表与情绪→运镜选镜对照（新词表文件）；九宫格语义分行（块 02 G 分镜图参考）",
-      "locators": "即梦4.0公式（数值运镜10条/特殊场景9条/景别层级/运动方向10条）；seedance2.0 九宫格（3行×3格语义分行）；【先看这个】镜头类型40+与动作+镜头反应词例；300电影风格",
-      "files": [
-        {
-          "path": "04_原始资料/format-references/R03/seedance2.0-九宫格分镜模板.txt",
-          "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
-          "bytes": 2075
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-即梦4.0公式.txt",
-          "sha256": "16a00f9f96ab3443bbc435eb042d4049441b397c6700351e85a984d8029cfcdc",
-          "bytes": 5839
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-十大经典-即梦3.0.txt",
-          "sha256": "1cf615a6c570f8dc0544ebd6acd3a8627373a7318d407d02b0e4599eda705ded",
-          "bytes": 2847
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-组合运镜1.txt",
-          "sha256": "fc53b8a11019d5c60ff66e011f81cccb8be96a685050c206cfbade8de0ff296f",
-          "bytes": 2631
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-组合运镜2.txt",
-          "sha256": "5f76b187c66d8c6bfaa283811d16ba014cb3333b3ff06d6ef32c799818a19bd5",
-          "bytes": 7899
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-12组电影级组合.txt",
-          "sha256": "21beda84c258dec5e071c5cfd0a1e8cb5e0d7b69e2a66a0db4eab7769cb8f068",
-          "bytes": 3352
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-特效运镜.txt",
-          "sha256": "042739a3bc4e66c1527bc9af3c59ac5d346efef1ca33875a8023a61b69bf4eb8",
-          "bytes": 1760
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-服装展示-doc提取.txt",
-          "sha256": "bbf5003c40854f1e0c23dd1448e4aee04dbc3d6a12e9ef11f674e88cbaa8d929",
-          "bytes": 7348
-        },
-        {
-          "path": "04_原始资料/format-references/R03/运镜-景别词表-doc过滤版.txt",
-          "sha256": "632b3946c3f4b7512c6d15e94425f8d9f2597daf7fc6ae6f2404c189c740de28",
-          "bytes": 690
-        },
-        {
-          "path": "04_原始资料/format-references/R03/分镜-即梦图片4教程.txt",
-          "sha256": "c84e9c66ac7f4b6534bd35dbcc118d6bff51e1ede2301fb3289588a87576cd01",
-          "bytes": 5171
-        },
-        {
-          "path": "04_原始资料/format-references/R03/分镜-画面提示词词库.txt",
-          "sha256": "09535f888609b5d8b900ae4bd573e257577b20c1ce1ec577f2846ba700c250da",
-          "bytes": 19862
-        },
-        {
-          "path": "04_原始资料/format-references/R03/分镜-即梦700指令.txt",
-          "sha256": "f744dbdb503ca82fb96f78e10ba097d6c5dc99c67603da60c57b7330f3c76c7e",
-          "bytes": 20837
-        },
-        {
-          "path": "04_原始资料/format-references/R03/分镜-脚本模板300条.txt",
-          "sha256": "3126544bf2e747ea447e64dcc8438020e712512ead801ff98a96312a46a51edf",
-          "bytes": 34991
-        },
-        {
-          "path": "04_原始资料/format-references/R03/分镜-电影风格300条.txt",
-          "sha256": "d862d535ee3bcd81f40d201db089b24a25b81fef15aec9a650ab179b1880203c",
-          "bytes": 16537
-        }
-      ],
-      "original_provenance": {
-        "root": "D:\\夸克下载\\A53分镜运镜提示词＋AI指令整理（仓库外，可能被清理）",
-        "files": [
-          {
-            "source_relative": "AI运镜提示词\\12组电影级组合运镜提示词.docx",
-            "sha256": "5b7e9c16da0439da666374aedced61b86c51f7bd07f7004349a1134f9abb5d38",
-            "bytes": 8581014
-          },
-          {
-            "source_relative": "AI运镜提示词\\十大经典运镜教程.docx",
-            "sha256": "040f486915309627c6b610da0272241d0414bd132017fd7ce491c89f8e7e1abb",
-            "bytes": 12584
-          },
-          {
-            "source_relative": "AI运镜提示词\\即梦影视级提示词公式.docx",
-            "sha256": "de1023aa5b7b9f7a8c82e7ead73a1d667c90f96f105afb94b10cc579335563bd",
-            "bytes": 18170
-          },
-          {
-            "source_relative": "AI运镜提示词\\特效运镜.docx",
-            "sha256": "09a4ba89c2e67907e7aafad1489d8ae7ee5ed67676a31b7f029a057a846abb28",
-            "bytes": 1928151
-          },
-          {
-            "source_relative": "AI运镜提示词\\组合运镜.docx",
-            "sha256": "d256e4908b1597e085cbf4ad02ae3a94ef5234dd807791f6c8119ac52a9eab11",
-            "bytes": 15542
-          },
-          {
-            "source_relative": "AI运镜提示词\\组合运镜2.docx",
-            "sha256": "21e6381b6fa488053e58505d57442cca4f60acd625e385d00c73f191b2dd5e64",
-            "bytes": 24965
-          },
-          {
-            "source_relative": "AI运镜提示词\\运镜提示词.doc",
-            "sha256": "d4f281be31dc1e37ccad31d0097530a343b8347a16fa57acda6b8065e17e0a13",
-            "bytes": 67584
-          },
-          {
-            "source_relative": "AI运镜提示词\\运镜教学.doc",
-            "sha256": "f6106a33de71e56620063ea7d71338aad57ef0cb8554ce83c13c84dfba4a4ff5",
-            "bytes": 18802176
-          },
-          {
-            "source_relative": "分镜提示词整理\\seedance2.0分镜提示词模板.txt",
-            "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
-            "bytes": 2075
-          },
-          {
-            "source_relative": "分镜提示词整理\\300+电影风格提示词.csv",
-            "sha256": "8bc64aa1ed2a6ca7e742ffdde756187289c802a4a4dfa83c1b5da9146380cbae",
-            "bytes": 11105
-          },
-          {
-            "source_relative": "分镜提示词整理\\AI视频脚本分镜模板_共300条.xlsx",
-            "sha256": "4850b286aa16dbcc1e5e8fc44e69244123288e02f9ae2992412bb05ebc7f904b",
-            "bytes": 19710
-          },
-          {
-            "source_relative": "分镜提示词整理\\【先看这个】分镜画面提示词.xlsx",
-            "sha256": "6e309479fd399f1dced3584fbcfd281c02693815d39ca0870de3015ca5c6d461",
-            "bytes": 28887
-          },
-          {
-            "source_relative": "分镜提示词整理\\即梦100多组（700+个）神级指令合集.xlsx",
-            "sha256": "2f5c2bdf4246c03cfec2b8ac0572578992a77bd874e35af8357fb925f8a5da8d",
-            "bytes": 26094
-          },
-          {
-            "source_relative": "分镜提示词整理\\即梦AI图片4.0提示词：从脚本到短视频分镜的创作.docx",
-            "sha256": "0b4932da938cc3034ab9e6b803a7cd13c77da588bc352c85ef053e183b82f661",
-            "bytes": 1096826
-          }
-        ]
-      },
-      "payload_policy": "text extraction only; docx/doc 媒体与嵌入图未导入；28个短视频表格模板未导入（人工拍摄脚本表，非 AI 提示词）",
-      "gaps": [
-        "教程/词库类来源，无运行记录，非工作流证据（§5：不能当已验证方法）",
-        "运镜教学.doc 提取经二进制噪声过滤，仅保留词表行",
-        "即梦公式含情绪传递语，采纳口径：情绪只作选镜对照，不进提示词",
-        "原包在仓库外，未复制原始 docx/doc/xlsx"
-      ],
-      "evidence": {
-        "text_extraction": "complete_for_selected_files",
-        "media_review": "not_applicable",
-        "reproduction": "not_performed",
-        "selection": "intake_only; 采纳走词表与模板文件"
-      }
+     "source_relative": "_归档/LibTV优秀案例/高中状元-副本/高中状元-副本_LibTV节点快照_2026-10-20.json",
+     "path": "04_原始资料/workflows/W01/nodes.json",
+     "sha256": "e3411d74988836a3a30c9073858b21138bbe9ae7379da2d6ea46e69240a8b83f",
+     "bytes": 1270946
     }
-  ],
-  "counts": {
-    "workflow_sources": 11,
-    "workflow_json_snapshots": 10,
-    "industry_skill_documents": 10,
-    "cloned_source_files": 63,
-    "adapted_project_skill_entries": 8,
-    "format_reference_packages": 3,
-    "derived_format_metadata_files": 3,
-    "transcribed_prompt_screenshots": 9
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W02",
+   "kind": "workflow",
+   "name": "狐涂与咕呱",
+   "stable_id": "libtv:9b59cae9ea744bc3bb90f7a2af0ebee5",
+   "stages": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "C01/C05 动作笑点；C04 角色比例与状态；C08 人物声音",
+   "locators": "动作—后果—反应；角色体型与状态变化；声音角色",
+   "gaps": [
+    "无 project 边集；最终采用版未知"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md",
+     "path": "04_原始资料/workflows/W02/狐涂与咕呱-神灯-副本_LibTV提示词与制作关系封存_2026-10-20.md.txt",
+     "sha256": "3dbd810241d08cdc4625a6e87a85ebdbfde46cb3ef6f8ef007c76adae6942ec2",
+     "bytes": 478282
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/狐涂与咕呱-神灯-副本/狐涂与咕呱-神灯-副本_LibTV节点快照_2026-10-20.json",
+     "path": "04_原始资料/workflows/W02/nodes.json",
+     "sha256": "20a9cb278f3127f1b4091e9bf0d483ef8a6c8606dce89c1d7a586518751d2a5d",
+     "bytes": 808725
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W03",
+   "kind": "workflow",
+   "name": "小橘游成都",
+   "stable_id": "libtv:b5551209eee64808bca9d0f3cd4d2f04",
+   "stages": [
+    "S1",
+    "S2",
+    "S4",
+    "S5"
+   ],
+   "ability_notes": "C01 完整动作链；C02 局部返修；C09 后期链",
+   "locators": "v-p5gydqs24xjz 动作接续，v-9fsw9qs3t4bw 单声叫声，教程文本与后期节点",
+   "gaps": [
+    "一个分组成员缺失；最终剪辑采用关系未知"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W03/小橘游成都vlog-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+     "sha256": "70fe014694d7ac9f0092efcbf54e75fb3156382c39ca81705de52663df61a169",
+     "bytes": 106915
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/小橘游成都vlog-副本/小橘游成都vlog-副本_LibTV节点快照_2026-10-20.json",
+     "path": "04_原始资料/workflows/W03/nodes.json",
+     "sha256": "4ec26ffdd3746b7b5779fa0a42c645a15712f11265201cc986f4fcaff07bb690",
+     "bytes": 271442
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W04",
+   "kind": "workflow",
+   "name": "八仙动画",
+   "stable_id": "libtv:cd8aed3cd11842fcb76f40267ea04eb2",
+   "stages": [
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "ability_notes": "C04 脸部/全身资产；C06 特效身份与空间接续",
+   "locators": "i-d82zgrw5xjt5→i-6342afn45mf5；v-15yJUpPJ9a 的空间、表演与段尾",
+   "gaps": [
+    "18 个导入视频与生成结果未建立对应"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W04/八仙动画-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+     "sha256": "b00c29192645e63d34916c4f7dd3c4c72748799a8f6926322ea684b08a09523e",
+     "bytes": 247308
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/八仙动画-副本/八仙动画-副本_LibTV节点快照_2026-10-21.json",
+     "path": "04_原始资料/workflows/W04/nodes.json",
+     "sha256": "ee1c9ce7fe493d884e338728e0f1e8d727baaba3e6b3b322f773711e25d34ed3",
+     "bytes": 464245
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W05",
+   "kind": "workflow",
+   "name": "治愈系IP",
+   "stable_id": "libtv:914feda437274ec1bb8ea5d5862e8468",
+   "stages": [
+    "S0",
+    "S1",
+    "S3"
+   ],
+   "ability_notes": "C03 分段文本真实输入；C01 材质与动作；C05 温柔反应",
+   "locators": "文本生成 7d4a1774-e7a1-4a77-be19-0a0d8c1f19cd；分段文本 e2b71873-a4c2-4103-bd73-df7850d51e77→视频 4b9470a7-6d09-41d3-9b1c-941dfc4874a7",
+   "gaps": [
+    "完整脚本到分段文本无边；成片资源来源未知"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W05/热门治愈系IP拆解-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+     "sha256": "959f3bbbaf34eefadb519b6fc7a8e04f58969c339046c0644d8b599e8778e96c",
+     "bytes": 65685
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/热门治愈系IP拆解-副本/热门治愈系IP拆解-副本_LibTV节点快照_2026-10-21.json",
+     "path": "04_原始资料/workflows/W05/nodes.json",
+     "sha256": "8be28d4650bc08ac74845c6ce8eb3cc8aa30143d2e09855feb303cf371841f8a",
+     "bytes": 139133
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W06",
+   "kind": "workflow",
+   "name": "异种纪元第四集",
+   "stable_id": "libtv:b7743ee8d8c14d94a2a9890cce4dbfe3",
+   "stages": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "C06 场景空间；C01 动作因果；C04 资产组织",
+   "locators": "v-0bupyWfAIt 的左前景/中后段/右侧定位；分组是候选组织而非剪辑时间线",
+   "gaps": [
+    "23 个分组成员无法解析；未证明最终剪辑"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_工作流拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W06/异种纪元-第四集-副本_工作流拆解_2026-10-21.md.txt",
+     "sha256": "4033f9b0907443e852a4135cf02ab8bc060b7da9142fe9b528c998546da0c9df",
+     "bytes": 877594
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/异种纪元-第四集-副本/异种纪元-第四集-副本_LibTV节点快照_2026-10-21.json",
+     "path": "04_原始资料/workflows/W06/nodes.json",
+     "sha256": "551eeca4ce1998416b236a987f319ffd6faf90cef25c9b0a578a98439d770ad3",
+     "bytes": 1545908
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W07",
+   "kind": "workflow",
+   "name": "胡来万事屋",
+   "stable_id": "libtv:0bb4de92ac0846eba463218d5460fae4",
+   "stages": [
+    "S1",
+    "S3",
+    "S5"
+   ],
+   "ability_notes": "C05 真人反应与停顿；C08 音色；C09 去字幕链",
+   "locators": "v-1JMCzSTVcF 镜头六；人物音频实际输入与去字幕源片关系",
+   "gaps": [
+    "空 prompt 历史节点设置与输出时长不一致"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_工作流拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W07/胡来万事屋-副本_工作流拆解_2026-10-21.md.txt",
+     "sha256": "74909d3d3c33dcf6d7f594c154a3854d4a747c00a32bfd0b88acc94fae8b1f96",
+     "bytes": 81203
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/胡来万事屋-副本/胡来万事屋-副本_LibTV节点快照_2026-10-21.json",
+     "path": "04_原始资料/workflows/W07/nodes.json",
+     "sha256": "9a7af20e1ddf79f0f9820d57f8d3869c2ecb1e5373a80b421aa0ffb34e0ae1af",
+     "bytes": 143808
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W08",
+   "kind": "workflow",
+   "name": "过来人",
+   "stable_id": "libtv:82e5114b017a485f9971fed0d9359ed9",
+   "stages": [
+    "S0",
+    "S1",
+    "S3",
+    "S5"
+   ],
+   "ability_notes": "C08 音乐切片与逐句表演；C04 群像站位",
+   "locators": "单人音乐切片、逐句动作、合唱站位图；消歧后才绑定执行节点",
+   "gaps": [
+    "只有文档；v-WkR3jpy9YW 正文与关联表身份冲突"
+   ],
+   "files": [
+    {
+     "source_relative": "过来人LibTV画布提示词与关系索引.md",
+     "path": "04_原始资料/workflows/W08/过来人原始索引.md.txt",
+     "sha256": "c81bb5e97b8cd4e58cc6eec6bdc00518de25d1c70f700b4c20be614ea5b73894",
+     "bytes": 87365
+    }
+   ],
+   "evidence": {
+    "structure": "document_only",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "W09",
+   "kind": "workflow",
+   "name": "猫咪骑士",
+   "stable_id": "libtv:fca88b866a5e47e5abffc5c7d89e120b",
+   "stages": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "ability_notes": "C10 多格分镜预演；C02 源版本和秒级区间重拍；C04/C06 资产空间",
+   "locators": "g-pVaA8rF57j 分镜测试；v-G9wxnoCAth 空间；v-7ZNR2SJxku 源片0–4.4s加盔甲图重拍",
+   "gaps": [
+    "分镜图未传视频；部分文字绑定冲突；未观看结果"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md",
+     "path": "04_原始资料/workflows/W09/猫咪骑士-副本_LibTV提示词与制作关系拆解_2026-10-21.md.txt",
+     "sha256": "436f4397271ef2ae44e0a20dc0f0b4c549aab5192933d721006a231cd261257c",
+     "bytes": 716459
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/猫咪骑士-副本/猫咪骑士-副本_LibTV节点快照_2026-10-21.json",
+     "path": "04_原始资料/workflows/W09/nodes.json",
+     "sha256": "e9111bd07ee38b962c3e19e4b73aa143b037d66e8d71e87f56b28922bf11cbbc",
+     "bytes": 1322928
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot_fields",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   }
+  },
+  {
+   "id": "I01",
+   "kind": "industry_skill_document",
+   "name": "游戏宣传Demo",
+   "stable_id": "I01:01-game-promo-video.md",
+   "source_version_summary": "原文版本3；单镜生活切片与多镜事件是不同分支",
+   "files": [
+    {
+     "source_relative": "_共享/工作流研究/行业技能文档/原文/01-game-promo-video.md",
+     "path": "04_原始资料/industry-skills/I01/source.md.txt",
+     "sha256": "9f3220bb86538e1df657d21bb8e594a909d42147b9e1ea55ac350de38c9ffee5",
+     "bytes": 28664
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed"
+   },
+   "original_skill_name": "game-promo-video",
+   "original_namespace": "industry",
+   "original_version": "3"
+  },
+  {
+   "id": "I02",
+   "kind": "industry_skill_document",
+   "name": "3D卡通广告",
+   "stable_id": "I02:02-pixaranimationstudios-3d.md",
+   "source_version_summary": "原文版本6.2；夸张表演和品牌落点仅适用于相应任务",
+   "files": [
+    {
+     "source_relative": "_共享/工作流研究/行业技能文档/原文/02-pixaranimationstudios-3d.md",
+     "path": "04_原始资料/industry-skills/I02/source.md.txt",
+     "sha256": "130ce0986df0d2330a67248b11fc54573a85d87b2de7b28e83ada349cdadc4ac",
+     "bytes": 16827
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed"
+   },
+   "original_skill_name": "pixaranimationstudios-3d",
+   "original_namespace": "libtv-industry",
+   "original_version": "6.2"
+  },
+  {
+   "id": "I03",
+   "kind": "industry_skill_document",
+   "name": "参考视频改写",
+   "stable_id": "I03:03-爆款视频复刻.md",
+   "source_version_summary": "无name/version；短尾舍弃和原音保留是其配方选项，不全局生效",
+   "files": [
+    {
+     "source_relative": "_共享/工作流研究/行业技能文档/原文/03-爆款视频复刻.md",
+     "path": "04_原始资料/industry-skills/I03/source.md.txt",
+     "sha256": "45b955c69b523585bf39d2a985817eb9546133d0a03e1e607d83f1cf13e86859",
+     "bytes": 11443
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed"
+   },
+   "original_skill_name": null,
+   "original_namespace": null,
+   "original_version": null
+  },
+  {
+   "id": "I04",
+   "kind": "industry_skill_document",
+   "name": "新中式TVC",
+   "stable_id": "I04:04-neo-chinese-aesthetic-tvc.md",
+   "source_version_summary": "外部references/seedance-output.md、scripts/extract_frames.sh缺失",
+   "files": [
+    {
+     "source_relative": "_共享/工作流研究/行业技能文档/原文/04-neo-chinese-aesthetic-tvc.md",
+     "path": "04_原始资料/industry-skills/I04/source.md.txt",
+     "sha256": "5136f6467cd780c2697dea356721793643ea42e0f8194aa3bc7cb645ebbd476f",
+     "bytes": 41596
+    }
+   ],
+   "missing_external_dependencies": [
+    "references/seedance-output.md",
+    "scripts/extract_frames.sh"
+   ],
+   "evidence": {
+    "text_review": "paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed"
+   },
+   "original_skill_name": null,
+   "original_namespace": null,
+   "original_version": null
+  },
+  {
+   "id": "I05",
+   "kind": "industry_skill_document",
+   "name": "古典武侠流程",
+   "stable_id": "I05:05-hujinquanwuxia.md",
+   "source_version_summary": "多份references附件缺失；按语义规划时长、网格审核与资产触发值得研究",
+   "files": [
+    {
+     "source_relative": "_共享/工作流研究/行业技能文档/原文/05-hujinquanwuxia.md",
+     "path": "04_原始资料/industry-skills/I05/source.md.txt",
+     "sha256": "d569c2ffff23c2e2b8c2bc01ab8080f267a9b3e66190c9098cda5679c6856a2d",
+     "bytes": 16449
+    }
+   ],
+   "missing_external_dependencies": [
+    "references/asset-system.md",
+    "references/editing-audio-subtitles.md",
+    "references/examples.md",
+    "references/fight-choreography.md",
+    "references/image-prompts.md",
+    "references/quality-repair.md",
+    "references/quick-start.md",
+    "references/resolution-delivery.md",
+    "references/script-duration-planning.md",
+    "references/storyboard-nine-grid.md",
+    "references/style-calibration.md",
+    "references/style-classical.md",
+    "references/style-king-hu.md",
+    "references/style-shaw.md",
+    "references/templates.md",
+    "references/video-prompts.md",
+    "references/workflow-routing.md"
+   ],
+   "evidence": {
+    "text_review": "paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed"
+   },
+   "original_skill_name": null,
+   "original_namespace": null,
+   "original_version": null
+  },
+  {
+   "id": "R01",
+   "kind": "format_reference",
+   "name": "万宝盲盒方向文档格式",
+   "stable_id": "archive-sha256:4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
+   "archive_sha256": "4f74f66ab5abbaa5c5c457056e7511d7b1387842dd884c63a7464da05f6f2ff9",
+   "archive_member_count": 4,
+   "intake_date": "2026-10-21",
+   "stages": [
+    "S0",
+    "S1",
+    "S2",
+    "S6"
+   ],
+   "ability_notes": "C11 长程承诺与兑现；C12 方向级文档组织",
+   "files": [
+    {
+     "source_relative": "万宝盲盒.zip!/archive-index.json (derived structural metadata)",
+     "path": "04_原始资料/format-references/R01/archive-index.json",
+     "sha256": "b5ea36cda644055fb0be5c9b2ad50186a08a059b594404d752084c1bec90c2fd",
+     "bytes": 2443,
+     "role": "derived_metadata_not_original_payload"
+    },
+    {
+     "source_relative": "万宝盲盒.zip!/format-schema.json (derived structural metadata)",
+     "path": "04_原始资料/format-references/R01/format-schema.json",
+     "sha256": "9cca9552b7c766a2a70b2ea3086c6965170a43010fca8b4712a4a0632490c45d",
+     "bytes": 1993,
+     "role": "derived_metadata_not_original_payload"
+    }
+   ],
+   "payload_policy": "schema and logic only; original ZIP is not copied",
+   "gaps": [
+    "characters.md duplicates skeleton.md",
+    "4 referenced arc.md files not included",
+    "independent character and arc templates are library proposals, not source fields"
+   ],
+   "evidence": {
+    "all_member_text_read": true,
+    "structure_review": "complete_for_4_provided_files",
+    "media_review": "not_applicable",
+    "template_runtime_use": "not_performed",
+    "reference_selection": "intake_only"
+   }
+  },
+  {
+   "id": "W10",
+   "kind": "workflow",
+   "name": "锅气交响 扬州炒饭美食短片",
+   "stable_id": "libtv:c55dee32298d422aa773e85e42c93907",
+   "stages": [
+    "S1",
+    "S2",
+    "S3",
+    "S5"
+   ],
+   "ability_notes": "C10 已连通分支；C14 统一风格语句元生成；C15 同 prompt 多模型抽卡；C08 旁白随片生成分支；C04 无角色资产分支；C09 超分放大链",
+   "locators": "t-e6VJXgHP1B 风格语句元提示词；i-WPjQvxktYq→v-0FW0nm9nmb 网格图驱动链；i-HFLdsaRcDg/i-JfsZ5Rnkdt/i-rbbKD6wSxR 抽卡组",
+   "gaps": [
+    "媒体全部未观看",
+    "段1/段6双方案并存无采用记录",
+    "无重拍与剪辑链"
+   ],
+   "files": [
+    {
+     "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md",
+     "path": "04_原始资料/workflows/W10/锅气交响-扬州炒饭美食短片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
+     "sha256": "8d313cd7131a93a26dd6c8373b78fdce91815c15db697d421c7496542c67303d",
+     "bytes": 10397
+    },
+    {
+     "source_relative": "_归档/LibTV优秀案例/锅气交响-扬州炒饭美食短片-副本/锅气交响-扬州炒饭美食短片-副本_LibTV节点快照_2026-10-29.json",
+     "path": "04_原始资料/workflows/W10/nodes.json",
+     "sha256": "d48bf781bb401b6d7e85eed05d3e85369482dad1f78e7eb1f120e67dea13b610",
+     "bytes": 220795
+    }
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only GET (project/detail + node/detail); libtv.exe blocked by OS policy; user-owned token refreshed via official SMS login 2026-10-29"
+   },
+   "intake_date": "2026-10-29"
+  },
+  {
+   "id": "I06",
+   "kind": "internal_production_method",
+   "name": "Monet画布搭建方法",
+   "stable_id": "I06:Monet画布搭建方法-2026-10-29.md",
+   "source_version_summary": "2026-10-29 版总纲;整理自 2026-10-21 起多支 Monet 画布实建与返工记录;用户确认后续画布一律采用此格式",
+   "files": [
+    {
+     "source_relative": "ai-drama/_共享/规范/Monet画布搭建方法-2026-10-29.md",
+     "path": "04_原始资料/industry-skills/I06/source.md.txt",
+     "sha256": "fc97ea8035a9bb2dba70350feb8c73abc6579160fb06b35f412bff02d77a37e7",
+     "bytes": 17958
+    }
+   ],
+   "missing_external_dependencies": [],
+   "external_workspace_dependencies": [
+    "ai-drama/_共享/工具/检查画布接线.py",
+    "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/尾帧接线规则.md",
+    "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/首尾帧引用写法.md",
+    "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/extract_tail_frames.py",
+    "ai-drama/_共享/工作流研究/衍生方案-蛋仔游成都/画布分析/蛋仔游城市-工作流模板-v1.monet",
+    "ai-drama/_共享/工作流研究/衍生方案-蛋仔记单词/脚本/build_ep01_ambulance.py",
+    "ai-drama/_共享/工作流研究/衍生方案-四小只/脚本/upload_refs.py"
+   ],
+   "evidence": {
+    "text_review": "full_text",
+    "media_review": "not_performed",
+    "execution": "external_production_use",
+    "transfer_validation": "not_performed"
+   },
+   "original_namespace": "internal_spec",
+   "adoption": "user_confirmed_2026-10-29_future_canvas_builds"
+  },
+  {
+   "id": "W11",
+   "kind": "workflow",
+   "name": "邵氏电影学英语一步成片模板",
+   "stable_id": "libtv:58ab94a2da3f411b8849f076fa87c94d",
+   "stages": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "C17 智能体单变量一步成片模板（新增）；C04 三视图角色锚+{{Mixed N}}分支；C03 剧本自动生成入视频 prompt；C16 引用锚位 LibTV 实证",
+   "locators": "cb6da0ea 智能体定义 content；ce36c3fa prompt=单词与输出剧本；ea214b17 {{Mixed 1/2}} 锚位与 mixedList；使用说明场景1/场景2",
+   "gaps": [
+    "媒体全部未观看",
+    "两分支输出 url 相同采用版不明",
+    "视频参数双套并存",
+    "智能体触发词与中文输入未复现"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only GET (project/detail, CLI-restored headers); user-owned token refreshed via official web login 2026-10-29"
+   },
+   "intake_date": "2026-10-29",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W11/邵氏电影学英语一步成片-副本_LibTV提示词与制作关系拆解_2026-10-29.md.txt",
+     "sha256": "ce49e569224012c5b5a168fe55a495eb69109299f36038ae3a86840712f2ebcb",
+     "bytes": 11336,
+     "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集；本文件为本库自同源快照生成的拆解）"
+    },
+    {
+     "path": "04_原始资料/workflows/W11/nodes.json",
+     "sha256": "9a0348b8716495c388a5bb70abe855a48aee41b4ed4eda7ffcdf42be7f99440e",
+     "bytes": 52805,
+     "source_relative": "LibTV 画布 58ab94a2da3f411b8849f076fa87c94d（在线采集 2026-10-29）"
+    }
+   ]
+  },
+  {
+   "id": "R02",
+   "kind": "format_reference",
+   "name": "大招演出提示词格式（9 张截图样本）",
+   "stable_id": "user-attachments:2026-11-03:grand-move-prompt-samples",
+   "stages": [
+    "S1",
+    "S3"
+   ],
+   "ability_notes": "C18 五拍结构与五层特效栈（新增）；C13 时长；C14 风格前置；C01 动作因果",
+   "locators": "S07/S08 4 拍 15s；S09 5 拍 15s；S01/S02/S03 分镜式；S04 全局设定式；S06 元请求；用户 5 个特效条目",
+   "files": [
+    {
+     "source_relative": "用户 2026-11-03 提供的 9 张提示词截图（未复制；逐图 SHA-256 见 source_images）",
+     "path": "04_原始资料/format-references/R02/prompt-transcript.md.txt",
+     "sha256": "507994153544a60d91d7970f7f22c7050e5e8ad553ce1fc81974acd4f1e168d3",
+     "bytes": 16246
+    }
+   ],
+   "source_images": [
+    {
+     "label": "S01",
+     "sha256": "b0557f8571791df3a65672497c5de0df8cd9537c8eef7b61c7dabc276bef9ada",
+     "dimensions": "708x226"
+    },
+    {
+     "label": "S02",
+     "sha256": "e7da70cca3f9be4c875e3a196fa4af7e5148d2fcb0fd9f1319e22dd89bbb5a42",
+     "dimensions": "695x232"
+    },
+    {
+     "label": "S03",
+     "sha256": "958cefca4909fca931b09cff12d113a47290348aff2e1d52c0a801f2545633cc",
+     "dimensions": "692x282"
+    },
+    {
+     "label": "S04",
+     "sha256": "47dd606e11da8fd89d37a211d8fd9de19445aa31d29b9b764d362212d68dbd88",
+     "dimensions": "750x389"
+    },
+    {
+     "label": "S05",
+     "sha256": "8314801168ae66c55e9721c4ae7ed92c03d2a33f58f97c65ad1657e59831d4f8",
+     "dimensions": "646x265"
+    },
+    {
+     "label": "S06",
+     "sha256": "ca407c3db37dacc87f13db6b4819a47baf5538f80416cffa10c10442c788db42",
+     "dimensions": "413x105"
+    },
+    {
+     "label": "S07",
+     "sha256": "033f99bb129b1968df3ba11df4be9b7cecedf1c7126badc24c9439fe6c7a4612",
+     "dimensions": "699x263"
+    },
+    {
+     "label": "S08",
+     "sha256": "a31c5ebcfcea6ffad29fb0c206df0475e347ab0ef40ee4893819ab9b691a0b63",
+     "dimensions": "794x352"
+    },
+    {
+     "label": "S09",
+     "sha256": "67ca3adfa4b66ea44442b3e354d3dd29e07173234968f3994636e56c88d30ec8",
+     "dimensions": "713x310"
+    }
+   ],
+   "transcription": "visual_read_at_2x_and_4x; truncated, occluded and presumed-typo spots marked in the transcript",
+   "payload_policy": "text transcription only; source screenshots not copied into method layer",
+   "gaps": [
+    "无节点快照、模型名、请求参数与生成结果",
+    "S02/S03/S05/S08 有截断或浮层遮挡",
+    "原文有笔误与口语，按原样保留",
+    "未复现、未播放，不能判断五拍/五层在实际模型中的稳定性"
+   ],
+   "evidence": {
+    "transcription": "complete_for_9_screenshots_with_marked_gaps",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "transfer_validation": "not_performed",
+    "selection": "unknown"
+   },
+   "intake_date": "2026-11-03"
+  },
+  {
+   "id": "I07",
+   "kind": "industry_skill_document",
+   "name": "漫剧老李玄幻仙侠打戏引擎",
+   "stable_id": "github:lixiaoxiao9888-create/manju-laoli-skill/sd-xuanhuan-engine",
+   "source_version_summary": "V7.4.26；GitHub commit 6f16955c57053d77ea0ffbdbbf3a7985a3e0080a；主引擎与选定依赖文件固定快照；文本研究候选，未进行本地执行/迁移验证",
+   "stages": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ],
+   "ability_notes": "C01 动作因果；C06 空间与尺度；C13 按语义分配时长；C18 大招五拍/五层的玄幻仙侠专项分支",
+   "locators": "sd-xuanhuan-engine/SKILL.md；references/core-combat-laws.md、grand-scale-domains.md、xuanhuan-elements-vfx.md、arsenal-moves-library.md、arsenal-parameter-library.md；关联 sd-combat-engine 三份护栏",
+   "gaps": [
+    "仅选取主引擎及相关依赖文件，非全仓库镜像",
+    "GitHub Stars/Forks 与作者自述的《兽瞳》第01集实跑不是独立效果评估；无完整生成记录、播放对照或平台表现数据",
+    "core-combat-laws.md 的“前2秒跳出率降低38%”没有可核查研究出处",
+    "未观看媒体、未运行上游校验器、未在本地工具链复现或验证迁移效果",
+    "Seedance 语法、模型参数、固定时长/比例与血腥/反杀剧情不升级为本库通用规范"
+   ],
+   "files": [
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/LICENSE",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/LICENSE.txt",
+     "sha256": "d645a5c3662f73a90972a21ceda79a59eafc38543a506acd5240ce1f514d77c7",
+     "bytes": 1117
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/README.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/README.md.txt",
+     "sha256": "d996caba8bfb409ec6cd29b95e4e746afdfc129fa9fe801206084ab4fbaa949d",
+     "bytes": 43695
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-intensity-guardrails.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-intensity-guardrails.md.txt",
+     "sha256": "3afe2c7b94181cf79aba1a3744d26b25f3f1fcc0160239e3181f86b4e4b5c493",
+     "bytes": 13216
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/combat-rhythm-and-load-guardrails.md.txt",
+     "sha256": "94bc56c1de9be50d50ddd5fa000ce0b3af2e534089c7c32b58ebf7fa44f11af1",
+     "bytes": 16756
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-combat-engine/references/vfx-rendering-mandate.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-combat-engine/references/vfx-rendering-mandate.md.txt",
+     "sha256": "9009d22f5f9bc30b989b8d174a11e48f3ebd7102891a4b810d563c2e32a93222",
+     "bytes": 10984
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-moves-library.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-moves-library.md.txt",
+     "sha256": "194ba46a31b5d59dd57a8512b4e8d0be4759e49f1bb9ffaa6b5b0e956712350a",
+     "bytes": 8260
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/arsenal-parameter-library.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/arsenal-parameter-library.md.txt",
+     "sha256": "700d034a0dcb65805619c38c2dee7d0fed25f6a33b3f297f0b2518bdd949e77b",
+     "bytes": 36925
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/camera-specs-15modes.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/camera-specs-15modes.md.txt",
+     "sha256": "dfe26b46c85f23da6a67d639a3ad85ef09306c915833aeb91a69e1875ee12937",
+     "bytes": 7035
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/character-scene-presets.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/character-scene-presets.md.txt",
+     "sha256": "8a4d5d2e2914571d50bc19796d0994ac4f4f26d505b003a4c7cfe81735bf938d",
+     "bytes": 7389
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/close-quarters-engine.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/close-quarters-engine.md.txt",
+     "sha256": "3ef965d5359f8e3fcbe12a7d4a20e9b03225d7feae21ee8289d064ca29744ba1",
+     "bytes": 4486
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/core-combat-laws.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/core-combat-laws.md.txt",
+     "sha256": "7b305a1add2bb6d6ae39adf15e80453d383858a8efd0e58da9975dd96b354dc1",
+     "bytes": 20236
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/epic-battlefield-protocols.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/epic-battlefield-protocols.md.txt",
+     "sha256": "8ab295b8d5b88af7b69f8248349e0fa3cd0f7666cc5e3da2d207a9dca75f7132",
+     "bytes": 8877
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/grand-scale-domains.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/grand-scale-domains.md.txt",
+     "sha256": "2fe91fa2e282b3035543211d96563096d8aa61e2280129a2e4e7e3701b5bab0d",
+     "bytes": 4987
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/references/xuanhuan-elements-vfx.md.txt",
+     "sha256": "6f71b1bd297abad9da3664fcd6801cb1c2e7b5243bbd9fdaaddbc27123e91d84",
+     "bytes": 6426
+    },
+    {
+     "source_relative": "lixiaoxiao9888-create/manju-laoli-skill@6f16955c57053d77ea0ffbdbbf3a7985a3e0080a/sd-xuanhuan-engine/SKILL.md",
+     "path": "04_原始资料/industry-skills/I07/v7.4.26/sd-xuanhuan-engine/SKILL.md.txt",
+     "sha256": "512ffa85412f4b32a60673f2ee5608622fbfb55ab214ef79d19623ea1b89f797",
+     "bytes": 12990
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "full_skill_and_selected_references_paper_analysis",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed",
+    "market_signal": "GitHub page showed approximately 1.9k Stars and 207 Forks on 2026-11-03; README self-reports a full-process run on 《兽瞳》第01集; neither independently validates effectiveness"
+   },
+   "original_skill_name": "sd-xuanhuan-engine",
+   "original_namespace": "manju-laoli-skill",
+   "original_version": "7.4.26",
+   "source_commit": "6f16955c57053d77ea0ffbdbbf3a7985a3e0080a",
+   "intake_date": "2026-11-03"
+  },
+  {
+   "id": "I08",
+   "kind": "industry_skill_document",
+   "name": "Douyin One-Second Word Video（英语单词助记视频）",
+   "stable_id": "github:Mr-funny/hbg-douyin-one-second-word-video",
+   "source_version_summary": "main commit f1ee0109c092467af47e510ebab35734094cdece；MIT；4 Stars/2 Forks（页面快照）；作者展示 flaw 单词样片，未独立复现",
+   "stages": [
+    "S0",
+    "S1",
+    "S3",
+    "S5"
+   ],
+   "ability_notes": "英语词条来源核验；比较发音块与整词候选；建立自然词义桥；按真实TTS边界同步；最终编码媒体QA",
+   "locators": "SKILL.md §§Workflow/Completion gate；references/proven-structure.md Beat 1–5 / QA timestamps；README.md §flaw实测；ARTICLE-FROM-SOUND-TO-STORY.md",
+   "gaps": [
+    "仓库星标和Fork较少，不能作为市场验证",
+    "作者公开的量化成片证据集中在 flaw 单词样片，独立复现和学习效果评估缺失",
+    "Edge TTS、HyperFrames、chalkboard视觉、四遍重复和固定时长为该Skill专用格式，不迁移成蛋仔模块硬规范",
+    "本次只读文本和作者展示图，没有复现脚本/引擎"
+   ],
+   "files": [
+    {
+     "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/README.md",
+     "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/README.md.txt",
+     "sha256": "771fb5007b94286c4767e5ae80562c8b693c2ad32ef705733117a5527ed48e98",
+     "bytes": 6608
+    },
+    {
+     "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/SKILL.md",
+     "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/SKILL.md.txt",
+     "sha256": "0ace76705479b77923ee82112b8a764344f8a6286d121cf3f02de8a612a42349",
+     "bytes": 4712
+    },
+    {
+     "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/LICENSE",
+     "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/LICENSE.txt",
+     "sha256": "1376eed303c6f74c6aa7343f094e7b21511b566844acb68398f42713346cbbf3",
+     "bytes": 1088
+    },
+    {
+     "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md",
+     "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/references/proven-structure.md.txt",
+     "sha256": "9daacda3b28ac5e015230190a287f37d2f899b1559129c1e219ccc021ed306e0",
+     "bytes": 3671
+    },
+    {
+     "source_relative": "Mr-funny/hbg-douyin-one-second-word-video@f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md",
+     "path": "04_原始资料/industry-skills/I08/f1ee0109c092467af47e510ebab35734094cdece/ARTICLE-FROM-SOUND-TO-STORY.md.txt",
+     "sha256": "5bed53bef3d9891973cc960423009db95f53fcfd5cecc5e921e402c394f88a72",
+     "bytes": 12937
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "full_skill_readme_and_selected_reference_article",
+    "media_review": "author_showcase_images_only",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed",
+    "market_signal": "GitHub showed 4 Stars and 2 Forks; project README reports one flaw sample encoded at 18.208 seconds; not independent efficacy evidence"
+   },
+   "original_skill_name": "douyin-one-second-word-video",
+   "original_namespace": "Mr-funny",
+   "original_version": "main@f1ee0109c092467af47e510ebab35734094cdece",
+   "source_commit": "f1ee0109c092467af47e510ebab35734094cdece",
+   "intake_date": "2026-11-03"
+  },
+  {
+   "id": "I09",
+   "kind": "industry_skill_document",
+   "name": "Story to Handdrawn Video（故事转手绘动画）",
+   "stable_id": "github:gnipbao/story-to-handdrawn-video",
+   "source_version_summary": "main commit 198aefa9b298af3a20d3bd757c93433623d38ccd; MIT; selected seven source files byte-verified; research candidate, not installed or reproduced",
+   "stages": [
+    "S0",
+    "S1",
+    "S2",
+    "S3",
+    "S5"
+   ],
+   "ability_notes": "故事事实澄清、角色表、叙事节拍拆分、逐场文字/角色一致性检查；作为可爱角色日常片的方案参考",
+   "locators": "skill-package/story-to-handdrawn-video/SKILL.md §§Workflow/Completion; references/asset-workflow.md; references/reference-style-workflow.md",
+   "gaps": [
+    "仅复制 Skill 包及 README/LICENSE 中选定的七个文件，不是完整仓库镜像",
+    "固定彩铅日记画风、Remotion、脚本接口和上游字幕/配音方式不迁移到心易做菜",
+    "未安装上游依赖、未复现、未验证输出质量或用户/市场效果"
+   ],
+   "files": [
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/README.md",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/README.md.txt",
+     "sha256": "461bae127a26fadf69a588dc8664ca4b41f3a2899e4e2d6c29449728cb34e5d2",
+     "bytes": 16183
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/LICENSE.txt",
+     "sha256": "481521d963c714f9d79b68e0cde61ab0b012e17dc3b90f4ed877717a0c401fa3",
+     "bytes": 1064
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/SKILL.md.txt",
+     "sha256": "bdd0ee0c779befc50d9b35707f2361e05e85e9a8226d1743bf46583e723db5c3",
+     "bytes": 12088
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/agents/openai.yaml.txt",
+     "sha256": "7ec568c0299de73c33348e658454c8f3bdb5d783f60dccbf7eac514583a540c2",
+     "bytes": 309
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/asset-workflow.md.txt",
+     "sha256": "e355d1ca9c12d9d6806b54485e6f04f1e81f0f800b0137ed5ed12d15d80438f0",
+     "bytes": 4136
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/references/reference-style-workflow.md.txt",
+     "sha256": "d3452e1a5c7f4bfcdfa6ecf8184a86b587383e75b39f31896e0a3d719a8b5faf",
+     "bytes": 3961
+    },
+    {
+     "source_relative": "gnipbao/story-to-handdrawn-video@198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py",
+     "path": "04_原始资料/industry-skills/I09/198aefa9b298af3a20d3bd757c93433623d38ccd/skill-package/story-to-handdrawn-video/scripts/run_story_video.py.txt",
+     "sha256": "e5b1917e09c8d27dc51dc592df882b3f325c091ba41a1669c533db8fd6069ccb",
+     "bytes": 958
+    }
+   ],
+   "missing_external_dependencies": [
+    "未安装上游 Remotion/绘图环境；仓库其他资源未镜像"
+   ],
+   "evidence": {
+    "text_review": "full_SKILL_and_README_plus_both_references_openai_yaml_script_and_license",
+    "media_review": "not_performed_for_upstream_skill; separate Bilibili sample review recorded in 08_作品/心易做菜/00_方案/05-秃秃做饭日常补充观察-20261104.md",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed; proposed as research candidate only",
+    "market_signal": "GitHub repository popularity is not treated as independent efficacy evidence"
+   },
+   "original_skill_name": "story-to-handdrawn-video",
+   "original_namespace": "gnipbao",
+   "original_version": "main@198aefa9b298af3a20d3bd757c93433623d38ccd",
+   "source_commit": "198aefa9b298af3a20d3bd757c93433623d38ccd",
+   "intake_date": "2026-11-04"
+  },
+  {
+   "id": "I10",
+   "kind": "industry_skill_document",
+   "name": "Video Storyboard（逐场分镜与连续性）",
+   "stable_id": "github:agentara/skills/skills/aigc/video-storyboard",
+   "source_version_summary": "main commit 950e1bfb11e1df67b46df19804ed85ada9012c33; MIT; selected SKILL, README, LICENSE byte-verified; research candidate, not installed or reproduced",
+   "stages": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "按场景时长选择分镜密度；逐段匹配分镜图/视频提示词；角色、道具、地点连续性检查；映射 C01/C03/C04/C06/C13",
+   "locators": "skills/aigc/video-storyboard/SKILL.md §§Inputs/Grid Rules/Storyboard Image Requirements/Video Prompt Script Requirements",
+   "gaps": [
+    "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
+    "固定网格、栅格图像生成要求和工具指令不直接迁移",
+    "未安装上游依赖、未复现、未验证成片质量或迁移效果"
+   ],
+   "files": [
+    {
+     "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/README.md",
+     "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/README.md.txt",
+     "sha256": "7f8b11e21527885a7e00508d95764eb5d686c4bc1703b8c073e86a4651b898bd",
+     "bytes": 7084
+    },
+    {
+     "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE",
+     "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/LICENSE.txt",
+     "sha256": "d823edd9d34324f0cecd19ab4beda0033c0cb53eadb3954947dcfa428beb66e8",
+     "bytes": 1065
+    },
+    {
+     "source_relative": "agentara/skills@950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md",
+     "path": "04_原始资料/industry-skills/I10/950e1bfb11e1df67b46df19804ed85ada9012c33/skills/aigc/video-storyboard/SKILL.md.txt",
+     "sha256": "8677b67defe936545217c5a7004566b9da26b873ae8084d82897463f7f9e2dd8",
+     "bytes": 15410
+    }
+   ],
+   "missing_external_dependencies": [],
+   "evidence": {
+    "text_review": "full_SKILL_README_and_LICENSE",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed; mapped as research candidate only",
+    "market_signal": "GitHub showed 622 Stars at intake; popularity is not efficacy evidence"
+   },
+   "original_skill_name": "video-storyboard",
+   "original_namespace": "agentara",
+   "original_version": "main@950e1bfb11e1df67b46df19804ed85ada9012c33",
+   "source_commit": "950e1bfb11e1df67b46df19804ed85ada9012c33",
+   "intake_date": "2026-11-04"
+  },
+  {
+   "id": "I11",
+   "kind": "industry_skill_document",
+   "name": "Storyboard to Cooking Video（烹饪动作参考板）",
+   "stable_id": "github:samuraigpt/Generative-Media-Skills/library/motion/storyboard-to-cooking-video",
+   "source_version_summary": "main commit 66b55e2a27ee554667ec255782922bae72882cc8; MIT; selected Skill, README, LICENSE byte-verified; research candidate, not installed or reproduced",
+   "stages": [
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "以 dish 驱动烹饪动作参考板，先审视觉动作顺序再进入视频提示词；映射 C01/C03/C04/C06/C13",
+   "locators": "library/motion/storyboard-to-cooking-video/SKILL.md §§Inputs/Step 1/Step 2/Notes",
+   "gaps": [
+    "仅复制 Skill、README 与 LICENSE，不是完整仓库镜像",
+    "固定九步、15秒、真人连续长镜、MuAPI/Seedance，不作为本项目规范",
+    "未安装上游依赖、未派发、未复现、未验证输出质量或迁移效果"
+   ],
+   "files": [
+    {
+     "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/README.md",
+     "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/README.md.txt",
+     "sha256": "f3bd1d36eca672623199b6c4638afeaad4103fbd121cf7e309a0e3b47a5ec9ba",
+     "bytes": 21530
+    },
+    {
+     "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/LICENSE",
+     "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/LICENSE.txt",
+     "sha256": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+     "bytes": 1056
+    },
+    {
+     "source_relative": "samuraigpt/Generative-Media-Skills@66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md",
+     "path": "04_原始资料/industry-skills/I11/66b55e2a27ee554667ec255782922bae72882cc8/library/motion/storyboard-to-cooking-video/SKILL.md.txt",
+     "sha256": "03f31cbdb1d74c32dc03c83b10cc9a2bb83084c908320324667890407409d2fc",
+     "bytes": 8794
+    }
+   ],
+   "missing_external_dependencies": [
+    "上游使用 MuAPI/Seedance；本轮未安装调用"
+   ],
+   "evidence": {
+    "text_review": "full_SKILL_README_and_LICENSE",
+    "media_review": "not_performed",
+    "execution": "not_performed",
+    "transfer_validation": "not_performed; mapped as research candidate only",
+    "market_signal": "GitHub showed 33 Stars at intake; popularity is not efficacy evidence"
+   },
+   "original_skill_name": "muapi-storyboard-to-cooking-video",
+   "original_namespace": "samuraigpt",
+   "original_version": "main@66b55e2a27ee554667ec255782922bae72882cc8",
+   "source_commit": "66b55e2a27ee554667ec255782922bae72882cc8",
+   "intake_date": "2026-11-04"
+  },
+  {
+   "id": "R03",
+   "kind": "format_reference",
+   "name": "A53 分镜运镜提示词资料包（运镜公式、九宫格分镜模板与提示词词库）",
+   "stable_id": "quark-download:A53分镜运镜提示词＋AI指令整理:2026-11-04",
+   "intake_date": "2026-11-05",
+   "stages": [
+    "S1",
+    "S3"
+   ],
+   "ability_notes": "运镜数值词表与情绪→运镜选镜对照（新词表文件）；九宫格语义分行（块 02 G 分镜图参考）",
+   "locators": "即梦4.0公式（数值运镜10条/特殊场景9条/景别层级/运动方向10条）；seedance2.0 九宫格（3行×3格语义分行）；【先看这个】镜头类型40+与动作+镜头反应词例；300电影风格",
+   "files": [
+    {
+     "path": "04_原始资料/format-references/R03/seedance2.0-九宫格分镜模板.txt",
+     "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
+     "bytes": 2075
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-即梦4.0公式.txt",
+     "sha256": "16a00f9f96ab3443bbc435eb042d4049441b397c6700351e85a984d8029cfcdc",
+     "bytes": 5839
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-十大经典-即梦3.0.txt",
+     "sha256": "1cf615a6c570f8dc0544ebd6acd3a8627373a7318d407d02b0e4599eda705ded",
+     "bytes": 2847
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-组合运镜1.txt",
+     "sha256": "fc53b8a11019d5c60ff66e011f81cccb8be96a685050c206cfbade8de0ff296f",
+     "bytes": 2631
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-组合运镜2.txt",
+     "sha256": "5f76b187c66d8c6bfaa283811d16ba014cb3333b3ff06d6ef32c799818a19bd5",
+     "bytes": 7899
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-12组电影级组合.txt",
+     "sha256": "21beda84c258dec5e071c5cfd0a1e8cb5e0d7b69e2a66a0db4eab7769cb8f068",
+     "bytes": 3352
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-特效运镜.txt",
+     "sha256": "042739a3bc4e66c1527bc9af3c59ac5d346efef1ca33875a8023a61b69bf4eb8",
+     "bytes": 1760
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-服装展示-doc提取.txt",
+     "sha256": "bbf5003c40854f1e0c23dd1448e4aee04dbc3d6a12e9ef11f674e88cbaa8d929",
+     "bytes": 7348
+    },
+    {
+     "path": "04_原始资料/format-references/R03/运镜-景别词表-doc过滤版.txt",
+     "sha256": "632b3946c3f4b7512c6d15e94425f8d9f2597daf7fc6ae6f2404c189c740de28",
+     "bytes": 690
+    },
+    {
+     "path": "04_原始资料/format-references/R03/分镜-即梦图片4教程.txt",
+     "sha256": "c84e9c66ac7f4b6534bd35dbcc118d6bff51e1ede2301fb3289588a87576cd01",
+     "bytes": 5171
+    },
+    {
+     "path": "04_原始资料/format-references/R03/分镜-画面提示词词库.txt",
+     "sha256": "09535f888609b5d8b900ae4bd573e257577b20c1ce1ec577f2846ba700c250da",
+     "bytes": 19862
+    },
+    {
+     "path": "04_原始资料/format-references/R03/分镜-即梦700指令.txt",
+     "sha256": "f744dbdb503ca82fb96f78e10ba097d6c5dc99c67603da60c57b7330f3c76c7e",
+     "bytes": 20837
+    },
+    {
+     "path": "04_原始资料/format-references/R03/分镜-脚本模板300条.txt",
+     "sha256": "3126544bf2e747ea447e64dcc8438020e712512ead801ff98a96312a46a51edf",
+     "bytes": 34991
+    },
+    {
+     "path": "04_原始资料/format-references/R03/分镜-电影风格300条.txt",
+     "sha256": "d862d535ee3bcd81f40d201db089b24a25b81fef15aec9a650ab179b1880203c",
+     "bytes": 16537
+    }
+   ],
+   "original_provenance": {
+    "root": "D:\\夸克下载\\A53分镜运镜提示词＋AI指令整理（仓库外，可能被清理）",
+    "files": [
+     {
+      "source_relative": "AI运镜提示词\\12组电影级组合运镜提示词.docx",
+      "sha256": "5b7e9c16da0439da666374aedced61b86c51f7bd07f7004349a1134f9abb5d38",
+      "bytes": 8581014
+     },
+     {
+      "source_relative": "AI运镜提示词\\十大经典运镜教程.docx",
+      "sha256": "040f486915309627c6b610da0272241d0414bd132017fd7ce491c89f8e7e1abb",
+      "bytes": 12584
+     },
+     {
+      "source_relative": "AI运镜提示词\\即梦影视级提示词公式.docx",
+      "sha256": "de1023aa5b7b9f7a8c82e7ead73a1d667c90f96f105afb94b10cc579335563bd",
+      "bytes": 18170
+     },
+     {
+      "source_relative": "AI运镜提示词\\特效运镜.docx",
+      "sha256": "09a4ba89c2e67907e7aafad1489d8ae7ee5ed67676a31b7f029a057a846abb28",
+      "bytes": 1928151
+     },
+     {
+      "source_relative": "AI运镜提示词\\组合运镜.docx",
+      "sha256": "d256e4908b1597e085cbf4ad02ae3a94ef5234dd807791f6c8119ac52a9eab11",
+      "bytes": 15542
+     },
+     {
+      "source_relative": "AI运镜提示词\\组合运镜2.docx",
+      "sha256": "21e6381b6fa488053e58505d57442cca4f60acd625e385d00c73f191b2dd5e64",
+      "bytes": 24965
+     },
+     {
+      "source_relative": "AI运镜提示词\\运镜提示词.doc",
+      "sha256": "d4f281be31dc1e37ccad31d0097530a343b8347a16fa57acda6b8065e17e0a13",
+      "bytes": 67584
+     },
+     {
+      "source_relative": "AI运镜提示词\\运镜教学.doc",
+      "sha256": "f6106a33de71e56620063ea7d71338aad57ef0cb8554ce83c13c84dfba4a4ff5",
+      "bytes": 18802176
+     },
+     {
+      "source_relative": "分镜提示词整理\\seedance2.0分镜提示词模板.txt",
+      "sha256": "fc75a6b6c986d74826b8b7ca2245a6557d449caa96e0b91a8e9d9d6b9f5333f2",
+      "bytes": 2075
+     },
+     {
+      "source_relative": "分镜提示词整理\\300+电影风格提示词.csv",
+      "sha256": "8bc64aa1ed2a6ca7e742ffdde756187289c802a4a4dfa83c1b5da9146380cbae",
+      "bytes": 11105
+     },
+     {
+      "source_relative": "分镜提示词整理\\AI视频脚本分镜模板_共300条.xlsx",
+      "sha256": "4850b286aa16dbcc1e5e8fc44e69244123288e02f9ae2992412bb05ebc7f904b",
+      "bytes": 19710
+     },
+     {
+      "source_relative": "分镜提示词整理\\【先看这个】分镜画面提示词.xlsx",
+      "sha256": "6e309479fd399f1dced3584fbcfd281c02693815d39ca0870de3015ca5c6d461",
+      "bytes": 28887
+     },
+     {
+      "source_relative": "分镜提示词整理\\即梦100多组（700+个）神级指令合集.xlsx",
+      "sha256": "2f5c2bdf4246c03cfec2b8ac0572578992a77bd874e35af8357fb925f8a5da8d",
+      "bytes": 26094
+     },
+     {
+      "source_relative": "分镜提示词整理\\即梦AI图片4.0提示词：从脚本到短视频分镜的创作.docx",
+      "sha256": "0b4932da938cc3034ab9e6b803a7cd13c77da588bc352c85ef053e183b82f661",
+      "bytes": 1096826
+     }
+    ]
+   },
+   "payload_policy": "text extraction only; docx/doc 媒体与嵌入图未导入；28个短视频表格模板未导入（人工拍摄脚本表，非 AI 提示词）",
+   "gaps": [
+    "教程/词库类来源，无运行记录，非工作流证据（§5：不能当已验证方法）",
+    "运镜教学.doc 提取经二进制噪声过滤，仅保留词表行",
+    "即梦公式含情绪传递语，采纳口径：情绪只作选镜对照，不进提示词",
+    "原包在仓库外，未复制原始 docx/doc/xlsx"
+   ],
+   "evidence": {
+    "text_extraction": "complete_for_selected_files",
+    "media_review": "not_applicable",
+    "reproduction": "not_performed",
+    "selection": "intake_only; 采纳走词表与模板文件"
+   }
+  },
+  {
+   "id": "W12",
+   "kind": "workflow",
+   "name": "逐日之茸｜机器人阿秃的毛茸茸之旅",
+   "stable_id": "libtv:28c31a68d1cc4fbc97d46f31d4eb75e2",
+   "stages": [
+    "S0",
+    "S1"
+   ],
+   "ability_notes": "C04 母图/三视图锚定分支；C16 {{Mixed N}} 引用锚位与 mixed2video；C03 剧情简介+主角性格先行；新句式证据：材质转换节点（机器人变毛绒保留LCD）与风格统一修正节点（参考A B质感改C，不改色相构图不增元素）",
+   "locators": "模板 28c31a68…；本账号副本 canvas-54cdab28…；分段组：开头坠落/第二段刷河流接纳/第三段见树神/第四段茸夸父逐日(15s一镜到底)/第五段融入+海报；资产链 废图→设定→质感转换→三视图→风格统一→最终；坠落重拍生成1-5",
+   "gaps": [
+    "媒体成片未观看",
+    "旁白音频节点文案未提取",
+    "原作创作者归属未核（乌鸦卡夫卡，来自社区页自述）"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only（POST /api/canvas/project/list|project/detail，token 来自本机 CLI 凭据，浏览器注入 cookie 只读创作过程页）；副本经网页端「复制项目」落入本账号工作区后读取（2026-11-09/10）"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W12/nodes.json",
+     "sha256": "12473ea29cdfe46c2c160d42c09101b2910bd0a70ff9661f4f47eed39249cbbc",
+     "bytes": 393736,
+     "source_relative": "LibTV 画布 API 快照 54cdab2840eb4212b18d8d9cc6a7d7fd（社区模板 28c31a68d1cc4fbc97d46f31d4eb75e2，复制副本读取）"
+    },
+    {
+     "path": "04_原始资料/workflows/W12/逐日之茸｜机器人阿秃的毛茸茸之旅-副本_LibTV提示词与制作关系拆解_2026-11-10.md.txt",
+     "sha256": "11c81b1705d08dba10c03a52db1edf0d05d1d4a1ffbadcbdd32a0eee2b921391",
+     "bytes": 82611,
+     "source_relative": "本库自同源快照生成的逐节点提示词拆解"
+    }
+   ]
+  },
+  {
+   "id": "W13",
+   "kind": "workflow",
+   "name": "《囡囡的毛绒梦境》治愈系原创3D定格动画",
+   "stable_id": "libtv:d82b1206a948414184d0d52cd42d7e64",
+   "stages": [
+    "S0",
+    "S1",
+    "S2"
+   ],
+   "ability_notes": "C16 引用锚位（Mixed 1-6 分段职责声明）；C06 逐镜景别/构图/运镜/位置四要素；C03 【关键约束（全片遵守）】负面物理与品位约束块逐段重复；新证据：声音材质化（过山车声全用绒布咯吱不用金属声）、逐镜写转场顺接、角色设计表排版模板（左头特写+右全身双视图黑圆遮脸）",
+   "locators": "模板 d82b1206…；本账号副本 canvas-a35aa1f5…；组：角色设计/音色确认+片头旁白/背景音乐生成/第一至六段【分镜+视频】/社媒封面设计；关键节点：毛毡奇幻坠落(15s10镜)/毛毡初遇·捂眼偷瞄与回握(12s)/咕咪跟我来(15s7镜)/过山车卡丁车碰碰车/鬼屋两段/病房苏醒(4镜22s)",
+   "gaps": [
+    "媒体成片未观看",
+    "片头旁白具体文案未持久化（音频节点仅存音色参考与生成词）",
+    "水印保护图未取原图",
+    "台词仅一句\"放马过来吧\"入档"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only（POST /api/canvas/project/list|project/detail，token 来自本机 CLI 凭据，浏览器注入 cookie 只读创作过程页）；副本经网页端「复制项目」落入本账号工作区后读取（2026-11-09/10）"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W13/nodes.json",
+     "sha256": "f7d02bea6fb7991d38d35194eb645868bdf68166099975de0105342e57cc0299",
+     "bytes": 694390,
+     "source_relative": "LibTV 画布 API 快照 a35aa1f57721476781f660246193ebd4（社区模板 d82b1206a948414184d0d52cd42d7e64，复制副本读取）"
+    },
+    {
+     "path": "04_原始资料/workflows/W13/《囡囡的毛绒梦境》治愈系原创3D定格动画-副本_LibTV提示词与制作关系拆解_2026-11-10.md.txt",
+     "sha256": "e96a173b8257a4d0cf265eab9411efbccd2ac7b7a80ff710ff6aa724c3d2b960",
+     "bytes": 331120,
+     "source_relative": "本库自同源快照生成的逐节点提示词拆解"
+    }
+   ]
+  },
+  {
+   "id": "W14",
+   "kind": "workflow",
+   "name": "糟糕！我的兄弟真的变成狗了！",
+   "stable_id": "libtv:b8aa664d2451425c92e33d08473760a4",
+   "stages": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "C04 双形态角色资产（阿波人形态/阿柴有项圈无项圈两版）；C06 场景多角度资产（客厅俯视/侧视/反打）；C03 台词逐字保留+双角色音色固定设定（25-30岁嘴欠损友声线全描述）；新证据：宫格分镜切格（宫格高清1-1/1-2/1-3→编号镜头）、动作匹配硬切（放杯下伏切卫生间）",
+   "locators": "模板 b8aa664d…；本账号副本 canvas-26ee96a7…；场次 P1卧室打游戏(20s)/P2大排档醉酒卫生间发誓(15s)/P2-B清晨我怎么和狗一样(16s)/P3-A接受现实亲兄弟认证(30s)/P3-B谁才是狗(28s)/P5-A宠物医院绝育了吧(30s)/P6公园长椅赚狗粮(30s)/P7哪边是五(30s)/P7-B站着挣钱(30s,让子弹飞致敬)",
+   "gaps": [
+    "P4 场次无独立提示词节点（可能并入或未保存）",
+    "视频成片未观看",
+    "阿嘉音色仅写\"严格参考参考音频\"未存设定文"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only（POST /api/canvas/project/list|project/detail，token 来自本机 CLI 凭据，浏览器注入 cookie 只读创作过程页）；副本经网页端「复制项目」落入本账号工作区后读取（2026-11-09/10）"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W14/nodes.json",
+     "sha256": "7e704ba18bae79e43510a3c83b3edd27f47e8366b1caf7e62378ff67dc079c7e",
+     "bytes": 369247,
+     "source_relative": "LibTV 画布 API 快照 26ee96a7ff004f7bbac8096437dc33bb（社区模板 b8aa664d2451425c92e33d08473760a4，复制副本读取）"
+    },
+    {
+     "path": "04_原始资料/workflows/W14/糟糕！我的兄弟真的变成狗了！-副本_LibTV提示词与制作关系拆解_2026-11-10.md.txt",
+     "sha256": "f9aafb9af287dc95a22007fb33c56b6d0f2364500f287273cdce52cd440c92ab",
+     "bytes": 139222,
+     "source_relative": "本库自同源快照生成的逐节点提示词拆解"
+    }
+   ]
+  },
+  {
+   "id": "W15",
+   "kind": "workflow",
+   "name": "呱比闯入毛茸茸世界1",
+   "stable_id": "libtv:13f97dd808664ec4b72a190bc4ea94a5",
+   "stages": [
+    "S0",
+    "S1"
+   ],
+   "ability_notes": "C03 剧本/角色卡存文本节点扛内容+视频节点超短提示词（\"呱比，场景，声线参考，不要BGM，画面流畅\"）；新证据：同一梗概并行生成三个脚本选优（5镜20s/8镜30s/7镜详细）、黑屏委屈拟音彩蛋收尾、微表情演技+逐拟声音效的脚本粒度",
+   "locators": "模板 13f97dd8…；本账号副本 canvas-0297a2ae…；Group1=EP1门(18s六镜《呱比的奇妙之门》+黑屏\"呱比…\"回音)；Group2/3/4=EP2鳄鱼三版本（20s骑马狂想曲5镜/30s天降呱比8镜/详细7镜）；文本节点含呱比角色卡（18cm/舌头外耷/猫系动作/盲目乐观/拟音幼童+小奶狗混合声位）",
+   "gaps": [
+    "文本节点产出未持久化于副本（脚本原文从只读创作过程页 9611 字全文抓取，见 06_工具/tmp_guabi_page_full.txt）",
+    "7个视频节点输出未观看",
+    "原作创作者归属未核（Muertu木二土，社区页自述）"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only（POST /api/canvas/project/list|project/detail，token 来自本机 CLI 凭据，浏览器注入 cookie 只读创作过程页）；副本经网页端「复制项目」落入本账号工作区后读取（2026-11-09/10）"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W15/nodes.json",
+     "sha256": "694ee7aaeb092e7a450a9355b31398ad1613533e8643089c0d43d7ad4c5e4781",
+     "bytes": 115754,
+     "source_relative": "LibTV 画布 API 快照 0297a2aedf8f4f48acf1d0e46f62c8f3（社区模板 13f97dd808664ec4b72a190bc4ea94a5，复制副本读取）"
+    },
+    {
+     "path": "04_原始资料/workflows/W15/呱比闯入毛茸茸世界1-副本_LibTV提示词与制作关系拆解_2026-11-10.md.txt",
+     "sha256": "a327766a60610fd68856428fa9c2bbcdefb64c5fcde3394fe723cd0302d73f85",
+     "bytes": 7552,
+     "source_relative": "本库自同源快照生成的逐节点提示词拆解"
+    }
+   ]
+  },
+  {
+   "id": "W16",
+   "kind": "workflow",
+   "name": "噜噜毛茸茸的工作日常3",
+   "stable_id": "libtv:7e3feaeeb17a42f88f088638bc992fd0",
+   "stages": [
+    "S0",
+    "S1",
+    "S2",
+    "S3"
+   ],
+   "ability_notes": "C04 母图锁定句（噜噜原母图锁定唯一成年噜噜：约40厘米圆胖苔藓身体黑亮眼睛头顶蕨叶与小蘑菇原竹编背篓原长木柄单头滚刷）；C16 mixed2video 样片模式；新证据：节点名=分镜卡（秒数+剧情+版本号）、单镜重拍 V4→V8、角色数量中途重铸（C01六改五去中间大圆团保留梨形）、上集场景定稿复用（S03上集定稿复用）、每集童趣大字海报 V1-V4",
+   "locators": "模板 7e3feaee…；本账号副本 canvas-d9653caa…；组：分镜/角色变体资产/场景/正片/角色资产/海报/草稿/截图；场次 L01出工走散(28s)/L01B补拍(10s)/L02牵藤带队(6s×5版)/L03小帮手就位(23s)/L03A围身(15s×5版V4-V8)/L03B示范合作(10s)/L04成果(21s)/L05按摩落虫斗鸡眼(20s)",
+   "gaps": [
+    "媒体成片未观看",
+    "海报生成词未逐条入档",
+    "音频节点仅 A01 声线参考入档"
+   ],
+   "evidence": {
+    "structure": "snapshot",
+    "media_review": "not_performed",
+    "reproduction": "not_performed",
+    "capture": "API-direct read-only（POST /api/canvas/project/list|project/detail，token 来自本机 CLI 凭据，浏览器注入 cookie 只读创作过程页）；副本经网页端「复制项目」落入本账号工作区后读取（2026-11-09/10）"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/workflows/W16/nodes.json",
+     "sha256": "98178d743c9f8cae489aa5f56893f3d93e156442a796062028cf31832d88ebc9",
+     "bytes": 642135,
+     "source_relative": "LibTV 画布 API 快照 d9653caa0eca4e3aa751252e875bcd58（社区模板 7e3feaeeb17a42f88f088638bc992fd0，复制副本读取）"
+    },
+    {
+     "path": "04_原始资料/workflows/W16/噜噜毛茸茸的工作日常3-副本_LibTV提示词与制作关系拆解_2026-11-10.md.txt",
+     "sha256": "28b7dc447f8796f22cad9584c745c0454e4c9d84ed5e68580c82fe7b2356db13",
+     "bytes": 314949,
+     "source_relative": "本库自同源快照生成的逐节点提示词拆解"
+    }
+   ]
+  },
+  {
+   "id": "R04",
+   "kind": "format_reference",
+   "name": "萌宠标杆完整剧本拼合与故事公式（呱呱系/逐日之茸/囡囡/变狗/呱比闯入/噜噜日常3）",
+   "stable_id": "derived:2026-11-10:mengchong-benchmarks-script-reconstruction",
+   "stages": [
+    "S0",
+    "S1"
+   ],
+   "ability_notes": "故事层跨源拼合：呱系追逐公式（误会开场/变形载具/第三方惩罚/反差收尾）、治愈闭环三变体、台词喜剧分场；六工程手法（尾帧接力/统一风格前缀/节点名分镜卡/状态变体资产/剧本即文本节点/海报必配）",
+   "locators": "呱呱和辣条合集 BV1Wwnj6BEJo 逐帧；wuhu拆解 BV1JNn56ZEcv；三张图教程 BV1J8xq6BEqa；五画布副本 canvas-54cdab28/a35aa1f5/26ee96a7/0297a2ae/d9653caa",
+   "gaps": [
+    "呱呱系拍表来自逐帧观察非官方台本",
+    "囡囡片头旁白原文缺失",
+    "变狗P4场次缺"
+   ],
+   "evidence": {
+    "structure": "derived_analysis",
+    "media_review": "performed_partial",
+    "reproduction": "not_performed",
+    "capture": "BBDown 下载五样本（B站）+LibTV 五画布 API 全量提示词 + 创作过程页只读渲染"
+   },
+   "intake_date": "2026-11-10",
+   "files": [
+    {
+     "path": "04_原始资料/format-references/R04/萌宠标杆完整剧本拼合与故事公式_2026-11-10.md",
+     "sha256": "b99d048cee7287a6759ea787166eb2952f40ae6990140f27ecc26f8f295cc9ed",
+     "bytes": 54949,
+     "source_relative": "本库衍生分析（源为 W12-W16 快照与 B 站样本观看记录）"
+    }
+   ]
   }
+ ],
+ "counts": {
+  "workflow_sources": 16,
+  "workflow_json_snapshots": 15,
+  "industry_skill_documents": 10,
+  "cloned_source_files": 63,
+  "adapted_project_skill_entries": 8,
+  "format_reference_packages": 4,
+  "derived_format_metadata_files": 3,
+  "transcribed_prompt_screenshots": 9
+ }
 }

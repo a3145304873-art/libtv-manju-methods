@@ -2,10 +2,10 @@
   "schema_version": 1,
   "scope": "compatible local archived LibTV JSON; no media review or generation",
   "totals": {
-    "snapshot_cases": 10,
-    "nodes": 688,
-    "video_nodes_with_prompt": 262,
-    "image_nodes_with_prompt": 111
+    "snapshot_cases": 15,
+    "nodes": 1070,
+    "video_nodes_with_prompt": 358,
+    "image_nodes_with_prompt": 235
   },
   "cases": [
     {
@@ -406,6 +406,218 @@
       "unresolved_group_members": [
         "eb2d9fcf-369d-49b6-8ed1-5c8e183382fe",
         "efc006b2-762b-4a53-bfd2-6cb6c2d502a5"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W12",
+      "name": "逐日之茸｜机器人阿秃的毛茸茸之旅",
+      "snapshot": "04_原始资料/workflows/W12/nodes.json",
+      "node_count": 95,
+      "types": {
+        "audio": 3,
+        "group": 14,
+        "image": 57,
+        "text": 1,
+        "video": 20
+      },
+      "actions": {
+        "audio_generate": 3,
+        "group": 14,
+        "image_generate": 51,
+        "image_resource": 6,
+        "text_generate": 1,
+        "video_generate": 20
+      },
+      "nonempty_prompt_by_type": {
+        "audio": 3,
+        "image": 50,
+        "text": 1,
+        "video": 20
+      },
+      "video_model_labels": {
+        "star-video2.5": 19,
+        "star-video2": 1
+      },
+      "parameter_refs_by_field": {
+        "audioList": 1,
+        "imageList": 93
+      },
+      "parameter_pairs": 94,
+      "cli_edge_count": 97,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 3,
+      "unresolved_group_members": [
+        "i-9GDlWtUYpO",
+        "v-fyz1ZGJHQ8"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W13",
+      "name": "《囡囡的毛绒梦境》治愈系原创3D定格动画",
+      "snapshot": "04_原始资料/workflows/W13/nodes.json",
+      "node_count": 107,
+      "types": {
+        "audio": 14,
+        "group": 10,
+        "image": 53,
+        "material-style": 1,
+        "text": 3,
+        "video": 26
+      },
+      "actions": {
+        "audio_resource": 10,
+        "audio_generate": 4,
+        "group": 10,
+        "image_generate": 47,
+        "image_resource": 6,
+        "material_style_resource": 1,
+        "text_resource": 2,
+        "text_generate": 1,
+        "video_generate": 26
+      },
+      "nonempty_prompt_by_type": {
+        "audio": 4,
+        "image": 47,
+        "text": 1,
+        "video": 26
+      },
+      "video_model_labels": {
+        "star-video2": 2,
+        "star-video2-fast": 10,
+        "star-video2.5": 12,
+        "wanx3.0": 1,
+        "kling-v4": 1
+      },
+      "parameter_refs_by_field": {
+        "audioList": 22,
+        "textList": 1,
+        "imageList": 133
+      },
+      "parameter_pairs": 156,
+      "cli_edge_count": 160,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 4,
+      "unresolved_group_members": [
+        "a-zGCqPOBG3w"
+      ],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W14",
+      "name": "糟糕！我的兄弟真的变成狗了！",
+      "snapshot": "04_原始资料/workflows/W14/nodes.json",
+      "node_count": 67,
+      "types": {
+        "audio": 5,
+        "group": 10,
+        "image": 35,
+        "video": 17
+      },
+      "actions": {
+        "audio_resource": 5,
+        "group": 10,
+        "image_generate": 23,
+        "image_resource": 12,
+        "video_generate": 17
+      },
+      "nonempty_prompt_by_type": {
+        "image": 8,
+        "video": 17
+      },
+      "video_model_labels": {
+        "star-video2.5": 17
+      },
+      "parameter_refs_by_field": {
+        "imageList": 81,
+        "audioList": 25
+      },
+      "parameter_pairs": 106,
+      "cli_edge_count": 106,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 0,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W15",
+      "name": "呱比闯入毛茸茸世界1",
+      "snapshot": "04_原始资料/workflows/W15/nodes.json",
+      "node_count": 26,
+      "types": {
+        "audio": 1,
+        "group": 5,
+        "image": 6,
+        "text": 7,
+        "video": 7
+      },
+      "actions": {
+        "audio_resource": 1,
+        "group": 5,
+        "image_resource": 2,
+        "image_generate": 4,
+        "text_generate": 4,
+        "text_resource": 3,
+        "video_generate": 7
+      },
+      "nonempty_prompt_by_type": {
+        "image": 4,
+        "text": 4,
+        "video": 7
+      },
+      "video_model_labels": {
+        "star-video2.5": 7
+      },
+      "parameter_refs_by_field": {
+        "imageList": 26,
+        "textList": 8,
+        "audioList": 4
+      },
+      "parameter_pairs": 38,
+      "cli_edge_count": 39,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 1,
+      "unresolved_group_members": [],
+      "unresolved_input_nodes": []
+    },
+    {
+      "id": "W16",
+      "name": "噜噜毛茸茸的工作日常3",
+      "snapshot": "04_原始资料/workflows/W16/nodes.json",
+      "node_count": 87,
+      "types": {
+        "video": 28,
+        "image": 50,
+        "audio": 1,
+        "group": 8
+      },
+      "actions": {
+        "video_generate": 21,
+        "image_resource": 15,
+        "image_generate": 35,
+        "audio_resource": 1,
+        "group": 8,
+        "video_resource": 7
+      },
+      "nonempty_prompt_by_type": {
+        "video": 26,
+        "image": 15
+      },
+      "video_model_labels": {
+        "star-video2.5-draft": 21
+      },
+      "parameter_refs_by_field": {
+        "imageList": 116,
+        "audioList": 15,
+        "videoList": 5
+      },
+      "parameter_pairs": 136,
+      "cli_edge_count": 141,
+      "parameter_pairs_missing_edges": 0,
+      "edges_requiring_other_interpretation": 5,
+      "unresolved_group_members": [
+        "8964ffa5-1aa3-4a25-9084-089364727fbf"
       ],
       "unresolved_input_nodes": []
     }
