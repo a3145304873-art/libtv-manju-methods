@@ -4,8 +4,9 @@ import subprocess, os, sys, io
 from pathlib import Path
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+ROOT = Path(__file__).resolve().parents[1]  # 仓库根：本脚本在 06_工具/
 SRC = Path(os.environ.get('TEMP', '')) / 'mengchong_research'
-OUT = Path(r'D:\libtv漫剧\08_作品\萌宠参考库\资产图')
+OUT = ROOT / '08_作品' / '萌宠参考库' / '资产图'
 
 # (源视频文件名, 输出子目录, [(秒, 描述), ...])
 PLAN = [
